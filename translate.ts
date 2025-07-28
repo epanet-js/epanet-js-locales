@@ -78,7 +78,10 @@ function unflattenObject(data: FlatLocaleData): NestedLocaleData {
       if (index === keys.length - 1) {
         acc[part] = data[key];
       } else {
-        acc[part] = acc[part] || {};
+        // Check if the current part already exists and is not an object
+        if (acc[part] === undefined || typeof acc[part] === "string") {
+          acc[part] = {};
+        }
       }
       return acc[part] as NestedLocaleData;
     }, result);
