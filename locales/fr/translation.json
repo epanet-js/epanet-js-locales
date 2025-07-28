@@ -459,6 +459,14 @@
         },
         "processingMessage": "Connexion des points clients au réseau..."
       }
+    },
+    "dataSource": {
+      "title": "Ajouter à partir d'un fichier",
+      "noValidPointsError": "Aucun point client valide trouvé dans le fichier sélectionné.",
+      "parseFileError": "Échec de l'analyse du fichier",
+      "supportedFormats": "Formats pris en charge :",
+      "parsingFile": "Lecture du fichier...",
+      "chooseFile": "Choisir un fichier"
     }
   }
 }
