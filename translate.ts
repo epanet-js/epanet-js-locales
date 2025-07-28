@@ -61,6 +61,30 @@ function writeVerboseLogToFile(filename: string, content: string) {
   }
 }
 
+/**
+ * Recursively removes empty objects from the nested structure.
+ */
+function cleanupEmptyObjects(obj: NestedLocaleData, path: string[]): void {
+  if (path.length === 0) return;
+
+  let current = obj;
+  for (let i = 0; i < path.length - 1; i++) {
+    current = current[path[i]] as NestedLocaleData;
+  }
+
+  const targetKey = path[path.length - 1];
+  const targetObj = current[targetKey];
+
+  if (
+    typeof targetObj === "object" &&
+    targetObj !== null &&
+    Object.keys(targetObj).length === 0
+  ) {
+    delete current[targetKey];
+    cleanupEmptyObjects(obj, path.slice(0, -1));
+  }
+}
+
 // --- Type Definitions ---
 type LocaleValue = string | { [key: string]: LocaleValue };
 type NestedLocaleData = { [key: string]: LocaleValue };
@@ -71,21 +95,6 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash-latest",
 });
-
-const translationTool: FunctionDeclarationsTool = {
-  functionDeclarations: [
-    {
-      name: "save_translations",
-      description: "Saves translated strings for a given language.",
-      parameters: {
-        type: SchemaType.OBJECT,
-        description:
-          "An object where keys are the original English keys and values are the translated strings.",
-        properties: {},
-      },
-    },
-  ],
-};
 
 /**
  * Recursively extracts all key-value pairs from a nested object,
@@ -172,73 +181,6 @@ function removeNestedValue(obj: NestedLocaleData, path: string[]): void {
   cleanupEmptyObjects(obj, path.slice(0, -1));
 }
 
-/**
- * Recursively removes empty objects from the nested structure.
- */
-function cleanupEmptyObjects(obj: NestedLocaleData, path: string[]): void {
-  if (path.length === 0) return;
-
-  let current = obj;
-  for (let i = 0; i < path.length - 1; i++) {
-    current = current[path[i]] as NestedLocaleData;
-  }
-
-  const targetKey = path[path.length - 1];
-  const targetObj = current[targetKey];
-
-  if (
-    typeof targetObj === "object" &&
-    targetObj !== null &&
-    Object.keys(targetObj).length === 0
-  ) {
-    delete current[targetKey];
-    cleanupEmptyObjects(obj, path.slice(0, -1));
-  }
-}
-
-/**
- * Sorts a nested object to match the key order of a reference object.
- */
-function sortObjectLikeReference(
-  obj: NestedLocaleData,
-  reference: NestedLocaleData,
-): NestedLocaleData {
-  const result: NestedLocaleData = {};
-
-  // First, add all keys from reference in their original order
-  for (const key of Object.keys(reference)) {
-    if (key in obj) {
-      const refValue = reference[key];
-      const objValue = obj[key];
-
-      if (
-        typeof refValue === "object" &&
-        refValue !== null &&
-        !Array.isArray(refValue) &&
-        typeof objValue === "object" &&
-        objValue !== null &&
-        !Array.isArray(objValue)
-      ) {
-        result[key] = sortObjectLikeReference(
-          objValue as NestedLocaleData,
-          refValue as NestedLocaleData,
-        );
-      } else {
-        result[key] = objValue;
-      }
-    }
-  }
-
-  // Then add any remaining keys from obj that weren't in reference
-  for (const key of Object.keys(obj)) {
-    if (!(key in result)) {
-      result[key] = obj[key];
-    }
-  }
-
-  return result;
-}
-
 // --- Other Helper Functions (Modified to handle new types) ---
 
 async function readJsonFile(filePath: string): Promise<NestedLocaleData> {
@@ -252,15 +194,8 @@ async function readJsonFile(filePath: string): Promise<NestedLocaleData> {
 }
 
 async function writeJsonFile(filePath: string, data: NestedLocaleData) {
-  // Sort top-level keys for consistency
-  const sortedData = Object.keys(data)
-    .sort()
-    .reduce((obj, key) => {
-      obj[key] = data[key];
-      return obj;
-    }, {} as NestedLocaleData);
   await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, JSON.stringify(sortedData, null, 2), "utf-8");
+  await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
 }
 
 async function getTranslationsFromGemini(
@@ -277,6 +212,8 @@ async function getTranslationsFromGemini(
         The keys use dot notation to represent nesting.
         Maintain the original meaning, tone, and style.
         Placeholders like {{variable}} or {{1}} must be preserved exactly.
+        
+        Return ONLY a valid JSON object with the translated key-value pairs. Do not include any other text or explanation.
         
         JSON with strings to translate:
         ${JSON.stringify(keysToTranslate, null, 2)}
@@ -299,11 +236,12 @@ async function getTranslationsFromGemini(
 
   const requestPayload = {
     contents: [{ role: "user", parts: [{ text: prompt }] }],
-    tools: [translationTool],
+    generationConfig: {
+      responseMimeType: "application/json",
+    },
   };
 
   verboseLog("Request payload:", requestPayload);
-  verboseLog("Translation tool schema:", translationTool);
 
   try {
     verboseLog("Sending request to Gemini API...");
@@ -314,53 +252,24 @@ async function getTranslationsFromGemini(
       response: {
         candidates: result.response.candidates,
         usageMetadata: result.response.usageMetadata,
-        functionCalls: result.response.functionCalls?.(),
       },
     });
 
-    // Log the raw response text if available
-    if (result.response.text) {
-      verboseLog("Response text:", result.response.text());
+    // Get the response text
+    const responseText = result.response.text();
+    verboseLog("Response text:", responseText);
+
+    if (!responseText) {
+      verboseLog("ERROR: No text response received");
+      return null;
     }
 
-    // Log function calls in detail
-    const functionCalls = result.response.functionCalls?.();
-    verboseLog("Function calls:", functionCalls);
+    try {
+      // Parse the response as JSON (should be clean JSON from JSON mode)
+      const translations = JSON.parse(responseText) as FlatLocaleData;
 
-    if (functionCalls && functionCalls.length > 0) {
-      verboseLog("Number of function calls:", functionCalls.length);
-      functionCalls.forEach((call, index) => {
-        verboseLog(`Function call ${index + 1}:`, {
-          name: call.name,
-          args: call.args,
-        });
-      });
-    }
-
-    const call = result.response.functionCalls()?.[0];
-    if (call && call.name === "save_translations") {
       verboseLog("=== SUCCESSFUL TRANSLATION ===");
-      verboseLog("Extracted translations:", call.args);
-
-      // Handle the response structure - it might be wrapped in a translations object
-      let translations: FlatLocaleData;
-      if (call.args && typeof call.args === "object") {
-        // Check if it's wrapped in a translations property
-        if (
-          "translations" in call.args &&
-          typeof call.args.translations === "object"
-        ) {
-          translations = call.args.translations as FlatLocaleData;
-          verboseLog("Found translations wrapped in 'translations' property");
-        } else {
-          // Direct key-value pairs
-          translations = call.args as FlatLocaleData;
-          verboseLog("Found direct key-value translations");
-        }
-      } else {
-        verboseLog("ERROR: Unexpected args structure:", call.args);
-        return null;
-      }
+      verboseLog("Parsed translations:", translations);
 
       // Validate the translations
       const originalKeys = Object.keys(keysToTranslate);
@@ -384,10 +293,10 @@ async function getTranslationsFromGemini(
           {
             request: { keysToTranslate, langName, prompt },
             response: {
+              responseText,
               translations,
               originalKeysCount: originalKeys.length,
               translatedKeysCount: translatedKeys.length,
-              functionCalls,
             },
           },
           null,
@@ -396,27 +305,22 @@ async function getTranslationsFromGemini(
       );
 
       return translations;
-    } else {
-      verboseLog("=== API CALL FAILED ===");
-      verboseLog("Expected function call 'save_translations' but got:", call);
-      verboseLog(
-        "Available function calls:",
-        result.response.functionCalls?.(),
-      );
+    } catch (parseError) {
+      verboseLog("=== JSON PARSE ERROR ===");
+      verboseLog("Failed to parse response as JSON:", parseError);
+      verboseLog("Response text:", responseText);
 
-      console.error("Gemini did not return the expected function call.");
+      console.error("Failed to parse Gemini response as JSON:", parseError);
 
       writeVerboseLogToFile(
-        "gemini-error",
+        "gemini-parse-error",
         JSON.stringify(
           {
-            request: { keysToTranslate, langName, prompt, requestPayload },
+            request: { keysToTranslate, langName, prompt },
             response: {
-              functionCalls,
-              fullResponse: result.response,
-              text: result.response.text?.() || "No text response",
+              responseText,
+              parseError: String(parseError),
             },
-            error: "Function call mismatch",
           },
           null,
           2,
@@ -630,14 +534,8 @@ async function main() {
           }
         }
 
-        // 7. Sort the final data to match English key order
-        const finalSortedData = sortObjectLikeReference(
-          updatedTargetData,
-          liveEnglishData,
-        );
-
-        // 8. Write the updated, sorted target file
-        await writeJsonFile(targetFilePath, finalSortedData);
+        // 7. Write the updated target file (preserving order)
+        await writeJsonFile(targetFilePath, updatedTargetData);
         console.log(`✅ Successfully updated ${targetFilePath}`);
       } else {
         console.error(
@@ -647,11 +545,7 @@ async function main() {
     } else {
       // Even if no translations needed, we might have deleted keys or need cleanup
       if (deletedKeys.length > 0 || localTargetData.translations) {
-        const finalSortedData = sortObjectLikeReference(
-          updatedTargetData,
-          liveEnglishData,
-        );
-        await writeJsonFile(targetFilePath, finalSortedData);
+        await writeJsonFile(targetFilePath, updatedTargetData);
         console.log(
           `✅ Updated ${targetFilePath} (removed deleted keys/cleaned structure)`,
         );

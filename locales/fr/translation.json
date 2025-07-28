@@ -399,5 +399,74 @@
   "creationFailureSingular": "{{1}} échec de création",
   "creationFailurePlural": "{{1}} échecs de création",
   "customerPointWithoutJunctionSingular": "{{1}} point de consommation sans nœud valide",
-  "customerPointWithoutJunctionPlural": "{{1}} points de consommation sans nœud valide"
+  "customerPointWithoutJunctionPlural": "{{1}} points de consommation sans nœud valide",
+  "dropZone": {
+    "defaultText": "Déposez les fichiers ici ou cliquez pour parcourir",
+    "activeText": "Déposez votre fichier ici",
+    "supportedFormats": "Formats compatibles : {{1}}",
+    "selectedFile": "Sélectionné : {{1}}"
+  },
+  "importCustomerPoints": {
+    "wizard": {
+      "title": "Importer des points clients",
+      "stepsAriaLabel": "Étapes de l'assistant d'importation",
+      "dataInputStep": "Saisie des données",
+      "dataPreviewStep": "Aperçu des données",
+      "demandOptionsStep": "Options de demande",
+      "buttons": {
+        "cancel": "Annuler",
+        "back": "Précédent",
+        "next": "Suivant",
+        "finish": "Terminer",
+        "processing": "Traitement..."
+      },
+      "dataPreview": {
+        "title": "Aperçu des données",
+        "customerPoints": "Points clients",
+        "issuesTab": "Problèmes",
+        "table": {
+          "id": "ID",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "demand": "Demande"
+        },
+        "messages": {
+          "noValidCustomerPoints": "Aucun point client valide trouvé",
+          "noErrors": "Aucune erreur trouvée",
+          "issuesSummary": "Résumé des problèmes",
+          "skippedRowsWarning": "Ces lignes ont été ignorées lors de l'importation. Seuls les points clients valides seront traités.",
+          "andXMore": "... et {{1}} points clients supplémentaires",
+          "andXMoreIssues": "... et {{1}} de plus"
+        },
+        "issues": {
+          "nonPointGeometries": "Géométries autres que des points ({{1}})",
+          "invalidCoordinates": "Coordonnées invalides ({{1}})",
+          "invalidJsonLines": "Lignes JSON invalides ({{1}})",
+          "creationFailures": "Échecs de création ({{1}})",
+          "noValidJunction": "Aucune jonction valide ({{1}})",
+          "connectionFailures": "Échecs de connexion ({{1}})"
+        }
+      },
+      "demandOptions": {
+        "title": "Options de demande",
+        "replaceOption": {
+          "title": "Remplacer les demandes existantes par les demandes clients (par défaut)",
+          "description": "Les demandes de base existantes aux jonctions seront définies sur zéro et remplacées par les demandes des points clients. Il s'agit de l'approche type pour la modélisation basée sur les clients."
+        },
+        "addOnTopOption": {
+          "title": "Ajouter les demandes clients aux demandes existantes",
+          "description": "Les demandes des points clients seront ajoutées aux demandes de base existantes aux jonctions. Utilisez cette option lorsque vous souhaitez conserver les demandes réseau actuelles et ajouter les charges clients comme demande supplémentaire."
+        },
+        "processingMessage": "Connexion des points clients au réseau..."
+      }
+    },
+    "dataSource": {
+      "title": "Ajouter à partir d'un fichier",
+      "noValidPointsError": "Aucun point client valide trouvé dans le fichier sélectionné.",
+      "parseFileError": "Échec de l'analyse du fichier",
+      "supportedFormats": "Formats compatibles :",
+      "parsingFile": "Lecture du fichier...",
+      "chooseFile": "Choisir un fichier"
+    }
+  }
 }
