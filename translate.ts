@@ -4,8 +4,6 @@ import axios from "axios";
 import {
   GoogleGenerativeAI,
   FunctionDeclarationTool,
-  Part,
-  GenerationConfig,
 } from "@google/generative-ai";
 
 // --- Configuration ---
@@ -14,10 +12,12 @@ if (!API_KEY) throw new Error("GEMINI_API_KEY environment variable not set.");
 
 const LIVE_ENGLISH_URL = "https://app.epanetjs.com/locales/en/translation.json";
 const LOCALES_DIR = path.join(process.cwd(), "locales");
-const TARGET_LANGUAGES = ["fr"]; //  target languages
+const TARGET_LANGUAGES = ["fr"];
 
 // --- Type Definitions ---
-type LocaleData = { [key: string]: string };
+type LocaleValue = string | { [key: string]: LocaleValue };
+type NestedLocaleData = { [key: string]: LocaleValue };
+type FlatLocaleData = { [key: string]: string };
 
 // --- Gemini API Setup for Structured Output ---
 const genAI = new GoogleGenerativeAI(API_KEY);
@@ -34,50 +34,90 @@ const translationTool: FunctionDeclarationTool = {
         type: "OBJECT",
         description:
           "An object where keys are the original English keys and values are the translated strings.",
-        properties: {}, // We leave this empty to allow any string key
+        properties: {},
         required: [],
       },
     },
   ],
 };
 
-// --- Helper Functions ---
-async function readJsonFile(filePath: string): Promise<LocaleData> {
+/**
+ * Flattens a nested object into a single level with dot notation.
+ * e.g., { a: { b: 'c' } } => { 'a.b': 'c' }
+ */
+function flattenObject(obj: NestedLocaleData, prefix = ""): FlatLocaleData {
+  return Object.keys(obj).reduce((acc, k) => {
+    const pre = prefix.length ? prefix + "." : "";
+    if (
+      typeof obj[k] === "object" &&
+      obj[k] !== null &&
+      !Array.isArray(obj[k])
+    ) {
+      Object.assign(acc, flattenObject(obj[k] as NestedLocaleData, pre + k));
+    } else {
+      acc[pre + k] = String(obj[k]);
+    }
+    return acc;
+  }, {} as FlatLocaleData);
+}
+
+/**
+ * Unflattens an object with dot notation back into a nested object.
+ * e.g., { 'a.b': 'c' } => { a: { b: 'c' } }
+ */
+function unflattenObject(data: FlatLocaleData): NestedLocaleData {
+  const result: NestedLocaleData = {};
+  for (const key in data) {
+    const keys = key.split(".");
+    keys.reduce((acc, part, index) => {
+      if (index === keys.length - 1) {
+        acc[part] = data[key];
+      } else {
+        acc[part] = acc[part] || {};
+      }
+      return acc[part] as NestedLocaleData;
+    }, result);
+  }
+  return result;
+}
+
+// --- Other Helper Functions (Modified to handle new types) ---
+
+async function readJsonFile(filePath: string): Promise<NestedLocaleData> {
   try {
     const data = await fs.readFile(filePath, "utf-8");
     return JSON.parse(data);
   } catch (error) {
-    // If the file doesn't exist, it's the same as an empty object
-    if (error.code === "ENOENT") {
-      return {};
-    }
+    if (error.code === "ENOENT") return {};
     throw error;
   }
 }
 
-async function writeJsonFile(filePath: string, data: LocaleData) {
+async function writeJsonFile(filePath: string, data: NestedLocaleData) {
+  // Sort top-level keys for consistency
   const sortedData = Object.keys(data)
     .sort()
     .reduce((obj, key) => {
       obj[key] = data[key];
       return obj;
-    }, {} as LocaleData);
+    }, {} as NestedLocaleData);
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(sortedData, null, 2), "utf-8");
 }
 
 async function getTranslationsFromGemini(
-  keysToTranslate: LocaleData,
+  keysToTranslate: FlatLocaleData,
   langName: string,
-): Promise<LocaleData | null> {
+): Promise<FlatLocaleData | null> {
   if (Object.keys(keysToTranslate).length === 0) {
     return {};
   }
 
   const prompt = `
         You are an expert UI translator. Translate the following JSON values from English to ${langName}.
+        The keys use dot notation to represent nesting.
         Maintain the original meaning, tone, and style.
-        Placeholders like {{variable}} or %s must be preserved exactly.
+        Placeholders like {{variable}} or {{1}} must be preserved exactly.
         
         JSON with strings to translate:
         ${JSON.stringify(keysToTranslate, null, 2)}
@@ -99,12 +139,10 @@ async function getTranslationsFromGemini(
     });
 
     const call = result.response.functionCalls()?.[0];
-
     if (call && call.name === "save_translations") {
-      return call.args as LocaleData;
+      return call.args as FlatLocaleData;
     } else {
       console.error("Gemini did not return the expected function call.");
-      console.error("Full Response:", JSON.stringify(result.response, null, 2));
       return null;
     }
   } catch (error) {
@@ -113,33 +151,38 @@ async function getTranslationsFromGemini(
   }
 }
 
-// --- Main Execution Logic ---
+// --- Main Execution Logic (Updated to use flatten/unflatten) ---
 async function main() {
   console.log("Starting translation workflow...");
 
   // 1. Fetch live English data and read local files
-  const { data: liveEnglishData } = await axios.get<LocaleData>(
+  const { data: liveEnglishData } = await axios.get<NestedLocaleData>(
     LIVE_ENGLISH_URL,
   );
   const localEnglishData = await readJsonFile(
     path.join(LOCALES_DIR, "en", "translation.json"),
   );
 
+  // FLATTEN all data for comparison
+  const flatLiveEnglishData = flattenObject(liveEnglishData);
+  const flatLocalEnglishData = flattenObject(localEnglishData);
+
   for (const lang of TARGET_LANGUAGES) {
     console.log(`\n--- Processing language: ${lang.toUpperCase()} ---`);
     const targetFilePath = path.join(LOCALES_DIR, lang, "translation.json");
     const localTargetData = await readJsonFile(targetFilePath);
+    const flatLocalTargetData = flattenObject(localTargetData);
 
-    const keysToTranslate: LocaleData = {};
-    const finalTargetData: LocaleData = {};
+    const keysToTranslate: FlatLocaleData = {};
+    let finalFlatTargetData: FlatLocaleData = {};
 
-    const allEnglishKeys = new Set(Object.keys(liveEnglishData));
+    const allLiveKeys = new Set(Object.keys(flatLiveEnglishData));
 
-    // 2. Compare and determine changes
-    for (const key of allEnglishKeys) {
-      const liveEnValue = liveEnglishData[key];
-      const localEnValue = localEnglishData[key];
-      const localTargetValue = localTargetData[key];
+    // 2. Compare and determine changes using flattened data
+    for (const key of allLiveKeys) {
+      const liveEnValue = flatLiveEnglishData[key];
+      const localEnValue = flatLocalEnglishData[key];
+      const localTargetValue = flatLocalTargetData[key];
 
       if (localTargetValue === undefined) {
         console.log(`  [ADDED] New key detected: "${key}"`);
@@ -148,21 +191,15 @@ async function main() {
         console.log(`  [MODIFIED] Source text changed for: "${key}"`);
         keysToTranslate[key] = liveEnValue;
       } else {
-        // Unchanged, keep existing translation
-        finalTargetData[key] = localTargetValue;
+        finalFlatTargetData[key] = localTargetValue;
       }
     }
 
-    // Identify deleted keys
-    const deletedKeys = Object.keys(localTargetData).filter(
-      (k) => !allEnglishKeys.has(k),
+    const deletedKeys = Object.keys(flatLocalTargetData).filter(
+      (k) => !allLiveKeys.has(k),
     );
     if (deletedKeys.length > 0) {
-      console.log(
-        `  [DELETED] Removing ${deletedKeys.length} keys: ${deletedKeys.join(
-          ", ",
-        )}`,
-      );
+      console.log(`  [DELETED] Removing ${deletedKeys.length} keys.`);
     }
 
     // 3. Get new translations from Gemini
@@ -172,11 +209,14 @@ async function main() {
     );
 
     if (newTranslations) {
-      // 4. Merge new translations into the final data
-      Object.assign(finalTargetData, newTranslations);
+      // 4. Merge new translations into the final flat data
+      Object.assign(finalFlatTargetData, newTranslations);
 
-      // 5. Write the updated target file
-      await writeJsonFile(targetFilePath, finalTargetData);
+      // 5. UNFLATTEN the data back to its nested structure
+      const finalNestedTargetData = unflattenObject(finalFlatTargetData);
+
+      // 6. Write the updated, nested target file
+      await writeJsonFile(targetFilePath, finalNestedTargetData);
       console.log(`✅ Successfully updated ${targetFilePath}`);
     } else {
       console.error(
@@ -185,7 +225,7 @@ async function main() {
     }
   }
 
-  // 6. Finally, overwrite the local English file with the live one for the next run
+  // 7. Finally, overwrite the local English file with the live one for the next run
   await writeJsonFile(
     path.join(LOCALES_DIR, "en", "translation.json"),
     liveEnglishData,
