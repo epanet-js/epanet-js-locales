@@ -19,10 +19,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm" # Or 'pnpm' or 'yarn'
+
+      - name: "Install pnpm"
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
 
       - name: "Install dependencies"
-        run: pnpm install # Or 'pnpm install' or 'yarn'
+        run: pnpm install
 
       - name: "Run translation script"
         env:
