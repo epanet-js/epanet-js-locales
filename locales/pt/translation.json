@@ -399,5 +399,74 @@
   "creationFailureSingular": "{{1}} falha de criação",
   "creationFailurePlural": "{{1}} falhas de criação",
   "customerPointWithoutJunctionSingular": "{{1}} ponto de consumo sem nó válido",
-  "customerPointWithoutJunctionPlural": "{{1}} pontos de consumo sem nó válido"
+  "customerPointWithoutJunctionPlural": "{{1}} pontos de consumo sem nó válido",
+  "dropZone": {
+    "defaultText": "Arraste arquivos aqui ou clique para procurar",
+    "activeText": "Arraste seu arquivo aqui",
+    "supportedFormats": "Formatos suportados: {{1}}",
+    "selectedFile": "Selecionado: {{1}}"
+  },
+  "importCustomerPoints": {
+    "wizard": {
+      "title": "Importar Pontos de Consumo",
+      "stepsAriaLabel": "Etapas do assistente de importação",
+      "dataInputStep": "Entrada de Dados",
+      "dataPreviewStep": "Visualização dos Dados",
+      "demandOptionsStep": "Opções de Demanda",
+      "buttons": {
+        "cancel": "Cancelar",
+        "back": "Voltar",
+        "next": "Próximo",
+        "finish": "Finalizar",
+        "processing": "Processando..."
+      },
+      "dataPreview": {
+        "title": "Visualização dos Dados",
+        "customerPoints": "Pontos de Consumo",
+        "issuesTab": "Problemas",
+        "table": {
+          "id": "ID",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "demand": "Demanda"
+        },
+        "messages": {
+          "noValidCustomerPoints": "Nenhum ponto de consumo válido encontrado",
+          "noErrors": "Nenhum erro encontrado",
+          "issuesSummary": "Resumo dos Problemas",
+          "skippedRowsWarning": "Essas linhas foram ignoradas durante a importação. Apenas pontos de consumo válidos serão processados.",
+          "andXMore": "... e mais {{1}} pontos de consumo",
+          "andXMoreIssues": "... e mais {{1}}"
+        },
+        "issues": {
+          "nonPointGeometries": "Geometrias não pontuais ({{1}})",
+          "invalidCoordinates": "Coordenadas inválidas ({{1}})",
+          "invalidJsonLines": "Linhas JSON inválidas ({{1}})",
+          "creationFailures": "Falhas na criação ({{1}})",
+          "noValidJunction": "Nenhum nó válido ({{1}})",
+          "connectionFailures": "Falhas de conexão ({{1}})"
+        }
+      },
+      "demandOptions": {
+        "title": "Opções de Demanda",
+        "replaceOption": {
+          "title": "Substituir demandas existentes por demandas de clientes (padrão)",
+          "description": "As demandas base existentes nos nós serão zeradas e substituídas pelas demandas dos pontos de consumo. Esta é a abordagem típica para modelagem baseada em clientes."
+        },
+        "addOnTopOption": {
+          "title": "Adicionar demandas de clientes sobre as demandas existentes",
+          "description": "As demandas dos pontos de consumo serão adicionadas às demandas base existentes nos nós. Use esta opção quando quiser manter as demandas atuais da rede e adicionar as cargas dos clientes como demanda adicional."
+        },
+        "processingMessage": "Conectando pontos de consumo à rede..."
+      }
+    },
+    "dataSource": {
+      "title": "Adicionar de Arquivo",
+      "noValidPointsError": "Nenhum ponto de consumo válido encontrado no arquivo selecionado.",
+      "parseFileError": "Falha ao analisar arquivo",
+      "supportedFormats": "Formatos suportados:",
+      "parsingFile": "Lendo arquivo...",
+      "chooseFile": "Escolher Arquivo"
+    }
+  }
 }

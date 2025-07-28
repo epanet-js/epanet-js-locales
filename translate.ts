@@ -206,6 +206,31 @@ async function writeJsonFile(filePath: string, data: NestedLocaleData) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
 }
 
+/**
+ * Flattens a nested object into flat key-value pairs using ### as separator.
+ * This handles the case where the AI returns nested objects instead of flat keys.
+ */
+function flattenNestedObject(obj: any, prefix: string = ""): FlatLocaleData {
+  const result: FlatLocaleData = {};
+
+  for (const [key, value] of Object.entries(obj)) {
+    const currentKey = prefix ? `${prefix}###${key}` : key;
+
+    if (typeof value === "string") {
+      result[currentKey] = value;
+    } else if (
+      typeof value === "object" &&
+      value !== null &&
+      !Array.isArray(value)
+    ) {
+      // Recursively flatten nested objects
+      Object.assign(result, flattenNestedObject(value, currentKey));
+    }
+  }
+
+  return result;
+}
+
 async function getTranslationsFromGemini(
   liveEnglishData: NestedLocaleData,
   localTargetData: NestedLocaleData,
@@ -519,6 +544,7 @@ async function main() {
 
     // 4. Summary of changes
     const totalChanges = newKeys.length + modifiedKeys.length;
+
     if (deletedKeys.length > 0) {
       console.log(`  [SUMMARY] Removed ${deletedKeys.length} deleted keys`);
     }
@@ -549,8 +575,11 @@ async function main() {
 
       if (newTranslations) {
         // 6. Apply new translations to the target data
+        // Handle both flat and nested responses from the AI
+        const flattenedTranslations = flattenNestedObject(newTranslations);
+
         for (const [keyStr, translatedValue] of Object.entries(
-          newTranslations,
+          flattenedTranslations,
         )) {
           const originalPair = keysToTranslate.find(
             (p) => pathToKey(p.path) === keyStr,

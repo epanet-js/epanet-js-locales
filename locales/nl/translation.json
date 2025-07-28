@@ -399,5 +399,74 @@
   "creationFailureSingular": "{{1}} aanmaakfout",
   "creationFailurePlural": "{{1}} aanmaakfouten",
   "customerPointWithoutJunctionSingular": "{{1}} klantpunt zonder geldig knooppunt",
-  "customerPointWithoutJunctionPlural": "{{1}} klantpunten zonder geldig knooppunt"
+  "customerPointWithoutJunctionPlural": "{{1}} klantpunten zonder geldig knooppunt",
+  "dropZone": {
+    "defaultText": "Sleep bestanden hierheen of klik om te bladeren",
+    "activeText": "Sleep uw bestand hierheen",
+    "supportedFormats": "Ondersteunde formaten: {{1}}",
+    "selectedFile": "Geselecteerd: {{1}}"
+  },
+  "importCustomerPoints": {
+    "wizard": {
+      "title": "Klantpunten importeren",
+      "stepsAriaLabel": "Stappen van importwizard",
+      "dataInputStep": "Gegevensinvoer",
+      "dataPreviewStep": "Gegevensvoorbeeld",
+      "demandOptionsStep": "Vraagopties",
+      "buttons": {
+        "cancel": "Annuleren",
+        "back": "Terug",
+        "next": "Volgende",
+        "finish": "Voltooien",
+        "processing": "Bezig..."
+      },
+      "dataPreview": {
+        "title": "Gegevensvoorbeeld",
+        "customerPoints": "Klantpunten",
+        "issuesTab": "Problemen",
+        "table": {
+          "id": "ID",
+          "latitude": "Breedtegraad",
+          "longitude": "Lengtegraad",
+          "demand": "Vraag"
+        },
+        "messages": {
+          "noValidCustomerPoints": "Geen geldige klantpunten gevonden",
+          "noErrors": "Geen fouten gevonden",
+          "issuesSummary": "Overzicht problemen",
+          "skippedRowsWarning": "Deze rijen zijn overgeslagen tijdens het importeren. Alleen geldige klantpunten worden verwerkt.",
+          "andXMore": "... en nog {{1}} klantpunten",
+          "andXMoreIssues": "... en nog {{1}}"
+        },
+        "issues": {
+          "nonPointGeometries": "Niet-punt geometrieën ({{1}})",
+          "invalidCoordinates": "Ongeldige coördinaten ({{1}})",
+          "invalidJsonLines": "Ongeldige JSON-regels ({{1}})",
+          "creationFailures": "Aanmaakfouten ({{1}})",
+          "noValidJunction": "Geen geldig knooppunt ({{1}})",
+          "connectionFailures": "Verbindingsfouten ({{1}})"
+        }
+      },
+      "demandOptions": {
+        "title": "Vraagopties",
+        "replaceOption": {
+          "title": "Bestaande vragen vervangen door klantvragen (standaard)",
+          "description": "De bestaande basisvragen bij knooppunten worden op nul gezet en vervangen door de klantpuntvragen. Dit is de typische aanpak voor klantgebaseerde modellering."
+        },
+        "addOnTopOption": {
+          "title": "Klantvragen toevoegen bovenop bestaande vragen",
+          "description": "De klantpuntvragen worden toegevoegd aan de bestaande basisvragen bij knooppunten. Gebruik deze optie wanneer u de huidige netwerkaanvragen wilt behouden en klantbelastingen wilt toevoegen als extra vraag."
+        },
+        "processingMessage": "Klantpunten verbinden met netwerk..."
+      }
+    },
+    "dataSource": {
+      "title": "Toevoegen vanuit bestand",
+      "noValidPointsError": "Geen geldige klantpunten gevonden in het geselecteerde bestand.",
+      "parseFileError": "Bestand parseren mislukt",
+      "supportedFormats": "Ondersteunde formaten:",
+      "parsingFile": "Bestand lezen...",
+      "chooseFile": "Bestand kiezen"
+    }
+  }
 }
