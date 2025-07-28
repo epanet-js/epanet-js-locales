@@ -40,7 +40,11 @@ if (!API_KEY) throw new Error("GEMINI_API_KEY environment variable not set.");
 
 const LIVE_ENGLISH_URL = "https://app.epanetjs.com/locales/en/translation.json";
 const LOCALES_DIR = path.join(process.cwd(), "locales");
-const TARGET_LANGUAGES = ["fr"];
+const TARGET_LANGUAGES = [
+  { code: "pt", name: "Português (BR)" },
+  { code: "fr", name: "Français (FR)" },
+  { code: "nl", name: "Nederlands (NL)" },
+];
 const VERBOSE = process.env.VERBOSE === "true" || process.env.VERBOSE === "1";
 
 // --- Verbose Logging ---
@@ -97,7 +101,7 @@ type FlatLocaleData = { [key: string]: string };
 // --- Gemini API Setup for Structured Output ---
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash-latest",
+  model: "gemini-2.5-flash",
 });
 
 /**
@@ -203,8 +207,10 @@ async function writeJsonFile(filePath: string, data: NestedLocaleData) {
 }
 
 async function getTranslationsFromGemini(
+  liveEnglishData: NestedLocaleData,
+  localTargetData: NestedLocaleData,
   keysToTranslate: FlatLocaleData,
-  langName: string,
+  language: { code: string; name: string },
 ): Promise<FlatLocaleData | null> {
   if (Object.keys(keysToTranslate).length === 0) {
     verboseLog("No keys to translate, returning empty object");
@@ -212,12 +218,22 @@ async function getTranslationsFromGemini(
   }
 
   const prompt = `
-        You are an expert UI translator. Translate the following JSON values from English to ${langName}.
+        You are an expert UI translator. Translate the following JSON values from English to ${
+          language.name
+        }.
         The keys use dot notation to represent nesting.
-        Maintain the original meaning, tone, and style.
+        Maintain the original meaning, tone, style, and cultural context appropriate for ${
+          language.name
+        }.
         Placeholders like {{variable}} or {{1}} must be preserved exactly.
         
         Return ONLY a valid JSON object with the translated key-value pairs. Do not include any other text or explanation.
+
+        Here is the full existing English JSON file for context:
+        ${JSON.stringify(liveEnglishData, null, 2)}
+
+        Here is the full existing ${language.name} JSON file for context:
+        ${JSON.stringify(localTargetData, null, 2)}
         
         JSON with strings to translate:
         ${JSON.stringify(keysToTranslate, null, 2)}
@@ -226,11 +242,11 @@ async function getTranslationsFromGemini(
   console.log(
     `Requesting translation for ${
       Object.keys(keysToTranslate).length
-    } keys for ${langName}...`,
+    } keys for ${language.name} (${language.code})...`,
   );
 
   verboseLog("=== GEMINI API REQUEST ===");
-  verboseLog("Target language:", langName);
+  verboseLog("Target language:", language);
   verboseLog(
     "Number of keys to translate:",
     Object.keys(keysToTranslate).length,
@@ -295,7 +311,7 @@ async function getTranslationsFromGemini(
         "gemini-success",
         JSON.stringify(
           {
-            request: { keysToTranslate, langName, prompt },
+            request: { keysToTranslate, language, prompt },
             response: {
               responseText,
               translations,
@@ -320,7 +336,7 @@ async function getTranslationsFromGemini(
         "gemini-parse-error",
         JSON.stringify(
           {
-            request: { keysToTranslate, langName, prompt },
+            request: { keysToTranslate, language, prompt },
             response: {
               responseText,
               parseError: String(parseError),
@@ -348,7 +364,7 @@ async function getTranslationsFromGemini(
       "gemini-exception",
       JSON.stringify(
         {
-          request: { keysToTranslate, langName, prompt },
+          request: { keysToTranslate, language, prompt },
           error: {
             message: err.message,
             stack: err.stack,
@@ -371,7 +387,11 @@ async function main() {
 
   if (VERBOSE) {
     console.log(`[VERBOSE] Verbose logging is ENABLED`);
-    console.log(`[VERBOSE] Target languages: ${TARGET_LANGUAGES.join(", ")}`);
+    console.log(
+      `[VERBOSE] Target languages: ${TARGET_LANGUAGES.map(
+        (lang) => `${lang.name} (${lang.code})`,
+      ).join(", ")}`,
+    );
     console.log(`[VERBOSE] Live English URL: ${LIVE_ENGLISH_URL}`);
     console.log(`[VERBOSE] Locales directory: ${LOCALES_DIR}`);
   }
@@ -415,10 +435,14 @@ async function main() {
   verboseLog("Created lookup maps for comparison");
 
   for (const lang of TARGET_LANGUAGES) {
-    console.log(`\n--- Processing language: ${lang.toUpperCase()} ---`);
-    verboseLog(`Processing target language: ${lang}`);
+    console.log(`\n--- Processing language: ${lang.name} (${lang.code}) ---`);
+    verboseLog(`Processing target language: ${lang.name} (${lang.code})`);
 
-    const targetFilePath = path.join(LOCALES_DIR, lang, "translation.json");
+    const targetFilePath = path.join(
+      LOCALES_DIR,
+      lang.code,
+      "translation.json",
+    );
     verboseLog("Target file path:", targetFilePath);
 
     const localTargetData = await readJsonFile(targetFilePath);
@@ -517,6 +541,8 @@ async function main() {
       }
 
       const newTranslations = await getTranslationsFromGemini(
+        liveEnglishData,
+        localTargetData,
         flatKeysToTranslate,
         lang,
       );
@@ -543,7 +569,7 @@ async function main() {
         console.log(`✅ Successfully updated ${targetFilePath}`);
       } else {
         console.error(
-          `❌ Failed to get translations for ${lang}. The local file will not be updated.`,
+          `❌ Failed to get translations for ${lang.name} (${lang.code}). The local file will not be updated.`,
         );
       }
     } else {
