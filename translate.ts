@@ -3,7 +3,9 @@ import path from "path";
 import axios from "axios";
 import {
   GoogleGenerativeAI,
-  FunctionDeclarationTool,
+  FunctionDeclarationsTool,
+  SchemaType,
+  FunctionCallingMode,
 } from "@google/generative-ai";
 
 // --- Configuration ---
@@ -25,13 +27,13 @@ const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash-latest",
 });
 
-const translationTool: FunctionDeclarationTool = {
+const translationTool: FunctionDeclarationsTool = {
   functionDeclarations: [
     {
       name: "save_translations",
       description: "Saves translated strings for a given language.",
       parameters: {
-        type: "OBJECT",
+        type: SchemaType.OBJECT,
         description:
           "An object where keys are the original English keys and values are the translated strings.",
         properties: {},
@@ -88,7 +90,7 @@ async function readJsonFile(filePath: string): Promise<NestedLocaleData> {
     const data = await fs.readFile(filePath, "utf-8");
     return JSON.parse(data);
   } catch (error) {
-    if (error.code === "ENOENT") return {};
+    if ((error as any).code === "ENOENT") return {};
     throw error;
   }
 }
@@ -133,9 +135,6 @@ async function getTranslationsFromGemini(
     const result = await model.generateContent({
       contents: [{ role: "user", parts: [{ text: prompt }] }],
       tools: [translationTool],
-      toolConfig: {
-        functionCallingConfig: { mode: "ONE_CALL", name: "save_translations" },
-      },
     });
 
     const call = result.response.functionCalls()?.[0];
