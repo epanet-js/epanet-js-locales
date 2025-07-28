@@ -1,0 +1,36 @@
+name: "Auto Translate Locale Files"
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # Runs every day at 5 AM UTC
+  workflow_dispatch: {} # Adds a "Run workflow" button in the GitHub UI
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important: Allows the action to commit to the repo
+
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: "Set up Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm" # Or 'pnpm' or 'yarn'
+
+      - name: "Install dependencies"
+        run: pnpm install # Or 'pnpm install' or 'yarn'
+
+      - name: "Run translation script"
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: pnpm run start
+
+      - name: "Commit and push changes"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 🤖 auto-translate locale files"
+          file_pattern: "locales/**/*.json"
