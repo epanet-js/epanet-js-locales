@@ -55,7 +55,11 @@ function verboseLog(message: string, data?: any) {
 
 function writeVerboseLogToFile(filename: string, content: string) {
   if (VERBOSE) {
-    const logPath = path.join(process.cwd(), `${filename}-${Date.now()}.log`);
+    const logPath = path.join(
+      process.cwd(),
+      "logs",
+      `${Date.now()}-${filename}.log`,
+    );
     fs.writeFile(logPath, content, "utf-8").catch(console.error);
     console.log(`[VERBOSE] Log written to: ${logPath}`);
   }
