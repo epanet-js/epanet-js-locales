@@ -1,3 +1,26 @@
+/**
+ * Translation Workflow Script
+ *
+ * Automatically translates missing or modified keys from live English data
+ * to target languages using Google's Gemini AI.
+ *
+ * VERBOSE LOGGING:
+ * To enable detailed logging for debugging API issues:
+ *
+ * Environment variable method:
+ *   VERBOSE=true pnpm start
+ *   VERBOSE=1 pnpm start
+ *
+ * Or add to your .env.local file:
+ *   VERBOSE=true
+ *
+ * When verbose mode is enabled:
+ * - All API requests/responses are logged to console
+ * - Detailed log files are created with timestamps
+ * - Data transformations are tracked step by step
+ * - Function call details from Gemini are captured
+ */
+
 import { config } from "dotenv";
 config({ path: ".env.local" });
 
@@ -18,6 +41,25 @@ if (!API_KEY) throw new Error("GEMINI_API_KEY environment variable not set.");
 const LIVE_ENGLISH_URL = "https://app.epanetjs.com/locales/en/translation.json";
 const LOCALES_DIR = path.join(process.cwd(), "locales");
 const TARGET_LANGUAGES = ["fr"];
+const VERBOSE = process.env.VERBOSE === "true" || process.env.VERBOSE === "1";
+
+// --- Verbose Logging ---
+function verboseLog(message: string, data?: any) {
+  if (VERBOSE) {
+    console.log(`[VERBOSE] ${message}`);
+    if (data !== undefined) {
+      console.log(JSON.stringify(data, null, 2));
+    }
+  }
+}
+
+function writeVerboseLogToFile(filename: string, content: string) {
+  if (VERBOSE) {
+    const logPath = path.join(process.cwd(), `${filename}-${Date.now()}.log`);
+    fs.writeFile(logPath, content, "utf-8").catch(console.error);
+    console.log(`[VERBOSE] Log written to: ${logPath}`);
+  }
+}
 
 // --- Type Definitions ---
 type LocaleValue = string | { [key: string]: LocaleValue };
@@ -40,52 +82,160 @@ const translationTool: FunctionDeclarationsTool = {
         description:
           "An object where keys are the original English keys and values are the translated strings.",
         properties: {},
-        required: [],
       },
     },
   ],
 };
 
 /**
- * Flattens a nested object into a single level with dot notation.
- * e.g., { a: { b: 'c' } } => { 'a.b': 'c' }
+ * Recursively extracts all key-value pairs from a nested object,
+ * using a path array to track the nested structure.
  */
-function flattenObject(obj: NestedLocaleData, prefix = ""): FlatLocaleData {
-  return Object.keys(obj).reduce((acc, k) => {
-    const pre = prefix.length ? prefix + "." : "";
-    if (
-      typeof obj[k] === "object" &&
-      obj[k] !== null &&
-      !Array.isArray(obj[k])
+function extractKeyValuePairs(
+  obj: NestedLocaleData,
+  path: string[] = [],
+): Array<{ path: string[]; value: string }> {
+  const result: Array<{ path: string[]; value: string }> = [];
+
+  for (const [key, value] of Object.entries(obj)) {
+    const currentPath = [...path, key];
+
+    if (typeof value === "string") {
+      result.push({ path: currentPath, value });
+    } else if (
+      typeof value === "object" &&
+      value !== null &&
+      !Array.isArray(value)
     ) {
-      Object.assign(acc, flattenObject(obj[k] as NestedLocaleData, pre + k));
-    } else {
-      acc[pre + k] = String(obj[k]);
+      result.push(
+        ...extractKeyValuePairs(value as NestedLocaleData, currentPath),
+      );
     }
-    return acc;
-  }, {} as FlatLocaleData);
+  }
+
+  return result;
 }
 
 /**
- * Unflattens an object with dot notation back into a nested object.
- * e.g., { 'a.b': 'c' } => { a: { b: 'c' } }
+ * Creates a unique key from a path array for comparison purposes.
  */
-function unflattenObject(data: FlatLocaleData): NestedLocaleData {
-  const result: NestedLocaleData = {};
-  for (const key in data) {
-    const keys = key.split(".");
-    keys.reduce((acc, part, index) => {
-      if (index === keys.length - 1) {
-        acc[part] = data[key];
-      } else {
-        // Check if the current part already exists and is not an object
-        if (acc[part] === undefined || typeof acc[part] === "string") {
-          acc[part] = {};
-        }
-      }
-      return acc[part] as NestedLocaleData;
-    }, result);
+function pathToKey(path: string[]): string {
+  return path.join("###"); // Use ### as separator to avoid conflicts with dots
+}
+
+/**
+ * Sets a value in a nested object using a path array.
+ */
+function setNestedValue(
+  obj: NestedLocaleData,
+  path: string[],
+  value: string,
+): void {
+  let current = obj;
+
+  for (let i = 0; i < path.length - 1; i++) {
+    const key = path[i];
+    if (
+      !(key in current) ||
+      typeof current[key] !== "object" ||
+      current[key] === null ||
+      Array.isArray(current[key])
+    ) {
+      current[key] = {};
+    }
+    current = current[key] as NestedLocaleData;
   }
+
+  current[path[path.length - 1]] = value;
+}
+
+/**
+ * Removes a value from a nested object using a path array.
+ */
+function removeNestedValue(obj: NestedLocaleData, path: string[]): void {
+  let current = obj;
+
+  // Navigate to the parent of the target
+  for (let i = 0; i < path.length - 1; i++) {
+    const key = path[i];
+    if (!(key in current) || typeof current[key] !== "object") {
+      return; // Path doesn't exist
+    }
+    current = current[key] as NestedLocaleData;
+  }
+
+  // Remove the final key
+  const finalKey = path[path.length - 1];
+  delete current[finalKey];
+
+  // Clean up empty parent objects
+  cleanupEmptyObjects(obj, path.slice(0, -1));
+}
+
+/**
+ * Recursively removes empty objects from the nested structure.
+ */
+function cleanupEmptyObjects(obj: NestedLocaleData, path: string[]): void {
+  if (path.length === 0) return;
+
+  let current = obj;
+  for (let i = 0; i < path.length - 1; i++) {
+    current = current[path[i]] as NestedLocaleData;
+  }
+
+  const targetKey = path[path.length - 1];
+  const targetObj = current[targetKey];
+
+  if (
+    typeof targetObj === "object" &&
+    targetObj !== null &&
+    Object.keys(targetObj).length === 0
+  ) {
+    delete current[targetKey];
+    cleanupEmptyObjects(obj, path.slice(0, -1));
+  }
+}
+
+/**
+ * Sorts a nested object to match the key order of a reference object.
+ */
+function sortObjectLikeReference(
+  obj: NestedLocaleData,
+  reference: NestedLocaleData,
+): NestedLocaleData {
+  const result: NestedLocaleData = {};
+
+  // First, add all keys from reference in their original order
+  for (const key of Object.keys(reference)) {
+    if (key in obj) {
+      const refValue = reference[key];
+      const objValue = obj[key];
+
+      if (
+        typeof refValue === "object" &&
+        refValue !== null &&
+        !Array.isArray(refValue) &&
+        typeof objValue === "object" &&
+        objValue !== null &&
+        !Array.isArray(objValue)
+      ) {
+        result[key] = sortObjectLikeReference(
+          objValue as NestedLocaleData,
+          refValue as NestedLocaleData,
+        );
+      } else {
+        result[key] = objValue;
+      }
+    }
+  }
+
+  // Then add any remaining keys from obj that weren't in reference
+  for (const key of Object.keys(obj)) {
+    if (!(key in result)) {
+      result[key] = obj[key];
+    }
+  }
+
   return result;
 }
 
@@ -118,6 +268,7 @@ async function getTranslationsFromGemini(
   langName: string,
 ): Promise<FlatLocaleData | null> {
   if (Object.keys(keysToTranslate).length === 0) {
+    verboseLog("No keys to translate, returning empty object");
     return {};
   }
 
@@ -137,100 +288,380 @@ async function getTranslationsFromGemini(
     } keys for ${langName}...`,
   );
 
+  verboseLog("=== GEMINI API REQUEST ===");
+  verboseLog("Target language:", langName);
+  verboseLog(
+    "Number of keys to translate:",
+    Object.keys(keysToTranslate).length,
+  );
+  verboseLog("Keys to translate:", keysToTranslate);
+  verboseLog("Full prompt:", prompt);
+
+  const requestPayload = {
+    contents: [{ role: "user", parts: [{ text: prompt }] }],
+    tools: [translationTool],
+  };
+
+  verboseLog("Request payload:", requestPayload);
+  verboseLog("Translation tool schema:", translationTool);
+
   try {
-    const result = await model.generateContent({
-      contents: [{ role: "user", parts: [{ text: prompt }] }],
-      tools: [translationTool],
+    verboseLog("Sending request to Gemini API...");
+    const result = await model.generateContent(requestPayload);
+
+    verboseLog("=== GEMINI API RESPONSE ===");
+    verboseLog("Full response object:", {
+      response: {
+        candidates: result.response.candidates,
+        usageMetadata: result.response.usageMetadata,
+        functionCalls: result.response.functionCalls?.(),
+      },
     });
+
+    // Log the raw response text if available
+    if (result.response.text) {
+      verboseLog("Response text:", result.response.text());
+    }
+
+    // Log function calls in detail
+    const functionCalls = result.response.functionCalls?.();
+    verboseLog("Function calls:", functionCalls);
+
+    if (functionCalls && functionCalls.length > 0) {
+      verboseLog("Number of function calls:", functionCalls.length);
+      functionCalls.forEach((call, index) => {
+        verboseLog(`Function call ${index + 1}:`, {
+          name: call.name,
+          args: call.args,
+        });
+      });
+    }
 
     const call = result.response.functionCalls()?.[0];
     if (call && call.name === "save_translations") {
-      return call.args as FlatLocaleData;
+      verboseLog("=== SUCCESSFUL TRANSLATION ===");
+      verboseLog("Extracted translations:", call.args);
+
+      // Handle the response structure - it might be wrapped in a translations object
+      let translations: FlatLocaleData;
+      if (call.args && typeof call.args === "object") {
+        // Check if it's wrapped in a translations property
+        if (
+          "translations" in call.args &&
+          typeof call.args.translations === "object"
+        ) {
+          translations = call.args.translations as FlatLocaleData;
+          verboseLog("Found translations wrapped in 'translations' property");
+        } else {
+          // Direct key-value pairs
+          translations = call.args as FlatLocaleData;
+          verboseLog("Found direct key-value translations");
+        }
+      } else {
+        verboseLog("ERROR: Unexpected args structure:", call.args);
+        return null;
+      }
+
+      // Validate the translations
+      const originalKeys = Object.keys(keysToTranslate);
+      const translatedKeys = Object.keys(translations);
+
+      verboseLog("Translation validation:");
+      verboseLog("  Original keys count:", originalKeys.length);
+      verboseLog("  Translated keys count:", translatedKeys.length);
+      verboseLog(
+        "  Missing keys:",
+        originalKeys.filter((k) => !translatedKeys.includes(k)),
+      );
+      verboseLog(
+        "  Extra keys:",
+        translatedKeys.filter((k) => !originalKeys.includes(k)),
+      );
+
+      writeVerboseLogToFile(
+        "gemini-success",
+        JSON.stringify(
+          {
+            request: { keysToTranslate, langName, prompt },
+            response: {
+              translations,
+              originalKeysCount: originalKeys.length,
+              translatedKeysCount: translatedKeys.length,
+              functionCalls,
+            },
+          },
+          null,
+          2,
+        ),
+      );
+
+      return translations;
     } else {
+      verboseLog("=== API CALL FAILED ===");
+      verboseLog("Expected function call 'save_translations' but got:", call);
+      verboseLog(
+        "Available function calls:",
+        result.response.functionCalls?.(),
+      );
+
       console.error("Gemini did not return the expected function call.");
+
+      writeVerboseLogToFile(
+        "gemini-error",
+        JSON.stringify(
+          {
+            request: { keysToTranslate, langName, prompt, requestPayload },
+            response: {
+              functionCalls,
+              fullResponse: result.response,
+              text: result.response.text?.() || "No text response",
+            },
+            error: "Function call mismatch",
+          },
+          null,
+          2,
+        ),
+      );
+
       return null;
     }
   } catch (error) {
+    const err = error as Error;
+    verboseLog("=== API ERROR ===");
+    verboseLog("Error details:", {
+      message: err.message,
+      stack: err.stack,
+      name: err.name,
+    });
+
     console.error("Error calling Gemini API:", error);
+
+    writeVerboseLogToFile(
+      "gemini-exception",
+      JSON.stringify(
+        {
+          request: { keysToTranslate, langName, prompt },
+          error: {
+            message: err.message,
+            stack: err.stack,
+            name: err.name,
+            fullError: String(error),
+          },
+        },
+        null,
+        2,
+      ),
+    );
+
     return null;
   }
 }
 
-// --- Main Execution Logic (Updated to use flatten/unflatten) ---
+// --- Main Execution Logic (Updated to use path-based approach) ---
 async function main() {
   console.log("Starting translation workflow...");
 
+  if (VERBOSE) {
+    console.log(`[VERBOSE] Verbose logging is ENABLED`);
+    console.log(`[VERBOSE] Target languages: ${TARGET_LANGUAGES.join(", ")}`);
+    console.log(`[VERBOSE] Live English URL: ${LIVE_ENGLISH_URL}`);
+    console.log(`[VERBOSE] Locales directory: ${LOCALES_DIR}`);
+  }
+
   // 1. Fetch live English data and read local files
+  verboseLog("Fetching live English data from URL...");
   const { data: liveEnglishData } = await axios.get<NestedLocaleData>(
     LIVE_ENGLISH_URL,
   );
+  verboseLog(
+    "Live English data keys count:",
+    Object.keys(liveEnglishData).length,
+  );
+
+  verboseLog("Reading local English file...");
   const localEnglishData = await readJsonFile(
     path.join(LOCALES_DIR, "en", "translation.json"),
   );
+  verboseLog(
+    "Local English data keys count:",
+    Object.keys(localEnglishData).length,
+  );
 
-  // FLATTEN all data for comparison
-  const flatLiveEnglishData = flattenObject(liveEnglishData);
-  const flatLocalEnglishData = flattenObject(localEnglishData);
+  // Extract key-value pairs from all data
+  verboseLog("Extracting key-value pairs from live English data...");
+  const liveEnglishPairs = extractKeyValuePairs(liveEnglishData);
+  verboseLog("Live English pairs count:", liveEnglishPairs.length);
+
+  verboseLog("Extracting key-value pairs from local English data...");
+  const localEnglishPairs = extractKeyValuePairs(localEnglishData);
+  verboseLog("Local English pairs count:", localEnglishPairs.length);
+
+  // Create lookup maps for easier comparison
+  const liveEnglishMap = new Map(
+    liveEnglishPairs.map((pair) => [pathToKey(pair.path), pair]),
+  );
+  const localEnglishMap = new Map(
+    localEnglishPairs.map((pair) => [pathToKey(pair.path), pair]),
+  );
+
+  verboseLog("Created lookup maps for comparison");
 
   for (const lang of TARGET_LANGUAGES) {
     console.log(`\n--- Processing language: ${lang.toUpperCase()} ---`);
+    verboseLog(`Processing target language: ${lang}`);
+
     const targetFilePath = path.join(LOCALES_DIR, lang, "translation.json");
+    verboseLog("Target file path:", targetFilePath);
+
     const localTargetData = await readJsonFile(targetFilePath);
-    const flatLocalTargetData = flattenObject(localTargetData);
+    verboseLog(
+      "Local target data keys count:",
+      Object.keys(localTargetData).length,
+    );
 
-    const keysToTranslate: FlatLocaleData = {};
-    let finalFlatTargetData: FlatLocaleData = {};
+    // Clean up any erroneous "translations" wrapper that might exist
+    if (
+      localTargetData.translations &&
+      typeof localTargetData.translations === "object"
+    ) {
+      console.log(
+        `  [CLEANUP] Found erroneous "translations" wrapper, merging contents...`,
+      );
+      verboseLog("Found translations wrapper, merging contents...");
+      Object.assign(localTargetData, localTargetData.translations);
+      delete localTargetData.translations;
+      verboseLog(
+        "After cleanup, target data keys count:",
+        Object.keys(localTargetData).length,
+      );
+    }
 
-    const allLiveKeys = new Set(Object.keys(flatLiveEnglishData));
+    verboseLog("Extracting key-value pairs from local target data...");
+    const localTargetPairs = extractKeyValuePairs(localTargetData);
+    const localTargetMap = new Map(
+      localTargetPairs.map((pair) => [pathToKey(pair.path), pair]),
+    );
+    verboseLog("Local target pairs count:", localTargetPairs.length);
 
-    // 2. Compare and determine changes using flattened data
-    for (const key of allLiveKeys) {
-      const liveEnValue = flatLiveEnglishData[key];
-      const localEnValue = flatLocalEnglishData[key];
-      const localTargetValue = flatLocalTargetData[key];
+    const keysToTranslate: Array<{ path: string[]; value: string }> = [];
+    let updatedTargetData: NestedLocaleData = { ...localTargetData };
 
-      if (localTargetValue === undefined) {
-        console.log(`  [ADDED] New key detected: "${key}"`);
-        keysToTranslate[key] = liveEnValue;
-      } else if (localEnValue !== undefined && liveEnValue !== localEnValue) {
-        console.log(`  [MODIFIED] Source text changed for: "${key}"`);
-        keysToTranslate[key] = liveEnValue;
-      } else {
-        finalFlatTargetData[key] = localTargetValue;
+    verboseLog("=== COMPARISON PHASE ===");
+
+    // 1. Handle DELETED keys: Compare local English vs remote English
+    const deletedKeys: string[] = [];
+    for (const [keyStr, pair] of localEnglishMap) {
+      if (!liveEnglishMap.has(keyStr)) {
+        deletedKeys.push(keyStr);
+        if (localTargetMap.has(keyStr)) {
+          removeNestedValue(updatedTargetData, pair.path);
+          console.log(`  [DELETED] Removed key: "${pair.path.join(" > ")}"`);
+        }
       }
     }
 
-    const deletedKeys = Object.keys(flatLocalTargetData).filter(
-      (k) => !allLiveKeys.has(k),
-    );
-    if (deletedKeys.length > 0) {
-      console.log(`  [DELETED] Removing ${deletedKeys.length} keys.`);
+    // 2. Handle NEW keys: Compare remote English vs target language
+    const newKeys: string[] = [];
+    for (const [keyStr, pair] of liveEnglishMap) {
+      if (!localTargetMap.has(keyStr)) {
+        newKeys.push(keyStr);
+        console.log(`  [NEW] New key detected: "${pair.path.join(" > ")}"`);
+        keysToTranslate.push(pair);
+      }
     }
 
-    // 3. Get new translations from Gemini
-    const newTranslations = await getTranslationsFromGemini(
-      keysToTranslate,
-      lang,
-    );
+    // 3. Handle MODIFIED keys: Compare remote English vs local English
+    const modifiedKeys: string[] = [];
+    for (const [keyStr, livePair] of liveEnglishMap) {
+      const localPair = localEnglishMap.get(keyStr);
+      if (localPair && livePair.value !== localPair.value) {
+        modifiedKeys.push(keyStr);
+        console.log(
+          `  [MODIFIED] Source text changed for: "${livePair.path.join(
+            " > ",
+          )}"`,
+        );
+        keysToTranslate.push(livePair);
+      }
+    }
 
-    if (newTranslations) {
-      // 4. Merge new translations into the final flat data
-      Object.assign(finalFlatTargetData, newTranslations);
-
-      // 5. UNFLATTEN the data back to its nested structure
-      const finalNestedTargetData = unflattenObject(finalFlatTargetData);
-
-      // 6. Write the updated, nested target file
-      await writeJsonFile(targetFilePath, finalNestedTargetData);
-      console.log(`✅ Successfully updated ${targetFilePath}`);
-    } else {
-      console.error(
-        `❌ Failed to get translations for ${lang}. The local file will not be updated.`,
+    // 4. Summary of changes
+    const totalChanges = newKeys.length + modifiedKeys.length;
+    if (deletedKeys.length > 0) {
+      console.log(`  [SUMMARY] Removed ${deletedKeys.length} deleted keys`);
+    }
+    if (totalChanges > 0) {
+      console.log(
+        `  [SUMMARY] Will translate ${totalChanges} keys (${newKeys.length} new, ${modifiedKeys.length} modified)`,
       );
+    } else {
+      console.log(
+        `  [SUMMARY] No changes detected - target language is up to date`,
+      );
+    }
+
+    // 5. Get new translations from Gemini (only if there are keys to translate)
+    if (keysToTranslate.length > 0) {
+      // Convert to flat format for Gemini API
+      const flatKeysToTranslate: FlatLocaleData = {};
+      for (const pair of keysToTranslate) {
+        flatKeysToTranslate[pathToKey(pair.path)] = pair.value;
+      }
+
+      const newTranslations = await getTranslationsFromGemini(
+        flatKeysToTranslate,
+        lang,
+      );
+
+      if (newTranslations) {
+        // 6. Apply new translations to the target data
+        for (const [keyStr, translatedValue] of Object.entries(
+          newTranslations,
+        )) {
+          const originalPair = keysToTranslate.find(
+            (p) => pathToKey(p.path) === keyStr,
+          );
+          if (originalPair) {
+            setNestedValue(
+              updatedTargetData,
+              originalPair.path,
+              translatedValue,
+            );
+          }
+        }
+
+        // 7. Sort the final data to match English key order
+        const finalSortedData = sortObjectLikeReference(
+          updatedTargetData,
+          liveEnglishData,
+        );
+
+        // 8. Write the updated, sorted target file
+        await writeJsonFile(targetFilePath, finalSortedData);
+        console.log(`✅ Successfully updated ${targetFilePath}`);
+      } else {
+        console.error(
+          `❌ Failed to get translations for ${lang}. The local file will not be updated.`,
+        );
+      }
+    } else {
+      // Even if no translations needed, we might have deleted keys or need cleanup
+      if (deletedKeys.length > 0 || localTargetData.translations) {
+        const finalSortedData = sortObjectLikeReference(
+          updatedTargetData,
+          liveEnglishData,
+        );
+        await writeJsonFile(targetFilePath, finalSortedData);
+        console.log(
+          `✅ Updated ${targetFilePath} (removed deleted keys/cleaned structure)`,
+        );
+      } else {
+        console.log(`✅ No updates needed for ${targetFilePath}`);
+      }
     }
   }
 
-  // 7. Finally, overwrite the local English file with the live one for the next run
+  // 9. Finally, overwrite the local English file with the live one for the next run
   await writeJsonFile(
     path.join(LOCALES_DIR, "en", "translation.json"),
     liveEnglishData,
