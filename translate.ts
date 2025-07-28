@@ -1,3 +1,6 @@
+import { config } from "dotenv";
+config({ path: ".env.local" });
+
 import { promises as fs } from "fs";
 import path from "path";
 import axios from "axios";
