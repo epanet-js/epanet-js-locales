@@ -459,6 +459,14 @@
         },
         "processingMessage": "Conectando pontos de consumo à rede..."
       }
+    },
+    "dataSource": {
+      "title": "Adicionar de Arquivo",
+      "noValidPointsError": "Nenhum ponto de consumo válido encontrado no arquivo selecionado.",
+      "parseFileError": "Falha ao analisar o arquivo",
+      "supportedFormats": "Formatos suportados:",
+      "parsingFile": "Lendo arquivo...",
+      "chooseFile": "Escolher Arquivo"
     }
   }
 }
