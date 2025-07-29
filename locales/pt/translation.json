@@ -433,7 +433,6 @@
         "messages": {
           "noValidCustomerPoints": "Nenhum ponto de consumo válido encontrado",
           "noErrors": "Nenhum erro encontrado",
-          "issuesSummary": "Resumo dos Problemas",
           "skippedRowsWarning": "Essas linhas foram ignoradas durante a importação. Apenas pontos de consumo válidos serão processados.",
           "andXMore": "... e mais {{1}} pontos de consumo",
           "andXMoreIssues": "... e mais {{1}}"

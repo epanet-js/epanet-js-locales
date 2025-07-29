@@ -433,7 +433,6 @@
         "messages": {
           "noValidCustomerPoints": "Aucun point client valide trouvé",
           "noErrors": "Aucune erreur trouvée",
-          "issuesSummary": "Résumé des problèmes",
           "skippedRowsWarning": "Ces lignes ont été ignorées lors de l'importation. Seuls les points clients valides seront traités.",
           "andXMore": "... et {{1}} points clients supplémentaires",
           "andXMoreIssues": "... et {{1}} de plus"
@@ -451,11 +450,11 @@
         "title": "Options de demande",
         "replaceOption": {
           "title": "Remplacer les demandes existantes par les demandes clients (par défaut)",
-          "description": "Les demandes de base existantes aux jonctions seront définies sur zéro et remplacées par les demandes des points clients. Il s'agit de l'approche type pour la modélisation basée sur les clients."
+          "description": "Définissez toutes les demandes de base aux jonctions à zéro et utilisez uniquement les demandes des points clients. Recommandé lorsque les données clients sont la principale source de demande."
         },
         "addOnTopOption": {
           "title": "Ajouter les demandes clients aux demandes existantes",
-          "description": "Les demandes des points clients seront ajoutées aux demandes de base existantes aux jonctions. Utilisez cette option lorsque vous souhaitez conserver les demandes réseau actuelles et ajouter les charges clients comme demande supplémentaire."
+          "description": "Conservez les demandes de base actuelles et ajoutez les demandes des points clients par-dessus. Utilisez cette option si vous souhaitez inclure à la fois les demandes existantes et celles basées sur les clients."
         },
         "processingMessage": "Connexion des points clients au réseau..."
       }
