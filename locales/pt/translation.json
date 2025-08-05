@@ -457,6 +457,20 @@
           "description": "As demandas dos pontos de consumo serão adicionadas às demandas base existentes nos nós. Use esta opção quando quiser manter as demandas atuais da rede e adicionar as cargas dos clientes como demanda adicional."
         },
         "processingMessage": "Conectando pontos de consumo à rede..."
+      },
+      "allocationStep": {
+        "title": "Alocação de Pontos de Consumo",
+        "description": "Defina regras para conectar pontos de consumo a tubulações. Você pode especificar múltiplos pares de distância máxima e diâmetro máximo para controlar como os pontos de consumo são alocados à rede.",
+        "rulesTitle": "Regras de Alocação",
+        "editButton": "Editar",
+        "saveButton": "Salvar",
+        "cancelButton": "Cancelar",
+        "computingMessage": "Calculando alocações...",
+        "processingMessage": "Processando regras de alocação...",
+        "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
+        "allocatedPoints": "{{1}} pontos de consumo serão alocados ({{2}}%)",
+        "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)",
+        "allocationFailed": "Alocação falhou: {{1}}"
       }
     },
     "dataSource": {

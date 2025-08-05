@@ -457,6 +457,20 @@
           "description": "De huidige basisvragen worden behouden en klantpuntvragen worden hieraan toegevoegd. Gebruik dit als u zowel bestaande als klantgebaseerde vragen wilt opnemen."
         },
         "processingMessage": "Klantpunten verbinden met netwerk..."
+      },
+      "allocationStep": {
+        "title": "Klanttoewijzing",
+        "description": "Definieer regels voor het verbinden van klantpunten met leidingen. U kunt meerdere paren van maximale afstand en maximale diameter specificeren om te bepalen hoe klantpunten aan het netwerk worden toegewezen.",
+        "rulesTitle": "Toewijzingsregels",
+        "editButton": "Bewerken",
+        "saveButton": "Opslaan",
+        "cancelButton": "Annuleren",
+        "computingMessage": "Toewijzingen berekenen...",
+        "processingMessage": "Toewijzingsregels verwerken...",
+        "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
+        "allocatedPoints": "{{1}} klantpunten worden toegewezen ({{2}}%)",
+        "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)",
+        "allocationFailed": "Toewijzing mislukt: {{1}}"
       }
     },
     "dataSource": {

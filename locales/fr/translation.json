@@ -457,6 +457,20 @@
           "description": "Conservez les demandes de base actuelles et ajoutez les demandes des points clients par-dessus. Utilisez cette option si vous souhaitez inclure à la fois les demandes existantes et celles basées sur les clients."
         },
         "processingMessage": "Connexion des points clients au réseau..."
+      },
+      "allocationStep": {
+        "title": "Allocation des clients",
+        "description": "Définissez les règles de connexion des points clients aux conduites. Vous pouvez spécifier plusieurs paires de distance maximale et de diamètre maximal pour contrôler la manière dont les points clients sont alloués au réseau.",
+        "rulesTitle": "Règles d'Allocation",
+        "editButton": "Modifier",
+        "saveButton": "Enregistrer",
+        "cancelButton": "Annuler",
+        "computingMessage": "Calcul des allocations...",
+        "processingMessage": "Traitement des règles d'allocation...",
+        "summaryTitle": "Résumé de l'allocation ({{1}} points clients au total)",
+        "allocatedPoints": "{{1}} points clients seront alloués ({{2}}%)",
+        "unallocatedPoints": "{{1}} points clients restent non alloués ({{2}}%)",
+        "allocationFailed": "Échec de l'allocation : {{1}}"
       }
     },
     "dataSource": {
