@@ -470,8 +470,21 @@
         "summaryTitle": "Résumé de l'allocation ({{1}} points clients au total)",
         "allocatedPoints": "{{1}} points clients seront alloués ({{2}}%)",
         "unallocatedPoints": "{{1}} points clients restent non alloués ({{2}}%)",
-        "allocationFailed": "Échec de l'allocation : {{1}}"
-      }
+        "allocationFailed": "Échec de l'allocation : {{1}}",
+        "table": {
+          "noRulesMessage": "Aucune règle d'allocation définie. Cliquez sur « Ajouter une règle » pour créer votre première règle.",
+          "orderHeader": "Ordre",
+          "allocationsHeader": "Allocations",
+          "actionsHeader": "Actions",
+          "maxDiameterLabel": "Diamètre Max.",
+          "maxDistanceLabel": "Distance Max.",
+          "moveUpTooltip": "Monter",
+          "moveDownTooltip": "Descendre",
+          "removeRuleTooltip": "Supprimer la règle",
+          "addRuleButton": "Ajouter une règle"
+        }
+      },
+      "allocationStepLabel": "Allocation des clients"
     },
     "dataSource": {
       "title": "Ajouter à partir d'un fichier",

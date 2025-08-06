@@ -470,8 +470,21 @@
         "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
         "allocatedPoints": "{{1}} pontos de consumo serão alocados ({{2}}%)",
         "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)",
-        "allocationFailed": "Alocação falhou: {{1}}"
-      }
+        "allocationFailed": "Alocação falhou: {{1}}",
+        "table": {
+          "noRulesMessage": "Nenhuma regra de alocação definida. Clique em \"Adicionar Regra\" para criar sua primeira regra.",
+          "orderHeader": "Ordem",
+          "allocationsHeader": "Alocações",
+          "actionsHeader": "Ações",
+          "maxDiameterLabel": "Diâmetro Máximo",
+          "maxDistanceLabel": "Distância Máxima",
+          "moveUpTooltip": "Mover para cima",
+          "moveDownTooltip": "Mover para baixo",
+          "removeRuleTooltip": "Remover regra",
+          "addRuleButton": "Adicionar Regra"
+        }
+      },
+      "allocationStepLabel": "Alocação de Pontos de Consumo"
     },
     "dataSource": {
       "title": "Adicionar de Arquivo",

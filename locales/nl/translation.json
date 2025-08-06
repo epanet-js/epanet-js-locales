@@ -470,8 +470,21 @@
         "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
         "allocatedPoints": "{{1}} klantpunten worden toegewezen ({{2}}%)",
         "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)",
-        "allocationFailed": "Toewijzing mislukt: {{1}}"
-      }
+        "allocationFailed": "Toewijzing mislukt: {{1}}",
+        "table": {
+          "noRulesMessage": "Geen toewijzingsregels gedefinieerd. Klik op \"Regel toevoegen\" om uw eerste regel te maken.",
+          "orderHeader": "Order",
+          "allocationsHeader": "Toewijzingen",
+          "actionsHeader": "Acties",
+          "maxDiameterLabel": "Max. diameter",
+          "maxDistanceLabel": "Max. afstand",
+          "moveUpTooltip": "Omhoog verplaatsen",
+          "moveDownTooltip": "Omlaag verplaatsen",
+          "removeRuleTooltip": "Regel verwijderen",
+          "addRuleButton": "Regel toevoegen"
+        }
+      },
+      "allocationStepLabel": "Klanttoewijzing"
     },
     "dataSource": {
       "title": "Toevoegen vanuit bestand",
