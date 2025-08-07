@@ -413,13 +413,6 @@
       "dataInputStep": "Gegevensinvoer",
       "dataPreviewStep": "Gegevensvoorbeeld",
       "demandOptionsStep": "Vraagopties",
-      "buttons": {
-        "cancel": "Annuleren",
-        "back": "Terug",
-        "next": "Volgende",
-        "finish": "Voltooien",
-        "processing": "Bezig..."
-      },
       "dataPreview": {
         "title": "Gegevensvoorbeeld",
         "customerPoints": "Klantpunten",
@@ -494,5 +487,10 @@
       "parsingFile": "Bestand lezen...",
       "chooseFile": "Bestand kiezen"
     }
-  }
+  },
+  "startBlankProject": "Start leeg project",
+  "startFromExample": "Start vanuit voorbeeld",
+  "importFromINP": "Importeren uit INP-bestand",
+  "openINP": "INP openen",
+  "importFromGIS": "Importeren uit GIS-gegevens"
 }

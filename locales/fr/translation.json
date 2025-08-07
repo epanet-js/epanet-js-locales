@@ -413,13 +413,6 @@
       "dataInputStep": "Saisie des données",
       "dataPreviewStep": "Aperçu des données",
       "demandOptionsStep": "Options de demande",
-      "buttons": {
-        "cancel": "Annuler",
-        "back": "Précédent",
-        "next": "Suivant",
-        "finish": "Terminer",
-        "processing": "Traitement..."
-      },
       "dataPreview": {
         "title": "Aperçu des données",
         "customerPoints": "Points clients",
@@ -494,5 +487,17 @@
       "parsingFile": "Lecture du fichier...",
       "chooseFile": "Choisir un fichier"
     }
+  },
+  "startBlankProject": "Démarrer un projet vierge",
+  "startFromExample": "Démarrer à partir d'un exemple",
+  "importFromINP": "Importer depuis un fichier INP",
+  "openINP": "Ouvrir INP",
+  "importFromGIS": "Importer depuis des données SIG",
+  "wizard": {
+    "cancel": "Annuler",
+    "back": "Retour",
+    "next": "Suivant",
+    "finish": "Terminer",
+    "processing": "Traitement..."
   }
 }

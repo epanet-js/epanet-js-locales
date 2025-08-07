@@ -166,7 +166,7 @@
   "afdDescription": "Sistema de Medição Americano com fluxos em acft/d",
   "newProject": "Novo Projeto",
   "create": "Criar",
-  "createNew": "Criar Novo",
+  "createNew": "Criar Novo...",
   "dropInp": "Arraste e solte um arquivo .INP aqui para abrir o modelo.",
   "inpMissing": "Tipo de arquivo não suportado. Use um arquivo .INP.",
   "onlyOneInp": "Múltiplos INPs",
@@ -413,13 +413,6 @@
       "dataInputStep": "Entrada de Dados",
       "dataPreviewStep": "Visualização dos Dados",
       "demandOptionsStep": "Opções de Demanda",
-      "buttons": {
-        "cancel": "Cancelar",
-        "back": "Voltar",
-        "next": "Próximo",
-        "finish": "Finalizar",
-        "processing": "Processando..."
-      },
       "dataPreview": {
         "title": "Visualização dos Dados",
         "customerPoints": "Pontos de Consumo",
@@ -494,5 +487,17 @@
       "parsingFile": "Lendo arquivo...",
       "chooseFile": "Escolher Arquivo"
     }
+  },
+  "startBlankProject": "Iniciar Projeto em Branco",
+  "startFromExample": "Iniciar de Exemplo",
+  "importFromINP": "Importar de Arquivo INP",
+  "openINP": "Abrir INP",
+  "importFromGIS": "Importar de Dados GIS",
+  "wizard": {
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "finish": "Finalizar",
+    "processing": "Processando..."
   }
 }
