@@ -493,5 +493,12 @@
   "importFromINP": "Importeren uit INP-bestand",
   "openINP": "INP openen",
   "importFromGIS": "Importeren uit GIS-gegevens",
-  "earlyAccess": "Vroege toegang"
+  "earlyAccess": "Vroege toegang",
+  "wizard": {
+    "cancel": "Annuleren",
+    "back": "Terug",
+    "next": "Volgende",
+    "finish": "Voltooien",
+    "processing": "Verwerken..."
+  }
 }
