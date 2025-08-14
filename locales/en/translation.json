@@ -33,6 +33,7 @@
   "customerPoints": "Customer Points",
   "customers": "customers",
   "customer": "Customer",
+  "customerPoint": "Customer Point",
   "actualDemand": "Actual Demand",
   "elevation": "Elevation",
   "roughness": "Roughness",
@@ -499,6 +500,13 @@
       "supportedFormats": "Supported formats:",
       "parsingFile": "Reading file...",
       "chooseFile": "Choose File"
+    }
+  },
+  "contextActions": {
+    "customerPoints": {
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "customerPointSelected": "{{1}} customer point"
     }
   }
 }

@@ -500,5 +500,6 @@
     "finish": "Terminer",
     "processing": "Traitement..."
   },
-  "earlyAccess": "Accès Anticipé"
+  "earlyAccess": "Accès Anticipé",
+  "customerPoint": "Point de Consommation"
 }
