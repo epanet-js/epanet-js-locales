@@ -503,5 +503,12 @@
   "earlyAccess": "Accès Anticipé",
   "customerPoint": "Point de Consommation",
   "onboardingConnectCustomerPoints": "Cliquez sur une conduite pour connecter le point de consommation.",
-  "onboardingShiftConnectCustomerPoints": "Maintenez {{1}} pour connecter les points de consommation à l'emplacement du curseur."
+  "onboardingShiftConnectCustomerPoints": "Maintenez {{1}} pour connecter les points de consommation à l'emplacement du curseur.",
+  "contextActions": {
+    "customerPoints": {
+      "connect": "Connecter",
+      "customerPointSelected": "{{1}} point de consommation",
+      "disconnect": "Déconnecter"
+    }
+  }
 }
