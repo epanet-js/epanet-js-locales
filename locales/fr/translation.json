@@ -501,5 +501,7 @@
     "processing": "Traitement..."
   },
   "earlyAccess": "Accès Anticipé",
-  "customerPoint": "Point de Consommation"
+  "customerPoint": "Point de Consommation",
+  "onboardingConnectCustomerPoints": "Cliquez sur une conduite pour connecter le point de consommation.",
+  "onboardingShiftConnectCustomerPoints": "Maintenez {{1}} pour connecter les points de consommation à l'emplacement du curseur."
 }

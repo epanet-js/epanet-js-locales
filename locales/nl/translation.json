@@ -501,5 +501,14 @@
     "finish": "Voltooien",
     "processing": "Verwerken..."
   },
-  "customerPoint": "Klantpunt"
+  "customerPoint": "Klantpunt",
+  "onboardingConnectCustomerPoints": "Klik op een leiding om het klantpunt te verbinden.",
+  "onboardingShiftConnectCustomerPoints": "Houd {{1}} ingedrukt om de klantpunten op de cursorlocatie te verbinden.",
+  "contextActions": {
+    "customerPoints": {
+      "connect": "Verbinden",
+      "disconnect": "Verbinding verbreken",
+      "customerPointSelected": "{{1}} klantpunt"
+    }
+  }
 }
