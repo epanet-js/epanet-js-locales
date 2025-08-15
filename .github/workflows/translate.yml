@@ -31,7 +31,7 @@ jobs:
       - name: "Run translation script"
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: pnpm run start
+        run: pnpm run translate
 
       - name: "Commit and push changes"
         uses: stefanzweifel/git-auto-commit-action@v5
