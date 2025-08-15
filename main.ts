@@ -20,7 +20,7 @@ import { translateValues } from "./translate/llm";
 import { diffKeys } from "./translate/diff";
 import { deleteAtPath, setAtPath } from "./translate/walkers";
 
-export async function run() {
+export async function run(languageCode?: string) {
   console.log("Starting translation workflow...");
 
   await initI18n();
@@ -36,11 +36,24 @@ export async function run() {
   const localENPath = path.join(LOCALES_DIR, "en", `${DEFAULT_NS}.json`);
   const localEN = await readJson(localENPath);
 
+  // Filter languages based on languageCode parameter
+  const languagesToProcess = languageCode
+    ? TARGET_LANGUAGES.filter((lang) => lang.code === languageCode)
+    : TARGET_LANGUAGES;
+
+  if (languageCode && languagesToProcess.length === 0) {
+    throw new Error(
+      `Language code '${languageCode}' not found. Available languages: ${TARGET_LANGUAGES.map(
+        (l) => l.code,
+      ).join(", ")}`,
+    );
+  }
+
   const proposed: { langCode: string; filePath: string; data: JSONObject }[] =
     [];
 
   try {
-    for (const lang of TARGET_LANGUAGES) {
+    for (const lang of languagesToProcess) {
       console.log(`\n--- Processing ${lang.name} (${lang.code}) ---`);
 
       const targetPath = path.join(
@@ -81,15 +94,18 @@ export async function run() {
 
     if (DRY_RUN) {
       console.log(
-        "\n[DRY_RUN] All languages processed successfully. No files written.",
+        `\n[DRY_RUN] ${languagesToProcess.length} language(s) processed successfully. No files written.`,
       );
     } else {
       for (const p of proposed) {
         await writeJsonAtomic(p.filePath, p.data);
         console.log(`✅ Wrote ${p.langCode}/${DEFAULT_NS}.json`);
       }
-      await writeJsonAtomic(localENPath, liveEN);
-      console.log(`✅ Synced local EN to ${LIVE_ENGLISH_URL}`);
+      // Only sync local EN if processing all languages
+      if (!languageCode) {
+        await writeJsonAtomic(localENPath, liveEN);
+        console.log(`✅ Synced local EN to ${LIVE_ENGLISH_URL}`);
+      }
     }
 
     console.log("\nTranslation workflow finished successfully.");
@@ -103,7 +119,8 @@ export async function run() {
 
 // Auto-run only when invoked directly (not when imported in tests)
 if (import.meta.url === `file://${process.argv[1]}`) {
-  run().catch((e) => {
+  const languageCode = process.argv[2];
+  run(languageCode).catch((e) => {
     console.error("Unhandled error:", e);
     process.exitCode = 1;
   });
