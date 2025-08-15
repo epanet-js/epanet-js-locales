@@ -18,6 +18,7 @@ export const TARGET_LANGUAGES: TargetLang[] = [
   { code: "pt", name: "Português (BR)" },
   { code: "fr", name: "Français (FR)" },
   { code: "nl", name: "Nederlands (NL)" },
+  { code: "ja", name: "日本語 (JA)" },
 ];
 
 export const VERBOSE =
