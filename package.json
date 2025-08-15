@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "translate": "ts-node main.ts",
-    "translate:verbose": "VERBOSE=1 ts-node main.ts",
-    "translate:dry": "DRY_RUN=1 ts-node main.ts",
+    "translate": "tsx main.ts",
+    "translate:verbose": "VERBOSE=1 tsx main.ts",
+    "translate:dry": "DRY_RUN=1 tsx main.ts",
     "test": "vitest run",
     "test:ui": "vitest",
     "coverage": "vitest run --coverage"
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@types/node": "^24.1.0",
     "@vitest/coverage-v8": "^3.2.4",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
   }
