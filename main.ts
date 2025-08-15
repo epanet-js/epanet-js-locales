@@ -7,7 +7,6 @@
  */
 
 import path from "path";
-import axios from "axios";
 import { initI18n } from "./translate/i18n";
 import {
   DRY_RUN,
@@ -21,17 +20,22 @@ import { translateValues } from "./translate/llm";
 import { diffKeys } from "./translate/diff";
 import { deleteAtPath, setAtPath } from "./translate/walkers";
 
-async function main() {
+export async function run() {
   console.log("Starting translation workflow...");
 
   await initI18n();
 
   // 1) Fetch live EN & load local EN
-  const { data: liveEN } = await axios.get<JSONObject>(LIVE_ENGLISH_URL);
+  const response = await fetch(LIVE_ENGLISH_URL);
+  if (!response.ok) {
+    throw new Error(
+      `Failed to fetch live EN: ${response.status} ${response.statusText}`,
+    );
+  }
+  const liveEN = (await response.json()) as JSONObject;
   const localENPath = path.join(LOCALES_DIR, "en", `${DEFAULT_NS}.json`);
   const localEN = await readJson(localENPath);
 
-  // Stash proposed writes in memory. If anything fails, write nothing.
   const proposed: { langCode: string; filePath: string; data: JSONObject }[] =
     [];
 
@@ -46,7 +50,6 @@ async function main() {
       );
       const targetJson = await readJson(targetPath);
 
-      // 2) Diff keys
       const { deleted, toTranslatePaths, toTranslateValues } = diffKeys(
         liveEN,
         localEN,
@@ -57,13 +60,11 @@ async function main() {
         `[SUMMARY] ${toTranslateValues.length} strings to translate (${lang.code}), ${deleted.length} keys to delete`,
       );
 
-      // 3) Translate (array-in / array-out)
       const translatedValues =
         toTranslateValues.length > 0
           ? await translateValues(toTranslateValues, lang, liveEN, targetJson)
           : [];
 
-      // 4) Build updated target in memory
       const updated = JSON.parse(JSON.stringify(targetJson)) as JSONObject;
 
       for (const p of deleted) deleteAtPath(updated, p);
@@ -78,7 +79,6 @@ async function main() {
       });
     }
 
-    // If we reached here, all languages succeeded
     if (DRY_RUN) {
       console.log(
         "\n[DRY_RUN] All languages processed successfully. No files written.",
@@ -97,10 +97,16 @@ async function main() {
     console.error("\n❌ Aborting — a failure occurred. No files were written.");
     console.error(err?.stack || err?.message || String(err));
     process.exitCode = 1;
+    throw err; // rethrow so tests can assert failure
   }
 }
 
-main().catch((e) => {
-  console.error("Unhandled error:", e);
-  process.exitCode = 1;
-});
+// Auto-run only when invoked directly (not when imported in tests)
+if (import.meta.url === `file://${process.argv[1]}`) {
+  run().catch((e) => {
+    console.error("Unhandled error:", e);
+    process.exitCode = 1;
+  });
+}
+
+export default run;
