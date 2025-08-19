@@ -46,7 +46,8 @@
     "customerPoints": {
       "connect": "接続",
       "customerPointSelected": "顧客地点 {{1}}",
-      "disconnect": "切断"
+      "disconnect": "切断",
+      "reconnect": "再接続"
     }
   },
   "continueAnyway": "とにかく続行",
@@ -182,7 +183,8 @@
           "removeRuleTooltip": "ルールを削除"
         },
         "title": "顧客割り当て",
-        "unallocatedPoints": "{{1}} の顧客ポイントが未割り当てのままです（{{2}}%）"
+        "unallocatedPoints": "{{1}} の顧客ポイントが未割り当てのままです（{{2}}%）",
+        "applyChanges": "変更を適用"
       },
       "allocationStepLabel": "顧客割り当て",
       "dataInputStep": "データ入力",

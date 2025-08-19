@@ -475,7 +475,8 @@
           "moveDownTooltip": "Descendre",
           "removeRuleTooltip": "Supprimer la règle",
           "addRuleButton": "Ajouter une règle"
-        }
+        },
+        "applyChanges": "Appliquer les modifications"
       },
       "allocationStepLabel": "Allocation des clients"
     },
@@ -508,7 +509,8 @@
     "customerPoints": {
       "connect": "Connecter",
       "customerPointSelected": "{{1}} point de consommation",
-      "disconnect": "Déconnecter"
+      "disconnect": "Déconnecter",
+      "reconnect": "Reconnecter"
     }
   }
 }

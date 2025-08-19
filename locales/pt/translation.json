@@ -475,7 +475,8 @@
           "moveDownTooltip": "Mover para baixo",
           "removeRuleTooltip": "Remover regra",
           "addRuleButton": "Adicionar Regra"
-        }
+        },
+        "applyChanges": "Aplicar Alterações"
       },
       "allocationStepLabel": "Alocação de Pontos de Consumo"
     },
@@ -508,7 +509,8 @@
     "customerPoints": {
       "connect": "Conectar",
       "customerPointSelected": "{{1}} ponto de consumo",
-      "disconnect": "Desconectar"
+      "disconnect": "Desconectar",
+      "reconnect": "Reconectar"
     }
   }
 }

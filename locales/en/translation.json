@@ -492,7 +492,8 @@
           "moveDownTooltip": "Move down",
           "removeRuleTooltip": "Remove rule",
           "addRuleButton": "Add Rule"
-        }
+        },
+        "applyChanges": "Apply Changes"
       }
     },
     "dataSource": {
@@ -507,6 +508,7 @@
   "contextActions": {
     "customerPoints": {
       "connect": "Connect",
+      "reconnect": "Reconnect",
       "disconnect": "Disconnect",
       "customerPointSelected": "{{1}} customer point"
     }

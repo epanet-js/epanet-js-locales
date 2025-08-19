@@ -475,7 +475,8 @@
           "moveDownTooltip": "Omlaag verplaatsen",
           "removeRuleTooltip": "Regel verwijderen",
           "addRuleButton": "Regel toevoegen"
-        }
+        },
+        "applyChanges": "Wijzigingen toepassen"
       },
       "allocationStepLabel": "Klanttoewijzing"
     },
@@ -508,7 +509,8 @@
     "customerPoints": {
       "connect": "Verbinden",
       "disconnect": "Verbinding verbreken",
-      "customerPointSelected": "{{1}} klantpunt"
+      "customerPointSelected": "{{1}} klantpunt",
+      "reconnect": "Opnieuw verbinden"
     }
   }
 }
