@@ -45,7 +45,7 @@
   "contextActions": {
     "customerPoints": {
       "connect": "接続",
-      "customerPointSelected": "顧客地点 {{1}}",
+      "customerPointSelected": "顧客ポイント {{1}}",
       "disconnect": "切断",
       "reconnect": "再接続"
     }
@@ -54,7 +54,7 @@
   "continueAnywayExplain": "続行することはできますが、エクスペリエンスが最適でない場合や、一部の機能が欠落している場合があります。",
   "continueWithLowResolution": "低解像度で続行",
   "continuousRamp": "連続",
-  "couldNotImportCustomerPoints": "顧客地点をインポートできませんでした。",
+  "couldNotImportCustomerPoints": "顧客ポイントをインポートできませんでした。",
   "create": "作成",
   "createNew": "新規作成...",
   "creationFailurePlural": "{{1}} 件の作成失敗",
@@ -62,10 +62,10 @@
   "currentPlan": "現在のプラン",
   "customer": "顧客",
   "customerDemand": "顧客需要",
-  "customerPoint": "顧客地点",
-  "customerPoints": "顧客地点",
-  "customerPointWithoutJunctionPlural": "有効な接点のない顧客地点 {{1}}",
-  "customerPointWithoutJunctionSingular": "有効な接点のない顧客地点 {{1}}",
+  "customerPoint": "顧客ポイント",
+  "customerPoints": "顧客ポイント",
+  "customerPointWithoutJunctionPlural": "有効な接点のない顧客ポイント {{1}}",
+  "customerPointWithoutJunctionSingular": "有効な接点のない顧客ポイント {{1}}",
   "customers": "顧客",
   "customMapLayers": "カスタムマップレイヤー",
   "customValueNotSupport": "カスタム {{1}} はサポートされていません ({{2}} を使用中)",
@@ -152,7 +152,7 @@
   "importCustomerPoints": {
     "dataSource": {
       "chooseFile": "ファイルを選択",
-      "noValidPointsError": "選択したファイルに有効な顧客地点が見つかりませんでした。",
+      "noValidPointsError": "選択したファイルに有効な顧客ポイントが見つかりませんでした。",
       "parseFileError": "ファイルの解析に失敗しました",
       "parsingFile": "ファイルを読み込み中...",
       "supportedFormats": "対応形式:",
@@ -160,7 +160,7 @@
     },
     "wizard": {
       "allocationStep": {
-        "allocatedPoints": "顧客地点 {{1}} 件が割り当てられます ({{2}}%)",
+        "allocatedPoints": "顧客ポイント {{1}} 件が割り当てられます ({{2}}%)",
         "allocationFailed": "割り当てに失敗しました: {{1}}",
         "cancelButton": "キャンセル",
         "computingMessage": "割り当てを計算しています...",
