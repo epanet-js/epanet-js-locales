@@ -15,6 +15,7 @@ export const DEFAULT_NS = "translation";
 export type TargetLang = { code: string; name: string };
 
 export const TARGET_LANGUAGES: TargetLang[] = [
+  { code: "es", name: "Español (ES)" },
   { code: "pt", name: "Português (BR)" },
   { code: "fr", name: "Français (FR)" },
   { code: "nl", name: "Nederlands (NL)" },
