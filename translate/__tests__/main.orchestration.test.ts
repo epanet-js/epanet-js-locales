@@ -72,10 +72,33 @@ vi.mock("../config", () => {
     ],
     VERBOSE: false,
     DRY_RUN: false,
+    IS_GITHUB_ACTIONS: false,
+    SLACK_OUTPUT_FILE: "slack-payload.json",
+    SLACK_MAX_CHARACTERS: 3000,
+    SLACK_TRUNCATE_SUFFIX: "... Review the commit for full details",
     CHUNK_SIZE: 999,
     MAX_RETRIES: 2,
     RETRY_BASE_MS: 1,
     vlog: () => {},
+  };
+});
+
+// Mock Slack data collection
+vi.mock("../slack-data", () => {
+  return {
+    slackLog: vi.fn(),
+    slackLogLanguage: vi.fn(),
+    slackLogError: vi.fn(),
+    slackSetCommitUrl: vi.fn(),
+    slackSetEnglishChanges: vi.fn(),
+    slackGeneratePayload: vi.fn(() => ({
+      url: "",
+      updatedKeys: "",
+      spanishTranslation: "",
+      status: "",
+      summary: "",
+    })),
+    slackReset: vi.fn(),
   };
 });
 

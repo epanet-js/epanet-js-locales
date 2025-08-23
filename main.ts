@@ -14,14 +14,28 @@ import {
   LOCALES_DIR,
   DEFAULT_NS,
   TARGET_LANGUAGES,
+  IS_GITHUB_ACTIONS,
+  SLACK_OUTPUT_FILE,
 } from "./translate/config";
 import { readJson, writeJsonAtomic, JSONObject } from "./translate/fs-utils";
 import { translateValues } from "./translate/llm";
-import { diffKeys } from "./translate/diff";
+import { diffKeys, diffEnglishChanges } from "./translate/diff";
 import { deleteAtPath, setAtPath } from "./translate/walkers";
+import {
+  slackLog,
+  slackLogLanguage,
+  slackLogError,
+  slackSetCommitUrl,
+  slackSetEnglishChanges,
+  slackGeneratePayload,
+  slackReset,
+} from "./translate/slack-data";
 
 export async function run(languageCode?: string) {
   console.log("Starting translation workflow...");
+
+  // Initialize Slack data collection
+  slackReset();
 
   await initI18n();
 
@@ -35,6 +49,34 @@ export async function run(languageCode?: string) {
   const liveEN = (await response.json()) as JSONObject;
   const localENPath = path.join(LOCALES_DIR, "en", `${DEFAULT_NS}.json`);
   const localEN = await readJson(localENPath);
+
+  // Detect English changes for Slack notifications
+  const englishChanges = diffEnglishChanges(liveEN, localEN);
+  slackSetEnglishChanges({
+    addedKeys: englishChanges.addedKeys.map((p) => p.join(".")),
+    removedKeys: englishChanges.removedKeys.map((p) => p.join(".")),
+    modifiedKeys: englishChanges.modifiedKeys.map((p) => p.join(".")),
+    sampleStrings: [],
+    //sampleStrings: [
+    //  ...englishChanges.addedValues.slice(0, 3).map((value, i) => ({
+    //    key: englishChanges.addedKeys[i].join("."),
+    //    value,
+    //  })),
+    //  ...englishChanges.modifiedValues.slice(0, 2).map((mod) => ({
+    //    key: mod.key.join("."),
+    //    value: mod.newValue,
+    //  })),
+    //].slice(0, 5), // Limit to 5 sample strings
+  });
+
+  // Set commit URL for Slack notifications
+  const commitUrl =
+    IS_GITHUB_ACTIONS && process.env.GITHUB_SHA && process.env.GITHUB_REPOSITORY
+      ? `${process.env.GITHUB_SERVER_URL || "https://github.com"}/${
+          process.env.GITHUB_REPOSITORY
+        }/commit/${process.env.GITHUB_SHA}`
+      : LIVE_ENGLISH_URL; // Fallback to live EN URL for local development
+  slackSetCommitUrl(commitUrl);
 
   // Filter languages based on languageCode parameter
   const languagesToProcess = languageCode
@@ -73,6 +115,16 @@ export async function run(languageCode?: string) {
         `[SUMMARY] ${toTranslateValues.length} strings to translate (${lang.code}), ${deleted.length} keys to delete`,
       );
 
+      // Collect language processing data for Slack
+      slackLogLanguage(lang.code, {
+        langCode: lang.code,
+        langName: lang.name,
+        stringsTranslated: toTranslateValues.length,
+        keysDeleted: deleted.length,
+        addedKeys: toTranslatePaths.map((p) => p.join(".")),
+        deletedKeys: deleted.map((p) => p.join(".")),
+      });
+
       const translatedValues =
         toTranslateValues.length > 0
           ? await translateValues(toTranslateValues, lang, liveEN, targetJson)
@@ -83,6 +135,16 @@ export async function run(languageCode?: string) {
       for (const p of deleted) deleteAtPath(updated, p);
       for (let i = 0; i < toTranslatePaths.length; i++) {
         setAtPath(updated, toTranslatePaths[i], translatedValues[i]);
+      }
+
+      // Collect sample translations for Slack (Spanish only)
+      if (lang.code === "es" && toTranslateValues.length > 0) {
+        const sampleTranslations = toTranslateValues.map((original, i) => ({
+          key: toTranslatePaths[i].join("."),
+          english: original,
+          translated: translatedValues[i],
+        }));
+        slackLogLanguage(lang.code, { sampleTranslations });
       }
 
       proposed.push({
@@ -109,9 +171,33 @@ export async function run(languageCode?: string) {
     }
 
     console.log("\nTranslation workflow finished successfully.");
+
+    // Generate and write Slack payload if in GitHub Actions
+    if (IS_GITHUB_ACTIONS) {
+      const payload = slackGeneratePayload();
+      await writeJsonAtomic(SLACK_OUTPUT_FILE, payload);
+      console.log(`📤 Slack payload written to ${SLACK_OUTPUT_FILE}`);
+    }
   } catch (err: any) {
     console.error("\n❌ Aborting — a failure occurred. No files were written.");
     console.error(err?.stack || err?.message || String(err));
+
+    // Log error for Slack notifications
+    slackLogError(err?.message || String(err));
+
+    // Generate and write Slack payload even on error if in GitHub Actions
+    if (IS_GITHUB_ACTIONS) {
+      try {
+        const payload = slackGeneratePayload();
+        await writeJsonAtomic(SLACK_OUTPUT_FILE, payload);
+        console.log(
+          `📤 Slack payload written to ${SLACK_OUTPUT_FILE} (error state)`,
+        );
+      } catch (payloadError) {
+        console.error("Failed to write Slack payload:", payloadError);
+      }
+    }
+
     process.exitCode = 1;
     throw err; // rethrow so tests can assert failure
   }

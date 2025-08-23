@@ -47,3 +47,78 @@ export function diffKeys(
 
   return { deleted, toTranslatePaths, toTranslateValues };
 }
+
+/**
+ * Detect changes between live EN and local EN files
+ * Used for tracking English changes in Slack notifications
+ */
+export function diffEnglishChanges(
+  liveEN: JSONObject,
+  localEN: JSONObject,
+): {
+  addedKeys: PathArr[];
+  removedKeys: PathArr[];
+  modifiedKeys: PathArr[];
+  addedValues: string[];
+  removedValues: string[];
+  modifiedValues: Array<{ key: PathArr; oldValue: string; newValue: string }>;
+} {
+  const liveLeaves = [...walkLeaves(liveEN)];
+  const localLeaves = [...walkLeaves(localEN)];
+
+  // Create maps for efficient lookup
+  const liveMap = new Map(liveLeaves.map((l) => [l.path.join("\u0000"), l]));
+  const localMap = new Map(localLeaves.map((l) => [l.path.join("\u0000"), l]));
+
+  const addedKeys: PathArr[] = [];
+  const removedKeys: PathArr[] = [];
+  const modifiedKeys: PathArr[] = [];
+  const addedValues: string[] = [];
+  const removedValues: string[] = [];
+  const modifiedValues: Array<{
+    key: PathArr;
+    oldValue: string;
+    newValue: string;
+  }> = [];
+
+  // Find added keys (in liveEN but not in localEN)
+  for (const liveLeaf of liveLeaves) {
+    const key = liveLeaf.path.join("\u0000");
+    if (!localMap.has(key)) {
+      addedKeys.push(liveLeaf.path);
+      addedValues.push(liveLeaf.value);
+    }
+  }
+
+  // Find removed keys (in localEN but not in liveEN)
+  for (const localLeaf of localLeaves) {
+    const key = localLeaf.path.join("\u0000");
+    if (!liveMap.has(key)) {
+      removedKeys.push(localLeaf.path);
+      removedValues.push(localLeaf.value);
+    }
+  }
+
+  // Find modified keys (in both but with different values)
+  for (const liveLeaf of liveLeaves) {
+    const key = liveLeaf.path.join("\u0000");
+    const localLeaf = localMap.get(key);
+    if (localLeaf && localLeaf.value !== liveLeaf.value) {
+      modifiedKeys.push(liveLeaf.path);
+      modifiedValues.push({
+        key: liveLeaf.path,
+        oldValue: localLeaf.value,
+        newValue: liveLeaf.value,
+      });
+    }
+  }
+
+  return {
+    addedKeys,
+    removedKeys,
+    modifiedKeys,
+    addedValues,
+    removedValues,
+    modifiedValues,
+  };
+}

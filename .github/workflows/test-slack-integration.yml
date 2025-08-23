@@ -1,16 +1,12 @@
-name: "Auto Translate Locale Files"
+name: "Test Slack Integration"
 
 on:
-  schedule:
-    - cron: "0 5 * * *" # Runs every day at 5 AM UTC
-  workflow_dispatch: {} # Adds a "Run workflow" button in the GitHub UI
+  workflow_dispatch:
+    description: "Test Slack notification integration"
 
 jobs:
-  translate:
+  test-slack:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Important: Allows the action to commit to the repo
-
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
@@ -28,12 +24,30 @@ jobs:
       - name: "Install dependencies"
         run: pnpm install
 
-      - name: "Run translation script"
+      - name: "Run translation script (dry run)"
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_ACTIONS: "true"
+          DRY_RUN: "true"
           SLACK_OUTPUT_FILE: "slack-payload.json"
         run: pnpm run translate
+
+      - name: "Display GitHub environment variables"
+        run: |
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"  
+          echo "GITHUB_SERVER_URL: $GITHUB_SERVER_URL"
+          echo "Expected commit URL: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
+
+      - name: "Display generated payload"
+        run: |
+          if [ -f slack-payload.json ]; then
+            echo "Generated Slack payload:"
+            cat slack-payload.json
+          else
+            echo "No Slack payload file found"
+            exit 1
+          fi
 
       - name: "Read Slack payload"
         id: slack
@@ -45,25 +59,10 @@ jobs:
             echo "payload-exists=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: "Send Slack notification on success"
-        if: success() && steps.slack.outputs.payload-exists == 'true'
+      - name: "Send Slack notification"
+        if: steps.slack.outputs.payload-exists == 'true'
         uses: slackapi/slack-github-action@v2.1.1
         with:
           payload: ${{ steps.slack.outputs.payload }}
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: webhook-trigger
-
-      - name: "Send Slack notification on failure"
-        if: failure() && steps.slack.outputs.payload-exists == 'true'
-        uses: slackapi/slack-github-action@v2.1.1
-        with:
-          payload: ${{ steps.slack.outputs.payload }}
-          webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
-          webhook-type: webhook-trigger
-
-      - name: "Commit and push changes"
-        if: success()
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: 🤖 auto-translate locale files"
-          file_pattern: "locales/**/*.json"

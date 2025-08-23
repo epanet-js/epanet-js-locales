@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { diffKeys } from "../diff";
+import { diffKeys, diffEnglishChanges } from "../diff";
 import {
   liveEN,
   localEN_previous,
@@ -42,5 +42,132 @@ describe("diffKeys", () => {
     // NL already has app.about and others; only modified key is app.about (since localEN changed),
     // but target has a translation (we still re-translate because source changed!)
     expect(toTranslatePaths.map((p) => p.join("."))).toContain("app.about");
+  });
+});
+
+describe("diffEnglishChanges", () => {
+  it("should detect added keys", () => {
+    const liveEN = {
+      existing: "Existing value",
+      newKey: "New value",
+    };
+    const localEN = {
+      existing: "Existing value",
+    };
+
+    const result = diffEnglishChanges(liveEN, localEN);
+
+    expect(result.addedKeys).toHaveLength(1);
+    expect(result.addedKeys[0]).toEqual(["newKey"]);
+    expect(result.addedValues).toContain("New value");
+    expect(result.removedKeys).toHaveLength(0);
+    expect(result.modifiedKeys).toHaveLength(0);
+  });
+
+  it("should detect removed keys", () => {
+    const liveEN = {
+      existing: "Existing value",
+    };
+    const localEN = {
+      existing: "Existing value",
+      oldKey: "Old value",
+    };
+
+    const result = diffEnglishChanges(liveEN, localEN);
+
+    expect(result.removedKeys).toHaveLength(1);
+    expect(result.removedKeys[0]).toEqual(["oldKey"]);
+    expect(result.removedValues).toContain("Old value");
+    expect(result.addedKeys).toHaveLength(0);
+    expect(result.modifiedKeys).toHaveLength(0);
+  });
+
+  it("should detect modified keys", () => {
+    const liveEN = {
+      existing: "New value",
+    };
+    const localEN = {
+      existing: "Old value",
+    };
+
+    const result = diffEnglishChanges(liveEN, localEN);
+
+    expect(result.modifiedKeys).toHaveLength(1);
+    expect(result.modifiedKeys[0]).toEqual(["existing"]);
+    expect(result.modifiedValues).toHaveLength(1);
+    expect(result.modifiedValues[0]).toEqual({
+      key: ["existing"],
+      oldValue: "Old value",
+      newValue: "New value",
+    });
+    expect(result.addedKeys).toHaveLength(0);
+    expect(result.removedKeys).toHaveLength(0);
+  });
+
+  it("should handle nested objects", () => {
+    const liveEN = {
+      nested: {
+        key1: "value1",
+        key2: "new value2",
+      },
+    };
+    const localEN = {
+      nested: {
+        key1: "value1",
+        key2: "old value2",
+      },
+    };
+
+    const result = diffEnglishChanges(liveEN, localEN);
+
+    expect(result.modifiedKeys).toHaveLength(1);
+    expect(result.modifiedKeys[0]).toEqual(["nested", "key2"]);
+    expect(result.modifiedValues[0]).toEqual({
+      key: ["nested", "key2"],
+      oldValue: "old value2",
+      newValue: "new value2",
+    });
+  });
+
+  it("should handle complex scenarios", () => {
+    const liveEN = {
+      unchanged: "same value",
+      modified: "new value",
+      added: "new key",
+    };
+    const localEN = {
+      unchanged: "same value",
+      modified: "old value",
+      removed: "old key",
+    };
+
+    const result = diffEnglishChanges(liveEN, localEN);
+
+    expect(result.addedKeys).toHaveLength(1);
+    expect(result.addedKeys[0]).toEqual(["added"]);
+    expect(result.addedValues).toContain("new key");
+
+    expect(result.removedKeys).toHaveLength(1);
+    expect(result.removedKeys[0]).toEqual(["removed"]);
+    expect(result.removedValues).toContain("old key");
+
+    expect(result.modifiedKeys).toHaveLength(1);
+    expect(result.modifiedKeys[0]).toEqual(["modified"]);
+    expect(result.modifiedValues[0]).toEqual({
+      key: ["modified"],
+      oldValue: "old value",
+      newValue: "new value",
+    });
+  });
+
+  it("should handle empty objects", () => {
+    const result = diffEnglishChanges({}, {});
+
+    expect(result.addedKeys).toHaveLength(0);
+    expect(result.removedKeys).toHaveLength(0);
+    expect(result.modifiedKeys).toHaveLength(0);
+    expect(result.addedValues).toHaveLength(0);
+    expect(result.removedValues).toHaveLength(0);
+    expect(result.modifiedValues).toHaveLength(0);
   });
 });

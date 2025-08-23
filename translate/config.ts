@@ -27,6 +27,13 @@ export const VERBOSE =
 export const DRY_RUN =
   process.env.DRY_RUN === "true" || process.env.DRY_RUN === "1";
 
+// Slack notification settings
+export const IS_GITHUB_ACTIONS = process.env.GITHUB_ACTIONS === "true";
+export const SLACK_OUTPUT_FILE =
+  process.env.SLACK_OUTPUT_FILE || "slack-payload.json";
+export const SLACK_MAX_CHARACTERS = 2900;
+export const SLACK_TRUNCATE_SUFFIX = "... Review the commit for full details";
+
 // LLM chunk & retry settings
 export const CHUNK_SIZE = 150;
 export const MAX_RETRIES = 3;
