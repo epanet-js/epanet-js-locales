@@ -35,29 +35,19 @@ jobs:
           SLACK_OUTPUT_FILE: "slack-payload.json"
         run: pnpm run translate
 
-      - name: "Read Slack payload"
-        id: slack
-        run: |
-          if [ -f slack-payload.json ]; then
-            echo "payload=$(cat slack-payload.json)" >> $GITHUB_OUTPUT
-            echo "payload-exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "payload-exists=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: "Send Slack notification on success"
-        if: success() && steps.slack.outputs.payload-exists == 'true'
+        if: success() && hashFiles('slack-payload.json') != ''
         uses: slackapi/slack-github-action@v2.1.1
         with:
-          payload: ${{ steps.slack.outputs.payload }}
+          payload-file-path: "./slack-payload.json"
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: webhook-trigger
 
       - name: "Send Slack notification on failure"
-        if: failure() && steps.slack.outputs.payload-exists == 'true'
+        if: failure() && hashFiles('slack-payload.json') != ''
         uses: slackapi/slack-github-action@v2.1.1
         with:
-          payload: ${{ steps.slack.outputs.payload }}
+          payload-file-path: "./slack-payload.json"
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: webhook-trigger
 
