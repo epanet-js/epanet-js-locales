@@ -94,6 +94,9 @@ export async function run(languageCode?: string) {
   const proposed: { langCode: string; filePath: string; data: JSONObject }[] =
     [];
 
+  let hasErrors = false;
+  let errorMessage = "";
+
   try {
     for (const lang of languagesToProcess) {
       console.log(`\n--- Processing ${lang.name} (${lang.code}) ---`);
@@ -125,33 +128,45 @@ export async function run(languageCode?: string) {
         deletedKeys: deleted.map((p) => p.join(".")),
       });
 
-      const translatedValues =
-        toTranslateValues.length > 0
-          ? await translateValues(toTranslateValues, lang, liveEN, targetJson)
-          : [];
+      try {
+        const translatedValues =
+          toTranslateValues.length > 0
+            ? await translateValues(toTranslateValues, lang, liveEN, targetJson)
+            : [];
 
-      const updated = JSON.parse(JSON.stringify(targetJson)) as JSONObject;
+        const updated = JSON.parse(JSON.stringify(targetJson)) as JSONObject;
 
-      for (const p of deleted) deleteAtPath(updated, p);
-      for (let i = 0; i < toTranslatePaths.length; i++) {
-        setAtPath(updated, toTranslatePaths[i], translatedValues[i]);
+        for (const p of deleted) deleteAtPath(updated, p);
+        for (let i = 0; i < toTranslatePaths.length; i++) {
+          setAtPath(updated, toTranslatePaths[i], translatedValues[i]);
+        }
+
+        // Collect sample translations for Slack (Spanish only)
+        if (lang.code === "es" && toTranslateValues.length > 0) {
+          const sampleTranslations = toTranslateValues.map((original, i) => ({
+            key: toTranslatePaths[i].join("."),
+            english: original,
+            translated: translatedValues[i],
+          }));
+          slackLogLanguage(lang.code, { sampleTranslations });
+        }
+
+        proposed.push({
+          langCode: lang.code,
+          filePath: targetPath,
+          data: updated,
+        });
+      } catch (translationError: any) {
+        hasErrors = true;
+        errorMessage = translationError?.message || String(translationError);
+        console.error(`❌ Translation failed for ${lang.code}:`, errorMessage);
+
+        // Log error for Slack notifications
+        slackLogError(`Translation failed for ${lang.code}: ${errorMessage}`);
+
+        // Continue with other languages instead of aborting
+        continue;
       }
-
-      // Collect sample translations for Slack (Spanish only)
-      if (lang.code === "es" && toTranslateValues.length > 0) {
-        const sampleTranslations = toTranslateValues.map((original, i) => ({
-          key: toTranslatePaths[i].join("."),
-          english: original,
-          translated: translatedValues[i],
-        }));
-        slackLogLanguage(lang.code, { sampleTranslations });
-      }
-
-      proposed.push({
-        langCode: lang.code,
-        filePath: targetPath,
-        data: updated,
-      });
     }
 
     if (DRY_RUN) {
@@ -170,13 +185,22 @@ export async function run(languageCode?: string) {
       }
     }
 
-    console.log("\nTranslation workflow finished successfully.");
+    if (hasErrors) {
+      console.log("\n⚠️  Translation workflow completed with errors.");
+    } else {
+      console.log("\n✅ Translation workflow finished successfully.");
+    }
 
     // Generate and write Slack payload if in GitHub Actions
     if (IS_GITHUB_ACTIONS) {
       const payload = slackGeneratePayload();
       await writeJsonAtomic(SLACK_OUTPUT_FILE, payload);
       console.log(`📤 Slack payload written to ${SLACK_OUTPUT_FILE}`);
+    }
+
+    // Set exit code if there were errors
+    if (hasErrors) {
+      process.exitCode = 1;
     }
   } catch (err: any) {
     console.error("\n❌ Aborting — a failure occurred. No files were written.");

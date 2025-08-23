@@ -191,7 +191,9 @@ export class SlackDataCollector {
     }
 
     // Add translation summary
-    if (totalStringsTranslated > 0) {
+    if (this.errors.length > 0) {
+      summary += `\n\nTranslation errors occurred - some languages may not be fully translated`;
+    } else if (totalStringsTranslated > 0) {
       summary += `\n\nAll strings were translated in all languages`;
     } else {
       summary += `\n\nNo translations were needed`;
