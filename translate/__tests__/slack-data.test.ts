@@ -113,7 +113,7 @@ describe("SlackDataCollector", () => {
 
       const payload = slackGeneratePayload();
 
-      expect(payload.status).toBe("🟡 Warning - No translations were needed");
+      expect(payload.status).toBe("⚪️ No translations were needed");
       expect(payload.summary).toContain("No translations were needed");
     });
 
@@ -123,7 +123,7 @@ describe("SlackDataCollector", () => {
       expect(payload.url).toBe("");
       expect(payload.updatedKeys).toBe("No languages were processed");
       expect(payload.spanishTranslation).toBe("");
-      expect(payload.status).toBe("🟡 Warning - No translations were needed");
+      expect(payload.status).toBe("⚪️ No translations were needed");
       expect(payload.summary).toContain(
         "No changes detected in English local file",
       );

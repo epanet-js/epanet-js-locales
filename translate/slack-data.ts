@@ -164,7 +164,7 @@ export class SlackDataCollector {
     if (this.errors.length > 0) {
       status = "🔴 Failed - Translation errors occurred";
     } else if (totalStringsTranslated === 0) {
-      status = "🟡 Warning - No translations were needed";
+      status = "⚪️ No translations were needed";
     } else {
       status = "🟢 Passed - No issues in translation";
     }
