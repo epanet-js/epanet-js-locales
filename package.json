@@ -8,6 +8,7 @@
     "translate": "tsx main.ts",
     "translate:verbose": "VERBOSE=1 tsx main.ts",
     "translate:dry": "DRY_RUN=1 tsx main.ts",
+    "translate:es": "tsx main.ts es",
     "translate:pt": "tsx main.ts pt",
     "translate:fr": "tsx main.ts fr",
     "translate:nl": "tsx main.ts nl",

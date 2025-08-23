@@ -16,9 +16,11 @@ The script then uses Google's Gemini AI to translate the new/modified keys and s
 
 Currently translates to:
 
+- **Spanish (ES)** - `es`
 - **Portuguese (BR)** - `pt`
 - **French (FR)** - `fr`
 - **Dutch (NL)** - `nl`
+- **Japanese (JA)** - `ja`
 
 ## How to run
 
@@ -41,6 +43,14 @@ Currently translates to:
 pnpm start
 ```
 
+### Running the script for just one language
+
+Update only spanish:
+
+```bash
+pnpm translate:es
+```
+
 ### Verbose logging
 
 For debugging API issues, enable verbose logging:
@@ -60,7 +70,9 @@ The translation process runs automatically every night at 5 AM UTC via GitHub Ac
 ```
 locales/
 ├── en/          # English (source)
+├── es/          # Spanish
 ├── fr/          # French
 ├── nl/          # Dutch
 └── pt/          # Portuguese
+└── ja/          # Japanese
 ```
