@@ -463,7 +463,35 @@
           "description": "Mantener las demandas base actuales y agregar las demandas de los puntos de consumo. Usa esta opción para incluir tanto las demandas existentes como las basadas en consumo."
         },
         "processingMessage": "Conectando puntos de consumo a la red..."
-      }
+      },
+      "allocationStep": {
+        "allocatedPoints": "{{1}} puntos de consumo serán asignados ({{2}}%)",
+        "allocationFailed": "Asignación fallida: {{1}}",
+        "applyChanges": "Aplicar Cambios",
+        "cancelButton": "Cancelar",
+        "computingMessage": "Calculando asignaciones...",
+        "description": "Define reglas para conectar puntos de consumo a tuberías. Puedes especificar múltiples pares de distancia máxima y diámetro máximo para controlar cómo se asignan los puntos de consumo a la red.",
+        "editButton": "Editar",
+        "processingMessage": "Procesando reglas de asignación...",
+        "rulesTitle": "Reglas de Asignación",
+        "saveButton": "Guardar",
+        "summaryTitle": "Resumen de Asignación ({{1}} puntos de consumo totales)",
+        "table": {
+          "actionsHeader": "Acciones",
+          "addRuleButton": "Añadir Regla",
+          "allocationsHeader": "Asignaciones",
+          "maxDiameterLabel": "Diámetro Máx.",
+          "maxDistanceLabel": "Distancia Máx.",
+          "moveDownTooltip": "Bajar",
+          "moveUpTooltip": "Subir",
+          "noRulesMessage": "No se han definido reglas de asignación. Haz clic en \"Añadir Regla\" para crear tu primera regla.",
+          "orderHeader": "Orden",
+          "removeRuleTooltip": "Eliminar regla"
+        },
+        "title": "Asignación de Clientes",
+        "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)"
+      },
+      "allocationStepLabel": "Asignación de Clientes"
     },
     "dataSource": {
       "title": "Añadir desde Archivo",
@@ -473,5 +501,23 @@
       "parsingFile": "Leyendo archivo...",
       "chooseFile": "Elegir Archivo"
     }
+  },
+  "contextActions": {
+    "customerPoints": {
+      "connect": "Conectar",
+      "customerPointSelected": "{{1}} punto de consumo",
+      "disconnect": "Desconectar",
+      "reconnect": "Reconectar"
+    }
+  },
+  "customerPoint": "Punto de Consumo",
+  "onboardingConnectCustomerPoints": "Haz clic en una tubería para conectar el punto de consumo.",
+  "onboardingShiftConnectCustomerPoints": "Mantén {{1}} para conectar los puntos de consumo en la ubicación del cursor.",
+  "wizard": {
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "finish": "Finalizar",
+    "next": "Siguiente",
+    "processing": "Procesando..."
   }
 }
