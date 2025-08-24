@@ -38,9 +38,9 @@
   "simulationStatus": "Estado da Simulação",
   "actualStatus": "Estado Atual",
   "open": "Aberta",
-  "closed": "Fechada",
+  "closed": "Fechada (fechado)",
   "pipe.open": "Aberta",
-  "pipe.closed": "Fechada",
+  "pipe.closed": "Fechada (pipe.closed)",
   "pipe.cv": "Válvula de Retenção",
   "pump.on": "Ligada",
   "pump.off": "Desligada",
@@ -249,8 +249,8 @@
   "upgradeYourAccount": "Atualize sua Conta",
   "upgrade": "Atualizar",
   "planExplain": "Plano {{1}}",
-  "plan.pro": "Profissional",
-  "plan.free": "Gratuito",
+  "plan.pro": "Plano Profissional",
+  "plan.free": "Plano Gratuito",
   "plan.education": "Educação",
   "plan.personal": "Pessoal",
   "for": "Para",
@@ -512,5 +512,7 @@
       "disconnect": "Desconectar",
       "reconnect": "Reconectar"
     }
-  }
+  },
+  "location": "Localização",
+  "searchLocation": "Pesquisar por uma localização..."
 }

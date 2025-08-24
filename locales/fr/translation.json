@@ -38,9 +38,9 @@
   "simulationStatus": "État de la Simulation",
   "actualStatus": "État Actuel",
   "open": "Ouvert",
-  "closed": "Fermé",
+  "closed": "Fermé (closed)",
   "pipe.open": "Ouvert",
-  "pipe.closed": "Fermé",
+  "pipe.closed": "Fermé (pipe.closed)",
   "pipe.cv": "Clapet Anti-Retour",
   "pump.on": "En marche",
   "pump.off": "Arrêté",
@@ -249,8 +249,8 @@
   "upgradeYourAccount": "Améliorer votre compte",
   "upgrade": "Améliorer",
   "planExplain": "Plan {{1}}",
-  "plan.pro": "Professionnel",
-  "plan.free": "Gratuit",
+  "plan.pro": "Plan Professionnel",
+  "plan.free": "Plan Gratuit",
   "plan.education": "Éducation",
   "plan.personal": "Personnel",
   "for": "Pour",
@@ -512,5 +512,7 @@
       "disconnect": "Déconnecter",
       "reconnect": "Reconnecter"
     }
-  }
+  },
+  "location": "Localisation",
+  "searchLocation": "Rechercher un lieu..."
 }

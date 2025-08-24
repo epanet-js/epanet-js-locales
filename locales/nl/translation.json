@@ -38,9 +38,9 @@
   "simulationStatus": "Simulatiestatus",
   "actualStatus": "Actuele Status",
   "open": "Open",
-  "closed": "Gesloten",
+  "closed": "Gesloten (gesloten)",
   "pipe.open": "Open",
-  "pipe.closed": "Gesloten",
+  "pipe.closed": "Gesloten (pipe.closed)",
   "pipe.cv": "Terugslagklep",
   "pump.on": "Aan",
   "pump.off": "Uit",
@@ -249,8 +249,8 @@
   "upgradeYourAccount": "Upgrade uw account",
   "upgrade": "Upgraden",
   "planExplain": "{{1}} abonnement",
-  "plan.pro": "Professioneel",
-  "plan.free": "Gratis",
+  "plan.pro": "Professioneel abonnement",
+  "plan.free": "Gratis abonnement",
   "plan.education": "Onderwijs",
   "plan.personal": "Persoonlijk",
   "for": "Voor",
@@ -512,5 +512,7 @@
       "customerPointSelected": "{{1}} klantpunt",
       "reconnect": "Opnieuw verbinden"
     }
-  }
+  },
+  "location": "Locatie",
+  "searchLocation": "Zoeken naar een locatie..."
 }

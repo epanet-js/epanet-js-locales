@@ -512,5 +512,7 @@
   "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。",
   "year": "年",
   "yearlyWithDiscount": "年払い - 最大{{1}}%割引",
-  "zoomTo": "ズーム"
+  "zoomTo": "ズーム",
+  "location": "場所",
+  "searchLocation": "場所を検索..."
 }
