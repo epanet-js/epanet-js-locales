@@ -514,5 +514,10 @@
     }
   },
   "location": "Localisation",
-  "searchLocation": "Rechercher un lieu..."
+  "searchLocation": "Rechercher un lieu...",
+  "demoNetworksTitle": "Réseaux de Démonstration",
+  "deprecatedImportFromGIS": "Importer depuis des données SIG",
+  "deprecatedStartBlankProject": "Démarrer un projet vierge",
+  "startNotificationLanguageDescription": "Nous pensions que vous aimeriez utiliser epanet-js dans votre langue. Il est actuellement en version bêta, et il pourrait ne pas être entièrement précis. Vous pouvez changer de langue à tout moment.",
+  "startNotificationLanguageTitle": "Cette langue est en version bêta"
 }

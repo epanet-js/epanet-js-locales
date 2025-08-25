@@ -174,7 +174,7 @@
   "newProject": "Nuevo Proyecto",
   "create": "Crear",
   "createNew": "Crear nuevo...",
-  "startBlankProject": "Iniciar proyecto en blanco",
+  "startBlankProject": "Iniciar Proyecto",
   "startFromExample": "Iniciar desde ejemplo",
   "importFromINP": "Importar desde archivo INP",
   "openINP": "Abrir INP",
@@ -521,5 +521,10 @@
     "processing": "Procesando..."
   },
   "location": "Ubicación",
-  "searchLocation": "Buscar una ubicación..."
+  "searchLocation": "Buscar una ubicación...",
+  "demoNetworksTitle": "Redes de Ejemplo",
+  "deprecatedImportFromGIS": "Importar desde datos GIS",
+  "deprecatedStartBlankProject": "Iniciar proyecto en blanco",
+  "startNotificationLanguageDescription": "Pensamos que podrías disfrutar usando epanet-js en tu idioma. Actualmente está en beta y podría no ser completamente preciso. Puedes cambiar de idioma en cualquier momento.",
+  "startNotificationLanguageTitle": "Este idioma está en beta"
 }

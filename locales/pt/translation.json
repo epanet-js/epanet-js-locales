@@ -489,7 +489,7 @@
       "chooseFile": "Escolher Arquivo"
     }
   },
-  "startBlankProject": "Iniciar Projeto em Branco",
+  "startBlankProject": "Iniciar Projeto",
   "startFromExample": "Iniciar de Exemplo",
   "importFromINP": "Importar de Arquivo INP",
   "openINP": "Abrir INP",
@@ -514,5 +514,10 @@
     }
   },
   "location": "Localização",
-  "searchLocation": "Pesquisar por uma localização..."
+  "searchLocation": "Pesquisar por uma localização...",
+  "demoNetworksTitle": "Redes de Exemplo",
+  "deprecatedImportFromGIS": "Importar de Dados GIS",
+  "deprecatedStartBlankProject": "Iniciar Projeto em Branco",
+  "startNotificationLanguageDescription": "Achamos que você gostaria de usar o epanet-js em seu idioma. Atualmente, está em fase beta e pode não ser totalmente preciso. Você pode mudar de idioma a qualquer momento.",
+  "startNotificationLanguageTitle": "Este idioma está em beta"
 }

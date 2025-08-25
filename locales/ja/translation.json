@@ -428,7 +428,7 @@
   "somethingWentWrong": "問題が発生しました",
   "somethingWentWrongMessage": "問題が発生しました。エラーが続く場合は、サポートにお問い合わせください。",
   "speed": "速度",
-  "startBlankProject": "空のプロジェクトを開始",
+  "startBlankProject": "プロジェクトを開始",
   "startFromExample": "サンプルから開始",
   "startNode": "開始ノード",
   "status": "ステータス",
@@ -514,5 +514,10 @@
   "yearlyWithDiscount": "年払い - 最大{{1}}%割引",
   "zoomTo": "ズーム",
   "location": "場所",
-  "searchLocation": "場所を検索..."
+  "searchLocation": "場所を検索...",
+  "demoNetworksTitle": "デモネットワーク",
+  "deprecatedImportFromGIS": "GISデータからインポート",
+  "deprecatedStartBlankProject": "空のプロジェクトを開始",
+  "startNotificationLanguageDescription": "epanet-jsをあなたの言語でお楽しみいただければと存じます。現在ベータ版であり、完全に正確ではない可能性があります。いつでも言語を切り替えることができます。",
+  "startNotificationLanguageTitle": "この言語はベータ版です"
 }

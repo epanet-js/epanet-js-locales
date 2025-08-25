@@ -514,5 +514,10 @@
     }
   },
   "location": "Locatie",
-  "searchLocation": "Zoeken naar een locatie..."
+  "searchLocation": "Zoeken naar een locatie...",
+  "demoNetworksTitle": "Demonetwerken",
+  "deprecatedImportFromGIS": "Importeren uit GIS-gegevens",
+  "deprecatedStartBlankProject": "Start leeg project",
+  "startNotificationLanguageDescription": "We dachten dat u epanet-js graag in uw taal zou gebruiken. Het is momenteel in bèta en is mogelijk niet helemaal nauwkeurig. U kunt op elk moment van taal wisselen.",
+  "startNotificationLanguageTitle": "Deze taal is in bèta"
 }
