@@ -47,7 +47,7 @@
   "open": "Abierta",
   "closed": "Cerrada (cerrada)",
   "pipe.open": "Abierta",
-  "pipe.closed": "Cerrada (pipe.closed)",
+  "pipe.closed": "Cerrada",
   "pipe.cv": "Válvula de Retención",
   "pump.on": "Encendida",
   "pump.off": "Apagada",

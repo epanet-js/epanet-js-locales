@@ -40,7 +40,7 @@
   "open": "Open",
   "closed": "Gesloten (gesloten)",
   "pipe.open": "Open",
-  "pipe.closed": "Gesloten (pipe.closed)",
+  "pipe.closed": "Gesloten",
   "pipe.cv": "Terugslagklep",
   "pump.on": "Aan",
   "pump.off": "Uit",

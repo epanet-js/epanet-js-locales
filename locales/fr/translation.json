@@ -40,7 +40,7 @@
   "open": "Ouvert",
   "closed": "Fermé (closed)",
   "pipe.open": "Ouvert",
-  "pipe.closed": "Fermé (pipe.closed)",
+  "pipe.closed": "Fermé",
   "pipe.cv": "Clapet Anti-Retour",
   "pump.on": "En marche",
   "pump.off": "Arrêté",
