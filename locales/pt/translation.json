@@ -487,7 +487,8 @@
       "supportedFormats": "Formatos suportados:",
       "parsingFile": "Lendo arquivo...",
       "chooseFile": "Escolher Arquivo"
-    }
+    },
+    "label": "Importar Pontos de Consumo"
   },
   "startBlankProject": "Iniciar Projeto",
   "startFromExample": "Iniciar de Exemplo",
@@ -519,5 +520,10 @@
   "deprecatedImportFromGIS": "Importar de Dados GIS",
   "deprecatedStartBlankProject": "Iniciar Projeto em Branco",
   "startNotificationLanguageDescription": "Achamos que você gostaria de usar o epanet-js em seu idioma. Atualmente, está em fase beta e pode não ser totalmente preciso. Você pode mudar de idioma a qualquer momento.",
-  "startNotificationLanguageTitle": "Este idioma está em beta"
+  "startNotificationLanguageTitle": "Este idioma está em beta",
+  "importCustomerPointsWarning": {
+    "deleteAndImport": "Excluir e Importar",
+    "explain": "Seus pontos de consumo atuais serão permanentemente excluídos e substituídos pelos pontos da sua nova importação.",
+    "question": "Tem certeza de que deseja prosseguir?"
+  }
 }

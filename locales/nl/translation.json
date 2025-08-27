@@ -487,7 +487,8 @@
       "supportedFormats": "Ondersteunde formaten:",
       "parsingFile": "Bestand lezen...",
       "chooseFile": "Bestand kiezen"
-    }
+    },
+    "label": "Klantpunten importeren"
   },
   "startBlankProject": "Project starten",
   "startFromExample": "Start vanuit voorbeeld",
@@ -519,5 +520,10 @@
   "deprecatedImportFromGIS": "Importeren uit GIS-gegevens",
   "deprecatedStartBlankProject": "Start leeg project",
   "startNotificationLanguageDescription": "We dachten dat u epanet-js graag in uw taal zou gebruiken. Het is momenteel in bèta en is mogelijk niet helemaal nauwkeurig. U kunt op elk moment van taal wisselen.",
-  "startNotificationLanguageTitle": "Deze taal is in bèta"
+  "startNotificationLanguageTitle": "Deze taal is in bèta",
+  "importCustomerPointsWarning": {
+    "deleteAndImport": "Verwijderen en importeren",
+    "explain": "Uw huidige klantpunten worden permanent verwijderd en vervangen door de punten van uw nieuwe import.",
+    "question": "Weet u zeker dat u wilt doorgaan?"
+  }
 }

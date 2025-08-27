@@ -500,7 +500,8 @@
       "supportedFormats": "Formatos compatibles:",
       "parsingFile": "Leyendo archivo...",
       "chooseFile": "Elegir Archivo"
-    }
+    },
+    "label": "Importar Puntos de Consumo"
   },
   "contextActions": {
     "customerPoints": {
@@ -526,5 +527,10 @@
   "deprecatedImportFromGIS": "Importar desde datos GIS",
   "deprecatedStartBlankProject": "Iniciar proyecto en blanco",
   "startNotificationLanguageDescription": "Pensamos que podrías disfrutar usando epanet-js en tu idioma. Actualmente está en beta y podría no ser completamente preciso. Puedes cambiar de idioma en cualquier momento.",
-  "startNotificationLanguageTitle": "Este idioma está en beta"
+  "startNotificationLanguageTitle": "Este idioma está en beta",
+  "importCustomerPointsWarning": {
+    "deleteAndImport": "Eliminar e Importar",
+    "explain": "Tus puntos de consumo actuales se eliminarán permanentemente y se reemplazarán con los puntos de tu nueva importación.",
+    "question": "¿Estás seguro de que quieres continuar?"
+  }
 }

@@ -230,7 +230,8 @@
       "demandOptionsStep": "需要オプション",
       "stepsAriaLabel": "インポートウィザードの手順",
       "title": "顧客ポイントのインポート"
-    }
+    },
+    "label": "顧客ポイントをインポート"
   },
   "importedCustomerPointPlural": "{{1}} の顧客ポイントをインポートしました",
   "importedCustomerPointSingular": "{{1}} の顧客ポイントをインポートしました",
@@ -519,5 +520,10 @@
   "deprecatedImportFromGIS": "GISデータからインポート",
   "deprecatedStartBlankProject": "空のプロジェクトを開始",
   "startNotificationLanguageDescription": "epanet-jsをあなたの言語でお楽しみいただければと存じます。現在ベータ版であり、完全に正確ではない可能性があります。いつでも言語を切り替えることができます。",
-  "startNotificationLanguageTitle": "この言語はベータ版です"
+  "startNotificationLanguageTitle": "この言語はベータ版です",
+  "importCustomerPointsWarning": {
+    "deleteAndImport": "削除してインポート",
+    "explain": "現在の顧客ポイントは完全に削除され、新しくインポートするポイントに置き換えられます。",
+    "question": "続行してもよろしいですか？"
+  }
 }
