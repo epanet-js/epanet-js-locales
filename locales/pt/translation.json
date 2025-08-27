@@ -493,7 +493,7 @@
   "startFromExample": "Iniciar de Exemplo",
   "importFromINP": "Importar de Arquivo INP",
   "openINP": "Abrir INP",
-  "importFromGIS": "Importar de Dados GIS",
+  "importFromGIS": "Importar dados GIS",
   "wizard": {
     "cancel": "Cancelar",
     "back": "Voltar",

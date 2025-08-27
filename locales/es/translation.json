@@ -178,7 +178,7 @@
   "startFromExample": "Iniciar desde ejemplo",
   "importFromINP": "Importar desde archivo INP",
   "openINP": "Abrir INP",
-  "importFromGIS": "Importar desde datos GIS",
+  "importFromGIS": "Importar desde GIS",
   "dropInp": "Arrastra y suelta un archivo .INP aquí para abrir el modelo.",
   "inpMissing": "Tipo de archivo no soportado. Usa un archivo .INP.",
   "onlyOneInp": "Múltiples INPs",

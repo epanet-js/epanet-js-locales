@@ -235,7 +235,7 @@
   "importedCustomerPointPlural": "{{1}} の顧客ポイントをインポートしました",
   "importedCustomerPointSingular": "{{1}} の顧客ポイントをインポートしました",
   "importFailed": "インポートに失敗しました",
-  "importFromGIS": "GISデータからインポート",
+  "importFromGIS": "GISからインポート",
   "importFromINP": "INPファイルからインポート",
   "importSuccessful": "インポート成功",
   "individualNamedLicense": "個人向け指名ライセンス",

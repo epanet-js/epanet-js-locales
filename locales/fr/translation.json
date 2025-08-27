@@ -489,11 +489,11 @@
       "chooseFile": "Choisir un fichier"
     }
   },
-  "startBlankProject": "Démarrer un projet vierge",
+  "startBlankProject": "Démarrer un projet",
   "startFromExample": "Démarrer à partir d'un exemple",
   "importFromINP": "Importer depuis un fichier INP",
   "openINP": "Ouvrir INP",
-  "importFromGIS": "Importer depuis des données SIG",
+  "importFromGIS": "Importer depuis un SIG",
   "wizard": {
     "cancel": "Annuler",
     "back": "Retour",

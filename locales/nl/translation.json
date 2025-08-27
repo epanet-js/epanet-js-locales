@@ -489,11 +489,11 @@
       "chooseFile": "Bestand kiezen"
     }
   },
-  "startBlankProject": "Start leeg project",
+  "startBlankProject": "Project starten",
   "startFromExample": "Start vanuit voorbeeld",
   "importFromINP": "Importeren uit INP-bestand",
   "openINP": "INP openen",
-  "importFromGIS": "Importeren uit GIS-gegevens",
+  "importFromGIS": "Importeren vanuit GIS",
   "earlyAccess": "Vroege toegang",
   "wizard": {
     "cancel": "Annuleren",
