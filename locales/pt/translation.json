@@ -274,7 +274,6 @@
   "cloudStorage": "Armazenamento na nuvem",
   "pointInTimeRestore": "Recuperação pontual - {{1}} dias",
   "demandsAnalysis": "Análise de demandas",
-  "liveDataCompare": "Comparação com dados ao vivo",
   "monthShort": "mês",
   "year": "ano",
   "upgradeTo": "Atualizar para {{1}}",

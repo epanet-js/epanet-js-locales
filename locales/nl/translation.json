@@ -274,7 +274,6 @@
   "cloudStorage": "Cloud opslag",
   "pointInTimeRestore": "Point-in-time herstel - {{1}} dagen",
   "demandsAnalysis": "Vraaganalyse",
-  "liveDataCompare": "Live data vergelijken",
   "monthShort": "mnd",
   "year": "jaar",
   "upgradeTo": "Upgraden naar {{1}}",

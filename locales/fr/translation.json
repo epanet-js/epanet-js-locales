@@ -274,7 +274,6 @@
   "cloudStorage": "Stockage cloud",
   "pointInTimeRestore": "Restauration à un moment donné - {{1}} jours",
   "demandsAnalysis": "Analyse des demandes",
-  "liveDataCompare": "Comparaison de données en temps réel",
   "monthShort": "mois",
   "year": "année",
   "upgradeTo": "Améliorer vers {{1}}",
