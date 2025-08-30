@@ -435,7 +435,8 @@
           "invalidJsonLines": "Linhas JSON inválidas ({{1}})",
           "creationFailures": "Falhas na criação ({{1}})",
           "noValidJunction": "Nenhum nó válido ({{1}})",
-          "connectionFailures": "Falhas de conexão ({{1}})"
+          "connectionFailures": "Falhas de conexão ({{1}})",
+          "invalidDemands": "Demandas inválidas ({{1}})"
         }
       },
       "demandOptions": {
@@ -485,7 +486,8 @@
       "parseFileError": "Falha ao analisar o arquivo",
       "supportedFormats": "Formatos suportados:",
       "parsingFile": "Lendo arquivo...",
-      "chooseFile": "Escolher Arquivo"
+      "chooseFile": "Escolher Arquivo",
+      "fileFormatNotSupported": "Formato de arquivo não suportado"
     },
     "label": "Importar Pontos de Consumo"
   },

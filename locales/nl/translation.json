@@ -435,7 +435,8 @@
           "invalidJsonLines": "Ongeldige JSON-regels ({{1}})",
           "creationFailures": "Aanmaakfouten ({{1}})",
           "noValidJunction": "Geen geldig knooppunt ({{1}})",
-          "connectionFailures": "Verbindingsfouten ({{1}})"
+          "connectionFailures": "Verbindingsfouten ({{1}})",
+          "invalidDemands": "Ongeldige vragen ({{1}})"
         }
       },
       "demandOptions": {
@@ -485,7 +486,8 @@
       "parseFileError": "Bestand parseren mislukt",
       "supportedFormats": "Ondersteunde formaten:",
       "parsingFile": "Bestand lezen...",
-      "chooseFile": "Bestand kiezen"
+      "chooseFile": "Bestand kiezen",
+      "fileFormatNotSupported": "Bestandsformaat niet ondersteund"
     },
     "label": "Klantpunten importeren"
   },

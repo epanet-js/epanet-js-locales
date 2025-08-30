@@ -156,7 +156,8 @@
       "parseFileError": "ファイルの解析に失敗しました",
       "parsingFile": "ファイルを読み込み中...",
       "supportedFormats": "対応形式:",
-      "title": "ファイルから追加"
+      "title": "ファイルから追加",
+      "fileFormatNotSupported": "ファイル形式がサポートされていません"
     },
     "wizard": {
       "allocationStep": {
@@ -196,7 +197,8 @@
           "invalidCoordinates": "無効な座標 ({{1}})",
           "invalidJsonLines": "無効なJSONライン ({{1}})",
           "nonPointGeometries": "非ポイントジオメトリ ({{1}})",
-          "noValidJunction": "有効な接点なし ({{1}})"
+          "noValidJunction": "有効な接点なし ({{1}})",
+          "invalidDemands": "無効な需要 ({{1}})"
         },
         "issuesTab": "問題",
         "messages": {
