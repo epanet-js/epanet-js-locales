@@ -189,16 +189,34 @@
       },
       "allocationStepLabel": "顧客割り当て",
       "dataInputStep": "データ入力",
-      "dataPreview": {
+      "dataPreviewStep": "データマッピング",
+      "demandOptions": {
+        "addOnTopOption": {
+          "description": "現在の基本需要を維持し、顧客ポイント需要を追加します。既存の需要と顧客ベースの需要の両方を含めたい場合に使用します。",
+          "title": "既存の需要に顧客需要を追加"
+        },
+        "processingMessage": "顧客ポイントを管網に接続しています...",
+        "replaceOption": {
+          "description": "接点のすべての基本需要をゼロに設定し、顧客ポイント需要のみを使用します。顧客データが主な需要源である場合に推奨されます。",
+          "title": "既存の需要を顧客需要に置き換える（デフォルト）"
+        },
+        "title": "需要オプション"
+      },
+      "demandOptionsStep": "需要オプション",
+      "stepsAriaLabel": "インポートウィザードの手順",
+      "title": "顧客ポイントのインポート",
+      "dataMapping": {
         "customerPoints": "顧客ポイント",
         "issues": {
           "connectionFailures": "接続失敗 ({{1}})",
           "creationFailures": "作成失敗 ({{1}})",
           "invalidCoordinates": "無効な座標 ({{1}})",
+          "invalidDemands": "無効な需要 ({{1}})",
           "invalidJsonLines": "無効なJSONライン ({{1}})",
+          "invalidProjection": "無効な投影 - 期待されるWGS84/EPSG:4326 ({{1}})",
+          "missingCoordinates": "座標がありません ({{1}})",
           "nonPointGeometries": "非ポイントジオメトリ ({{1}})",
-          "noValidJunction": "有効な接点なし ({{1}})",
-          "invalidDemands": "無効な需要 ({{1}})"
+          "noValidJunction": "有効な接点なし ({{1}})"
         },
         "issuesTab": "問題",
         "messages": {
@@ -214,24 +232,8 @@
           "latitude": "緯度",
           "longitude": "経度"
         },
-        "title": "データプレビュー"
-      },
-      "dataPreviewStep": "データプレビュー",
-      "demandOptions": {
-        "addOnTopOption": {
-          "description": "現在の基本需要を維持し、顧客ポイント需要を追加します。既存の需要と顧客ベースの需要の両方を含めたい場合に使用します。",
-          "title": "既存の需要に顧客需要を追加"
-        },
-        "processingMessage": "顧客ポイントを管網に接続しています...",
-        "replaceOption": {
-          "description": "接点のすべての基本需要をゼロに設定し、顧客ポイント需要のみを使用します。顧客データが主な需要源である場合に推奨されます。",
-          "title": "既存の需要を顧客需要に置き換える（デフォルト）"
-        },
-        "title": "需要オプション"
-      },
-      "demandOptionsStep": "需要オプション",
-      "stepsAriaLabel": "インポートウィザードの手順",
-      "title": "顧客ポイントのインポート"
+        "title": "データマッピング"
+      }
     },
     "label": "顧客ポイントをインポート"
   },

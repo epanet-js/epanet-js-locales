@@ -412,33 +412,6 @@
       "dataInputStep": "Gegevensinvoer",
       "dataPreviewStep": "Gegevensvoorbeeld",
       "demandOptionsStep": "Vraagopties",
-      "dataPreview": {
-        "title": "Gegevensvoorbeeld",
-        "customerPoints": "Klantpunten",
-        "issuesTab": "Problemen",
-        "table": {
-          "id": "ID",
-          "latitude": "Breedtegraad",
-          "longitude": "Lengtegraad",
-          "demand": "Vraag"
-        },
-        "messages": {
-          "noValidCustomerPoints": "Geen geldige klantpunten gevonden",
-          "noErrors": "Geen fouten gevonden",
-          "skippedRowsWarning": "Deze rijen zijn overgeslagen tijdens het importeren. Alleen geldige klantpunten worden verwerkt.",
-          "andXMore": "... en nog {{1}} klantpunten",
-          "andXMoreIssues": "... en nog {{1}}"
-        },
-        "issues": {
-          "nonPointGeometries": "Niet-punt geometrieën ({{1}})",
-          "invalidCoordinates": "Ongeldige coördinaten ({{1}})",
-          "invalidJsonLines": "Ongeldige JSON-regels ({{1}})",
-          "creationFailures": "Aanmaakfouten ({{1}})",
-          "noValidJunction": "Geen geldig knooppunt ({{1}})",
-          "connectionFailures": "Verbindingsfouten ({{1}})",
-          "invalidDemands": "Ongeldige vragen ({{1}})"
-        }
-      },
       "demandOptions": {
         "title": "Vraagopties",
         "replaceOption": {
@@ -478,7 +451,36 @@
         },
         "applyChanges": "Wijzigingen toepassen"
       },
-      "allocationStepLabel": "Klanttoewijzing"
+      "allocationStepLabel": "Klanttoewijzing",
+      "dataMapping": {
+        "customerPoints": "Klantpunten",
+        "issues": {
+          "connectionFailures": "Verbindingsfouten ({{1}})",
+          "creationFailures": "Aanmaakfouten ({{1}})",
+          "invalidCoordinates": "Ongeldige coördinaten ({{1}})",
+          "invalidDemands": "Ongeldige vragen ({{1}})",
+          "invalidJsonLines": "Ongeldige JSON-regels ({{1}})",
+          "invalidProjection": "Ongeldige projectie - verwacht WGS84/EPSG:4326 ({{1}})",
+          "missingCoordinates": "Coördinaten ontbreken ({{1}})",
+          "nonPointGeometries": "Niet-punt geometrieën ({{1}})",
+          "noValidJunction": "Geen geldig knooppunt ({{1}})"
+        },
+        "issuesTab": "Problemen",
+        "messages": {
+          "andXMore": "... en nog {{1}} klantpunten",
+          "andXMoreIssues": "... en nog {{1}}",
+          "noErrors": "Geen fouten gevonden",
+          "noValidCustomerPoints": "Geen geldige klantpunten gevonden",
+          "skippedRowsWarning": "Deze rijen zijn overgeslagen tijdens het importeren. Alleen geldige klantpunten worden verwerkt."
+        },
+        "table": {
+          "demand": "Vraag",
+          "id": "ID",
+          "latitude": "Breedtegraad",
+          "longitude": "Lengtegraad"
+        },
+        "title": "Gegevensvoorbeeld"
+      }
     },
     "dataSource": {
       "title": "Toevoegen vanuit bestand",
