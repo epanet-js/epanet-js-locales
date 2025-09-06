@@ -157,7 +157,10 @@
       "parsingFile": "ファイルを読み込み中...",
       "supportedFormats": "対応形式:",
       "title": "ファイルから追加",
-      "fileFormatNotSupported": "ファイル形式がサポートされていません"
+      "fileFormatNotSupported": "ファイル形式がサポートされていません",
+      "coordinateValidationError": "すべての座標はWGS84（EPSG:4326）投影法で表現するか、GeoJSONにCRS定義を含める必要があります",
+      "projectionConversionError": "座標系の変換に失敗しました",
+      "unsupportedCrsError": "サポートされていない座標参照系"
     },
     "wizard": {
       "allocationStep": {
@@ -230,9 +233,17 @@
           "demand": "需要",
           "id": "ID",
           "latitude": "緯度",
-          "longitude": "経度"
+          "longitude": "経度",
+          "index": "インデックス"
         },
         "title": "データマッピング"
+      },
+      "loading": "読み込み中...",
+      "somethingWentWrong": "問題が発生しました",
+      "videoTutorial": {
+        "altText": "顧客ポイントインポートチュートリアル",
+        "description": "上記のチュートリアルを視聴するか、ステップバイステップガイドを読んで顧客ポイントをインポートする方法を学びましょう。",
+        "title": "顧客ポイントインポートチュートリアル"
       }
     },
     "label": "顧客ポイントをインポート"
@@ -528,5 +539,10 @@
     "deleteAndImport": "削除してインポート",
     "explain": "現在の顧客ポイントは完全に削除され、新しくインポートするポイントに置き換えられます。",
     "question": "続行してもよろしいですか？"
+  },
+  "earlyAccessDialog": {
+    "description": "この機能は早期アクセス版であり、サインインユーザーの皆様にいち早く提供できることを嬉しく思います。現在も改善を積極的に進めており、皆様からのフィードバックがさらに良いものにするのに役立ちます。",
+    "getAccess": "早期アクセスを取得",
+    "title": "早期アクセス機能"
   }
 }

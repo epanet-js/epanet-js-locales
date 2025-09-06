@@ -490,9 +490,17 @@
           "demand": "Demanda",
           "id": "ID",
           "latitude": "Latitud",
-          "longitude": "Longitud"
+          "longitude": "Longitud",
+          "index": "Índice"
         },
         "title": "Vista Previa de Datos"
+      },
+      "loading": "Cargando...",
+      "somethingWentWrong": "Algo ha ido mal",
+      "videoTutorial": {
+        "altText": "Tutorial de importación de puntos de consumo",
+        "description": "Aprende a importar puntos de consumo viendo el tutorial de arriba o leyendo la guía paso a paso.",
+        "title": "Tutorial de Importación de Puntos de Consumo"
       }
     },
     "dataSource": {
@@ -502,7 +510,10 @@
       "supportedFormats": "Formatos compatibles:",
       "parsingFile": "Leyendo archivo...",
       "chooseFile": "Elegir Archivo",
-      "fileFormatNotSupported": "Formato de archivo no soportado"
+      "fileFormatNotSupported": "Formato de archivo no soportado",
+      "coordinateValidationError": "Todas las coordenadas deben expresarse en proyección WGS84 (EPSG:4326), o incluir una definición CRS en el GeoJSON",
+      "projectionConversionError": "Fallo al convertir el sistema de coordenadas",
+      "unsupportedCrsError": "Sistema de referencia de coordenadas no soportado"
     },
     "label": "Importar Puntos de Consumo"
   },
@@ -535,5 +546,10 @@
     "deleteAndImport": "Eliminar e Importar",
     "explain": "Tus puntos de consumo actuales se eliminarán permanentemente y se reemplazarán con los puntos de tu nueva importación.",
     "question": "¿Estás seguro de que quieres continuar?"
+  },
+  "earlyAccessDialog": {
+    "description": "Esta función está en acceso anticipado, y estamos emocionados de compartirla primero con nuestros usuarios registrados. Seguimos realizando mejoras activamente, y tus comentarios nos ayudarán a hacerla aún mejor.",
+    "getAccess": "Obtener Acceso Anticipado",
+    "title": "Función de Acceso Anticipado"
   }
 }

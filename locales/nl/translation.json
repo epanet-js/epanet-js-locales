@@ -477,9 +477,17 @@
           "demand": "Vraag",
           "id": "ID",
           "latitude": "Breedtegraad",
-          "longitude": "Lengtegraad"
+          "longitude": "Lengtegraad",
+          "index": "Index"
         },
         "title": "Gegevensvoorbeeld"
+      },
+      "loading": "Laden...",
+      "somethingWentWrong": "Er is iets misgegaan",
+      "videoTutorial": {
+        "altText": "Handleiding klantpunten importeren",
+        "description": "Leer hoe u klantpunten importeert door de bovenstaande handleiding te bekijken of de stap-voor-stap handleiding te lezen.",
+        "title": "Handleiding Klantpunten Importeren"
       }
     },
     "dataSource": {
@@ -489,7 +497,10 @@
       "supportedFormats": "Ondersteunde formaten:",
       "parsingFile": "Bestand lezen...",
       "chooseFile": "Bestand kiezen",
-      "fileFormatNotSupported": "Bestandsformaat niet ondersteund"
+      "fileFormatNotSupported": "Bestandsformaat niet ondersteund",
+      "coordinateValidationError": "Alle coördinaten moeten worden uitgedrukt in WGS84 (EPSG:4326) projectie, of een CRS-definitie bevatten in de GeoJSON",
+      "projectionConversionError": "Conversie van coördinatensysteem mislukt",
+      "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem"
     },
     "label": "Klantpunten importeren"
   },
@@ -528,5 +539,10 @@
     "deleteAndImport": "Verwijderen en importeren",
     "explain": "Uw huidige klantpunten worden permanent verwijderd en vervangen door de punten van uw nieuwe import.",
     "question": "Weet u zeker dat u wilt doorgaan?"
+  },
+  "earlyAccessDialog": {
+    "description": "Deze functie is in vroege toegang, en we zijn enthousiast om deze als eerste te delen met onze ingelogde gebruikers. We werken nog actief aan verbeteringen en uw feedback zal ons helpen deze nog beter te maken.",
+    "getAccess": "Krijg vroege toegang",
+    "title": "Functie in vroege toegang"
   }
 }

@@ -477,9 +477,17 @@
           "demand": "Demande",
           "id": "ID",
           "latitude": "Latitude",
-          "longitude": "Longitude"
+          "longitude": "Longitude",
+          "index": "Index"
         },
         "title": "Aperçu des données"
+      },
+      "loading": "Chargement...",
+      "somethingWentWrong": "Quelque chose s'est mal passé",
+      "videoTutorial": {
+        "altText": "Tutoriel d'importation des points de consommation",
+        "description": "Apprenez à importer des points de consommation en regardant le tutoriel ci-dessus ou en lisant le guide étape par étape.",
+        "title": "Tutoriel d'Importation des Points de Consommation"
       }
     },
     "dataSource": {
@@ -489,7 +497,10 @@
       "supportedFormats": "Formats pris en charge :",
       "parsingFile": "Lecture du fichier...",
       "chooseFile": "Choisir un fichier",
-      "fileFormatNotSupported": "Format de fichier non supporté"
+      "fileFormatNotSupported": "Format de fichier non supporté",
+      "coordinateValidationError": "Toutes les coordonnées doivent être exprimées en projection WGS84 (EPSG:4326), ou inclure une définition CRS dans le GeoJSON",
+      "projectionConversionError": "Échec de la conversion du système de coordonnées",
+      "unsupportedCrsError": "Système de référence de coordonnées non pris en charge"
     },
     "label": "Importer des points de consommation"
   },
@@ -528,5 +539,10 @@
     "deleteAndImport": "Supprimer et Importer",
     "explain": "Vos points de consommation actuels seront définitivement supprimés et remplacés par les points de votre nouvelle importation.",
     "question": "Êtes-vous sûr de vouloir continuer ?"
+  },
+  "earlyAccessDialog": {
+    "description": "Cette fonctionnalité est en accès anticipé, et nous sommes ravis de la partager en avant-première avec nos utilisateurs connectés. Nous apportons encore activement des améliorations, et vos commentaires nous aideront à la rendre encore meilleure.",
+    "getAccess": "Obtenir l'accès anticipé",
+    "title": "Fonctionnalité en accès anticipé"
   }
 }
