@@ -480,13 +480,26 @@
           "longitude": "Lengtegraad",
           "index": "Index"
         },
-        "title": "Gegevensvoorbeeld"
+        "title": "Gegevensvoorbeeld",
+        "attributesMapping": {
+          "description": "Koppel de eigenschappen van uw GIS-gegevens aan de klantpuntattributen",
+          "title": "Attribuutkoppeling"
+        },
+        "dataPreview": {
+          "selectPrompt": "Selecteer een vraag-eigenschap om de gegevens te bekijken.",
+          "title": "Gegevensvoorbeeld"
+        },
+        "demandSelector": {
+          "label": "Vraag",
+          "placeholder": "Selecteer vraag-eigenschap..."
+        },
+        "loading": "Klantpunten lezen..."
       },
       "loading": "Laden...",
       "somethingWentWrong": "Er is iets misgegaan",
       "videoTutorial": {
         "altText": "Handleiding klantpunten importeren",
-        "description": "Leer hoe u klantpunten importeert door de bovenstaande handleiding te bekijken of de stap-voor-stap handleiding te lezen.",
+        "description": "Leer hoe u klantpunten importeert door de bovenstaande handleiding te bekijken of de <guideLink>stap-voor-stap handleiding</guideLink> te lezen.",
         "title": "Handleiding Klantpunten Importeren"
       }
     },

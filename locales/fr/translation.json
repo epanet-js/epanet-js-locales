@@ -480,13 +480,26 @@
           "longitude": "Longitude",
           "index": "Index"
         },
-        "title": "Aperçu des données"
+        "title": "Aperçu des données",
+        "attributesMapping": {
+          "description": "Mapper les propriétés de vos données SIG aux attributs des points de consommation",
+          "title": "Mappage des Attributs"
+        },
+        "dataPreview": {
+          "selectPrompt": "Sélectionnez une propriété de demande pour prévisualiser les données.",
+          "title": "Aperçu des Données"
+        },
+        "demandSelector": {
+          "label": "Demande",
+          "placeholder": "Sélectionner une propriété de demande..."
+        },
+        "loading": "Lecture des points de consommation..."
       },
       "loading": "Chargement...",
       "somethingWentWrong": "Quelque chose s'est mal passé",
       "videoTutorial": {
         "altText": "Tutoriel d'importation des points de consommation",
-        "description": "Apprenez à importer des points de consommation en regardant le tutoriel ci-dessus ou en lisant le guide étape par étape.",
+        "description": "Apprenez à importer des points de consommation en regardant le tutoriel ci-dessus ou en lisant le <guideLink>guide étape par étape</guideLink>.",
         "title": "Tutoriel d'Importation des Points de Consommation"
       }
     },

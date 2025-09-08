@@ -493,13 +493,26 @@
           "longitude": "Longitud",
           "index": "Índice"
         },
-        "title": "Vista Previa de Datos"
+        "title": "Vista Previa de Datos",
+        "attributesMapping": {
+          "description": "Mapea las propiedades de tus datos GIS a los atributos del punto de consumo",
+          "title": "Mapeo de Atributos"
+        },
+        "dataPreview": {
+          "selectPrompt": "Selecciona una propiedad de demanda para previsualizar los datos.",
+          "title": "Vista Previa de Datos"
+        },
+        "demandSelector": {
+          "label": "Demanda",
+          "placeholder": "Selecciona una propiedad de demanda..."
+        },
+        "loading": "Leyendo puntos de consumo..."
       },
       "loading": "Cargando...",
       "somethingWentWrong": "Algo ha ido mal",
       "videoTutorial": {
         "altText": "Tutorial de importación de puntos de consumo",
-        "description": "Aprende a importar puntos de consumo viendo el tutorial de arriba o leyendo la guía paso a paso.",
+        "description": "Aprende cómo importar puntos de consumo viendo el tutorial de arriba o leyendo la <guideLink>guía paso a paso</guideLink>.",
         "title": "Tutorial de Importación de Puntos de Consumo"
       }
     },
