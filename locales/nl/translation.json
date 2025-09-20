@@ -557,5 +557,7 @@
     "description": "Deze functie is in vroege toegang, en we zijn enthousiast om deze als eerste te delen met onze ingelogde gebruikers. We werken nog actief aan verbeteringen en uw feedback zal ons helpen deze nog beter te maken.",
     "getAccess": "Krijg vroege toegang",
     "title": "Functie in vroege toegang"
-  }
+  },
+  "editVertices": "Hoekpunten bewerken",
+  "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen."
 }

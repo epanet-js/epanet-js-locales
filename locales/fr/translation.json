@@ -557,5 +557,7 @@
     "description": "Cette fonctionnalité est en accès anticipé, et nous sommes ravis de la partager en avant-première avec nos utilisateurs connectés. Nous apportons encore activement des améliorations, et vos commentaires nous aideront à la rendre encore meilleure.",
     "getAccess": "Obtenir l'accès anticipé",
     "title": "Fonctionnalité en accès anticipé"
-  }
+  },
+  "editVertices": "Modifier les Sommets",
+  "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison."
 }

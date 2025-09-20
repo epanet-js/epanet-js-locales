@@ -564,5 +564,7 @@
     "description": "Esta función está en acceso anticipado, y estamos emocionados de compartirla primero con nuestros usuarios registrados. Seguimos realizando mejoras activamente, y tus comentarios nos ayudarán a hacerla aún mejor.",
     "getAccess": "Obtener Acceso Anticipado",
     "title": "Función de Acceso Anticipado"
-  }
+  },
+  "editVertices": "Editar Vértices",
+  "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace."
 }
