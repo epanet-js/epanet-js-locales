@@ -559,5 +559,6 @@
     "title": "Functie in vroege toegang"
   },
   "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen.",
-  "redraw": "Hertekenen"
+  "redraw": "Hertekenen",
+  "reverse": "Omkeren"
 }

@@ -559,5 +559,6 @@
     "title": "Fonctionnalité en accès anticipé"
   },
   "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison.",
-  "redraw": "Redessiner"
+  "redraw": "Redessiner",
+  "reverse": "Inverser"
 }

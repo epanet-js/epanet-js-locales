@@ -559,5 +559,6 @@
     "title": "Recurso de Acesso Antecipado"
   },
   "onboardingEditVertices": "Clique e arraste os vértices para redefinir o formato da ligação.",
-  "redraw": "Redesenhar"
+  "redraw": "Redesenhar",
+  "reverse": "Inverter"
 }

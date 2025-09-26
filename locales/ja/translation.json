@@ -559,5 +559,6 @@
     "title": "早期アクセス機能"
   },
   "onboardingEditVertices": "頂点をクリックしてドラッグし、リンクの形状を変更します。",
-  "redraw": "再描画"
+  "redraw": "再描画",
+  "reverse": "反転"
 }

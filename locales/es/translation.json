@@ -566,5 +566,6 @@
     "title": "Función de Acceso Anticipado"
   },
   "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace.",
-  "redraw": "Redibujar"
+  "redraw": "Redibujar",
+  "reverse": "Invertir"
 }
