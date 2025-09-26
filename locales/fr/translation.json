@@ -558,6 +558,6 @@
     "getAccess": "Obtenir l'accès anticipé",
     "title": "Fonctionnalité en accès anticipé"
   },
-  "editVertices": "Modifier les Sommets",
-  "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison."
+  "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison.",
+  "redraw": "Redessiner"
 }

@@ -558,6 +558,6 @@
     "getAccess": "Krijg vroege toegang",
     "title": "Functie in vroege toegang"
   },
-  "editVertices": "Hoekpunten bewerken",
-  "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen."
+  "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen.",
+  "redraw": "Hertekenen"
 }

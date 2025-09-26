@@ -558,6 +558,6 @@
     "getAccess": "早期アクセスを取得",
     "title": "早期アクセス機能"
   },
-  "editVertices": "頂点を編集",
-  "onboardingEditVertices": "頂点をクリックしてドラッグし、リンクの形状を変更します。"
+  "onboardingEditVertices": "頂点をクリックしてドラッグし、リンクの形状を変更します。",
+  "redraw": "再描画"
 }

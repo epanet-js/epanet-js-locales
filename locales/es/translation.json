@@ -565,6 +565,6 @@
     "getAccess": "Obtener Acceso Anticipado",
     "title": "Función de Acceso Anticipado"
   },
-  "editVertices": "Editar Vértices",
-  "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace."
+  "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace.",
+  "redraw": "Redibujar"
 }
