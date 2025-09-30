@@ -560,5 +560,6 @@
   },
   "onboardingEditVertices": "頂点をクリックしてドラッグし、リンクの形状を変更します。",
   "redraw": "再描画",
-  "reverse": "反転"
+  "reverse": "反転",
+  "onboardingRedrawLink": "選択したリンクの新しい頂点を定義するにはクリックします。接点で終了するか、ダブルクリックして追加します。"
 }

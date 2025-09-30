@@ -560,5 +560,6 @@
   },
   "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison.",
   "redraw": "Redessiner",
-  "reverse": "Inverser"
+  "reverse": "Inverser",
+  "onboardingRedrawLink": "Cliquez pour définir de nouveaux sommets pour la liaison sélectionnée. Terminez sur un nœud ou double-cliquez pour en ajouter un."
 }

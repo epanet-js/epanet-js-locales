@@ -560,5 +560,6 @@
   },
   "onboardingEditVertices": "Clique e arraste os vértices para redefinir o formato da ligação.",
   "redraw": "Redesenhar",
-  "reverse": "Inverter"
+  "reverse": "Inverter",
+  "onboardingRedrawLink": "Clique para definir novos vértices para o link selecionado. Termine em um nó ou clique duas vezes para adicionar um."
 }

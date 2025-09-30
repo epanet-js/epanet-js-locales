@@ -560,5 +560,6 @@
   },
   "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen.",
   "redraw": "Hertekenen",
-  "reverse": "Omkeren"
+  "reverse": "Omkeren",
+  "onboardingRedrawLink": "Klik om nieuwe hoekpunten te definiëren voor de geselecteerde verbinding. Eindig bij een knooppunt of dubbelklik om er een toe te voegen."
 }

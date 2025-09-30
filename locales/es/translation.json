@@ -567,5 +567,6 @@
   },
   "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace.",
   "redraw": "Redibujar",
-  "reverse": "Invertir"
+  "reverse": "Invertir",
+  "onboardingRedrawLink": "Haz clic para definir nuevos vértices para el enlace seleccionado. Termina en un nudo o haz doble clic para añadir uno."
 }
