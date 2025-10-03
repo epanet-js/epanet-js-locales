@@ -561,5 +561,16 @@
   "onboardingEditVertices": "Cliquez et faites glisser les sommets pour remodeler la liaison.",
   "redraw": "Redessiner",
   "reverse": "Inverser",
-  "onboardingRedrawLink": "Cliquez pour définir de nouveaux sommets pour la liaison sélectionnée. Terminez sur un nœud ou double-cliquez pour en ajouter un."
+  "onboardingRedrawLink": "Cliquez pour définir de nouveaux sommets pour la liaison sélectionnée. Terminez sur un nœud ou double-cliquez pour en ajouter un.",
+  "networkReview": {
+    "connectivityTrace": {
+      "title": "Traçage de connectivité"
+    },
+    "description": "Effectuer une série de vérifications pour vous assurer que vous pourrez exécuter une simulation.",
+    "orphanNodes": {
+      "title": "Nœuds orphelins"
+    },
+    "title": "Examen du réseau",
+    "toggle": "Examiner le réseau"
+  }
 }

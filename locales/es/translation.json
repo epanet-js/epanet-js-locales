@@ -568,5 +568,16 @@
   "onboardingEditVertices": "Haz clic y arrastra los vértices para reformar el enlace.",
   "redraw": "Redibujar",
   "reverse": "Invertir",
-  "onboardingRedrawLink": "Haz clic para definir nuevos vértices para el enlace seleccionado. Termina en un nudo o haz doble clic para añadir uno."
+  "onboardingRedrawLink": "Haz clic para definir nuevos vértices para el enlace seleccionado. Termina en un nudo o haz doble clic para añadir uno.",
+  "networkReview": {
+    "connectivityTrace": {
+      "title": "Rastreo de conectividad"
+    },
+    "description": "Realiza una serie de verificaciones para asegurarte de que podrás ejecutar una simulación.",
+    "orphanNodes": {
+      "title": "Nudos huérfanos"
+    },
+    "title": "Revisión de la Red",
+    "toggle": "Revisar Red"
+  }
 }

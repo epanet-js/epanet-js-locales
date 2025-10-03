@@ -561,5 +561,16 @@
   "onboardingEditVertices": "Klik en sleep hoekpunten om de verbinding te vervormen.",
   "redraw": "Hertekenen",
   "reverse": "Omkeren",
-  "onboardingRedrawLink": "Klik om nieuwe hoekpunten te definiëren voor de geselecteerde verbinding. Eindig bij een knooppunt of dubbelklik om er een toe te voegen."
+  "onboardingRedrawLink": "Klik om nieuwe hoekpunten te definiëren voor de geselecteerde verbinding. Eindig bij een knooppunt of dubbelklik om er een toe te voegen.",
+  "networkReview": {
+    "connectivityTrace": {
+      "title": "Connectiviteitstracering"
+    },
+    "description": "Voer een reeks controles uit om ervoor te zorgen dat u een simulatie kunt uitvoeren.",
+    "orphanNodes": {
+      "title": "Weesknooppunten"
+    },
+    "title": "Netwerkcontrole",
+    "toggle": "Netwerk controleren"
+  }
 }

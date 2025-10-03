@@ -561,5 +561,16 @@
   "onboardingEditVertices": "頂点をクリックしてドラッグし、リンクの形状を変更します。",
   "redraw": "再描画",
   "reverse": "反転",
-  "onboardingRedrawLink": "選択したリンクの新しい頂点を定義するにはクリックします。接点で終了するか、ダブルクリックして追加します。"
+  "onboardingRedrawLink": "選択したリンクの新しい頂点を定義するにはクリックします。接点で終了するか、ダブルクリックして追加します。",
+  "networkReview": {
+    "connectivityTrace": {
+      "title": "接続性トレース"
+    },
+    "description": "シミュレーションを実行できることを確認するために、一連のチェックを実行します。",
+    "orphanNodes": {
+      "title": "孤立ノード"
+    },
+    "title": "管網レビュー",
+    "toggle": "管網レビュー"
+  }
 }
