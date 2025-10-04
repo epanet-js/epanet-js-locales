@@ -571,6 +571,12 @@
       "title": "Nœuds orphelins"
     },
     "title": "Examen du réseau",
-    "toggle": "Examiner le réseau"
+    "toggle": "Examiner le réseau",
+    "crossingPipes": {
+      "title": "Conduites croisées"
+    },
+    "proximityCheck": {
+      "title": "Vérification de proximité"
+    }
   }
 }

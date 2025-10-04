@@ -571,6 +571,12 @@
       "title": "Weesknooppunten"
     },
     "title": "Netwerkcontrole",
-    "toggle": "Netwerk controleren"
+    "toggle": "Netwerk controleren",
+    "crossingPipes": {
+      "title": "Kruisende leidingen"
+    },
+    "proximityCheck": {
+      "title": "Nabijheidscontrole"
+    }
   }
 }

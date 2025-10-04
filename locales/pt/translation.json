@@ -571,6 +571,12 @@
       "title": "Nós órfãos"
     },
     "title": "Revisão da Rede",
-    "toggle": "Revisar Rede"
+    "toggle": "Revisar Rede",
+    "crossingPipes": {
+      "title": "Tubulações cruzadas"
+    },
+    "proximityCheck": {
+      "title": "Verificação de proximidade"
+    }
   }
 }

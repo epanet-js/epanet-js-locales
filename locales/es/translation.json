@@ -578,6 +578,12 @@
       "title": "Nudos huérfanos"
     },
     "title": "Revisión de la Red",
-    "toggle": "Revisar Red"
+    "toggle": "Revisar Red",
+    "crossingPipes": {
+      "title": "Cruces de tuberías"
+    },
+    "proximityCheck": {
+      "title": "Verificación de proximidad"
+    }
   }
 }
