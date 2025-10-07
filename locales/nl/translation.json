@@ -410,7 +410,7 @@
       "title": "Klantpunten importeren",
       "stepsAriaLabel": "Stappen van importwizard",
       "dataInputStep": "Gegevensinvoer",
-      "dataPreviewStep": "Gegevensvoorbeeld",
+      "dataPreviewStep": "Gegevenskoppeling",
       "demandOptionsStep": "Vraagopties",
       "demandOptions": {
         "title": "Vraagopties",
@@ -480,7 +480,7 @@
           "longitude": "Lengtegraad",
           "index": "Index"
         },
-        "title": "Gegevensvoorbeeld",
+        "title": "Gegevenskoppeling",
         "attributesMapping": {
           "description": "Koppel de eigenschappen van uw GIS-gegevens aan de klantpuntattributen",
           "title": "Attribuutkoppeling"
@@ -545,7 +545,7 @@
   "searchLocation": "Zoeken naar een locatie...",
   "demoNetworksTitle": "Demonetwerken",
   "deprecatedImportFromGIS": "Importeren uit GIS-gegevens",
-  "deprecatedStartBlankProject": "Start leeg project",
+  "deprecatedStartBlankProject": "Project starten",
   "startNotificationLanguageDescription": "We dachten dat u epanet-js graag in uw taal zou gebruiken. Het is momenteel in bèta en is mogelijk niet helemaal nauwkeurig. U kunt op elk moment van taal wisselen.",
   "startNotificationLanguageTitle": "Deze taal is in bèta",
   "importCustomerPointsWarning": {
@@ -568,7 +568,8 @@
     },
     "description": "Voer een reeks controles uit om ervoor te zorgen dat u een simulatie kunt uitvoeren.",
     "orphanNodes": {
-      "title": "Weesknooppunten"
+      "title": "Weesknooppunten",
+      "summary": "{{1}} weesknooppunten gevonden"
     },
     "title": "Netwerkcontrole",
     "toggle": "Netwerk controleren",
@@ -578,5 +579,11 @@
     "proximityCheck": {
       "title": "Nabijheidscontrole"
     }
-  }
+  },
+  "connectedCustomers": "Verbonden Klanten",
+  "connections": "Verbindingen",
+  "demands": "Vragen",
+  "modelAttributes": "Modelkenmerken",
+  "payByInvoice": "Betalen per factuur",
+  "simulationResults": "Simulatie Resultaten"
 }

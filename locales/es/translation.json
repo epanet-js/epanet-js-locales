@@ -416,7 +416,7 @@
       "title": "Importar Puntos de Consumo",
       "stepsAriaLabel": "Pasos del asistente de importación",
       "dataInputStep": "Entrada de Datos",
-      "dataPreviewStep": "Vista Previa de Datos",
+      "dataPreviewStep": "Mapeo de Datos",
       "demandOptionsStep": "Opciones de Demanda",
       "buttons": {
         "cancel": "Cancelar",
@@ -493,7 +493,7 @@
           "longitude": "Longitud",
           "index": "Índice"
         },
-        "title": "Vista Previa de Datos",
+        "title": "Mapeo de Datos",
         "attributesMapping": {
           "description": "Mapea las propiedades de tus datos GIS a los atributos del punto de consumo",
           "title": "Mapeo de Atributos"
@@ -552,7 +552,7 @@
   "searchLocation": "Buscar una ubicación...",
   "demoNetworksTitle": "Redes de Ejemplo",
   "deprecatedImportFromGIS": "Importar desde datos GIS",
-  "deprecatedStartBlankProject": "Iniciar proyecto en blanco",
+  "deprecatedStartBlankProject": "Iniciar proyecto",
   "startNotificationLanguageDescription": "Pensamos que podrías disfrutar usando epanet-js en tu idioma. Actualmente está en beta y podría no ser completamente preciso. Puedes cambiar de idioma en cualquier momento.",
   "startNotificationLanguageTitle": "Este idioma está en beta",
   "importCustomerPointsWarning": {
@@ -575,7 +575,8 @@
     },
     "description": "Realiza una serie de verificaciones para asegurarte de que podrás ejecutar una simulación.",
     "orphanNodes": {
-      "title": "Nudos huérfanos"
+      "title": "Nudos huérfanos",
+      "summary": "{{1}} nudos huérfanos encontrados"
     },
     "title": "Revisión de la Red",
     "toggle": "Revisar Red",
@@ -585,5 +586,11 @@
     "proximityCheck": {
       "title": "Verificación de proximidad"
     }
-  }
+  },
+  "connectedCustomers": "Clientes conectados",
+  "connections": "Conexiones",
+  "demands": "Consumos",
+  "modelAttributes": "Atributos del modelo",
+  "payByInvoice": "Pagar con factura",
+  "simulationResults": "Resultados de simulación"
 }

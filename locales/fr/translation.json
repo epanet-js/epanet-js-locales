@@ -65,7 +65,7 @@
   "initialStatus": "État Initial",
   "initialLevel": "Niveau Initial",
   "minLevel": "Niveau Min.",
-  "maxLevel": "Nín. Max.",
+  "maxLevel": "Niveau Max.",
   "minVolume": "Volume Min.",
   "canOverflow": "Peut Déborder",
   "head": "Charge",
@@ -166,7 +166,7 @@
   "afdDescription": "Système Américain avec débits exprimés en acft/j",
   "newProject": "Nouveau Projet",
   "create": "Créer",
-  "createNew": "Créer Nouveau",
+  "createNew": "Créer Nouveau...",
   "dropInp": "Déposez un fichier .INP ici pour ouvrir le modèle.",
   "inpMissing": "Type de fichier invalide. Utilisez un fichier .INP.",
   "onlyOneInp": "Plusieurs INP",
@@ -545,7 +545,7 @@
   "searchLocation": "Rechercher un lieu...",
   "demoNetworksTitle": "Réseaux de Démonstration",
   "deprecatedImportFromGIS": "Importer depuis des données SIG",
-  "deprecatedStartBlankProject": "Démarrer un projet vierge",
+  "deprecatedStartBlankProject": "Démarrer un projet",
   "startNotificationLanguageDescription": "Nous pensions que vous aimeriez utiliser epanet-js dans votre langue. Il est actuellement en version bêta, et il pourrait ne pas être entièrement précis. Vous pouvez changer de langue à tout moment.",
   "startNotificationLanguageTitle": "Cette langue est en version bêta",
   "importCustomerPointsWarning": {
@@ -568,7 +568,8 @@
     },
     "description": "Effectuer une série de vérifications pour vous assurer que vous pourrez lancer une simulation.",
     "orphanNodes": {
-      "title": "Nœuds orphelins"
+      "title": "Nœuds orphelins",
+      "summary": "{{1}} nœuds orphelins trouvés"
     },
     "title": "Examen du réseau",
     "toggle": "Examiner le réseau",
@@ -578,5 +579,11 @@
     "proximityCheck": {
       "title": "Vérification de proximité"
     }
-  }
+  },
+  "connectedCustomers": "Clients Connectés",
+  "connections": "Connexions",
+  "demands": "Demandes",
+  "modelAttributes": "Attributs du Modèle",
+  "payByInvoice": "Payer par facture",
+  "simulationResults": "Résultats de Simulation"
 }

@@ -207,7 +207,7 @@
       },
       "demandOptionsStep": "需要オプション",
       "stepsAriaLabel": "インポートウィザードの手順",
-      "title": "顧客ポイントのインポート",
+      "title": "顧客ポイントをインポート",
       "dataMapping": {
         "customerPoints": "顧客ポイント",
         "issues": {
@@ -545,7 +545,7 @@
   "searchLocation": "場所を検索...",
   "demoNetworksTitle": "デモネットワーク",
   "deprecatedImportFromGIS": "GISデータからインポート",
-  "deprecatedStartBlankProject": "空のプロジェクトを開始",
+  "deprecatedStartBlankProject": "プロジェクトを開始",
   "startNotificationLanguageDescription": "epanet-jsをあなたの言語でお楽しみいただければと存じます。現在ベータ版であり、完全に正確ではない可能性があります。いつでも言語を切り替えることができます。",
   "startNotificationLanguageTitle": "この言語はベータ版です",
   "importCustomerPointsWarning": {
@@ -568,7 +568,8 @@
     },
     "description": "シミュレーションを実行できることを確認するために、一連のチェックを実行します。",
     "orphanNodes": {
-      "title": "孤立ノード"
+      "title": "孤立ノード",
+      "summary": "{{1}} 孤立ノードが見つかりました"
     },
     "title": "管網レビュー",
     "toggle": "管網レビュー",
@@ -578,5 +579,11 @@
     "proximityCheck": {
       "title": "近接チェック"
     }
-  }
+  },
+  "connectedCustomers": "接続済み顧客",
+  "connections": "接続",
+  "demands": "需要",
+  "modelAttributes": "モデル属性",
+  "payByInvoice": "請求書払い",
+  "simulationResults": "シミュレーション結果"
 }

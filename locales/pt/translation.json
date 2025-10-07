@@ -83,7 +83,7 @@
   "simulationFailure": "Simulação com Erros",
   "simulationFailureExplain": "A execução da simulação não foi bem-sucedida. Verifique o relatório da simulação para mais detalhes.",
   "simulationOutdated": "Simulação Desatualizada",
-  "runningSimulation": "Executando simulação",
+  "runningSimulation": "Executando simulação...",
   "pressure": "Pressão",
   "pressures": "Pressões",
   "level": "Nível",
@@ -143,7 +143,7 @@
   "onboardingSelectAsset": "Selecione qualquer ativo para ver e modificar suas propriedades.",
   "onboardingRunningModel": "Execução de um modelo e visualização de resultados",
   "onboardingRunSimulation": "Pressione o botão Simular para executar uma simulação hidráulica.",
-  "onboardingMap": "Mude para a aba Mapa para visualizar os resultados hidráulicos.",
+  "onboardingMap": "Mude para a aba Mapa para adicionar visualizações dos resultados hidráulicos.",
   "onboardingOtherFeatures": "Outras funções úteis",
   "onboardingUndoRedo": "Desfazer ou refazer com {{1}} e {{2}}.",
   "onboardingFiles": "Gerenciamento de arquivos",
@@ -545,7 +545,7 @@
   "searchLocation": "Pesquisar por uma localização...",
   "demoNetworksTitle": "Redes de Exemplo",
   "deprecatedImportFromGIS": "Importar de Dados GIS",
-  "deprecatedStartBlankProject": "Iniciar Projeto em Branco",
+  "deprecatedStartBlankProject": "Iniciar Projeto",
   "startNotificationLanguageDescription": "Achamos que você gostaria de usar o epanet-js em seu idioma. Atualmente, está em fase beta e pode não ser totalmente preciso. Você pode mudar de idioma a qualquer momento.",
   "startNotificationLanguageTitle": "Este idioma está em beta",
   "importCustomerPointsWarning": {
@@ -568,7 +568,8 @@
     },
     "description": "Realize uma série de verificações para garantir que você poderá executar uma simulação.",
     "orphanNodes": {
-      "title": "Nós órfãos"
+      "title": "Nós órfãos",
+      "summary": "{{1}} nós órfãos encontrados"
     },
     "title": "Revisão da Rede",
     "toggle": "Revisar Rede",
@@ -578,5 +579,11 @@
     "proximityCheck": {
       "title": "Verificação de proximidade"
     }
-  }
+  },
+  "connectedCustomers": "Clientes Conectados",
+  "connections": "Conexões",
+  "demands": "Demandas",
+  "modelAttributes": "Atributos do Modelo",
+  "payByInvoice": "Pagar por fatura",
+  "simulationResults": "Resultados da Simulação"
 }
