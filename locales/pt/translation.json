@@ -569,7 +569,7 @@
     "description": "Realize uma série de verificações para garantir que você poderá executar uma simulação.",
     "orphanNodes": {
       "title": "Nós órfãos",
-      "summary": "{{1}} nós órfãos encontrados"
+      "issue": "{{1}} órfão: {{2}}"
     },
     "title": "Revisão da Rede",
     "toggle": "Revisar Rede",
@@ -578,12 +578,15 @@
     },
     "proximityCheck": {
       "title": "Verificação de proximidade"
-    }
+    },
+    "issuesFound": "{{1}} problemas encontrados",
+    "noIssuesFound": "Nenhum problema encontrado"
   },
   "connectedCustomers": "Clientes Conectados",
   "connections": "Conexões",
   "demands": "Demandas",
   "modelAttributes": "Atributos do Modelo",
   "payByInvoice": "Pagar por fatura",
-  "simulationResults": "Resultados da Simulação"
+  "simulationResults": "Resultados da Simulação",
+  "viewNetworkReview": "Revisar rede"
 }

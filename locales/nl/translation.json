@@ -569,21 +569,24 @@
     "description": "Voer een reeks controles uit om ervoor te zorgen dat u een simulatie kunt uitvoeren.",
     "orphanNodes": {
       "title": "Weesknooppunten",
-      "summary": "{{1}} weesknooppunten gevonden"
+      "issue": "Wees {{1}}: {{2}}"
     },
     "title": "Netwerkcontrole",
-    "toggle": "Netwerk controleren",
+    "toggle": "Netwerkcontrole in-/uitschakelen",
     "crossingPipes": {
       "title": "Kruisende leidingen"
     },
     "proximityCheck": {
       "title": "Nabijheidscontrole"
-    }
+    },
+    "issuesFound": "{{1}} problemen gevonden",
+    "noIssuesFound": "Geen problemen gevonden"
   },
   "connectedCustomers": "Verbonden Klanten",
   "connections": "Verbindingen",
   "demands": "Vragen",
   "modelAttributes": "Modelkenmerken",
   "payByInvoice": "Betalen per factuur",
-  "simulationResults": "Simulatie Resultaten"
+  "simulationResults": "Simulatie Resultaten",
+  "viewNetworkReview": "Netwerk controleren"
 }

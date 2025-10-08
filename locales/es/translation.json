@@ -90,7 +90,7 @@
   "simulationFailure": "Simulación con errores",
   "simulationFailureExplain": "La ejecución de la simulación no fue exitosa. Revisa el reporte de la simulación para más detalles.",
   "simulationOutdated": "Simulación desactualizada",
-  "runningSimulation": "Ejecutando simulación",
+  "runningSimulation": "Ejecutando simulación...",
   "pressure": "Presión",
   "pressures": "Presiones",
   "level": "Nivel",
@@ -576,21 +576,24 @@
     "description": "Realiza una serie de verificaciones para asegurarte de que podrás ejecutar una simulación.",
     "orphanNodes": {
       "title": "Nudos huérfanos",
-      "summary": "{{1}} nudos huérfanos encontrados"
+      "issue": "Nudo huérfano {{1}}: {{2}}"
     },
     "title": "Revisión de la Red",
-    "toggle": "Revisar Red",
+    "toggle": "Alternar Revisión de la Red",
     "crossingPipes": {
       "title": "Cruces de tuberías"
     },
     "proximityCheck": {
       "title": "Verificación de proximidad"
-    }
+    },
+    "issuesFound": "{{1}} problemas encontrados",
+    "noIssuesFound": "No se encontraron problemas"
   },
   "connectedCustomers": "Clientes conectados",
   "connections": "Conexiones",
   "demands": "Consumos",
   "modelAttributes": "Atributos del modelo",
   "payByInvoice": "Pagar con factura",
-  "simulationResults": "Resultados de simulación"
+  "simulationResults": "Resultados de simulación",
+  "viewNetworkReview": "Revisar red"
 }

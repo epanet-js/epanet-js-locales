@@ -569,21 +569,24 @@
     "description": "シミュレーションを実行できることを確認するために、一連のチェックを実行します。",
     "orphanNodes": {
       "title": "孤立ノード",
-      "summary": "{{1}} 孤立ノードが見つかりました"
+      "issue": "孤立 {{1}}: {{2}}"
     },
     "title": "管網レビュー",
-    "toggle": "管網レビュー",
+    "toggle": "管網レビューの切り替え",
     "crossingPipes": {
       "title": "交差する管"
     },
     "proximityCheck": {
       "title": "近接チェック"
-    }
+    },
+    "issuesFound": "{{1}} 件の問題が見つかりました",
+    "noIssuesFound": "問題は見つかりませんでした"
   },
   "connectedCustomers": "接続済み顧客",
   "connections": "接続",
   "demands": "需要",
   "modelAttributes": "モデル属性",
   "payByInvoice": "請求書払い",
-  "simulationResults": "シミュレーション結果"
+  "simulationResults": "シミュレーション結果",
+  "viewNetworkReview": "管網レビュー"
 }
