@@ -566,21 +566,32 @@
     "connectivityTrace": {
       "title": "Traçage de connectivité"
     },
-    "description": "Effectuer une série de vérifications pour vous assurer que vous pourrez lancer une simulation.",
-    "orphanNodes": {
-      "title": "Nœuds orphelins",
-      "issue": "Orphelin {{1}} : {{2}}"
-    },
+    "description": "Effectuer une série de vérifications pour valider la topologie de votre réseau et assurer la qualité des données.",
     "title": "Examen du réseau",
     "toggle": "Examiner le réseau",
     "crossingPipes": {
       "title": "Conduites croisées"
     },
     "proximityCheck": {
-      "title": "Vérification de proximité"
+      "title": "Vérification de proximité",
+      "description": "Trouver les nœuds trop proches d'autres nœuds voisins",
+      "emptyMessage": "Il n'y a pas de nœuds violant la contrainte de distance. Bien joué !",
+      "issueLabel": "Orphelin {{1}} : {{2}}",
+      "summary_one": "1 problème trouvé",
+      "summary_other": "{{count}} problèmes trouvés",
+      "summary_zero": "Aucun problème trouvé"
     },
     "issuesFound": "{{1}} problèmes trouvés",
-    "noIssuesFound": "Aucun problème trouvé"
+    "noIssuesFound": "Aucun problème trouvé",
+    "orphanAssets": {
+      "description": "Trouver les éléments déconnectés de votre réseau",
+      "emptyMessage": "Il n'y a pas d'éléments orphelins dans votre réseau. Bien joué !",
+      "issueLabel": "Orphelin {{1}} : {{2}}",
+      "summary_one": "1 problème trouvé",
+      "summary_other": "{{count}} problèmes trouvés",
+      "summary_zero": "Aucun problème trouvé",
+      "title": "Éléments orphelins"
+    }
   },
   "connectedCustomers": "Clients Connectés",
   "connections": "Connexions",
@@ -588,5 +599,7 @@
   "modelAttributes": "Attributs du Modèle",
   "payByInvoice": "Payer par facture",
   "simulationResults": "Résultats de Simulation",
-  "viewNetworkReview": "Examiner le réseau"
+  "viewNetworkReview": "Examiner le réseau",
+  "roadmap": "Feuille de route",
+  "visible": "Visible"
 }

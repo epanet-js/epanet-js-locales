@@ -566,21 +566,32 @@
     "connectivityTrace": {
       "title": "接続性トレース"
     },
-    "description": "シミュレーションを実行できることを確認するために、一連のチェックを実行します。",
-    "orphanNodes": {
-      "title": "孤立ノード",
-      "issue": "孤立 {{1}}: {{2}}"
-    },
+    "description": "ネットワークのトポロジを検証し、データ品質を確保するための一連のチェックを実行します。",
     "title": "管網レビュー",
     "toggle": "管網レビューの切り替え",
     "crossingPipes": {
       "title": "交差する管"
     },
     "proximityCheck": {
-      "title": "近接チェック"
+      "title": "近接チェック",
+      "description": "他の隣接ノードに近すぎるノードを見つける",
+      "emptyMessage": "距離制約に違反するノードはありません。よくできました！",
+      "issueLabel": "孤立 {{1}}: {{2}}",
+      "summary_one": "1 件の問題が見つかりました",
+      "summary_other": "{{count}} 件の問題が見つかりました",
+      "summary_zero": "問題は見つかりませんでした"
     },
     "issuesFound": "{{1}} 件の問題が見つかりました",
-    "noIssuesFound": "問題は見つかりませんでした"
+    "noIssuesFound": "問題は見つかりませんでした",
+    "orphanAssets": {
+      "description": "ネットワークから切断されているアセットを見つける",
+      "emptyMessage": "ネットワークに孤立したアセットはありません。よくできました！",
+      "issueLabel": "孤立 {{1}}: {{2}}",
+      "summary_one": "1 件の問題が見つかりました",
+      "summary_other": "{{count}} 件の問題が見つかりました",
+      "summary_zero": "問題は見つかりませんでした",
+      "title": "孤立アセット"
+    }
   },
   "connectedCustomers": "接続済み顧客",
   "connections": "接続",
@@ -588,5 +599,7 @@
   "modelAttributes": "モデル属性",
   "payByInvoice": "請求書払い",
   "simulationResults": "シミュレーション結果",
-  "viewNetworkReview": "管網レビュー"
+  "viewNetworkReview": "管網レビュー",
+  "roadmap": "ロードマップ",
+  "visible": "表示"
 }

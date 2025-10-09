@@ -573,21 +573,32 @@
     "connectivityTrace": {
       "title": "Rastreo de conectividad"
     },
-    "description": "Realiza una serie de verificaciones para asegurarte de que podrás ejecutar una simulación.",
-    "orphanNodes": {
-      "title": "Nudos huérfanos",
-      "issue": "Nudo huérfano {{1}}: {{2}}"
-    },
+    "description": "Realiza una serie de comprobaciones para validar la topología de tu red y asegurar la calidad de los datos.",
     "title": "Revisión de la Red",
     "toggle": "Alternar Revisión de la Red",
     "crossingPipes": {
       "title": "Cruces de tuberías"
     },
     "proximityCheck": {
-      "title": "Verificación de proximidad"
+      "title": "Verificación de proximidad",
+      "description": "Encuentra nudos que están demasiado cerca de otros nudos vecinos",
+      "emptyMessage": "No hay nudos que infrinjan la restricción de distancia. ¡Bien hecho!",
+      "issueLabel": "Activo huérfano {{1}}: {{2}}",
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "No se encontraron problemas"
     },
     "issuesFound": "{{1}} problemas encontrados",
-    "noIssuesFound": "No se encontraron problemas"
+    "noIssuesFound": "No se encontraron problemas",
+    "orphanAssets": {
+      "description": "Encuentra activos que están desconectados de tu red",
+      "emptyMessage": "No hay activos huérfanos en tu red. ¡Bien hecho!",
+      "issueLabel": "Activo huérfano {{1}}: {{2}}",
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "No se encontraron problemas",
+      "title": "Activos huérfanos"
+    }
   },
   "connectedCustomers": "Clientes conectados",
   "connections": "Conexiones",
@@ -595,5 +606,7 @@
   "modelAttributes": "Atributos del modelo",
   "payByInvoice": "Pagar con factura",
   "simulationResults": "Resultados de simulación",
-  "viewNetworkReview": "Revisar red"
+  "viewNetworkReview": "Revisar red",
+  "roadmap": "Hoja de ruta",
+  "visible": "Visible"
 }

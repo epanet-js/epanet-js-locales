@@ -566,21 +566,32 @@
     "connectivityTrace": {
       "title": "Connectiviteitstracering"
     },
-    "description": "Voer een reeks controles uit om ervoor te zorgen dat u een simulatie kunt uitvoeren.",
-    "orphanNodes": {
-      "title": "Weesknooppunten",
-      "issue": "Wees {{1}}: {{2}}"
-    },
+    "description": "Voer een reeks controles uit om de topologie van uw netwerk te valideren en de gegevenskwaliteit te waarborgen.",
     "title": "Netwerkcontrole",
     "toggle": "Netwerkcontrole in-/uitschakelen",
     "crossingPipes": {
       "title": "Kruisende leidingen"
     },
     "proximityCheck": {
-      "title": "Nabijheidscontrole"
+      "title": "Nabijheidscontrole",
+      "description": "Vind knooppunten die te dicht bij andere naburige knooppunten liggen",
+      "emptyMessage": "Er zijn geen knooppunten die de afstandsbeperking schenden. Goed gedaan!",
+      "issueLabel": "Wees {{1}}: {{2}}",
+      "summary_one": "1 probleem gevonden",
+      "summary_other": "{{count}} problemen gevonden",
+      "summary_zero": "Geen problemen gevonden"
     },
     "issuesFound": "{{1}} problemen gevonden",
-    "noIssuesFound": "Geen problemen gevonden"
+    "noIssuesFound": "Geen problemen gevonden",
+    "orphanAssets": {
+      "description": "Vind onderdelen die zijn losgekoppeld van uw netwerk",
+      "emptyMessage": "Er zijn geen weesonderdelen in uw netwerk. Goed gedaan!",
+      "issueLabel": "Wees {{1}}: {{2}}",
+      "summary_one": "1 probleem gevonden",
+      "summary_other": "{{count}} problemen gevonden",
+      "summary_zero": "Geen problemen gevonden",
+      "title": "Weesonderdelen"
+    }
   },
   "connectedCustomers": "Verbonden Klanten",
   "connections": "Verbindingen",
@@ -588,5 +599,7 @@
   "modelAttributes": "Modelkenmerken",
   "payByInvoice": "Betalen per factuur",
   "simulationResults": "Simulatie Resultaten",
-  "viewNetworkReview": "Netwerk controleren"
+  "viewNetworkReview": "Netwerk controleren",
+  "roadmap": "Routekaart",
+  "visible": "Zichtbaar"
 }

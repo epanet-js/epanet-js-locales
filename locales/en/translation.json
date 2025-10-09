@@ -15,6 +15,7 @@
   "keyboardShortcuts": "Keyboard shortcuts",
   "help": "Help",
   "helpCenter": "Help center",
+  "roadmap": "Roadmap",
   "language": "Language",
   "experimentalLanguage": "This language is in beta. Please try it and contact support if you notice any inaccuracies.",
   "earlyAccess": "Early access",
@@ -273,6 +274,7 @@
   "chooseType": "Choose type",
   "toggleVisibility": "Toggle visibility",
   "toggleLabelsVisibility": "Toggle labels visibility",
+  "visible": "Visible",
   "basemap": "Basemap",
   "back": "Back",
   "updateLayer": "Update layer",
@@ -572,18 +574,29 @@
   "networkReview": {
     "toggle": "Toggle Network Review",
     "title": "Network Review",
-    "description": "Perfom a series of checks to make sure you will be able to run a simulation.",
+    "description": "Run a series of checks to validate your network's topology and ensure data quality.",
     "issuesFound": "{{1}} issues found",
     "noIssuesFound": "No issues found",
     "connectivityTrace": {
       "title": "Connectivity trace"
     },
-    "orphanNodes": {
-      "title": "Orphan nodes",
-      "issue": "Orphan {{1}}: {{2}}"
+    "orphanAssets": {
+      "title": "Orphan assets",
+      "description": "Find assets that are disconnected from your network",
+      "summary_zero": "No issues found",
+      "summary_one": "1 issue found",
+      "summary_other": "{{count}} issues found",
+      "issueLabel": "Orphan {{1}}: {{2}}",
+      "emptyMessage": "There are no orphan assets in your network. Well done!"
     },
     "proximityCheck": {
-      "title": "Proximity check"
+      "title": "Proximity check",
+      "description": "Find nodes that are too close to other neighbouring nodes",
+      "summary_zero": "No issues found",
+      "summary_one": "1 issue found",
+      "summary_other": "{{count}} issues found",
+      "issueLabel": "Orphan {{1}}: {{2}}",
+      "emptyMessage": "There are no nodes violating the distance constraing. Well done!"
     },
     "crossingPipes": {
       "title": "Crossing pipes"

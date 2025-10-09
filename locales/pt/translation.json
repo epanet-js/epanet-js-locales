@@ -566,21 +566,32 @@
     "connectivityTrace": {
       "title": "Rastreamento de conectividade"
     },
-    "description": "Realize uma série de verificações para garantir que você poderá executar uma simulação.",
-    "orphanNodes": {
-      "title": "Nós órfãos",
-      "issue": "{{1}} órfão: {{2}}"
-    },
+    "description": "Execute uma série de verificações para validar a topologia da sua rede e garantir a qualidade dos dados.",
     "title": "Revisão da Rede",
     "toggle": "Revisar Rede",
     "crossingPipes": {
       "title": "Tubulações cruzadas"
     },
     "proximityCheck": {
-      "title": "Verificação de proximidade"
+      "title": "Verificação de proximidade",
+      "description": "Encontre nós que estão muito próximos de outros nós vizinhos",
+      "emptyMessage": "Não há nós violando a restrição de distância. Muito bem!",
+      "issueLabel": "Órfão {{1}}: {{2}}",
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "Nenhum problema encontrado"
     },
     "issuesFound": "{{1}} problemas encontrados",
-    "noIssuesFound": "Nenhum problema encontrado"
+    "noIssuesFound": "Nenhum problema encontrado",
+    "orphanAssets": {
+      "description": "Encontre ativos desconectados da sua rede",
+      "emptyMessage": "Não há ativos órfãos na sua rede. Muito bem!",
+      "issueLabel": "Órfão {{1}}: {{2}}",
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "Nenhum problema encontrado",
+      "title": "Ativos órfãos"
+    }
   },
   "connectedCustomers": "Clientes Conectados",
   "connections": "Conexões",
@@ -588,5 +599,7 @@
   "modelAttributes": "Atributos do Modelo",
   "payByInvoice": "Pagar por fatura",
   "simulationResults": "Resultados da Simulação",
-  "viewNetworkReview": "Revisar rede"
+  "viewNetworkReview": "Revisar rede",
+  "roadmap": "Roteiro",
+  "visible": "Visível"
 }
