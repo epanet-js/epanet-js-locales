@@ -574,12 +574,13 @@
     },
     "proximityCheck": {
       "title": "Nabijheidscontrole",
-      "description": "Vind knooppunten die te dicht bij andere naburige knooppunten liggen",
-      "emptyMessage": "Er zijn geen knooppunten die de afstandsbeperking schenden. Goed gedaan!",
-      "issueLabel": "Wees {{1}}: {{2}}",
-      "summary_one": "1 probleem gevonden",
-      "summary_other": "{{count}} problemen gevonden",
-      "summary_zero": "Geen problemen gevonden"
+      "description": "Vindt knooppunten die dicht bij nabijgelegen leidingen liggen en mogelijk moeten worden verbonden.",
+      "emptyMessage": "Geen knooppunten in de buurt gevonden - u kunt de zoekafstand vergroten om meer te vinden.",
+      "issueLabel": "Potentiële verbinding voor {{1}}",
+      "summary_one": "1 potentiële verbinding gevonden",
+      "summary_other": "{{count}} potentiële verbindingen gevonden",
+      "summary_zero": "Geen potentiële verbindingen gevonden",
+      "distance": "Afstand"
     },
     "issuesFound": "{{1}} problemen gevonden",
     "noIssuesFound": "Geen problemen gevonden",
@@ -601,5 +602,6 @@
   "simulationResults": "Simulatie Resultaten",
   "viewNetworkReview": "Netwerk controleren",
   "roadmap": "Routekaart",
-  "visible": "Zichtbaar"
+  "visible": "Zichtbaar",
+  "toggleSidePanel": "Zijpaneel in-/uitschakelen"
 }

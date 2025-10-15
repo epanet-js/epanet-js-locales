@@ -574,12 +574,13 @@
     },
     "proximityCheck": {
       "title": "Verificação de proximidade",
-      "description": "Encontre nós que estão muito próximos de outros nós vizinhos",
-      "emptyMessage": "Não há nós violando a restrição de distância. Muito bem!",
-      "issueLabel": "Órfão {{1}}: {{2}}",
-      "summary_one": "1 problema encontrado",
-      "summary_other": "{{count}} problemas encontrados",
-      "summary_zero": "Nenhum problema encontrado"
+      "description": "Encontra nós localizados perto de tubulações próximas que podem precisar ser conectadas.",
+      "emptyMessage": "Nenhum nó próximo encontrado - você pode aumentar a distância de busca para encontrar mais.",
+      "issueLabel": "Conexão potencial para {{1}}",
+      "summary_one": "1 conexão potencial encontrada",
+      "summary_other": "{{count}} conexões potenciais encontradas",
+      "summary_zero": "Nenhuma conexão potencial encontrada",
+      "distance": "Distância"
     },
     "issuesFound": "{{1}} problemas encontrados",
     "noIssuesFound": "Nenhum problema encontrado",
@@ -601,5 +602,6 @@
   "simulationResults": "Resultados da Simulação",
   "viewNetworkReview": "Revisar rede",
   "roadmap": "Roteiro",
-  "visible": "Visível"
+  "visible": "Visível",
+  "toggleSidePanel": "Alternar painel lateral"
 }

@@ -574,12 +574,13 @@
     },
     "proximityCheck": {
       "title": "近接チェック",
-      "description": "他の隣接ノードに近すぎるノードを見つける",
-      "emptyMessage": "距離制約に違反するノードはありません。よくできました！",
-      "issueLabel": "孤立 {{1}}: {{2}}",
-      "summary_one": "1 件の問題が見つかりました",
-      "summary_other": "{{count}} 件の問題が見つかりました",
-      "summary_zero": "問題は見つかりませんでした"
+      "description": "近くの管に近接している可能性のある接点を見つけます。",
+      "emptyMessage": "近くのノードが見つかりませんでした。検索距離を増やすと、さらに見つかる可能性があります。",
+      "issueLabel": "{{1}} の潜在的な接続",
+      "summary_one": "1 件の潜在的な接続が見つかりました",
+      "summary_other": "{{count}} 件の潜在的な接続が見つかりました",
+      "summary_zero": "潜在的な接続は見つかりませんでした",
+      "distance": "距離"
     },
     "issuesFound": "{{1}} 件の問題が見つかりました",
     "noIssuesFound": "問題は見つかりませんでした",
@@ -601,5 +602,6 @@
   "simulationResults": "シミュレーション結果",
   "viewNetworkReview": "管網レビュー",
   "roadmap": "ロードマップ",
-  "visible": "表示"
+  "visible": "表示",
+  "toggleSidePanel": "サイドパネルの切り替え"
 }

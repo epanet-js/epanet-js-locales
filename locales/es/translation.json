@@ -581,12 +581,13 @@
     },
     "proximityCheck": {
       "title": "Verificación de proximidad",
-      "description": "Encuentra nudos que están demasiado cerca de otros nudos vecinos",
-      "emptyMessage": "No hay nudos que infrinjan la restricción de distancia. ¡Bien hecho!",
-      "issueLabel": "Activo huérfano {{1}}: {{2}}",
-      "summary_one": "1 problema encontrado",
-      "summary_other": "{{count}} problemas encontrados",
-      "summary_zero": "No se encontraron problemas"
+      "description": "Encuentra nudos situados cerca de tuberías adyacentes que podrían necesitar ser conectados.",
+      "emptyMessage": "No se encontraron nudos cercanos - puedes aumentar la distancia de búsqueda para encontrar más.",
+      "issueLabel": "Conexión potencial para {{1}}",
+      "summary_one": "1 conexión potencial encontrada",
+      "summary_other": "{{count}} conexiones potenciales encontradas",
+      "summary_zero": "No se encontraron conexiones potenciales",
+      "distance": "Distancia"
     },
     "issuesFound": "{{1}} problemas encontrados",
     "noIssuesFound": "No se encontraron problemas",
@@ -608,5 +609,6 @@
   "simulationResults": "Resultados de simulación",
   "viewNetworkReview": "Revisar red",
   "roadmap": "Hoja de ruta",
-  "visible": "Visible"
+  "visible": "Visible",
+  "toggleSidePanel": "Alternar panel lateral"
 }
