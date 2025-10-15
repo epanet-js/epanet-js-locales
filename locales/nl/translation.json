@@ -603,5 +603,20 @@
   "viewNetworkReview": "Netwerk controleren",
   "roadmap": "Routekaart",
   "visible": "Zichtbaar",
-  "toggleSidePanel": "Zijpaneel in-/uitschakelen"
+  "toggleSidePanel": "Zijpaneel in-/uitschakelen",
+  "privacyBanner": {
+    "acceptAllPreferences": "Alle optionele voorkeuren accepteren",
+    "acceptAndContinue": "Accepteren en doorgaan",
+    "description": "We gebruiken trackingtechnologieën om te begrijpen hoe de app wordt gebruikt en om uw ervaring te verbeteren. Om te voldoen aan privacyregelgeving hebben we uw toestemming nodig om deze gegevens te verzamelen.",
+    "errorReportingDescription": "We verzamelen crash- en foutrapporten om bugs te verhelpen en problemen te voorkomen. Dit kan details bevatten over uw apparaat en wat er in de app gebeurde toen de fout optrad.",
+    "errorReportingTitle": "Foutrapportage",
+    "essentialDataNotice": "Om ervoor te zorgen dat de app correct werkt, verzamelen we automatisch anonieme gegevens over paginabezoeken en gebruiken we functievlaggen om nieuwe functies in te schakelen en te beheren. Deze informatie is essentieel voor de basisfunctionaliteit van de app en kan niet worden uitgeschakeld.",
+    "managePreferences": "Mijn voorkeuren beheren",
+    "preferencesTitle": "Uw gegevensvoorkeuren beheren",
+    "productAnalyticsDescription": "We verzamelen <strong>anonieme</strong> gebruiksgegevens om te begrijpen hoe functies worden gebruikt en om de prestaties en functionaliteit te verbeteren. Deze informatie identificeert u niet persoonlijk.",
+    "productAnalyticsTitle": "Productanalyse",
+    "savePreferences": "Voorkeuren opslaan",
+    "seePrivacyPolicy": "Voor meer details, zie onze",
+    "title": "Uw privacy beschermen"
+  }
 }

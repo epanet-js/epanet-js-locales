@@ -603,5 +603,20 @@
   "viewNetworkReview": "Examiner le réseau",
   "roadmap": "Feuille de route",
   "visible": "Visible",
-  "toggleSidePanel": "Basculer le panneau latéral"
+  "toggleSidePanel": "Basculer le panneau latéral",
+  "privacyBanner": {
+    "acceptAllPreferences": "Accepter toutes les préférences facultatives",
+    "acceptAndContinue": "Accepter et continuer",
+    "description": "Nous utilisons des technologies de suivi pour comprendre comment l'application est utilisée et pour améliorer votre expérience. Pour nous conformer aux réglementations en matière de confidentialité, nous avons besoin de votre consentement pour collecter ces données.",
+    "errorReportingDescription": "Nous recueillons des rapports d'incidents et d'erreurs pour corriger les bogues et prévenir les problèmes. Cela peut inclure des détails sur votre appareil et ce qui se passait dans l'application au moment de l'erreur.",
+    "errorReportingTitle": "Rapports d'erreur",
+    "essentialDataNotice": "Pour assurer le bon fonctionnement de l'application, nous recueillons automatiquement des données anonymes sur les pages vues et utilisons des drapeaux de fonctionnalités pour activer et gérer de nouvelles fonctionnalités. Ces informations sont essentielles au fonctionnement de base de l'application et ne peuvent pas être désactivées.",
+    "managePreferences": "Gérer mes préférences",
+    "preferencesTitle": "Gérer vos préférences de données",
+    "productAnalyticsDescription": "Nous recueillons des données d'utilisation <strong>anonymes</strong> pour comprendre comment les fonctionnalités sont utilisées et pour améliorer les performances et les fonctionnalités. Ces informations ne vous identifient pas personnellement.",
+    "productAnalyticsTitle": "Analyse de produit",
+    "savePreferences": "Enregistrer les préférences",
+    "seePrivacyPolicy": "Pour plus de détails, veuillez consulter notre",
+    "title": "Protection de votre vie privée"
+  }
 }

@@ -603,5 +603,20 @@
   "viewNetworkReview": "管網レビュー",
   "roadmap": "ロードマップ",
   "visible": "表示",
-  "toggleSidePanel": "サイドパネルの切り替え"
+  "toggleSidePanel": "サイドパネルの切り替え",
+  "privacyBanner": {
+    "acceptAllPreferences": "すべてのオプション設定を承諾",
+    "acceptAndContinue": "承諾して続行",
+    "description": "当社は、アプリがどのように使用されているかを理解し、お客様のエクスペリエンスを向上させるためにトラッキングテクノロジーを使用しています。プライバシー規制を遵守するため、このデータを収集するにはお客様の同意が必要です。",
+    "errorReportingDescription": "当社は、バグの修正と問題の防止のためにクラッシュおよびエラーレポートを収集します。これには、お客様のデバイスに関する詳細や、エラー発生時にアプリ内で何が起こっていたかが含まれる場合があります。",
+    "errorReportingTitle": "エラー報告",
+    "essentialDataNotice": "アプリが適切に機能することを保証するため、当社はページビューに関する匿名データを自動的に収集し、機能フラグを使用して新機能を有効化および管理します。この情報はアプリの基本機能に不可欠であり、無効にすることはできません。",
+    "managePreferences": "設定を管理",
+    "preferencesTitle": "データ設定を管理",
+    "productAnalyticsDescription": "当社は、機能がどのように使用されているかを理解し、パフォーマンスと機能を向上させるために<strong>匿名</strong>の使用状況データを収集します。この情報によりお客様が個人を特定されることはありません。",
+    "productAnalyticsTitle": "製品分析",
+    "savePreferences": "設定を保存",
+    "seePrivacyPolicy": "詳細については、当社の",
+    "title": "お客様のプライバシー保護"
+  }
 }

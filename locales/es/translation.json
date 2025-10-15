@@ -610,5 +610,20 @@
   "viewNetworkReview": "Revisar red",
   "roadmap": "Hoja de ruta",
   "visible": "Visible",
-  "toggleSidePanel": "Alternar panel lateral"
+  "toggleSidePanel": "Alternar panel lateral",
+  "privacyBanner": {
+    "acceptAllPreferences": "Aceptar todas las preferencias opcionales",
+    "acceptAndContinue": "Aceptar y continuar",
+    "description": "Utilizamos tecnologías de seguimiento para entender cómo se usa la aplicación y mejorar tu experiencia. Para cumplir con las regulaciones de privacidad, necesitamos tu consentimiento para recopilar estos datos.",
+    "errorReportingDescription": "Recopilamos informes de fallos y errores para solucionar problemas y prevenirlos. Esto puede incluir detalles sobre tu dispositivo y lo que estaba sucediendo en la aplicación cuando ocurrió el error.",
+    "errorReportingTitle": "Informes de errores",
+    "essentialDataNotice": "Para asegurar que la aplicación funcione correctamente, recopilamos automáticamente datos anónimos sobre las visitas a las páginas y utilizamos indicadores de características para habilitar y gestionar nuevas funciones. Esta información es esencial para la funcionalidad básica de la aplicación y no se puede deshabilitar.",
+    "managePreferences": "Gestionar mis preferencias",
+    "preferencesTitle": "Gestionar tus preferencias de datos",
+    "productAnalyticsDescription": "Recopilamos datos de uso <strong>anónimos</strong> para entender cómo se utilizan las funciones y mejorar el rendimiento y la funcionalidad. Esta información no te identifica personalmente.",
+    "productAnalyticsTitle": "Análisis de producto",
+    "savePreferences": "Guardar preferencias",
+    "seePrivacyPolicy": "Para más detalles, consulta nuestra",
+    "title": "Protegiendo tu privacidad"
+  }
 }
