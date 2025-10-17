@@ -570,17 +570,13 @@
     "title": "Examen du réseau",
     "toggle": "Examiner le réseau",
     "crossingPipes": {
-      "title": "Conduites croisées"
-    },
-    "proximityCheck": {
-      "title": "Vérification de proximité",
-      "description": "Trouve les nœuds situés près de conduites voisines qui pourraient nécessiter une connexion.",
-      "emptyMessage": "Aucun nœud proche trouvé - vous pouvez augmenter la distance de recherche pour en trouver plus.",
+      "title": "Conduites croisées",
+      "description": "Trouve les conduites qui se croisent et qui pourraient nécessiter une connexion.",
+      "emptyMessage": "Aucune conduite croisée non connectée trouvée.",
       "issueLabel": "Connexion potentielle pour {{1}}",
       "summary_one": "1 connexion potentielle trouvée",
       "summary_other": "{{count}} connexions potentielles trouvées",
-      "summary_zero": "Aucune connexion potentielle trouvée",
-      "distance": "Distance"
+      "summary_zero": "Aucune connexion potentielle trouvée"
     },
     "issuesFound": "{{1}} problèmes trouvés",
     "noIssuesFound": "Aucun problème trouvé",
@@ -592,6 +588,16 @@
       "summary_other": "{{count}} problèmes trouvés",
       "summary_zero": "Aucun problème trouvé",
       "title": "Éléments orphelins"
+    },
+    "proximityAnomalies": {
+      "description": "Trouve les nœuds situés près de conduites voisines qui pourraient nécessiter une connexion.",
+      "distance": "Distance",
+      "emptyMessage": "Aucun nœud proche trouvé - vous pouvez augmenter la distance de recherche pour en trouver plus.",
+      "issueLabel": "Connexion potentielle pour {{1}}",
+      "summary_one": "1 connexion potentielle trouvée",
+      "summary_other": "{{count}} connexions potentielles trouvées",
+      "summary_zero": "Aucune connexion potentielle trouvée",
+      "title": "Vérification de proximité"
     }
   },
   "connectedCustomers": "Clients Connectés",
@@ -618,5 +624,7 @@
     "savePreferences": "Enregistrer les préférences",
     "seePrivacyPolicy": "Pour plus de détails, veuillez consulter notre",
     "title": "Protection de votre vie privée"
-  }
+  },
+  "no": "Non",
+  "yes": "Oui"
 }

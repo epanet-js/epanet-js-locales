@@ -213,6 +213,8 @@
   "autoLengths": "Auto-lengths",
   "autoElevations": "Auto-elevations",
   "on": "On",
+  "yes": "Yes",
+  "no": "No",
   "viewReport": "View report",
   "viewNetworkReview": "Review network",
   "ignore": "Ignore",
@@ -590,7 +592,7 @@
       "issueLabel": "Orphan {{1}}: {{2}}",
       "emptyMessage": "There are no orphan assets in your network. Well done!"
     },
-    "proximityCheck": {
+    "proximityAnomalies": {
       "title": "Proximity check",
       "description": "Finds junctions located close to nearby pipes that may need to be connected.",
       "summary_zero": "No potential connections found",
@@ -601,7 +603,13 @@
       "distance": "Distance"
     },
     "crossingPipes": {
-      "title": "Crossing pipes"
+      "title": "Crossing pipes",
+      "description": "Finds intersecting pipes that may need to be connected.",
+      "summary_zero": "No potential connections found",
+      "summary_one": "1 potential connection found",
+      "summary_other": "{{count}} potential connections found",
+      "issueLabel": "Potential connection for {{1}}",
+      "emptyMessage": "No unconnected intersecting pipes found."
     }
   },
   "privacyBanner": {

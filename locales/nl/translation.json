@@ -570,17 +570,13 @@
     "title": "Netwerkcontrole",
     "toggle": "Netwerkcontrole in-/uitschakelen",
     "crossingPipes": {
-      "title": "Kruisende leidingen"
-    },
-    "proximityCheck": {
-      "title": "Nabijheidscontrole",
-      "description": "Vindt knooppunten die dicht bij nabijgelegen leidingen liggen en mogelijk moeten worden verbonden.",
-      "emptyMessage": "Geen knooppunten in de buurt gevonden - u kunt de zoekafstand vergroten om meer te vinden.",
+      "title": "Kruisende leidingen",
+      "description": "Vindt kruisende leidingen die mogelijk moeten worden verbonden.",
+      "emptyMessage": "Geen onverbonden kruisende leidingen gevonden.",
       "issueLabel": "Potentiële verbinding voor {{1}}",
       "summary_one": "1 potentiële verbinding gevonden",
       "summary_other": "{{count}} potentiële verbindingen gevonden",
-      "summary_zero": "Geen potentiële verbindingen gevonden",
-      "distance": "Afstand"
+      "summary_zero": "Geen potentiële verbindingen gevonden"
     },
     "issuesFound": "{{1}} problemen gevonden",
     "noIssuesFound": "Geen problemen gevonden",
@@ -592,6 +588,16 @@
       "summary_other": "{{count}} problemen gevonden",
       "summary_zero": "Geen problemen gevonden",
       "title": "Weesonderdelen"
+    },
+    "proximityAnomalies": {
+      "description": "Vindt knooppunten die dicht bij nabijgelegen leidingen liggen en mogelijk moeten worden verbonden.",
+      "distance": "Afstand",
+      "emptyMessage": "Geen knooppunten in de buurt gevonden - u kunt de zoekafstand vergroten om meer te vinden.",
+      "issueLabel": "Potentiële verbinding voor {{1}}",
+      "summary_one": "1 potentiële verbinding gevonden",
+      "summary_other": "{{count}} potentiële verbindingen gevonden",
+      "summary_zero": "Geen potentiële verbindingen gevonden",
+      "title": "Nabijheidscontrole"
     }
   },
   "connectedCustomers": "Verbonden Klanten",
@@ -618,5 +624,7 @@
     "savePreferences": "Voorkeuren opslaan",
     "seePrivacyPolicy": "Voor meer details, zie onze",
     "title": "Uw privacy beschermen"
-  }
+  },
+  "no": "Nee",
+  "yes": "Ja"
 }

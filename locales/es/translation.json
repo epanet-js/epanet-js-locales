@@ -577,17 +577,13 @@
     "title": "Revisión de la Red",
     "toggle": "Alternar Revisión de la Red",
     "crossingPipes": {
-      "title": "Cruces de tuberías"
-    },
-    "proximityCheck": {
-      "title": "Verificación de proximidad",
-      "description": "Encuentra nudos situados cerca de tuberías adyacentes que podrían necesitar ser conectados.",
-      "emptyMessage": "No se encontraron nudos cercanos - puedes aumentar la distancia de búsqueda para encontrar más.",
+      "title": "Cruces de tuberías",
+      "description": "Encuentra tuberías que se cruzan y que podrían necesitar ser conectadas.",
+      "emptyMessage": "No se encontraron tuberías que se crucen y no estén conectadas.",
       "issueLabel": "Conexión potencial para {{1}}",
       "summary_one": "1 conexión potencial encontrada",
       "summary_other": "{{count}} conexiones potenciales encontradas",
-      "summary_zero": "No se encontraron conexiones potenciales",
-      "distance": "Distancia"
+      "summary_zero": "No se encontraron conexiones potenciales"
     },
     "issuesFound": "{{1}} problemas encontrados",
     "noIssuesFound": "No se encontraron problemas",
@@ -599,6 +595,16 @@
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
       "title": "Activos huérfanos"
+    },
+    "proximityAnomalies": {
+      "description": "Encuentra nudos situados cerca de tuberías adyacentes que podrían necesitar ser conectados.",
+      "distance": "Distancia",
+      "emptyMessage": "No se encontraron nudos cercanos - puedes aumentar la distancia de búsqueda para encontrar más.",
+      "issueLabel": "Conexión potencial para {{1}}",
+      "summary_one": "1 conexión potencial encontrada",
+      "summary_other": "{{count}} conexiones potenciales encontradas",
+      "summary_zero": "No se encontraron conexiones potenciales",
+      "title": "Verificación de proximidad"
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -625,5 +631,7 @@
     "savePreferences": "Guardar preferencias",
     "seePrivacyPolicy": "Para más detalles, consulta nuestra",
     "title": "Protegiendo tu privacidad"
-  }
+  },
+  "no": "No",
+  "yes": "Sí"
 }

@@ -570,17 +570,13 @@
     "title": "Revisão da Rede",
     "toggle": "Revisar Rede",
     "crossingPipes": {
-      "title": "Tubulações cruzadas"
-    },
-    "proximityCheck": {
-      "title": "Verificação de proximidade",
-      "description": "Encontra nós localizados perto de tubulações próximas que podem precisar ser conectadas.",
-      "emptyMessage": "Nenhum nó próximo encontrado - você pode aumentar a distância de busca para encontrar mais.",
+      "title": "Tubulações cruzadas",
+      "description": "Encontra tubulações que se cruzam e que podem precisar ser conectadas.",
+      "emptyMessage": "Nenhuma tubulação cruzada não conectada encontrada.",
       "issueLabel": "Conexão potencial para {{1}}",
       "summary_one": "1 conexão potencial encontrada",
       "summary_other": "{{count}} conexões potenciais encontradas",
-      "summary_zero": "Nenhuma conexão potencial encontrada",
-      "distance": "Distância"
+      "summary_zero": "Nenhuma conexão potencial encontrada"
     },
     "issuesFound": "{{1}} problemas encontrados",
     "noIssuesFound": "Nenhum problema encontrado",
@@ -592,6 +588,16 @@
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "Nenhum problema encontrado",
       "title": "Ativos órfãos"
+    },
+    "proximityAnomalies": {
+      "description": "Encontra nós localizados perto de tubulações próximas que podem precisar ser conectadas.",
+      "distance": "Distância",
+      "emptyMessage": "Nenhum nó próximo encontrado - você pode aumentar a distância de busca para encontrar mais.",
+      "issueLabel": "Conexão potencial para {{1}}",
+      "summary_one": "1 conexão potencial encontrada",
+      "summary_other": "{{count}} conexões potenciais encontradas",
+      "summary_zero": "Nenhuma conexão potencial encontrada",
+      "title": "Verificação de proximidade"
     }
   },
   "connectedCustomers": "Clientes Conectados",
@@ -618,5 +624,7 @@
     "savePreferences": "Salvar preferências",
     "seePrivacyPolicy": "Para mais detalhes, consulte nossa",
     "title": "Protegendo sua privacidade"
-  }
+  },
+  "no": "Não",
+  "yes": "Sim"
 }

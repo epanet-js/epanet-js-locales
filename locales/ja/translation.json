@@ -570,17 +570,13 @@
     "title": "管網レビュー",
     "toggle": "管網レビューの切り替え",
     "crossingPipes": {
-      "title": "交差する管"
-    },
-    "proximityCheck": {
-      "title": "近接チェック",
-      "description": "近くの管に近接している可能性のある接点を見つけます。",
-      "emptyMessage": "近くのノードが見つかりませんでした。検索距離を増やすと、さらに見つかる可能性があります。",
+      "title": "交差する管",
+      "description": "交差する可能性のある管を見つけます。",
+      "emptyMessage": "未接続の交差する管は見つかりませんでした。",
       "issueLabel": "{{1}} の潜在的な接続",
       "summary_one": "1 件の潜在的な接続が見つかりました",
       "summary_other": "{{count}} 件の潜在的な接続が見つかりました",
-      "summary_zero": "潜在的な接続は見つかりませんでした",
-      "distance": "距離"
+      "summary_zero": "潜在的な接続は見つかりませんでした"
     },
     "issuesFound": "{{1}} 件の問題が見つかりました",
     "noIssuesFound": "問題は見つかりませんでした",
@@ -592,6 +588,16 @@
       "summary_other": "{{count}} 件の問題が見つかりました",
       "summary_zero": "問題は見つかりませんでした",
       "title": "孤立アセット"
+    },
+    "proximityAnomalies": {
+      "description": "近くの管に近接している可能性のある接点を見つけます。",
+      "distance": "距離",
+      "emptyMessage": "近くのノードが見つかりませんでした。検索距離を増やすと、さらに見つかる可能性があります。",
+      "issueLabel": "{{1}} の潜在的な接続",
+      "summary_one": "1 件の潜在的な接続が見つかりました",
+      "summary_other": "{{count}} 件の潜在的な接続が見つかりました",
+      "summary_zero": "潜在的な接続は見つかりませんでした",
+      "title": "近接チェック"
     }
   },
   "connectedCustomers": "接続済み顧客",
@@ -618,5 +624,7 @@
     "savePreferences": "設定を保存",
     "seePrivacyPolicy": "詳細については、当社の",
     "title": "お客様のプライバシー保護"
-  }
+  },
+  "no": "いいえ",
+  "yes": "はい"
 }
