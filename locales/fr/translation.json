@@ -474,7 +474,8 @@
           "id": "ID",
           "latitude": "Latitude",
           "longitude": "Longitude",
-          "index": "Index"
+          "index": "Index",
+          "label": "Étiquette"
         },
         "title": "Aperçu des données",
         "attributesMapping": {
@@ -489,7 +490,12 @@
           "label": "Demande",
           "placeholder": "Sélectionner une propriété de demande..."
         },
-        "loading": "Lecture des points de consommation..."
+        "loading": "Lecture des points de consommation...",
+        "labelSelector": {
+          "description": "Les étiquettes seront tronquées à {{1}} caractères",
+          "label": "Étiquette",
+          "placeholder": "Sélectionner une propriété d'étiquette (facultatif)..."
+        }
       },
       "loading": "Chargement...",
       "somethingWentWrong": "Quelque chose s'est mal passé",

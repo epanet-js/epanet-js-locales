@@ -474,7 +474,8 @@
           "id": "ID",
           "latitude": "Latitude",
           "longitude": "Longitude",
-          "index": "Índice"
+          "index": "Índice",
+          "label": "Rótulo"
         },
         "title": "Visualização dos Dados",
         "attributesMapping": {
@@ -489,7 +490,12 @@
           "label": "Demanda",
           "placeholder": "Selecionar propriedade de demanda..."
         },
-        "loading": "Lendo pontos de consumo..."
+        "loading": "Lendo pontos de consumo...",
+        "labelSelector": {
+          "description": "Os rótulos serão truncados para {{1}} caracteres",
+          "label": "Rótulo",
+          "placeholder": "Selecionar propriedade de rótulo (opcional)..."
+        }
       },
       "loading": "Carregando...",
       "somethingWentWrong": "Algo deu errado",

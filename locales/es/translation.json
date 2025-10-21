@@ -487,7 +487,8 @@
           "id": "ID",
           "latitude": "Latitud",
           "longitude": "Longitud",
-          "index": "Índice"
+          "index": "Índice",
+          "label": "Etiqueta"
         },
         "title": "Mapeo de Datos",
         "attributesMapping": {
@@ -502,7 +503,12 @@
           "label": "Demanda",
           "placeholder": "Selecciona una propiedad de demanda..."
         },
-        "loading": "Leyendo puntos de consumo..."
+        "loading": "Leyendo puntos de consumo...",
+        "labelSelector": {
+          "description": "Las etiquetas se recortarán a {{1}} caracteres",
+          "label": "Etiqueta",
+          "placeholder": "Selecciona una propiedad de etiqueta (opcional)..."
+        }
       },
       "loading": "Cargando...",
       "somethingWentWrong": "Algo ha ido mal",

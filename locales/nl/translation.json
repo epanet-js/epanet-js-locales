@@ -474,7 +474,8 @@
           "id": "ID",
           "latitude": "Breedtegraad",
           "longitude": "Lengtegraad",
-          "index": "Index"
+          "index": "Index",
+          "label": "Label"
         },
         "title": "Gegevenskoppeling",
         "attributesMapping": {
@@ -489,7 +490,12 @@
           "label": "Vraag",
           "placeholder": "Selecteer vraag-eigenschap..."
         },
-        "loading": "Klantpunten lezen..."
+        "loading": "Klantpunten lezen...",
+        "labelSelector": {
+          "description": "Labels worden afgekapt tot {{1}} tekens",
+          "label": "Label",
+          "placeholder": "Selecteer label eigenschap (optioneel)..."
+        }
       },
       "loading": "Laden...",
       "somethingWentWrong": "Er is iets misgegaan",

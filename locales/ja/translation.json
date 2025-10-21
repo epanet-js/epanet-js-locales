@@ -233,7 +233,8 @@
           "id": "ID",
           "latitude": "緯度",
           "longitude": "経度",
-          "index": "インデックス"
+          "index": "インデックス",
+          "label": "ラベル"
         },
         "title": "データマッピング",
         "attributesMapping": {
@@ -248,7 +249,12 @@
           "label": "需要",
           "placeholder": "需要プロパティを選択..."
         },
-        "loading": "顧客ポイントを読み込み中..."
+        "loading": "顧客ポイントを読み込み中...",
+        "labelSelector": {
+          "description": "ラベルは{{1}}文字にトリミングされます",
+          "label": "ラベル",
+          "placeholder": "ラベルプロパティを選択 (オプション)..."
+        }
       },
       "loading": "読み込み中...",
       "somethingWentWrong": "問題が発生しました",
