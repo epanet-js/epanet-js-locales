@@ -494,7 +494,7 @@
         "labelSelector": {
           "description": "Les étiquettes seront tronquées à {{1}} caractères",
           "label": "Étiquette",
-          "placeholder": "Sélectionner une propriété d'étiquette (facultatif)..."
+          "placeholder": "Sélectionner une propriété d'étiquette..."
         }
       },
       "loading": "Chargement...",
@@ -575,7 +575,7 @@
       "title": "Conduites croisées",
       "description": "Trouve les conduites qui se croisent sans nœud de connexion.",
       "emptyMessage": "Aucune conduite croisée trouvée dans votre réseau",
-      "issueLabel": "Intersection pour les conduites {{1}} et {{2}}",
+      "issueLabel": "La conduite {{1}} croise la conduite {{2}}",
       "summary_one": "1 intersection trouvée",
       "summary_other": "{{count}} intersections trouvées",
       "summary_zero": "Aucune intersection trouvée"
@@ -628,5 +628,6 @@
     "title": "Protection de votre vie privée"
   },
   "no": "Non",
-  "yes": "Oui"
+  "yes": "Oui",
+  "optional": "facultatif"
 }

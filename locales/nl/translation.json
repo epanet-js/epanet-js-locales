@@ -494,7 +494,7 @@
         "labelSelector": {
           "description": "Labels worden afgekapt tot {{1}} tekens",
           "label": "Label",
-          "placeholder": "Selecteer label eigenschap (optioneel)..."
+          "placeholder": "Selecteer label eigenschap..."
         }
       },
       "loading": "Laden...",
@@ -628,5 +628,6 @@
     "title": "Uw privacy beschermen"
   },
   "no": "Nee",
-  "yes": "Ja"
+  "yes": "Ja",
+  "optional": "optioneel"
 }

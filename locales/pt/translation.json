@@ -494,7 +494,7 @@
         "labelSelector": {
           "description": "Os rótulos serão truncados para {{1}} caracteres",
           "label": "Rótulo",
-          "placeholder": "Selecionar propriedade de rótulo (opcional)..."
+          "placeholder": "Selecionar propriedade de rótulo..."
         }
       },
       "loading": "Carregando...",
@@ -628,5 +628,6 @@
     "title": "Protegendo sua privacidade"
   },
   "no": "Não",
-  "yes": "Sim"
+  "yes": "Sim",
+  "optional": "opcional"
 }

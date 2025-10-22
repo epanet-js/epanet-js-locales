@@ -507,7 +507,7 @@
         "labelSelector": {
           "description": "Las etiquetas se recortarán a {{1}} caracteres",
           "label": "Etiqueta",
-          "placeholder": "Selecciona una propiedad de etiqueta (opcional)..."
+          "placeholder": "Selecciona una propiedad de etiqueta..."
         }
       },
       "loading": "Cargando...",
@@ -582,7 +582,7 @@
       "title": "Cruces de tuberías",
       "description": "Encuentra tuberías que se cruzan sin un nudo de conexión.",
       "emptyMessage": "No se encontraron tuberías que se crucen en tu red",
-      "issueLabel": "Intersección para tuberías {{1}} y {{2}}",
+      "issueLabel": "La tubería {{1}} cruza la tubería {{2}}",
       "summary_one": "1 intersección encontrada",
       "summary_other": "{{count}} intersecciones encontradas",
       "summary_zero": "No se encontraron intersecciones"
@@ -635,5 +635,6 @@
     "title": "Protegiendo tu privacidad"
   },
   "no": "No",
-  "yes": "Sí"
+  "yes": "Sí",
+  "optional": "opcional"
 }

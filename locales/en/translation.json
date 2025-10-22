@@ -274,6 +274,7 @@
   "toggleVisibility": "Toggle visibility",
   "toggleLabelsVisibility": "Toggle labels visibility",
   "visible": "Visible",
+  "optional": "optional",
   "basemap": "Basemap",
   "back": "Back",
   "updateLayer": "Update layer",
@@ -478,7 +479,7 @@
         },
         "labelSelector": {
           "label": "Label",
-          "placeholder": "Select label property (optional)...",
+          "placeholder": "Select label property...",
           "description": "Labels will be trimmed to {{1}} characters"
         },
         "table": {
@@ -610,7 +611,7 @@
       "summary_zero": "No intersections found",
       "summary_one": "1 intersection found",
       "summary_other": "{{count}} intersections found",
-      "issueLabel": "Intersection for pipes {{1}} and {{2}}",
+      "issueLabel": "Pipe {{1}} crosses pipe {{2}}",
       "emptyMessage": "No crossing pipes found in your network"
     }
   },
