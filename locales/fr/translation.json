@@ -494,7 +494,8 @@
         "labelSelector": {
           "description": "Les étiquettes seront tronquées à {{1}} caractères",
           "label": "Étiquette",
-          "placeholder": "Sélectionner une propriété d'étiquette..."
+          "placeholder": "Sélectionner une propriété d'étiquette...",
+          "noneAutoGenerate": "Aucun (Génération automatique d'étiquettes)"
         }
       },
       "loading": "Chargement...",
@@ -566,7 +567,19 @@
   "onboardingRedrawLink": "Cliquez pour définir de nouveaux sommets pour la liaison sélectionnée. Terminez sur un nœud ou double-cliquez pour en ajouter un.",
   "networkReview": {
     "connectivityTrace": {
-      "title": "Traçage de connectivité"
+      "title": "Traçage de connectivité",
+      "description": "Identifier les sous-réseaux déconnectés et vérifier que chacun dispose d'une source d'approvisionnement en eau",
+      "emptyMessage": "Votre réseau est entièrement connecté",
+      "issueLabel": "Réseau {{1}}",
+      "pipesCount_one": "1 conduite",
+      "pipesCount_other": "{{count}} conduites",
+      "subnetwork": "Réseau {{1}}",
+      "summary_one": "1 sous-réseau trouvé",
+      "summary_other": "{{count}} sous-réseaux trouvés",
+      "summary_zero": "Aucun sous-réseau trouvé",
+      "supplySourceCount_one": "1 source d'approvisionnement",
+      "supplySourceCount_other": "{{count}} sources d'approvisionnement",
+      "supplySourceCount_zero": "Aucune source d'approvisionnement"
     },
     "description": "Effectuer une série de vérifications pour valider la topologie de votre réseau et assurer la qualité des données.",
     "title": "Examen du réseau",

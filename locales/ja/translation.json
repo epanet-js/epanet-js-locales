@@ -253,7 +253,8 @@
         "labelSelector": {
           "description": "ラベルは{{1}}文字にトリミングされます",
           "label": "ラベル",
-          "placeholder": "ラベルプロパティを選択..."
+          "placeholder": "ラベルプロパティを選択...",
+          "noneAutoGenerate": "なし（ラベルを自動生成）"
         }
       },
       "loading": "読み込み中...",
@@ -566,7 +567,19 @@
   "onboardingRedrawLink": "選択したリンクの新しい頂点を定義するにはクリックします。接点で終了するか、ダブルクリックして追加します。",
   "networkReview": {
     "connectivityTrace": {
-      "title": "接続性トレース"
+      "title": "接続性トレース",
+      "description": "切断されたサブネットワークを特定し、それぞれに給水源があることを確認します",
+      "emptyMessage": "ネットワークは完全に接続されています",
+      "issueLabel": "ネットワーク {{1}}",
+      "pipesCount_one": "管 1 本",
+      "pipesCount_other": "{{count}} 本の管",
+      "subnetwork": "ネットワーク {{1}}",
+      "summary_one": "サブネットワークが 1 つ見つかりました",
+      "summary_other": "サブネットワークが {{count}} 件見つかりました",
+      "summary_zero": "サブネットワークは見つかりませんでした",
+      "supplySourceCount_one": "給水源 1 つ",
+      "supplySourceCount_other": "給水源 {{count}} つ",
+      "supplySourceCount_zero": "給水源なし"
     },
     "description": "ネットワークのトポロジを検証し、データ品質を確保するための一連のチェックを実行します。",
     "title": "管網レビュー",

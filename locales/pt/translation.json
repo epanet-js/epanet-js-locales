@@ -494,7 +494,8 @@
         "labelSelector": {
           "description": "Os rótulos serão truncados para {{1}} caracteres",
           "label": "Rótulo",
-          "placeholder": "Selecionar propriedade de rótulo..."
+          "placeholder": "Selecionar propriedade de rótulo...",
+          "noneAutoGenerate": "Nenhum (Gerar rótulos automaticamente)"
         }
       },
       "loading": "Carregando...",
@@ -566,7 +567,19 @@
   "onboardingRedrawLink": "Clique para definir novos vértices para o link selecionado. Termine em um nó ou clique duas vezes para adicionar um.",
   "networkReview": {
     "connectivityTrace": {
-      "title": "Rastreamento de conectividade"
+      "title": "Rastreamento de conectividade",
+      "description": "Identifica sub-redes desconectadas e verifica se cada uma tem uma fonte de abastecimento de água",
+      "emptyMessage": "Sua rede está totalmente conectada",
+      "issueLabel": "Rede {{1}}",
+      "pipesCount_one": "1 tubulação",
+      "pipesCount_other": "{{count}} tubulações",
+      "subnetwork": "Rede {{1}}",
+      "summary_one": "1 sub-rede encontrada",
+      "summary_other": "{{count}} sub-redes encontradas",
+      "summary_zero": "Nenhuma sub-rede encontrada",
+      "supplySourceCount_one": "1 fonte de abastecimento",
+      "supplySourceCount_other": "{{count}} fontes de abastecimento",
+      "supplySourceCount_zero": "Nenhuma fonte de abastecimento"
     },
     "description": "Execute uma série de verificações para validar a topologia da sua rede e garantir a qualidade dos dados.",
     "title": "Revisão da Rede",

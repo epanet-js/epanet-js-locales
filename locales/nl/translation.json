@@ -494,7 +494,8 @@
         "labelSelector": {
           "description": "Labels worden afgekapt tot {{1}} tekens",
           "label": "Label",
-          "placeholder": "Selecteer label eigenschap..."
+          "placeholder": "Selecteer label eigenschap...",
+          "noneAutoGenerate": "Geen (Labels automatisch genereren)"
         }
       },
       "loading": "Laden...",
@@ -566,7 +567,19 @@
   "onboardingRedrawLink": "Klik om nieuwe hoekpunten te definiëren voor de geselecteerde verbinding. Eindig bij een knooppunt of dubbelklik om er een toe te voegen.",
   "networkReview": {
     "connectivityTrace": {
-      "title": "Connectiviteitstracering"
+      "title": "Connectiviteitstracering",
+      "description": "Identificeer losgekoppelde subnetwerken en controleer of elk een watertoevoerbron heeft",
+      "emptyMessage": "Uw netwerk is volledig verbonden",
+      "issueLabel": "Netwerk {{1}}",
+      "pipesCount_one": "1 leiding",
+      "pipesCount_other": "{{count}} leidingen",
+      "subnetwork": "Netwerk {{1}}",
+      "summary_one": "1 subnetwerk gevonden",
+      "summary_other": "{{count}} subnetwerken gevonden",
+      "summary_zero": "Geen subnetwerken gevonden",
+      "supplySourceCount_one": "1 toevoerbron",
+      "supplySourceCount_other": "{{count}} toevoerbronnen",
+      "supplySourceCount_zero": "Geen toevoerbron"
     },
     "description": "Voer een reeks controles uit om de topologie van uw netwerk te valideren en de gegevenskwaliteit te waarborgen.",
     "title": "Netwerkcontrole",
