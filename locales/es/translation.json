@@ -472,9 +472,9 @@
           "invalidProjection": "Proyección inválida - se esperaba WGS84/EPSG:4326 ({{1}})",
           "missingCoordinates": "Coordenadas faltantes ({{1}})",
           "nonPointGeometries": "Geometrías no puntuales ({{1}})",
-          "noValidJunction": "Sin unión válida ({{1}})"
+          "noValidJunction": "Sin unión válida ({{1}})",
+          "title": "Problemas ({{1}})"
         },
-        "issuesTab": "Incidencias",
         "messages": {
           "andXMore": "... y {{1}} puntos de consumo más",
           "andXMoreIssues": "... y {{1}} más",
@@ -488,7 +488,8 @@
           "latitude": "Latitud",
           "longitude": "Longitud",
           "index": "Índice",
-          "label": "Etiqueta"
+          "label": "Etiqueta",
+          "title": "Puntos de consumo ({{1}})"
         },
         "title": "Mapeo de Datos",
         "attributesMapping": {

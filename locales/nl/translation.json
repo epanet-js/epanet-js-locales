@@ -459,9 +459,9 @@
           "invalidProjection": "Ongeldige projectie - verwacht WGS84/EPSG:4326 ({{1}})",
           "missingCoordinates": "Coördinaten ontbreken ({{1}})",
           "nonPointGeometries": "Niet-punt geometrieën ({{1}})",
-          "noValidJunction": "Geen geldig knooppunt ({{1}})"
+          "noValidJunction": "Geen geldig knooppunt ({{1}})",
+          "title": "Problemen ({{1}})"
         },
-        "issuesTab": "Problemen",
         "messages": {
           "andXMore": "... en nog {{1}} klantpunten",
           "andXMoreIssues": "... en nog {{1}}",
@@ -475,7 +475,8 @@
           "latitude": "Breedtegraad",
           "longitude": "Lengtegraad",
           "index": "Index",
-          "label": "Label"
+          "label": "Label",
+          "title": "Klantpunten ({{1}})"
         },
         "title": "Gegevenskoppeling",
         "attributesMapping": {

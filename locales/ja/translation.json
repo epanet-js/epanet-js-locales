@@ -218,9 +218,9 @@
           "invalidProjection": "無効な投影 - 期待されるWGS84/EPSG:4326 ({{1}})",
           "missingCoordinates": "座標がありません ({{1}})",
           "nonPointGeometries": "非ポイントジオメトリ ({{1}})",
-          "noValidJunction": "有効な接点なし ({{1}})"
+          "noValidJunction": "有効な接点なし ({{1}})",
+          "title": "問題 ({{1}})"
         },
-        "issuesTab": "問題",
         "messages": {
           "andXMore": "... その他 {{1}} 件の顧客ポイント",
           "andXMoreIssues": "... その他 {{1}} 件",
@@ -234,7 +234,8 @@
           "latitude": "緯度",
           "longitude": "経度",
           "index": "インデックス",
-          "label": "ラベル"
+          "label": "ラベル",
+          "title": "顧客ポイント ({{1}})"
         },
         "title": "データマッピング",
         "attributesMapping": {

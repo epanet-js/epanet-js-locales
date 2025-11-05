@@ -459,9 +459,9 @@
           "invalidProjection": "Projection invalide - attendu WGS84/EPSG:4326 ({{1}})",
           "missingCoordinates": "Coordonnées manquantes ({{1}})",
           "nonPointGeometries": "Géométries non ponctuelles ({{1}})",
-          "noValidJunction": "Aucune jonction valide ({{1}})"
+          "noValidJunction": "Aucune jonction valide ({{1}})",
+          "title": "Problèmes ({{1}})"
         },
-        "issuesTab": "Problèmes",
         "messages": {
           "andXMore": "... et {{1}} points clients supplémentaires",
           "andXMoreIssues": "... et {{1}} de plus",
@@ -475,7 +475,8 @@
           "latitude": "Latitude",
           "longitude": "Longitude",
           "index": "Index",
-          "label": "Étiquette"
+          "label": "Étiquette",
+          "title": "Points de Consommation ({{1}})"
         },
         "title": "Aperçu des données",
         "attributesMapping": {
