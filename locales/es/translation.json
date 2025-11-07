@@ -650,5 +650,11 @@
   },
   "no": "No",
   "yes": "Sí",
-  "optional": "opcional"
+  "optional": "opcional",
+  "areaSelection": {
+    "freehand": "Selección a mano alzada",
+    "polygonal": "Selección poligonal",
+    "rectangular": "Selección rectangular",
+    "tool": "Selección por área"
+  }
 }

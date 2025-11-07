@@ -643,5 +643,11 @@
   },
   "no": "Nee",
   "yes": "Ja",
-  "optional": "optioneel"
+  "optional": "optioneel",
+  "areaSelection": {
+    "freehand": "Vrijehandselectie",
+    "polygonal": "Veelhoekselectie",
+    "rectangular": "Rechthoekige selectie",
+    "tool": "Gebiedsselectie"
+  }
 }

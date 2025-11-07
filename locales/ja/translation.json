@@ -643,5 +643,11 @@
   },
   "no": "いいえ",
   "yes": "はい",
-  "optional": "オプション"
+  "optional": "オプション",
+  "areaSelection": {
+    "freehand": "フリーハンド選択",
+    "polygonal": "多角形選択",
+    "rectangular": "矩形選択",
+    "tool": "領域選択"
+  }
 }
