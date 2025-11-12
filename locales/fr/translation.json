@@ -648,6 +648,13 @@
     "freehand": "Sélection à main levée",
     "polygonal": "Sélection polygonale",
     "rectangular": "Sélection rectangulaire",
-    "tool": "Sélection de zone"
+    "tool": "Sélection de zone",
+    "drawingFreehandEndHint": "Cliquer pour terminer",
+    "drawingPolygonEndHint": "Double-cliquer pour fermer le polygone",
+    "drawingStartHint": "Cliquer pour commencer à dessiner la forme de sélection"
+  },
+  "activeTopology": {
+    "enabled": "Activé",
+    "title": "Topologie active"
   }
 }

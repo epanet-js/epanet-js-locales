@@ -648,6 +648,13 @@
     "freehand": "フリーハンド選択",
     "polygonal": "多角形選択",
     "rectangular": "矩形選択",
-    "tool": "領域選択"
+    "tool": "領域選択",
+    "drawingFreehandEndHint": "クリックして完了",
+    "drawingPolygonEndHint": "ダブルクリックしてポリゴンを閉じます",
+    "drawingStartHint": "クリックして選択シェイプの描画を開始"
+  },
+  "activeTopology": {
+    "enabled": "有効",
+    "title": "アクティブトポロジー"
   }
 }

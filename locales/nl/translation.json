@@ -648,6 +648,13 @@
     "freehand": "Vrijehandselectie",
     "polygonal": "Veelhoekselectie",
     "rectangular": "Rechthoekige selectie",
-    "tool": "Gebiedsselectie"
+    "tool": "Gebiedsselectie",
+    "drawingFreehandEndHint": "Klik om te voltooien",
+    "drawingPolygonEndHint": "Dubbelklik om de polygoon te sluiten",
+    "drawingStartHint": "Klik om de selectievorm te beginnen tekenen"
+  },
+  "activeTopology": {
+    "enabled": "Ingeschakeld",
+    "title": "Actieve Topologie"
   }
 }
