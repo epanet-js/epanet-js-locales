@@ -661,7 +661,7 @@
     "drawingStartHint": "Haz clic para empezar a dibujar la forma de selección"
   },
   "activeTopology": {
-    "enabled": "Habilitada",
-    "title": "Topología activa"
+    "title": "Topología activa",
+    "isEnabled": "Habilitada"
   }
 }

@@ -650,11 +650,11 @@
     "rectangular": "Sélection rectangulaire",
     "tool": "Sélection de zone",
     "drawingFreehandEndHint": "Cliquer pour terminer",
-    "drawingPolygonEndHint": "Double-cliquer pour fermer le polygone",
-    "drawingStartHint": "Cliquer pour commencer à dessiner la forme de sélection"
+    "drawingPolygonEndHint": "Cliquer pour définir les sommets. Terminer en double-cliquant",
+    "drawingStartHint": "Cliquer pour commencer à dessiner la zone de sélection"
   },
   "activeTopology": {
-    "enabled": "Activé",
-    "title": "Topologie active"
+    "title": "Topologie active",
+    "isEnabled": "Est activée"
   }
 }
