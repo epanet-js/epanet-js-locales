@@ -653,8 +653,6 @@
     "drawingPolygonEndHint": "Klik om hoekpunten te definiëren. Voltooi door te dubbelklikken",
     "drawingStartHint": "Klik om de selectievorm te beginnen tekenen"
   },
-  "activeTopology": {
-    "title": "Actieve Topologie",
-    "isEnabled": "Is ingeschakeld"
-  }
+  "activeTopology": "Actieve Topologie",
+  "isEnabled": "Is ingeschakeld"
 }

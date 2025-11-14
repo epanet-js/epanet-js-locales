@@ -660,8 +660,6 @@
     "drawingPolygonEndHint": "Haz doble clic para cerrar el polígono",
     "drawingStartHint": "Haz clic para empezar a dibujar la forma de selección"
   },
-  "activeTopology": {
-    "title": "Topología activa",
-    "isEnabled": "Habilitada"
-  }
+  "activeTopology": "Topología activa",
+  "isEnabled": "Habilitada"
 }

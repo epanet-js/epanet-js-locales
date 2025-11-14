@@ -653,8 +653,6 @@
     "drawingPolygonEndHint": "Cliquer pour définir les sommets. Terminer en double-cliquant",
     "drawingStartHint": "Cliquer pour commencer à dessiner la zone de sélection"
   },
-  "activeTopology": {
-    "title": "Topologie active",
-    "isEnabled": "Est activée"
-  }
+  "activeTopology": "Topologie active",
+  "isEnabled": "Est activée"
 }

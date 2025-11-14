@@ -653,8 +653,6 @@
     "drawingPolygonEndHint": "ダブルクリックしてポリゴンを閉じます",
     "drawingStartHint": "クリックして選択シェイプの描画を開始"
   },
-  "activeTopology": {
-    "title": "アクティブトポロジー",
-    "isEnabled": "有効"
-  }
+  "activeTopology": "アクティブトポロジー",
+  "isEnabled": "有効"
 }
