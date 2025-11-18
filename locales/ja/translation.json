@@ -651,7 +651,9 @@
     "tool": "領域選択",
     "drawingFreehandEndHint": "クリックして完了",
     "drawingPolygonEndHint": "ダブルクリックしてポリゴンを閉じます",
-    "drawingStartHint": "クリックして選択シェイプの描画を開始"
+    "drawingStartHint": "クリックして選択シェイプの描画を開始",
+    "drawingRectangleEndHint": "対角の頂点を定義するにはクリックします",
+    "operationHint": "選択範囲に追加するには{{1}}を、または選択範囲から削除するには{{2}}を押しながら操作します"
   },
   "activeTopology": "アクティブトポロジー",
   "isEnabled": "有効"

@@ -651,7 +651,9 @@
     "tool": "Sélection de zone",
     "drawingFreehandEndHint": "Cliquer pour terminer",
     "drawingPolygonEndHint": "Cliquer pour définir les sommets. Terminer en double-cliquant",
-    "drawingStartHint": "Cliquer pour commencer à dessiner la zone de sélection"
+    "drawingStartHint": "Cliquer pour commencer à dessiner la zone de sélection",
+    "drawingRectangleEndHint": "Cliquez pour définir le sommet opposé",
+    "operationHint": "Maintenez {{1}} pour ajouter ou {{2}} pour supprimer d'une sélection"
   },
   "activeTopology": "Topologie active",
   "isEnabled": "Est activée"

@@ -651,7 +651,9 @@
     "tool": "Gebiedsselectie",
     "drawingFreehandEndHint": "Klik om te voltooien",
     "drawingPolygonEndHint": "Klik om hoekpunten te definiëren. Voltooi door te dubbelklikken",
-    "drawingStartHint": "Klik om de selectievorm te beginnen tekenen"
+    "drawingStartHint": "Klik om de selectievorm te beginnen tekenen",
+    "drawingRectangleEndHint": "Klik om het tegenovergestelde hoekpunt te definiëren",
+    "operationHint": "Houd {{1}} ingedrukt om toe te voegen of {{2}} om uit een selectie te verwijderen"
   },
   "activeTopology": "Actieve Topologie",
   "isEnabled": "Is ingeschakeld"

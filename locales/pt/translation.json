@@ -651,7 +651,9 @@
     "tool": "Seleção por área",
     "drawingFreehandEndHint": "Clique para completar",
     "drawingPolygonEndHint": "Duplo clique para fechar o polígono",
-    "drawingStartHint": "Clique para começar a desenhar a forma de seleção"
+    "drawingStartHint": "Clique para começar a desenhar a forma de seleção",
+    "drawingRectangleEndHint": "Clique para definir o vértice oposto",
+    "operationHint": "Mantenha {{1}} para adicionar ou {{2}} para remover de uma seleção"
   },
   "activeTopology": "Topologia Ativa",
   "isEnabled": "Habilitado"
