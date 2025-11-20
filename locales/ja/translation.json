@@ -656,5 +656,8 @@
     "operationHint": "選択範囲に追加するには{{1}}を、または選択範囲から削除するには{{2}}を押しながら操作します"
   },
   "activeTopology": "アクティブトポロジー",
-  "isEnabled": "有効"
+  "isEnabled": "有効",
+  "activateAssets": "有効にする",
+  "deactivateAssets": "無効にする",
+  "toggleActiveTopology": "有効/無効"
 }

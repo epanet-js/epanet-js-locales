@@ -656,5 +656,8 @@
     "operationHint": "Houd {{1}} ingedrukt om toe te voegen of {{2}} om uit een selectie te verwijderen"
   },
   "activeTopology": "Actieve Topologie",
-  "isEnabled": "Is ingeschakeld"
+  "isEnabled": "Ingeschakeld",
+  "activateAssets": "Inschakelen",
+  "deactivateAssets": "Uitschakelen",
+  "toggleActiveTopology": "In-/Uitschakelen"
 }

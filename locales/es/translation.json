@@ -663,5 +663,8 @@
     "operationHint": "Mantén {{1}} para añadir o {{2}} para quitar de la selección"
   },
   "activeTopology": "Topología activa",
-  "isEnabled": "Habilitada"
+  "isEnabled": "Habilitada",
+  "activateAssets": "Habilitar",
+  "deactivateAssets": "Deshabilitar",
+  "toggleActiveTopology": "Habilitar/Deshabilitar"
 }
