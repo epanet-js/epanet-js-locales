@@ -659,5 +659,17 @@
   "isEnabled": "Activé",
   "activateAssets": "Activer",
   "deactivateAssets": "Désactiver",
-  "toggleActiveTopology": "Activer/Désactiver"
+  "toggleActiveTopology": "Activer/Désactiver",
+  "curveDetails": "Détails de la courbe",
+  "curvePoint": "Point",
+  "curveValidationError": "Courbe invalide : les débits doivent être en ordre croissant",
+  "designPoint": "Point de conception",
+  "designPointLabel": "Conception",
+  "maxOperatingPoint": "Max. de fonctionnement",
+  "nothingSelectedClickAsset": "Cliquez sur un élément pour le sélectionner.",
+  "nothingSelectedSelectAll": "Appuyez sur {{1}} pour sélectionner tous les éléments.",
+  "nothingSelectedShiftClick": "Appuyez sur {{1}} et maintenez enfoncé tout en cliquant pour sélectionner plusieurs éléments à la fois.",
+  "pumpCurve": "Courbe de pompe",
+  "shutoffPoint": "Point de fermeture",
+  "standardCurve": "Courbe standard"
 }

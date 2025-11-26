@@ -659,5 +659,17 @@
   "isEnabled": "Ingeschakeld",
   "activateAssets": "Inschakelen",
   "deactivateAssets": "Uitschakelen",
-  "toggleActiveTopology": "In-/Uitschakelen"
+  "toggleActiveTopology": "In-/Uitschakelen",
+  "curveDetails": "Curve details",
+  "curvePoint": "Punt",
+  "curveValidationError": "Ongeldige curve: stromingen moeten in oplopende volgorde staan",
+  "designPoint": "Ontwerppunt",
+  "designPointLabel": "Ontwerp",
+  "maxOperatingPoint": "Max. Bedrijfspunt",
+  "nothingSelectedClickAsset": "Klik op een onderdeel om het te selecteren.",
+  "nothingSelectedSelectAll": "Druk op {{1}} om alle onderdelen te selecteren.",
+  "nothingSelectedShiftClick": "Houd {{1}} ingedrukt en klik om meer dan één onderdeel tegelijk te selecteren.",
+  "pumpCurve": "Pompcurve",
+  "shutoffPoint": "Afsluitpunt",
+  "standardCurve": "Standaardcurve"
 }

@@ -659,5 +659,17 @@
   "isEnabled": "有効",
   "activateAssets": "有効にする",
   "deactivateAssets": "無効にする",
-  "toggleActiveTopology": "有効/無効"
+  "toggleActiveTopology": "有効/無効",
+  "curveDetails": "曲線詳細",
+  "curvePoint": "点",
+  "curveValidationError": "無効な曲線：流量は昇順である必要があります",
+  "designPoint": "設計点",
+  "designPointLabel": "設計",
+  "maxOperatingPoint": "最大操作点",
+  "nothingSelectedClickAsset": "アセットをクリックして選択します。",
+  "nothingSelectedSelectAll": "{{1}} を押してすべてのアセットを選択します。",
+  "nothingSelectedShiftClick": "{{1}} を押しながらクリックし続けると、複数のアセットを一度に選択できます。",
+  "pumpCurve": "ポンプ曲線",
+  "shutoffPoint": "閉止",
+  "standardCurve": "標準曲線"
 }

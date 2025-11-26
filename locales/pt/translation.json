@@ -659,5 +659,17 @@
   "isEnabled": "Habilitado",
   "activateAssets": "Habilitar",
   "deactivateAssets": "Desabilitar",
-  "toggleActiveTopology": "Habilitar/Desabilitar"
+  "toggleActiveTopology": "Habilitar/Desabilitar",
+  "curveDetails": "Detalhes da curva",
+  "curvePoint": "Ponto",
+  "curveValidationError": "Curva inválida: as vazões devem estar em ordem crescente",
+  "designPoint": "Ponto de projeto",
+  "designPointLabel": "Projeto",
+  "maxOperatingPoint": "Operação máxima",
+  "nothingSelectedClickAsset": "Clique em um ativo para selecioná-lo.",
+  "nothingSelectedSelectAll": "Pressione {{1}} para selecionar todos os ativos.",
+  "nothingSelectedShiftClick": "Pressione e segure {{1}} enquanto clica para selecionar mais de um ativo por vez.",
+  "pumpCurve": "Curva da bomba",
+  "shutoffPoint": "Ponto de fechamento",
+  "standardCurve": "Curva padrão"
 }
