@@ -673,10 +673,10 @@
   "designPoint": "Punto de diseño",
   "designPointLabel": "Diseño",
   "maxOperatingPoint": "Operación Máx.",
-  "nothingSelectedClickAsset": "Haz clic en un activo para seleccionarlo.",
-  "nothingSelectedSelectAll": "Pulsa {{1}} para seleccionar todos los activos.",
-  "nothingSelectedShiftClick": "Mantén {{1}} pulsado mientras haces clic para seleccionar más de un activo a la vez.",
   "pumpCurve": "Curva de la bomba",
   "shutoffPoint": "Cierre",
-  "standardCurve": "Curva estándar"
+  "standardCurve": "Curva estándar",
+  "nothingSelectedAreaSelect": "También puedes seleccionar múltiples activos con la herramienta de selección por área y comparar sus propiedades.",
+  "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
+  "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades"
 }

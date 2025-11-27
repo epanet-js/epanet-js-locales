@@ -666,10 +666,10 @@
   "designPoint": "設計点",
   "designPointLabel": "設計",
   "maxOperatingPoint": "最大操作点",
-  "nothingSelectedClickAsset": "アセットをクリックして選択します。",
-  "nothingSelectedSelectAll": "{{1}} を押してすべてのアセットを選択します。",
-  "nothingSelectedShiftClick": "{{1}} を押しながらクリックし続けると、複数のアセットを一度に選択できます。",
   "pumpCurve": "ポンプ曲線",
   "shutoffPoint": "閉止",
-  "standardCurve": "標準曲線"
+  "standardCurve": "標準曲線",
+  "nothingSelectedAreaSelect": "領域選択ツールを使用して複数のアセットを選択し、そのプロパティを比較することもできます。",
+  "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
+  "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します"
 }
