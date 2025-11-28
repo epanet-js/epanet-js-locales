@@ -6,7 +6,6 @@
   "reservoir": "Reservoir",
   "hintPipeDrawStart": "Klik om de leiding te beginnen, klik daarna om elk hoekpunt toe te voegen.",
   "hintPipeDrawEnd": "Beëindig een leiding door te dubbelklikken of op Enter te drukken.",
-  "keyboardShortcuts": "Toetsenbord Sneltoetsen",
   "help": "Help",
   "helpCenter": "Help Centrum",
   "language": "Taal",
@@ -662,7 +661,6 @@
   "toggleActiveTopology": "In-/Uitschakelen",
   "curveDetails": "Curve details",
   "curvePoint": "Punt",
-  "curveValidationError": "Ongeldige curve: stromingen moeten in oplopende volgorde staan",
   "designPoint": "Ontwerppunt",
   "designPointLabel": "Ontwerp",
   "maxOperatingPoint": "Max. Bedrijfspunt",
@@ -671,5 +669,18 @@
   "standardCurve": "Standaardcurve",
   "nothingSelectedAreaSelect": "U kunt ook meerdere onderdelen selecteren met het gebiedsselectietool en hun eigenschappen vergelijken.",
   "nothingSelectedClickToSelect": "Gebruik het selectietool en klik op een onderdeel om de details ervan te bekijken en te bewerken.",
-  "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken"
+  "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken",
+  "curveValidation": {
+    "fillAllPoints": "Vul alle curvepunten in.",
+    "fillDesignPoint": "Voer de stromings- en opvoerhoogtewaarden van het ontwerppunt in.",
+    "flowAscendingOrder": "Stromingswaarden moeten in oplopende volgorde staan."
+  },
+  "keyboardShortcuts": {
+    "editingSelection": "Bewerken & selectie",
+    "fileManagement": "Bestandsbeheer",
+    "interface": "Interface",
+    "mapTools": "Kaartgereedschappen",
+    "simulation": "Simulatie",
+    "title": "Toetsenbord sneltoetsen"
+  }
 }

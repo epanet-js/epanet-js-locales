@@ -6,7 +6,6 @@
   "reservoir": "Réservoir",
   "hintPipeDrawStart": "Cliquez pour commencer une conduite, puis cliquez pour ajouter chaque sommet.",
   "hintPipeDrawEnd": "Terminez une conduite en double-cliquant ou en appuyant sur Entrée.",
-  "keyboardShortcuts": "Raccourcis Clavier",
   "help": "Aide",
   "helpCenter": "Centre d'Aide",
   "language": "Langue",
@@ -662,7 +661,6 @@
   "toggleActiveTopology": "Activer/Désactiver",
   "curveDetails": "Détails de la courbe",
   "curvePoint": "Point",
-  "curveValidationError": "Courbe invalide : les débits doivent être en ordre croissant",
   "designPoint": "Point de conception",
   "designPointLabel": "Conception",
   "maxOperatingPoint": "Max. de fonctionnement",
@@ -671,5 +669,18 @@
   "standardCurve": "Courbe standard",
   "nothingSelectedAreaSelect": "Vous pouvez également sélectionner plusieurs éléments avec l'outil de sélection de zone et comparer leurs propriétés.",
   "nothingSelectedClickToSelect": "Utilisez l'outil de sélection et cliquez sur un élément pour afficher et modifier ses détails.",
-  "nothingSelectedTitle": "Sélectionnez un élément pour afficher ses propriétés"
+  "nothingSelectedTitle": "Sélectionnez un élément pour afficher ses propriétés",
+  "curveValidation": {
+    "fillAllPoints": "Veuillez remplir tous les points de la courbe.",
+    "fillDesignPoint": "Veuillez saisir les valeurs de débit et de charge du point de conception.",
+    "flowAscendingOrder": "Les valeurs de débit doivent être en ordre croissant."
+  },
+  "keyboardShortcuts": {
+    "editingSelection": "Édition et sélection",
+    "fileManagement": "Gestion des fichiers",
+    "interface": "Interface",
+    "mapTools": "Outils cartographiques",
+    "simulation": "Simulation",
+    "title": "Raccourcis clavier"
+  }
 }

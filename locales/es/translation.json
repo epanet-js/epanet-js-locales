@@ -12,7 +12,6 @@
   "reservoir": "Embalse",
   "hintPipeDrawStart": "Haz clic para empezar un tubería, después haz clic para añadir vértices.",
   "hintPipeDrawEnd": "Finaliza una tubería con doble clic o apretando Enter.",
-  "keyboardShortcuts": "Atajos de teclado",
   "help": "Ayuda",
   "helpCenter": "Centro de ayuda",
   "language": "Idioma",
@@ -669,7 +668,6 @@
   "toggleActiveTopology": "Habilitar/Deshabilitar",
   "curveDetails": "Detalles de curva",
   "curvePoint": "Punto",
-  "curveValidationError": "Curva inválida: los flujos deben estar en orden ascendente",
   "designPoint": "Punto de diseño",
   "designPointLabel": "Diseño",
   "maxOperatingPoint": "Operación Máx.",
@@ -678,5 +676,18 @@
   "standardCurve": "Curva estándar",
   "nothingSelectedAreaSelect": "También puedes seleccionar múltiples activos con la herramienta de selección por área y comparar sus propiedades.",
   "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
-  "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades"
+  "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades",
+  "curveValidation": {
+    "fillAllPoints": "Por favor, completa todos los puntos de la curva.",
+    "fillDesignPoint": "Por favor, introduce los valores de caudal y carga del punto de diseño.",
+    "flowAscendingOrder": "Los valores de caudal deben estar en orden ascendente."
+  },
+  "keyboardShortcuts": {
+    "editingSelection": "Edición y selección",
+    "fileManagement": "Gestión de archivos",
+    "interface": "Interfaz",
+    "mapTools": "Herramientas de mapa",
+    "simulation": "Simulación",
+    "title": "Atajos de teclado"
+  }
 }

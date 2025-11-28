@@ -6,7 +6,6 @@
   "reservoir": "Reservatório",
   "hintPipeDrawStart": "Clique para iniciar uma tubulação, depois clique para adicionar vértices.",
   "hintPipeDrawEnd": "Termine uma tubulação com duplo clique ou pressionando Enter.",
-  "keyboardShortcuts": "Atalhos de Teclado",
   "help": "Ajuda",
   "helpCenter": "Centro de Ajuda",
   "language": "Idioma",
@@ -662,7 +661,6 @@
   "toggleActiveTopology": "Habilitar/Desabilitar",
   "curveDetails": "Detalhes da curva",
   "curvePoint": "Ponto",
-  "curveValidationError": "Curva inválida: as vazões devem estar em ordem crescente",
   "designPoint": "Ponto de projeto",
   "designPointLabel": "Projeto",
   "maxOperatingPoint": "Operação máxima",
@@ -671,5 +669,18 @@
   "standardCurve": "Curva padrão",
   "nothingSelectedAreaSelect": "Você também pode selecionar múltiplos ativos com a ferramenta de seleção por área e comparar suas propriedades.",
   "nothingSelectedClickToSelect": "Use a ferramenta de seleção e clique em um ativo para visualizar e editar seus detalhes.",
-  "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades"
+  "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades",
+  "curveValidation": {
+    "fillAllPoints": "Preencha todos os pontos da curva.",
+    "fillDesignPoint": "Por favor, insira os valores de vazão e carga do ponto de projeto.",
+    "flowAscendingOrder": "Os valores de vazão devem estar em ordem crescente."
+  },
+  "keyboardShortcuts": {
+    "editingSelection": "Edição e seleção",
+    "fileManagement": "Gerenciamento de arquivos",
+    "interface": "Interface",
+    "mapTools": "Ferramentas do mapa",
+    "simulation": "Simulação",
+    "title": "Atalhos de teclado"
+  }
 }

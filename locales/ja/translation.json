@@ -285,7 +285,6 @@
   "invalidRange": "無効な範囲",
   "issuesSummary": "問題の概要",
   "junction": "接点",
-  "keyboardShortcuts": "キーボードショートカット",
   "label": "ラベル",
   "labels": "ラベル",
   "language": "言語",
@@ -662,7 +661,6 @@
   "toggleActiveTopology": "有効/無効",
   "curveDetails": "曲線詳細",
   "curvePoint": "点",
-  "curveValidationError": "無効な曲線：流量は昇順である必要があります",
   "designPoint": "設計点",
   "designPointLabel": "設計",
   "maxOperatingPoint": "最大操作点",
@@ -671,5 +669,18 @@
   "standardCurve": "標準曲線",
   "nothingSelectedAreaSelect": "領域選択ツールを使用して複数のアセットを選択し、そのプロパティを比較することもできます。",
   "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
-  "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します"
+  "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します",
+  "curveValidation": {
+    "fillAllPoints": "すべての曲線点を入力してください。",
+    "fillDesignPoint": "設計点の流量と水頭の値を入力してください。",
+    "flowAscendingOrder": "流量値は昇順である必要があります。"
+  },
+  "keyboardShortcuts": {
+    "editingSelection": "編集と選択",
+    "fileManagement": "ファイル管理",
+    "interface": "インターフェース",
+    "mapTools": "マップツール",
+    "simulation": "シミュレーション",
+    "title": "キーボードショートカット"
+  }
 }
