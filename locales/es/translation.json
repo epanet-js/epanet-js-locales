@@ -671,16 +671,15 @@
   "designPoint": "Punto de diseño",
   "designPointLabel": "Diseño",
   "maxOperatingPoint": "Operación Máx.",
-  "pumpCurve": "Curva de la bomba",
   "shutoffPoint": "Cierre",
   "standardCurve": "Curva estándar",
   "nothingSelectedAreaSelect": "También puedes seleccionar múltiples activos con la herramienta de selección por área y comparar sus propiedades.",
   "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
   "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades",
   "curveValidation": {
-    "fillAllPoints": "Por favor, completa todos los puntos de la curva.",
-    "fillDesignPoint": "Por favor, introduce los valores de caudal y carga del punto de diseño.",
-    "flowAscendingOrder": "Los valores de caudal deben estar en orden ascendente."
+    "flowAscendingOrder": "Los valores de caudal deben estar en orden ascendente.",
+    "headDescendingOrder": "Los valores de carga deben estar en orden descendente.",
+    "missingValues": "Por favor, completa todos los valores."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edición y selección",
@@ -689,5 +688,7 @@
     "mapTools": "Herramientas de mapa",
     "simulation": "Simulación",
     "title": "Atajos de teclado"
-  }
+  },
+  "design-point": "Punto de diseño",
+  "standard": "Curva estándar"
 }

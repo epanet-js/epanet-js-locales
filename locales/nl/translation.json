@@ -664,16 +664,15 @@
   "designPoint": "Ontwerppunt",
   "designPointLabel": "Ontwerp",
   "maxOperatingPoint": "Max. Bedrijfspunt",
-  "pumpCurve": "Pompcurve",
   "shutoffPoint": "Afsluitpunt",
   "standardCurve": "Standaardcurve",
   "nothingSelectedAreaSelect": "U kunt ook meerdere onderdelen selecteren met het gebiedsselectietool en hun eigenschappen vergelijken.",
   "nothingSelectedClickToSelect": "Gebruik het selectietool en klik op een onderdeel om de details ervan te bekijken en te bewerken.",
   "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken",
   "curveValidation": {
-    "fillAllPoints": "Vul alle curvepunten in.",
-    "fillDesignPoint": "Voer de stromings- en opvoerhoogtewaarden van het ontwerppunt in.",
-    "flowAscendingOrder": "Stromingswaarden moeten in oplopende volgorde staan."
+    "flowAscendingOrder": "Stromingswaarden moeten in oplopende volgorde staan.",
+    "headDescendingOrder": "Opvoerhoogtewaarden moeten in aflopende volgorde staan.",
+    "missingValues": "Vul alstublieft alle waarden in."
   },
   "keyboardShortcuts": {
     "editingSelection": "Bewerken & selectie",
@@ -682,5 +681,7 @@
     "mapTools": "Kaartgereedschappen",
     "simulation": "Simulatie",
     "title": "Toetsenbord sneltoetsen"
-  }
+  },
+  "design-point": "Ontwerppunt",
+  "standard": "Standaardcurve"
 }

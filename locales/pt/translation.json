@@ -664,16 +664,15 @@
   "designPoint": "Ponto de projeto",
   "designPointLabel": "Projeto",
   "maxOperatingPoint": "Operação máxima",
-  "pumpCurve": "Curva da bomba",
   "shutoffPoint": "Ponto de fechamento",
   "standardCurve": "Curva padrão",
   "nothingSelectedAreaSelect": "Você também pode selecionar múltiplos ativos com a ferramenta de seleção por área e comparar suas propriedades.",
   "nothingSelectedClickToSelect": "Use a ferramenta de seleção e clique em um ativo para visualizar e editar seus detalhes.",
   "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades",
   "curveValidation": {
-    "fillAllPoints": "Preencha todos os pontos da curva.",
-    "fillDesignPoint": "Por favor, insira os valores de vazão e carga do ponto de projeto.",
-    "flowAscendingOrder": "Os valores de vazão devem estar em ordem crescente."
+    "flowAscendingOrder": "Os valores de vazão devem estar em ordem crescente.",
+    "headDescendingOrder": "Os valores de carga devem estar em ordem decrescente.",
+    "missingValues": "Por favor, preencha todos os valores."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edição e seleção",
@@ -682,5 +681,7 @@
     "mapTools": "Ferramentas do mapa",
     "simulation": "Simulação",
     "title": "Atalhos de teclado"
-  }
+  },
+  "design-point": "Ponto de projeto",
+  "standard": "Curva padrão"
 }

@@ -91,6 +91,8 @@
   "canOverflow": "Can overflow",
   "head": "Head",
   "pumpType": "Pump type",
+  "design-point": "Design point",
+  "standard": "Standard curve",
   "pumpHead": "Pump head",
   "simulate": "Simulate",
   "simulation": "Simulation",
@@ -358,15 +360,14 @@
   "flowVsHead": "Flow vs head",
   "designPoint": "Design point",
   "standardCurve": "Standard curve",
-  "pumpCurve": "Pump curve",
   "curvePoint": "Point",
   "shutoffPoint": "Shutoff",
   "designPointLabel": "Design",
   "maxOperatingPoint": "Max Operating",
   "curveValidation": {
-    "fillDesignPoint": "Please enter the design point flow and head values.",
-    "fillAllPoints": "Please fill in all the curve points.",
-    "flowAscendingOrder": "Flow values must be in ascending order."
+    "missingValues": "Please fill in all the values.",
+    "flowAscendingOrder": "Flow values must be in ascending order.",
+    "headDescendingOrder": "Head values must be in descending order."
   },
   "speed": "Speed",
   "pipeStatus": "Pipe status",

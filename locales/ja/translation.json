@@ -664,16 +664,15 @@
   "designPoint": "設計点",
   "designPointLabel": "設計",
   "maxOperatingPoint": "最大操作点",
-  "pumpCurve": "ポンプ曲線",
   "shutoffPoint": "閉止",
   "standardCurve": "標準曲線",
   "nothingSelectedAreaSelect": "領域選択ツールを使用して複数のアセットを選択し、そのプロパティを比較することもできます。",
   "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
   "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します",
   "curveValidation": {
-    "fillAllPoints": "すべての曲線点を入力してください。",
-    "fillDesignPoint": "設計点の流量と水頭の値を入力してください。",
-    "flowAscendingOrder": "流量値は昇順である必要があります。"
+    "flowAscendingOrder": "流量値は昇順である必要があります。",
+    "headDescendingOrder": "水頭値は降順である必要があります。",
+    "missingValues": "すべての値を入力してください。"
   },
   "keyboardShortcuts": {
     "editingSelection": "編集と選択",
@@ -682,5 +681,7 @@
     "mapTools": "マップツール",
     "simulation": "シミュレーション",
     "title": "キーボードショートカット"
-  }
+  },
+  "design-point": "設計点",
+  "standard": "標準曲線"
 }
