@@ -338,7 +338,6 @@
   "nodeSymbology": "Knooppunt symbologie",
   "linkSymbology": "Verbinding symbologie",
   "ckmeans": "Ckmeans",
-  "simulationSettings": "Simulatie-instellingen",
   "demandMultiplier": "Vraagvermenigvuldiger",
   "saveAndRun": "Opslaan & uitvoeren",
   "failedToFetchElevation": "Ophalen van hoogte mislukt",
@@ -683,5 +682,21 @@
     "title": "Toetsenbord sneltoetsen"
   },
   "design-point": "Ontwerppunt",
-  "standard": "Standaardcurve"
+  "standard": "Standaardcurve",
+  "simulationSettings": {
+    "calculationTimes": "Berekeningstijden",
+    "demand": "Vraag",
+    "demandMultiplier": "Vraagvermenigvuldiger",
+    "epsExtended": "EPS - Uitgebreide-periode simulatie",
+    "epsZeroDuration": "Duur kan niet nul zijn in EPS-modus.",
+    "hydraulicTimestep": "Hydraulische tijdstap (uu:mm)",
+    "notAvailable": "N.v.t.",
+    "patternTimestep": "Patroon tijdstap (uu:mm)",
+    "reportingTimestep": "Rapportage tijdstap (uu:mm)",
+    "save": "Instellingen opslaan",
+    "steadyState": "Stabiele toestand",
+    "timeAnalysisMode": "Tijdanalysemodus",
+    "title": "Simulatie-instellingen",
+    "totalDuration": "Totale duur (uu:mm)"
+  }
 }

@@ -350,7 +350,6 @@
   "nodeSymbology": "Simbología de nudos",
   "linkSymbology": "Simbología de enlaces",
   "ckmeans": "Ckmeans",
-  "simulationSettings": "Ajustes de simulación",
   "demandMultiplier": "Multiplicador de demanda",
   "saveAndRun": "Guardar y ejecutar",
   "failedToFetchElevation": "No se pudo obtener la elevación",
@@ -690,5 +689,21 @@
     "title": "Atajos de teclado"
   },
   "design-point": "Punto de diseño",
-  "standard": "Curva estándar"
+  "standard": "Curva estándar",
+  "simulationSettings": {
+    "calculationTimes": "Tiempos de cálculo",
+    "demand": "Consumo",
+    "demandMultiplier": "Multiplicador de demanda",
+    "epsExtended": "EPS - Simulación de período extendido",
+    "epsZeroDuration": "La duración no puede ser cero en modo EPS.",
+    "hydraulicTimestep": "Paso de tiempo hidráulico (hh:mm)",
+    "notAvailable": "N/A",
+    "patternTimestep": "Paso de tiempo del patrón (hh:mm)",
+    "reportingTimestep": "Paso de tiempo de reporte (hh:mm)",
+    "save": "Guardar ajustes",
+    "steadyState": "Estado estacionario",
+    "timeAnalysisMode": "Modo de análisis temporal",
+    "title": "Ajustes de simulación",
+    "totalDuration": "Duración total (hh:mm)"
+  }
 }

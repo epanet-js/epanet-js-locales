@@ -338,7 +338,6 @@
   "nodeSymbology": "Symbologie des Nœuds",
   "linkSymbology": "Symbologie des Liaisons",
   "ckmeans": "Ckmeans",
-  "simulationSettings": "Paramètres de Simulation",
   "demandMultiplier": "Multiplicateur de Demande",
   "saveAndRun": "Enregistrer et lancer",
   "failedToFetchElevation": "Échec de Récupération de l'Élévation",
@@ -683,5 +682,21 @@
     "title": "Raccourcis clavier"
   },
   "design-point": "Point de conception",
-  "standard": "Courbe standard"
+  "standard": "Courbe standard",
+  "simulationSettings": {
+    "calculationTimes": "Temps de calcul",
+    "demand": "Demande",
+    "demandMultiplier": "Multiplicateur de demande",
+    "epsExtended": "EPS - Simulation en période étendue",
+    "epsZeroDuration": "La durée ne peut pas être nulle en mode EPS.",
+    "hydraulicTimestep": "Pas de temps hydraulique (hh:mm)",
+    "notAvailable": "N/A",
+    "patternTimestep": "Pas de temps de motif (hh:mm)",
+    "reportingTimestep": "Pas de temps de rapport (hh:mm)",
+    "save": "Enregistrer les paramètres",
+    "steadyState": "État stable",
+    "timeAnalysisMode": "Mode d'analyse temporelle",
+    "title": "Paramètres de simulation",
+    "totalDuration": "Durée totale (hh:mm)"
+  }
 }

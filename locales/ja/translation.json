@@ -448,7 +448,6 @@
   "simulationReadyToRun": "実行準備完了",
   "simulationReport": "シミュレーションレポート",
   "simulationRunning": "実行中...",
-  "simulationSettings": "シミュレーション設定",
   "simulationStatus": "シミュレーションステータス",
   "simulationSuccess": "シミュレーションは成功しました",
   "simulationTook": "シミュレーションの実行に{{1}}秒かかりました。",
@@ -683,5 +682,21 @@
     "title": "キーボードショートカット"
   },
   "design-point": "設計点",
-  "standard": "標準曲線"
+  "standard": "標準曲線",
+  "simulationSettings": {
+    "calculationTimes": "計算時間",
+    "demand": "需要",
+    "demandMultiplier": "需要乗数",
+    "epsExtended": "EPS - 拡張期間シミュレーション",
+    "epsZeroDuration": "EPSモードでは継続時間はゼロにできません。",
+    "hydraulicTimestep": "水理計算ステップ (時:分)",
+    "notAvailable": "N/A",
+    "patternTimestep": "パターンステップ (時:分)",
+    "reportingTimestep": "レポートステップ (時:分)",
+    "save": "設定を保存",
+    "steadyState": "定常状態",
+    "timeAnalysisMode": "時間解析モード",
+    "title": "シミュレーション設定",
+    "totalDuration": "合計継続時間 (時:分)"
+  }
 }

@@ -338,7 +338,6 @@
   "nodeSymbology": "Simbologia de Nós",
   "linkSymbology": "Simbologia de Links",
   "ckmeans": "Ckmeans",
-  "simulationSettings": "Configurações de Simulação",
   "demandMultiplier": "Multiplicador de Demanda",
   "saveAndRun": "Salvar e Executar",
   "failedToFetchElevation": "Falha ao buscar elevação",
@@ -683,5 +682,21 @@
     "title": "Atalhos de teclado"
   },
   "design-point": "Ponto de projeto",
-  "standard": "Curva padrão"
+  "standard": "Curva padrão",
+  "simulationSettings": {
+    "calculationTimes": "Tempos de cálculo",
+    "demand": "Demanda",
+    "demandMultiplier": "Multiplicador de demanda",
+    "epsExtended": "EPS - Simulação de período estendido",
+    "epsZeroDuration": "A duração não pode ser zero no modo EPS.",
+    "hydraulicTimestep": "Passo de tempo hidráulico (hh:mm)",
+    "notAvailable": "N/D",
+    "patternTimestep": "Passo de tempo do padrão (hh:mm)",
+    "reportingTimestep": "Passo de tempo do relatório (hh:mm)",
+    "save": "Salvar configurações",
+    "steadyState": "Estado estacionário",
+    "timeAnalysisMode": "Modo de análise de tempo",
+    "title": "Configurações de Simulação",
+    "totalDuration": "Duração total (hh:mm)"
+  }
 }
