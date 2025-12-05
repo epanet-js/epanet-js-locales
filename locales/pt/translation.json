@@ -688,7 +688,6 @@
     "demand": "Demanda",
     "demandMultiplier": "Multiplicador de demanda",
     "epsExtended": "EPS - Simulação de período estendido",
-    "epsZeroDuration": "A duração não pode ser zero no modo EPS.",
     "hydraulicTimestep": "Passo de tempo hidráulico (hh:mm)",
     "notAvailable": "N/D",
     "patternTimestep": "Passo de tempo do padrão (hh:mm)",
@@ -697,6 +696,8 @@
     "steadyState": "Estado estacionário",
     "timeAnalysisMode": "Modo de análise de tempo",
     "title": "Configurações de Simulação",
-    "totalDuration": "Duração total (hh:mm)"
+    "totalDuration": "Duração total (hh:mm)",
+    "epsMissingValues": "Por favor, preencha todos os valores.",
+    "epsZeroValues": "Os valores devem ser maiores que zero."
   }
 }

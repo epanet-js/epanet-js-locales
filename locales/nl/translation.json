@@ -688,7 +688,6 @@
     "demand": "Vraag",
     "demandMultiplier": "Vraagvermenigvuldiger",
     "epsExtended": "EPS - Uitgebreide-periode simulatie",
-    "epsZeroDuration": "Duur kan niet nul zijn in EPS-modus.",
     "hydraulicTimestep": "Hydraulische tijdstap (uu:mm)",
     "notAvailable": "N.v.t.",
     "patternTimestep": "Patroon tijdstap (uu:mm)",
@@ -697,6 +696,8 @@
     "steadyState": "Stabiele toestand",
     "timeAnalysisMode": "Tijdanalysemodus",
     "title": "Simulatie-instellingen",
-    "totalDuration": "Totale duur (uu:mm)"
+    "totalDuration": "Totale duur (uu:mm)",
+    "epsMissingValues": "Vul alstublieft alle waarden in.",
+    "epsZeroValues": "Waarden moeten groter zijn dan nul."
   }
 }

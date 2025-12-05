@@ -688,7 +688,6 @@
     "demand": "需要",
     "demandMultiplier": "需要乗数",
     "epsExtended": "EPS - 拡張期間シミュレーション",
-    "epsZeroDuration": "EPSモードでは継続時間はゼロにできません。",
     "hydraulicTimestep": "水理計算ステップ (時:分)",
     "notAvailable": "N/A",
     "patternTimestep": "パターンステップ (時:分)",
@@ -697,6 +696,8 @@
     "steadyState": "定常状態",
     "timeAnalysisMode": "時間解析モード",
     "title": "シミュレーション設定",
-    "totalDuration": "合計継続時間 (時:分)"
+    "totalDuration": "合計継続時間 (時:分)",
+    "epsMissingValues": "すべての値を入力してください。",
+    "epsZeroValues": "値はゼロより大きくなければなりません。"
   }
 }
