@@ -699,5 +699,6 @@
     "totalDuration": "Totale duur (uu:mm)",
     "epsMissingValues": "Vul alstublieft alle waarden in.",
     "epsZeroValues": "Waarden moeten groter zijn dan nul."
-  }
+  },
+  "utilities": "Hulpprogramma's"
 }

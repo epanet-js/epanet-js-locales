@@ -699,5 +699,6 @@
     "totalDuration": "合計継続時間 (時:分)",
     "epsMissingValues": "すべての値を入力してください。",
     "epsZeroValues": "値はゼロより大きくなければなりません。"
-  }
+  },
+  "utilities": "ユーティリティ"
 }

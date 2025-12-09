@@ -706,5 +706,6 @@
     "totalDuration": "Duración total (hh:mm)",
     "epsMissingValues": "Por favor, completa todos los valores.",
     "epsZeroValues": "Los valores deben ser mayores que cero."
-  }
+  },
+  "utilities": "Utilidades"
 }

@@ -699,5 +699,6 @@
     "totalDuration": "Durée totale (hh:mm)",
     "epsMissingValues": "Veuillez remplir toutes les valeurs.",
     "epsZeroValues": "Les valeurs doivent être supérieures à zéro."
-  }
+  },
+  "utilities": "Utilitaires"
 }
