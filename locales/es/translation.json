@@ -707,5 +707,10 @@
     "epsMissingValues": "Por favor, completa todos los valores.",
     "epsZeroValues": "Los valores deben ser mayores que cero."
   },
-  "utilities": "Utilidades"
+  "utilities": "Aplicaciones de utilidades",
+  "pumpCurves": "Bombas con curvas personalizadas",
+  "pumpPatterns": "Bombas con patrones de tiempo",
+  "reservoirPatterns": "Embalses con patrones de tiempo",
+  "tankCurves": "Tanques con curvas de volumen",
+  "useOfUnsupportedSection": "Uso de funciones de {{1}} no soportadas"
 }

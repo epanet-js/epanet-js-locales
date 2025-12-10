@@ -700,5 +700,10 @@
     "epsMissingValues": "すべての値を入力してください。",
     "epsZeroValues": "値はゼロより大きくなければなりません。"
   },
-  "utilities": "ユーティリティ"
+  "utilities": "ユーティリティ",
+  "pumpCurves": "カスタム曲線を持つポンプ",
+  "pumpPatterns": "時間パターンを持つポンプ",
+  "reservoirPatterns": "時間パターンを持つ貯水池",
+  "tankCurves": "容量曲線を持つ配水池",
+  "useOfUnsupportedSection": "サポートされていない{{1}}機能の使用"
 }

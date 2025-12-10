@@ -700,5 +700,10 @@
     "epsMissingValues": "Veuillez remplir toutes les valeurs.",
     "epsZeroValues": "Les valeurs doivent être supérieures à zéro."
   },
-  "utilities": "Utilitaires"
+  "utilities": "Applications utilitaires",
+  "pumpCurves": "Pompes avec courbes personnalisées",
+  "pumpPatterns": "Pompes avec motifs temporels",
+  "reservoirPatterns": "Réservoirs avec motifs temporels",
+  "tankCurves": "Châteaux d'eau avec courbes de volume",
+  "useOfUnsupportedSection": "Utilisation des fonctionnalités {{1}} non supportées"
 }

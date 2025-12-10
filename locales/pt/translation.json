@@ -700,5 +700,10 @@
     "epsMissingValues": "Por favor, preencha todos os valores.",
     "epsZeroValues": "Os valores devem ser maiores que zero."
   },
-  "utilities": "Utilitários"
+  "utilities": "Aplicativos utilitários",
+  "pumpCurves": "Bombas com curvas personalizadas",
+  "pumpPatterns": "Bombas com padrões de tempo",
+  "reservoirPatterns": "Reservatórios com padrões de tempo",
+  "tankCurves": "Tanques com curvas de volume",
+  "useOfUnsupportedSection": "Uso de funcionalidades não suportadas de {{1}}"
 }

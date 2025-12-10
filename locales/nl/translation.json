@@ -700,5 +700,10 @@
     "epsMissingValues": "Vul alstublieft alle waarden in.",
     "epsZeroValues": "Waarden moeten groter zijn dan nul."
   },
-  "utilities": "Hulpprogramma's"
+  "utilities": "Hulpprogramma's",
+  "pumpCurves": "Pompen met aangepaste curves",
+  "pumpPatterns": "Pompen met tijdpatronen",
+  "reservoirPatterns": "Reservoirs met tijdpatronen",
+  "tankCurves": "Tanks met volumecurves",
+  "useOfUnsupportedSection": "Gebruik van niet-ondersteunde {{1}} functies"
 }
