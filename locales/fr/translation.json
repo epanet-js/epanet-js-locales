@@ -705,5 +705,6 @@
   "pumpPatterns": "Pompes avec motifs temporels",
   "reservoirPatterns": "Réservoirs avec motifs temporels",
   "tankCurves": "Châteaux d'eau avec courbes de volume",
-  "useOfUnsupportedSection": "Utilisation des fonctionnalités {{1}} non supportées"
+  "useOfUnsupportedSection": "Utilisation des fonctionnalités {{1}} non supportées",
+  "simulationTime": "Temps"
 }

@@ -705,5 +705,6 @@
   "pumpPatterns": "Pompen met tijdpatronen",
   "reservoirPatterns": "Reservoirs met tijdpatronen",
   "tankCurves": "Tanks met volumecurves",
-  "useOfUnsupportedSection": "Gebruik van niet-ondersteunde {{1}} functies"
+  "useOfUnsupportedSection": "Gebruik van niet-ondersteunde {{1}} functies",
+  "simulationTime": "Tijd"
 }

@@ -89,7 +89,7 @@
   "simulationFailure": "Simulación con errores",
   "simulationFailureExplain": "La ejecución de la simulación no fue exitosa. Revisa el reporte de la simulación para más detalles.",
   "simulationOutdated": "Simulación desactualizada",
-  "runningSimulation": "Ejecutando simulación...",
+  "runningSimulation": "Ejecutando simulación",
   "pressure": "Presión",
   "pressures": "Presiones",
   "level": "Nivel",
@@ -712,5 +712,6 @@
   "pumpPatterns": "Bombas con patrones de tiempo",
   "reservoirPatterns": "Embalses con patrones de tiempo",
   "tankCurves": "Tanques con curvas de volumen",
-  "useOfUnsupportedSection": "Uso de funciones de {{1}} no soportadas"
+  "useOfUnsupportedSection": "Uso de funciones de {{1}} no soportadas",
+  "simulationTime": "Tiempo"
 }
