@@ -82,7 +82,7 @@
   "simulationFailureExplain": "L'exécution de la simulation a échoué. Consultez le rapport de simulation pour plus de détails.",
   "simulationTook": "L'exécution de la simulation a pris {{1}}s.",
   "simulationOutdated": "Simulation Obsolète",
-  "runningSimulation": "Exécution de la Simulation...",
+  "runningSimulation": "Exécution de la simulation à",
   "notAvailable": "Non Disponible",
   "pressure": "Pression",
   "pressures": "Pressions",
@@ -706,5 +706,8 @@
   "reservoirPatterns": "Réservoirs avec motifs temporels",
   "tankCurves": "Châteaux d'eau avec courbes de volume",
   "useOfUnsupportedSection": "Utilisation des fonctionnalités {{1}} non supportées",
-  "simulationTime": "Temps"
+  "constant": "constant",
+  "constantDemand": "Demande constante",
+  "demandCategories": "Catégories de demande",
+  "timePattern": "Motif temporel"
 }

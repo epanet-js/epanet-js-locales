@@ -713,5 +713,8 @@
   "reservoirPatterns": "Embalses con patrones de tiempo",
   "tankCurves": "Tanques con curvas de volumen",
   "useOfUnsupportedSection": "Uso de funciones de {{1}} no soportadas",
-  "simulationTime": "Tiempo"
+  "constant": "constant",
+  "constantDemand": "Consumo constante",
+  "demandCategories": "Categorías de demanda",
+  "timePattern": "Patrón de tiempo"
 }

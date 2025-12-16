@@ -422,7 +422,7 @@
   "reservoir": "貯水池",
   "reverseColors": "色を反転",
   "roughness": "流速係数",
-  "runningSimulation": "シミュレーションを実行中",
+  "runningSimulation": "シミュレーション実行中（時間）",
   "save": "保存",
   "saveAndContinue": "保存して続行",
   "saveAndRun": "保存して実行",
@@ -706,5 +706,8 @@
   "reservoirPatterns": "時間パターンを持つ貯水池",
   "tankCurves": "容量曲線を持つ配水池",
   "useOfUnsupportedSection": "サポートされていない{{1}}機能の使用",
-  "simulationTime": "時間"
+  "constant": "定数",
+  "constantDemand": "一定需要",
+  "demandCategories": "需要カテゴリ",
+  "timePattern": "時間パターン"
 }

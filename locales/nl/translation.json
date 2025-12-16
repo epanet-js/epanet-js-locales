@@ -82,7 +82,7 @@
   "simulationFailureExplain": "Simulatie was niet succesvol. Bekijk het simulatierapport voor details.",
   "simulationTook": "Simulatie duurde {{1}}s.",
   "simulationOutdated": "Simulatie verouderd",
-  "runningSimulation": "Simulatie wordt uitgevoerd...",
+  "runningSimulation": "Simulatie wordt uitgevoerd om",
   "notAvailable": "Niet beschikbaar",
   "pressure": "Druk",
   "pressures": "Drukken",
@@ -706,5 +706,8 @@
   "reservoirPatterns": "Reservoirs met tijdpatronen",
   "tankCurves": "Tanks met volumecurves",
   "useOfUnsupportedSection": "Gebruik van niet-ondersteunde {{1}} functies",
-  "simulationTime": "Tijd"
+  "constant": "constant",
+  "constantDemand": "Constante vraag",
+  "demandCategories": "Vraagcategorieën",
+  "timePattern": "Tijdpatroon"
 }
