@@ -701,13 +701,15 @@
     "epsZeroValues": "Waarden moeten groter zijn dan nul."
   },
   "utilities": "Hulpprogramma's",
-  "pumpCurves": "Pompen met aangepaste curves",
-  "pumpPatterns": "Pompen met tijdpatronen",
-  "reservoirPatterns": "Reservoirs met tijdpatronen",
-  "tankCurves": "Tanks met volumecurves",
+  "pumpCurves": "Pompen met meerpuntscurves ({{1}} pompen gebruiken middelpunt als éénpuntscurve)",
+  "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
+  "reservoirPatterns": "Reservoirs met tijdpatronen ({{1}} reservoirs gebruiken alleen de eerste patroonwaarde)",
+  "tankCurves": "Tanks met volumecurves ({{1}} tanks gebruiken vaste diameter)",
   "useOfUnsupportedSection": "Gebruik van niet-ondersteunde {{1}} functies",
   "constant": "constant",
   "constantDemand": "Constante vraag",
   "demandCategories": "Vraagcategorieën",
-  "timePattern": "Tijdpatroon"
+  "timePattern": "Tijdpatroon",
+  "averageDemand": "Gemiddelde vraag",
+  "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)"
 }

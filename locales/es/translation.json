@@ -708,13 +708,15 @@
     "epsZeroValues": "Los valores deben ser mayores que cero."
   },
   "utilities": "Aplicaciones de utilidades",
-  "pumpCurves": "Bombas con curvas personalizadas",
-  "pumpPatterns": "Bombas con patrones de tiempo",
-  "reservoirPatterns": "Embalses con patrones de tiempo",
-  "tankCurves": "Tanques con curvas de volumen",
+  "pumpCurves": "Bombas con curvas multipunto ({{1}} bombas usando el punto medio como curva de un solo punto)",
+  "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
+  "reservoirPatterns": "Embalses con patrones de tiempo ({{1}} embalses usando solo el primer valor del patrón)",
+  "tankCurves": "Tanques con curvas de volumen ({{1}} tanques usando diámetro fijo)",
   "useOfUnsupportedSection": "Uso de funciones de {{1}} no soportadas",
   "constant": "constant",
   "constantDemand": "Consumo constante",
   "demandCategories": "Categorías de demanda",
-  "timePattern": "Patrón de tiempo"
+  "timePattern": "Patrón de tiempo",
+  "averageDemand": "Consumo promedio",
+  "pcvCurves": "Válvulas PCV con curvas características ({{1}} válvulas usando solo el valor de ajuste)"
 }

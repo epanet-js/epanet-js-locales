@@ -701,13 +701,15 @@
     "epsZeroValues": "Les valeurs doivent être supérieures à zéro."
   },
   "utilities": "Applications utilitaires",
-  "pumpCurves": "Pompes avec courbes personnalisées",
-  "pumpPatterns": "Pompes avec motifs temporels",
-  "reservoirPatterns": "Réservoirs avec motifs temporels",
-  "tankCurves": "Châteaux d'eau avec courbes de volume",
+  "pumpCurves": "Pompes avec courbes multipoints ({{1}} pompes utilisant le point médian comme une courbe à un point)",
+  "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
+  "reservoirPatterns": "Réservoirs avec motifs temporels ({{1}} réservoirs utilisant uniquement la première valeur du motif)",
+  "tankCurves": "Châteaux d'eau avec courbes de volume ({{1}} châteaux d'eau utilisant un diamètre fixe)",
   "useOfUnsupportedSection": "Utilisation des fonctionnalités {{1}} non supportées",
   "constant": "constant",
   "constantDemand": "Demande constante",
   "demandCategories": "Catégories de demande",
-  "timePattern": "Motif temporel"
+  "timePattern": "Motif temporel",
+  "averageDemand": "Demande moyenne",
+  "pcvCurves": "Vannes PCV avec courbes caractéristiques ({{1}} vannes utilisant uniquement la valeur de réglage)"
 }
