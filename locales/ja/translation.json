@@ -715,5 +715,12 @@
   "waterQualityAge": "水齢",
   "waterQualityChemical": "水質化学分析",
   "waterQualitySimulation": "サポートされていない水質シミュレーション:",
-  "waterQualityTrace": "追跡分析"
+  "waterQualityTrace": "追跡分析",
+  "controls": {
+    "rulesEmpty": "ルールベースの制御は定義されていません",
+    "rulesTab": "ルールベース",
+    "simpleEmpty": "シンプルな制御は定義されていません",
+    "simpleTab": "シンプル",
+    "title": "制御"
+  }
 }

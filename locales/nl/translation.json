@@ -715,5 +715,12 @@
   "waterQualityAge": "Leeftijd van water",
   "waterQualityChemical": "Chemische analyse",
   "waterQualitySimulation": "Niet-ondersteunde waterkwaliteitssimulatie:",
-  "waterQualityTrace": "Sporenanalyse"
+  "waterQualityTrace": "Sporenanalyse",
+  "controls": {
+    "rulesEmpty": "Geen regelgebaseerde besturingen gedefinieerd",
+    "rulesTab": "Regelgebaseerd",
+    "simpleEmpty": "Geen eenvoudige besturingen gedefinieerd",
+    "simpleTab": "Eenvoudig",
+    "title": "Besturingen"
+  }
 }

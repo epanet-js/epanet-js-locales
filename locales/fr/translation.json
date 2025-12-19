@@ -715,5 +715,12 @@
   "waterQualityAge": "Âge de l'eau",
   "waterQualityChemical": "Analyse chimique",
   "waterQualitySimulation": "Simulation de qualité de l'eau non supportée :",
-  "waterQualityTrace": "Analyse de traçage"
+  "waterQualityTrace": "Analyse de traçage",
+  "controls": {
+    "rulesEmpty": "Aucun contrôle basé sur des règles défini",
+    "rulesTab": "Basé sur des règles",
+    "simpleEmpty": "Aucun contrôle simple défini",
+    "simpleTab": "Simple",
+    "title": "Contrôles"
+  }
 }
