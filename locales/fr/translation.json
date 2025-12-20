@@ -722,5 +722,6 @@
     "simpleEmpty": "Aucun contrôle simple défini",
     "simpleTab": "Simple",
     "title": "Contrôles"
-  }
+  },
+  "labelDuplicate": "Étiquette déjà utilisée"
 }

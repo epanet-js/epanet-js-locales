@@ -722,5 +722,6 @@
     "simpleEmpty": "Nenhum controle simples definido",
     "simpleTab": "Simples",
     "title": "Controles"
-  }
+  },
+  "labelDuplicate": "Rótulo já em uso"
 }

@@ -729,5 +729,6 @@
     "simpleEmpty": "No hay controles simples definidos",
     "simpleTab": "Simple",
     "title": "Controles"
-  }
+  },
+  "labelDuplicate": "Etiqueta ya en uso"
 }

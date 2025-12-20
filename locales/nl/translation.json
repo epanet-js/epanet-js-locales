@@ -722,5 +722,6 @@
     "simpleEmpty": "Geen eenvoudige besturingen gedefinieerd",
     "simpleTab": "Eenvoudig",
     "title": "Besturingen"
-  }
+  },
+  "labelDuplicate": "Label reeds in gebruik"
 }
