@@ -27,7 +27,6 @@
   "length": "Longitud",
   "demand": "Consumo",
   "baseDemand": "Consumo base",
-  "directDemand": "Consumo directo",
   "customerDemand": "Consumo de clientes",
   "customerPoints": "Puntos de consumo",
   "customers": "clientes",
