@@ -722,5 +722,7 @@
     "simpleTab": "Simple",
     "title": "Contrôles"
   },
-  "labelDuplicate": "Étiquette déjà utilisée"
+  "labelDuplicate": "Étiquette déjà utilisée",
+  "nextTimestep": "Pas de temps suivant",
+  "previousTimestep": "Pas de temps précédent"
 }

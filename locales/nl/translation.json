@@ -722,5 +722,7 @@
     "simpleTab": "Eenvoudig",
     "title": "Besturingen"
   },
-  "labelDuplicate": "Label reeds in gebruik"
+  "labelDuplicate": "Label reeds in gebruik",
+  "nextTimestep": "Volgende tijdstap",
+  "previousTimestep": "Vorige tijdstap"
 }

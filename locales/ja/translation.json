@@ -722,5 +722,7 @@
     "simpleTab": "シンプル",
     "title": "制御"
   },
-  "labelDuplicate": "ラベルは既に使用されています"
+  "labelDuplicate": "ラベルは既に使用されています",
+  "nextTimestep": "次のタイムステップ",
+  "previousTimestep": "前のタイムステップ"
 }

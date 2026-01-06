@@ -729,5 +729,7 @@
     "simpleTab": "Simple",
     "title": "Controles"
   },
-  "labelDuplicate": "Etiqueta ya en uso"
+  "labelDuplicate": "Etiqueta ya en uso",
+  "nextTimestep": "Siguiente paso de tiempo",
+  "previousTimestep": "Paso de tiempo anterior"
 }

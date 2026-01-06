@@ -722,5 +722,7 @@
     "simpleTab": "Simples",
     "title": "Controles"
   },
-  "labelDuplicate": "Rótulo já em uso"
+  "labelDuplicate": "Rótulo já em uso",
+  "nextTimestep": "Próximo passo de tempo",
+  "previousTimestep": "Passo de tempo anterior"
 }
