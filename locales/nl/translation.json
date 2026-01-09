@@ -724,5 +724,10 @@
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
-  "previousTimestep": "Vorige tijdstap"
+  "previousTimestep": "Vorige tijdstap",
+  "errorLoadingData": "Fout bij laden van gegevens",
+  "noDataAvailable": "Geen gegevens beschikbaar",
+  "pin": "Vastmaken",
+  "quickGraph": "Snelle grafiek",
+  "unpin": "Losmaken"
 }

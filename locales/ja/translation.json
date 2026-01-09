@@ -724,5 +724,10 @@
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
-  "previousTimestep": "前のタイムステップ"
+  "previousTimestep": "前のタイムステップ",
+  "errorLoadingData": "データの読み込みエラー",
+  "noDataAvailable": "利用可能なデータがありません",
+  "pin": "ピン留め",
+  "quickGraph": "クイックグラフ",
+  "unpin": "ピン留め解除"
 }

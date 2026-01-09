@@ -724,5 +724,10 @@
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
-  "previousTimestep": "Passo de tempo anterior"
+  "previousTimestep": "Passo de tempo anterior",
+  "errorLoadingData": "Erro ao carregar dados",
+  "noDataAvailable": "Nenhum dado disponível",
+  "pin": "Fixar",
+  "quickGraph": "Gráfico rápido",
+  "unpin": "Desafixar"
 }

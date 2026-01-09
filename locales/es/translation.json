@@ -731,5 +731,10 @@
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
-  "previousTimestep": "Paso de tiempo anterior"
+  "previousTimestep": "Paso de tiempo anterior",
+  "errorLoadingData": "Error al cargar datos",
+  "noDataAvailable": "No hay datos disponibles",
+  "pin": "Fijar",
+  "quickGraph": "Gráfico rápido",
+  "unpin": "Desfijar"
 }

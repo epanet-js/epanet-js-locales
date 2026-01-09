@@ -724,5 +724,10 @@
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
-  "previousTimestep": "Pas de temps précédent"
+  "previousTimestep": "Pas de temps précédent",
+  "errorLoadingData": "Erreur lors du chargement des données",
+  "noDataAvailable": "Aucune donnée disponible",
+  "pin": "Épingler",
+  "quickGraph": "Graphique rapide",
+  "unpin": "Désépingler"
 }
