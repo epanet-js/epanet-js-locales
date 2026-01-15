@@ -729,5 +729,8 @@
   "noDataAvailable": "Geen gegevens beschikbaar",
   "pin": "Vastmaken",
   "quickGraph": "Snelle grafiek",
-  "unpin": "Losmaken"
+  "unpin": "Losmaken",
+  "addDemandCategory": "Vraagcategorie toevoegen",
+  "insertRowAbove": "Rij boven invoegen",
+  "insertRowBelow": "Rij onder invoegen"
 }

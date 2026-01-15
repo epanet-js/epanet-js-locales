@@ -729,5 +729,8 @@
   "noDataAvailable": "利用可能なデータがありません",
   "pin": "ピン留め",
   "quickGraph": "クイックグラフ",
-  "unpin": "ピン留め解除"
+  "unpin": "ピン留め解除",
+  "addDemandCategory": "需要カテゴリを追加",
+  "insertRowAbove": "上に列を挿入",
+  "insertRowBelow": "下に列を挿入"
 }

@@ -729,5 +729,8 @@
   "noDataAvailable": "Aucune donnée disponible",
   "pin": "Épingler",
   "quickGraph": "Graphique rapide",
-  "unpin": "Désépingler"
+  "unpin": "Désépingler",
+  "addDemandCategory": "Ajouter une catégorie de demande",
+  "insertRowAbove": "Insérer une ligne au-dessus",
+  "insertRowBelow": "Insérer une ligne en dessous"
 }

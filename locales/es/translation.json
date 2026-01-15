@@ -736,5 +736,8 @@
   "noDataAvailable": "No hay datos disponibles",
   "pin": "Fijar",
   "quickGraph": "Gráfico rápido",
-  "unpin": "Desfijar"
+  "unpin": "Desfijar",
+  "addDemandCategory": "Añadir categoría de demanda",
+  "insertRowAbove": "Insertar fila arriba",
+  "insertRowBelow": "Insertar fila abajo"
 }
