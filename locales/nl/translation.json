@@ -264,7 +264,6 @@
   "everythingInForFree": "Alles in {{1}} gratis!",
   "professionalSupport": "Professionele ondersteuning",
   "customMapLayers": "Aangepaste kaartlagen",
-  "scenarios": "Scenario's",
   "cloudStorage": "Cloud opslag",
   "pointInTimeRestore": "Point-in-time herstel - {{1}} dagen",
   "demandsAnalysis": "Vraaganalyse",
@@ -732,5 +731,12 @@
   "unpin": "Losmaken",
   "addDemandCategory": "Vraagcategorie toevoegen",
   "insertRowAbove": "Rij boven invoegen",
-  "insertRowBelow": "Rij onder invoegen"
+  "insertRowBelow": "Rij onder invoegen",
+  "scenarios": {
+    "createNew": "Nieuw scenario aanmaken",
+    "enableScenarios": "Scenario's inschakelen",
+    "main": "Hoofd",
+    "newScenario": "Nieuw",
+    "switcherTooltip": "Schakel scenario"
+  }
 }

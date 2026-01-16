@@ -276,7 +276,6 @@
   "everythingInForFree": "¡Todo lo de {{1}} gratis!",
   "professionalSupport": "Soporte profesional",
   "customMapLayers": "Mapas customizados",
-  "scenarios": "Escenarios",
   "cloudStorage": "Almacenamiento en la nube",
   "pointInTimeRestore": "Recuperación a un estado anterior - {{1}} días",
   "demandsAnalysis": "Análisis de demandas",
@@ -739,5 +738,12 @@
   "unpin": "Desfijar",
   "addDemandCategory": "Añadir categoría de demanda",
   "insertRowAbove": "Insertar fila arriba",
-  "insertRowBelow": "Insertar fila abajo"
+  "insertRowBelow": "Insertar fila abajo",
+  "scenarios": {
+    "createNew": "Crear nuevo escenario",
+    "enableScenarios": "Habilitar escenarios",
+    "main": "Principal",
+    "newScenario": "Nuevo",
+    "switcherTooltip": "Cambiar escenario"
+  }
 }

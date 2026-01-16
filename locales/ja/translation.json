@@ -429,7 +429,6 @@
   "saveCanceled": "保存をキャンセルしました",
   "saved": "保存済み",
   "saving": "保存中...",
-  "scenarios": "シナリオ",
   "seeDemoNetworks": "デモ管網を見る",
   "select": "選択",
   "selectAll": "すべて選択",
@@ -732,5 +731,12 @@
   "unpin": "ピン留め解除",
   "addDemandCategory": "需要カテゴリを追加",
   "insertRowAbove": "上に列を挿入",
-  "insertRowBelow": "下に列を挿入"
+  "insertRowBelow": "下に列を挿入",
+  "scenarios": {
+    "createNew": "新しいシナリオを作成",
+    "enableScenarios": "シナリオを有効にする",
+    "main": "メイン",
+    "newScenario": "新規",
+    "switcherTooltip": "シナリオを切り替える"
+  }
 }
