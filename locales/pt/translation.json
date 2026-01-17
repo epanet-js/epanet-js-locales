@@ -737,6 +737,22 @@
     "enableScenarios": "Habilitar Cenários",
     "main": "Principal",
     "newScenario": "Novo",
-    "switcherTooltip": "Trocar cenário"
-  }
+    "switcherTooltip": "Trocar cenário",
+    "delete": "Excluir",
+    "deleteConfirmation": {
+      "confirm": "Excluir cenário",
+      "message": "Tem certeza de que deseja excluir o cenário \"{{1}}\"?",
+      "title": "Excluir Cenário"
+    }
+  },
+  "addPattern": "Adicionar padrão",
+  "curvesAndPatterns": "Padrões de demanda",
+  "curvesAndPatternsEmpty": "Nenhum padrão de demanda definido",
+  "curvesAndPatternsEmptyDescription": "Por favor, crie um novo padrão para começar.",
+  "curvesAndPatternsEmptyTitle": "Padrões de demanda está vazio",
+  "curvesAndPatternsNoSelection": "Selecione um padrão para ver seus detalhes.",
+  "demandPatterns": "Padrões de demanda",
+  "operationalData": "Dados operacionais",
+  "patternSelected": "Padrão: {{1}}",
+  "selectPatternPrompt": "Selecione um padrão para ver seus detalhes"
 }

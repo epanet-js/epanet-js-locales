@@ -737,6 +737,22 @@
     "enableScenarios": "シナリオを有効にする",
     "main": "メイン",
     "newScenario": "新規",
-    "switcherTooltip": "シナリオを切り替える"
-  }
+    "switcherTooltip": "シナリオを切り替える",
+    "delete": "削除",
+    "deleteConfirmation": {
+      "confirm": "シナリオの削除",
+      "message": "シナリオ「{{1}}」を削除してもよろしいですか？",
+      "title": "シナリオを削除"
+    }
+  },
+  "addPattern": "パターンを追加",
+  "curvesAndPatterns": "需要パターン",
+  "curvesAndPatternsEmpty": "需要パターンは定義されていません",
+  "curvesAndPatternsEmptyDescription": "開始するには、新しいパターンを作成してください。",
+  "curvesAndPatternsEmptyTitle": "需要パターンが空です",
+  "curvesAndPatternsNoSelection": "詳細を表示するには、パターンを選択してください。",
+  "demandPatterns": "需要パターン",
+  "operationalData": "運用データ",
+  "patternSelected": "パターン: {{1}}",
+  "selectPatternPrompt": "詳細を表示するには、パターンを選択してください"
 }

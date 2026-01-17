@@ -744,6 +744,22 @@
     "enableScenarios": "Habilitar escenarios",
     "main": "Principal",
     "newScenario": "Nuevo",
-    "switcherTooltip": "Cambiar escenario"
-  }
+    "switcherTooltip": "Cambiar escenario",
+    "delete": "Eliminar",
+    "deleteConfirmation": {
+      "confirm": "Eliminar escenario",
+      "message": "¿Estás seguro de que quieres eliminar el escenario \"{{1}}\"?",
+      "title": "Eliminar Escenario"
+    }
+  },
+  "addPattern": "Añadir patrón",
+  "curvesAndPatterns": "Patrones de demanda",
+  "curvesAndPatternsEmpty": "No hay patrones de demanda definidos",
+  "curvesAndPatternsEmptyDescription": "Por favor, crea un nuevo patrón para empezar.",
+  "curvesAndPatternsEmptyTitle": "Los patrones de demanda están vacíos",
+  "curvesAndPatternsNoSelection": "Selecciona un patrón para ver sus detalles.",
+  "demandPatterns": "Patrones de demanda",
+  "operationalData": "Datos operacionales",
+  "patternSelected": "Patrón: {{1}}",
+  "selectPatternPrompt": "Selecciona un patrón para ver sus detalles"
 }

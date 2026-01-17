@@ -347,7 +347,13 @@
     "createNew": "Create new scenario",
     "newScenario": "New",
     "switcherTooltip": "Switch scenario",
-    "enableScenarios": "Enable Scenarios"
+    "enableScenarios": "Enable Scenarios",
+    "delete": "Delete",
+    "deleteConfirmation": {
+      "title": "Delete Scenario",
+      "message": "Are you sure you want to delete scenario \"{{1}}\"?",
+      "confirm": "Delete scenario"
+    }
   },
   "cloudStorage": "Cloud storage",
   "pointInTimeRestore": "Point in time restore - {{1}} days",
@@ -738,5 +744,15 @@
   "pin": "Pin",
   "unpin": "Unpin",
   "errorLoadingData": "Error loading data",
-  "noDataAvailable": "No data available"
+  "noDataAvailable": "No data available",
+  "curvesAndPatterns": "Demand patterns",
+  "curvesAndPatternsEmpty": "No demand patterns defined",
+  "operationalData": "Operational data",
+  "demandPatterns": "Demand patterns",
+  "selectPatternPrompt": "Select a pattern to view its details",
+  "patternSelected": "Pattern: {{1}}",
+  "addPattern": "Add pattern",
+  "curvesAndPatternsEmptyTitle": "Demand patterns is empty",
+  "curvesAndPatternsEmptyDescription": "Please create a new pattern to get started.",
+  "curvesAndPatternsNoSelection": "Select a pattern to view its details."
 }

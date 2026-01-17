@@ -737,6 +737,22 @@
     "enableScenarios": "Activer les scénarios",
     "main": "Principal",
     "newScenario": "Nouveau",
-    "switcherTooltip": "Changer de scénario"
-  }
+    "switcherTooltip": "Changer de scénario",
+    "delete": "Supprimer",
+    "deleteConfirmation": {
+      "confirm": "Supprimer le scénario",
+      "message": "Êtes-vous sûr de vouloir supprimer le scénario « {{1}} » ?",
+      "title": "Supprimer le Scénario"
+    }
+  },
+  "addPattern": "Ajouter un motif",
+  "curvesAndPatterns": "Motifs de demande",
+  "curvesAndPatternsEmpty": "Aucun motif de demande défini",
+  "curvesAndPatternsEmptyDescription": "Veuillez créer un nouveau motif pour commencer.",
+  "curvesAndPatternsEmptyTitle": "Les motifs de demande sont vides",
+  "curvesAndPatternsNoSelection": "Sélectionnez un motif pour afficher ses détails.",
+  "demandPatterns": "Motifs de demande",
+  "operationalData": "Données opérationnelles",
+  "patternSelected": "Motif : {{1}}",
+  "selectPatternPrompt": "Sélectionnez un motif pour afficher ses détails"
 }

@@ -737,6 +737,22 @@
     "enableScenarios": "Scenario's inschakelen",
     "main": "Hoofd",
     "newScenario": "Nieuw",
-    "switcherTooltip": "Schakel scenario"
-  }
+    "switcherTooltip": "Schakel scenario",
+    "delete": "Verwijderen",
+    "deleteConfirmation": {
+      "confirm": "Scenario verwijderen",
+      "message": "Weet u zeker dat u scenario \"{{1}}\" wilt verwijderen?",
+      "title": "Scenario verwijderen"
+    }
+  },
+  "addPattern": "Patroon toevoegen",
+  "curvesAndPatterns": "Vraagpatronen",
+  "curvesAndPatternsEmpty": "Geen vraagpatronen gedefinieerd",
+  "curvesAndPatternsEmptyDescription": "Maak een nieuw patroon aan om te beginnen.",
+  "curvesAndPatternsEmptyTitle": "Vraagpatronen is leeg",
+  "curvesAndPatternsNoSelection": "Selecteer een patroon om de details te bekijken.",
+  "demandPatterns": "Vraagpatronen",
+  "operationalData": "Operationele gegevens",
+  "patternSelected": "Patroon: {{1}}",
+  "selectPatternPrompt": "Selecteer een patroon om de details te bekijken"
 }
