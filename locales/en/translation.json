@@ -19,6 +19,7 @@
     "interface": "Interface",
     "mapTools": "Map tools",
     "simulation": "Simulation",
+    "scenarios": "Scenarios",
     "editingSelection": "Editing & selection"
   },
   "help": "Help",
@@ -157,6 +158,7 @@
   "unsavedChanges": "Unsaved changes",
   "unsavedChangesQuestion": "Do you want to save the changes made to the current project?",
   "discardChanges": "Discard changes",
+  "keepEditing": "Keep editing",
   "shortcuts": "Shortcuts",
   "onboardingViewAndEdit": "View and edit properties",
   "onboardingSelectDrawing": "Select a drawing tool from the menu{{1}}",
@@ -246,6 +248,9 @@
   "ok": "OK",
   "toggleSatellite": "Toggle satellite basemap",
   "toggleSidePanel": "Toggle side panel",
+  "createScenario": "Create new scenario",
+  "cycleScenario": "Cycle through scenarios",
+  "toggleScenario": "Toggle between main and scenario",
   "welcomePage": "Welcome page",
   "welcomeToEpanetJs": "Welcome to epanet-js!",
   "welcomeIntro": "We're creating a new way to build and run hydraulic models—right from your browser in a modern, web-based, open source platform. Quickly open, edit, and analyze your networks on your computer without installing any software. All simulations run directly on your machine, keeping your data private—no cloud required.",
@@ -601,6 +606,10 @@
           "title": "Add customer demands on top of existing demands",
           "description": "Keep the current base demands and add customer point demands on top. Use this if you want to include both existing and customer-based demands."
         },
+        "timePattern": {
+          "title": "Time pattern",
+          "description": "Optionally apply a time pattern to all imported customer demands."
+        },
         "processingMessage": "Connecting customer points to network..."
       },
       "allocationStep": {
@@ -752,7 +761,14 @@
   "selectPatternPrompt": "Select a pattern to view its details",
   "patternSelected": "Pattern: {{1}}",
   "addPattern": "Add pattern",
+  "patternName": "Pattern name",
   "curvesAndPatternsEmptyTitle": "Demand patterns is empty",
   "curvesAndPatternsEmptyDescription": "Please create a new pattern to get started.",
-  "curvesAndPatternsNoSelection": "Select a pattern to view its details."
+  "curvesAndPatternsNoSelection": "Select a pattern to view its details.",
+  "curvesAndPatternsUnsavedWarning": "You have unsaved changes. Are you sure you want to discard them?",
+  "rename": "Rename",
+  "duplicate": "Duplicate",
+  "addTimestep": "Add timestep",
+  "timestep": "Timestep",
+  "multiplier": "Multiplier"
 }

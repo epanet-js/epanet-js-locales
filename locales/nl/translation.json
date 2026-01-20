@@ -414,7 +414,11 @@
           "title": "Klantvragen toevoegen bovenop bestaande vragen",
           "description": "De huidige basisvragen worden behouden en klantpuntvragen worden hieraan toegevoegd. Gebruik dit als u zowel bestaande als klantgebaseerde vragen wilt opnemen."
         },
-        "processingMessage": "Klantpunten verbinden met netwerk..."
+        "processingMessage": "Klantpunten verbinden met netwerk...",
+        "timePattern": {
+          "description": "Pas optioneel een tijdpatroon toe op alle geïmporteerde klantvragen.",
+          "title": "Tijdpatroon"
+        }
       },
       "allocationStep": {
         "title": "Klanttoewijzing",
@@ -677,7 +681,8 @@
     "interface": "Interface",
     "mapTools": "Kaartgereedschappen",
     "simulation": "Simulatie",
-    "title": "Toetsenbord sneltoetsen"
+    "title": "Toetsenbord sneltoetsen",
+    "scenarios": "Scenario's"
   },
   "design-point": "Ontwerppunt",
   "standard": "Standaardcurve",
@@ -754,5 +759,16 @@
   "demandPatterns": "Vraagpatronen",
   "operationalData": "Operationele gegevens",
   "patternSelected": "Patroon: {{1}}",
-  "selectPatternPrompt": "Selecteer een patroon om de details te bekijken"
+  "selectPatternPrompt": "Selecteer een patroon om de details te bekijken",
+  "addTimestep": "Tijdstap toevoegen",
+  "createScenario": "Nieuw scenario aanmaken",
+  "curvesAndPatternsUnsavedWarning": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
+  "cycleScenario": "Door scenario's bladeren",
+  "duplicate": "Dupliceren",
+  "keepEditing": "Blijven bewerken",
+  "multiplier": "Vermenigvuldiger",
+  "patternName": "Patroonnaam",
+  "rename": "Hernoemen",
+  "timestep": "Tijdstap",
+  "toggleScenario": "Schakelen tussen hoofd- en scenariosysteem"
 }

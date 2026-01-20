@@ -414,7 +414,11 @@
           "title": "Ajouter les demandes clients aux demandes existantes",
           "description": "Conservez les demandes de base actuelles et ajoutez les demandes des points clients par-dessus. Utilisez cette option si vous souhaitez inclure à la fois les demandes existantes et celles basées sur les clients."
         },
-        "processingMessage": "Connexion des points clients au réseau..."
+        "processingMessage": "Connexion des points clients au réseau...",
+        "timePattern": {
+          "description": "Appliquer éventuellement un motif temporel à toutes les demandes clients importées.",
+          "title": "Motif temporel"
+        }
       },
       "allocationStep": {
         "title": "Allocation des clients",
@@ -677,7 +681,8 @@
     "interface": "Interface",
     "mapTools": "Outils cartographiques",
     "simulation": "Simulation",
-    "title": "Raccourcis clavier"
+    "title": "Raccourcis clavier",
+    "scenarios": "Scénarios"
   },
   "design-point": "Point de conception",
   "standard": "Courbe standard",
@@ -754,5 +759,16 @@
   "demandPatterns": "Motifs de demande",
   "operationalData": "Données opérationnelles",
   "patternSelected": "Motif : {{1}}",
-  "selectPatternPrompt": "Sélectionnez un motif pour afficher ses détails"
+  "selectPatternPrompt": "Sélectionnez un motif pour afficher ses détails",
+  "addTimestep": "Ajouter un pas de temps",
+  "createScenario": "Créer un nouveau scénario",
+  "curvesAndPatternsUnsavedWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
+  "cycleScenario": "Parcourir les scénarios",
+  "duplicate": "Dupliquer",
+  "keepEditing": "Continuer l'édition",
+  "multiplier": "Multiplicateur",
+  "patternName": "Nom du motif",
+  "rename": "Renommer",
+  "timestep": "Pas de temps",
+  "toggleScenario": "Basculer entre principal et scénario"
 }

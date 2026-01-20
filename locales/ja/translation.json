@@ -201,7 +201,11 @@
           "description": "接点のすべての基本需要をゼロに設定し、顧客ポイント需要のみを使用します。顧客データが主な需要源である場合に推奨されます。",
           "title": "既存の需要を顧客需要に置き換える（デフォルト）"
         },
-        "title": "需要オプション"
+        "title": "需要オプション",
+        "timePattern": {
+          "description": "インポートされたすべての顧客需要に、オプションで時間パターンを適用します。",
+          "title": "時間パターン"
+        }
       },
       "demandOptionsStep": "需要オプション",
       "stepsAriaLabel": "インポートウィザードの手順",
@@ -677,7 +681,8 @@
     "interface": "インターフェース",
     "mapTools": "マップツール",
     "simulation": "シミュレーション",
-    "title": "キーボードショートカット"
+    "title": "キーボードショートカット",
+    "scenarios": "シナリオ"
   },
   "design-point": "設計点",
   "standard": "標準曲線",
@@ -754,5 +759,16 @@
   "demandPatterns": "需要パターン",
   "operationalData": "運用データ",
   "patternSelected": "パターン: {{1}}",
-  "selectPatternPrompt": "詳細を表示するには、パターンを選択してください"
+  "selectPatternPrompt": "詳細を表示するには、パターンを選択してください",
+  "addTimestep": "タイムステップを追加",
+  "createScenario": "新しいシナリオを作成",
+  "curvesAndPatternsUnsavedWarning": "未保存の変更があります。破棄してもよろしいですか？",
+  "cycleScenario": "シナリオを切り替える",
+  "duplicate": "複製",
+  "keepEditing": "編集を続ける",
+  "multiplier": "乗数",
+  "patternName": "パターン名",
+  "rename": "名前を変更",
+  "timestep": "タイムステップ",
+  "toggleScenario": "メインとシナリオを切り替える"
 }

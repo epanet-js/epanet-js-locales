@@ -414,7 +414,11 @@
           "title": "Adicionar demandas de clientes sobre as demandas existentes",
           "description": "As demandas dos pontos de consumo serão adicionadas às demandas base existentes nos nós. Use esta opção quando quiser manter as demandas atuais da rede e adicionar as cargas dos clientes como demanda adicional."
         },
-        "processingMessage": "Conectando pontos de consumo à rede..."
+        "processingMessage": "Conectando pontos de consumo à rede...",
+        "timePattern": {
+          "description": "Opcionalmente aplique um padrão de tempo a todas as demandas de clientes importadas.",
+          "title": "Padrão de tempo"
+        }
       },
       "allocationStep": {
         "title": "Alocação de Pontos de Consumo",
@@ -677,7 +681,8 @@
     "interface": "Interface",
     "mapTools": "Ferramentas do mapa",
     "simulation": "Simulação",
-    "title": "Atalhos de teclado"
+    "title": "Atalhos de teclado",
+    "scenarios": "Cenários"
   },
   "design-point": "Ponto de projeto",
   "standard": "Curva padrão",
@@ -754,5 +759,16 @@
   "demandPatterns": "Padrões de demanda",
   "operationalData": "Dados operacionais",
   "patternSelected": "Padrão: {{1}}",
-  "selectPatternPrompt": "Selecione um padrão para ver seus detalhes"
+  "selectPatternPrompt": "Selecione um padrão para ver seus detalhes",
+  "addTimestep": "Adicionar passo de tempo",
+  "createScenario": "Criar novo cenário",
+  "curvesAndPatternsUnsavedWarning": "Você tem alterações não salvas. Tem certeza de que deseja descartá-las?",
+  "cycleScenario": "Alternar entre cenários",
+  "duplicate": "Duplicar",
+  "keepEditing": "Continuar editando",
+  "multiplier": "Multiplicador",
+  "patternName": "Nome do padrão",
+  "rename": "Renomear",
+  "timestep": "Passo de tempo",
+  "toggleScenario": "Alternar entre principal e cenário"
 }

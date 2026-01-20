@@ -427,7 +427,11 @@
           "title": "Agregar demandas de consumo encima de las demandas existentes",
           "description": "Mantener las demandas base actuales y agregar las demandas de los puntos de consumo. Usa esta opción para incluir tanto las demandas existentes como las basadas en consumo."
         },
-        "processingMessage": "Conectando puntos de consumo a la red..."
+        "processingMessage": "Conectando puntos de consumo a la red...",
+        "timePattern": {
+          "description": "Opcionalmente, aplica un patrón de tiempo a todas las demandas de consumo importadas.",
+          "title": "Patrón de tiempo"
+        }
       },
       "allocationStep": {
         "allocatedPoints": "{{1}} puntos de consumo serán asignados ({{2}}%)",
@@ -684,7 +688,8 @@
     "interface": "Interfaz",
     "mapTools": "Herramientas de mapa",
     "simulation": "Simulación",
-    "title": "Atajos de teclado"
+    "title": "Atajos de teclado",
+    "scenarios": "Escenarios"
   },
   "design-point": "Punto de diseño",
   "standard": "Curva estándar",
@@ -761,5 +766,16 @@
   "demandPatterns": "Patrones de demanda",
   "operationalData": "Datos operacionales",
   "patternSelected": "Patrón: {{1}}",
-  "selectPatternPrompt": "Selecciona un patrón para ver sus detalles"
+  "selectPatternPrompt": "Selecciona un patrón para ver sus detalles",
+  "addTimestep": "Añadir paso de tiempo",
+  "createScenario": "Crear nuevo escenario",
+  "curvesAndPatternsUnsavedWarning": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
+  "cycleScenario": "Alternar escenarios",
+  "duplicate": "Duplicar",
+  "keepEditing": "Mantener edición",
+  "multiplier": "Multiplicador",
+  "patternName": "Nombre del patrón",
+  "rename": "Renombrar",
+  "timestep": "Paso de tiempo",
+  "toggleScenario": "Alternar entre principal y escenario"
 }
