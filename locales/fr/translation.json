@@ -748,6 +748,16 @@
       "confirm": "Supprimer le scénario",
       "message": "Êtes-vous sûr de vouloir supprimer le scénario « {{1}} » ?",
       "title": "Supprimer le Scénario"
+    },
+    "created": "Scénario créé",
+    "rename": "Renommer",
+    "renameDialog": {
+      "errorDuplicate": "Ce nom est déjà utilisé",
+      "errorEmpty": "Le nom du scénario ne peut pas être vide",
+      "errorReserved": "Ce nom est réservé",
+      "label": "Nom du scénario",
+      "placeholder": "Saisir le nom du scénario",
+      "title": "Renommer le scénario"
     }
   },
   "addPattern": "Ajouter un motif",

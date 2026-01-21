@@ -748,6 +748,16 @@
       "confirm": "Scenario verwijderen",
       "message": "Weet u zeker dat u scenario \"{{1}}\" wilt verwijderen?",
       "title": "Scenario verwijderen"
+    },
+    "created": "Scenario aangemaakt",
+    "rename": "Hernoemen",
+    "renameDialog": {
+      "errorDuplicate": "Deze naam is al in gebruik",
+      "errorEmpty": "Scenarionaam kan niet leeg zijn",
+      "errorReserved": "Deze naam is gereserveerd",
+      "label": "Scenarionaam",
+      "placeholder": "Voer scenarionaam in",
+      "title": "Scenario hernoemen"
     }
   },
   "addPattern": "Patroon toevoegen",

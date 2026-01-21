@@ -748,6 +748,16 @@
       "confirm": "Excluir cenário",
       "message": "Tem certeza de que deseja excluir o cenário \"{{1}}\"?",
       "title": "Excluir Cenário"
+    },
+    "created": "Cenário criado",
+    "rename": "Renomear",
+    "renameDialog": {
+      "errorDuplicate": "Este nome já está em uso",
+      "errorEmpty": "O nome do cenário não pode estar vazio",
+      "errorReserved": "Este nome é reservado",
+      "label": "Nome do cenário",
+      "placeholder": "Insira o nome do cenário",
+      "title": "Renomear Cenário"
     }
   },
   "addPattern": "Adicionar padrão",

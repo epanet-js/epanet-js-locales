@@ -755,6 +755,16 @@
       "confirm": "Eliminar escenario",
       "message": "¿Estás seguro de que quieres eliminar el escenario \"{{1}}\"?",
       "title": "Eliminar Escenario"
+    },
+    "created": "Escenario creado",
+    "rename": "Renombrar",
+    "renameDialog": {
+      "errorDuplicate": "Este nombre ya está en uso",
+      "errorEmpty": "El nombre del escenario no puede estar vacío",
+      "errorReserved": "Este nombre está reservado",
+      "label": "Nombre del escenario",
+      "placeholder": "Introduce el nombre del escenario",
+      "title": "Renombrar Escenario"
     }
   },
   "addPattern": "Añadir patrón",
