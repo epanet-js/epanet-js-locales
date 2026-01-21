@@ -347,29 +347,7 @@
   "everythingInForFree": "Everything in {{1}} for free!",
   "professionalSupport": "Professional support",
   "customMapLayers": "Custom map layers",
-  "scenarios": {
-    "main": "Main",
-    "created": "Scenario created",
-    "createNew": "Create new scenario",
-    "newScenario": "New",
-    "switcherTooltip": "Switch scenario",
-    "enableScenarios": "Enable Scenarios",
-    "delete": "Delete",
-    "rename": "Rename",
-    "renameDialog": {
-      "title": "Rename Scenario",
-      "label": "Scenario name",
-      "placeholder": "Enter scenario name",
-      "errorEmpty": "Scenario name cannot be empty",
-      "errorDuplicate": "This name is already in use",
-      "errorReserved": "This name is reserved"
-    },
-    "deleteConfirmation": {
-      "title": "Delete Scenario",
-      "message": "Are you sure you want to delete scenario \"{{1}}\"?",
-      "confirm": "Delete scenario"
-    }
-  },
+  "scenariosItem": "Scenarios",
   "cloudStorage": "Cloud storage",
   "pointInTimeRestore": "Point in time restore - {{1}} days",
   "demandsAnalysis": "Demands analysis",
@@ -764,6 +742,29 @@
   "unpin": "Unpin",
   "errorLoadingData": "Error loading data",
   "noDataAvailable": "No data available",
+  "scenarios": {
+    "main": "Main",
+    "created": "Scenario created",
+    "createNew": "Create new scenario",
+    "newScenario": "New",
+    "switcherTooltip": "Switch scenario",
+    "enableScenarios": "Enable Scenarios",
+    "delete": "Delete",
+    "rename": "Rename",
+    "renameDialog": {
+      "title": "Rename Scenario",
+      "label": "Scenario name",
+      "placeholder": "Enter scenario name",
+      "errorEmpty": "Scenario name cannot be empty",
+      "errorDuplicate": "This name is already in use",
+      "errorReserved": "This name is reserved"
+    },
+    "deleteConfirmation": {
+      "title": "Delete Scenario",
+      "message": "Are you sure you want to delete scenario \"{{1}}\"?",
+      "confirm": "Delete scenario"
+    }
+  },
   "curvesAndPatterns": "Demand patterns",
   "curvesAndPatternsEmpty": "No demand patterns defined",
   "operationalData": "Operational data",

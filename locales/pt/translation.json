@@ -780,5 +780,6 @@
   "patternName": "Nome do padrão",
   "rename": "Renomear",
   "timestep": "Passo de tempo",
-  "toggleScenario": "Alternar entre principal e cenário"
+  "toggleScenario": "Alternar entre principal e cenário",
+  "scenariosItem": "Cenários"
 }

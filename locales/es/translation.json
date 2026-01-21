@@ -787,5 +787,6 @@
   "patternName": "Nombre del patrón",
   "rename": "Renombrar",
   "timestep": "Paso de tiempo",
-  "toggleScenario": "Alternar entre principal y escenario"
+  "toggleScenario": "Alternar entre principal y escenario",
+  "scenariosItem": "Escenarios"
 }

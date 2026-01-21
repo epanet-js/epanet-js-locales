@@ -780,5 +780,6 @@
   "patternName": "Nom du motif",
   "rename": "Renommer",
   "timestep": "Pas de temps",
-  "toggleScenario": "Basculer entre principal et scénario"
+  "toggleScenario": "Basculer entre principal et scénario",
+  "scenariosItem": "Scénarios"
 }

@@ -780,5 +780,6 @@
   "patternName": "パターン名",
   "rename": "名前を変更",
   "timestep": "タイムステップ",
-  "toggleScenario": "メインとシナリオを切り替える"
+  "toggleScenario": "メインとシナリオを切り替える",
+  "scenariosItem": "シナリオ"
 }
