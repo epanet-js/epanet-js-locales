@@ -758,6 +758,15 @@
       "label": "Nom du scénario",
       "placeholder": "Saisir le nom du scénario",
       "title": "Renommer le scénario"
+    },
+    "paywall": {
+      "choosePlanButton": "Choisissez votre plan",
+      "contactSales": "Contacter les ventes",
+      "description": "Nous construisons l'expérience la plus fluide pour les scénarios sur le marché. Vous pouvez débloquer les scénarios avec un compte personnel pour soutenir notre développement open source et faire avancer vos projets.",
+      "needMoreDetails": "Besoin de plus de détails ?",
+      "or": "OU",
+      "supportButton": "Soutenir et essayer avec un compte personnel",
+      "title": "Mettre à niveau pour débloquer les scénarios"
     }
   },
   "addPattern": "Ajouter un motif",

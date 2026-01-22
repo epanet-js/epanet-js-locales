@@ -765,6 +765,15 @@
       "label": "Nombre del escenario",
       "placeholder": "Introduce el nombre del escenario",
       "title": "Renombrar Escenario"
+    },
+    "paywall": {
+      "choosePlanButton": "Elige tu plan",
+      "contactSales": "Contactar ventas",
+      "description": "Estamos construyendo la experiencia más fluida para escenarios en el mercado. Puedes desbloquear escenarios con una cuenta personal para apoyar nuestro desarrollo de código abierto y hacer avanzar tus proyectos.",
+      "needMoreDetails": "¿Necesitas más detalles?",
+      "or": "O",
+      "supportButton": "Soporte y Probar con Personal",
+      "title": "Mejorar para desbloquear escenarios"
     }
   },
   "addPattern": "Añadir patrón",

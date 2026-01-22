@@ -758,6 +758,15 @@
       "label": "Scenarionaam",
       "placeholder": "Voer scenarionaam in",
       "title": "Scenario hernoemen"
+    },
+    "paywall": {
+      "choosePlanButton": "Kies uw abonnement",
+      "contactSales": "Neem contact op met verkoop",
+      "description": "We bouwen aan de meest vloeiende ervaring voor scenario's op de markt. U kunt scenario's ontgrendelen met een persoonlijk account om onze open-source ontwikkeling te ondersteunen en uw projecten vooruit te helpen.",
+      "needMoreDetails": "Meer details nodig?",
+      "or": "OF",
+      "supportButton": "Ondersteunen & Proberen met Persoonlijk",
+      "title": "Upgrade om scenario's te ontgrendelen"
     }
   },
   "addPattern": "Patroon toevoegen",

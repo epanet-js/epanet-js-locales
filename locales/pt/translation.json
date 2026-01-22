@@ -758,6 +758,15 @@
       "label": "Nome do cenário",
       "placeholder": "Insira o nome do cenário",
       "title": "Renomear Cenário"
+    },
+    "paywall": {
+      "choosePlanButton": "Escolha seu plano",
+      "contactSales": "Fale com o comercial",
+      "description": "Estamos construindo a experiência mais fluida para cenários no mercado. Você pode desbloquear cenários com uma conta pessoal para apoiar nosso desenvolvimento de código aberto e impulsionar seus projetos.",
+      "needMoreDetails": "Precisa de mais detalhes?",
+      "or": "OU",
+      "supportButton": "Apoie e experimente com o Plano Pessoal",
+      "title": "Atualize para desbloquear cenários"
     }
   },
   "addPattern": "Adicionar padrão",
