@@ -790,5 +790,6 @@
   "rename": "名前を変更",
   "timestep": "タイムステップ",
   "toggleScenario": "メインとシナリオを切り替える",
-  "scenariosItem": "シナリオ"
+  "scenariosItem": "シナリオ",
+  "customerPattern": "顧客需要パターン"
 }

@@ -790,5 +790,6 @@
   "rename": "Hernoemen",
   "timestep": "Tijdstap",
   "toggleScenario": "Schakelen tussen hoofd- en scenariosysteem",
-  "scenariosItem": "Scenario's"
+  "scenariosItem": "Scenario's",
+  "customerPattern": "Klantvraagpatroon"
 }

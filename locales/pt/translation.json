@@ -790,5 +790,6 @@
   "rename": "Renomear",
   "timestep": "Passo de tempo",
   "toggleScenario": "Alternar entre principal e cenário",
-  "scenariosItem": "Cenários"
+  "scenariosItem": "Cenários",
+  "customerPattern": "Padrão de demanda de clientes"
 }

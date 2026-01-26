@@ -797,5 +797,6 @@
   "rename": "Renombrar",
   "timestep": "Paso de tiempo",
   "toggleScenario": "Alternar entre principal y escenario",
-  "scenariosItem": "Escenarios"
+  "scenariosItem": "Escenarios",
+  "customerPattern": "Patrón de demanda de clientes"
 }

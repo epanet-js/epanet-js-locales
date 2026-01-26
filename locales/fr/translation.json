@@ -790,5 +790,6 @@
   "rename": "Renommer",
   "timestep": "Pas de temps",
   "toggleScenario": "Basculer entre principal et scénario",
-  "scenariosItem": "Scénarios"
+  "scenariosItem": "Scénarios",
+  "customerPattern": "Motif de demande client"
 }
