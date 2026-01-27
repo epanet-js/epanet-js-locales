@@ -777,7 +777,7 @@
     }
   },
   "addPattern": "Añadir patrón",
-  "curvesAndPatterns": "Patrones de demanda",
+  "curvesAndPatterns": "Patrones",
   "curvesAndPatternsEmpty": "No hay patrones de demanda definidos",
   "curvesAndPatternsEmptyDescription": "Por favor, crea un nuevo patrón para empezar.",
   "curvesAndPatternsEmptyTitle": "Los patrones de demanda están vacíos",
@@ -798,5 +798,6 @@
   "timestep": "Paso de tiempo",
   "toggleScenario": "Alternar entre principal y escenario",
   "scenariosItem": "Escenarios",
-  "customerPattern": "Patrón de demanda de clientes"
+  "customerPattern": "Patrón de demanda de clientes",
+  "deletePatternInUse": "No se puede eliminar un patrón que está en uso"
 }

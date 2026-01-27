@@ -770,7 +770,7 @@
     }
   },
   "addPattern": "Adicionar padrão",
-  "curvesAndPatterns": "Padrões de demanda",
+  "curvesAndPatterns": "Padrões",
   "curvesAndPatternsEmpty": "Nenhum padrão de demanda definido",
   "curvesAndPatternsEmptyDescription": "Por favor, crie um novo padrão para começar.",
   "curvesAndPatternsEmptyTitle": "Padrões de demanda está vazio",
@@ -791,5 +791,6 @@
   "timestep": "Passo de tempo",
   "toggleScenario": "Alternar entre principal e cenário",
   "scenariosItem": "Cenários",
-  "customerPattern": "Padrão de demanda de clientes"
+  "customerPattern": "Padrão de demanda de clientes",
+  "deletePatternInUse": "Não é possível excluir um padrão que está em uso"
 }

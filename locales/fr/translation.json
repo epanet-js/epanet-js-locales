@@ -770,7 +770,7 @@
     }
   },
   "addPattern": "Ajouter un motif",
-  "curvesAndPatterns": "Motifs de demande",
+  "curvesAndPatterns": "Motifs",
   "curvesAndPatternsEmpty": "Aucun motif de demande défini",
   "curvesAndPatternsEmptyDescription": "Veuillez créer un nouveau motif pour commencer.",
   "curvesAndPatternsEmptyTitle": "Les motifs de demande sont vides",
@@ -791,5 +791,6 @@
   "timestep": "Pas de temps",
   "toggleScenario": "Basculer entre principal et scénario",
   "scenariosItem": "Scénarios",
-  "customerPattern": "Motif de demande client"
+  "customerPattern": "Motif de demande client",
+  "deletePatternInUse": "Impossible de supprimer un motif en cours d'utilisation"
 }

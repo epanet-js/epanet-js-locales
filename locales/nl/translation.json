@@ -770,7 +770,7 @@
     }
   },
   "addPattern": "Patroon toevoegen",
-  "curvesAndPatterns": "Vraagpatronen",
+  "curvesAndPatterns": "Patronen",
   "curvesAndPatternsEmpty": "Geen vraagpatronen gedefinieerd",
   "curvesAndPatternsEmptyDescription": "Maak een nieuw patroon aan om te beginnen.",
   "curvesAndPatternsEmptyTitle": "Vraagpatronen is leeg",
@@ -791,5 +791,6 @@
   "timestep": "Tijdstap",
   "toggleScenario": "Schakelen tussen hoofd- en scenariosysteem",
   "scenariosItem": "Scenario's",
-  "customerPattern": "Klantvraagpatroon"
+  "customerPattern": "Klantvraagpatroon",
+  "deletePatternInUse": "Kan een patroon dat in gebruik is niet verwijderen"
 }
