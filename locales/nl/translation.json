@@ -760,24 +760,39 @@
       "title": "Scenario hernoemen"
     },
     "paywall": {
-      "choosePlanButton": "Kies uw abonnement",
-      "contactSales": "Neem contact op met verkoop",
-      "description": "We bouwen aan de meest vloeiende ervaring voor scenario's op de markt. U kunt scenario's ontgrendelen met een persoonlijk account om onze open-source ontwikkeling te ondersteunen en uw projecten vooruit te helpen.",
-      "needMoreDetails": "Meer details nodig?",
-      "or": "OF",
-      "supportButton": "Ondersteunen & Proberen met Persoonlijk",
-      "title": "Upgrade om scenario's te ontgrendelen"
-    }
+      "title": "Upgrade om scenario's te openen",
+      "commercial": {
+        "cta": "Kies abonnement",
+        "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
+        "title": "Commercieel gebruik"
+      },
+      "description1": "Met scenario's kunt u 'wat-als'-wijzigingen verkennen zonder uw model te dupliceren.",
+      "description2": "Maak alternatieve versies van uw netwerk om ideeën te testen en resultaten te vergelijken met uw basislijn om precies te zien wat er is veranderd.",
+      "description3": "Scenario's zijn beschikbaar op betaalde abonnementen.",
+      "nonCommercial": {
+        "cta": "Persoonlijke licentie - $100/jaar",
+        "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
+        "title": "Niet-commercieel gebruik"
+      }
+    },
+    "firstScenario": {
+      "bullet1": "Het hoofdmodel wordt alleen-lezen zolang er scenario's bestaan.",
+      "bullet2": "Scenario's kunnen nog niet worden opgeslagen en zijn tijdelijk.",
+      "bullet3": "U kunt uw scenario's op elk moment verwijderen om het hoofdmodel te ontgrendelen.",
+      "createButton": "Scenario aanmaken",
+      "dontShowAgain": "Dit niet opnieuw tonen",
+      "earlyAccess": "Deze functie is in vroege toegang en nog in actieve ontwikkeling, dus sommige functionaliteit is beperkt in deze eerste versie.",
+      "pleaseNote": "Let op:",
+      "title": "Scenario aanmaken"
+    },
+    "ignoreAndCreate": "Negeren en scenario aanmaken"
   },
   "addPattern": "Patroon toevoegen",
   "curvesAndPatterns": "Patronen",
-  "curvesAndPatternsEmpty": "Geen vraagpatronen gedefinieerd",
   "curvesAndPatternsEmptyDescription": "Maak een nieuw patroon aan om te beginnen.",
-  "curvesAndPatternsEmptyTitle": "Vraagpatronen is leeg",
+  "curvesAndPatternsEmptyTitle": "Patronen zijn leeg",
   "curvesAndPatternsNoSelection": "Selecteer een patroon om de details te bekijken.",
-  "demandPatterns": "Vraagpatronen",
   "operationalData": "Operationele gegevens",
-  "patternSelected": "Patroon: {{1}}",
   "selectPatternPrompt": "Selecteer een patroon om de details te bekijken",
   "addTimestep": "Tijdstap toevoegen",
   "createScenario": "Nieuw scenario aanmaken",
@@ -792,5 +807,7 @@
   "toggleScenario": "Schakelen tussen hoofd- en scenariosysteem",
   "scenariosItem": "Scenario's",
   "customerPattern": "Klantvraagpatroon",
-  "deletePatternInUse": "Kan een patroon dat in gebruik is niet verwijderen"
+  "deletePatternInUse": "Kan een patroon dat in gebruik is niet verwijderen",
+  "goToMain": "Ga naar hoofdmodel",
+  "toggleSnapshot": "Overschakelen naar laatste versie"
 }

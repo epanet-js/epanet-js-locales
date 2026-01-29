@@ -760,24 +760,39 @@
       "title": "シナリオの名前を変更"
     },
     "paywall": {
-      "choosePlanButton": "プランを選択",
-      "contactSales": "営業担当者に連絡",
-      "description": "当社は、市場で最もスムーズなシナリオ体験を構築しています。オープンソース開発をサポートし、プロジェクトを前進させるために、個人アカウントでシナリオをアンロックできます。",
-      "needMoreDetails": "詳細が必要ですか？",
-      "or": "または",
-      "supportButton": "個人アカウントでサポート＆試用",
-      "title": "アップグレードしてシナリオをアンロック"
-    }
+      "title": "シナリオにアクセスするにはアップグレードしてください",
+      "commercial": {
+        "cta": "プランを選択",
+        "description": "実際のプロジェクトでコンサルタントや公共事業者による使用を目的としています。",
+        "title": "商用利用"
+      },
+      "description1": "シナリオを使用すると、モデルを複製せずに「もしも」の変更を探索できます。",
+      "description2": "ネットワークの代替バージョンを作成してアイデアをテストし、ベースラインと比較して何が変更されたかを正確に確認できます。",
+      "description3": "シナリオは有料プランでご利用いただけます。",
+      "nonCommercial": {
+        "cta": "個人ライセンス - $100/年",
+        "description": "学習、アプリの探索、またはプロジェクトのサポートを目的としています。",
+        "title": "非営利目的での使用"
+      }
+    },
+    "firstScenario": {
+      "bullet1": "シナリオが存在する間、メインモデルは読み取り専用になります。",
+      "bullet2": "シナリオはまだ保存できず、一時的なものです。",
+      "bullet3": "いつでもシナリオを削除して、メインモデルのロックを解除できます。",
+      "createButton": "シナリオを作成",
+      "dontShowAgain": "次回から表示しない",
+      "earlyAccess": "この機能は早期アクセス版であり、現在も積極的に開発中のため、この最初のバージョンでは一部の機能が制限されています。",
+      "pleaseNote": "ご注意ください：",
+      "title": "シナリオを作成"
+    },
+    "ignoreAndCreate": "無視してシナリオを作成"
   },
   "addPattern": "パターンを追加",
   "curvesAndPatterns": "需要パターン",
-  "curvesAndPatternsEmpty": "需要パターンは定義されていません",
   "curvesAndPatternsEmptyDescription": "開始するには、新しいパターンを作成してください。",
-  "curvesAndPatternsEmptyTitle": "需要パターンが空です",
+  "curvesAndPatternsEmptyTitle": "パターンが空です",
   "curvesAndPatternsNoSelection": "詳細を表示するには、パターンを選択してください。",
-  "demandPatterns": "需要パターン",
   "operationalData": "運用データ",
-  "patternSelected": "パターン: {{1}}",
   "selectPatternPrompt": "詳細を表示するには、パターンを選択してください",
   "addTimestep": "タイムステップを追加",
   "createScenario": "新しいシナリオを作成",
@@ -792,5 +807,7 @@
   "toggleScenario": "メインとシナリオを切り替える",
   "scenariosItem": "シナリオ",
   "customerPattern": "顧客需要パターン",
-  "deletePatternInUse": "使用中のパターンは削除できません"
+  "deletePatternInUse": "使用中のパターンは削除できません",
+  "goToMain": "メインへ移動",
+  "toggleSnapshot": "最終バージョンに切り替える"
 }

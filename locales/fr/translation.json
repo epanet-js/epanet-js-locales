@@ -760,24 +760,39 @@
       "title": "Renommer le scénario"
     },
     "paywall": {
-      "choosePlanButton": "Choisissez votre plan",
-      "contactSales": "Contacter les ventes",
-      "description": "Nous construisons l'expérience la plus fluide pour les scénarios sur le marché. Vous pouvez débloquer les scénarios avec un compte personnel pour soutenir notre développement open source et faire avancer vos projets.",
-      "needMoreDetails": "Besoin de plus de détails ?",
-      "or": "OU",
-      "supportButton": "Soutenir et essayer avec un compte personnel",
-      "title": "Mettre à niveau pour débloquer les scénarios"
-    }
+      "title": "Mettre à niveau pour accéder aux scénarios",
+      "commercial": {
+        "cta": "Choisir un plan",
+        "description": "Pour une utilisation par des consultants et des services publics dans des projets réels.",
+        "title": "Usage Commercial"
+      },
+      "description1": "Avec les scénarios, vous pouvez explorer des modifications « et si » sans dupliquer votre modèle.",
+      "description2": "Créez des versions alternatives de votre réseau pour tester des idées et comparer les résultats à votre référence pour voir exactement ce qui a changé.",
+      "description3": "Les scénarios sont disponibles avec les plans payants.",
+      "nonCommercial": {
+        "cta": "Licence personnelle - 100 $/an",
+        "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
+        "title": "Usage Non Commercial"
+      }
+    },
+    "firstScenario": {
+      "bullet1": "Le modèle principal devient en lecture seule tant que des scénarios existent.",
+      "bullet2": "Les scénarios ne peuvent pas encore être enregistrés et sont temporaires.",
+      "bullet3": "Vous pouvez supprimer vos scénarios à tout moment pour déverrouiller le modèle principal.",
+      "createButton": "Créer un scénario",
+      "dontShowAgain": "Ne plus afficher ceci",
+      "earlyAccess": "Cette fonctionnalité est en accès anticipé et est toujours en cours de développement actif, donc certaines fonctionnalités sont limitées dans cette première version.",
+      "pleaseNote": "Veuillez noter :",
+      "title": "Créer un scénario"
+    },
+    "ignoreAndCreate": "Ignorer et créer un scénario"
   },
   "addPattern": "Ajouter un motif",
   "curvesAndPatterns": "Motifs",
-  "curvesAndPatternsEmpty": "Aucun motif de demande défini",
   "curvesAndPatternsEmptyDescription": "Veuillez créer un nouveau motif pour commencer.",
-  "curvesAndPatternsEmptyTitle": "Les motifs de demande sont vides",
+  "curvesAndPatternsEmptyTitle": "Les motifs sont vides",
   "curvesAndPatternsNoSelection": "Sélectionnez un motif pour afficher ses détails.",
-  "demandPatterns": "Motifs de demande",
   "operationalData": "Données opérationnelles",
-  "patternSelected": "Motif : {{1}}",
   "selectPatternPrompt": "Sélectionnez un motif pour afficher ses détails",
   "addTimestep": "Ajouter un pas de temps",
   "createScenario": "Créer un nouveau scénario",
@@ -792,5 +807,7 @@
   "toggleScenario": "Basculer entre principal et scénario",
   "scenariosItem": "Scénarios",
   "customerPattern": "Motif de demande client",
-  "deletePatternInUse": "Impossible de supprimer un motif en cours d'utilisation"
+  "deletePatternInUse": "Impossible de supprimer un motif en cours d'utilisation",
+  "goToMain": "Aller au principal",
+  "toggleSnapshot": "Passer à la dernière version"
 }

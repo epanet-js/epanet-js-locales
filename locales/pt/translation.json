@@ -760,24 +760,39 @@
       "title": "Renomear Cenário"
     },
     "paywall": {
-      "choosePlanButton": "Escolha seu plano",
-      "contactSales": "Fale com o comercial",
-      "description": "Estamos construindo a experiência mais fluida para cenários no mercado. Você pode desbloquear cenários com uma conta pessoal para apoiar nosso desenvolvimento de código aberto e impulsionar seus projetos.",
-      "needMoreDetails": "Precisa de mais detalhes?",
-      "or": "OU",
-      "supportButton": "Apoie e experimente com o Plano Pessoal",
-      "title": "Atualize para desbloquear cenários"
-    }
+      "title": "Atualize para acessar cenários",
+      "commercial": {
+        "cta": "Escolha o plano",
+        "description": "Para uso por consultores e concessionárias em projetos reais.",
+        "title": "Uso comercial"
+      },
+      "description1": "Com os cenários, você pode explorar alterações de \"e se\" sem duplicar seu modelo.",
+      "description2": "Crie versões alternativas de sua rede para testar ideias e comparar resultados com sua linha de base para ver exatamente o que mudou.",
+      "description3": "Os cenários estão disponíveis em planos pagos.",
+      "nonCommercial": {
+        "cta": "Licença pessoal - $100/ano",
+        "description": "Para aprendizado, exploração do aplicativo ou suporte ao projeto.",
+        "title": "Uso não comercial"
+      }
+    },
+    "firstScenario": {
+      "bullet1": "O modelo principal torna-se somente leitura enquanto os cenários existirem.",
+      "bullet2": "Os cenários ainda não podem ser salvos e são temporários.",
+      "bullet3": "Você pode excluir seus cenários a qualquer momento para desbloquear o modelo principal.",
+      "createButton": "Criar cenário",
+      "dontShowAgain": "Não mostrar novamente",
+      "earlyAccess": "Este recurso é de acesso antecipado e ainda está em desenvolvimento ativo, então algumas funcionalidades são limitadas nesta primeira versão.",
+      "pleaseNote": "Por favor, note:",
+      "title": "Criar cenário"
+    },
+    "ignoreAndCreate": "Ignorar e criar cenário"
   },
   "addPattern": "Adicionar padrão",
   "curvesAndPatterns": "Padrões",
-  "curvesAndPatternsEmpty": "Nenhum padrão de demanda definido",
   "curvesAndPatternsEmptyDescription": "Por favor, crie um novo padrão para começar.",
-  "curvesAndPatternsEmptyTitle": "Padrões de demanda está vazio",
+  "curvesAndPatternsEmptyTitle": "Padrões estão vazios",
   "curvesAndPatternsNoSelection": "Selecione um padrão para ver seus detalhes.",
-  "demandPatterns": "Padrões de demanda",
   "operationalData": "Dados operacionais",
-  "patternSelected": "Padrão: {{1}}",
   "selectPatternPrompt": "Selecione um padrão para ver seus detalhes",
   "addTimestep": "Adicionar passo de tempo",
   "createScenario": "Criar novo cenário",
@@ -792,5 +807,7 @@
   "toggleScenario": "Alternar entre principal e cenário",
   "scenariosItem": "Cenários",
   "customerPattern": "Padrão de demanda de clientes",
-  "deletePatternInUse": "Não é possível excluir um padrão que está em uso"
+  "deletePatternInUse": "Não é possível excluir um padrão que está em uso",
+  "goToMain": "Ir para o principal",
+  "toggleSnapshot": "Mudar para a última versão"
 }
