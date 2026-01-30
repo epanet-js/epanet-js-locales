@@ -711,8 +711,7 @@
   "constant": "定数",
   "constantDemand": "一定需要",
   "demandCategories": "需要カテゴリ",
-  "timePattern": "時間パターン",
-  "averageDemand": "平均需要",
+  "timePattern": "パターン",
   "pcvCurves": "特性曲線を持つPCV弁（{{1}}個の弁は設定値のみを使用）",
   "count": "数",
   "waterQualityAge": "水齢",
@@ -809,5 +808,8 @@
   "customerPattern": "顧客需要パターン",
   "deletePatternInUse": "使用中のパターンは削除できません",
   "goToMain": "メインへ移動",
-  "toggleSnapshot": "最終バージョンに切り替える"
+  "toggleSnapshot": "最終バージョンに切り替える",
+  "alertScenariosNotSaved": "シナリオは保存されません",
+  "alertScenariosNotSavedDetail": "メインモデルのみが保存されます。作成したシナリオはこのセッション中利用可能ですが、アプリを閉じると失われます。完全なシナリオの永続化は近日中に提供される予定です。",
+  "directDemand": "直接需要"
 }

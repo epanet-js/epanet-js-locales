@@ -711,8 +711,7 @@
   "constant": "constante",
   "constantDemand": "Demanda constante",
   "demandCategories": "Categorias de demanda",
-  "timePattern": "Padrão de tempo",
-  "averageDemand": "Demanda Média",
+  "timePattern": "Padrão",
   "pcvCurves": "Válvulas PCV com curvas características ({{1}} válvulas usando apenas o valor de ajuste)",
   "count": "Contagem",
   "waterQualityAge": "Idade da água",
@@ -809,5 +808,8 @@
   "customerPattern": "Padrão de demanda de clientes",
   "deletePatternInUse": "Não é possível excluir um padrão que está em uso",
   "goToMain": "Ir para o principal",
-  "toggleSnapshot": "Mudar para a última versão"
+  "toggleSnapshot": "Mudar para a última versão",
+  "alertScenariosNotSaved": "Cenários não serão salvos",
+  "alertScenariosNotSavedDetail": "Apenas o modelo principal será salvo. Seus cenários permanecerão disponíveis nesta sessão, mas serão perdidos ao fechar o aplicativo. A persistência completa de cenários estará disponível em breve.",
+  "directDemand": "Demanda direta"
 }

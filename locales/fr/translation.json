@@ -711,8 +711,7 @@
   "constant": "constant",
   "constantDemand": "Demande constante",
   "demandCategories": "Catégories de demande",
-  "timePattern": "Motif temporel",
-  "averageDemand": "Demande moyenne",
+  "timePattern": "Motif",
   "pcvCurves": "Vannes PCV avec courbes caractéristiques ({{1}} vannes utilisant uniquement la valeur de réglage)",
   "count": "Nombre",
   "waterQualityAge": "Âge de l'eau",
@@ -809,5 +808,8 @@
   "customerPattern": "Motif de demande client",
   "deletePatternInUse": "Impossible de supprimer un motif en cours d'utilisation",
   "goToMain": "Aller au principal",
-  "toggleSnapshot": "Passer à la dernière version"
+  "toggleSnapshot": "Passer à la dernière version",
+  "alertScenariosNotSaved": "Les scénarios ne seront pas enregistrés",
+  "alertScenariosNotSavedDetail": "Seul le modèle principal sera enregistré. Vos scénarios resteront disponibles dans cette session mais seront perdus lorsque vous fermerez l'application. La persistance complète des scénarios sera bientôt disponible.",
+  "directDemand": "Demande directe"
 }

@@ -711,8 +711,7 @@
   "constant": "constant",
   "constantDemand": "Constante vraag",
   "demandCategories": "Vraagcategorieën",
-  "timePattern": "Tijdpatroon",
-  "averageDemand": "Gemiddelde vraag",
+  "timePattern": "Patroon",
   "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)",
   "count": "Aantal",
   "waterQualityAge": "Leeftijd van water",
@@ -809,5 +808,8 @@
   "customerPattern": "Klantvraagpatroon",
   "deletePatternInUse": "Kan een patroon dat in gebruik is niet verwijderen",
   "goToMain": "Ga naar hoofdmodel",
-  "toggleSnapshot": "Overschakelen naar laatste versie"
+  "toggleSnapshot": "Overschakelen naar laatste versie",
+  "alertScenariosNotSaved": "Scenario's worden niet opgeslagen",
+  "alertScenariosNotSavedDetail": "Alleen het hoofdmodel wordt opgeslagen. Uw scenario's blijven beschikbaar in deze sessie, maar gaan verloren wanneer u de app sluit. Volledige scenario-persistentie is binnenkort beschikbaar.",
+  "directDemand": "Directe vraag"
 }
