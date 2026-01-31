@@ -811,5 +811,7 @@
   "toggleSnapshot": "最終バージョンに切り替える",
   "alertScenariosNotSaved": "シナリオは保存されません",
   "alertScenariosNotSavedDetail": "メインモデルのみが保存されます。作成したシナリオはこのセッション中利用可能ですが、アプリを閉じると失われます。完全なシナリオの永続化は近日中に提供される予定です。",
-  "directDemand": "直接需要"
+  "directDemand": "直接需要",
+  "addDirectDemand": "直接需要を追加",
+  "close": "閉じる"
 }

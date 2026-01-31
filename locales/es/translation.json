@@ -818,5 +818,7 @@
   "toggleSnapshot": "Cambiar a la última versión",
   "alertScenariosNotSaved": "Los escenarios no se guardarán",
   "alertScenariosNotSavedDetail": "Solo se guardará el modelo principal. Tus escenarios permanecerán disponibles en esta sesión, pero se perderán cuando cierres la aplicación. La persistencia completa de escenarios estará disponible pronto.",
-  "directDemand": "Demanda directa"
+  "directDemand": "Demanda directa",
+  "addDirectDemand": "Añadir demanda directa",
+  "close": "Cerrar"
 }

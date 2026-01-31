@@ -811,5 +811,7 @@
   "toggleSnapshot": "Passer à la dernière version",
   "alertScenariosNotSaved": "Les scénarios ne seront pas enregistrés",
   "alertScenariosNotSavedDetail": "Seul le modèle principal sera enregistré. Vos scénarios resteront disponibles dans cette session mais seront perdus lorsque vous fermerez l'application. La persistance complète des scénarios sera bientôt disponible.",
-  "directDemand": "Demande directe"
+  "directDemand": "Demande directe",
+  "addDirectDemand": "Ajouter une demande directe",
+  "close": "Fermer"
 }

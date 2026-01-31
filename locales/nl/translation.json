@@ -811,5 +811,7 @@
   "toggleSnapshot": "Overschakelen naar laatste versie",
   "alertScenariosNotSaved": "Scenario's worden niet opgeslagen",
   "alertScenariosNotSavedDetail": "Alleen het hoofdmodel wordt opgeslagen. Uw scenario's blijven beschikbaar in deze sessie, maar gaan verloren wanneer u de app sluit. Volledige scenario-persistentie is binnenkort beschikbaar.",
-  "directDemand": "Directe vraag"
+  "directDemand": "Directe vraag",
+  "addDirectDemand": "Directe vraag toevoegen",
+  "close": "Sluiten"
 }
