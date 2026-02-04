@@ -813,5 +813,8 @@
   "alertScenariosNotSavedDetail": "メインモデルのみが保存されます。作成したシナリオはこのセッション中利用可能ですが、アプリを閉じると失われます。完全なシナリオの永続化は近日中に提供される予定です。",
   "directDemand": "直接需要",
   "addDirectDemand": "直接需要を追加",
-  "close": "閉じる"
+  "close": "閉じる",
+  "alertNetworkRequired": "ネットワークが必要です",
+  "alertNetworkRequiredDetail": "シナリオの構築を開始する前に、ネットワークを選択または作成する必要があります。",
+  "chooseANetwork": "ネットワークを選択してください"
 }

@@ -813,5 +813,8 @@
   "alertScenariosNotSavedDetail": "Alleen het hoofdmodel wordt opgeslagen. Uw scenario's blijven beschikbaar in deze sessie, maar gaan verloren wanneer u de app sluit. Volledige scenario-persistentie is binnenkort beschikbaar.",
   "directDemand": "Directe vraag",
   "addDirectDemand": "Directe vraag toevoegen",
-  "close": "Sluiten"
+  "close": "Sluiten",
+  "alertNetworkRequired": "Netwerk vereist",
+  "alertNetworkRequiredDetail": "U moet een netwerk selecteren of aanmaken voordat u kunt beginnen met het bouwen van een scenario.",
+  "chooseANetwork": "Kies een netwerk"
 }

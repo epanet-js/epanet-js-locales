@@ -813,5 +813,8 @@
   "alertScenariosNotSavedDetail": "Apenas o modelo principal será salvo. Seus cenários permanecerão disponíveis nesta sessão, mas serão perdidos ao fechar o aplicativo. A persistência completa de cenários estará disponível em breve.",
   "directDemand": "Demanda direta",
   "addDirectDemand": "Adicionar demanda direta",
-  "close": "Fechar"
+  "close": "Fechar",
+  "alertNetworkRequired": "Rede necessária",
+  "alertNetworkRequiredDetail": "Você precisa selecionar ou criar uma rede antes de poder começar a construir um cenário.",
+  "chooseANetwork": "Escolha uma rede"
 }

@@ -813,5 +813,8 @@
   "alertScenariosNotSavedDetail": "Seul le modèle principal sera enregistré. Vos scénarios resteront disponibles dans cette session mais seront perdus lorsque vous fermerez l'application. La persistance complète des scénarios sera bientôt disponible.",
   "directDemand": "Demande directe",
   "addDirectDemand": "Ajouter une demande directe",
-  "close": "Fermer"
+  "close": "Fermer",
+  "alertNetworkRequired": "Réseau requis",
+  "alertNetworkRequiredDetail": "Vous devez sélectionner ou créer un réseau avant de pouvoir commencer à créer un scénario.",
+  "chooseANetwork": "Choisir un réseau"
 }
