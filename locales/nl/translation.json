@@ -815,5 +815,13 @@
   "close": "Sluiten",
   "alertNetworkRequired": "Netwerk vereist",
   "alertNetworkRequiredDetail": "U moet een netwerk selecteren of aanmaken voordat u kunt beginnen met het bouwen van een scenario.",
-  "chooseANetwork": "Kies een netwerk"
+  "chooseANetwork": "Kies een netwerk",
+  "addCurve": "Curve toevoegen",
+  "curveName": "Curvenaam",
+  "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
+  "discardUnsavedChangesWarning": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
+  "pumpCurvesEmptyDescription": "Maak een nieuwe pompcurve aan om te beginnen.",
+  "pumpCurvesEmptyTitle": "Pompcurves zijn leeg",
+  "pumpCurvesNoSelection": "Selecteer een curve om de details te bekijken.",
+  "pumpLibrary": "Pompenbibliotheek"
 }

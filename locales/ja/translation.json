@@ -815,5 +815,13 @@
   "close": "閉じる",
   "alertNetworkRequired": "ネットワークが必要です",
   "alertNetworkRequiredDetail": "シナリオの構築を開始する前に、ネットワークを選択または作成する必要があります。",
-  "chooseANetwork": "ネットワークを選択してください"
+  "chooseANetwork": "ネットワークを選択してください",
+  "addCurve": "曲線を追加",
+  "curveName": "曲線名",
+  "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
+  "discardUnsavedChangesWarning": "未保存の変更があります。破棄してもよろしいですか？",
+  "pumpCurvesEmptyDescription": "開始するには、新しいポンプ曲線を作成してください。",
+  "pumpCurvesEmptyTitle": "ポンプ曲線が空です",
+  "pumpCurvesNoSelection": "詳細を表示するには、曲線を選択してください。",
+  "pumpLibrary": "ポンプライブラリ"
 }

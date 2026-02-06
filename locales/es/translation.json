@@ -822,5 +822,13 @@
   "close": "Cerrar",
   "alertNetworkRequired": "Red requerida",
   "alertNetworkRequiredDetail": "Necesitas seleccionar o crear una red antes de poder empezar a construir un escenario.",
-  "chooseANetwork": "Elegir una red"
+  "chooseANetwork": "Elegir una red",
+  "addCurve": "Añadir curva",
+  "curveName": "Nombre de la curva",
+  "deleteCurveInUse": "No se puede eliminar una curva que está siendo utilizada por una bomba",
+  "discardUnsavedChangesWarning": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
+  "pumpCurvesEmptyDescription": "Por favor, crea una nueva curva de bomba para empezar.",
+  "pumpCurvesEmptyTitle": "Las curvas de bomba están vacías",
+  "pumpCurvesNoSelection": "Selecciona una curva para ver sus detalles.",
+  "pumpLibrary": "Biblioteca de bombas"
 }
