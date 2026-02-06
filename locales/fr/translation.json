@@ -709,7 +709,6 @@
   "reservoirPatterns": "Réservoirs avec motifs temporels ({{1}} réservoirs utilisant uniquement la première valeur du motif)",
   "tankCurves": "Châteaux d'eau avec courbes de volume ({{1}} châteaux d'eau utilisant un diamètre fixe)",
   "constant": "constant",
-  "constantDemand": "Demande constante",
   "demandCategories": "Catégories de demande",
   "timePattern": "Motif",
   "pcvCurves": "Vannes PCV avec courbes caractéristiques ({{1}} vannes utilisant uniquement la valeur de réglage)",

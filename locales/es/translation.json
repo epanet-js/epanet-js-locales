@@ -716,7 +716,6 @@
   "reservoirPatterns": "Embalses con patrones de tiempo ({{1}} embalses usando solo el primer valor del patrón)",
   "tankCurves": "Tanques con curvas de volumen ({{1}} tanques usando diámetro fijo)",
   "constant": "constant",
-  "constantDemand": "Consumo constante",
   "demandCategories": "Categorías de demanda",
   "timePattern": "Patrón",
   "pcvCurves": "Válvulas PCV con curvas características ({{1}} válvulas usando solo el valor de ajuste)",

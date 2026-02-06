@@ -709,7 +709,6 @@
   "reservoirPatterns": "時間パターンを持つ貯水池（{{1}}個の貯水池は最初のパターン値のみを使用）",
   "tankCurves": "容量曲線を持つ配水池（{{1}}個の配水池は固定直径を使用）",
   "constant": "定数",
-  "constantDemand": "一定需要",
   "demandCategories": "需要カテゴリ",
   "timePattern": "パターン",
   "pcvCurves": "特性曲線を持つPCV弁（{{1}}個の弁は設定値のみを使用）",

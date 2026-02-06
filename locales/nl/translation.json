@@ -709,7 +709,6 @@
   "reservoirPatterns": "Reservoirs met tijdpatronen ({{1}} reservoirs gebruiken alleen de eerste patroonwaarde)",
   "tankCurves": "Tanks met volumecurves ({{1}} tanks gebruiken vaste diameter)",
   "constant": "constant",
-  "constantDemand": "Constante vraag",
   "demandCategories": "Vraagcategorieën",
   "timePattern": "Patroon",
   "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)",
