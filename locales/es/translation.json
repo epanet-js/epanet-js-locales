@@ -771,8 +771,8 @@
         "description": "Para uso por consultores y servicios públicos en proyectos reales.",
         "title": "Uso comercial"
       },
-      "description1": "Con los escenarios, puedes explorar cambios de \"qué pasaría si\" sin duplicar tu modelo.",
-      "description2": "Crea versiones alternativas de tu red para probar ideas y comparar resultados con tu línea base para ver exactamente qué cambió.",
+      "description1": "Los escenarios te permiten explorar cambios de \"qué pasaría si\" sin duplicar tu modelo.",
+      "description2": "Crea versiones alternativas de tu red y compara los resultados con tu línea base.",
       "description3": "Los escenarios están disponibles en planes de pago.",
       "nonCommercial": {
         "cta": "Licencia personal - $100/año",

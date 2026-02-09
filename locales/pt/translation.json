@@ -764,8 +764,8 @@
         "description": "Para uso por consultores e concessionárias em projetos reais.",
         "title": "Uso comercial"
       },
-      "description1": "Com os cenários, você pode explorar alterações de \"e se\" sem duplicar seu modelo.",
-      "description2": "Crie versões alternativas de sua rede para testar ideias e comparar resultados com sua linha de base para ver exatamente o que mudou.",
+      "description1": "Os cenários permitem explorar alterações de \"e se\" sem duplicar seu modelo.",
+      "description2": "Crie versões alternativas de sua rede e compare os resultados com sua linha de base.",
       "description3": "Os cenários estão disponíveis em planos pagos.",
       "nonCommercial": {
         "cta": "Licença pessoal - $100/ano",
