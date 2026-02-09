@@ -774,8 +774,8 @@
       }
     },
     "firstScenario": {
-      "bullet1": "Le modèle principal devient en lecture seule tant que des scénarios existent.",
-      "bullet2": "Les scénarios ne peuvent pas encore être enregistrés et sont temporaires.",
+      "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
+      "bullet2": "Les scénarios <bold>ne peuvent pas encore être enregistrés</bold> et sont temporaires.",
       "bullet3": "Vous pouvez supprimer vos scénarios à tout moment pour déverrouiller le modèle principal.",
       "createButton": "Créer un scénario",
       "dontShowAgain": "Ne plus afficher ceci",
@@ -820,8 +820,10 @@
   "curveName": "Nom de la courbe",
   "deleteCurveInUse": "Impossible de supprimer une courbe utilisée par une pompe",
   "discardUnsavedChangesWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
-  "pumpCurvesEmptyDescription": "Veuillez créer une nouvelle courbe de pompe pour commencer.",
-  "pumpCurvesEmptyTitle": "Les courbes de pompe sont vides",
-  "pumpCurvesNoSelection": "Sélectionnez une courbe pour afficher ses détails.",
-  "pumpLibrary": "Bibliothèque de pompes"
+  "pumpLibrary": "Bibliothèque de pompes",
+  "addPoint": "Ajouter un point",
+  "pumpLibraryEmptyDescription": "Ajouter une courbe de pompe pour commencer",
+  "pumpLibraryEmptyTitle": "Aucune courbe de pompe",
+  "pumpLibraryNoSelection": "Sélectionnez une courbe à modifier",
+  "pumpLibraryUnsavedWarning": "Vous avez des modifications non enregistrées aux courbes de pompe"
 }

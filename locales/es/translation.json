@@ -781,8 +781,8 @@
       }
     },
     "firstScenario": {
-      "bullet1": "El modelo principal se vuelve de solo lectura mientras existan escenarios.",
-      "bullet2": "Los escenarios no se pueden guardar aún y son temporales.",
+      "bullet1": "El modelo principal se vuelve <bold>de solo lectura</bold> mientras existan escenarios.",
+      "bullet2": "Los escenarios <bold>no se pueden guardar</bold> aún y son temporales.",
       "bullet3": "Puedes eliminar tus escenarios en cualquier momento para desbloquear el modelo principal.",
       "createButton": "Crear escenario",
       "dontShowAgain": "No mostrar esto de nuevo",
@@ -827,8 +827,10 @@
   "curveName": "Nombre de la curva",
   "deleteCurveInUse": "No se puede eliminar una curva que está siendo utilizada por una bomba",
   "discardUnsavedChangesWarning": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
-  "pumpCurvesEmptyDescription": "Por favor, crea una nueva curva de bomba para empezar.",
-  "pumpCurvesEmptyTitle": "Las curvas de bomba están vacías",
-  "pumpCurvesNoSelection": "Selecciona una curva para ver sus detalles.",
-  "pumpLibrary": "Biblioteca de bombas"
+  "pumpLibrary": "Biblioteca de bombas",
+  "addPoint": "Añadir punto",
+  "pumpLibraryEmptyDescription": "Añade una curva de bomba para empezar",
+  "pumpLibraryEmptyTitle": "No hay curvas de bomba",
+  "pumpLibraryNoSelection": "Selecciona una curva para editar",
+  "pumpLibraryUnsavedWarning": "Tienes cambios sin guardar en las curvas de bomba"
 }

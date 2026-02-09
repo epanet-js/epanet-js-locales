@@ -774,8 +774,8 @@
       }
     },
     "firstScenario": {
-      "bullet1": "シナリオが存在する間、メインモデルは読み取り専用になります。",
-      "bullet2": "シナリオはまだ保存できず、一時的なものです。",
+      "bullet1": "シナリオが存在する間、メインモデルは<bold>読み取り専用</bold>になります。",
+      "bullet2": "シナリオはまだ<bold>保存できません</bold>が、一時的なものです。",
       "bullet3": "いつでもシナリオを削除して、メインモデルのロックを解除できます。",
       "createButton": "シナリオを作成",
       "dontShowAgain": "次回から表示しない",
@@ -820,8 +820,10 @@
   "curveName": "曲線名",
   "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
   "discardUnsavedChangesWarning": "未保存の変更があります。破棄してもよろしいですか？",
-  "pumpCurvesEmptyDescription": "開始するには、新しいポンプ曲線を作成してください。",
-  "pumpCurvesEmptyTitle": "ポンプ曲線が空です",
-  "pumpCurvesNoSelection": "詳細を表示するには、曲線を選択してください。",
-  "pumpLibrary": "ポンプライブラリ"
+  "pumpLibrary": "ポンプライブラリ",
+  "addPoint": "点を追加",
+  "pumpLibraryEmptyDescription": "開始するには、ポンプ曲線を追加してください",
+  "pumpLibraryEmptyTitle": "ポンプ曲線がありません",
+  "pumpLibraryNoSelection": "編集するには、曲線を選択してください",
+  "pumpLibraryUnsavedWarning": "ポンプ曲線に未保存の変更があります"
 }

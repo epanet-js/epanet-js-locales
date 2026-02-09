@@ -774,8 +774,8 @@
       }
     },
     "firstScenario": {
-      "bullet1": "Het hoofdmodel wordt alleen-lezen zolang er scenario's bestaan.",
-      "bullet2": "Scenario's kunnen nog niet worden opgeslagen en zijn tijdelijk.",
+      "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",
+      "bullet2": "Scenario's <bold>kunnen nog niet worden opgeslagen</bold> en zijn tijdelijk.",
       "bullet3": "U kunt uw scenario's op elk moment verwijderen om het hoofdmodel te ontgrendelen.",
       "createButton": "Scenario aanmaken",
       "dontShowAgain": "Dit niet opnieuw tonen",
@@ -820,8 +820,10 @@
   "curveName": "Curvenaam",
   "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
   "discardUnsavedChangesWarning": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
-  "pumpCurvesEmptyDescription": "Maak een nieuwe pompcurve aan om te beginnen.",
-  "pumpCurvesEmptyTitle": "Pompcurves zijn leeg",
-  "pumpCurvesNoSelection": "Selecteer een curve om de details te bekijken.",
-  "pumpLibrary": "Pompenbibliotheek"
+  "pumpLibrary": "Pompenbibliotheek",
+  "addPoint": "Punt toevoegen",
+  "pumpLibraryEmptyDescription": "Voeg een pompcurve toe om te beginnen",
+  "pumpLibraryEmptyTitle": "Geen pompcurves",
+  "pumpLibraryNoSelection": "Selecteer een curve om te bewerken",
+  "pumpLibraryUnsavedWarning": "U heeft niet-opgeslagen wijzigingen aan pompcurves"
 }
