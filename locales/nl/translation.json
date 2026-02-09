@@ -662,11 +662,10 @@
   "toggleActiveTopology": "In-/Uitschakelen",
   "curveDetails": "Curve details",
   "curvePoint": "Punt",
-  "designPoint": "Ontwerppunt",
   "designPointLabel": "Ontwerp",
   "maxOperatingPoint": "Max. Bedrijfspunt",
   "shutoffPoint": "Afsluitpunt",
-  "standardCurve": "Standaardcurve",
+  "standardCurve": "3-puntscurve (standaardcurve)",
   "nothingSelectedAreaSelect": "U kunt ook meerdere onderdelen selecteren met het gebiedsselectietool en hun eigenschappen vergelijken.",
   "nothingSelectedClickToSelect": "Gebruik het selectietool en klik op een onderdeel om de details ervan te bekijken en te bewerken.",
   "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken",
@@ -825,5 +824,9 @@
   "pumpLibraryEmptyDescription": "Voeg een pompcurve toe om te beginnen",
   "pumpLibraryEmptyTitle": "Geen pompcurves",
   "pumpLibraryNoSelection": "Selecteer een curve om te bewerken",
-  "pumpLibraryUnsavedWarning": "U heeft niet-opgeslagen wijzigingen aan pompcurves"
+  "designPointCurve": "1-puntscurve (ontwerppunt)",
+  "multiPointCurve": "Meerpuntscurve",
+  "namedCurve": "Bibliotheekcurve",
+  "openPumpLibrary": "Pompenbibliotheek openen...",
+  "unusedCurves": "{{1}} niet-geïdentificeerde curves niet geïmporteerd"
 }

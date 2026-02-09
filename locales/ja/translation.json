@@ -662,11 +662,10 @@
   "toggleActiveTopology": "有効/無効",
   "curveDetails": "曲線詳細",
   "curvePoint": "点",
-  "designPoint": "設計点",
   "designPointLabel": "設計",
   "maxOperatingPoint": "最大操作点",
   "shutoffPoint": "閉止",
-  "standardCurve": "標準曲線",
+  "standardCurve": "3点曲線（標準曲線）",
   "nothingSelectedAreaSelect": "領域選択ツールを使用して複数のアセットを選択し、そのプロパティを比較することもできます。",
   "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
   "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します",
@@ -825,5 +824,9 @@
   "pumpLibraryEmptyDescription": "開始するには、ポンプ曲線を追加してください",
   "pumpLibraryEmptyTitle": "ポンプ曲線がありません",
   "pumpLibraryNoSelection": "編集するには、曲線を選択してください",
-  "pumpLibraryUnsavedWarning": "ポンプ曲線に未保存の変更があります"
+  "designPointCurve": "1点曲線（設計点）",
+  "multiPointCurve": "多点曲線",
+  "namedCurve": "ライブラリ曲線",
+  "openPumpLibrary": "ポンプライブラリを開く...",
+  "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした"
 }

@@ -662,11 +662,10 @@
   "toggleActiveTopology": "Activer/Désactiver",
   "curveDetails": "Détails de la courbe",
   "curvePoint": "Point",
-  "designPoint": "Point de conception",
   "designPointLabel": "Conception",
   "maxOperatingPoint": "Max. de fonctionnement",
   "shutoffPoint": "Point de fermeture",
-  "standardCurve": "Courbe standard",
+  "standardCurve": "Courbe à 3 points (courbe standard)",
   "nothingSelectedAreaSelect": "Vous pouvez également sélectionner plusieurs éléments avec l'outil de sélection de zone et comparer leurs propriétés.",
   "nothingSelectedClickToSelect": "Utilisez l'outil de sélection et cliquez sur un élément pour afficher et modifier ses détails.",
   "nothingSelectedTitle": "Sélectionnez un élément pour afficher ses propriétés",
@@ -825,5 +824,9 @@
   "pumpLibraryEmptyDescription": "Ajouter une courbe de pompe pour commencer",
   "pumpLibraryEmptyTitle": "Aucune courbe de pompe",
   "pumpLibraryNoSelection": "Sélectionnez une courbe à modifier",
-  "pumpLibraryUnsavedWarning": "Vous avez des modifications non enregistrées aux courbes de pompe"
+  "designPointCurve": "Courbe à 1 point (point de conception)",
+  "multiPointCurve": "Courbe multipoints",
+  "namedCurve": "Courbe de bibliothèque",
+  "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
+  "unusedCurves": "{{1}} courbes non identifiées non importées"
 }

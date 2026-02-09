@@ -662,11 +662,10 @@
   "toggleActiveTopology": "Habilitar/Desabilitar",
   "curveDetails": "Detalhes da curva",
   "curvePoint": "Ponto",
-  "designPoint": "Ponto de projeto",
   "designPointLabel": "Projeto",
   "maxOperatingPoint": "Operação máxima",
   "shutoffPoint": "Ponto de fechamento",
-  "standardCurve": "Curva padrão",
+  "standardCurve": "Curva de 3 pontos (curva padrão)",
   "nothingSelectedAreaSelect": "Você também pode selecionar múltiplos ativos com a ferramenta de seleção por área e comparar suas propriedades.",
   "nothingSelectedClickToSelect": "Use a ferramenta de seleção e clique em um ativo para visualizar e editar seus detalhes.",
   "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades",
@@ -825,5 +824,9 @@
   "pumpLibraryEmptyDescription": "Adicione uma curva de bomba para começar",
   "pumpLibraryEmptyTitle": "Nenhuma curva de bomba",
   "pumpLibraryNoSelection": "Selecione uma curva para editar",
-  "pumpLibraryUnsavedWarning": "Você tem alterações não salvas nas curvas da bomba"
+  "designPointCurve": "Curva de 1 ponto (ponto de projeto)",
+  "multiPointCurve": "Curva multiponto",
+  "namedCurve": "Curva da biblioteca",
+  "openPumpLibrary": "Abrir biblioteca de bombas...",
+  "unusedCurves": "{{1}} curvas não identificadas não importadas"
 }
