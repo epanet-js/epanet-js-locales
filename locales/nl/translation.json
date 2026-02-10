@@ -785,7 +785,8 @@
       "dontShowAgain": "Dit niet opnieuw tonen",
       "earlyAccess": "Deze functie is in vroege toegang en nog in actieve ontwikkeling, dus sommige functionaliteit is beperkt in deze eerste versie.",
       "pleaseNote": "Let op:",
-      "title": "Scenario aanmaken"
+      "title": "Scenario aanmaken",
+      "demoTrialNote": "U kunt deze functie gratis proberen omdat u een demonstratienetwerk gebruikt."
     },
     "ignoreAndCreate": "Negeren en scenario aanmaken"
   },
@@ -833,5 +834,7 @@
   "multiPointCurve": "Meerpuntscurve",
   "namedCurve": "Bibliotheekcurve",
   "openPumpLibrary": "Pompenbibliotheek openen...",
-  "unusedCurves": "{{1}} niet-geïdentificeerde curves niet geïmporteerd"
+  "unusedCurves": "{{1}} niet-geïdentificeerde curves niet geïmporteerd",
+  "invalidCurve": "Ongeldige curve",
+  "saveInvalidCurvesWarning": "Wijzigingen aan ongeldige curves worden verwijderd."
 }

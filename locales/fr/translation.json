@@ -785,7 +785,8 @@
       "dontShowAgain": "Ne plus afficher ceci",
       "earlyAccess": "Cette fonctionnalité est en accès anticipé et est toujours en cours de développement actif, donc certaines fonctionnalités sont limitées dans cette première version.",
       "pleaseNote": "Veuillez noter :",
-      "title": "Créer un scénario"
+      "title": "Créer un scénario",
+      "demoTrialNote": "Vous pouvez essayer cette fonctionnalité gratuitement car vous utilisez un réseau de démonstration."
     },
     "ignoreAndCreate": "Ignorer et créer un scénario"
   },
@@ -833,5 +834,7 @@
   "multiPointCurve": "Courbe multipoints",
   "namedCurve": "Courbe de bibliothèque",
   "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
-  "unusedCurves": "{{1}} courbes non identifiées non importées"
+  "unusedCurves": "{{1}} courbes non identifiées non importées",
+  "invalidCurve": "Courbe invalide",
+  "saveInvalidCurvesWarning": "Les modifications apportées aux courbes invalides seront ignorées."
 }

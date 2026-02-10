@@ -785,7 +785,8 @@
       "dontShowAgain": "次回から表示しない",
       "earlyAccess": "この機能は早期アクセス版であり、現在も積極的に開発中のため、この最初のバージョンでは一部の機能が制限されています。",
       "pleaseNote": "ご注意ください：",
-      "title": "シナリオを作成"
+      "title": "シナリオを作成",
+      "demoTrialNote": "デモネットワークを使用しているため、この機能を無料で試すことができます。"
     },
     "ignoreAndCreate": "無視してシナリオを作成"
   },
@@ -833,5 +834,7 @@
   "multiPointCurve": "多点曲線",
   "namedCurve": "ライブラリ曲線",
   "openPumpLibrary": "ポンプライブラリを開く...",
-  "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした"
+  "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした",
+  "invalidCurve": "無効な曲線",
+  "saveInvalidCurvesWarning": "無効な曲線への変更は破棄されます。"
 }

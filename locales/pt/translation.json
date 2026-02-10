@@ -785,7 +785,8 @@
       "dontShowAgain": "Não mostrar novamente",
       "earlyAccess": "Este recurso é de acesso antecipado e ainda está em desenvolvimento ativo, então algumas funcionalidades são limitadas nesta primeira versão.",
       "pleaseNote": "Por favor, note:",
-      "title": "Criar cenário"
+      "title": "Criar cenário",
+      "demoTrialNote": "Você pode experimentar este recurso gratuitamente porque está usando uma rede de demonstração."
     },
     "ignoreAndCreate": "Ignorar e criar cenário"
   },
@@ -833,5 +834,7 @@
   "multiPointCurve": "Curva multiponto",
   "namedCurve": "Curva da biblioteca",
   "openPumpLibrary": "Abrir biblioteca de bombas...",
-  "unusedCurves": "{{1}} curvas não identificadas não importadas"
+  "unusedCurves": "{{1}} curvas não identificadas não importadas",
+  "invalidCurve": "Curva inválida",
+  "saveInvalidCurvesWarning": "As alterações nas curvas inválidas serão descartadas."
 }
