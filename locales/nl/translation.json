@@ -683,8 +683,6 @@
     "title": "Toetsenbord sneltoetsen",
     "scenarios": "Scenario's"
   },
-  "design-point": "Ontwerppunt",
-  "standard": "Standaardcurve",
   "simulationSettings": {
     "calculationTimes": "Berekeningstijden",
     "demand": "Vraag",
@@ -770,6 +768,13 @@
         "cta": "Persoonlijke licentie - $100/jaar",
         "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
         "title": "Niet-commercieel gebruik"
+      },
+      "captions": {
+        "1": "Stel 'wat-als'-vragen met scenario's",
+        "2": "Onderdeelparameters aanpassen",
+        "3": "Nieuwe elementen tekenen",
+        "4": "Resultaten vergelijken",
+        "5": "Wijzigingen isoleren naar het scenario"
       }
     },
     "firstScenario": {

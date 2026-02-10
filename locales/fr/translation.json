@@ -683,8 +683,6 @@
     "title": "Raccourcis clavier",
     "scenarios": "Scénarios"
   },
-  "design-point": "Point de conception",
-  "standard": "Courbe standard",
   "simulationSettings": {
     "calculationTimes": "Temps de calcul",
     "demand": "Demande",
@@ -770,6 +768,13 @@
         "cta": "Licence personnelle - 100 $/an",
         "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
         "title": "Usage Non Commercial"
+      },
+      "captions": {
+        "1": "Poser des questions « et si » avec des scénarios",
+        "2": "Modifier les paramètres des éléments",
+        "3": "Dessiner de nouveaux éléments",
+        "4": "Comparer les résultats",
+        "5": "Garder les modifications isolées au scénario"
       }
     },
     "firstScenario": {

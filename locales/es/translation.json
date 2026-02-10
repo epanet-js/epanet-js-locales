@@ -690,8 +690,6 @@
     "title": "Atajos de teclado",
     "scenarios": "Escenarios"
   },
-  "design-point": "Punto de diseño",
-  "standard": "Curva estándar",
   "simulationSettings": {
     "calculationTimes": "Tiempos de cálculo",
     "demand": "Consumo",
@@ -777,6 +775,13 @@
         "cta": "Licencia personal - $100/año",
         "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
         "title": "Uso no comercial"
+      },
+      "captions": {
+        "1": "Haz preguntas de \"qué pasaría si\" con escenarios",
+        "2": "Modificar parámetros de activos",
+        "3": "Dibujar nuevos elementos",
+        "4": "Comparar resultados",
+        "5": "Mantener los cambios aislados al escenario"
       }
     },
     "firstScenario": {
