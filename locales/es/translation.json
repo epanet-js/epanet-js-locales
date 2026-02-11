@@ -793,7 +793,7 @@
       "earlyAccess": "Esta función está en acceso anticipado y aún en desarrollo activo, por lo que algunas funcionalidades están limitadas en esta primera versión.",
       "pleaseNote": "Ten en cuenta:",
       "title": "Crear escenario",
-      "demoTrialNote": "Puedes probar esta función gratis porque estás usando una red de demostración."
+      "bullet4": "Los escenarios son una <bold>función de pago</bold> — puedes explorarlos libremente usando nuestros modelos de demostración."
     },
     "ignoreAndCreate": "Ignorar y crear escenario"
   },

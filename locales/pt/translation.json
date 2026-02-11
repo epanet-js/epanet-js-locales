@@ -786,7 +786,7 @@
       "earlyAccess": "Este recurso é de acesso antecipado e ainda está em desenvolvimento ativo, então algumas funcionalidades são limitadas nesta primeira versão.",
       "pleaseNote": "Por favor, note:",
       "title": "Criar cenário",
-      "demoTrialNote": "Você pode experimentar este recurso gratuitamente porque está usando uma rede de demonstração."
+      "bullet4": "Cenários são um recurso <bold>pago</bold> — você pode explorá-los gratuitamente usando nossos modelos de demonstração."
     },
     "ignoreAndCreate": "Ignorar e criar cenário"
   },

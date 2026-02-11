@@ -786,7 +786,7 @@
       "earlyAccess": "Cette fonctionnalité est en accès anticipé et est toujours en cours de développement actif, donc certaines fonctionnalités sont limitées dans cette première version.",
       "pleaseNote": "Veuillez noter :",
       "title": "Créer un scénario",
-      "demoTrialNote": "Vous pouvez essayer cette fonctionnalité gratuitement car vous utilisez un réseau de démonstration."
+      "bullet4": "Les scénarios sont une <bold>fonctionnalité payante</bold> — vous pouvez les explorer librement en utilisant nos modèles de démonstration."
     },
     "ignoreAndCreate": "Ignorer et créer un scénario"
   },
