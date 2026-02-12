@@ -824,7 +824,7 @@
   "alertNetworkRequiredDetail": "シナリオの構築を開始する前に、ネットワークを選択または作成する必要があります。",
   "chooseANetwork": "ネットワークを選択してください",
   "addCurve": "曲線を追加",
-  "curveName": "曲線名",
+  "curveName": "ポンプ名",
   "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
   "discardUnsavedChangesWarning": "未保存の変更があります。破棄してもよろしいですか？",
   "pumpLibrary": "ポンプライブラリ",
@@ -834,7 +834,7 @@
   "pumpLibraryNoSelection": "編集するには、曲線を選択してください",
   "designPointCurve": "1点曲線（設計点）",
   "multiPointCurve": "多点曲線",
-  "namedCurve": "ライブラリ曲線",
+  "namedCurve": "ライブラリポンプ",
   "openPumpLibrary": "ライブラリを開く...",
   "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした",
   "invalidCurve": "無効な曲線",
@@ -844,5 +844,7 @@
   "trial.status_one": "トライアル: 残り {{count}} 日",
   "trial.status_other": "トライアル: 残り {{count}} 日",
   "trial.status_zero": "トライアル: 本日失効",
-  "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)"
+  "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)",
+  "curveType": "曲線タイプ",
+  "mixedValues": "混在"
 }

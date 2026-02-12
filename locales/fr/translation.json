@@ -824,7 +824,7 @@
   "alertNetworkRequiredDetail": "Vous devez sélectionner ou créer un réseau avant de pouvoir commencer à créer un scénario.",
   "chooseANetwork": "Choisir un réseau",
   "addCurve": "Ajouter une courbe",
-  "curveName": "Nom de la courbe",
+  "curveName": "Nom de la pompe",
   "deleteCurveInUse": "Impossible de supprimer une courbe utilisée par une pompe",
   "discardUnsavedChangesWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
   "pumpLibrary": "Bibliothèque de pompes",
@@ -834,7 +834,7 @@
   "pumpLibraryNoSelection": "Sélectionnez une courbe à modifier",
   "designPointCurve": "Courbe à 1 point (point de conception)",
   "multiPointCurve": "Courbe multipoints",
-  "namedCurve": "Courbe de bibliothèque",
+  "namedCurve": "Pompe de bibliothèque",
   "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
   "unusedCurves": "{{1}} courbes non identifiées non importées",
   "invalidCurve": "Courbe invalide",
@@ -844,5 +844,7 @@
   "trial.status_one": "Essai : {{count}} jour restant",
   "trial.status_other": "Essai : {{count}} jours restants",
   "trial.status_zero": "Essai : expire aujourd'hui",
-  "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)"
+  "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)",
+  "curveType": "Type de courbe",
+  "mixedValues": "Mixte"
 }

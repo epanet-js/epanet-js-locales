@@ -841,7 +841,7 @@
   "pumpLibraryNoSelection": "Selecciona una curva para editar",
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
   "multiPointCurve": "Curva multipunto",
-  "namedCurve": "Curva de biblioteca",
+  "namedCurve": "Bomba de biblioteca",
   "openPumpLibrary": "Abrir biblioteca...",
   "unusedCurves": "{{1}} curvas no identificadas no importadas",
   "invalidCurve": "Curva inválida",
@@ -851,5 +851,7 @@
   "trial.status_one": "Prueba: {{count}} día restante",
   "trial.status_other": "Prueba: {{count}} días restantes",
   "trial.status_zero": "Prueba: expira hoy",
-  "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)"
+  "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)",
+  "curveType": "Tipo de curva",
+  "mixedValues": "Mixtos"
 }

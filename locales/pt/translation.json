@@ -844,5 +844,7 @@
   "trial.status_one": "Teste: resta {{count}} dia",
   "trial.status_other": "Teste: restam {{count}} dias",
   "trial.status_zero": "Teste: expira hoje",
-  "undefinedPumpCurves": "Bombas referenciando curvas indefinidas ({{1}} bombas)"
+  "undefinedPumpCurves": "Bombas referenciando curvas indefinidas ({{1}} bombas)",
+  "curveType": "Tipo de curva",
+  "mixedValues": "Misto"
 }
