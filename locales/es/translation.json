@@ -679,7 +679,9 @@
   "curveValidation": {
     "flowAscendingOrder": "Los valores de caudal deben estar en orden ascendente.",
     "headDescendingOrder": "Los valores de carga deben estar en orden descendente.",
-    "missingValues": "Por favor, completa todos los valores."
+    "missingValues": "Por favor, completa todos los valores.",
+    "flowMustBeNonZero": "El valor de caudal no debe ser cero.",
+    "headMustBeNonZero": "El valor de carga no debe ser cero."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edición y selección",
@@ -840,8 +842,14 @@
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
   "multiPointCurve": "Curva multipunto",
   "namedCurve": "Curva de biblioteca",
-  "openPumpLibrary": "Abrir biblioteca de bombas...",
+  "openPumpLibrary": "Abrir biblioteca...",
   "unusedCurves": "{{1}} curvas no identificadas no importadas",
   "invalidCurve": "Curva inválida",
-  "saveInvalidCurvesWarning": "Los cambios en curvas inválidas se descartarán."
+  "saveInvalidCurvesWarning": "Algunas curvas tienen advertencias de validación.",
+  "invalidPumpCurves": "Bombas con definiciones de curva inválidas ({{1}} bombas)",
+  "trial.expired": "Prueba expirada",
+  "trial.status_one": "Prueba: {{count}} día restante",
+  "trial.status_other": "Prueba: {{count}} días restantes",
+  "trial.status_zero": "Prueba: expira hoy",
+  "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)"
 }

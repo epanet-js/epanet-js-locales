@@ -672,7 +672,9 @@
   "curveValidation": {
     "flowAscendingOrder": "Stromingswaarden moeten in oplopende volgorde staan.",
     "headDescendingOrder": "Opvoerhoogtewaarden moeten in aflopende volgorde staan.",
-    "missingValues": "Vul alstublieft alle waarden in."
+    "missingValues": "Vul alstublieft alle waarden in.",
+    "flowMustBeNonZero": "Stromingswaarde mag niet nul zijn.",
+    "headMustBeNonZero": "Opvoerhoogtewaarde mag niet nul zijn."
   },
   "keyboardShortcuts": {
     "editingSelection": "Bewerken & selectie",
@@ -833,8 +835,14 @@
   "designPointCurve": "1-puntscurve (ontwerppunt)",
   "multiPointCurve": "Meerpuntscurve",
   "namedCurve": "Bibliotheekcurve",
-  "openPumpLibrary": "Pompenbibliotheek openen...",
+  "openPumpLibrary": "Bibliotheek openen...",
   "unusedCurves": "{{1}} niet-geïdentificeerde curves niet geïmporteerd",
   "invalidCurve": "Ongeldige curve",
-  "saveInvalidCurvesWarning": "Wijzigingen aan ongeldige curves worden verwijderd."
+  "saveInvalidCurvesWarning": "Sommige curves hebben validatiewaarschuwingen.",
+  "invalidPumpCurves": "Pompen met ongeldige curve-definities ({{1}} pompen)",
+  "trial.expired": "Proefperiode verlopen",
+  "trial.status_one": "Proefperiode: nog {{count}} dag",
+  "trial.status_other": "Proefperiode: nog {{count}} dagen",
+  "trial.status_zero": "Proefperiode: verloopt vandaag",
+  "undefinedPumpCurves": "Pompen die verwijzen naar ongedefinieerde curves ({{1}} pompen)"
 }

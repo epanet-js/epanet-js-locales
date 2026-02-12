@@ -672,7 +672,9 @@
   "curveValidation": {
     "flowAscendingOrder": "Os valores de vazão devem estar em ordem crescente.",
     "headDescendingOrder": "Os valores de carga devem estar em ordem decrescente.",
-    "missingValues": "Por favor, preencha todos os valores."
+    "missingValues": "Por favor, preencha todos os valores.",
+    "flowMustBeNonZero": "O valor da vazão não pode ser zero.",
+    "headMustBeNonZero": "O valor da carga não pode ser zero."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edição e seleção",
@@ -833,8 +835,14 @@
   "designPointCurve": "Curva de 1 ponto (ponto de projeto)",
   "multiPointCurve": "Curva multiponto",
   "namedCurve": "Curva da biblioteca",
-  "openPumpLibrary": "Abrir biblioteca de bombas...",
+  "openPumpLibrary": "Abrir biblioteca...",
   "unusedCurves": "{{1}} curvas não identificadas não importadas",
   "invalidCurve": "Curva inválida",
-  "saveInvalidCurvesWarning": "As alterações nas curvas inválidas serão descartadas."
+  "saveInvalidCurvesWarning": "Algumas curvas têm avisos de validação.",
+  "invalidPumpCurves": "Bombas com definições de curva inválidas ({{1}} bombas)",
+  "trial.expired": "Teste expirado",
+  "trial.status_one": "Teste: resta {{count}} dia",
+  "trial.status_other": "Teste: restam {{count}} dias",
+  "trial.status_zero": "Teste: expira hoje",
+  "undefinedPumpCurves": "Bombas referenciando curvas indefinidas ({{1}} bombas)"
 }

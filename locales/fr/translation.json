@@ -672,7 +672,9 @@
   "curveValidation": {
     "flowAscendingOrder": "Les valeurs de débit doivent être en ordre croissant.",
     "headDescendingOrder": "Les valeurs de charge doivent être en ordre décroissant.",
-    "missingValues": "Veuillez remplir toutes les valeurs."
+    "missingValues": "Veuillez remplir toutes les valeurs.",
+    "flowMustBeNonZero": "La valeur du débit ne doit pas être nulle.",
+    "headMustBeNonZero": "La valeur de la charge ne doit pas être nulle."
   },
   "keyboardShortcuts": {
     "editingSelection": "Édition et sélection",
@@ -836,5 +838,11 @@
   "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
   "unusedCurves": "{{1}} courbes non identifiées non importées",
   "invalidCurve": "Courbe invalide",
-  "saveInvalidCurvesWarning": "Les modifications apportées aux courbes invalides seront ignorées."
+  "saveInvalidCurvesWarning": "Certaines courbes présentent des avertissements de validation.",
+  "invalidPumpCurves": "Pompes avec définitions de courbe invalides ({{1}} pompes)",
+  "trial.expired": "Essai expiré",
+  "trial.status_one": "Essai : {{count}} jour restant",
+  "trial.status_other": "Essai : {{count}} jours restants",
+  "trial.status_zero": "Essai : expire aujourd'hui",
+  "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)"
 }

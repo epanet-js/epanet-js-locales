@@ -672,7 +672,9 @@
   "curveValidation": {
     "flowAscendingOrder": "流量値は昇順である必要があります。",
     "headDescendingOrder": "水頭値は降順である必要があります。",
-    "missingValues": "すべての値を入力してください。"
+    "missingValues": "すべての値を入力してください。",
+    "flowMustBeNonZero": "流量値はゼロであってはなりません。",
+    "headMustBeNonZero": "水頭値はゼロであってはなりません。"
   },
   "keyboardShortcuts": {
     "editingSelection": "編集と選択",
@@ -833,8 +835,14 @@
   "designPointCurve": "1点曲線（設計点）",
   "multiPointCurve": "多点曲線",
   "namedCurve": "ライブラリ曲線",
-  "openPumpLibrary": "ポンプライブラリを開く...",
+  "openPumpLibrary": "ライブラリを開く...",
   "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした",
   "invalidCurve": "無効な曲線",
-  "saveInvalidCurvesWarning": "無効な曲線への変更は破棄されます。"
+  "saveInvalidCurvesWarning": "一部の曲線に検証の警告があります。",
+  "invalidPumpCurves": "無効な曲線定義を持つポンプ (ポンプ {{1}} 台)",
+  "trial.expired": "トライアルの有効期限が切れました",
+  "trial.status_one": "トライアル: 残り {{count}} 日",
+  "trial.status_other": "トライアル: 残り {{count}} 日",
+  "trial.status_zero": "トライアル: 本日失効",
+  "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)"
 }
