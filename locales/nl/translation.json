@@ -824,7 +824,6 @@
   "alertNetworkRequiredDetail": "U moet een netwerk selecteren of aanmaken voordat u kunt beginnen met het bouwen van een scenario.",
   "chooseANetwork": "Kies een netwerk",
   "addCurve": "Curve toevoegen",
-  "curveName": "Pompnaam",
   "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
   "discardUnsavedChangesWarning": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
   "pumpLibrary": "Pompenbibliotheek",
@@ -846,5 +845,9 @@
   "trial.status_zero": "Proefperiode: verloopt vandaag",
   "undefinedPumpCurves": "Pompen die verwijzen naar ongedefinieerde curves ({{1}} pompen)",
   "curveType": "Curvetype",
-  "mixedValues": "Gemengd"
+  "mixedValues": "Gemengd",
+  "foundersPartnerDescription": "Steun epanet-js -",
+  "foundersPartnerLearnMore": "Word een Founding Partner",
+  "foundersPartnerTitle": "Onze Founding Partners",
+  "pumpName": "Pompnaam"
 }

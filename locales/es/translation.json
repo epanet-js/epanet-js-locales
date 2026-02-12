@@ -831,7 +831,6 @@
   "alertNetworkRequiredDetail": "Necesitas seleccionar o crear una red antes de poder empezar a construir un escenario.",
   "chooseANetwork": "Elegir una red",
   "addCurve": "Añadir curva",
-  "curveName": "Nombre de la curva",
   "deleteCurveInUse": "No se puede eliminar una curva que está siendo utilizada por una bomba",
   "discardUnsavedChangesWarning": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
   "pumpLibrary": "Biblioteca de bombas",
@@ -853,5 +852,9 @@
   "trial.status_zero": "Prueba: expira hoy",
   "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)",
   "curveType": "Tipo de curva",
-  "mixedValues": "Mixtos"
+  "mixedValues": "Mixtos",
+  "foundersPartnerDescription": "Apoya epanet-js -",
+  "foundersPartnerLearnMore": "Conviértete en Socio Fundador",
+  "foundersPartnerTitle": "Nuestros Socios Fundadores",
+  "pumpName": "Nombre de la bomba"
 }

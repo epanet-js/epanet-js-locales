@@ -824,7 +824,6 @@
   "alertNetworkRequiredDetail": "シナリオの構築を開始する前に、ネットワークを選択または作成する必要があります。",
   "chooseANetwork": "ネットワークを選択してください",
   "addCurve": "曲線を追加",
-  "curveName": "ポンプ名",
   "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
   "discardUnsavedChangesWarning": "未保存の変更があります。破棄してもよろしいですか？",
   "pumpLibrary": "ポンプライブラリ",
@@ -846,5 +845,9 @@
   "trial.status_zero": "トライアル: 本日失効",
   "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)",
   "curveType": "曲線タイプ",
-  "mixedValues": "混在"
+  "mixedValues": "混在",
+  "foundersPartnerDescription": "epanet-jsをサポート -",
+  "foundersPartnerLearnMore": "創設パートナーになる",
+  "foundersPartnerTitle": "私たちの創設パートナー",
+  "pumpName": "ポンプ名"
 }

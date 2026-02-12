@@ -824,7 +824,6 @@
   "alertNetworkRequiredDetail": "Vous devez sélectionner ou créer un réseau avant de pouvoir commencer à créer un scénario.",
   "chooseANetwork": "Choisir un réseau",
   "addCurve": "Ajouter une courbe",
-  "curveName": "Nom de la pompe",
   "deleteCurveInUse": "Impossible de supprimer une courbe utilisée par une pompe",
   "discardUnsavedChangesWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
   "pumpLibrary": "Bibliothèque de pompes",
@@ -846,5 +845,9 @@
   "trial.status_zero": "Essai : expire aujourd'hui",
   "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)",
   "curveType": "Type de courbe",
-  "mixedValues": "Mixte"
+  "mixedValues": "Mixte",
+  "foundersPartnerDescription": "Soutenez epanet-js -",
+  "foundersPartnerLearnMore": "Devenez un Partenaire Fondateur",
+  "foundersPartnerTitle": "Nos Partenaires Fondateurs",
+  "pumpName": "Nom de la pompe"
 }
