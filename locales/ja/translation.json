@@ -703,7 +703,6 @@
     "epsZeroValues": "値はゼロより大きくなければなりません。"
   },
   "utilities": "ユーティリティ",
-  "pumpCurves": "マルチポイント曲線を持つポンプ（{{1}}個のポンプは中点を1点曲線として使用）",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
   "reservoirPatterns": "時間パターンを持つ貯水池（{{1}}個の貯水池は最初のパターン値のみを使用）",
   "tankCurves": "容量曲線を持つ配水池（{{1}}個の配水池は固定直径を使用）",
@@ -849,5 +848,16 @@
   "foundersPartnerDescription": "epanet-jsをサポート -",
   "foundersPartnerLearnMore": "創設パートナーになる",
   "foundersPartnerTitle": "私たちの創設パートナー",
-  "pumpName": "ポンプ名"
+  "pumpName": "ポンプ名",
+  "junctions": "接点",
+  "pipes": "管",
+  "pumps": "ポンプ",
+  "reservoirs": "貯水池",
+  "tanks": "配水池",
+  "trial.activated": "トライアルがアクティブになりました！",
+  "trial.activateFree": "無料トライアルを有効にする",
+  "trial.activating": "トライアルを有効にしています",
+  "trial.paywallDescription": "シナリオは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。",
+  "trial.tryWithDemo": "デモネットワークで試す",
+  "valves": "弁"
 }

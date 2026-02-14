@@ -710,7 +710,6 @@
     "epsZeroValues": "Los valores deben ser mayores que cero."
   },
   "utilities": "Aplicaciones de utilidades",
-  "pumpCurves": "Bombas con curvas multipunto ({{1}} bombas usando el punto medio como curva de un solo punto)",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
   "reservoirPatterns": "Embalses con patrones de tiempo ({{1}} embalses usando solo el primer valor del patrón)",
   "tankCurves": "Tanques con curvas de volumen ({{1}} tanques usando diámetro fijo)",
@@ -856,5 +855,16 @@
   "foundersPartnerDescription": "Apoya epanet-js -",
   "foundersPartnerLearnMore": "Conviértete en Socio Fundador",
   "foundersPartnerTitle": "Nuestros Socios Fundadores",
-  "pumpName": "Nombre de la bomba"
+  "pumpName": "Nombre de la bomba",
+  "junctions": "Nudos",
+  "pipes": "Tuberías",
+  "pumps": "Bombas",
+  "reservoirs": "Embalses",
+  "tanks": "Tanques",
+  "trial.activated": "¡Tu prueba ya está activa!",
+  "trial.activateFree": "Activar prueba gratuita",
+  "trial.activating": "Activando prueba",
+  "trial.paywallDescription": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días, no se requiere tarjeta de crédito.",
+  "trial.tryWithDemo": "Probar con una red de demostración",
+  "valves": "Válvulas"
 }

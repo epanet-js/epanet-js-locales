@@ -703,7 +703,6 @@
     "epsZeroValues": "Les valeurs doivent être supérieures à zéro."
   },
   "utilities": "Applications utilitaires",
-  "pumpCurves": "Pompes avec courbes multipoints ({{1}} pompes utilisant le point médian comme une courbe à un point)",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
   "reservoirPatterns": "Réservoirs avec motifs temporels ({{1}} réservoirs utilisant uniquement la première valeur du motif)",
   "tankCurves": "Châteaux d'eau avec courbes de volume ({{1}} châteaux d'eau utilisant un diamètre fixe)",
@@ -849,5 +848,16 @@
   "foundersPartnerDescription": "Soutenez epanet-js -",
   "foundersPartnerLearnMore": "Devenez un Partenaire Fondateur",
   "foundersPartnerTitle": "Nos Partenaires Fondateurs",
-  "pumpName": "Nom de la pompe"
+  "pumpName": "Nom de la pompe",
+  "junctions": "Nœuds",
+  "pipes": "Conduites",
+  "pumps": "Pompes",
+  "reservoirs": "Réservoirs",
+  "tanks": "Châteaux d'Eau",
+  "trial.activated": "Votre essai est maintenant actif !",
+  "trial.activateFree": "Activer l'essai gratuit",
+  "trial.activating": "Activation de l'essai",
+  "trial.paywallDescription": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise.",
+  "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
+  "valves": "Vannes"
 }

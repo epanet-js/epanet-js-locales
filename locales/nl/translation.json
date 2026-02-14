@@ -703,7 +703,6 @@
     "epsZeroValues": "Waarden moeten groter zijn dan nul."
   },
   "utilities": "Hulpprogramma's",
-  "pumpCurves": "Pompen met meerpuntscurves ({{1}} pompen gebruiken middelpunt als éénpuntscurve)",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
   "reservoirPatterns": "Reservoirs met tijdpatronen ({{1}} reservoirs gebruiken alleen de eerste patroonwaarde)",
   "tankCurves": "Tanks met volumecurves ({{1}} tanks gebruiken vaste diameter)",
@@ -849,5 +848,16 @@
   "foundersPartnerDescription": "Steun epanet-js -",
   "foundersPartnerLearnMore": "Word een Founding Partner",
   "foundersPartnerTitle": "Onze Founding Partners",
-  "pumpName": "Pompnaam"
+  "pumpName": "Pompnaam",
+  "junctions": "Knooppunten",
+  "pipes": "Leidingen",
+  "pumps": "Pompen",
+  "reservoirs": "Reservoirs",
+  "tanks": "Tanks",
+  "trial.activated": "Uw proefperiode is nu actief!",
+  "trial.activateFree": "Activeer gratis proefperiode",
+  "trial.activating": "Proefperiode activeren",
+  "trial.paywallDescription": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig.",
+  "trial.tryWithDemo": "Probeer met een demonetwerk",
+  "valves": "Ventielen"
 }

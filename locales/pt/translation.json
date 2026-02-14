@@ -703,7 +703,6 @@
     "epsZeroValues": "Os valores devem ser maiores que zero."
   },
   "utilities": "Aplicativos utilitários",
-  "pumpCurves": "Bombas com curvas multiponto ({{1}} bombas usando o ponto médio como curva de um ponto)",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
   "reservoirPatterns": "Reservatórios com padrões de tempo ({{1}} reservatórios usando apenas o primeiro valor do padrão)",
   "tankCurves": "Tanques com curvas de volume ({{1}} tanques usando diâmetro fixo)",
@@ -849,5 +848,16 @@
   "foundersPartnerDescription": "Apoie o epanet-js -",
   "foundersPartnerLearnMore": "Torne-se um Parceiro Fundador",
   "foundersPartnerTitle": "Nossos Parceiros Fundadores",
-  "pumpName": "Nome da bomba"
+  "pumpName": "Nome da bomba",
+  "junctions": "Nós",
+  "pipes": "Tubulações",
+  "pumps": "Bombas",
+  "reservoirs": "Reservatórios",
+  "tanks": "Tanques",
+  "trial.activated": "Seu teste agora está ativo!",
+  "trial.activateFree": "Ativar teste gratuito",
+  "trial.activating": "Ativando teste",
+  "trial.paywallDescription": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
+  "trial.tryWithDemo": "Experimente com uma rede de demonstração",
+  "valves": "Válvulas"
 }
