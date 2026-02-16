@@ -778,7 +778,8 @@
         "5": "Wijzigingen isoleren naar het scenario"
       },
       "description3Demo": "Probeer scenario's gratis met een demonetwerk, of verken onze betaalde abonnementen.",
-      "explorePlans": "Verken abonnementen"
+      "explorePlans": "Verken abonnementen",
+      "or": "of"
     },
     "firstScenario": {
       "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",

@@ -778,7 +778,8 @@
         "5": "Garder les modifications isolées au scénario"
       },
       "description3Demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
-      "explorePlans": "Explorer les plans"
+      "explorePlans": "Explorer les plans",
+      "or": "ou"
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",

@@ -785,7 +785,8 @@
         "5": "Mantener los cambios aislados al escenario"
       },
       "description3Demo": "Prueba escenarios gratis con una red de demostración o explora nuestros planes de pago.",
-      "explorePlans": "Explorar planes"
+      "explorePlans": "Explorar planes",
+      "or": "o"
     },
     "firstScenario": {
       "bullet1": "El modelo principal se vuelve <bold>de solo lectura</bold> mientras existan escenarios.",
