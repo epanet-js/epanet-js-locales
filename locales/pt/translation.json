@@ -776,7 +776,9 @@
         "3": "Desenhar novos elementos",
         "4": "Comparar resultados",
         "5": "Manter as alterações isoladas no cenário"
-      }
+      },
+      "description3Demo": "Experimente cenários gratuitamente com uma rede de demonstração ou explore nossos planos pagos.",
+      "explorePlans": "Explorar planos"
     },
     "firstScenario": {
       "bullet1": "O modelo principal se torna <bold>somente leitura</bold> enquanto os cenários existirem.",
