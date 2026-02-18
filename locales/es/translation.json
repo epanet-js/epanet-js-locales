@@ -869,5 +869,7 @@
   "trial.activating": "Activando prueba",
   "trial.paywallDescription": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días, no se requiere tarjeta de crédito.",
   "trial.tryWithDemo": "Probar con una red de demostración",
-  "valves": "Válvulas"
+  "valves": "Válvulas",
+  "importAsUnprojected": "Importar como sin proyectar",
+  "off": "Desactivado"
 }

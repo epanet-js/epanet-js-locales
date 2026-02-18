@@ -862,5 +862,7 @@
   "trial.activating": "Activation de l'essai",
   "trial.paywallDescription": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise.",
   "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
-  "valves": "Vannes"
+  "valves": "Vannes",
+  "importAsUnprojected": "Importer comme non projeté",
+  "off": "Désactivé"
 }

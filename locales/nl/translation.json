@@ -862,5 +862,7 @@
   "trial.activating": "Proefperiode activeren",
   "trial.paywallDescription": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig.",
   "trial.tryWithDemo": "Probeer met een demonetwerk",
-  "valves": "Ventielen"
+  "valves": "Ventielen",
+  "importAsUnprojected": "Importeren als ongeprojecteerd",
+  "off": "Uit"
 }

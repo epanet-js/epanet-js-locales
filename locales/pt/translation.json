@@ -862,5 +862,7 @@
   "trial.activating": "Ativando teste",
   "trial.paywallDescription": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
   "trial.tryWithDemo": "Experimente com uma rede de demonstração",
-  "valves": "Válvulas"
+  "valves": "Válvulas",
+  "importAsUnprojected": "Importar como não projetado",
+  "off": "Desligado"
 }

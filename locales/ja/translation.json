@@ -862,5 +862,7 @@
   "trial.activating": "トライアルを有効にしています",
   "trial.paywallDescription": "シナリオは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。",
   "trial.tryWithDemo": "デモネットワークで試す",
-  "valves": "弁"
+  "valves": "弁",
+  "importAsUnprojected": "投影なしでインポート",
+  "off": "オフ"
 }
