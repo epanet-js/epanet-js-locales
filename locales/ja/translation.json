@@ -76,8 +76,6 @@
   "demandsAnalysis": "需要分析",
   "demoUKStyleDescription": "国際単位系管網解析（メートル法単位、流量単位l/s）。",
   "demoUSStyleDescription": "米国単位系管網解析（米国単位、流量単位GPM）。",
-  "designFlow": "設計流量",
-  "designHead": "設計水頭",
   "diameter": "直径",
   "discardChanges": "変更を破棄",
   "divergingRamp": "発散",
@@ -837,7 +835,7 @@
   "multiPointCurve": "多点曲線",
   "namedCurve": "ライブラリポンプ",
   "openPumpLibrary": "ライブラリを開く...",
-  "unusedCurves": "{{1}} 個の未識別の曲線はインポートされませんでした",
+  "unusedCurves": "{{1}} 個の未使用の曲線はインポートされませんでした",
   "invalidCurve": "無効な曲線",
   "saveInvalidCurvesWarning": "一部の曲線に検証の警告があります。",
   "invalidPumpCurves": "無効な曲線定義を持つポンプ (ポンプ {{1}} 台)",
@@ -864,5 +862,17 @@
   "trial.tryWithDemo": "デモネットワークで試す",
   "valves": "弁",
   "importAsUnprojected": "投影なしでインポート",
-  "off": "オフ"
+  "off": "オフ",
+  "demandPatterns": "需要パターン",
+  "inpProjectionChoice": {
+    "description": "ベースマップと自動標高を提供するために、お客様の座標が現実世界の場所を表しているのか、それとも単純なX-Yグリッドを表しているのかを知る必要があります。",
+    "nonProjectedDescription": "お客様のネットワークは独立したスケッチであり、物理的な場所には関連付けられていません。",
+    "nonProjectedTitle": "シンプルなX-Yグリッド",
+    "projectedDescription": "お客様のネットワークは現実世界の地理情報と一致しています。",
+    "projectedTitle": "マップベース",
+    "title": "ネットワークの位置を設定する"
+  },
+  "pumpSpeedPatterns": "ポンプ速度パターン",
+  "reservoirHeadPatterns": "貯水池水頭パターン",
+  "unusedPatterns": "{{1}} 個の未使用のパターンはインポートされませんでした"
 }

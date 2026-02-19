@@ -293,8 +293,6 @@
   "endNode": "Nó Final",
   "pump": "Bomba",
   "tank": "Tanque",
-  "designHead": "Carga de Projeto",
-  "designFlow": "Vazão de Projeto",
   "power": "Potência",
   "definitionType": "Tipo de Definição",
   "constantPower": "Potência Constante",
@@ -837,7 +835,7 @@
   "multiPointCurve": "Curva multiponto",
   "namedCurve": "Curva da biblioteca",
   "openPumpLibrary": "Abrir biblioteca...",
-  "unusedCurves": "{{1}} curvas não identificadas não importadas",
+  "unusedCurves": "{{1}} curvas não utilizadas não importadas",
   "invalidCurve": "Curva inválida",
   "saveInvalidCurvesWarning": "Algumas curvas têm avisos de validação.",
   "invalidPumpCurves": "Bombas com definições de curva inválidas ({{1}} bombas)",
@@ -864,5 +862,17 @@
   "trial.tryWithDemo": "Experimente com uma rede de demonstração",
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como não projetado",
-  "off": "Desligado"
+  "off": "Desligado",
+  "demandPatterns": "Padrões de demanda",
+  "inpProjectionChoice": {
+    "description": "Para fornecer mapas de base e elevações automáticas, precisamos saber se suas coordenadas representam localizações do mundo real ou uma simples grade X-Y.",
+    "nonProjectedDescription": "Sua rede é um rascunho autônomo e não está ligada a um local físico.",
+    "nonProjectedTitle": "Grade X-Y Simples",
+    "projectedDescription": "Sua rede corresponde à geografia do mundo real.",
+    "projectedTitle": "Baseado em mapa",
+    "title": "Defina a localização da sua rede"
+  },
+  "pumpSpeedPatterns": "Padrões de velocidade de bomba",
+  "reservoirHeadPatterns": "Padrões de carga de reservatório",
+  "unusedPatterns": "{{1}} padrões não utilizados não importados"
 }

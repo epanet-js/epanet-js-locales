@@ -293,8 +293,6 @@
   "endNode": "Nœud d'Arrivée",
   "pump": "Pompe",
   "tank": "Château d'Eau",
-  "designHead": "Charge de Conception",
-  "designFlow": "Débit de Conception",
   "power": "Puissance",
   "definitionType": "Type de Définition",
   "constantPower": "Puissance Constante",
@@ -837,7 +835,7 @@
   "multiPointCurve": "Courbe multipoints",
   "namedCurve": "Pompe de bibliothèque",
   "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
-  "unusedCurves": "{{1}} courbes non identifiées non importées",
+  "unusedCurves": "{{1}} courbes non utilisées non importées",
   "invalidCurve": "Courbe invalide",
   "saveInvalidCurvesWarning": "Certaines courbes présentent des avertissements de validation.",
   "invalidPumpCurves": "Pompes avec définitions de courbe invalides ({{1}} pompes)",
@@ -864,5 +862,17 @@
   "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
   "valves": "Vannes",
   "importAsUnprojected": "Importer comme non projeté",
-  "off": "Désactivé"
+  "off": "Désactivé",
+  "demandPatterns": "Motifs de demande",
+  "inpProjectionChoice": {
+    "description": "Pour fournir des fonds de carte et des élévations automatiques, nous devons savoir si vos coordonnées représentent des emplacements réels ou une simple grille X-Y.",
+    "nonProjectedDescription": "Votre réseau est un croquis autonome et n'est pas lié à un emplacement physique.",
+    "nonProjectedTitle": "Grille X-Y Simple",
+    "projectedDescription": "Votre réseau correspond à la géographie du monde réel.",
+    "projectedTitle": "Basé sur la carte",
+    "title": "Définissez l'emplacement de votre réseau"
+  },
+  "pumpSpeedPatterns": "Motifs de vitesse de pompe",
+  "reservoirHeadPatterns": "Motifs de charge de réservoir",
+  "unusedPatterns": "{{1}} motifs non utilisés non importés"
 }

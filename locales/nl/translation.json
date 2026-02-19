@@ -293,8 +293,6 @@
   "endNode": "Eindknooppunt",
   "pump": "Pomp",
   "tank": "Tank",
-  "designHead": "Ontwerp opvoerhoogte",
-  "designFlow": "Ontwerp stroming",
   "power": "Vermogen",
   "definitionType": "Definitietype",
   "constantPower": "Constant vermogen",
@@ -837,7 +835,7 @@
   "multiPointCurve": "Meerpuntscurve",
   "namedCurve": "Bibliotheekpomp",
   "openPumpLibrary": "Bibliotheek openen...",
-  "unusedCurves": "{{1}} niet-geïdentificeerde curves niet geïmporteerd",
+  "unusedCurves": "{{1}} ongebruikte curves niet geïmporteerd",
   "invalidCurve": "Ongeldige curve",
   "saveInvalidCurvesWarning": "Sommige curves hebben validatiewaarschuwingen.",
   "invalidPumpCurves": "Pompen met ongeldige curve-definities ({{1}} pompen)",
@@ -864,5 +862,17 @@
   "trial.tryWithDemo": "Probeer met een demonetwerk",
   "valves": "Ventielen",
   "importAsUnprojected": "Importeren als ongeprojecteerd",
-  "off": "Uit"
+  "off": "Uit",
+  "demandPatterns": "Vraagpatronen",
+  "inpProjectionChoice": {
+    "description": "Om basiskaarten en automatische hoogtes te kunnen leveren, moeten we weten of uw coördinaten echte locaties of een eenvoudig X-Y-raster voorstellen.",
+    "nonProjectedDescription": "Uw netwerk is een op zichzelf staande schets en is niet gekoppeld aan een fysieke locatie.",
+    "nonProjectedTitle": "Eenvoudig X-Y-raster",
+    "projectedDescription": "Uw netwerk komt overeen met de werkelijke geografie.",
+    "projectedTitle": "Op basis van kaart",
+    "title": "Stel de locatie van uw netwerk in"
+  },
+  "pumpSpeedPatterns": "Pompsnelheidspatronen",
+  "reservoirHeadPatterns": "Reservoir opvoerhoogte patronen",
+  "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd"
 }

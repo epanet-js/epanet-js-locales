@@ -305,8 +305,6 @@
   "endNode": "Nudo fin",
   "pump": "Bomba",
   "tank": "Tanque",
-  "designHead": "Carga diseño",
-  "designFlow": "Flujo diseño",
   "power": "Potencia",
   "definitionType": "Tipo de definición",
   "constantPower": "Potencia constante",
@@ -844,7 +842,7 @@
   "multiPointCurve": "Curva multipunto",
   "namedCurve": "Bomba de biblioteca",
   "openPumpLibrary": "Abrir biblioteca...",
-  "unusedCurves": "{{1}} curvas no identificadas no importadas",
+  "unusedCurves": "{{1}} curvas no utilizadas no importadas",
   "invalidCurve": "Curva inválida",
   "saveInvalidCurvesWarning": "Algunas curvas tienen advertencias de validación.",
   "invalidPumpCurves": "Bombas con definiciones de curva inválidas ({{1}} bombas)",
@@ -871,5 +869,17 @@
   "trial.tryWithDemo": "Probar con una red de demostración",
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como sin proyectar",
-  "off": "Desactivado"
+  "off": "Desactivado",
+  "demandPatterns": "Patrones de demanda",
+  "inpProjectionChoice": {
+    "description": "Para proporcionar mapas base y elevaciones automáticas, necesitamos saber si tus coordenadas representan ubicaciones del mundo real o una simple cuadrícula X-Y.",
+    "nonProjectedDescription": "Tu red es un esquema independiente y no está vinculada a una ubicación física.",
+    "nonProjectedTitle": "Cuadrícula X-Y Simple",
+    "projectedDescription": "Tu red coincide con la geografía del mundo real.",
+    "projectedTitle": "Basado en mapa",
+    "title": "Establece la ubicación de tu red"
+  },
+  "pumpSpeedPatterns": "Patrones de velocidad de bomba",
+  "reservoirHeadPatterns": "Patrones de carga de embalse",
+  "unusedPatterns": "{{1}} patrones no utilizados no importados"
 }
