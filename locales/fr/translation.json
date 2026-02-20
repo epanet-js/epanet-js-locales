@@ -704,7 +704,7 @@
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
   "reservoirPatterns": "Réservoirs avec motifs temporels ({{1}} réservoirs utilisant uniquement la première valeur du motif)",
   "tankCurves": "Châteaux d'eau avec courbes de volume ({{1}} châteaux d'eau utilisant un diamètre fixe)",
-  "constant": "constant",
+  "constant": "Constant",
   "demandCategories": "Catégories de demande",
   "timePattern": "Motif",
   "pcvCurves": "Vannes PCV avec courbes caractéristiques ({{1}} vannes utilisant uniquement la valeur de réglage)",
@@ -863,7 +863,7 @@
   "valves": "Vannes",
   "importAsUnprojected": "Importer comme non projeté",
   "off": "Désactivé",
-  "demandPatterns": "Motifs de demande",
+  "demandPatterns": "Demande",
   "inpProjectionChoice": {
     "description": "Pour fournir des fonds de carte et des élévations automatiques, nous devons savoir si vos coordonnées représentent des emplacements réels ou une simple grille X-Y.",
     "nonProjectedDescription": "Votre réseau est un croquis autonome et n'est pas lié à un emplacement physique.",
@@ -872,7 +872,10 @@
     "projectedTitle": "Basé sur la carte",
     "title": "Définissez l'emplacement de votre réseau"
   },
-  "pumpSpeedPatterns": "Motifs de vitesse de pompe",
-  "reservoirHeadPatterns": "Motifs de charge de réservoir",
-  "unusedPatterns": "{{1}} motifs non utilisés non importés"
+  "pumpSpeedPatterns": "Vitesse de pompe",
+  "reservoirHeadPatterns": "Charge du réservoir",
+  "unusedPatterns": "{{1}} motifs non utilisés non importés",
+  "headPattern": "Motif de charge",
+  "openPatternsLibrary": "Ouvrir la bibliothèque...",
+  "speedPattern": "Motif de vitesse"
 }

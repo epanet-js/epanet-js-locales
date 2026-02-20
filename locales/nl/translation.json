@@ -704,7 +704,7 @@
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
   "reservoirPatterns": "Reservoirs met tijdpatronen ({{1}} reservoirs gebruiken alleen de eerste patroonwaarde)",
   "tankCurves": "Tanks met volumecurves ({{1}} tanks gebruiken vaste diameter)",
-  "constant": "constant",
+  "constant": "Constant",
   "demandCategories": "Vraagcategorieën",
   "timePattern": "Patroon",
   "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)",
@@ -863,7 +863,7 @@
   "valves": "Ventielen",
   "importAsUnprojected": "Importeren als ongeprojecteerd",
   "off": "Uit",
-  "demandPatterns": "Vraagpatronen",
+  "demandPatterns": "Vraag",
   "inpProjectionChoice": {
     "description": "Om basiskaarten en automatische hoogtes te kunnen leveren, moeten we weten of uw coördinaten echte locaties of een eenvoudig X-Y-raster voorstellen.",
     "nonProjectedDescription": "Uw netwerk is een op zichzelf staande schets en is niet gekoppeld aan een fysieke locatie.",
@@ -872,7 +872,10 @@
     "projectedTitle": "Op basis van kaart",
     "title": "Stel de locatie van uw netwerk in"
   },
-  "pumpSpeedPatterns": "Pompsnelheidspatronen",
-  "reservoirHeadPatterns": "Reservoir opvoerhoogte patronen",
-  "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd"
+  "pumpSpeedPatterns": "Pompsnelheid",
+  "reservoirHeadPatterns": "Reservoir opvoerhoogte",
+  "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd",
+  "headPattern": "Opvoerhoogte patroon",
+  "openPatternsLibrary": "Bibliotheek openen...",
+  "speedPattern": "Snelheidspatroon"
 }

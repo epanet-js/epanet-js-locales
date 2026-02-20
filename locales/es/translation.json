@@ -711,7 +711,7 @@
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
   "reservoirPatterns": "Embalses con patrones de tiempo ({{1}} embalses usando solo el primer valor del patrón)",
   "tankCurves": "Tanques con curvas de volumen ({{1}} tanques usando diámetro fijo)",
-  "constant": "constant",
+  "constant": "Constante",
   "demandCategories": "Categorías de demanda",
   "timePattern": "Patrón",
   "pcvCurves": "Válvulas PCV con curvas características ({{1}} válvulas usando solo el valor de ajuste)",
@@ -870,7 +870,7 @@
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como sin proyectar",
   "off": "Desactivado",
-  "demandPatterns": "Patrones de demanda",
+  "demandPatterns": "Demanda",
   "inpProjectionChoice": {
     "description": "Para proporcionar mapas base y elevaciones automáticas, necesitamos saber si tus coordenadas representan ubicaciones del mundo real o una simple cuadrícula X-Y.",
     "nonProjectedDescription": "Tu red es un esquema independiente y no está vinculada a una ubicación física.",
@@ -879,7 +879,10 @@
     "projectedTitle": "Basado en mapa",
     "title": "Establece la ubicación de tu red"
   },
-  "pumpSpeedPatterns": "Patrones de velocidad de bomba",
-  "reservoirHeadPatterns": "Patrones de carga de embalse",
-  "unusedPatterns": "{{1}} patrones no utilizados no importados"
+  "pumpSpeedPatterns": "Velocidad de bomba",
+  "reservoirHeadPatterns": "Carga de embalse",
+  "unusedPatterns": "{{1}} patrones no utilizados no importados",
+  "headPattern": "Patrón de carga",
+  "openPatternsLibrary": "Abrir biblioteca...",
+  "speedPattern": "Patrón de velocidad"
 }

@@ -704,7 +704,7 @@
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
   "reservoirPatterns": "Reservatórios com padrões de tempo ({{1}} reservatórios usando apenas o primeiro valor do padrão)",
   "tankCurves": "Tanques com curvas de volume ({{1}} tanques usando diâmetro fixo)",
-  "constant": "constante",
+  "constant": "Constante",
   "demandCategories": "Categorias de demanda",
   "timePattern": "Padrão",
   "pcvCurves": "Válvulas PCV com curvas características ({{1}} válvulas usando apenas o valor de ajuste)",
@@ -863,7 +863,7 @@
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como não projetado",
   "off": "Desligado",
-  "demandPatterns": "Padrões de demanda",
+  "demandPatterns": "Demanda",
   "inpProjectionChoice": {
     "description": "Para fornecer mapas de base e elevações automáticas, precisamos saber se suas coordenadas representam localizações do mundo real ou uma simples grade X-Y.",
     "nonProjectedDescription": "Sua rede é um rascunho autônomo e não está ligada a um local físico.",
@@ -872,7 +872,10 @@
     "projectedTitle": "Baseado em mapa",
     "title": "Defina a localização da sua rede"
   },
-  "pumpSpeedPatterns": "Padrões de velocidade de bomba",
-  "reservoirHeadPatterns": "Padrões de carga de reservatório",
-  "unusedPatterns": "{{1}} padrões não utilizados não importados"
+  "pumpSpeedPatterns": "Velocidade da bomba",
+  "reservoirHeadPatterns": "Carga do reservatório",
+  "unusedPatterns": "{{1}} padrões não utilizados não importados",
+  "headPattern": "Padrão de carga",
+  "openPatternsLibrary": "Abrir biblioteca...",
+  "speedPattern": "Padrão de velocidade"
 }
