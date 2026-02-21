@@ -877,5 +877,15 @@
   "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd",
   "headPattern": "Opvoerhoogte patroon",
   "openPatternsLibrary": "Bibliotheek openen...",
-  "speedPattern": "Snelheidspatroon"
+  "speedPattern": "Snelheidspatroon",
+  "setAsDemand": "Instellen als vraag",
+  "setAsPumpSpeed": "Instellen als pompsnelheid",
+  "setAsReservoirHead": "Instellen als reservoir opvoerhoogte",
+  "traceSelection": {
+    "boundary": "Grens tracering",
+    "downstream": "Downstream tracering",
+    "tool": "Traceer selectie",
+    "upstream": "Upstream tracering"
+  },
+  "uncategorizedPatterns": "Niet-gecategoriseerd"
 }

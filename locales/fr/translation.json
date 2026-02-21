@@ -877,5 +877,15 @@
   "unusedPatterns": "{{1}} motifs non utilisés non importés",
   "headPattern": "Motif de charge",
   "openPatternsLibrary": "Ouvrir la bibliothèque...",
-  "speedPattern": "Motif de vitesse"
+  "speedPattern": "Motif de vitesse",
+  "setAsDemand": "Définir comme Demande",
+  "setAsPumpSpeed": "Définir comme Vitesse de Pompe",
+  "setAsReservoirHead": "Définir comme Charge du Réservoir",
+  "traceSelection": {
+    "boundary": "Traçage de limite",
+    "downstream": "Traçage aval",
+    "tool": "Sélection par traçage",
+    "upstream": "Traçage amont"
+  },
+  "uncategorizedPatterns": "Non catégorisé"
 }

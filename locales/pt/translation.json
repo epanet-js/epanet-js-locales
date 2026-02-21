@@ -877,5 +877,15 @@
   "unusedPatterns": "{{1}} padrões não utilizados não importados",
   "headPattern": "Padrão de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
-  "speedPattern": "Padrão de velocidade"
+  "speedPattern": "Padrão de velocidade",
+  "setAsDemand": "Definir como Demanda",
+  "setAsPumpSpeed": "Definir como Velocidade da bomba",
+  "setAsReservoirHead": "Definir como Carga do reservatório",
+  "traceSelection": {
+    "boundary": "Traçado de limite",
+    "downstream": "Traçado a jusante",
+    "tool": "Seleção por traçado",
+    "upstream": "Traçado a montante"
+  },
+  "uncategorizedPatterns": "Não categorizado"
 }

@@ -884,5 +884,15 @@
   "unusedPatterns": "{{1}} patrones no utilizados no importados",
   "headPattern": "Patrón de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
-  "speedPattern": "Patrón de velocidad"
+  "speedPattern": "Patrón de velocidad",
+  "setAsDemand": "Establecer como demanda",
+  "setAsPumpSpeed": "Establecer como velocidad de bomba",
+  "setAsReservoirHead": "Establecer como carga de embalse",
+  "traceSelection": {
+    "boundary": "Rastreo de límite",
+    "downstream": "Rastreo aguas abajo",
+    "tool": "Seleccionar por rastreo",
+    "upstream": "Rastreo aguas arriba"
+  },
+  "uncategorizedPatterns": "Sin categorizar"
 }
