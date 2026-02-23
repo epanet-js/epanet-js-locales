@@ -877,15 +877,27 @@
   "unusedPatterns": "{{1}} padrões não utilizados não importados",
   "headPattern": "Padrão de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
-  "speedPattern": "Padrão de velocidade",
+  "speedPattern": "Padrão",
   "setAsDemand": "Definir como Demanda",
   "setAsPumpSpeed": "Definir como Velocidade da bomba",
   "setAsReservoirHead": "Definir como Carga do reservatório",
   "traceSelection": {
     "boundary": "Traçado de limite",
     "downstream": "Traçado a jusante",
-    "tool": "Seleção por traçado",
-    "upstream": "Traçado a montante"
+    "tool": "Traçado de seleção",
+    "upstream": "Traçado a montante",
+    "boundaryHint": "Clique em um ativo para encontrar sua zona de limite.",
+    "boundarySecondaryHint": "Reservatórios, tanques, bombas, válvulas fechadas e tubulações fechadas atuam como limites.",
+    "downstreamHint": "Clique em um ativo para traçar o abastecimento a jusante.",
+    "simulationRequired": "Simulação necessária",
+    "simulationRequiredHint": "Execute uma simulação primeiro para habilitar o traçado baseado em fluxo.",
+    "upstreamHint": "Clique em um ativo para traçar o abastecimento a montante."
   },
-  "uncategorizedPatterns": "Não categorizado"
+  "uncategorizedPatterns": "Não categorizado",
+  "emitterCoefficient": "Coef. Emissor",
+  "empty": "Vazio",
+  "headAverage": "Carga (média)",
+  "initialSpeed": "Velocidade inicial",
+  "patternBased": "Baseado em padrão",
+  "variableSpeed": "Velocidade variável"
 }

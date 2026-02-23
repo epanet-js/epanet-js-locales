@@ -877,15 +877,27 @@
   "unusedPatterns": "{{1}} 個の未使用のパターンはインポートされませんでした",
   "headPattern": "水頭パターン",
   "openPatternsLibrary": "ライブラリを開く...",
-  "speedPattern": "速度パターン",
+  "speedPattern": "パターン",
   "setAsDemand": "需要として設定",
   "setAsPumpSpeed": "ポンプ速度として設定",
   "setAsReservoirHead": "貯水池水頭として設定",
   "traceSelection": {
     "boundary": "境界トレース",
     "downstream": "下流トレース",
-    "tool": "トレース選択",
-    "upstream": "上流トレース"
+    "tool": "選択トレース",
+    "upstream": "上流トレース",
+    "boundaryHint": "アセットをクリックして、その境界領域を見つけます。",
+    "boundarySecondaryHint": "貯水池、配水池、ポンプ、閉鎖弁、閉鎖管は境界として機能します。",
+    "downstreamHint": "アセットをクリックして、下流の供給をトレースします。",
+    "simulationRequired": "シミュレーションが必要です",
+    "simulationRequiredHint": "流量ベースのトレースを有効にするには、まずシミュレーションを実行してください。",
+    "upstreamHint": "アセットをクリックして、上流の供給をトレースします。"
   },
-  "uncategorizedPatterns": "未分類"
+  "uncategorizedPatterns": "未分類",
+  "emitterCoefficient": "エミッター係数",
+  "empty": "空",
+  "headAverage": "水頭 (平均)",
+  "initialSpeed": "初期速度",
+  "patternBased": "パターンベース",
+  "variableSpeed": "可変速度"
 }

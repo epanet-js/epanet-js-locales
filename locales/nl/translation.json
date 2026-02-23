@@ -877,7 +877,7 @@
   "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd",
   "headPattern": "Opvoerhoogte patroon",
   "openPatternsLibrary": "Bibliotheek openen...",
-  "speedPattern": "Snelheidspatroon",
+  "speedPattern": "Patroon",
   "setAsDemand": "Instellen als vraag",
   "setAsPumpSpeed": "Instellen als pompsnelheid",
   "setAsReservoirHead": "Instellen als reservoir opvoerhoogte",
@@ -885,7 +885,19 @@
     "boundary": "Grens tracering",
     "downstream": "Downstream tracering",
     "tool": "Traceer selectie",
-    "upstream": "Upstream tracering"
+    "upstream": "Upstream tracering",
+    "boundaryHint": "Klik op een onderdeel om de grens ervan te vinden.",
+    "boundarySecondaryHint": "Reservoirs, tanks, pompen, gesloten ventielen en gesloten leidingen fungeren als grenzen.",
+    "downstreamHint": "Klik op een onderdeel om de stroomafwaartse toevoer te traceren.",
+    "simulationRequired": "Simulatie vereist",
+    "simulationRequiredHint": "Voer eerst een simulatie uit om stroomgebaseerde tracering mogelijk te maken.",
+    "upstreamHint": "Klik op een onderdeel om de stroomopwaartse toevoer te traceren."
   },
-  "uncategorizedPatterns": "Niet-gecategoriseerd"
+  "uncategorizedPatterns": "Niet-gecategoriseerd",
+  "emitterCoefficient": "Emittorcoëff.",
+  "empty": "Leeg",
+  "headAverage": "Opvoerhoogte (gemiddeld)",
+  "initialSpeed": "Initiële snelheid",
+  "patternBased": "Patroon gebaseerd",
+  "variableSpeed": "Variabele snelheid"
 }

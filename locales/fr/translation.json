@@ -877,7 +877,7 @@
   "unusedPatterns": "{{1}} motifs non utilisés non importés",
   "headPattern": "Motif de charge",
   "openPatternsLibrary": "Ouvrir la bibliothèque...",
-  "speedPattern": "Motif de vitesse",
+  "speedPattern": "Motif",
   "setAsDemand": "Définir comme Demande",
   "setAsPumpSpeed": "Définir comme Vitesse de Pompe",
   "setAsReservoirHead": "Définir comme Charge du Réservoir",
@@ -885,7 +885,19 @@
     "boundary": "Traçage de limite",
     "downstream": "Traçage aval",
     "tool": "Sélection par traçage",
-    "upstream": "Traçage amont"
+    "upstream": "Traçage amont",
+    "boundaryHint": "Cliquez sur un élément pour trouver sa zone de limite.",
+    "boundarySecondaryHint": "Les réservoirs, châteaux d'eau, pompes, vannes fermées et conduites fermées agissent comme des limites.",
+    "downstreamHint": "Cliquez sur un élément pour tracer l'alimentation aval.",
+    "simulationRequired": "Simulation requise",
+    "simulationRequiredHint": "Exécutez d'abord une simulation pour activer le traçage basé sur le débit.",
+    "upstreamHint": "Cliquez sur un élément pour tracer l'alimentation amont."
   },
-  "uncategorizedPatterns": "Non catégorisé"
+  "uncategorizedPatterns": "Non catégorisé",
+  "emitterCoefficient": "Coeff. émetteur",
+  "empty": "Vide",
+  "headAverage": "Charge (moyenne)",
+  "initialSpeed": "Vitesse initiale",
+  "patternBased": "Basé sur un motif",
+  "variableSpeed": "Vitesse variable"
 }

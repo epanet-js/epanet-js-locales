@@ -884,15 +884,27 @@
   "unusedPatterns": "{{1}} patrones no utilizados no importados",
   "headPattern": "Patrón de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
-  "speedPattern": "Patrón de velocidad",
+  "speedPattern": "Patrón",
   "setAsDemand": "Establecer como demanda",
   "setAsPumpSpeed": "Establecer como velocidad de bomba",
   "setAsReservoirHead": "Establecer como carga de embalse",
   "traceSelection": {
     "boundary": "Rastreo de límite",
     "downstream": "Rastreo aguas abajo",
-    "tool": "Seleccionar por rastreo",
-    "upstream": "Rastreo aguas arriba"
+    "tool": "Rastreo de selección",
+    "upstream": "Rastreo aguas arriba",
+    "boundaryHint": "Haz clic en un activo para encontrar su zona de límite.",
+    "boundarySecondaryHint": "Los embalses, tanques, bombas, válvulas cerradas y tuberías cerradas actúan como límites.",
+    "downstreamHint": "Haz clic en un activo para rastrear el suministro aguas abajo.",
+    "simulationRequired": "Simulación requerida",
+    "simulationRequiredHint": "Ejecuta una simulación primero para habilitar el rastreo basado en flujo.",
+    "upstreamHint": "Haz clic en un activo para rastrear el suministro aguas arriba."
   },
-  "uncategorizedPatterns": "Sin categorizar"
+  "uncategorizedPatterns": "Sin categorizar",
+  "emitterCoefficient": "Coef. emisor.",
+  "empty": "Vacío",
+  "headAverage": "Carga (media)",
+  "initialSpeed": "Velocidad inicial",
+  "patternBased": "Basado en patrón",
+  "variableSpeed": "Velocidad variable"
 }
