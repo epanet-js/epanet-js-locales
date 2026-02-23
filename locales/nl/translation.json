@@ -899,5 +899,6 @@
   "headAverage": "Opvoerhoogte (gemiddeld)",
   "initialSpeed": "Initiële snelheid",
   "patternBased": "Patroon gebaseerd",
-  "variableSpeed": "Variabele snelheid"
+  "variableSpeed": "Variabele snelheid",
+  "loadInXYGrid": "Laden in X-Y-raster"
 }

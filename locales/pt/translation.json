@@ -899,5 +899,6 @@
   "headAverage": "Carga (média)",
   "initialSpeed": "Velocidade inicial",
   "patternBased": "Baseado em padrão",
-  "variableSpeed": "Velocidade variável"
+  "variableSpeed": "Velocidade variável",
+  "loadInXYGrid": "Carregar em grade X-Y"
 }

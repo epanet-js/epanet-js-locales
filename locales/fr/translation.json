@@ -899,5 +899,6 @@
   "headAverage": "Charge (moyenne)",
   "initialSpeed": "Vitesse initiale",
   "patternBased": "Basé sur un motif",
-  "variableSpeed": "Vitesse variable"
+  "variableSpeed": "Vitesse variable",
+  "loadInXYGrid": "Charger dans une grille X-Y"
 }

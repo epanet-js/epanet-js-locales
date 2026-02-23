@@ -899,5 +899,6 @@
   "headAverage": "水頭 (平均)",
   "initialSpeed": "初期速度",
   "patternBased": "パターンベース",
-  "variableSpeed": "可変速度"
+  "variableSpeed": "可変速度",
+  "loadInXYGrid": "X-Yグリッドで読み込む"
 }
