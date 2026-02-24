@@ -889,7 +889,7 @@
     "addPattern": "{{1}} パターンを追加",
     "deletePatternInUse": "使用中のパターンは削除できません",
     "demandPatterns": "需要",
-    "emptyDescription": "開始するには、新しいパターンを作成してください。",
+    "emptyDescription": "開始するには、新しいパターンを追加してください。",
     "emptyTitle": "パターンが空です",
     "noSelection": "詳細を表示するには、パターンを選択してください。",
     "patternName": "パターン名",
@@ -900,5 +900,26 @@
     "setAsReservoirHead": "貯水池水頭として設定",
     "title": "パターン",
     "uncategorizedPatterns": "未分類"
+  },
+  "curves": {
+    "addCurve": "{{1}}曲線を追加",
+    "curveName": "曲線名",
+    "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
+    "efficiencyCurves": "ポンプ効率",
+    "emptyDescription": "開始するには、新しい曲線を追加してください。",
+    "emptyTitle": "曲線が空です",
+    "headlossCurves": "損失水頭",
+    "invalidCurve": "無効な曲線",
+    "noSelection": "編集するには、曲線を選択してください。",
+    "pumpCurves": "ポンプ揚程",
+    "setAsEfficiency": "ポンプ効率として設定",
+    "setAsHeadloss": "損失水頭として設定",
+    "setAsPump": "ポンプ揚程として設定",
+    "setAsValve": "弁として設定",
+    "setAsVolume": "配水池容量として設定",
+    "title": "曲線",
+    "uncategorizedCurves": "未分類",
+    "valveCurves": "弁",
+    "volumeCurves": "配水池容量"
   }
 }

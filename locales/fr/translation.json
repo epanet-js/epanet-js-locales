@@ -889,7 +889,7 @@
     "addPattern": "Ajouter un motif {{1}}",
     "deletePatternInUse": "Impossible de supprimer un motif en cours d'utilisation",
     "demandPatterns": "Demande",
-    "emptyDescription": "Veuillez créer un nouveau motif pour commencer.",
+    "emptyDescription": "Ajoutez un motif pour commencer.",
     "emptyTitle": "Les motifs sont vides",
     "noSelection": "Sélectionnez un motif pour afficher ses détails.",
     "patternName": "Nom du motif",
@@ -900,5 +900,26 @@
     "setAsReservoirHead": "Définir comme Charge du Réservoir",
     "title": "Motifs",
     "uncategorizedPatterns": "Non catégorisé"
+  },
+  "curves": {
+    "addCurve": "Ajouter une courbe {{1}}",
+    "curveName": "Nom de la courbe",
+    "deleteCurveInUse": "Impossible de supprimer une courbe utilisée par une pompe",
+    "efficiencyCurves": "Rendement de la pompe",
+    "emptyDescription": "Ajoutez une courbe pour commencer.",
+    "emptyTitle": "Les courbes sont vides",
+    "headlossCurves": "Perte de charge",
+    "invalidCurve": "Courbe invalide",
+    "noSelection": "Sélectionnez une courbe à modifier.",
+    "pumpCurves": "Charge de la pompe",
+    "setAsEfficiency": "Définir comme Rendement de la pompe",
+    "setAsHeadloss": "Définir comme Perte de charge",
+    "setAsPump": "Définir comme Charge de la pompe",
+    "setAsValve": "Définir comme Vanne",
+    "setAsVolume": "Définir comme Volume du château d'eau",
+    "title": "Courbes",
+    "uncategorizedCurves": "Non catégorisé",
+    "valveCurves": "Vanne",
+    "volumeCurves": "Volume du château d'eau"
   }
 }

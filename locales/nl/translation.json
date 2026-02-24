@@ -889,7 +889,7 @@
     "addPattern": "Patroon {{1}} toevoegen",
     "deletePatternInUse": "Kan een patroon dat in gebruik is niet verwijderen",
     "demandPatterns": "Vraag",
-    "emptyDescription": "Maak een nieuw patroon aan om te beginnen.",
+    "emptyDescription": "Voeg een patroon toe om te beginnen.",
     "emptyTitle": "Patronen zijn leeg",
     "noSelection": "Selecteer een patroon om de details te bekijken.",
     "patternName": "Patroonnaam",
@@ -900,5 +900,26 @@
     "setAsReservoirHead": "Instellen als reservoir opvoerhoogte",
     "title": "Patronen",
     "uncategorizedPatterns": "Niet-gecategoriseerd"
+  },
+  "curves": {
+    "addCurve": "Curve {{1}} toevoegen",
+    "curveName": "Curvenaam",
+    "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
+    "efficiencyCurves": "Pomprendement",
+    "emptyDescription": "Voeg een curve toe om te beginnen.",
+    "emptyTitle": "Curves zijn leeg",
+    "headlossCurves": "Drukverlies",
+    "invalidCurve": "Ongeldige curve",
+    "noSelection": "Selecteer een curve om te bewerken.",
+    "pumpCurves": "Pomp opvoerhoogte",
+    "setAsEfficiency": "Instellen als Pomprendement",
+    "setAsHeadloss": "Instellen als Drukverlies",
+    "setAsPump": "Instellen als Pomp opvoerhoogte",
+    "setAsValve": "Instellen als Ventiel",
+    "setAsVolume": "Instellen als Tankvolume",
+    "title": "Curves",
+    "uncategorizedCurves": "Niet-gecategoriseerd",
+    "valveCurves": "Ventiel",
+    "volumeCurves": "Tankvolume"
   }
 }

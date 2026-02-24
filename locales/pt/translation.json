@@ -900,5 +900,26 @@
     "setAsReservoirHead": "Definir como Carga do reservatório",
     "title": "Padrões",
     "uncategorizedPatterns": "Não categorizado"
+  },
+  "curves": {
+    "addCurve": "Adicionar curva de {{1}}",
+    "curveName": "Nome da curva",
+    "deleteCurveInUse": "Não é possível excluir uma curva que está sendo usada por uma bomba",
+    "efficiencyCurves": "Eficiência da bomba",
+    "emptyDescription": "Adicione uma curva para começar.",
+    "emptyTitle": "Curvas estão vazias",
+    "headlossCurves": "Perda de carga",
+    "invalidCurve": "Curva inválida",
+    "noSelection": "Selecione uma curva para editar.",
+    "pumpCurves": "Carga da bomba",
+    "setAsEfficiency": "Definir como Eficiência da bomba",
+    "setAsHeadloss": "Definir como Perda de carga",
+    "setAsPump": "Definir como Carga da bomba",
+    "setAsValve": "Definir como Válvula",
+    "setAsVolume": "Definir como Volume do tanque",
+    "title": "Curvas",
+    "uncategorizedCurves": "Não categorizado",
+    "valveCurves": "Válvula",
+    "volumeCurves": "Volume do tanque"
   }
 }

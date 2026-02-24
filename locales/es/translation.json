@@ -896,7 +896,7 @@
     "addPattern": "Añadir patrón de {{1}}",
     "deletePatternInUse": "No se puede eliminar un patrón que está en uso",
     "demandPatterns": "Demanda",
-    "emptyDescription": "Por favor, crea un nuevo patrón para empezar.",
+    "emptyDescription": "Añade un patrón para empezar.",
     "emptyTitle": "Los patrones están vacíos",
     "noSelection": "Selecciona un patrón para ver sus detalles.",
     "patternName": "Nombre del patrón",
@@ -907,5 +907,26 @@
     "setAsReservoirHead": "Establecer como carga de embalse",
     "title": "Patrones",
     "uncategorizedPatterns": "Sin categorizar"
+  },
+  "curves": {
+    "addCurve": "Añadir curva de {{1}}",
+    "curveName": "Nombre de la curva",
+    "deleteCurveInUse": "No se puede eliminar una curva que es utilizada por una bomba",
+    "efficiencyCurves": "Eficiencia de bomba",
+    "emptyDescription": "Añade una curva para empezar.",
+    "emptyTitle": "Las curvas están vacías",
+    "headlossCurves": "Pérdida de carga",
+    "invalidCurve": "Curva inválida",
+    "noSelection": "Selecciona una curva para editar.",
+    "pumpCurves": "Carga de bomba",
+    "setAsEfficiency": "Establecer como eficiencia de bomba",
+    "setAsHeadloss": "Establecer como pérdida de carga",
+    "setAsPump": "Establecer como carga de bomba",
+    "setAsValve": "Establecer como válvula",
+    "setAsVolume": "Establecer como volumen de tanque",
+    "title": "Curvas",
+    "uncategorizedCurves": "Sin categorizar",
+    "valveCurves": "Válvula",
+    "volumeCurves": "Volumen de tanque"
   }
 }
