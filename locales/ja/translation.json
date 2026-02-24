@@ -813,21 +813,12 @@
   "alertNetworkRequired": "ネットワークが必要です",
   "alertNetworkRequiredDetail": "シナリオの構築を開始する前に、ネットワークを選択または作成する必要があります。",
   "chooseANetwork": "ネットワークを選択してください",
-  "addCurve": "曲線を追加",
-  "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
   "discardUnsavedChangesWarning": "未保存の変更があります。破棄してもよろしいですか？",
-  "pumpLibrary": "ポンプライブラリ",
   "addPoint": "点を追加",
-  "pumpLibraryEmptyDescription": "開始するには、ポンプ曲線を追加してください",
-  "pumpLibraryEmptyTitle": "ポンプ曲線がありません",
-  "pumpLibraryNoSelection": "編集するには、曲線を選択してください",
   "designPointCurve": "1点曲線（設計点）",
   "multiPointCurve": "多点曲線",
   "namedCurve": "ライブラリポンプ",
-  "openPumpLibrary": "ライブラリを開く...",
   "unusedCurves": "{{1}} 個の未使用の曲線はインポートされませんでした",
-  "invalidCurve": "無効な曲線",
-  "saveInvalidCurvesWarning": "一部の曲線に検証の警告があります。",
   "invalidPumpCurves": "無効な曲線定義を持つポンプ (ポンプ {{1}} 台)",
   "trial.expired": "トライアルの有効期限が切れました",
   "trial.status_one": "トライアル: 残り {{count}} 日",
@@ -904,7 +895,7 @@
   "curves": {
     "addCurve": "{{1}}曲線を追加",
     "curveName": "曲線名",
-    "deleteCurveInUse": "ポンプが使用している曲線は削除できません",
+    "deleteCurveInUse": "使用中の曲線は削除できません",
     "efficiencyCurves": "ポンプ効率",
     "emptyDescription": "開始するには、新しい曲線を追加してください。",
     "emptyTitle": "曲線が空です",
@@ -920,6 +911,9 @@
     "title": "曲線",
     "uncategorizedCurves": "未分類",
     "valveCurves": "弁",
-    "volumeCurves": "配水池容量"
-  }
+    "volumeCurves": "配水池容量",
+    "saveInvalid": "一部の曲線に検証の警告があります。"
+  },
+  "openCurvesLibrary": "ライブラリを開く...",
+  "operationalData": "運用データ"
 }

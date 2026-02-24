@@ -813,21 +813,12 @@
   "alertNetworkRequired": "Réseau requis",
   "alertNetworkRequiredDetail": "Vous devez sélectionner ou créer un réseau avant de pouvoir commencer à créer un scénario.",
   "chooseANetwork": "Choisir un réseau",
-  "addCurve": "Ajouter une courbe",
-  "deleteCurveInUse": "Impossible de supprimer une courbe utilisée par une pompe",
   "discardUnsavedChangesWarning": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
-  "pumpLibrary": "Bibliothèque de pompes",
   "addPoint": "Ajouter un point",
-  "pumpLibraryEmptyDescription": "Ajouter une courbe de pompe pour commencer",
-  "pumpLibraryEmptyTitle": "Aucune courbe de pompe",
-  "pumpLibraryNoSelection": "Sélectionnez une courbe à modifier",
   "designPointCurve": "Courbe à 1 point (point de conception)",
   "multiPointCurve": "Courbe multipoints",
   "namedCurve": "Pompe de bibliothèque",
-  "openPumpLibrary": "Ouvrir la bibliothèque de pompes...",
   "unusedCurves": "{{1}} courbes non utilisées non importées",
-  "invalidCurve": "Courbe invalide",
-  "saveInvalidCurvesWarning": "Certaines courbes présentent des avertissements de validation.",
   "invalidPumpCurves": "Pompes avec définitions de courbe invalides ({{1}} pompes)",
   "trial.expired": "Essai expiré",
   "trial.status_one": "Essai : {{count}} jour restant",
@@ -920,6 +911,9 @@
     "title": "Courbes",
     "uncategorizedCurves": "Non catégorisé",
     "valveCurves": "Vanne",
-    "volumeCurves": "Volume du château d'eau"
-  }
+    "volumeCurves": "Volume du château d'eau",
+    "saveInvalid": "Certaines courbes présentent des avertissements de validation."
+  },
+  "openCurvesLibrary": "Ouvrir la bibliothèque...",
+  "operationalData": "Données opérationnelles"
 }

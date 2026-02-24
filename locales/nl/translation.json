@@ -813,21 +813,12 @@
   "alertNetworkRequired": "Netwerk vereist",
   "alertNetworkRequiredDetail": "U moet een netwerk selecteren of aanmaken voordat u kunt beginnen met het bouwen van een scenario.",
   "chooseANetwork": "Kies een netwerk",
-  "addCurve": "Curve toevoegen",
-  "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
   "discardUnsavedChangesWarning": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
-  "pumpLibrary": "Pompenbibliotheek",
   "addPoint": "Punt toevoegen",
-  "pumpLibraryEmptyDescription": "Voeg een pompcurve toe om te beginnen",
-  "pumpLibraryEmptyTitle": "Geen pompcurves",
-  "pumpLibraryNoSelection": "Selecteer een curve om te bewerken",
   "designPointCurve": "1-puntscurve (ontwerppunt)",
   "multiPointCurve": "Meerpuntscurve",
   "namedCurve": "Bibliotheekpomp",
-  "openPumpLibrary": "Bibliotheek openen...",
   "unusedCurves": "{{1}} ongebruikte curves niet geïmporteerd",
-  "invalidCurve": "Ongeldige curve",
-  "saveInvalidCurvesWarning": "Sommige curves hebben validatiewaarschuwingen.",
   "invalidPumpCurves": "Pompen met ongeldige curve-definities ({{1}} pompen)",
   "trial.expired": "Proefperiode verlopen",
   "trial.status_one": "Proefperiode: nog {{count}} dag",
@@ -904,7 +895,7 @@
   "curves": {
     "addCurve": "Curve {{1}} toevoegen",
     "curveName": "Curvenaam",
-    "deleteCurveInUse": "Kan een curve die door een pomp wordt gebruikt niet verwijderen",
+    "deleteCurveInUse": "Kan een curve die in gebruik is niet verwijderen",
     "efficiencyCurves": "Pomprendement",
     "emptyDescription": "Voeg een curve toe om te beginnen.",
     "emptyTitle": "Curves zijn leeg",
@@ -920,6 +911,9 @@
     "title": "Curves",
     "uncategorizedCurves": "Niet-gecategoriseerd",
     "valveCurves": "Ventiel",
-    "volumeCurves": "Tankvolume"
-  }
+    "volumeCurves": "Tankvolume",
+    "saveInvalid": "Sommige curves hebben validatiewaarschuwingen."
+  },
+  "openCurvesLibrary": "Bibliotheek openen...",
+  "operationalData": "Operationele gegevens"
 }

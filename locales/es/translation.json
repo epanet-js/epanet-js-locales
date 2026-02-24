@@ -820,21 +820,12 @@
   "alertNetworkRequired": "Red requerida",
   "alertNetworkRequiredDetail": "Necesitas seleccionar o crear una red antes de poder empezar a construir un escenario.",
   "chooseANetwork": "Elegir una red",
-  "addCurve": "Añadir curva",
-  "deleteCurveInUse": "No se puede eliminar una curva que está siendo utilizada por una bomba",
   "discardUnsavedChangesWarning": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
-  "pumpLibrary": "Biblioteca de bombas",
   "addPoint": "Añadir punto",
-  "pumpLibraryEmptyDescription": "Añade una curva de bomba para empezar",
-  "pumpLibraryEmptyTitle": "No hay curvas de bomba",
-  "pumpLibraryNoSelection": "Selecciona una curva para editar",
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
   "multiPointCurve": "Curva multipunto",
   "namedCurve": "Bomba de biblioteca",
-  "openPumpLibrary": "Abrir biblioteca...",
   "unusedCurves": "{{1}} curvas no utilizadas no importadas",
-  "invalidCurve": "Curva inválida",
-  "saveInvalidCurvesWarning": "Algunas curvas tienen advertencias de validación.",
   "invalidPumpCurves": "Bombas con definiciones de curva inválidas ({{1}} bombas)",
   "trial.expired": "Prueba expirada",
   "trial.status_one": "Prueba: {{count}} día restante",
@@ -927,6 +918,9 @@
     "title": "Curvas",
     "uncategorizedCurves": "Sin categorizar",
     "valveCurves": "Válvula",
-    "volumeCurves": "Volumen de tanque"
-  }
+    "volumeCurves": "Volumen de tanque",
+    "saveInvalid": "Algunas curvas tienen advertencias de validación."
+  },
+  "openCurvesLibrary": "Abrir biblioteca...",
+  "operationalData": "Datos operacionales"
 }

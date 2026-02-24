@@ -813,21 +813,12 @@
   "alertNetworkRequired": "Rede necessária",
   "alertNetworkRequiredDetail": "Você precisa selecionar ou criar uma rede antes de poder começar a construir um cenário.",
   "chooseANetwork": "Escolha uma rede",
-  "addCurve": "Adicionar curva",
-  "deleteCurveInUse": "Não é possível excluir uma curva que está sendo usada por uma bomba",
   "discardUnsavedChangesWarning": "Você tem alterações não salvas. Tem certeza de que deseja descartá-las?",
-  "pumpLibrary": "Biblioteca de Bombas",
   "addPoint": "Adicionar ponto",
-  "pumpLibraryEmptyDescription": "Adicione uma curva de bomba para começar",
-  "pumpLibraryEmptyTitle": "Nenhuma curva de bomba",
-  "pumpLibraryNoSelection": "Selecione uma curva para editar",
   "designPointCurve": "Curva de 1 ponto (ponto de projeto)",
   "multiPointCurve": "Curva multiponto",
   "namedCurve": "Curva da biblioteca",
-  "openPumpLibrary": "Abrir biblioteca...",
   "unusedCurves": "{{1}} curvas não utilizadas não importadas",
-  "invalidCurve": "Curva inválida",
-  "saveInvalidCurvesWarning": "Algumas curvas têm avisos de validação.",
   "invalidPumpCurves": "Bombas com definições de curva inválidas ({{1}} bombas)",
   "trial.expired": "Teste expirado",
   "trial.status_one": "Teste: resta {{count}} dia",
@@ -904,7 +895,7 @@
   "curves": {
     "addCurve": "Adicionar curva de {{1}}",
     "curveName": "Nome da curva",
-    "deleteCurveInUse": "Não é possível excluir uma curva que está sendo usada por uma bomba",
+    "deleteCurveInUse": "Não é possível excluir uma curva que está em uso",
     "efficiencyCurves": "Eficiência da bomba",
     "emptyDescription": "Adicione uma curva para começar.",
     "emptyTitle": "Curvas estão vazias",
@@ -920,6 +911,9 @@
     "title": "Curvas",
     "uncategorizedCurves": "Não categorizado",
     "valveCurves": "Válvula",
-    "volumeCurves": "Volume do tanque"
-  }
+    "volumeCurves": "Volume do tanque",
+    "saveInvalid": "Algumas curvas têm avisos de validação."
+  },
+  "openCurvesLibrary": "Abrir biblioteca...",
+  "operationalData": "Dados operacionais"
 }
