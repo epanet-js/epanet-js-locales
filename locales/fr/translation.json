@@ -668,11 +668,10 @@
   "nothingSelectedClickToSelect": "Utilisez l'outil de sélection et cliquez sur un élément pour afficher et modifier ses détails.",
   "nothingSelectedTitle": "Sélectionnez un élément pour afficher ses propriétés",
   "curveValidation": {
-    "flowAscendingOrder": "Les valeurs de débit doivent être en ordre croissant.",
-    "headDescendingOrder": "Les valeurs de charge doivent être en ordre décroissant.",
     "missingValues": "Veuillez remplir toutes les valeurs.",
-    "flowMustBeNonZero": "La valeur du débit ne doit pas être nulle.",
-    "headMustBeNonZero": "La valeur de la charge ne doit pas être nulle."
+    "valueAscendingOrder": "Les valeurs de {{1}} doivent être en ordre croissant.",
+    "valueDescendingOrder": "Les valeurs de {{1}} doivent être en ordre décroissant.",
+    "valueMustBeNonZero": "La valeur de {{1}} ne doit pas être nulle."
   },
   "keyboardShortcuts": {
     "editingSelection": "Édition et sélection",
@@ -915,5 +914,7 @@
     "saveInvalid": "Certaines courbes présentent des avertissements de validation."
   },
   "openCurvesLibrary": "Ouvrir la bibliothèque...",
-  "operationalData": "Données opérationnelles"
+  "operationalData": "Données opérationnelles",
+  "x": "X",
+  "y": "Y"
 }

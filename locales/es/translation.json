@@ -675,11 +675,10 @@
   "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
   "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades",
   "curveValidation": {
-    "flowAscendingOrder": "Los valores de caudal deben estar en orden ascendente.",
-    "headDescendingOrder": "Los valores de carga deben estar en orden descendente.",
     "missingValues": "Por favor, completa todos los valores.",
-    "flowMustBeNonZero": "El valor de caudal no debe ser cero.",
-    "headMustBeNonZero": "El valor de carga no debe ser cero."
+    "valueAscendingOrder": "Los valores de {{1}} deben estar en orden ascendente.",
+    "valueDescendingOrder": "Los valores de {{1}} deben estar en orden descendente.",
+    "valueMustBeNonZero": "El valor de {{1}} no debe ser cero."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edición y selección",
@@ -922,5 +921,7 @@
     "saveInvalid": "Algunas curvas tienen advertencias de validación."
   },
   "openCurvesLibrary": "Abrir biblioteca...",
-  "operationalData": "Datos operacionales"
+  "operationalData": "Datos operacionales",
+  "x": "X",
+  "y": "Y"
 }

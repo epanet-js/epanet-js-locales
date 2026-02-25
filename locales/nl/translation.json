@@ -668,11 +668,10 @@
   "nothingSelectedClickToSelect": "Gebruik het selectietool en klik op een onderdeel om de details ervan te bekijken en te bewerken.",
   "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken",
   "curveValidation": {
-    "flowAscendingOrder": "Stromingswaarden moeten in oplopende volgorde staan.",
-    "headDescendingOrder": "Opvoerhoogtewaarden moeten in aflopende volgorde staan.",
     "missingValues": "Vul alstublieft alle waarden in.",
-    "flowMustBeNonZero": "Stromingswaarde mag niet nul zijn.",
-    "headMustBeNonZero": "Opvoerhoogtewaarde mag niet nul zijn."
+    "valueAscendingOrder": "{{1}} waarden moeten in oplopende volgorde staan.",
+    "valueDescendingOrder": "{{1}} waarden moeten in aflopende volgorde staan.",
+    "valueMustBeNonZero": "{{1}} waarde mag niet nul zijn."
   },
   "keyboardShortcuts": {
     "editingSelection": "Bewerken & selectie",
@@ -915,5 +914,7 @@
     "saveInvalid": "Sommige curves hebben validatiewaarschuwingen."
   },
   "openCurvesLibrary": "Bibliotheek openen...",
-  "operationalData": "Operationele gegevens"
+  "operationalData": "Operationele gegevens",
+  "x": "X",
+  "y": "Y"
 }

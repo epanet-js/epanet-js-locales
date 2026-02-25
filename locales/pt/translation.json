@@ -668,11 +668,10 @@
   "nothingSelectedClickToSelect": "Use a ferramenta de seleção e clique em um ativo para visualizar e editar seus detalhes.",
   "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades",
   "curveValidation": {
-    "flowAscendingOrder": "Os valores de vazão devem estar em ordem crescente.",
-    "headDescendingOrder": "Os valores de carga devem estar em ordem decrescente.",
     "missingValues": "Por favor, preencha todos os valores.",
-    "flowMustBeNonZero": "O valor da vazão não pode ser zero.",
-    "headMustBeNonZero": "O valor da carga não pode ser zero."
+    "valueAscendingOrder": "Os valores de {{1}} devem estar em ordem crescente.",
+    "valueDescendingOrder": "Os valores de {{1}} devem estar em ordem decrescente.",
+    "valueMustBeNonZero": "O valor de {{1}} não deve ser zero."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edição e seleção",
@@ -915,5 +914,7 @@
     "saveInvalid": "Algumas curvas têm avisos de validação."
   },
   "openCurvesLibrary": "Abrir biblioteca...",
-  "operationalData": "Dados operacionais"
+  "operationalData": "Dados operacionais",
+  "x": "X",
+  "y": "Y"
 }

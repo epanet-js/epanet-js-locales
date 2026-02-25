@@ -668,11 +668,10 @@
   "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
   "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します",
   "curveValidation": {
-    "flowAscendingOrder": "流量値は昇順である必要があります。",
-    "headDescendingOrder": "水頭値は降順である必要があります。",
     "missingValues": "すべての値を入力してください。",
-    "flowMustBeNonZero": "流量値はゼロであってはなりません。",
-    "headMustBeNonZero": "水頭値はゼロであってはなりません。"
+    "valueAscendingOrder": "{{1}} の値は昇順である必要があります。",
+    "valueDescendingOrder": "{{1}} の値は降順である必要があります。",
+    "valueMustBeNonZero": "{{1}} の値はゼロであってはなりません。"
   },
   "keyboardShortcuts": {
     "editingSelection": "編集と選択",
@@ -915,5 +914,7 @@
     "saveInvalid": "一部の曲線に検証の警告があります。"
   },
   "openCurvesLibrary": "ライブラリを開く...",
-  "operationalData": "運用データ"
+  "operationalData": "運用データ",
+  "x": "X",
+  "y": "Y"
 }
