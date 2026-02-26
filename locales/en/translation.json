@@ -135,6 +135,8 @@
   "empty": "Empty",
   "type": "Type",
   "delete": "Delete",
+  "rename": "Rename",
+  "duplicate": "Duplicate",
   "insertRowAbove": "Insert row above",
   "insertRowBelow": "Insert row below",
   "addDemandCategory": "Add demand category",
@@ -312,11 +314,8 @@
   "reservoirPatterns": "Reservoirs with time patterns ({{1}} reservoirs using first pattern value only)",
   "tankCurves": "Tanks with volume curves ({{1}} tanks using fixed diameter)",
   "pumpPatterns": "Pumps with time patterns ({{1}} pumps using constant speed)",
-  "invalidPumpCurves": "Pumps with invalid curve definitions ({{1}} pumps)",
   "undefinedPumpCurves": "Pumps referencing undefined curves ({{1}} pumps)",
   "pcvCurves": "PCV valves with characteristic curves ({{1}} valves using setting value only)",
-  "unusedCurves": "{{1}} unused curves not imported",
-  "unusedPatterns": "{{1}} unused patterns not imported",
   "waterQualitySimulation": "Unsupported water quality simulation:",
   "waterQualityAge": "Age of water",
   "waterQualityChemical": "Chemical analysis",
@@ -899,11 +898,12 @@
     "setAsHeadloss": "Set as Headloss",
     "saveInvalid": "Some curves have validation warnings."
   },
-  "rename": "Rename",
-  "duplicate": "Duplicate",
+  "pumpLibrary": "Pump Library",
   "addTimestep": "Add timestep",
   "timestep": "Timestep",
   "multiplier": "Multiplier",
+  "addPoint": "Add point",
+  "openPumpLibrary": "Open library...",
   "openCurvesLibrary": "Open library...",
   "openPatternsLibrary": "Open library...",
   "headPattern": "Head pattern",
@@ -915,6 +915,5 @@
   "multipliersDiffer": "Multipliers differ",
   "pumpName": "Pump name",
   "curveType": "Curve type",
-  "namedCurve": "Library pump",
-  "addPoint": "Add point"
+  "namedCurve": "Library pump"
 }

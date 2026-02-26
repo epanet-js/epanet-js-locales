@@ -817,8 +817,6 @@
   "designPointCurve": "1-puntscurve (ontwerppunt)",
   "multiPointCurve": "Meerpuntscurve",
   "namedCurve": "Bibliotheekpomp",
-  "unusedCurves": "{{1}} ongebruikte curves niet geïmporteerd",
-  "invalidPumpCurves": "Pompen met ongeldige curve-definities ({{1}} pompen)",
   "trial.expired": "Proefperiode verlopen",
   "trial.status_one": "Proefperiode: nog {{count}} dag",
   "trial.status_other": "Proefperiode: nog {{count}} dagen",
@@ -851,7 +849,6 @@
     "projectedTitle": "Op basis van kaart",
     "title": "Stel de locatie van uw netwerk in"
   },
-  "unusedPatterns": "{{1}} ongebruikte patronen niet geïmporteerd",
   "headPattern": "Opvoerhoogte patroon",
   "openPatternsLibrary": "Bibliotheek openen...",
   "speedPattern": "Patroon",
@@ -916,5 +913,7 @@
   "openCurvesLibrary": "Bibliotheek openen...",
   "operationalData": "Operationele gegevens",
   "x": "X",
-  "y": "Y"
+  "y": "Y",
+  "openPumpLibrary": "Bibliotheek openen...",
+  "pumpLibrary": "Pompbibliotheek"
 }

@@ -817,8 +817,6 @@
   "designPointCurve": "Courbe à 1 point (point de conception)",
   "multiPointCurve": "Courbe multipoints",
   "namedCurve": "Pompe de bibliothèque",
-  "unusedCurves": "{{1}} courbes non utilisées non importées",
-  "invalidPumpCurves": "Pompes avec définitions de courbe invalides ({{1}} pompes)",
   "trial.expired": "Essai expiré",
   "trial.status_one": "Essai : {{count}} jour restant",
   "trial.status_other": "Essai : {{count}} jours restants",
@@ -851,7 +849,6 @@
     "projectedTitle": "Basé sur la carte",
     "title": "Définissez l'emplacement de votre réseau"
   },
-  "unusedPatterns": "{{1}} motifs non utilisés non importés",
   "headPattern": "Motif de charge",
   "openPatternsLibrary": "Ouvrir la bibliothèque...",
   "speedPattern": "Motif",
@@ -916,5 +913,7 @@
   "openCurvesLibrary": "Ouvrir la bibliothèque...",
   "operationalData": "Données opérationnelles",
   "x": "X",
-  "y": "Y"
+  "y": "Y",
+  "openPumpLibrary": "Ouvrir la bibliothèque...",
+  "pumpLibrary": "Bibliothèque de pompes"
 }

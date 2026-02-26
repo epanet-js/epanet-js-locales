@@ -817,8 +817,6 @@
   "designPointCurve": "Curva de 1 ponto (ponto de projeto)",
   "multiPointCurve": "Curva multiponto",
   "namedCurve": "Curva da biblioteca",
-  "unusedCurves": "{{1}} curvas não utilizadas não importadas",
-  "invalidPumpCurves": "Bombas com definições de curva inválidas ({{1}} bombas)",
   "trial.expired": "Teste expirado",
   "trial.status_one": "Teste: resta {{count}} dia",
   "trial.status_other": "Teste: restam {{count}} dias",
@@ -851,7 +849,6 @@
     "projectedTitle": "Baseado em mapa",
     "title": "Defina a localização da sua rede"
   },
-  "unusedPatterns": "{{1}} padrões não utilizados não importados",
   "headPattern": "Padrão de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
   "speedPattern": "Padrão",
@@ -916,5 +913,7 @@
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Dados operacionais",
   "x": "X",
-  "y": "Y"
+  "y": "Y",
+  "openPumpLibrary": "Abrir biblioteca...",
+  "pumpLibrary": "Biblioteca de Bombas"
 }

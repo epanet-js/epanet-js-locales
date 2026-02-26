@@ -824,8 +824,6 @@
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
   "multiPointCurve": "Curva multipunto",
   "namedCurve": "Bomba de biblioteca",
-  "unusedCurves": "{{1}} curvas no utilizadas no importadas",
-  "invalidPumpCurves": "Bombas con definiciones de curva inválidas ({{1}} bombas)",
   "trial.expired": "Prueba expirada",
   "trial.status_one": "Prueba: {{count}} día restante",
   "trial.status_other": "Prueba: {{count}} días restantes",
@@ -858,7 +856,6 @@
     "projectedTitle": "Basado en mapa",
     "title": "Establece la ubicación de tu red"
   },
-  "unusedPatterns": "{{1}} patrones no utilizados no importados",
   "headPattern": "Patrón de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
   "speedPattern": "Patrón",
@@ -923,5 +920,7 @@
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Datos operacionales",
   "x": "X",
-  "y": "Y"
+  "y": "Y",
+  "openPumpLibrary": "Abrir biblioteca...",
+  "pumpLibrary": "Biblioteca de Bombas"
 }
