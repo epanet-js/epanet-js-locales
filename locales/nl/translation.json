@@ -920,5 +920,16 @@
   "valve.gpv": "GPV",
   "valve.gpv.detailed": "GPV: Algemeen Doel Ventiel",
   "valve.pcv": "PCV",
-  "valve.pcv.detailed": "PCV: Positieregelventiel"
+  "valve.pcv.detailed": "PCV: Positieregelventiel",
+  "dialog": {
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "discardChanges": "Wijzigingen verwerpen",
+    "discardWithunsavedChangesHint": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
+    "keepEditing": "Blijven bewerken",
+    "save": "Opslaan",
+    "saveWithWarningsHint": "Er zijn enkele validatiewaarschuwingen."
+  },
+  "headlossCurve": "Curve",
+  "valveCurve": "Curve"
 }

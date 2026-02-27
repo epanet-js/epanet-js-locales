@@ -909,8 +909,8 @@
   "multiplier": "Multiplier",
   "addPoint": "Add point",
   "openPumpLibrary": "Open library...",
-  "openCurvesLibrary": "Open library...",
-  "openPatternsLibrary": "Open library...",
+  "openCurvesLibrary": "Open curves...",
+  "openPatternsLibrary": "Open patterns...",
   "headPattern": "Head pattern",
   "headAverage": "Head (average)",
   "initialSpeed": "Initial speed",
@@ -920,5 +920,16 @@
   "multipliersDiffer": "Multipliers differ",
   "pumpName": "Pump name",
   "curveType": "Curve type",
-  "namedCurve": "Library pump"
+  "namedCurve": "Library pump",
+  "valveCurve": "Curve",
+  "headlossCurve": "Curve",
+  "dialog": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "discardChanges": "Discard changes",
+    "keepEditing": "Keep editing",
+    "discardWithunsavedChangesHint": "You have unsaved changes. Are you sure you want to discard them?",
+    "saveWithWarningsHint": "There are some validation warnings."
+  }
 }

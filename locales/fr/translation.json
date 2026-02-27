@@ -850,7 +850,7 @@
     "title": "Définissez l'emplacement de votre réseau"
   },
   "headPattern": "Motif de charge",
-  "openPatternsLibrary": "Ouvrir la bibliothèque...",
+  "openPatternsLibrary": "Ouvrir les motifs...",
   "speedPattern": "Motif",
   "traceSelection": {
     "boundary": "Traçage de limite",
@@ -910,7 +910,7 @@
     "volumeCurves": "Volume du château d'eau",
     "saveInvalid": "Certaines courbes présentent des avertissements de validation."
   },
-  "openCurvesLibrary": "Ouvrir la bibliothèque...",
+  "openCurvesLibrary": "Ouvrir les courbes...",
   "operationalData": "Données opérationnelles",
   "x": "X",
   "y": "Y",
@@ -920,5 +920,16 @@
   "valve.gpv": "GPV",
   "valve.gpv.detailed": "GPV : Vanne à Usage Général",
   "valve.pcv": "PCV",
-  "valve.pcv.detailed": "PCV : Vanne de Contrôle de Position"
+  "valve.pcv.detailed": "PCV : Vanne de Contrôle de Position",
+  "dialog": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "discardChanges": "Ignorer les modifications",
+    "discardWithunsavedChangesHint": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
+    "keepEditing": "Continuer l'édition",
+    "save": "Enregistrer",
+    "saveWithWarningsHint": "Il y a des avertissements de validation."
+  },
+  "headlossCurve": "Courbe",
+  "valveCurve": "Courbe"
 }

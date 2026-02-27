@@ -927,5 +927,16 @@
   "valve.gpv": "GPV",
   "valve.gpv.detailed": "GPV: Válvula de Propósito General",
   "valve.pcv": "PCV",
-  "valve.pcv.detailed": "PCV: Válvula de Control Posicional"
+  "valve.pcv.detailed": "PCV: Válvula de Control Posicional",
+  "dialog": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "discardChanges": "Descartar cambios",
+    "discardWithunsavedChangesHint": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
+    "keepEditing": "Mantener edición",
+    "save": "Guardar",
+    "saveWithWarningsHint": "Hay algunas advertencias de validación."
+  },
+  "headlossCurve": "Curva",
+  "valveCurve": "Curva"
 }

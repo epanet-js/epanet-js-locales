@@ -920,5 +920,16 @@
   "valve.gpv": "GPV",
   "valve.gpv.detailed": "GPV: 一般用途弁 (General Purpose Valve)",
   "valve.pcv": "PCV",
-  "valve.pcv.detailed": "PCV: 位置制御弁 (Positional Control Valve)"
+  "valve.pcv.detailed": "PCV: 位置制御弁 (Positional Control Valve)",
+  "dialog": {
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "discardChanges": "変更を破棄",
+    "discardWithunsavedChangesHint": "未保存の変更があります。破棄してもよろしいですか？",
+    "keepEditing": "編集を続ける",
+    "save": "保存",
+    "saveWithWarningsHint": "検証の警告がいくつかあります。"
+  },
+  "headlossCurve": "曲線",
+  "valveCurve": "曲線"
 }
