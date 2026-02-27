@@ -922,5 +922,10 @@
   "x": "X",
   "y": "Y",
   "openPumpLibrary": "Abrir biblioteca...",
-  "pumpLibrary": "Biblioteca de Bombas"
+  "pumpLibrary": "Biblioteca de Bombas",
+  "onboardingMoveCustomerPoint": "Arrastra el punto de consumo para cambiar su posición.",
+  "valve.gpv": "GPV",
+  "valve.gpv.detailed": "GPV: Válvula de Propósito General",
+  "valve.pcv": "PCV",
+  "valve.pcv.detailed": "PCV: Válvula de Control Posicional"
 }

@@ -915,5 +915,10 @@
   "x": "X",
   "y": "Y",
   "openPumpLibrary": "ライブラリを開く...",
-  "pumpLibrary": "ポンプライブラリ"
+  "pumpLibrary": "ポンプライブラリ",
+  "onboardingMoveCustomerPoint": "顧客ポイントをドラッグして位置を変更します。",
+  "valve.gpv": "GPV",
+  "valve.gpv.detailed": "GPV: 一般用途弁 (General Purpose Valve)",
+  "valve.pcv": "PCV",
+  "valve.pcv.detailed": "PCV: 位置制御弁 (Positional Control Valve)"
 }

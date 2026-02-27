@@ -915,5 +915,10 @@
   "x": "X",
   "y": "Y",
   "openPumpLibrary": "Bibliotheek openen...",
-  "pumpLibrary": "Pompbibliotheek"
+  "pumpLibrary": "Pompbibliotheek",
+  "onboardingMoveCustomerPoint": "Sleep het klantpunt om de positie te wijzigen.",
+  "valve.gpv": "GPV",
+  "valve.gpv.detailed": "GPV: Algemeen Doel Ventiel",
+  "valve.pcv": "PCV",
+  "valve.pcv.detailed": "PCV: Positieregelventiel"
 }
