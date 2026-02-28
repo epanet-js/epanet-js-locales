@@ -931,5 +931,8 @@
     "saveWithWarningsHint": "Il y a des avertissements de validation."
   },
   "headlossCurve": "Courbe",
-  "valveCurve": "Courbe"
+  "valveCurve": "Courbe",
+  "efficiency": "Rendement",
+  "percentFullFlow": "% plein débit",
+  "percentOpen": "% ouvert"
 }

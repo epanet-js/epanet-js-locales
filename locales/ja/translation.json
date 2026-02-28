@@ -931,5 +931,8 @@
     "saveWithWarningsHint": "検証の警告がいくつかあります。"
   },
   "headlossCurve": "曲線",
-  "valveCurve": "曲線"
+  "valveCurve": "曲線",
+  "efficiency": "効率",
+  "percentFullFlow": "全流量 %",
+  "percentOpen": "開度 %"
 }

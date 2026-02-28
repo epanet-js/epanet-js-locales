@@ -931,5 +931,8 @@
     "saveWithWarningsHint": "Er zijn enkele validatiewaarschuwingen."
   },
   "headlossCurve": "Curve",
-  "valveCurve": "Curve"
+  "valveCurve": "Curve",
+  "efficiency": "Rendement",
+  "percentFullFlow": "% volledige stroming",
+  "percentOpen": "% open"
 }

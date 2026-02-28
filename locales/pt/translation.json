@@ -931,5 +931,8 @@
     "saveWithWarningsHint": "Há alguns avisos de validação."
   },
   "headlossCurve": "Curva",
-  "valveCurve": "Curva"
+  "valveCurve": "Curva",
+  "efficiency": "Eficiência",
+  "percentFullFlow": "% vazão total",
+  "percentOpen": "% aberta"
 }
