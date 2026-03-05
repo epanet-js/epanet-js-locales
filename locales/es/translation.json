@@ -675,7 +675,8 @@
     "missingValues": "Por favor, completa todos los valores.",
     "valueAscendingOrder": "Los valores de {{1}} deben estar en orden ascendente.",
     "valueDescendingOrder": "Los valores de {{1}} deben estar en orden descendente.",
-    "valueMustBeNonZero": "El valor de {{1}} no debe ser cero."
+    "valueMustBeNonZero": "El valor de {{1}} no debe ser cero.",
+    "needsMorePoints": "La curva requiere más de un punto."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edición y selección",
@@ -791,7 +792,33 @@
     "waterQuality": "Calidad del agua",
     "waterQualityAnalysis": "Análisis",
     "waterQualityReactions": "Constantes de reacción",
-    "waterQualityWall": "Interacción en la pared"
+    "waterQualityWall": "Interacción en la pared",
+    "energy": "Energía",
+    "energyDemandCharge": "Tarifa por demanda",
+    "energyDemandChargeDesc": "Un cargo adicional basado en la potencia máxima (kW) consumida por la red durante el período de simulación. Esto representa la tarifa de \"demanda máxima\" que suelen cobrar las empresas eléctricas.",
+    "energyGlobalEfficiency": "Eficiencia global de bomba",
+    "energyGlobalEfficiencyDesc": "La eficiencia energética predeterminada (%) para todas las bombas de la red. Este valor se utiliza para calcular la potencia consumida por la bomba en función de su caudal y carga. Puedes anularlo para bombas individuales si tienen curvas de eficiencia específicas proporcionadas por el fabricante.",
+    "energyGlobalPattern": "Patrón global de precio de la energía",
+    "energyGlobalPatternDesc": "El ID de un patrón de tiempo que describe cómo varía el precio de la energía a lo largo del día (por ejemplo, para la facturación por \"franjas horarias\"). Si se deja en blanco, el precio global permanece constante.",
+    "energyGlobalPrice": "Precio global de la energía",
+    "energyGlobalPriceDesc": "El costo energético predeterminado por kilovatio-hora ($/kWh) utilizado en toda la simulación. Este valor se multiplica por el consumo de energía calculado de cada bomba para determinar el costo operativo total.",
+    "flowUnits": "Unidades de flujo",
+    "flowUnitsDesc": "Establece las unidades en las que se expresan los caudales.",
+    "general": "General",
+    "headlossFormula": "Fórmula de pérdida de carga",
+    "headlossFormulaDesc": "Selecciona una fórmula para calcular la pérdida de carga por flujo a través de una tubería.",
+    "noPatternsYet": "Aún no hay patrones",
+    "pressureUnits": "Unidades de presión",
+    "pressureUnitsDesc": "Establece las unidades en las que se expresa la presión.",
+    "reportEnergy": "Reportar uso de energía",
+    "reportEnergyDesc": "Incluir un resumen del uso y costo de la energía para cada bomba en el informe de simulación.",
+    "reportEnergyNo": "No",
+    "reportEnergyYes": "Sí",
+    "statusReport": "Informe de estado",
+    "statusReportDesc": "Determina si se debe generar un informe de estado hidráulico. Si se selecciona 'Sí', el informe identificará todos los componentes de la red que cambian de estado durante cada paso de tiempo de la simulación. Si se selecciona 'Completo', el informe de estado también incluirá información de cada intento de cada análisis hidráulico.",
+    "statusReportFull": "Completo",
+    "statusReportNo": "No",
+    "statusReportYes": "Sí"
   },
   "utilities": "Aplicaciones de utilidades",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
@@ -977,7 +1004,11 @@
     "setAsPumpSpeed": "Establecer como velocidad de bomba",
     "setAsReservoirHead": "Establecer como carga de embalse",
     "title": "Patrones",
-    "uncategorizedPatterns": "Sin categorizar"
+    "uncategorizedPatterns": "Sin categorizar",
+    "energyPricePatterns": "Precio de la energía",
+    "qualitySourceStrengthPatterns": "Intensidad de la fuente de calidad",
+    "setAsEnergyPrice": "Establecer como precio de la energía",
+    "setAsQualitySourceStrength": "Establecer como intensidad de la fuente de calidad"
   },
   "curves": {
     "addCurve": "Añadir curva de {{1}}",
@@ -1035,5 +1066,7 @@
   "tankShape": "Forma",
   "volumeBased": "Volumen total",
   "volumeCurve": "Curva de volumen",
-  "curvePointsDiffer": "Los puntos de la curva difieren"
+  "curvePointsDiffer": "Los puntos de la curva difieren",
+  "pumpCurve": "Curva de bomba",
+  "pumpDefinition": "Definición"
 }

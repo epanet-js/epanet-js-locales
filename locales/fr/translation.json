@@ -668,7 +668,8 @@
     "missingValues": "Veuillez remplir toutes les valeurs.",
     "valueAscendingOrder": "Les valeurs de {{1}} doivent être en ordre croissant.",
     "valueDescendingOrder": "Les valeurs de {{1}} doivent être en ordre décroissant.",
-    "valueMustBeNonZero": "La valeur de {{1}} ne doit pas être nulle."
+    "valueMustBeNonZero": "La valeur de {{1}} ne doit pas être nulle.",
+    "needsMorePoints": "La courbe nécessite plus d'un point."
   },
   "keyboardShortcuts": {
     "editingSelection": "Édition et sélection",
@@ -784,7 +785,33 @@
     "waterQuality": "Qualité de l'eau",
     "waterQualityAnalysis": "Analyse",
     "waterQualityReactions": "Constantes de réaction",
-    "waterQualityWall": "Interaction avec la paroi"
+    "waterQualityWall": "Interaction avec la paroi",
+    "energy": "Énergie",
+    "energyDemandCharge": "Coût de la demande",
+    "energyDemandChargeDesc": "Un coût supplémentaire basé sur la puissance maximale (kW) consommée par le réseau pendant la période de simulation. Cela représente les frais de « pointe de demande » souvent facturés par les compagnies d'électricité.",
+    "energyGlobalEfficiency": "Rendement global de la pompe",
+    "energyGlobalEfficiencyDesc": "Le rendement énergétique par défaut (%) pour toutes les pompes du réseau. Cette valeur est utilisée pour calculer la puissance consommée par la pompe en fonction de son débit et de sa charge. Vous pouvez la remplacer pour des pompes individuelles si elles ont des courbes de rendement spécifiques fournies par le fabricant.",
+    "energyGlobalPattern": "Motif global de prix de l'énergie",
+    "energyGlobalPatternDesc": "L'ID d'un motif temporel qui décrit comment le prix de l'énergie varie tout au long de la journée (par exemple, pour la facturation « Heures Pleines/Heures Creuses »). S'il est laissé vide, le prix global reste constant.",
+    "energyGlobalPrice": "Prix global de l'énergie",
+    "energyGlobalPriceDesc": "Le coût énergétique par défaut par kilowatt-heure ($/kWh) utilisé pour l'ensemble de la simulation. Cette valeur est multipliée par la consommation d'énergie calculée de chaque pompe pour déterminer le coût total d'exploitation.",
+    "flowUnits": "Unités de débit",
+    "flowUnitsDesc": "Définit les unités dans lesquelles les débits sont exprimés.",
+    "general": "Général",
+    "headlossFormula": "Formule de perte de charge",
+    "headlossFormulaDesc": "Sélectionne une formule à utiliser pour calculer la perte de charge pour le débit à travers une conduite.",
+    "noPatternsYet": "Aucun motif pour l'instant",
+    "pressureUnits": "Unités de pression",
+    "pressureUnitsDesc": "Définit les unités dans lesquelles la pression est exprimée.",
+    "reportEnergy": "Rapporter la consommation d'énergie",
+    "reportEnergyDesc": "Inclure un résumé de la consommation d'énergie et du coût pour chaque pompe dans le rapport de simulation.",
+    "reportEnergyNo": "Non",
+    "reportEnergyYes": "Oui",
+    "statusReport": "Rapport d'état",
+    "statusReportDesc": "Détermine si un rapport d'état hydraulique doit être généré. Si Oui est sélectionné, le rapport identifiera tous les composants du réseau qui changent d'état à chaque pas de temps de la simulation. Si Complet est sélectionné, le rapport d'état inclura également des informations de chaque essai de chaque analyse hydraulique.",
+    "statusReportFull": "Complet",
+    "statusReportNo": "Non",
+    "statusReportYes": "Oui"
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -970,7 +997,11 @@
     "setAsPumpSpeed": "Définir comme Vitesse de Pompe",
     "setAsReservoirHead": "Définir comme Charge du Réservoir",
     "title": "Motifs",
-    "uncategorizedPatterns": "Non catégorisé"
+    "uncategorizedPatterns": "Non catégorisé",
+    "energyPricePatterns": "Prix de l'énergie",
+    "qualitySourceStrengthPatterns": "Concentration de la source de qualité",
+    "setAsEnergyPrice": "Définir comme Prix de l'énergie",
+    "setAsQualitySourceStrength": "Définir comme Concentration de la source de qualité"
   },
   "curves": {
     "addCurve": "Ajouter une courbe {{1}}",
@@ -1028,5 +1059,7 @@
   "tankShape": "Forme",
   "volumeBased": "Volume total",
   "volumeCurve": "Courbe de volume",
-  "curvePointsDiffer": "Points de courbe différents"
+  "curvePointsDiffer": "Points de courbe différents",
+  "pumpCurve": "Courbe de pompe",
+  "pumpDefinition": "Définition"
 }
