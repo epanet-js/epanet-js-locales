@@ -668,8 +668,8 @@
     "missingValues": "Veuillez remplir toutes les valeurs.",
     "valueAscendingOrder": "Les valeurs de {{1}} doivent être en ordre croissant.",
     "valueDescendingOrder": "Les valeurs de {{1}} doivent être en ordre décroissant.",
-    "valueMustBeNonZero": "La valeur de {{1}} ne doit pas être nulle.",
-    "needsMorePoints": "La courbe nécessite plus d'un point."
+    "needsMorePoints": "La courbe nécessite plus d'un point.",
+    "needsNonZeroValue": "{{1}} nécessite au moins une valeur non nulle."
   },
   "keyboardShortcuts": {
     "editingSelection": "Édition et sélection",

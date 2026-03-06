@@ -668,8 +668,8 @@
     "missingValues": "すべての値を入力してください。",
     "valueAscendingOrder": "{{1}} の値は昇順である必要があります。",
     "valueDescendingOrder": "{{1}} の値は降順である必要があります。",
-    "valueMustBeNonZero": "{{1}} の値はゼロであってはなりません。",
-    "needsMorePoints": "曲線には複数の点が必要です。"
+    "needsMorePoints": "曲線には複数の点が必要です。",
+    "needsNonZeroValue": "{{1}} には少なくとも1つのゼロ以外の値が必要です。"
   },
   "keyboardShortcuts": {
     "editingSelection": "編集と選択",

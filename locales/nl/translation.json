@@ -668,8 +668,8 @@
     "missingValues": "Vul alstublieft alle waarden in.",
     "valueAscendingOrder": "{{1}} waarden moeten in oplopende volgorde staan.",
     "valueDescendingOrder": "{{1}} waarden moeten in aflopende volgorde staan.",
-    "valueMustBeNonZero": "{{1}} waarde mag niet nul zijn.",
-    "needsMorePoints": "De curve vereist meer dan één punt."
+    "needsMorePoints": "De curve vereist meer dan één punt.",
+    "needsNonZeroValue": "{{1}} heeft minstens één niet-nulwaarde nodig."
   },
   "keyboardShortcuts": {
     "editingSelection": "Bewerken & selectie",
@@ -1048,8 +1048,8 @@
   "headlossCurve": "Drukverliescurve",
   "valveCurve": "Curve",
   "efficiency": "Rendement",
-  "percentFullFlow": "% volledige stroming",
-  "percentOpen": "% open",
+  "percentFullFlow": "% Volledige stroming",
+  "percentOpen": "% Open",
   "area": "Oppervlakte",
   "areaBased": "Uniform oppervlakte",
   "curveBased": "Volumecurve",

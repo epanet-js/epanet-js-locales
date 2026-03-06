@@ -675,8 +675,8 @@
     "missingValues": "Por favor, completa todos los valores.",
     "valueAscendingOrder": "Los valores de {{1}} deben estar en orden ascendente.",
     "valueDescendingOrder": "Los valores de {{1}} deben estar en orden descendente.",
-    "valueMustBeNonZero": "El valor de {{1}} no debe ser cero.",
-    "needsMorePoints": "La curva requiere más de un punto."
+    "needsMorePoints": "La curva requiere más de un punto.",
+    "needsNonZeroValue": "{{1}} necesita al menos un valor diferente de cero."
   },
   "keyboardShortcuts": {
     "editingSelection": "Edición y selección",
