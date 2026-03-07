@@ -1061,5 +1061,9 @@
   "volumeCurve": "Volumecurve",
   "curvePointsDiffer": "Curvapunten verschillen",
   "pumpCurve": "Pompcurve",
-  "pumpDefinition": "Definitie"
+  "pumpDefinition": "Definitie",
+  "efficiencyCurve": "Rendementscurve",
+  "energy": "Energie",
+  "energyPrice": "Energieprijs",
+  "energyPricePattern": "Prijs patroon"
 }

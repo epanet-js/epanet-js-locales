@@ -1061,5 +1061,9 @@
   "volumeCurve": "容量曲線",
   "curvePointsDiffer": "曲線点が異なります",
   "pumpCurve": "ポンプ曲線",
-  "pumpDefinition": "定義"
+  "pumpDefinition": "定義",
+  "efficiencyCurve": "効率曲線",
+  "energy": "エネルギー",
+  "energyPrice": "エネルギー価格",
+  "energyPricePattern": "価格パターン"
 }

@@ -1061,5 +1061,9 @@
   "volumeCurve": "Courbe de volume",
   "curvePointsDiffer": "Points de courbe différents",
   "pumpCurve": "Courbe de pompe",
-  "pumpDefinition": "Définition"
+  "pumpDefinition": "Définition",
+  "efficiencyCurve": "Courbe de rendement",
+  "energy": "Énergie",
+  "energyPrice": "Prix de l'énergie",
+  "energyPricePattern": "Motif de prix"
 }
