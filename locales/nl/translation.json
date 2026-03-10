@@ -1065,5 +1065,13 @@
   "efficiencyCurve": "Rendementscurve",
   "energy": "Energie",
   "energyPrice": "Energieprijs",
-  "energyPricePattern": "Prijs patroon"
+  "energyPricePattern": "Prijs patroon",
+  "averageCostPerDay": "Gemiddelde kosten/dag",
+  "averageEfficiency": "Gemiddelde efficiëntie",
+  "averageKw": "Gemiddeld",
+  "averageKwPerFlowUnit": "Gemiddeld",
+  "demandCharge": "Vraagheffing",
+  "energyResults": "Energieresultaten",
+  "peakKw": "Piek",
+  "utilization": "Benutting"
 }

@@ -1065,5 +1065,13 @@
   "efficiencyCurve": "Curva de eficiência",
   "energy": "Energia",
   "energyPrice": "Preço de energia",
-  "energyPricePattern": "Padrão de preço"
+  "energyPricePattern": "Padrão de preço",
+  "averageCostPerDay": "Custo médio/dia",
+  "averageEfficiency": "Eficiência média",
+  "averageKw": "Média",
+  "averageKwPerFlowUnit": "Média",
+  "demandCharge": "Tarifa de demanda",
+  "energyResults": "Resultados de energia",
+  "peakKw": "Pico",
+  "utilization": "Utilização"
 }

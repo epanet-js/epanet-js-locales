@@ -1065,5 +1065,13 @@
   "efficiencyCurve": "Courbe de rendement",
   "energy": "Énergie",
   "energyPrice": "Prix de l'énergie",
-  "energyPricePattern": "Motif de prix"
+  "energyPricePattern": "Motif de prix",
+  "averageCostPerDay": "Coût moyen/jour",
+  "averageEfficiency": "Rendement moyen",
+  "averageKw": "Moyenne",
+  "averageKwPerFlowUnit": "Moyenne",
+  "demandCharge": "Coût de la demande",
+  "energyResults": "Résultats énergétiques",
+  "peakKw": "Pointe",
+  "utilization": "Utilisation"
 }

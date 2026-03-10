@@ -1065,5 +1065,13 @@
   "efficiencyCurve": "効率曲線",
   "energy": "エネルギー",
   "energyPrice": "エネルギー価格",
-  "energyPricePattern": "価格パターン"
+  "energyPricePattern": "価格パターン",
+  "averageCostPerDay": "日平均コスト",
+  "averageEfficiency": "平均効率",
+  "averageKw": "平均",
+  "averageKwPerFlowUnit": "平均",
+  "demandCharge": "デマンド料金",
+  "energyResults": "エネルギー結果",
+  "peakKw": "ピーク",
+  "utilization": "利用率"
 }
