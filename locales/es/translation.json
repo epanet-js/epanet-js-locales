@@ -1080,5 +1080,7 @@
   "demandCharge": "Tarifa por demanda",
   "energyResults": "Resultados de energía",
   "peakKw": "Pico",
-  "utilization": "Utilización"
+  "utilization": "Utilización",
+  "actualHead": "Carga",
+  "netFlow": "Flujo neto"
 }

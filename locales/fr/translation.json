@@ -1073,5 +1073,7 @@
   "demandCharge": "Coût de la demande",
   "energyResults": "Résultats énergétiques",
   "peakKw": "Pointe",
-  "utilization": "Utilisation"
+  "utilization": "Utilisation",
+  "actualHead": "Charge",
+  "netFlow": "Débit net"
 }

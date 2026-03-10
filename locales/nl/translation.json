@@ -1073,5 +1073,7 @@
   "demandCharge": "Vraagheffing",
   "energyResults": "Energieresultaten",
   "peakKw": "Piek",
-  "utilization": "Benutting"
+  "utilization": "Benutting",
+  "actualHead": "Opvoerhoogte",
+  "netFlow": "Nettostroom"
 }

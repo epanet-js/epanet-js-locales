@@ -1073,5 +1073,7 @@
   "demandCharge": "デマンド料金",
   "energyResults": "エネルギー結果",
   "peakKw": "ピーク",
-  "utilization": "利用率"
+  "utilization": "利用率",
+  "actualHead": "水頭",
+  "netFlow": "正味流量"
 }
