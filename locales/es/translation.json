@@ -818,7 +818,11 @@
     "statusReportDesc": "Determina si se debe generar un informe de estado hidráulico. Si se selecciona 'Sí', el informe identificará todos los componentes de la red que cambian de estado durante cada paso de tiempo de la simulación. Si se selecciona 'Completo', el informe de estado también incluirá información de cada intento de cada análisis hidráulico.",
     "statusReportFull": "Completo",
     "statusReportNo": "No",
-    "statusReportYes": "Sí"
+    "statusReportYes": "Sí",
+    "backflowAllowed": "Flujo inverso permitido",
+    "backflowAllowedDesc": "Especifica si se permite el flujo inverso a través de un emisor (es decir, el flujo hacia la red).",
+    "backflowAllowedNo": "No",
+    "backflowAllowedYes": "Sí"
   },
   "utilities": "Aplicaciones de utilidades",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
@@ -1082,5 +1086,6 @@
   "peakKw": "Pico",
   "utilization": "Utilización",
   "actualHead": "Carga",
-  "netFlow": "Flujo neto"
+  "netFlow": "Flujo neto",
+  "recent": "Recientes"
 }

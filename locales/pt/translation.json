@@ -811,7 +811,11 @@
     "statusReportDesc": "Determina se um relatório de status hidráulico deve ser gerado. Se Sim for selecionado, o relatório identificará todos os componentes da rede que mudam de status durante cada passo de tempo da simulação. Se Completo for selecionado, o relatório de status também incluirá informações de cada tentativa de cada análise hidráulica.",
     "statusReportFull": "Completo",
     "statusReportNo": "Não",
-    "statusReportYes": "Sim"
+    "statusReportYes": "Sim",
+    "backflowAllowed": "Retrossifão permitido",
+    "backflowAllowedDesc": "Especifica se o retrossifão através de um emissor (ou seja, fluxo para a rede) é permitido.",
+    "backflowAllowedNo": "Não",
+    "backflowAllowedYes": "Sim"
   },
   "utilities": "Aplicativos utilitários",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
@@ -1075,5 +1079,6 @@
   "peakKw": "Pico",
   "utilization": "Utilização",
   "actualHead": "Carga",
-  "netFlow": "Vazão líquida"
+  "netFlow": "Vazão líquida",
+  "recent": "Recentes"
 }

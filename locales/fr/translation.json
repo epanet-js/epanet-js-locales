@@ -811,7 +811,11 @@
     "statusReportDesc": "Détermine si un rapport d'état hydraulique doit être généré. Si Oui est sélectionné, le rapport identifiera tous les composants du réseau qui changent d'état à chaque pas de temps de la simulation. Si Complet est sélectionné, le rapport d'état inclura également des informations de chaque essai de chaque analyse hydraulique.",
     "statusReportFull": "Complet",
     "statusReportNo": "Non",
-    "statusReportYes": "Oui"
+    "statusReportYes": "Oui",
+    "backflowAllowed": "Refoulement autorisé",
+    "backflowAllowedDesc": "Spécifie si le refoulement à travers un émetteur (c'est-à-dire le flux entrant dans le réseau) est autorisé.",
+    "backflowAllowedNo": "Non",
+    "backflowAllowedYes": "Oui"
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -1075,5 +1079,6 @@
   "peakKw": "Pointe",
   "utilization": "Utilisation",
   "actualHead": "Charge",
-  "netFlow": "Débit net"
+  "netFlow": "Débit net",
+  "recent": "Récents"
 }

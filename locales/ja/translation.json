@@ -811,7 +811,11 @@
     "statusReportDesc": "水理状態レポートを生成するかどうかを決定します。「はい」を選択した場合、レポートはシミュレーションの各時間ステップ中にステータスが変化するすべてのネットワークコンポーネントを特定します。「完全」を選択した場合、ステータスレポートには、各水理解析の各試行からの情報も含まれます。",
     "statusReportFull": "完全",
     "statusReportNo": "いいえ",
-    "statusReportYes": "はい"
+    "statusReportYes": "はい",
+    "backflowAllowed": "逆流を許可",
+    "backflowAllowedDesc": "エミッターを介した逆流（つまり、ネットワークへの流入）が許可されているかどうかを指定します。",
+    "backflowAllowedNo": "いいえ",
+    "backflowAllowedYes": "はい"
   },
   "utilities": "ユーティリティ",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
@@ -1075,5 +1079,6 @@
   "peakKw": "ピーク",
   "utilization": "利用率",
   "actualHead": "水頭",
-  "netFlow": "正味流量"
+  "netFlow": "正味流量",
+  "recent": "最近"
 }

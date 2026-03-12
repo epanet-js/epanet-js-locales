@@ -811,7 +811,11 @@
     "statusReportDesc": "Bepaalt of een hydraulisch statusrapport moet worden gegenereerd. Indien Ja is geselecteerd, identificeert het rapport alle netwerkcomponenten die van status veranderen tijdens elke tijdstap van de simulatie. Indien Volledig is geselecteerd, dan zal het statusrapport ook informatie bevatten van elke trial van elke hydraulische analyse.",
     "statusReportFull": "Volledig",
     "statusReportNo": "Nee",
-    "statusReportYes": "Ja"
+    "statusReportYes": "Ja",
+    "backflowAllowed": "Terugstroom toegestaan",
+    "backflowAllowedDesc": "Specificeert of terugstroom via een emittor (d.w.z. stroming in het netwerk) is toegestaan.",
+    "backflowAllowedNo": "Nee",
+    "backflowAllowedYes": "Ja"
   },
   "utilities": "Hulpprogramma's",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
@@ -1075,5 +1079,6 @@
   "peakKw": "Piek",
   "utilization": "Benutting",
   "actualHead": "Opvoerhoogte",
-  "netFlow": "Nettostroom"
+  "netFlow": "Nettostroom",
+  "recent": "Recent"
 }
