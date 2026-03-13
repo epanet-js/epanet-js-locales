@@ -1080,5 +1080,6 @@
   "utilization": "Benutting",
   "actualHead": "Opvoerhoogte",
   "netFlow": "Nettostroom",
-  "recent": "Recent"
+  "recent": "Recent",
+  "couldNotOpenRecentFile": "Kon het recente bestand niet openen. Probeer de optie INP openen."
 }

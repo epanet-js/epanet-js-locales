@@ -1080,5 +1080,6 @@
   "utilization": "Utilização",
   "actualHead": "Carga",
   "netFlow": "Vazão líquida",
-  "recent": "Recentes"
+  "recent": "Recentes",
+  "couldNotOpenRecentFile": "Não foi possível abrir o arquivo recente. Tente a opção Abrir INP."
 }

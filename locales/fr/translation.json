@@ -1080,5 +1080,6 @@
   "utilization": "Utilisation",
   "actualHead": "Charge",
   "netFlow": "Débit net",
-  "recent": "Récents"
+  "recent": "Récents",
+  "couldNotOpenRecentFile": "Impossible d'ouvrir le fichier récent. Essayez l'option Ouvrir INP."
 }

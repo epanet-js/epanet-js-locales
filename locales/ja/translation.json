@@ -1080,5 +1080,6 @@
   "utilization": "利用率",
   "actualHead": "水頭",
   "netFlow": "正味流量",
-  "recent": "最近"
+  "recent": "最近",
+  "couldNotOpenRecentFile": "最近のファイルを開けませんでした。「INPを開く」オプションを試してください。"
 }
