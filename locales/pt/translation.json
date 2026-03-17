@@ -1081,5 +1081,22 @@
   "actualHead": "Carga",
   "netFlow": "Vazão líquida",
   "recent": "Recentes",
-  "couldNotOpenRecentFile": "Não foi possível abrir o arquivo recente. Tente a opção Abrir INP."
+  "couldNotOpenRecentFile": "Não foi possível abrir o arquivo recente. Tente a opção Abrir INP.",
+  "afdCompact": "Acre-pés por dia (AFD)",
+  "cfsCompact": "Pés cúbicos por segundo (CFS)",
+  "cmdCompact": "Metros cúbicos por dia (CMD)",
+  "cmhCompact": "Metros cúbicos por hora (CMH)",
+  "demo": "Demo",
+  "gpmCompact": "Galões por minuto (GPM)",
+  "imgdCompact": "Megalões imperiais por dia (IMGD)",
+  "lpmCompact": "Litros por minuto (LPM)",
+  "lpsCompact": "Litros por segundo (LPS)",
+  "mgdCompact": "Milhões de galões por dia (MGD)",
+  "mldCompact": "Megalitros por dia (MLD)",
+  "pressureUnitBar": "Bar (bar)",
+  "pressureUnitFwc": "Pés (ft)",
+  "pressureUnitKpa": "Quilopascais (kPa)",
+  "pressureUnitMwc": "Metros (m)",
+  "pressureUnitPsi": "Libras por polegada quadrada (psi)",
+  "projection": "Projeção"
 }
