@@ -1080,13 +1080,11 @@
   "utilization": "利用率",
   "actualHead": "水頭",
   "netFlow": "正味流量",
-  "recent": "最近",
   "couldNotOpenRecentFile": "最近のファイルを開けませんでした。「INPを開く」オプションを試してください。",
   "afdCompact": "エーカー・フィート/日 (AFD)",
   "cfsCompact": "立方フィート/秒 (CFS)",
   "cmdCompact": "立方メートル/日 (CMD)",
   "cmhCompact": "立方メートル/時 (CMH)",
-  "demo": "デモ",
   "gpmCompact": "ガロン/分 (GPM)",
   "imgdCompact": "インペリアルメガガロン/日 (IMGD)",
   "lpmCompact": "リットル/分 (LPM)",
@@ -1098,5 +1096,7 @@
   "pressureUnitKpa": "キロパスカル (kPa)",
   "pressureUnitMwc": "メートル (m)",
   "pressureUnitPsi": "ポンド/平方インチ (psi)",
-  "projection": "投影"
+  "projection": "投影",
+  "demoShort": "デモ",
+  "recentNetworks": "最近のプロジェクト"
 }

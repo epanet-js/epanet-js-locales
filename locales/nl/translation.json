@@ -1080,13 +1080,11 @@
   "utilization": "Benutting",
   "actualHead": "Opvoerhoogte",
   "netFlow": "Nettostroom",
-  "recent": "Recent",
   "couldNotOpenRecentFile": "Kon het recente bestand niet openen. Probeer de optie INP openen.",
   "afdCompact": "Acre-feet per dag (AFD)",
   "cfsCompact": "Kubieke feet per seconde (CFS)",
   "cmdCompact": "Kubieke meter per dag (CMD)",
   "cmhCompact": "Kubieke meter per uur (CMH)",
-  "demo": "Demo",
   "gpmCompact": "Gallons per minuut (GPM)",
   "imgdCompact": "Imperiale Mgal per dag (IMGD)",
   "lpmCompact": "Liter per minuut (LPM)",
@@ -1098,5 +1096,7 @@
   "pressureUnitKpa": "Kilopascal (kPa)",
   "pressureUnitMwc": "Meter (m)",
   "pressureUnitPsi": "Pounds per sq. inch (psi)",
-  "projection": "Projectie"
+  "projection": "Projectie",
+  "demoShort": "Demo",
+  "recentNetworks": "Recent projecten"
 }

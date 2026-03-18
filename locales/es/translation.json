@@ -1087,13 +1087,11 @@
   "utilization": "Utilización",
   "actualHead": "Carga",
   "netFlow": "Flujo neto",
-  "recent": "Recientes",
   "couldNotOpenRecentFile": "No se pudo abrir el archivo reciente. Intenta la opción Abrir INP.",
   "afdCompact": "Acre-pies por día (AFD)",
   "cfsCompact": "Pies cúbicos por segundo (CFS)",
   "cmdCompact": "Metros cúbicos por día (CMD)",
   "cmhCompact": "Metros cúbicos por hora (CMH)",
-  "demo": "Demostración",
   "gpmCompact": "Galones por minuto (GPM)",
   "imgdCompact": "Mgal imperiales por día (IMGD)",
   "lpmCompact": "Litros por minuto (LPM)",
@@ -1105,5 +1103,7 @@
   "pressureUnitKpa": "Kilopascales (kPa)",
   "pressureUnitMwc": "Metros (m)",
   "pressureUnitPsi": "Libras por pulgada cuadrada (psi)",
-  "projection": "Proyección"
+  "projection": "Proyección",
+  "demoShort": "Demostración",
+  "recentNetworks": "Proyectos recientes"
 }
