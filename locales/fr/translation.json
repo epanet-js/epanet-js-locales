@@ -1098,5 +1098,12 @@
   "pressureUnitPsi": "Livres par pouce carré (psi)",
   "projection": "Projection",
   "demoShort": "Démo",
-  "recentNetworks": "Projets récents"
+  "recentNetworks": "Projets récents",
+  "addNewElevationData": "Ajouter de nouvelles données d'élévation",
+  "defaultColor": "Couleur par défaut",
+  "elevations": "Élévations",
+  "globalDtm": "MNT global",
+  "mapboxDefaultData": "Données par défaut Mapbox",
+  "recentFilePermissionDenied": "L'accès à ce fichier a été refusé. Essayez d'utiliser l'option Ouvrir INP à la place.",
+  "userElevationData": "Données d'élévation utilisateur"
 }

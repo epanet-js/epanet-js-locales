@@ -1098,5 +1098,12 @@
   "pressureUnitPsi": "Pounds per sq. inch (psi)",
   "projection": "Projectie",
   "demoShort": "Demo",
-  "recentNetworks": "Recent projecten"
+  "recentNetworks": "Recent projecten",
+  "addNewElevationData": "Nieuwe hoogtegegevens toevoegen",
+  "defaultColor": "Standaardkleur",
+  "elevations": "Hoogtes",
+  "globalDtm": "Wereldwijd DTM",
+  "mapboxDefaultData": "Mapbox standaardgegevens",
+  "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
+  "userElevationData": "Gebruikers hoogtegegevens"
 }

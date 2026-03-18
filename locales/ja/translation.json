@@ -1098,5 +1098,12 @@
   "pressureUnitPsi": "ポンド/平方インチ (psi)",
   "projection": "投影",
   "demoShort": "デモ",
-  "recentNetworks": "最近のプロジェクト"
+  "recentNetworks": "最近のプロジェクト",
+  "addNewElevationData": "新しい標高データを追加",
+  "defaultColor": "デフォルトの色",
+  "elevations": "標高",
+  "globalDtm": "グローバルDTM",
+  "mapboxDefaultData": "Mapboxデフォルトデータ",
+  "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
+  "userElevationData": "ユーザー標高データ"
 }

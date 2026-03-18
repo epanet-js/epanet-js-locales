@@ -1105,5 +1105,12 @@
   "pressureUnitPsi": "Libras por pulgada cuadrada (psi)",
   "projection": "Proyección",
   "demoShort": "Demo",
-  "recentNetworks": "Proyectos recientes"
+  "recentNetworks": "Proyectos recientes",
+  "addNewElevationData": "Añadir nuevos datos de elevación",
+  "defaultColor": "Color predeterminado",
+  "elevations": "Elevaciones",
+  "globalDtm": "DTM Global",
+  "mapboxDefaultData": "Datos predeterminados de Mapbox",
+  "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta usar la opción Abrir INP en su lugar.",
+  "userElevationData": "Datos de elevación del usuario"
 }
