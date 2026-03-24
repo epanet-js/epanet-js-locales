@@ -1105,5 +1105,7 @@
   "globalDtm": "グローバルDTM",
   "mapboxDefaultData": "Mapboxデフォルトデータ",
   "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
-  "userElevationData": "ユーザー標高データ"
+  "userElevationData": "ユーザー標高データ",
+  "addMoreTiles": "さらにタイルを追加",
+  "projectionOffset": "投影オフセット"
 }

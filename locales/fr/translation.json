@@ -1105,5 +1105,7 @@
   "globalDtm": "MNT global",
   "mapboxDefaultData": "Données par défaut Mapbox",
   "recentFilePermissionDenied": "L'accès à ce fichier a été refusé. Essayez d'utiliser l'option Ouvrir INP à la place.",
-  "userElevationData": "Données d'élévation utilisateur"
+  "userElevationData": "Données d'élévation utilisateur",
+  "addMoreTiles": "Ajouter plus de tuiles",
+  "projectionOffset": "Décalage de projection"
 }

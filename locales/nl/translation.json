@@ -1105,5 +1105,7 @@
   "globalDtm": "Wereldwijd DTM",
   "mapboxDefaultData": "Mapbox standaardgegevens",
   "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
-  "userElevationData": "Gebruikers hoogtegegevens"
+  "userElevationData": "Gebruikers hoogtegegevens",
+  "addMoreTiles": "Meer tegels toevoegen",
+  "projectionOffset": "Projectie-offset"
 }

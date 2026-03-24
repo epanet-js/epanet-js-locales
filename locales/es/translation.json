@@ -1112,5 +1112,7 @@
   "globalDtm": "DTM Global",
   "mapboxDefaultData": "Datos predeterminados de Mapbox",
   "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta usar la opción Abrir INP en su lugar.",
-  "userElevationData": "Datos de elevación del usuario"
+  "userElevationData": "Datos de elevación del usuario",
+  "addMoreTiles": "Añadir más teselas",
+  "projectionOffset": "Desplazamiento de proyección"
 }
