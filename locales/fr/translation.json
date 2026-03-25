@@ -1107,5 +1107,9 @@
   "recentFilePermissionDenied": "L'accès à ce fichier a été refusé. Essayez d'utiliser l'option Ouvrir INP à la place.",
   "userElevationData": "Données d'élévation utilisateur",
   "addMoreTiles": "Ajouter plus de tuiles",
-  "projectionOffset": "Décalage de projection"
+  "projectionOffset": "Décalage de projection",
+  "files_one": "1 fichier",
+  "files_other": "{{count}} fichiers",
+  "files_zero": "Aucun fichier",
+  "gridResolution": "Grille {{1}}"
 }

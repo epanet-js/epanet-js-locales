@@ -1114,5 +1114,9 @@
   "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta usar la opción Abrir INP en su lugar.",
   "userElevationData": "Datos de elevación del usuario",
   "addMoreTiles": "Añadir más teselas",
-  "projectionOffset": "Desplazamiento de proyección"
+  "projectionOffset": "Desplazamiento de proyección",
+  "files_one": "1 archivo",
+  "files_other": "{{count}} archivos",
+  "files_zero": "No hay archivos",
+  "gridResolution": "{{1}} cuadrícula"
 }

@@ -1107,5 +1107,9 @@
   "recentFilePermissionDenied": "A permissão para acessar este arquivo foi negada. Tente usar a opção Abrir INP.",
   "userElevationData": "Dados de elevação do usuário",
   "addMoreTiles": "Adicionar mais camadas",
-  "projectionOffset": "Deslocamento de projeção"
+  "projectionOffset": "Deslocamento de projeção",
+  "files_one": "1 arquivo",
+  "files_other": "{{count}} arquivos",
+  "files_zero": "Nenhum arquivo",
+  "gridResolution": "Grade {{1}}"
 }

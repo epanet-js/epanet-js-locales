@@ -1107,5 +1107,9 @@
   "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
   "userElevationData": "Gebruikers hoogtegegevens",
   "addMoreTiles": "Meer tegels toevoegen",
-  "projectionOffset": "Projectie-offset"
+  "projectionOffset": "Projectie-offset",
+  "files_one": "1 bestand",
+  "files_other": "{{count}} bestanden",
+  "files_zero": "Geen bestanden",
+  "gridResolution": "{{1}} raster"
 }

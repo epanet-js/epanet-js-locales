@@ -1107,5 +1107,9 @@
   "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
   "userElevationData": "ユーザー標高データ",
   "addMoreTiles": "さらにタイルを追加",
-  "projectionOffset": "投影オフセット"
+  "projectionOffset": "投影オフセット",
+  "files_one": "ファイル 1 件",
+  "files_other": "ファイル {{count}} 件",
+  "files_zero": "ファイルなし",
+  "gridResolution": "{{1}} グリッド"
 }
