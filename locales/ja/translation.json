@@ -122,8 +122,6 @@
   "free.forBetterModelling": "より良いモデリング体験のために",
   "free.noLimits": "サイズ制限なし",
   "free.webBasedEpanet": "WebベースのEPANETモデル",
-  "geocodingNotSupported": "マップに表示するために管網を再投影してください",
-  "geocodingNotSupportedDetail": "お使いのINPファイルは現在サポートされていない座標系を使用しています。管網をマップに表示するには、座標をWGS84標準（緯度と経度）に変換する必要があります。<br/><br/>これには<converterLink>EPANET Projection Converterユーティリティ</converterLink>を使用できます。",
   "getHelp": "ヘルプを参照",
   "gettingStarted": "はじめに",
   "gpmDescription": "米国慣用単位、流量単位はgal/min",
@@ -417,7 +415,6 @@
   "redo": "やり直し",
   "regenerate": "再生成",
   "register": "登録",
-  "reprojectNetwork": "管網の再投影",
   "reservoir": "貯水池",
   "reverseColors": "色を反転",
   "roughness": "流速係数",
@@ -957,12 +954,8 @@
   "importAsUnprojected": "投影なしでインポート",
   "off": "オフ",
   "inpProjectionChoice": {
-    "description": "ベースマップと自動標高を提供するために、お客様の座標が現実世界の場所を表しているのか、それとも単純なX-Yグリッドを表しているのかを知る必要があります。",
-    "nonProjectedDescription": "お客様のネットワークは独立したスケッチであり、物理的な場所には関連付けられていません。",
     "nonProjectedTitle": "シンプルなX-Yグリッド",
-    "projectedDescription": "お客様のネットワークは現実世界の地理情報と一致しています。",
-    "projectedTitle": "マップベース",
-    "title": "ネットワークの位置を設定する"
+    "projectedTitle": "マップベース"
   },
   "headPattern": "水頭パターン",
   "openPatternsLibrary": "ライブラリを開く...",
@@ -985,7 +978,6 @@
   "initialSpeed": "初期速度",
   "patternBased": "パターンベース",
   "variableSpeed": "可変速度",
-  "loadInXYGrid": "X-Yグリッドで読み込む",
   "multipliersDiffer": "乗数が異なります",
   "patterns": {
     "addPattern": "{{1}} パターンを追加",
@@ -1120,12 +1112,14 @@
     "loadWithoutBasemap": "ベースマップなしで読み込む",
     "matchingProjections": "一致する投影",
     "noMatchingProjections": "この場所に一致する投影は見つかりませんでした",
-    "noProjectionHint": "ネットワークが投影を使用しない場合、ベースマップなしで読み込むことができます。",
+    "noProjectionHint": "背景マップが必要ない場合は、このステップをスキップしてベースマップなしで続行できます。",
     "projectionOutOfBounds": "投影が範囲外です",
-    "searchHint": "ネットワークの場所を検索するか、上に投影コードを入力して適切な座標系を見つけてください。",
+    "searchHint": "ネットワークの場所を検索するか、上にコードを入力して正しい座標系を設定してください。",
     "searchingProjections": "投影を検索中...",
     "searchPlaceholder": "場所またはコードで検索",
-    "title": "ネットワーク投影"
+    "title": "ネットワーク投影",
+    "noResultsDescription": "別の場所を検索するか、マップをズームアウトして検索範囲を広げてみてください。",
+    "noResultsTitle": "ここでは一致する投影が見つかりませんでした"
   },
   "unsupportedProjection": "サポートされていない投影",
   "unsupportedProjectionExplain": "{{1}} を読み込めませんでした ({{2}})。サポートされているCRSに再投影してください。"

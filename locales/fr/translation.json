@@ -107,7 +107,6 @@
   "failedToOpenModel": "Échec d'ouverture du modèle",
   "failedToOpenModelDetail": "Assurez-vous de fournir un fichier INP valide.",
   "understood": "Compris",
-  "reprojectNetwork": "Reprojeter le Réseau",
   "error": "Erreur",
   "save": "Enregistrer",
   "saveAndContinue": "Enregistrer et Continuer",
@@ -193,8 +192,6 @@
   "privacyPolicy": "Politique de Confidentialité",
   "downloadFailed": "Échec du Téléchargement",
   "checkConnectionAndTry": "Veuillez vérifier votre connexion internet et réessayer.",
-  "geocodingNotSupported": "Reprojetez votre réseau pour l'afficher sur la carte",
-  "geocodingNotSupportedDetail": "Votre fichier INP utilise un système de coordonnées qui n'est actuellement pas supporté. Pour visualiser votre réseau sur la carte, vous devrez convertir les coordonnées vers le standard WGS84 (latitude et longitude).<br/><br/>Vous pouvez le faire en utilisant l'<converterLink>utilitaire EPANET Projection Converter</converterLink>.",
   "missingCoordinates": "Coordonnées Manquantes",
   "missingCoordinatesDetail": "Votre fichier INP manque de coordonnées requises. Veuillez vous assurer que tous les éléments incluent des informations géocodées en utilisant le standard WGS84.",
   "inpNotFullySupported": "Fonctionnalités partiellement supportées",
@@ -957,12 +954,8 @@
   "importAsUnprojected": "Importer comme non projeté",
   "off": "Désactivé",
   "inpProjectionChoice": {
-    "description": "Pour fournir des fonds de carte et des élévations automatiques, nous devons savoir si vos coordonnées représentent des emplacements réels ou une simple grille X-Y.",
-    "nonProjectedDescription": "Votre réseau est un croquis autonome et n'est pas lié à un emplacement physique.",
     "nonProjectedTitle": "Grille X-Y Simple",
-    "projectedDescription": "Votre réseau correspond à la géographie du monde réel.",
-    "projectedTitle": "Basé sur la carte",
-    "title": "Définissez l'emplacement de votre réseau"
+    "projectedTitle": "Basé sur la carte"
   },
   "headPattern": "Motif de charge",
   "openPatternsLibrary": "Ouvrir les motifs...",
@@ -985,7 +978,6 @@
   "initialSpeed": "Vitesse initiale",
   "patternBased": "Basé sur un motif",
   "variableSpeed": "Vitesse variable",
-  "loadInXYGrid": "Charger dans une grille X-Y",
   "multipliersDiffer": "Multiplicateurs différents",
   "patterns": {
     "addPattern": "Ajouter un motif {{1}}",
@@ -1114,18 +1106,20 @@
   "gridResolution": "Grille {{1}}",
   "customProjection": "projection personnalisée",
   "networkProjection": {
-    "addBasemap": "Ajouter un fond de carte",
-    "applyBasemap": "Appliquer le fond de carte",
+    "addBasemap": "Trouver votre projection",
+    "applyBasemap": "Appliquer la projection",
     "fitToExtent": "Adapter à l'étendue",
-    "loadWithoutBasemap": "Charger sans fond de carte",
+    "loadWithoutBasemap": "Continuer sans fond de carte",
     "matchingProjections": "Projections correspondantes",
     "noMatchingProjections": "Aucune projection correspondante trouvée pour cet emplacement",
-    "noProjectionHint": "Si votre réseau n'utilise pas de projection, vous pouvez charger sans fond de carte.",
+    "noProjectionHint": "Pas besoin de carte de fond ? Vous pouvez ignorer cette étape et continuer sans fond de carte.",
     "projectionOutOfBounds": "Projection hors limites",
-    "searchHint": "Recherchez l'emplacement de votre réseau ou entrez un code de projection ci-dessus pour trouver le bon système de coordonnées.",
+    "searchHint": "Recherchez l'emplacement de votre réseau ou entrez un code ci-dessus pour définir le bon système de coordonnées.",
     "searchingProjections": "Recherche de projections…",
     "searchPlaceholder": "Rechercher par lieu ou code",
-    "title": "Projection du réseau"
+    "title": "Projection du réseau",
+    "noResultsDescription": "Essayez de rechercher un autre emplacement ou de dézoomer sur la carte pour étendre votre zone de recherche.",
+    "noResultsTitle": "Aucune projection correspondante trouvée ici"
   },
   "unsupportedProjection": "Projection non supportée",
   "unsupportedProjectionExplain": "{{1}} n'a pas pu être chargé ({{2}}). Veuillez reprojeter vers un CRS supporté."

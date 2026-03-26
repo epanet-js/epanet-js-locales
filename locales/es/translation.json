@@ -114,7 +114,6 @@
   "failedToOpenModel": "Error al abrir el modelo",
   "failedToOpenModelDetail": "Asegúrate de abrir un archivo INP válido.",
   "understood": "Entendido",
-  "reprojectNetwork": "Reproyectar red",
   "error": "Error",
   "save": "Guardar",
   "saveAndContinue": "Guardar y continuar",
@@ -205,8 +204,6 @@
   "privacyPolicy": "Política de privacidad",
   "downloadFailed": "Descarga fallida",
   "checkConnectionAndTry": "Por favor, comprueba tu conexión a internet e inténtalo de nuevo.",
-  "geocodingNotSupported": "Reproyecta tu red para mostrarla en el mapa",
-  "geocodingNotSupportedDetail": "Tu archivo INP utiliza un sistema de coordenadas que actualmente no está soportado. Para visualizar tu red en el mapa, necesitarás convertir las coordenadas al estándar WGS84 (latitud y longitud).<br/><br/>Puedes hacerlo utilizando la <converterLink>utilidad EPANET Projection Converter</converterLink>.",
   "missingCoordinates": "Coordenadas faltantes",
   "missingCoordinatesDetail": "Tu INP no tiene las coordenadas requeridas. Asegúrate de que todos los activos incluyan información geocodificada utilizando el estándar WGS84.",
   "inpNotFullySupported": "Funciones parcialmente soportadas",
@@ -964,12 +961,8 @@
   "importAsUnprojected": "Importar como sin proyectar",
   "off": "Desactivado",
   "inpProjectionChoice": {
-    "description": "Para proporcionar mapas base y elevaciones automáticas, necesitamos saber si tus coordenadas representan ubicaciones del mundo real o una simple cuadrícula X-Y.",
-    "nonProjectedDescription": "Tu red es un esquema independiente y no está vinculada a una ubicación física.",
     "nonProjectedTitle": "Cuadrícula X-Y Simple",
-    "projectedDescription": "Tu red coincide con la geografía del mundo real.",
-    "projectedTitle": "Basado en mapa",
-    "title": "Establece la ubicación de tu red"
+    "projectedTitle": "Basado en mapa"
   },
   "headPattern": "Patrón de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
@@ -992,7 +985,6 @@
   "initialSpeed": "Velocidad inicial",
   "patternBased": "Basado en patrón",
   "variableSpeed": "Velocidad variable",
-  "loadInXYGrid": "Cargar en cuadrícula X-Y",
   "multipliersDiffer": "Multiplicadores diferentes",
   "patterns": {
     "addPattern": "Añadir patrón de {{1}}",
@@ -1121,18 +1113,20 @@
   "gridResolution": "{{1}} cuadrícula",
   "customProjection": "proyección personalizada",
   "networkProjection": {
-    "addBasemap": "Añadir un mapa base",
-    "applyBasemap": "Aplicar mapa base",
+    "addBasemap": "Encuentra tu proyección",
+    "applyBasemap": "Aplicar proyección",
     "fitToExtent": "Ajustar a la extensión",
-    "loadWithoutBasemap": "Cargar sin mapa base",
+    "loadWithoutBasemap": "Continuar sin mapa base",
     "matchingProjections": "Proyecciones coincidentes",
     "noMatchingProjections": "No se encontraron proyecciones coincidentes para esta ubicación",
-    "noProjectionHint": "Si tu red no usa una proyección, puedes cargarla sin un mapa base.",
+    "noProjectionHint": "¿No necesitas un mapa de fondo? Puedes saltarte este paso y continuar sin un mapa base.",
     "projectionOutOfBounds": "Proyección fuera de límites",
-    "searchHint": "Busca la ubicación de tu red o introduce un código de proyección arriba para encontrar el sistema de coordenadas correcto.",
+    "searchHint": "Busca la ubicación de tu red o introduce un código arriba para establecer el sistema de coordenadas correcto.",
     "searchingProjections": "Buscando proyecciones…",
     "searchPlaceholder": "Buscar por ubicación o código",
-    "title": "Proyección de red"
+    "title": "Proyección de red",
+    "noResultsDescription": "Intenta buscar una ubicación diferente o alejarte en el mapa para ampliar tu área de búsqueda.",
+    "noResultsTitle": "No se encontraron proyecciones coincidentes aquí"
   },
   "unsupportedProjection": "Proyección no soportada",
   "unsupportedProjectionExplain": "{{1}} no pudo cargarse ({{2}}). Por favor, reproyecta a un CRS soportado."

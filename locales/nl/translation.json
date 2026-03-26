@@ -107,7 +107,6 @@
   "failedToOpenModel": "Openen van model mislukt",
   "failedToOpenModelDetail": "Zorg ervoor dat u een geldig INP-bestand aanlevert.",
   "understood": "Begrepen",
-  "reprojectNetwork": "Netwerk Herprojecteren",
   "error": "Fout",
   "save": "Opslaan",
   "saveAndContinue": "Opslaan en doorgaan",
@@ -193,8 +192,6 @@
   "privacyPolicy": "Privacybeleid",
   "downloadFailed": "Download mislukt",
   "checkConnectionAndTry": "Controleer uw internetverbinding en probeer het opnieuw.",
-  "geocodingNotSupported": "Herprojecteer uw netwerk om het op de kaart weer te geven",
-  "geocodingNotSupportedDetail": "Uw INP-bestand gebruikt een coördinatensysteem dat momenteel niet wordt ondersteund. Om uw netwerk op de kaart te bekijken, moet u de coördinaten converteren naar de WGS84-standaard (breedtegraad en lengtegraad).<br/><br/>U kunt dit doen met het <converterLink>EPANET Projection Converter hulpmiddel</converterLink>.",
   "missingCoordinates": "Coördinaten ontbreken",
   "missingCoordinatesDetail": "Uw INP mist vereiste coördinaten. Zorg ervoor dat alle onderdelen geocodeerde informatie bevatten met de WGS84-standaard.",
   "inpNotFullySupported": "Gedeeltelijk ondersteunde functies",
@@ -957,12 +954,8 @@
   "importAsUnprojected": "Importeren als ongeprojecteerd",
   "off": "Uit",
   "inpProjectionChoice": {
-    "description": "Om basiskaarten en automatische hoogtes te kunnen leveren, moeten we weten of uw coördinaten echte locaties of een eenvoudig X-Y-raster voorstellen.",
-    "nonProjectedDescription": "Uw netwerk is een op zichzelf staande schets en is niet gekoppeld aan een fysieke locatie.",
     "nonProjectedTitle": "Eenvoudig X-Y-raster",
-    "projectedDescription": "Uw netwerk komt overeen met de werkelijke geografie.",
-    "projectedTitle": "Op basis van kaart",
-    "title": "Stel de locatie van uw netwerk in"
+    "projectedTitle": "Op basis van kaart"
   },
   "headPattern": "Opvoerhoogte patroon",
   "openPatternsLibrary": "Bibliotheek openen...",
@@ -985,7 +978,6 @@
   "initialSpeed": "Initiële snelheid",
   "patternBased": "Patroon gebaseerd",
   "variableSpeed": "Variabele snelheid",
-  "loadInXYGrid": "Laden in X-Y-raster",
   "multipliersDiffer": "Vermenigvuldigers verschillen",
   "patterns": {
     "addPattern": "Patroon {{1}} toevoegen",
@@ -1114,18 +1106,20 @@
   "gridResolution": "{{1}} raster",
   "customProjection": "aangepaste projectie",
   "networkProjection": {
-    "addBasemap": "Basiskaart toevoegen",
-    "applyBasemap": "Basiskaart toepassen",
+    "addBasemap": "Vind uw projectie",
+    "applyBasemap": "Projectie toepassen",
     "fitToExtent": "Passend maken",
-    "loadWithoutBasemap": "Laden zonder basiskaart",
+    "loadWithoutBasemap": "Doorgaan zonder basiskaart",
     "matchingProjections": "Overeenkomende projecties",
     "noMatchingProjections": "Geen overeenkomende projecties gevonden voor deze locatie",
-    "noProjectionHint": "Als uw netwerk geen projectie gebruikt, kunt u laden zonder basiskaart.",
+    "noProjectionHint": "Geen achtergrondkaart nodig? U kunt deze stap overslaan en doorgaan zonder basiskaart.",
     "projectionOutOfBounds": "Projectie buiten bereik",
-    "searchHint": "Zoek naar de locatie van uw netwerk of voer hierboven een projectiecode in om het juiste coördinatensysteem te vinden.",
+    "searchHint": "Zoek naar de locatie van uw netwerk of voer hierboven een code in om het juiste coördinatensysteem in te stellen.",
     "searchingProjections": "Projecties zoeken…",
     "searchPlaceholder": "Zoeken op locatie of code",
-    "title": "Netwerkprojectie"
+    "title": "Netwerkprojectie",
+    "noResultsDescription": "Probeer te zoeken naar een andere locatie of uit te zoomen op de kaart om uw zoekgebied uit te breiden.",
+    "noResultsTitle": "Hier zijn geen overeenkomende projecties gevonden"
   },
   "unsupportedProjection": "Niet-ondersteunde projectie",
   "unsupportedProjectionExplain": "{{1}} kon niet worden geladen ({{2}}). Herprojecteer naar een ondersteund CRS."
