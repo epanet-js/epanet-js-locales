@@ -1111,5 +1111,22 @@
   "files_one": "1 bestand",
   "files_other": "{{count}} bestanden",
   "files_zero": "Geen bestanden",
-  "gridResolution": "{{1}} raster"
+  "gridResolution": "{{1}} raster",
+  "customProjection": "aangepaste projectie",
+  "networkProjection": {
+    "addBasemap": "Basiskaart toevoegen",
+    "applyBasemap": "Basiskaart toepassen",
+    "fitToExtent": "Passend maken",
+    "loadWithoutBasemap": "Laden zonder basiskaart",
+    "matchingProjections": "Overeenkomende projecties",
+    "noMatchingProjections": "Geen overeenkomende projecties gevonden voor deze locatie",
+    "noProjectionHint": "Als uw netwerk geen projectie gebruikt, kunt u laden zonder basiskaart.",
+    "projectionOutOfBounds": "Projectie buiten bereik",
+    "searchHint": "Zoek naar de locatie van uw netwerk of voer hierboven een projectiecode in om het juiste coördinatensysteem te vinden.",
+    "searchingProjections": "Projecties zoeken…",
+    "searchPlaceholder": "Zoeken op locatie of code",
+    "title": "Netwerkprojectie"
+  },
+  "unsupportedProjection": "Niet-ondersteunde projectie",
+  "unsupportedProjectionExplain": "{{1}} kon niet worden geladen ({{2}}). Herprojecteer naar een ondersteund CRS."
 }

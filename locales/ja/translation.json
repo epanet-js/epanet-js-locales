@@ -1111,5 +1111,22 @@
   "files_one": "ファイル 1 件",
   "files_other": "ファイル {{count}} 件",
   "files_zero": "ファイルなし",
-  "gridResolution": "{{1}} グリッド"
+  "gridResolution": "{{1}} グリッド",
+  "customProjection": "カスタム投影",
+  "networkProjection": {
+    "addBasemap": "ベースマップを追加",
+    "applyBasemap": "ベースマップを適用",
+    "fitToExtent": "範囲に合わせる",
+    "loadWithoutBasemap": "ベースマップなしで読み込む",
+    "matchingProjections": "一致する投影",
+    "noMatchingProjections": "この場所に一致する投影は見つかりませんでした",
+    "noProjectionHint": "ネットワークが投影を使用しない場合、ベースマップなしで読み込むことができます。",
+    "projectionOutOfBounds": "投影が範囲外です",
+    "searchHint": "ネットワークの場所を検索するか、上に投影コードを入力して適切な座標系を見つけてください。",
+    "searchingProjections": "投影を検索中...",
+    "searchPlaceholder": "場所またはコードで検索",
+    "title": "ネットワーク投影"
+  },
+  "unsupportedProjection": "サポートされていない投影",
+  "unsupportedProjectionExplain": "{{1}} を読み込めませんでした ({{2}})。サポートされているCRSに再投影してください。"
 }

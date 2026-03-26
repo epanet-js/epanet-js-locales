@@ -1118,5 +1118,22 @@
   "files_one": "1 archivo",
   "files_other": "{{count}} archivos",
   "files_zero": "No hay archivos",
-  "gridResolution": "{{1}} cuadrícula"
+  "gridResolution": "{{1}} cuadrícula",
+  "customProjection": "proyección personalizada",
+  "networkProjection": {
+    "addBasemap": "Añadir un mapa base",
+    "applyBasemap": "Aplicar mapa base",
+    "fitToExtent": "Ajustar a la extensión",
+    "loadWithoutBasemap": "Cargar sin mapa base",
+    "matchingProjections": "Proyecciones coincidentes",
+    "noMatchingProjections": "No se encontraron proyecciones coincidentes para esta ubicación",
+    "noProjectionHint": "Si tu red no usa una proyección, puedes cargarla sin un mapa base.",
+    "projectionOutOfBounds": "Proyección fuera de límites",
+    "searchHint": "Busca la ubicación de tu red o introduce un código de proyección arriba para encontrar el sistema de coordenadas correcto.",
+    "searchingProjections": "Buscando proyecciones…",
+    "searchPlaceholder": "Buscar por ubicación o código",
+    "title": "Proyección de red"
+  },
+  "unsupportedProjection": "Proyección no soportada",
+  "unsupportedProjectionExplain": "{{1}} no pudo cargarse ({{2}}). Por favor, reproyecta a un CRS soportado."
 }
