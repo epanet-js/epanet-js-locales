@@ -876,19 +876,9 @@
     },
     "paywall": {
       "title": "Mejorar para acceder a escenarios",
-      "commercial": {
-        "cta": "Elegir plan",
-        "description": "Para uso por consultores y servicios públicos en proyectos reales.",
-        "title": "Uso comercial"
-      },
       "description1": "Los escenarios te permiten explorar cambios de \"qué pasaría si\" sin duplicar tu modelo.",
       "description2": "Crea versiones alternativas de tu red y compara los resultados con tu línea base.",
       "description3": "Los escenarios están disponibles en planes de pago.",
-      "nonCommercial": {
-        "cta": "Licencia personal - $100/año",
-        "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
-        "title": "Uso no comercial"
-      },
       "captions": {
         "1": "Haz preguntas de \"qué pasaría si\" con escenarios",
         "2": "Modificar parámetros de activos",
@@ -897,8 +887,9 @@
         "5": "Mantener los cambios aislados al escenario"
       },
       "description3Demo": "Prueba escenarios gratis con una red de demostración o explora nuestros planes de pago.",
-      "explorePlans": "Explorar planes",
-      "or": "o"
+      "demo": "Prueba escenarios gratis con una red de demostración, o explora nuestros planes de pago.",
+      "plans": "Los escenarios están disponibles en planes de pago.",
+      "trial": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     },
     "firstScenario": {
       "bullet1": "El modelo principal se vuelve <bold>de solo lectura</bold> mientras existan escenarios.",
@@ -1139,22 +1130,11 @@
         "3": "Superpón múltiples fuentes de elevación",
         "4": "Obtén un terreno preciso para tu red"
       },
-      "commercial": {
-        "cta": "Elegir plan",
-        "description": "Para uso por consultores y servicios públicos en proyectos reales.",
-        "title": "Uso comercial"
-      },
       "description1": "Las elevaciones personalizadas te permiten usar tus propios datos GeoTIFF para un modelado preciso del terreno.",
       "description2": "Sube datos de elevación de alta resolución y superpónlos sobre fuentes de terreno globales.",
-      "description3": "Las elevaciones personalizadas están disponibles en planes de pago.",
-      "explorePlans": "Explorar planes",
-      "nonCommercial": {
-        "cta": "Licencia personal - $100/año",
-        "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
-        "title": "Uso no comercial"
-      },
-      "or": "o",
-      "title": "Mejora tu plan para acceder a elevaciones personalizadas"
+      "title": "Mejora tu plan para acceder a elevaciones personalizadas",
+      "plans": "Las elevaciones personalizadas están disponibles en planes de pago.",
+      "trial": "Las elevaciones personalizadas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     },
     "sourceDetails": "Detalles de la fuente de elevación",
     "tilesLoadingError": "No se pudieron cargar los datos de elevación",

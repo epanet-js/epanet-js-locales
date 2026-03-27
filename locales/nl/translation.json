@@ -869,19 +869,9 @@
     },
     "paywall": {
       "title": "Upgrade om scenario's te openen",
-      "commercial": {
-        "cta": "Kies abonnement",
-        "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
-        "title": "Commercieel gebruik"
-      },
       "description1": "Met scenario's kunt u 'wat-als'-wijzigingen verkennen zonder uw model te dupliceren.",
       "description2": "Maak alternatieve versies van uw netwerk en vergelijk de resultaten met uw basislijn.",
       "description3": "Scenario's zijn beschikbaar op betaalde abonnementen.",
-      "nonCommercial": {
-        "cta": "Persoonlijke licentie - $100/jaar",
-        "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
-        "title": "Niet-commercieel gebruik"
-      },
       "captions": {
         "1": "Stel 'wat-als'-vragen met scenario's",
         "2": "Onderdeelparameters aanpassen",
@@ -890,8 +880,9 @@
         "5": "Wijzigingen isoleren naar het scenario"
       },
       "description3Demo": "Probeer scenario's gratis met een demonetwerk, of verken onze betaalde abonnementen.",
-      "explorePlans": "Verken abonnementen",
-      "or": "of"
+      "demo": "Probeer scenario's gratis met een demonetwerk, of verken onze betaalde abonnementen.",
+      "plans": "Scenario's zijn beschikbaar op betaalde abonnementen.",
+      "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
     "firstScenario": {
       "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",
@@ -1132,22 +1123,11 @@
         "3": "Laag meerdere hoogtebronnen",
         "4": "Krijg nauwkeurig terrein voor uw netwerk"
       },
-      "commercial": {
-        "cta": "Kies abonnement",
-        "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
-        "title": "Commercieel gebruik"
-      },
       "description1": "Met aangepaste hoogtes kunt u uw eigen GeoTIFF-gegevens gebruiken voor nauwkeurige terreinmodellering.",
       "description2": "Upload hoogtegegevens met hoge resolutie en leg deze over wereldwijde terreinbronnen heen.",
-      "description3": "Aangepaste hoogtes zijn beschikbaar op betaalde abonnementen.",
-      "explorePlans": "Verken abonnementen",
-      "nonCommercial": {
-        "cta": "Persoonlijke licentie - $100/jaar",
-        "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
-        "title": "Niet-commercieel gebruik"
-      },
-      "or": "of",
-      "title": "Upgrade om toegang te krijgen tot aangepaste hoogtes"
+      "title": "Upgrade om toegang te krijgen tot aangepaste hoogtes",
+      "plans": "Aangepaste hoogtes zijn beschikbaar op betaalde abonnementen.",
+      "trial": "Aangepaste hoogtes zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
     "sourceDetails": "Details hoogtebron",
     "tilesLoadingError": "De hoogtegegevens konden niet worden geladen",

@@ -869,19 +869,9 @@
     },
     "paywall": {
       "title": "Mettre à niveau pour accéder aux scénarios",
-      "commercial": {
-        "cta": "Choisir un plan",
-        "description": "Pour une utilisation par des consultants et des services publics dans des projets réels.",
-        "title": "Usage Commercial"
-      },
       "description1": "Avec les scénarios, vous pouvez explorer des modifications « et si » sans dupliquer votre modèle.",
       "description2": "Créez des versions alternatives de votre réseau et comparez les résultats par rapport à votre base de référence.",
       "description3": "Les scénarios sont disponibles avec les plans payants.",
-      "nonCommercial": {
-        "cta": "Licence personnelle - 100 $/an",
-        "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
-        "title": "Usage Non Commercial"
-      },
       "captions": {
         "1": "Poser des questions « et si » avec des scénarios",
         "2": "Modifier les paramètres des éléments",
@@ -890,8 +880,9 @@
         "5": "Garder les modifications isolées au scénario"
       },
       "description3Demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
-      "explorePlans": "Explorer les plans",
-      "or": "ou"
+      "demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
+      "plans": "Les scénarios sont disponibles avec les plans payants.",
+      "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
@@ -1132,22 +1123,11 @@
         "3": "Superposer plusieurs sources d'élévation",
         "4": "Obtenez un terrain précis pour votre réseau"
       },
-      "commercial": {
-        "cta": "Choisir un plan",
-        "description": "Pour une utilisation par des consultants et des services publics dans des projets réels.",
-        "title": "Usage commercial"
-      },
       "description1": "Les élévations personnalisées vous permettent d'utiliser vos propres données GeoTIFF pour une modélisation précise du terrain.",
       "description2": "Téléchargez des données d'élévation haute résolution et superposez-les sur les sources de terrain mondiales.",
-      "description3": "Les élévations personnalisées sont disponibles avec les plans payants.",
-      "explorePlans": "Explorer les plans",
-      "nonCommercial": {
-        "cta": "Licence personnelle - 100 $/an",
-        "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
-        "title": "Usage non commercial"
-      },
-      "or": "ou",
-      "title": "Mettre à niveau pour accéder aux élévations personnalisées"
+      "title": "Mettre à niveau pour accéder aux élévations personnalisées",
+      "plans": "Les élévations personnalisées sont disponibles sur les plans payants.",
+      "trial": "Les élévations personnalisées sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     },
     "sourceDetails": "Détails de la source d'élévation",
     "tilesLoadingError": "Les données d'élévation n'ont pas pu être chargées",
