@@ -1154,5 +1154,20 @@
     "tilesProcessed": "Tuiles d'élévation traitées",
     "title": "Élévations",
     "userElevationData": "Données d'élévation utilisateur"
-  }
+  },
+  "paywall": {
+    "commercial": {
+      "cta": "Choisir un plan",
+      "description": "Pour une utilisation par des consultants et des services publics dans des projets réels.",
+      "title": "Usage Commercial"
+    },
+    "explorePlans": "Explorer les plans",
+    "nonCommercial": {
+      "cta": "Licence personnelle - 100 $/an",
+      "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
+      "title": "Usage Non Commercial"
+    },
+    "or": "ou"
+  },
+  "trial.paywallDescriptionElevations": "Les élévations personnalisées sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
 }

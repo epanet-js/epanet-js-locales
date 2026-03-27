@@ -1154,5 +1154,20 @@
     "tilesProcessed": "Camadas de elevação processadas",
     "title": "Elevações",
     "userElevationData": "Dados de elevação do usuário"
-  }
+  },
+  "paywall": {
+    "commercial": {
+      "cta": "Escolha o plano",
+      "description": "Para uso por consultores e concessionárias em projetos reais.",
+      "title": "Uso comercial"
+    },
+    "explorePlans": "Explorar planos",
+    "nonCommercial": {
+      "cta": "Licença pessoal - $100/ano",
+      "description": "Para aprendizado, exploração do aplicativo ou suporte ao projeto.",
+      "title": "Uso não comercial"
+    },
+    "or": "ou"
+  },
+  "trial.paywallDescriptionElevations": "Elevações personalizadas são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
 }

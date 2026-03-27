@@ -1154,5 +1154,20 @@
     "tilesProcessed": "処理された標高タイル",
     "title": "標高",
     "userElevationData": "ユーザー標高データ"
-  }
+  },
+  "paywall": {
+    "commercial": {
+      "cta": "プランを選択",
+      "description": "実際のプロジェクトでコンサルタントや公共事業者による使用を目的としています。",
+      "title": "商用利用"
+    },
+    "explorePlans": "プランを探す",
+    "nonCommercial": {
+      "cta": "個人ライセンス - $100/年",
+      "description": "学習、アプリの探索、またはプロジェクトのサポートを目的としています。",
+      "title": "非営利目的での使用"
+    },
+    "or": "または"
+  },
+  "trial.paywallDescriptionElevations": "カスタム標高は有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
 }

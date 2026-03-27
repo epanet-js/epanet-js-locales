@@ -1154,5 +1154,20 @@
     "tilesProcessed": "Hoogtetegels verwerkt",
     "title": "Hoogtes",
     "userElevationData": "Gebruikers hoogtegegevens"
-  }
+  },
+  "paywall": {
+    "commercial": {
+      "cta": "Kies abonnement",
+      "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
+      "title": "Commercieel gebruik"
+    },
+    "explorePlans": "Verken abonnementen",
+    "nonCommercial": {
+      "cta": "Persoonlijke licentie - $100/jaar",
+      "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
+      "title": "Niet-commercieel gebruik"
+    },
+    "or": "of"
+  },
+  "trial.paywallDescriptionElevations": "Aangepaste hoogtes zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
 }

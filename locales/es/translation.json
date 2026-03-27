@@ -1161,5 +1161,20 @@
     "tilesProcessed": "Teselas de elevación procesadas",
     "title": "Elevaciones",
     "userElevationData": "Datos de elevación del usuario"
-  }
+  },
+  "paywall": {
+    "commercial": {
+      "cta": "Elegir plan",
+      "description": "Para uso por consultores y servicios públicos en proyectos reales.",
+      "title": "Uso comercial"
+    },
+    "explorePlans": "Explorar planes",
+    "nonCommercial": {
+      "cta": "Licencia personal - $100/año",
+      "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
+      "title": "Uso no comercial"
+    },
+    "or": "o"
+  },
+  "trial.paywallDescriptionElevations": "Las elevaciones personalizadas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
 }
