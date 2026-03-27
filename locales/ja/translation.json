@@ -1091,19 +1091,11 @@
   "projection": "投影",
   "demoShort": "デモ",
   "recentNetworks": "最近のプロジェクト",
-  "addNewElevationData": "新しい標高データを追加",
   "defaultColor": "デフォルトの色",
-  "elevations": "標高",
-  "globalDtm": "グローバルDTM",
-  "mapboxDefaultData": "Mapboxデフォルトデータ",
   "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
-  "userElevationData": "ユーザー標高データ",
-  "addMoreTiles": "さらにタイルを追加",
   "files_one": "ファイル 1 件",
   "files_other": "ファイル {{count}} 件",
   "files_zero": "ファイルなし",
-  "gridResolution": "{{1}} グリッド",
-  "customProjection": "カスタム投影",
   "networkProjection": {
     "addBasemap": "ベースマップを追加",
     "applyBasemap": "ベースマップを適用",
@@ -1120,15 +1112,47 @@
     "noResultsDescription": "別の場所を検索するか、マップをズームアウトして検索範囲を広げてみてください。",
     "noResultsTitle": "ここでは一致する投影が見つかりませんでした"
   },
-  "unsupportedProjection": "サポートされていない投影",
-  "unsupportedProjectionExplain": "{{1}} を読み込めませんでした ({{2}})。サポートされているCRSに再投影してください。",
   "baseCost": "基本料金",
   "customElevations": "カスタム標高",
-  "disableElevationSource": "標高ソースを無効にする",
-  "elevationOffset": "標高オフセット",
-  "elevationSourceDetails": "標高ソースの詳細",
-  "elevationsRequiresProjection": "標高は投影されたネットワークでのみ利用可能です",
-  "enableElevationSource": "標高ソースを有効にする",
   "perUser": "ユーザー",
-  "selfServiceSeatManagement": "セルフサービスシート管理"
+  "selfServiceSeatManagement": "セルフサービスシート管理",
+  "elevations": {
+    "addMoreTiles": "さらにタイルを追加",
+    "addNewData": "新しい標高データを追加",
+    "disableSource": "標高ソースを無効にする",
+    "elevationOffset": "標高オフセット",
+    "enableSource": "標高ソースを有効にする",
+    "globalDtm": "グローバルDTM",
+    "gridResolution": "{{1}} グリッド",
+    "mapboxDefaultData": "Mapboxデフォルトデータ",
+    "paywall": {
+      "captions": {
+        "1": "独自の標高データを追加",
+        "2": "高解像度のGeoTIFFファイルをアップロード",
+        "3": "複数の標高ソースを重ねる",
+        "4": "ネットワークの正確な地形データを取得"
+      },
+      "commercial": {
+        "cta": "プランを選択",
+        "description": "実際のプロジェクトでコンサルタントや公共事業者が使用するためのものです。",
+        "title": "商用利用"
+      },
+      "description1": "カスタム標高では、独自のGeoTIFFデータを使用して正確な地形モデリングを行うことができます。",
+      "description2": "高解像度の標高データをアップロードし、グローバル地形ソースの上に重ねて表示します。",
+      "description3": "カスタム標高は有料プランで利用可能です。",
+      "explorePlans": "プランを探す",
+      "nonCommercial": {
+        "cta": "個人ライセンス - $100/年",
+        "description": "学習、アプリの探索、またはプロジェクトのサポートを目的としています。",
+        "title": "非営利目的での使用"
+      },
+      "or": "または",
+      "title": "カスタム標高にアクセスするにはアップグレードしてください"
+    },
+    "sourceDetails": "標高ソースの詳細",
+    "tilesLoadingError": "標高データを読み込めませんでした",
+    "tilesProcessed": "処理された標高タイル",
+    "title": "標高",
+    "userElevationData": "ユーザー標高データ"
+  }
 }

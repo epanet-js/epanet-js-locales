@@ -1091,19 +1091,11 @@
   "projection": "Projeção",
   "demoShort": "Demo",
   "recentNetworks": "Projetos recentes",
-  "addNewElevationData": "Adicionar novos dados de elevação",
   "defaultColor": "Cor padrão",
-  "elevations": "Elevações",
-  "globalDtm": "DTM Global",
-  "mapboxDefaultData": "Dados padrão Mapbox",
   "recentFilePermissionDenied": "A permissão para acessar este arquivo foi negada. Tente usar a opção Abrir INP.",
-  "userElevationData": "Dados de elevação do usuário",
-  "addMoreTiles": "Adicionar mais camadas",
   "files_one": "1 arquivo",
   "files_other": "{{count}} arquivos",
   "files_zero": "Nenhum arquivo",
-  "gridResolution": "Grade {{1}}",
-  "customProjection": "projeção personalizada",
   "networkProjection": {
     "addBasemap": "Encontre sua projeção",
     "applyBasemap": "Aplicar projeção",
@@ -1120,15 +1112,47 @@
     "noResultsDescription": "Tente pesquisar por uma localização diferente ou afaste o zoom no mapa para expandir sua área de busca.",
     "noResultsTitle": "Nenhuma projeção correspondente encontrada aqui"
   },
-  "unsupportedProjection": "Projeção não suportada",
-  "unsupportedProjectionExplain": "{{1}} não pôde ser carregado ({{2}}). Reprojeite para um CRS suportado.",
   "baseCost": "Custo base",
   "customElevations": "Elevações personalizadas",
-  "disableElevationSource": "Desabilitar fonte de elevação",
-  "elevationOffset": "Deslocamento de elevação",
-  "elevationSourceDetails": "Detalhes da fonte de elevação",
-  "elevationsRequiresProjection": "Elevações estão disponíveis apenas para redes projetadas",
-  "enableElevationSource": "Habilitar fonte de elevação",
   "perUser": "Usuário",
-  "selfServiceSeatManagement": "Gerenciamento de licenças self-service"
+  "selfServiceSeatManagement": "Gerenciamento de licenças self-service",
+  "elevations": {
+    "addMoreTiles": "Adicionar mais camadas",
+    "addNewData": "Adicionar novos dados de elevação",
+    "disableSource": "Desabilitar fonte de elevação",
+    "elevationOffset": "Deslocamento de elevação",
+    "enableSource": "Habilitar fonte de elevação",
+    "globalDtm": "DTM Global",
+    "gridResolution": "Grade {{1}}",
+    "mapboxDefaultData": "Dados padrão Mapbox",
+    "paywall": {
+      "captions": {
+        "1": "Adicione seus próprios dados de elevação",
+        "2": "Carregue arquivos GeoTIFF de alta resolução",
+        "3": "Camadas de múltiplas fontes de elevação",
+        "4": "Obtenha terreno preciso para sua rede"
+      },
+      "commercial": {
+        "cta": "Escolha o plano",
+        "description": "Para uso por consultores e concessionárias em projetos reais.",
+        "title": "Uso comercial"
+      },
+      "description1": "Elevações personalizadas permitem usar seus próprios dados GeoTIFF para modelagem precisa do terreno.",
+      "description2": "Carregue dados de elevação de alta resolução e sobreponha-os às fontes de terreno globais.",
+      "description3": "Elevações personalizadas estão disponíveis em planos pagos.",
+      "explorePlans": "Explorar planos",
+      "nonCommercial": {
+        "cta": "Licença pessoal - $100/ano",
+        "description": "Para aprendizado, exploração do aplicativo ou suporte ao projeto.",
+        "title": "Uso não comercial"
+      },
+      "or": "ou",
+      "title": "Atualize para acessar elevações personalizadas"
+    },
+    "sourceDetails": "Detalhes da fonte de elevação",
+    "tilesLoadingError": "Não foi possível carregar os dados de elevação",
+    "tilesProcessed": "Camadas de elevação processadas",
+    "title": "Elevações",
+    "userElevationData": "Dados de elevação do usuário"
+  }
 }

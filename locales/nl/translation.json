@@ -1091,19 +1091,11 @@
   "projection": "Projectie",
   "demoShort": "Demo",
   "recentNetworks": "Recent projecten",
-  "addNewElevationData": "Nieuwe hoogtegegevens toevoegen",
   "defaultColor": "Standaardkleur",
-  "elevations": "Hoogtes",
-  "globalDtm": "Wereldwijd DTM",
-  "mapboxDefaultData": "Mapbox standaardgegevens",
   "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
-  "userElevationData": "Gebruikers hoogtegegevens",
-  "addMoreTiles": "Meer tegels toevoegen",
   "files_one": "1 bestand",
   "files_other": "{{count}} bestanden",
   "files_zero": "Geen bestanden",
-  "gridResolution": "{{1}} raster",
-  "customProjection": "aangepaste projectie",
   "networkProjection": {
     "addBasemap": "Vind uw projectie",
     "applyBasemap": "Projectie toepassen",
@@ -1120,15 +1112,47 @@
     "noResultsDescription": "Probeer te zoeken naar een andere locatie of uit te zoomen op de kaart om uw zoekgebied uit te breiden.",
     "noResultsTitle": "Hier zijn geen overeenkomende projecties gevonden"
   },
-  "unsupportedProjection": "Niet-ondersteunde projectie",
-  "unsupportedProjectionExplain": "{{1}} kon niet worden geladen ({{2}}). Herprojecteer naar een ondersteund CRS.",
   "baseCost": "Basiskosten",
   "customElevations": "Aangepaste hoogtes",
-  "disableElevationSource": "Hoogtebron uitschakelen",
-  "elevationOffset": "Hoogte-offset",
-  "elevationSourceDetails": "Details hoogtebron",
-  "elevationsRequiresProjection": "Hoogtes zijn alleen beschikbaar voor geprojecteerde netwerken",
-  "enableElevationSource": "Hoogtebron inschakelen",
   "perUser": "Gebruiker",
-  "selfServiceSeatManagement": "Selfservice stoelbeheer"
+  "selfServiceSeatManagement": "Selfservice stoelbeheer",
+  "elevations": {
+    "addMoreTiles": "Meer tegels toevoegen",
+    "addNewData": "Nieuwe hoogtegegevens toevoegen",
+    "disableSource": "Hoogtebron uitschakelen",
+    "elevationOffset": "Hoogte-offset",
+    "enableSource": "Hoogtebron inschakelen",
+    "globalDtm": "Wereldwijd DTM",
+    "gridResolution": "{{1}} raster",
+    "mapboxDefaultData": "Mapbox standaardgegevens",
+    "paywall": {
+      "captions": {
+        "1": "Voeg uw eigen hoogtegegevens toe",
+        "2": "Upload GeoTIFF-bestanden met hoge resolutie",
+        "3": "Laag meerdere hoogtebronnen",
+        "4": "Krijg nauwkeurig terrein voor uw netwerk"
+      },
+      "commercial": {
+        "cta": "Kies abonnement",
+        "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
+        "title": "Commercieel gebruik"
+      },
+      "description1": "Met aangepaste hoogtes kunt u uw eigen GeoTIFF-gegevens gebruiken voor nauwkeurige terreinmodellering.",
+      "description2": "Upload hoogtegegevens met hoge resolutie en leg deze over wereldwijde terreinbronnen heen.",
+      "description3": "Aangepaste hoogtes zijn beschikbaar op betaalde abonnementen.",
+      "explorePlans": "Verken abonnementen",
+      "nonCommercial": {
+        "cta": "Persoonlijke licentie - $100/jaar",
+        "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
+        "title": "Niet-commercieel gebruik"
+      },
+      "or": "of",
+      "title": "Upgrade om toegang te krijgen tot aangepaste hoogtes"
+    },
+    "sourceDetails": "Details hoogtebron",
+    "tilesLoadingError": "De hoogtegegevens konden niet worden geladen",
+    "tilesProcessed": "Hoogtetegels verwerkt",
+    "title": "Hoogtes",
+    "userElevationData": "Gebruikers hoogtegegevens"
+  }
 }
