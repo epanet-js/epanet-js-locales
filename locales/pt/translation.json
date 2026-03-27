@@ -1099,7 +1099,6 @@
   "recentFilePermissionDenied": "A permissão para acessar este arquivo foi negada. Tente usar a opção Abrir INP.",
   "userElevationData": "Dados de elevação do usuário",
   "addMoreTiles": "Adicionar mais camadas",
-  "projectionOffset": "Deslocamento de projeção",
   "files_one": "1 arquivo",
   "files_other": "{{count}} arquivos",
   "files_zero": "Nenhum arquivo",
@@ -1122,5 +1121,14 @@
     "noResultsTitle": "Nenhuma projeção correspondente encontrada aqui"
   },
   "unsupportedProjection": "Projeção não suportada",
-  "unsupportedProjectionExplain": "{{1}} não pôde ser carregado ({{2}}). Reprojeite para um CRS suportado."
+  "unsupportedProjectionExplain": "{{1}} não pôde ser carregado ({{2}}). Reprojeite para um CRS suportado.",
+  "baseCost": "Custo base",
+  "customElevations": "Elevações personalizadas",
+  "disableElevationSource": "Desabilitar fonte de elevação",
+  "elevationOffset": "Deslocamento de elevação",
+  "elevationSourceDetails": "Detalhes da fonte de elevação",
+  "elevationsRequiresProjection": "Elevações estão disponíveis apenas para redes projetadas",
+  "enableElevationSource": "Habilitar fonte de elevação",
+  "perUser": "Usuário",
+  "selfServiceSeatManagement": "Gerenciamento de licenças self-service"
 }

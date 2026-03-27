@@ -1099,7 +1099,6 @@
   "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
   "userElevationData": "Gebruikers hoogtegegevens",
   "addMoreTiles": "Meer tegels toevoegen",
-  "projectionOffset": "Projectie-offset",
   "files_one": "1 bestand",
   "files_other": "{{count}} bestanden",
   "files_zero": "Geen bestanden",
@@ -1122,5 +1121,14 @@
     "noResultsTitle": "Hier zijn geen overeenkomende projecties gevonden"
   },
   "unsupportedProjection": "Niet-ondersteunde projectie",
-  "unsupportedProjectionExplain": "{{1}} kon niet worden geladen ({{2}}). Herprojecteer naar een ondersteund CRS."
+  "unsupportedProjectionExplain": "{{1}} kon niet worden geladen ({{2}}). Herprojecteer naar een ondersteund CRS.",
+  "baseCost": "Basiskosten",
+  "customElevations": "Aangepaste hoogtes",
+  "disableElevationSource": "Hoogtebron uitschakelen",
+  "elevationOffset": "Hoogte-offset",
+  "elevationSourceDetails": "Details hoogtebron",
+  "elevationsRequiresProjection": "Hoogtes zijn alleen beschikbaar voor geprojecteerde netwerken",
+  "enableElevationSource": "Hoogtebron inschakelen",
+  "perUser": "Gebruiker",
+  "selfServiceSeatManagement": "Selfservice stoelbeheer"
 }

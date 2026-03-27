@@ -1099,7 +1099,6 @@
   "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
   "userElevationData": "ユーザー標高データ",
   "addMoreTiles": "さらにタイルを追加",
-  "projectionOffset": "投影オフセット",
   "files_one": "ファイル 1 件",
   "files_other": "ファイル {{count}} 件",
   "files_zero": "ファイルなし",
@@ -1122,5 +1121,14 @@
     "noResultsTitle": "ここでは一致する投影が見つかりませんでした"
   },
   "unsupportedProjection": "サポートされていない投影",
-  "unsupportedProjectionExplain": "{{1}} を読み込めませんでした ({{2}})。サポートされているCRSに再投影してください。"
+  "unsupportedProjectionExplain": "{{1}} を読み込めませんでした ({{2}})。サポートされているCRSに再投影してください。",
+  "baseCost": "基本料金",
+  "customElevations": "カスタム標高",
+  "disableElevationSource": "標高ソースを無効にする",
+  "elevationOffset": "標高オフセット",
+  "elevationSourceDetails": "標高ソースの詳細",
+  "elevationsRequiresProjection": "標高は投影されたネットワークでのみ利用可能です",
+  "enableElevationSource": "標高ソースを有効にする",
+  "perUser": "ユーザー",
+  "selfServiceSeatManagement": "セルフサービスシート管理"
 }

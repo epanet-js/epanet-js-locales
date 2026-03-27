@@ -1106,7 +1106,6 @@
   "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta usar la opción Abrir INP en su lugar.",
   "userElevationData": "Datos de elevación del usuario",
   "addMoreTiles": "Añadir más teselas",
-  "projectionOffset": "Desplazamiento de proyección",
   "files_one": "1 archivo",
   "files_other": "{{count}} archivos",
   "files_zero": "No hay archivos",
@@ -1129,5 +1128,14 @@
     "noResultsTitle": "No se encontraron proyecciones coincidentes aquí"
   },
   "unsupportedProjection": "Proyección no soportada",
-  "unsupportedProjectionExplain": "{{1}} no pudo cargarse ({{2}}). Por favor, reproyecta a un CRS soportado."
+  "unsupportedProjectionExplain": "{{1}} no pudo cargarse ({{2}}). Por favor, reproyecta a un CRS soportado.",
+  "baseCost": "Costo base",
+  "customElevations": "Elevaciones personalizadas",
+  "disableElevationSource": "Desactivar fuente de elevación",
+  "elevationOffset": "Desplazamiento de elevación",
+  "elevationSourceDetails": "Detalles de la fuente de elevación",
+  "elevationsRequiresProjection": "Las elevaciones solo están disponibles para redes proyectadas",
+  "enableElevationSource": "Activar fuente de elevación",
+  "perUser": "Usuario",
+  "selfServiceSeatManagement": "Gestión de asientos de autoservicio"
 }

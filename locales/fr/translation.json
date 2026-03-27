@@ -1099,7 +1099,6 @@
   "recentFilePermissionDenied": "L'accès à ce fichier a été refusé. Essayez d'utiliser l'option Ouvrir INP à la place.",
   "userElevationData": "Données d'élévation utilisateur",
   "addMoreTiles": "Ajouter plus de tuiles",
-  "projectionOffset": "Décalage de projection",
   "files_one": "1 fichier",
   "files_other": "{{count}} fichiers",
   "files_zero": "Aucun fichier",
@@ -1122,5 +1121,14 @@
     "noResultsTitle": "Aucune projection correspondante trouvée ici"
   },
   "unsupportedProjection": "Projection non supportée",
-  "unsupportedProjectionExplain": "{{1}} n'a pas pu être chargé ({{2}}). Veuillez reprojeter vers un CRS supporté."
+  "unsupportedProjectionExplain": "{{1}} n'a pas pu être chargé ({{2}}). Veuillez reprojeter vers un CRS supporté.",
+  "baseCost": "Coût de base",
+  "customElevations": "Élévations personnalisées",
+  "disableElevationSource": "Désactiver la source d'élévation",
+  "elevationOffset": "Décalage d'élévation",
+  "elevationSourceDetails": "Détails de la source d'élévation",
+  "elevationsRequiresProjection": "Les élévations ne sont disponibles que pour les réseaux projetés",
+  "enableElevationSource": "Activer la source d'élévation",
+  "perUser": "Utilisateur",
+  "selfServiceSeatManagement": "Gestion des licences en libre-service"
 }
