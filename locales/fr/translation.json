@@ -871,7 +871,6 @@
       "title": "Mettre à niveau pour accéder aux scénarios",
       "description1": "Avec les scénarios, vous pouvez explorer des modifications « et si » sans dupliquer votre modèle.",
       "description2": "Créez des versions alternatives de votre réseau et comparez les résultats par rapport à votre base de référence.",
-      "description3": "Les scénarios sont disponibles avec les plans payants.",
       "captions": {
         "1": "Poser des questions « et si » avec des scénarios",
         "2": "Modifier les paramètres des éléments",
@@ -879,7 +878,6 @@
         "4": "Comparer les résultats",
         "5": "Garder les modifications isolées au scénario"
       },
-      "description3Demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
       "demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
       "plans": "Les scénarios sont disponibles avec les plans payants.",
       "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
@@ -939,7 +937,6 @@
   "trial.activated": "Votre essai est maintenant actif !",
   "trial.activateFree": "Activer l'essai gratuit",
   "trial.activating": "Activation de l'essai",
-  "trial.paywallDescription": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise.",
   "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
   "valves": "Vannes",
   "importAsUnprojected": "Importer comme non projeté",
@@ -1148,6 +1145,5 @@
       "title": "Usage Non Commercial"
     },
     "or": "ou"
-  },
-  "trial.paywallDescriptionElevations": "Les élévations personnalisées sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
+  }
 }

@@ -871,7 +871,6 @@
       "title": "Atualize para acessar cenários",
       "description1": "Os cenários permitem explorar alterações de \"e se\" sem duplicar seu modelo.",
       "description2": "Crie versões alternativas de sua rede e compare os resultados com sua linha de base.",
-      "description3": "Os cenários estão disponíveis em planos pagos.",
       "captions": {
         "1": "Faça perguntas \"e se\" com cenários",
         "2": "Modificar parâmetros de ativos",
@@ -879,7 +878,6 @@
         "4": "Comparar resultados",
         "5": "Manter as alterações isoladas no cenário"
       },
-      "description3Demo": "Experimente cenários gratuitamente com uma rede de demonstração ou explore nossos planos pagos.",
       "demo": "Experimente cenários gratuitamente com uma rede de demonstração, ou explore nossos planos pagos.",
       "plans": "Cenários estão disponíveis em planos pagos.",
       "trial": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
@@ -939,7 +937,6 @@
   "trial.activated": "Seu teste agora está ativo!",
   "trial.activateFree": "Ativar teste gratuito",
   "trial.activating": "Ativando teste",
-  "trial.paywallDescription": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
   "trial.tryWithDemo": "Experimente com uma rede de demonstração",
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como não projetado",
@@ -1148,6 +1145,5 @@
       "title": "Uso não comercial"
     },
     "or": "ou"
-  },
-  "trial.paywallDescriptionElevations": "Elevações personalizadas são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+  }
 }

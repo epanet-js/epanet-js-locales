@@ -878,7 +878,6 @@
       "title": "Mejorar para acceder a escenarios",
       "description1": "Los escenarios te permiten explorar cambios de \"qué pasaría si\" sin duplicar tu modelo.",
       "description2": "Crea versiones alternativas de tu red y compara los resultados con tu línea base.",
-      "description3": "Los escenarios están disponibles en planes de pago.",
       "captions": {
         "1": "Haz preguntas de \"qué pasaría si\" con escenarios",
         "2": "Modificar parámetros de activos",
@@ -886,7 +885,6 @@
         "4": "Comparar resultados",
         "5": "Mantener los cambios aislados al escenario"
       },
-      "description3Demo": "Prueba escenarios gratis con una red de demostración o explora nuestros planes de pago.",
       "demo": "Prueba escenarios gratis con una red de demostración, o explora nuestros planes de pago.",
       "plans": "Los escenarios están disponibles en planes de pago.",
       "trial": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
@@ -946,7 +944,6 @@
   "trial.activated": "¡Tu prueba ya está activa!",
   "trial.activateFree": "Activar prueba gratuita",
   "trial.activating": "Activando prueba",
-  "trial.paywallDescription": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días, no se requiere tarjeta de crédito.",
   "trial.tryWithDemo": "Probar con una red de demostración",
   "valves": "Válvulas",
   "importAsUnprojected": "Importar como sin proyectar",
@@ -1155,6 +1152,5 @@
       "title": "Uso no comercial"
     },
     "or": "o"
-  },
-  "trial.paywallDescriptionElevations": "Las elevaciones personalizadas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+  }
 }
