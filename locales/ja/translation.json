@@ -1098,7 +1098,9 @@
     "searchPlaceholder": "場所またはコードで検索",
     "title": "ネットワーク投影",
     "noResultsDescription": "別の場所を検索するか、マップをズームアウトして検索範囲を広げてみてください。",
-    "noResultsTitle": "ここでは一致する投影が見つかりませんでした"
+    "noResultsTitle": "ここでは一致する投影が見つかりませんでした",
+    "removeBasemap": "ベースマップを削除",
+    "setMapProjection": "マップ投影を設定"
   },
   "baseCost": "基本料金",
   "customElevations": "カスタム標高",
@@ -1129,7 +1131,17 @@
     "tilesLoadingError": "標高データを読み込めませんでした",
     "tilesProcessed": "処理された標高タイル",
     "title": "標高",
-    "userElevationData": "ユーザー標高データ"
+    "userElevationData": "ユーザー標高データ",
+    "errorDetails": "エラーの詳細",
+    "errors": {
+      "cartesianProjection": "地心座標系（3次元直交座標系）はサポートされていません。2次元CRSに再投影してください。",
+      "invalidCustomProjection": "カスタム投影パラメータが不足しているか無効です。",
+      "invalidResolution": "ファイルにピクセル解像度が欠落しているかゼロです。",
+      "invalidTransformationMatrix": "ファイルに無効な変換行列があります。",
+      "unknown": "ファイルを読み取れませんでした。破損しているか、有効なGeoTIFFではない可能性があります。",
+      "unknownProjectionCode": "サポートされていない座標系です。サポートされているCRS（例：EPSG:4326またはUTMゾーン）に再投影してください。"
+    },
+    "tilesLoadingSummary": "{{2}}個のファイルのうち{{1}}個を処理できませんでした。"
   },
   "paywall": {
     "commercial": {
@@ -1144,5 +1156,9 @@
       "title": "非営利目的での使用"
     },
     "or": "または"
-  }
+  },
+  "namedLicence": "指名ライセンス",
+  "upgradeToProFor": "高度なモデリングとシナリオ",
+  "upgradeToTeamsFor": "一元的な制御とコラボレーション",
+  "yearShort": "年"
 }

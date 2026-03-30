@@ -1105,7 +1105,9 @@
     "searchPlaceholder": "Buscar por ubicación o código",
     "title": "Proyección de red",
     "noResultsDescription": "Intenta buscar una ubicación diferente o alejarte en el mapa para ampliar tu área de búsqueda.",
-    "noResultsTitle": "No se encontraron proyecciones coincidentes aquí"
+    "noResultsTitle": "No se encontraron proyecciones coincidentes aquí",
+    "removeBasemap": "Quitar mapa base",
+    "setMapProjection": "Establecer proyección del mapa"
   },
   "baseCost": "Costo base",
   "customElevations": "Elevaciones personalizadas",
@@ -1136,7 +1138,17 @@
     "tilesLoadingError": "No se pudieron cargar los datos de elevación",
     "tilesProcessed": "Teselas de elevación procesadas",
     "title": "Elevaciones",
-    "userElevationData": "Datos de elevación del usuario"
+    "userElevationData": "Datos de elevación del usuario",
+    "errorDetails": "Detalles del error",
+    "errors": {
+      "cartesianProjection": "No se admiten coordenadas geocéntricas (cartesianas 3D). Por favor, reproyecta a un CRS 2D.",
+      "invalidCustomProjection": "Los parámetros de proyección personalizada faltan o son inválidos.",
+      "invalidResolution": "El archivo tiene resolución de píxeles faltante o cero.",
+      "invalidTransformationMatrix": "El archivo tiene una matriz de transformación inválida.",
+      "unknown": "El archivo no pudo leerse. Puede estar corrupto o no ser un GeoTIFF válido.",
+      "unknownProjectionCode": "Sistema de coordenadas no soportado. Por favor, reproyecta a un CRS soportado (ej. EPSG:4326 o una zona UTM)."
+    },
+    "tilesLoadingSummary": "{{1}} de {{2}} archivos no pudieron procesarse."
   },
   "paywall": {
     "commercial": {
@@ -1151,5 +1163,9 @@
       "title": "Uso no comercial"
     },
     "or": "o"
-  }
+  },
+  "namedLicence": "Licencia nominal",
+  "upgradeToProFor": "Modelado avanzado y escenarios",
+  "upgradeToTeamsFor": "Control centralizado y colaboración",
+  "yearShort": "año"
 }

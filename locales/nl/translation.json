@@ -1098,7 +1098,9 @@
     "searchPlaceholder": "Zoeken op locatie of code",
     "title": "Netwerkprojectie",
     "noResultsDescription": "Probeer te zoeken naar een andere locatie of uit te zoomen op de kaart om uw zoekgebied uit te breiden.",
-    "noResultsTitle": "Hier zijn geen overeenkomende projecties gevonden"
+    "noResultsTitle": "Hier zijn geen overeenkomende projecties gevonden",
+    "removeBasemap": "Basiskaart verwijderen",
+    "setMapProjection": "Kaartprojectie instellen"
   },
   "baseCost": "Basiskosten",
   "customElevations": "Aangepaste hoogtes",
@@ -1129,7 +1131,17 @@
     "tilesLoadingError": "De hoogtegegevens konden niet worden geladen",
     "tilesProcessed": "Hoogtetegels verwerkt",
     "title": "Hoogtes",
-    "userElevationData": "Gebruikers hoogtegegevens"
+    "userElevationData": "Gebruikers hoogtegegevens",
+    "errorDetails": "Foutdetails",
+    "errors": {
+      "cartesianProjection": "Geocentrische (3D cartesiaanse) coördinaten worden niet ondersteund. Herprojecteer naar een 2D CRS.",
+      "invalidCustomProjection": "De aangepaste projectieparameters ontbreken of zijn ongeldig.",
+      "invalidResolution": "Het bestand heeft ontbrekende of nul pixelresolutie.",
+      "invalidTransformationMatrix": "Het bestand heeft een ongeldige transformatiematrix.",
+      "unknown": "Het bestand kon niet worden gelezen. Het is mogelijk beschadigd of geen geldig GeoTIFF.",
+      "unknownProjectionCode": "Niet-ondersteund coördinatensysteem. Herprojecteer naar een ondersteund CRS (bijv. EPSG:4326 of een UTM-zone)."
+    },
+    "tilesLoadingSummary": "{{1}} van de {{2}} bestanden konden niet worden verwerkt."
   },
   "paywall": {
     "commercial": {
@@ -1144,5 +1156,9 @@
       "title": "Niet-commercieel gebruik"
     },
     "or": "of"
-  }
+  },
+  "namedLicence": "Benoemde licentie",
+  "upgradeToProFor": "Geavanceerde modellering & scenario's",
+  "upgradeToTeamsFor": "Gecentraliseerde controle & samenwerking",
+  "yearShort": "jr"
 }

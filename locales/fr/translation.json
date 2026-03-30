@@ -1098,7 +1098,9 @@
     "searchPlaceholder": "Rechercher par lieu ou code",
     "title": "Projection du réseau",
     "noResultsDescription": "Essayez de rechercher un autre emplacement ou de dézoomer sur la carte pour étendre votre zone de recherche.",
-    "noResultsTitle": "Aucune projection correspondante trouvée ici"
+    "noResultsTitle": "Aucune projection correspondante trouvée ici",
+    "removeBasemap": "Supprimer le fond de carte",
+    "setMapProjection": "Définir la projection de la carte"
   },
   "baseCost": "Coût de base",
   "customElevations": "Élévations personnalisées",
@@ -1129,7 +1131,17 @@
     "tilesLoadingError": "Les données d'élévation n'ont pas pu être chargées",
     "tilesProcessed": "Tuiles d'élévation traitées",
     "title": "Élévations",
-    "userElevationData": "Données d'élévation utilisateur"
+    "userElevationData": "Données d'élévation utilisateur",
+    "errorDetails": "Détails de l'erreur",
+    "errors": {
+      "cartesianProjection": "Les coordonnées géocentriques (cartésiennes 3D) ne sont pas prises en charge. Veuillez reprojeter vers un SCR 2D.",
+      "invalidCustomProjection": "Les paramètres de projection personnalisée sont manquants ou invalides.",
+      "invalidResolution": "Le fichier a une résolution de pixels manquante ou nulle.",
+      "invalidTransformationMatrix": "Le fichier a une matrice de transformation invalide.",
+      "unknown": "Le fichier n'a pas pu être lu. Il peut être corrompu ou ne pas être un GeoTIFF valide.",
+      "unknownProjectionCode": "Système de coordonnées non pris en charge. Veuillez reprojeter vers un SCR pris en charge (par ex. EPSG:4326 ou une zone UTM)."
+    },
+    "tilesLoadingSummary": "{{1}} des {{2}} fichiers n'ont pas pu être traités."
   },
   "paywall": {
     "commercial": {
@@ -1144,5 +1156,9 @@
       "title": "Usage Non Commercial"
     },
     "or": "ou"
-  }
+  },
+  "namedLicence": "Licence nominative",
+  "upgradeToProFor": "Modélisation avancée et scénarios",
+  "upgradeToTeamsFor": "Contrôle centralisé et collaboration",
+  "yearShort": "an"
 }
