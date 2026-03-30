@@ -1115,16 +1115,15 @@
     "mapboxDefaultData": "Mapbox standaardgegevens",
     "paywall": {
       "captions": {
-        "1": "Voeg uw eigen hoogtegegevens toe",
-        "2": "Upload GeoTIFF-bestanden met hoge resolutie",
-        "3": "Laag meerdere hoogtebronnen",
-        "4": "Krijg nauwkeurig terrein voor uw netwerk"
+        "1": "Voeg aangepaste hoogtebronnen toe aan epanet-js",
+        "2": "Laad GeoTIFFs rechtstreeks vanaf uw computer",
+        "3": "Gebruik hoogtegegevens met hoge resolutie in uw hydraulisch model"
       },
-      "description1": "Met aangepaste hoogtes kunt u uw eigen GeoTIFF-gegevens gebruiken voor nauwkeurige terreinmodellering.",
-      "description2": "Upload hoogtegegevens met hoge resolutie en leg deze over wereldwijde terreinbronnen heen.",
-      "title": "Upgrade om toegang te krijgen tot aangepaste hoogtes",
-      "plans": "Aangepaste hoogtes zijn beschikbaar op betaalde abonnementen.",
-      "trial": "Aangepaste hoogtes zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+      "description1": "Breng uw eigen GeoTIFF-bestanden naar epanet-js en gebruik ze direct in uw model.",
+      "description2": "Leg terreingegevens met hoge resolutie over waar u het nodig heeft en krijg nauwkeurigere hoogtes voor uw netwerk.",
+      "title": "Upgrade om uw eigen hoogtegegevens te gebruiken",
+      "plans": "Aangepaste hoogtebronnen zijn beschikbaar op betaalde abonnementen.",
+      "trial": "Aangepaste hoogtebronnen zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard vereist."
     },
     "sourceDetails": "Details hoogtebron",
     "tilesLoadingError": "De hoogtegegevens konden niet worden geladen",

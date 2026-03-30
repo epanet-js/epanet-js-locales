@@ -1115,16 +1115,15 @@
     "mapboxDefaultData": "Dados padrão Mapbox",
     "paywall": {
       "captions": {
-        "1": "Adicione seus próprios dados de elevação",
-        "2": "Carregue arquivos GeoTIFF de alta resolução",
-        "3": "Camadas de múltiplas fontes de elevação",
-        "4": "Obtenha terreno preciso para sua rede"
+        "1": "Adicionar fontes de elevação personalizadas ao epanet-js",
+        "2": "Carregar GeoTIFFs diretamente do seu computador",
+        "3": "Use dados de elevação de alta resolução em seu modelo hidráulico"
       },
-      "description1": "Elevações personalizadas permitem usar seus próprios dados GeoTIFF para modelagem precisa do terreno.",
-      "description2": "Carregue dados de elevação de alta resolução e sobreponha-os às fontes de terreno globais.",
-      "title": "Atualize para acessar elevações personalizadas",
-      "plans": "Elevações personalizadas estão disponíveis em planos pagos.",
-      "trial": "Elevações personalizadas são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+      "description1": "Traga seus próprios arquivos GeoTIFF para o epanet-js e use-os diretamente em seu modelo.",
+      "description2": "Sobreponha dados de terreno de alta resolução onde você precisar e obtenha elevações mais precisas para sua rede.",
+      "title": "Atualize para usar seus próprios dados de elevação",
+      "plans": "Fontes de elevação personalizadas estão disponíveis em planos pagos.",
+      "trial": "Fontes de elevação personalizadas são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
     },
     "sourceDetails": "Detalhes da fonte de elevação",
     "tilesLoadingError": "Não foi possível carregar os dados de elevação",
