@@ -1161,5 +1161,28 @@
   "namedLicence": "Licence nominative",
   "upgradeToProFor": "Modélisation avancée et scénarios",
   "upgradeToTeamsFor": "Contrôle centralisé et collaboration",
-  "yearShort": "an"
+  "yearShort": "an",
+  "customLayers": {
+    "addCustom": "Ajouter Personnalisé",
+    "addLayer": "Ajouter une Couche",
+    "checkMapboxDocs": "Voir la documentation Mapbox sur",
+    "chooseType": "Choisir le Type",
+    "paywall": {
+      "captions": {
+        "1": "Ajoutez vos propres couches de carte à epanet-js",
+        "2": "Utilisez des tuiles XYZ, Mapbox ou des sources TileJSON",
+        "3": "Superposez des fonds de carte personnalisés sur votre modèle hydraulique"
+      },
+      "description1": "Intégrez vos propres couches de carte dans epanet-js en utilisant des tuiles XYZ, des styles Mapbox ou TileJSON.",
+      "description2": "Superposez des images satellite, du terrain ou des fonds de carte personnalisés directement sur votre modèle hydraulique.",
+      "plans": "Les couches personnalisées sont disponibles avec les plans payants.",
+      "title": "Mettre à niveau pour ajouter des couches personnalisées",
+      "trial": "Les couches personnalisées sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+    },
+    "supports": "Supporte",
+    "toggleLabelsVisibility": "Basculer la Visibilité des Étiquettes",
+    "toggleVisibility": "Basculer la Visibilité",
+    "updateLayer": "Mettre à jour la couche",
+    "xyzURLContain": "L'URL XYZ doit contenir {z}, {x} et {y}."
+  }
 }

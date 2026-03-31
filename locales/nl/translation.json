@@ -1161,5 +1161,28 @@
   "namedLicence": "Benoemde licentie",
   "upgradeToProFor": "Geavanceerde modellering & scenario's",
   "upgradeToTeamsFor": "Gecentraliseerde controle & samenwerking",
-  "yearShort": "jr"
+  "yearShort": "jr",
+  "customLayers": {
+    "addCustom": "Aangepast toevoegen",
+    "addLayer": "Laag toevoegen",
+    "checkMapboxDocs": "Bekijk Mapbox documentatie over",
+    "chooseType": "Kies type",
+    "paywall": {
+      "captions": {
+        "1": "Voeg uw eigen kaartlagen toe aan epanet-js",
+        "2": "Gebruik XYZ-tegels, Mapbox- of TileJSON-bronnen",
+        "3": "Leg aangepaste basiskaarten over uw hydraulisch model"
+      },
+      "description1": "Breng uw eigen kaartlagen in epanet-js met behulp van XYZ-tegels, Mapbox-stijlen of TileJSON.",
+      "description2": "Leg satellietbeelden, terrein of aangepaste basiskaarten direct over uw hydraulisch model.",
+      "plans": "Aangepaste lagen zijn beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om aangepaste lagen toe te voegen",
+      "trial": "Aangepaste lagen zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    },
+    "supports": "Ondersteunt",
+    "toggleLabelsVisibility": "Zichtbaarheid van labels schakelen",
+    "toggleVisibility": "Zichtbaarheid schakelen",
+    "updateLayer": "Laag bijwerken",
+    "xyzURLContain": "XYZ URL moet {z}, {x} en {y} bevatten."
+  }
 }

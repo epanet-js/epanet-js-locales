@@ -1161,5 +1161,28 @@
   "namedLicence": "指名ライセンス",
   "upgradeToProFor": "高度なモデリングとシナリオ",
   "upgradeToTeamsFor": "一元的な制御とコラボレーション",
-  "yearShort": "年"
+  "yearShort": "年",
+  "customLayers": {
+    "addCustom": "カスタムを追加",
+    "addLayer": "レイヤーを追加",
+    "checkMapboxDocs": "Mapboxのドキュメントを参照",
+    "chooseType": "タイプを選択",
+    "paywall": {
+      "captions": {
+        "1": "epanet-jsに独自のマップレイヤーを追加",
+        "2": "XYZタイル、Mapbox、またはTileJSONソースを使用",
+        "3": "油圧モデルにカスタムベースマップを重ねて表示"
+      },
+      "description1": "XYZタイル、Mapboxスタイル、またはTileJSONを使用して、独自のマップレイヤーをepanet-jsに取り込みます。",
+      "description2": "衛星画像、地形、またはカスタムベースマップを油圧モデルに直接重ねて表示します。",
+      "plans": "カスタムレイヤーは有料プランでご利用いただけます。",
+      "title": "カスタムレイヤーを追加するにはアップグレードしてください",
+      "trial": "カスタムレイヤーは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+    },
+    "supports": "サポート",
+    "toggleLabelsVisibility": "ラベルの表示/非表示を切り替え",
+    "toggleVisibility": "表示/非表示を切り替え",
+    "updateLayer": "レイヤーを更新",
+    "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。"
+  }
 }

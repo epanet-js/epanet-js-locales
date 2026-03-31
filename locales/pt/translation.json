@@ -1161,5 +1161,28 @@
   "namedLicence": "Licença nomeada",
   "upgradeToProFor": "Modelagem avançada e cenários",
   "upgradeToTeamsFor": "Controle centralizado e colaboração",
-  "yearShort": "ano"
+  "yearShort": "ano",
+  "customLayers": {
+    "addCustom": "Adicionar Personalizado",
+    "addLayer": "Adicionar Camada",
+    "checkMapboxDocs": "Consulte a documentação do Mapbox",
+    "chooseType": "Escolher Tipo",
+    "paywall": {
+      "captions": {
+        "1": "Adicione suas próprias camadas de mapa ao epanet-js",
+        "2": "Use tiles XYZ, Mapbox ou fontes TileJSON",
+        "3": "Sobreponha mapas base personalizados em seu modelo hidráulico"
+      },
+      "description1": "Traga suas próprias camadas de mapa para o epanet-js usando tiles XYZ, estilos Mapbox ou TileJSON.",
+      "description2": "Sobreponha imagens de satélite, terreno ou mapas base personalizados diretamente em seu modelo hidráulico.",
+      "plans": "Camadas personalizadas estão disponíveis em planos pagos.",
+      "title": "Atualize para adicionar camadas personalizadas",
+      "trial": "Camadas personalizadas são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
+    },
+    "supports": "Suporta",
+    "toggleLabelsVisibility": "Alternar Visibilidade de Rótulos",
+    "toggleVisibility": "Alternar Visibilidade",
+    "updateLayer": "Atualizar Camada",
+    "xyzURLContain": "A URL XYZ deve conter {z}, {x} e {y}."
+  }
 }

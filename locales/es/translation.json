@@ -1168,5 +1168,28 @@
   "namedLicence": "Licencia nominal",
   "upgradeToProFor": "Modelado avanzado y escenarios",
   "upgradeToTeamsFor": "Control centralizado y colaboración",
-  "yearShort": "año"
+  "yearShort": "año",
+  "customLayers": {
+    "addCustom": "Añadir personalizada",
+    "addLayer": "Añadir capa",
+    "checkMapboxDocs": "Consulta la documentación de Mapbox",
+    "chooseType": "Elegir tipo",
+    "paywall": {
+      "captions": {
+        "1": "Añade tus propias capas de mapa a epanet-js",
+        "2": "Usa teselas XYZ, Mapbox o fuentes TileJSON",
+        "3": "Superpón mapas base personalizados en tu modelo hidráulico"
+      },
+      "description1": "Trae tus propias capas de mapa a epanet-js usando teselas XYZ, estilos Mapbox o TileJSON.",
+      "description2": "Superpón imágenes satelitales, terreno o mapas base personalizados directamente en tu modelo hidráulico.",
+      "plans": "Las capas personalizadas están disponibles en planes de pago.",
+      "title": "Mejora para añadir capas personalizadas",
+      "trial": "Las capas personalizadas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+    },
+    "supports": "Soporta",
+    "toggleLabelsVisibility": "Cambiar visibilidad de etiquetas",
+    "toggleVisibility": "Cambiar visibilidad",
+    "updateLayer": "Actualizar capa",
+    "xyzURLContain": "La URL XYZ debe contener {z}, {x} and {y}."
+  }
 }
