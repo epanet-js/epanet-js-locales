@@ -1148,7 +1148,8 @@
       "unknown": "El archivo no pudo leerse. Puede estar corrupto o no ser un GeoTIFF válido.",
       "unknownProjectionCode": "Sistema de coordenadas no soportado. Por favor, reproyecta a un CRS soportado (ej. EPSG:4326 o una zona UTM)."
     },
-    "tilesLoadingSummary": "{{1}} de {{2}} archivos no pudieron procesarse."
+    "tilesLoadingSummary": "{{1}} de {{2}} archivos no pudieron procesarse.",
+    "verticalUnit": "Unidad de elevación"
   },
   "paywall": {
     "commercial": {

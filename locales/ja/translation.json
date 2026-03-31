@@ -1141,7 +1141,8 @@
       "unknown": "ファイルを読み取れませんでした。破損しているか、有効なGeoTIFFではない可能性があります。",
       "unknownProjectionCode": "サポートされていない座標系です。サポートされているCRS（例：EPSG:4326またはUTMゾーン）に再投影してください。"
     },
-    "tilesLoadingSummary": "{{2}}個のファイルのうち{{1}}個を処理できませんでした。"
+    "tilesLoadingSummary": "{{2}}個のファイルのうち{{1}}個を処理できませんでした。",
+    "verticalUnit": "標高単位"
   },
   "paywall": {
     "commercial": {

@@ -1141,7 +1141,8 @@
       "unknown": "Het bestand kon niet worden gelezen. Het is mogelijk beschadigd of geen geldig GeoTIFF.",
       "unknownProjectionCode": "Niet-ondersteund coördinatensysteem. Herprojecteer naar een ondersteund CRS (bijv. EPSG:4326 of een UTM-zone)."
     },
-    "tilesLoadingSummary": "{{1}} van de {{2}} bestanden konden niet worden verwerkt."
+    "tilesLoadingSummary": "{{1}} van de {{2}} bestanden konden niet worden verwerkt.",
+    "verticalUnit": "Hoogte-eenheid"
   },
   "paywall": {
     "commercial": {

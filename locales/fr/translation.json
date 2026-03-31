@@ -1141,7 +1141,8 @@
       "unknown": "Le fichier n'a pas pu être lu. Il peut être corrompu ou ne pas être un GeoTIFF valide.",
       "unknownProjectionCode": "Système de coordonnées non pris en charge. Veuillez reprojeter vers un SCR pris en charge (par ex. EPSG:4326 ou une zone UTM)."
     },
-    "tilesLoadingSummary": "{{1}} des {{2}} fichiers n'ont pas pu être traités."
+    "tilesLoadingSummary": "{{1}} des {{2}} fichiers n'ont pas pu être traités.",
+    "verticalUnit": "Unité d'élévation"
   },
   "paywall": {
     "commercial": {
