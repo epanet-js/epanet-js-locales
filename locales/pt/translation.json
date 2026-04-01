@@ -1094,7 +1094,7 @@
     "setMapProjection": "Definir projeção do mapa"
   },
   "baseCost": "Custo base",
-  "customElevations": "Elevações personalizadas",
+  "customElevations": "Fontes de elevação personalizadas",
   "perUser": "Usuário",
   "selfServiceSeatManagement": "Gerenciamento de licenças self-service",
   "elevations": {
@@ -1149,7 +1149,7 @@
     },
     "or": "ou"
   },
-  "namedLicence": "Licença nomeada",
+  "namedLicence": "Licença individual nomeada",
   "upgradeToProFor": "Modelagem avançada e cenários",
   "upgradeToTeamsFor": "Controle centralizado e colaboração",
   "yearShort": "ano",
@@ -1175,5 +1175,6 @@
     "toggleVisibility": "Alternar Visibilidade",
     "updateLayer": "Atualizar Camada",
     "xyzURLContain": "A URL XYZ deve conter {z}, {x} e {y}."
-  }
+  },
+  "free.forEveryone": "Para todos"
 }

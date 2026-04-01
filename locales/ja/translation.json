@@ -1094,7 +1094,7 @@
     "setMapProjection": "マップ投影を設定"
   },
   "baseCost": "基本料金",
-  "customElevations": "カスタム標高",
+  "customElevations": "カスタム標高ソース",
   "perUser": "ユーザー",
   "selfServiceSeatManagement": "セルフサービスシート管理",
   "elevations": {
@@ -1149,7 +1149,7 @@
     },
     "or": "または"
   },
-  "namedLicence": "指名ライセンス",
+  "namedLicence": "個人向け指名ライセンス",
   "upgradeToProFor": "高度なモデリングとシナリオ",
   "upgradeToTeamsFor": "一元的な制御とコラボレーション",
   "yearShort": "年",
@@ -1175,5 +1175,6 @@
     "toggleVisibility": "表示/非表示を切り替え",
     "updateLayer": "レイヤーを更新",
     "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。"
-  }
+  },
+  "free.forEveryone": "すべての人に"
 }

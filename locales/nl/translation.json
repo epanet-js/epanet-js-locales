@@ -1149,7 +1149,7 @@
     },
     "or": "of"
   },
-  "namedLicence": "Benoemde licentie",
+  "namedLicence": "Individuele benoemde licentie",
   "upgradeToProFor": "Geavanceerde modellering & scenario's",
   "upgradeToTeamsFor": "Centrale regie & samenwerking",
   "yearShort": "jr",
@@ -1175,5 +1175,6 @@
     "toggleVisibility": "Zichtbaarheid schakelen",
     "updateLayer": "Laag bijwerken",
     "xyzURLContain": "XYZ URL moet {z}, {x} en {y} bevatten."
-  }
+  },
+  "free.forEveryone": "Voor iedereen"
 }
