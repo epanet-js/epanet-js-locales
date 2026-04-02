@@ -1179,5 +1179,13 @@
   },
   "free.forEveryone": "Voor iedereen",
   "initialWaterAge": "Initiële waterleeftijd",
-  "waterAge": "Waterleeftijd"
+  "waterAge": "Waterleeftijd",
+  "mixingFraction": "Mengfractie",
+  "mixingModel": "Mengmodel",
+  "runningHydraulicAnalysis": "Hydraulische simulatie uitvoeren op",
+  "runningQualityAnalysis": "Waterkwaliteitssimulatie uitvoeren op",
+  "tank.2comp": "Twee-compartimenten",
+  "tank.fifo": "Eerste in, eerste uit",
+  "tank.lifo": "Laatste in, eerste uit",
+  "tank.mixed": "Volledige menging"
 }

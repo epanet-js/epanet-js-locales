@@ -1186,5 +1186,13 @@
   },
   "free.forEveryone": "Para todos",
   "initialWaterAge": "Edad inicial del agua",
-  "waterAge": "Edad del agua"
+  "waterAge": "Edad del agua",
+  "mixingFraction": "Fracción de mezcla",
+  "mixingModel": "Modelo de mezcla",
+  "runningHydraulicAnalysis": "Ejecutando simulación hidráulica en",
+  "runningQualityAnalysis": "Ejecutando simulación de calidad del agua en",
+  "tank.2comp": "Dos compartimentos",
+  "tank.fifo": "Primero en entrar, primero en salir",
+  "tank.lifo": "Último en entrar, primero en salir",
+  "tank.mixed": "Mezcla completa"
 }

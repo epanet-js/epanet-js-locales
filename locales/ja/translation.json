@@ -1179,5 +1179,13 @@
   },
   "free.forEveryone": "すべての人に",
   "initialWaterAge": "初期水齢",
-  "waterAge": "水齢"
+  "waterAge": "水齢",
+  "mixingFraction": "混合割合",
+  "mixingModel": "混合モデル",
+  "runningHydraulicAnalysis": "水理シミュレーション実行中（時間）",
+  "runningQualityAnalysis": "水質シミュレーション実行中（時間）",
+  "tank.2comp": "二層混合",
+  "tank.fifo": "先入先出",
+  "tank.lifo": "後入先出",
+  "tank.mixed": "完全混合"
 }
