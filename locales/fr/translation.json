@@ -803,7 +803,8 @@
     "backflowAllowed": "Refoulement autorisé",
     "backflowAllowedDesc": "Spécifie si le refoulement à travers un émetteur (c'est-à-dire le flux entrant dans le réseau) est autorisé.",
     "backflowAllowedNo": "Non",
-    "backflowAllowedYes": "Oui"
+    "backflowAllowedYes": "Oui",
+    "qualityTypeNotSupported": "Non supporté."
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -1177,5 +1178,6 @@
     "xyzURLContain": "L'URL XYZ doit contenir {z}, {x} et {y}."
   },
   "free.forEveryone": "Pour tout le monde",
-  "initialWaterAge": "Âge initial de l'eau"
+  "initialWaterAge": "Âge initial de l'eau",
+  "waterAge": "Âge de l'eau"
 }

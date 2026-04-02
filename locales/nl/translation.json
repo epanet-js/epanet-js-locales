@@ -803,7 +803,8 @@
     "backflowAllowed": "Terugstroom toegestaan",
     "backflowAllowedDesc": "Specificeert of terugstroom via een emittor (d.w.z. stroming in het netwerk) is toegestaan.",
     "backflowAllowedNo": "Nee",
-    "backflowAllowedYes": "Ja"
+    "backflowAllowedYes": "Ja",
+    "qualityTypeNotSupported": "Niet ondersteund."
   },
   "utilities": "Hulpprogramma's",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
@@ -1177,5 +1178,6 @@
     "xyzURLContain": "XYZ URL moet {z}, {x} en {y} bevatten."
   },
   "free.forEveryone": "Voor iedereen",
-  "initialWaterAge": "Initiële waterleeftijd"
+  "initialWaterAge": "Initiële waterleeftijd",
+  "waterAge": "Waterleeftijd"
 }

@@ -803,7 +803,8 @@
     "backflowAllowed": "Retrossifão permitido",
     "backflowAllowedDesc": "Especifica se o retrossifão através de um emissor (ou seja, fluxo para a rede) é permitido.",
     "backflowAllowedNo": "Não",
-    "backflowAllowedYes": "Sim"
+    "backflowAllowedYes": "Sim",
+    "qualityTypeNotSupported": "Não suportado."
   },
   "utilities": "Aplicativos utilitários",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
@@ -1177,5 +1178,6 @@
     "xyzURLContain": "A URL XYZ deve conter {z}, {x} e {y}."
   },
   "free.forEveryone": "Para todos",
-  "initialWaterAge": "Idade inicial da água"
+  "initialWaterAge": "Idade inicial da água",
+  "waterAge": "Idade da água"
 }

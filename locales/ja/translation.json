@@ -803,7 +803,8 @@
     "backflowAllowed": "逆流を許可",
     "backflowAllowedDesc": "エミッターを介した逆流（つまり、ネットワークへの流入）が許可されているかどうかを指定します。",
     "backflowAllowedNo": "いいえ",
-    "backflowAllowedYes": "はい"
+    "backflowAllowedYes": "はい",
+    "qualityTypeNotSupported": "サポートされていません。"
   },
   "utilities": "ユーティリティ",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
@@ -1177,5 +1178,6 @@
     "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。"
   },
   "free.forEveryone": "すべての人に",
-  "initialWaterAge": "初期水齢"
+  "initialWaterAge": "初期水齢",
+  "waterAge": "水齢"
 }

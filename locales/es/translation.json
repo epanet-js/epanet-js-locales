@@ -810,7 +810,8 @@
     "backflowAllowed": "Flujo inverso permitido",
     "backflowAllowedDesc": "Especifica si se permite el flujo inverso a través de un emisor (es decir, el flujo hacia la red).",
     "backflowAllowedNo": "No",
-    "backflowAllowedYes": "Sí"
+    "backflowAllowedYes": "Sí",
+    "qualityTypeNotSupported": "No soportado."
   },
   "utilities": "Aplicaciones de utilidades",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
@@ -1184,5 +1185,6 @@
     "xyzURLContain": "La URL XYZ debe contener {z}, {x} and {y}."
   },
   "free.forEveryone": "Para todos",
-  "initialWaterAge": "Edad inicial del agua"
+  "initialWaterAge": "Edad inicial del agua",
+  "waterAge": "Edad del agua"
 }
