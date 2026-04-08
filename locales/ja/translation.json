@@ -1187,5 +1187,6 @@
   "tank.2comp": "二層混合",
   "tank.fifo": "先入先出",
   "tank.lifo": "後入先出",
-  "tank.mixed": "完全混合"
+  "tank.mixed": "完全混合",
+  "finalizingSimulation": "シミュレーション最終処理中…"
 }

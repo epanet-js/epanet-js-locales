@@ -1187,5 +1187,6 @@
   "tank.2comp": "Dois compartimentos",
   "tank.fifo": "Primeiro a entrar, primeiro a sair",
   "tank.lifo": "Último a entrar, primeiro a sair",
-  "tank.mixed": "Mistura completa"
+  "tank.mixed": "Mistura completa",
+  "finalizingSimulation": "Finalizando simulação…"
 }

@@ -1187,5 +1187,6 @@
   "tank.2comp": "Twee-compartimenten",
   "tank.fifo": "Eerste in, eerste uit",
   "tank.lifo": "Laatste in, eerste uit",
-  "tank.mixed": "Volledige menging"
+  "tank.mixed": "Volledige menging",
+  "finalizingSimulation": "Simulatie afronden…"
 }
