@@ -1188,5 +1188,7 @@
   "tank.fifo": "Eerste in, eerste uit",
   "tank.lifo": "Laatste in, eerste uit",
   "tank.mixed": "Volledige menging",
-  "finalizingSimulation": "Simulatie afronden…"
+  "regenerateFromAllData": "Opnieuw genereren van alle gegevens",
+  "regenerateFromCurrentStep": "Opnieuw genereren vanaf huidige stap",
+  "savingResults": "Simulatieresultaten opslaan..."
 }

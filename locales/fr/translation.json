@@ -1188,5 +1188,7 @@
   "tank.fifo": "Premier entré, premier sorti",
   "tank.lifo": "Dernier entré, premier sorti",
   "tank.mixed": "Mélange complet",
-  "finalizingSimulation": "Finalisation de la simulation…"
+  "regenerateFromAllData": "Regénérer à partir de toutes les données",
+  "regenerateFromCurrentStep": "Regénérer à partir de l'étape actuelle",
+  "savingResults": "Enregistrement des résultats de la simulation..."
 }
