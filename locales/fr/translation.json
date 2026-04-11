@@ -804,7 +804,8 @@
     "backflowAllowedDesc": "Spécifie si le refoulement à travers un émetteur (c'est-à-dire le flux entrant dans le réseau) est autorisé.",
     "backflowAllowedNo": "Non",
     "backflowAllowedYes": "Oui",
-    "qualityTypeNotSupported": "Non supporté."
+    "qualityTypeNotSupported": "Non supporté.",
+    "traceNodeRequired": "Un libellé de nœud valide est requis"
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -1190,5 +1191,6 @@
   "tank.mixed": "Mélange complet",
   "regenerateFromAllData": "Regénérer à partir de toutes les données",
   "regenerateFromCurrentStep": "Regénérer à partir de l'étape actuelle",
-  "savingResults": "Enregistrement des résultats de la simulation..."
+  "savingResults": "Enregistrement des résultats de la simulation...",
+  "waterTrace": "Traçage de l'eau"
 }

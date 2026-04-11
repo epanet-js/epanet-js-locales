@@ -804,7 +804,8 @@
     "backflowAllowedDesc": "エミッターを介した逆流（つまり、ネットワークへの流入）が許可されているかどうかを指定します。",
     "backflowAllowedNo": "いいえ",
     "backflowAllowedYes": "はい",
-    "qualityTypeNotSupported": "サポートされていません。"
+    "qualityTypeNotSupported": "サポートされていません。",
+    "traceNodeRequired": "有効なノードラベルが必要です"
   },
   "utilities": "ユーティリティ",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
@@ -1190,5 +1191,6 @@
   "tank.mixed": "完全混合",
   "regenerateFromAllData": "すべてのデータから再生成",
   "regenerateFromCurrentStep": "現在のステップから再生成",
-  "savingResults": "シミュレーション結果を保存中..."
+  "savingResults": "シミュレーション結果を保存中...",
+  "waterTrace": "水質追跡"
 }

@@ -804,7 +804,8 @@
     "backflowAllowedDesc": "Especifica se o retrossifão através de um emissor (ou seja, fluxo para a rede) é permitido.",
     "backflowAllowedNo": "Não",
     "backflowAllowedYes": "Sim",
-    "qualityTypeNotSupported": "Não suportado."
+    "qualityTypeNotSupported": "Não suportado.",
+    "traceNodeRequired": "Um rótulo de nó válido é necessário"
   },
   "utilities": "Aplicativos utilitários",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
@@ -1190,5 +1191,6 @@
   "tank.mixed": "Mistura completa",
   "regenerateFromAllData": "Regenerar de todos os dados",
   "regenerateFromCurrentStep": "Regenerar do passo atual",
-  "savingResults": "Salvando resultados da simulação..."
+  "savingResults": "Salvando resultados da simulação...",
+  "waterTrace": "Traçado de água"
 }

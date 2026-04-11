@@ -804,7 +804,8 @@
     "backflowAllowedDesc": "Specificeert of terugstroom via een emittor (d.w.z. stroming in het netwerk) is toegestaan.",
     "backflowAllowedNo": "Nee",
     "backflowAllowedYes": "Ja",
-    "qualityTypeNotSupported": "Niet ondersteund."
+    "qualityTypeNotSupported": "Niet ondersteund.",
+    "traceNodeRequired": "Een geldig knooppuntlabel is vereist"
   },
   "utilities": "Hulpprogramma's",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
@@ -1190,5 +1191,6 @@
   "tank.mixed": "Volledige menging",
   "regenerateFromAllData": "Opnieuw genereren van alle gegevens",
   "regenerateFromCurrentStep": "Opnieuw genereren vanaf huidige stap",
-  "savingResults": "Simulatieresultaten opslaan..."
+  "savingResults": "Simulatieresultaten opslaan...",
+  "waterTrace": "Waterspoor"
 }
