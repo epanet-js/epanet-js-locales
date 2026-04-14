@@ -1183,7 +1183,21 @@
     "toggleLabelsVisibility": "Cambiar visibilidad de etiquetas",
     "toggleVisibility": "Cambiar visibilidad",
     "updateLayer": "Actualizar capa",
-    "xyzURLContain": "La URL XYZ debe contener {z}, {x} and {y}."
+    "xyzURLContain": "La URL XYZ debe contener {z}, {x} and {y}.",
+    "color": "Color",
+    "error": {
+      "invalid-format": "Formato de archivo inválido",
+      "invalid-projection": "Sistema de coordenadas desconocido",
+      "no-features": "No se encontraron características",
+      "projection-conversion-failed": "Falló la conversión de coordenadas",
+      "unsupported-crs": "Sistema de coordenadas no soportado"
+    },
+    "gisFile": "Archivo GIS",
+    "gisImportError": "Errores de importación GIS",
+    "gisImportSummary": "{{1}} de {{2}} archivos no pudieron ser importados",
+    "labels": "Etiquetas",
+    "lineWidth": "Ancho de línea",
+    "opacity": "Opacidad"
   },
   "free.forEveryone": "Para todos",
   "initialWaterAge": "Edad inicial del agua",
@@ -1199,5 +1213,17 @@
   "regenerateFromAllData": "Regenerar desde todos los datos",
   "regenerateFromCurrentStep": "Regenerar desde el paso actual",
   "savingResults": "Guardando resultados de simulación...",
-  "waterTrace": "Trazado de agua"
+  "waterTrace": "Trazado de agua",
+  "bulkReactionCoeff": "Coeficiente de reacción en masa",
+  "chemical": "químico",
+  "chemicalSourcePattern": "Patrón de fuente",
+  "chemicalSourceStrength": "Intensidad de la fuente",
+  "chemicalSourceType": "Tipo de fuente química",
+  "initialChemicalConcentration": "{{1}} inicial ({{2}})",
+  "quality": "Calidad",
+  "source.CONCEN": "Concentración",
+  "source.FLOWPACED": "Impulsor de caudal",
+  "source.MASS": "Impulsor de masa",
+  "source.SETPOINT": "Impulsor de punto de ajuste",
+  "wallReactionCoeff": "Coeficiente de reacción en la pared"
 }

@@ -1176,7 +1176,21 @@
     "toggleLabelsVisibility": "Basculer la Visibilité des Étiquettes",
     "toggleVisibility": "Basculer la Visibilité",
     "updateLayer": "Mettre à jour la couche",
-    "xyzURLContain": "L'URL XYZ doit contenir {z}, {x} et {y}."
+    "xyzURLContain": "L'URL XYZ doit contenir {z}, {x} et {y}.",
+    "color": "Couleur",
+    "error": {
+      "invalid-format": "Format de fichier invalide",
+      "invalid-projection": "Système de coordonnées inconnu",
+      "no-features": "Aucune entité trouvée",
+      "projection-conversion-failed": "Échec de la conversion des coordonnées",
+      "unsupported-crs": "Système de coordonnées non supporté"
+    },
+    "gisFile": "Fichier SIG",
+    "gisImportError": "Erreurs d'importation SIG",
+    "gisImportSummary": "{{1}} des {{2}} fichiers n'ont pas pu être importés",
+    "labels": "Étiquettes",
+    "lineWidth": "Largeur de ligne",
+    "opacity": "Opacité"
   },
   "free.forEveryone": "Pour tout le monde",
   "initialWaterAge": "Âge initial de l'eau",
@@ -1192,5 +1206,17 @@
   "regenerateFromAllData": "Regénérer à partir de toutes les données",
   "regenerateFromCurrentStep": "Regénérer à partir de l'étape actuelle",
   "savingResults": "Enregistrement des résultats de la simulation...",
-  "waterTrace": "Traçage de l'eau"
+  "waterTrace": "Traçage de l'eau",
+  "bulkReactionCoeff": "Coefficient de réaction en masse",
+  "chemical": "produit chimique",
+  "chemicalSourcePattern": "Motif de source",
+  "chemicalSourceStrength": "Force de la source",
+  "chemicalSourceType": "Type de source chimique",
+  "initialChemicalConcentration": "{{1}} initial ({{2}})",
+  "quality": "Qualité",
+  "source.CONCEN": "Concentration",
+  "source.FLOWPACED": "Booster à débit régulé",
+  "source.MASS": "Booster de masse",
+  "source.SETPOINT": "Booster à point de consigne",
+  "wallReactionCoeff": "Coefficient de réaction de paroi"
 }

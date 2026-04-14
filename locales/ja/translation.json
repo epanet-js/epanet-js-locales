@@ -1176,7 +1176,21 @@
     "toggleLabelsVisibility": "ラベルの表示/非表示を切り替え",
     "toggleVisibility": "表示/非表示を切り替え",
     "updateLayer": "レイヤーを更新",
-    "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。"
+    "xyzURLContain": "XYZ URLには{z}、{x}、{y}を含める必要があります。",
+    "color": "色",
+    "error": {
+      "invalid-format": "無効なファイル形式",
+      "invalid-projection": "不明な座標系",
+      "no-features": "フィーチャが見つかりません",
+      "projection-conversion-failed": "座標変換に失敗しました",
+      "unsupported-crs": "サポートされていない座標系"
+    },
+    "gisFile": "GISファイル",
+    "gisImportError": "GISインポートエラー",
+    "gisImportSummary": "{{2}}個のファイルのうち{{1}}個をインポートできませんでした",
+    "labels": "ラベル",
+    "lineWidth": "線幅",
+    "opacity": "不透明度"
   },
   "free.forEveryone": "すべての人に",
   "initialWaterAge": "初期水齢",
@@ -1192,5 +1206,17 @@
   "regenerateFromAllData": "すべてのデータから再生成",
   "regenerateFromCurrentStep": "現在のステップから再生成",
   "savingResults": "シミュレーション結果を保存中...",
-  "waterTrace": "水質追跡"
+  "waterTrace": "水質追跡",
+  "bulkReactionCoeff": "バルク反応係数",
+  "chemical": "化学物質",
+  "chemicalSourcePattern": "ソースパターン",
+  "chemicalSourceStrength": "ソース強度",
+  "chemicalSourceType": "化学物質源タイプ",
+  "initialChemicalConcentration": "初期{{1}} ({{2}})",
+  "quality": "水質",
+  "source.CONCEN": "濃度",
+  "source.FLOWPACED": "流量比例ブースター",
+  "source.MASS": "質量ブースター",
+  "source.SETPOINT": "設定点ブースター",
+  "wallReactionCoeff": "壁面反応係数"
 }

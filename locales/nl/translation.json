@@ -1176,7 +1176,21 @@
     "toggleLabelsVisibility": "Zichtbaarheid van labels schakelen",
     "toggleVisibility": "Zichtbaarheid schakelen",
     "updateLayer": "Laag bijwerken",
-    "xyzURLContain": "XYZ URL moet {z}, {x} en {y} bevatten."
+    "xyzURLContain": "XYZ URL moet {z}, {x} en {y} bevatten.",
+    "color": "Kleur",
+    "error": {
+      "invalid-format": "Ongeldig bestandsformaat",
+      "invalid-projection": "Onbekend coördinatensysteem",
+      "no-features": "Geen objecten gevonden",
+      "projection-conversion-failed": "Coördinatenconversie mislukt",
+      "unsupported-crs": "Niet-ondersteund coördinatensysteem"
+    },
+    "gisFile": "GIS-bestand",
+    "gisImportError": "GIS-importfouten",
+    "gisImportSummary": "{{1}} van de {{2}} bestanden konden niet worden geïmporteerd",
+    "labels": "Labels",
+    "lineWidth": "Lijndikte",
+    "opacity": "Dekking"
   },
   "free.forEveryone": "Voor iedereen",
   "initialWaterAge": "Initiële waterleeftijd",
@@ -1192,5 +1206,17 @@
   "regenerateFromAllData": "Opnieuw genereren van alle gegevens",
   "regenerateFromCurrentStep": "Opnieuw genereren vanaf huidige stap",
   "savingResults": "Simulatieresultaten opslaan...",
-  "waterTrace": "Waterspoor"
+  "waterTrace": "Waterspoor",
+  "bulkReactionCoeff": "Bulk reactiecoëfficiënt",
+  "chemical": "chemisch",
+  "chemicalSourcePattern": "Bronpatroon",
+  "chemicalSourceStrength": "Bronsterkte",
+  "chemicalSourceType": "Type chemische bron",
+  "initialChemicalConcentration": "Initiële {{1}} ({{2}})",
+  "quality": "Kwaliteit",
+  "source.CONCEN": "Concentratie",
+  "source.FLOWPACED": "Debietgestuurde booster",
+  "source.MASS": "Massa booster",
+  "source.SETPOINT": "Setpoint booster",
+  "wallReactionCoeff": "Wandreactiecoëfficiënt"
 }
