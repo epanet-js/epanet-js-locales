@@ -805,7 +805,8 @@
     "backflowAllowedNo": "Não",
     "backflowAllowedYes": "Sim",
     "qualityTypeNotSupported": "Não suportado.",
-    "traceNodeRequired": "Um rótulo de nó válido é necessário"
+    "traceNodeRequired": "Um rótulo de nó válido é necessário",
+    "qualityDefaultChemical": "Químico"
   },
   "utilities": "Aplicativos utilitários",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
@@ -1212,13 +1213,15 @@
   "chemicalSourcePattern": "Padrão da fonte",
   "chemicalSourceStrength": "Intensidade da fonte",
   "chemicalSourceType": "Tipo de fonte química",
-  "initialChemicalConcentration": "Concentração inicial de {{1}} ({{2}})",
+  "initialChemicalConcentration": "Concentração química inicial",
   "quality": "Qualidade",
   "source.CONCEN": "Concentração",
   "source.FLOWPACED": "Dosador de vazão",
   "source.MASS": "Dosador de massa",
   "source.SETPOINT": "Dosador de ponto de ajuste",
   "wallReactionCoeff": "Coeficiente de reação da parede",
-  "chemicalConcentration": "Concentração de {{1}} ({{2}})",
-  "labelBy": "Rotular por"
+  "chemicalConcentration": "Químico",
+  "labelBy": "Rotular por",
+  "customChemicalConcentration": "Concentração de {{1}}",
+  "initialCustomChemicalConcentration": "Concentração inicial de {{1}}"
 }

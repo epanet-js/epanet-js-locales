@@ -805,7 +805,8 @@
     "backflowAllowedNo": "Non",
     "backflowAllowedYes": "Oui",
     "qualityTypeNotSupported": "Non supporté.",
-    "traceNodeRequired": "Un libellé de nœud valide est requis"
+    "traceNodeRequired": "Un libellé de nœud valide est requis",
+    "qualityDefaultChemical": "Produit chimique"
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -1212,13 +1213,15 @@
   "chemicalSourcePattern": "Motif de source",
   "chemicalSourceStrength": "Force de la source",
   "chemicalSourceType": "Type de source chimique",
-  "initialChemicalConcentration": "{{1}} initial ({{2}})",
+  "initialChemicalConcentration": "Produit chimique initial",
   "quality": "Qualité",
   "source.CONCEN": "Concentration",
   "source.FLOWPACED": "Booster à débit régulé",
   "source.MASS": "Booster de masse",
   "source.SETPOINT": "Booster à point de consigne",
   "wallReactionCoeff": "Coefficient de réaction de paroi",
-  "chemicalConcentration": "{{1}} ({{2}})",
-  "labelBy": "Étiqueter par"
+  "chemicalConcentration": "Produit chimique",
+  "labelBy": "Étiqueter par",
+  "customChemicalConcentration": "{{1}}",
+  "initialCustomChemicalConcentration": "Initial {{1}}"
 }

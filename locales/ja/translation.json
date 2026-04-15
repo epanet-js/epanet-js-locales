@@ -805,7 +805,8 @@
     "backflowAllowedNo": "いいえ",
     "backflowAllowedYes": "はい",
     "qualityTypeNotSupported": "サポートされていません。",
-    "traceNodeRequired": "有効なノードラベルが必要です"
+    "traceNodeRequired": "有効なノードラベルが必要です",
+    "qualityDefaultChemical": "化学物質"
   },
   "utilities": "ユーティリティ",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
@@ -1212,13 +1213,15 @@
   "chemicalSourcePattern": "ソースパターン",
   "chemicalSourceStrength": "ソース強度",
   "chemicalSourceType": "化学物質源タイプ",
-  "initialChemicalConcentration": "初期{{1}} ({{2}})",
+  "initialChemicalConcentration": "初期化学物質",
   "quality": "水質",
   "source.CONCEN": "濃度",
   "source.FLOWPACED": "流量比例ブースター",
   "source.MASS": "質量ブースター",
   "source.SETPOINT": "設定点ブースター",
   "wallReactionCoeff": "壁面反応係数",
-  "chemicalConcentration": "{{1}} ({{2}})",
-  "labelBy": "ラベル基準"
+  "chemicalConcentration": "化学物質",
+  "labelBy": "ラベル基準",
+  "customChemicalConcentration": "{{1}}",
+  "initialCustomChemicalConcentration": "初期{{1}}"
 }

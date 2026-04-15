@@ -805,7 +805,8 @@
     "backflowAllowedNo": "Nee",
     "backflowAllowedYes": "Ja",
     "qualityTypeNotSupported": "Niet ondersteund.",
-    "traceNodeRequired": "Een geldig knooppuntlabel is vereist"
+    "traceNodeRequired": "Een geldig knooppuntlabel is vereist",
+    "qualityDefaultChemical": "Chemisch"
   },
   "utilities": "Hulpprogramma's",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
@@ -1212,13 +1213,15 @@
   "chemicalSourcePattern": "Bronpatroon",
   "chemicalSourceStrength": "Bronsterkte",
   "chemicalSourceType": "Type chemische bron",
-  "initialChemicalConcentration": "Initiële {{1}} ({{2}})",
+  "initialChemicalConcentration": "Initiële chemische stof",
   "quality": "Kwaliteit",
   "source.CONCEN": "Concentratie",
   "source.FLOWPACED": "Debietgestuurde booster",
   "source.MASS": "Massa booster",
   "source.SETPOINT": "Setpoint booster",
   "wallReactionCoeff": "Wandreactiecoëfficiënt",
-  "chemicalConcentration": "{{1}} ({{2}})",
-  "labelBy": "Labelen op"
+  "chemicalConcentration": "Chemisch",
+  "labelBy": "Labelen op",
+  "customChemicalConcentration": "{{1}}",
+  "initialCustomChemicalConcentration": "Initiële {{1}}"
 }

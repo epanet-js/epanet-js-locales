@@ -812,7 +812,8 @@
     "backflowAllowedNo": "No",
     "backflowAllowedYes": "Sí",
     "qualityTypeNotSupported": "No soportado.",
-    "traceNodeRequired": "Se requiere una etiqueta de nudo válida"
+    "traceNodeRequired": "Se requiere una etiqueta de nudo válida",
+    "qualityDefaultChemical": "Químico"
   },
   "utilities": "Aplicaciones de utilidades",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
@@ -1219,13 +1220,15 @@
   "chemicalSourcePattern": "Patrón de fuente",
   "chemicalSourceStrength": "Intensidad de la fuente",
   "chemicalSourceType": "Tipo de fuente química",
-  "initialChemicalConcentration": "{{1}} inicial ({{2}})",
+  "initialChemicalConcentration": "Químico inicial",
   "quality": "Calidad",
   "source.CONCEN": "Concentración",
   "source.FLOWPACED": "Impulsor de caudal",
   "source.MASS": "Impulsor de masa",
   "source.SETPOINT": "Impulsor de punto de ajuste",
   "wallReactionCoeff": "Coeficiente de reacción en la pared",
-  "chemicalConcentration": "{{1}} ({{2}})",
-  "labelBy": "Etiquetar por"
+  "chemicalConcentration": "Químico",
+  "labelBy": "Etiquetar por",
+  "customChemicalConcentration": "{{1}}",
+  "initialCustomChemicalConcentration": "Inicial {{1}}"
 }
