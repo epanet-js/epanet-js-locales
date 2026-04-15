@@ -1225,5 +1225,7 @@
   "source.FLOWPACED": "Impulsor de caudal",
   "source.MASS": "Impulsor de masa",
   "source.SETPOINT": "Impulsor de punto de ajuste",
-  "wallReactionCoeff": "Coeficiente de reacción en la pared"
+  "wallReactionCoeff": "Coeficiente de reacción en la pared",
+  "chemicalConcentration": "{{1}} ({{2}})",
+  "labelBy": "Etiquetar por"
 }

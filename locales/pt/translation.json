@@ -1218,5 +1218,7 @@
   "source.FLOWPACED": "Dosador de vazão",
   "source.MASS": "Dosador de massa",
   "source.SETPOINT": "Dosador de ponto de ajuste",
-  "wallReactionCoeff": "Coeficiente de reação da parede"
+  "wallReactionCoeff": "Coeficiente de reação da parede",
+  "chemicalConcentration": "Concentração de {{1}} ({{2}})",
+  "labelBy": "Rotular por"
 }

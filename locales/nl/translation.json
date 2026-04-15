@@ -1218,5 +1218,7 @@
   "source.FLOWPACED": "Debietgestuurde booster",
   "source.MASS": "Massa booster",
   "source.SETPOINT": "Setpoint booster",
-  "wallReactionCoeff": "Wandreactiecoëfficiënt"
+  "wallReactionCoeff": "Wandreactiecoëfficiënt",
+  "chemicalConcentration": "{{1}} ({{2}})",
+  "labelBy": "Labelen op"
 }

@@ -1218,5 +1218,7 @@
   "source.FLOWPACED": "Booster à débit régulé",
   "source.MASS": "Booster de masse",
   "source.SETPOINT": "Booster à point de consigne",
-  "wallReactionCoeff": "Coefficient de réaction de paroi"
+  "wallReactionCoeff": "Coefficient de réaction de paroi",
+  "chemicalConcentration": "{{1}} ({{2}})",
+  "labelBy": "Étiqueter par"
 }

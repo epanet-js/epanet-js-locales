@@ -1218,5 +1218,7 @@
   "source.FLOWPACED": "流量比例ブースター",
   "source.MASS": "質量ブースター",
   "source.SETPOINT": "設定点ブースター",
-  "wallReactionCoeff": "壁面反応係数"
+  "wallReactionCoeff": "壁面反応係数",
+  "chemicalConcentration": "{{1}} ({{2}})",
+  "labelBy": "ラベル基準"
 }
