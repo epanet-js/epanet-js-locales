@@ -1223,12 +1223,12 @@
   "initialChemicalConcentration": "Químico inicial",
   "quality": "Calidad",
   "source.CONCEN": "Concentración",
-  "source.FLOWPACED": "Impulsor de caudal",
-  "source.MASS": "Impulsor de masa",
-  "source.SETPOINT": "Impulsor de punto de ajuste",
+  "source.FLOWPACED": "Inyección de caudal",
+  "source.MASS": "Inyección de masa",
+  "source.SETPOINT": "Inyección de punto de ajuste",
   "wallReactionCoeff": "Coeficiente de reacción en la pared",
   "chemicalConcentration": "Químico",
   "labelBy": "Etiquetar por",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "Inicial {{1}}"
+  "initialCustomChemicalConcentration": "{{1}} inicial"
 }
