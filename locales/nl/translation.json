@@ -1227,5 +1227,6 @@
   "initialCustomChemicalConcentration": "Initiële {{1}}",
   "assetSearch": {
     "placeholder": "Activa zoeken..."
-  }
+  },
+  "initialQuality": "Initiële kwaliteit"
 }

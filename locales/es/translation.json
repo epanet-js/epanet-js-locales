@@ -1234,5 +1234,6 @@
   "initialCustomChemicalConcentration": "{{1}} inicial",
   "assetSearch": {
     "placeholder": "Buscar activos..."
-  }
+  },
+  "initialQuality": "Calidad inicial"
 }

@@ -1227,5 +1227,6 @@
   "initialCustomChemicalConcentration": "初期{{1}}",
   "assetSearch": {
     "placeholder": "資産を検索..."
-  }
+  },
+  "initialQuality": "初期水質"
 }
