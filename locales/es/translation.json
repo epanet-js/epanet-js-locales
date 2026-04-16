@@ -1191,7 +1191,8 @@
       "invalid-projection": "Sistema de coordenadas desconocido",
       "no-features": "No se encontraron características",
       "projection-conversion-failed": "Falló la conversión de coordenadas",
-      "unsupported-crs": "Sistema de coordenadas no soportado"
+      "unsupported-crs": "Sistema de coordenadas no soportado",
+      "missing-projection": "Archivo de proyección (.prj) faltante"
     },
     "gisFile": "Archivo GIS",
     "gisImportError": "Errores de importación GIS",
@@ -1230,5 +1231,8 @@
   "chemicalConcentration": "Químico",
   "labelBy": "Etiquetar por",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "{{1}} inicial"
+  "initialCustomChemicalConcentration": "{{1}} inicial",
+  "assetSearch": {
+    "placeholder": "Buscar activos..."
+  }
 }

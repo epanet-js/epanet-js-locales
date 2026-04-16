@@ -1184,7 +1184,8 @@
       "invalid-projection": "Onbekend coördinatensysteem",
       "no-features": "Geen objecten gevonden",
       "projection-conversion-failed": "Coördinatenconversie mislukt",
-      "unsupported-crs": "Niet-ondersteund coördinatensysteem"
+      "unsupported-crs": "Niet-ondersteund coördinatensysteem",
+      "missing-projection": "Projectiebestand (.prj) ontbreekt"
     },
     "gisFile": "GIS-bestand",
     "gisImportError": "GIS-importfouten",
@@ -1223,5 +1224,8 @@
   "chemicalConcentration": "Chemisch",
   "labelBy": "Labelen op",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "Initiële {{1}}"
+  "initialCustomChemicalConcentration": "Initiële {{1}}",
+  "assetSearch": {
+    "placeholder": "Activa zoeken..."
+  }
 }

@@ -1184,7 +1184,8 @@
       "invalid-projection": "不明な座標系",
       "no-features": "フィーチャが見つかりません",
       "projection-conversion-failed": "座標変換に失敗しました",
-      "unsupported-crs": "サポートされていない座標系"
+      "unsupported-crs": "サポートされていない座標系",
+      "missing-projection": "投影ファイル (.prj) が見つかりません"
     },
     "gisFile": "GISファイル",
     "gisImportError": "GISインポートエラー",
@@ -1223,5 +1224,8 @@
   "chemicalConcentration": "化学物質",
   "labelBy": "ラベル基準",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "初期{{1}}"
+  "initialCustomChemicalConcentration": "初期{{1}}",
+  "assetSearch": {
+    "placeholder": "資産を検索..."
+  }
 }

@@ -1184,7 +1184,8 @@
       "invalid-projection": "Système de coordonnées inconnu",
       "no-features": "Aucune entité trouvée",
       "projection-conversion-failed": "Échec de la conversion des coordonnées",
-      "unsupported-crs": "Système de coordonnées non supporté"
+      "unsupported-crs": "Système de coordonnées non supporté",
+      "missing-projection": "Fichier de projection manquant (.prj)"
     },
     "gisFile": "Fichier SIG",
     "gisImportError": "Erreurs d'importation SIG",
@@ -1223,5 +1224,8 @@
   "chemicalConcentration": "Produit chimique",
   "labelBy": "Étiqueter par",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "Initial {{1}}"
+  "initialCustomChemicalConcentration": "Initial {{1}}",
+  "assetSearch": {
+    "placeholder": "Rechercher des éléments..."
+  }
 }
