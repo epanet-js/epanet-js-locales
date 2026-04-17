@@ -1214,7 +1214,6 @@
   "chemicalSourcePattern": "Padrão da fonte",
   "chemicalSourceStrength": "Intensidade da fonte",
   "chemicalSourceType": "Tipo de fonte química",
-  "initialChemicalConcentration": "Concentração química inicial",
   "quality": "Qualidade",
   "source.CONCEN": "Concentração",
   "source.FLOWPACED": "Dosador de vazão",
@@ -1224,7 +1223,6 @@
   "chemicalConcentration": "Químico",
   "labelBy": "Rotular por",
   "customChemicalConcentration": "Concentração de {{1}}",
-  "initialCustomChemicalConcentration": "Concentração inicial de {{1}}",
   "assetSearch": {
     "placeholder": "Buscar ativos..."
   },

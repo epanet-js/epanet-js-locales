@@ -1214,7 +1214,6 @@
   "chemicalSourcePattern": "Bronpatroon",
   "chemicalSourceStrength": "Bronsterkte",
   "chemicalSourceType": "Type chemische bron",
-  "initialChemicalConcentration": "Initiële chemische stof",
   "quality": "Kwaliteit",
   "source.CONCEN": "Concentratie",
   "source.FLOWPACED": "Debietgestuurde booster",
@@ -1224,7 +1223,6 @@
   "chemicalConcentration": "Chemisch",
   "labelBy": "Labelen op",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "Initiële {{1}}",
   "assetSearch": {
     "placeholder": "Activa zoeken..."
   },

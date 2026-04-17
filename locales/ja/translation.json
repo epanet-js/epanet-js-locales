@@ -1214,7 +1214,6 @@
   "chemicalSourcePattern": "ソースパターン",
   "chemicalSourceStrength": "ソース強度",
   "chemicalSourceType": "化学物質源タイプ",
-  "initialChemicalConcentration": "初期化学物質",
   "quality": "水質",
   "source.CONCEN": "濃度",
   "source.FLOWPACED": "流量比例ブースター",
@@ -1224,7 +1223,6 @@
   "chemicalConcentration": "化学物質",
   "labelBy": "ラベル基準",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "初期{{1}}",
   "assetSearch": {
     "placeholder": "資産を検索..."
   },

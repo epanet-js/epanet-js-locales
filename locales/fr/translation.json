@@ -1214,7 +1214,6 @@
   "chemicalSourcePattern": "Motif de source",
   "chemicalSourceStrength": "Force de la source",
   "chemicalSourceType": "Type de source chimique",
-  "initialChemicalConcentration": "Produit chimique initial",
   "quality": "Qualité",
   "source.CONCEN": "Concentration",
   "source.FLOWPACED": "Booster à débit régulé",
@@ -1224,7 +1223,6 @@
   "chemicalConcentration": "Produit chimique",
   "labelBy": "Étiqueter par",
   "customChemicalConcentration": "{{1}}",
-  "initialCustomChemicalConcentration": "Initial {{1}}",
   "assetSearch": {
     "placeholder": "Rechercher des éléments..."
   },
