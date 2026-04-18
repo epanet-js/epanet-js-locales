@@ -1224,7 +1224,15 @@
   "labelBy": "ラベル基準",
   "customChemicalConcentration": "{{1}}",
   "assetSearch": {
-    "placeholder": "資産を検索..."
+    "placeholder": "資産を検索...",
+    "emptyHint": "資産を検索するには入力してください",
+    "recents": "最近",
+    "title": "資産を検索"
   },
-  "initialQuality": "初期水質"
+  "initialQuality": "初期水質",
+  "exportINP": "INPをエクスポート",
+  "importINP": "INPをインポート",
+  "nothingSelectedSearch": "または、ラベルで資産を検索してすばやく見つけて選択することもできます。",
+  "nothingSelectedTitleWithSearch": "プロパティを表示するには、資産を選択または検索してください",
+  "recent": "最近"
 }

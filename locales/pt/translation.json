@@ -101,7 +101,7 @@
   "max": "Máx.",
   "mean": "Média",
   "sum": "Soma",
-  "openProject": "Abrir INP",
+  "openProject": "Abrir projeto",
   "opening": "Abrindo...",
   "export": "Exportar",
   "failedToOpenModel": "Erro ao abrir o modelo",
@@ -1224,7 +1224,15 @@
   "labelBy": "Rotular por",
   "customChemicalConcentration": "Concentração de {{1}}",
   "assetSearch": {
-    "placeholder": "Buscar ativos..."
+    "placeholder": "Buscar ativos...",
+    "emptyHint": "Comece a digitar para buscar ativos",
+    "recents": "Recentes",
+    "title": "Buscar ativos"
   },
-  "initialQuality": "Qualidade inicial"
+  "initialQuality": "Qualidade inicial",
+  "exportINP": "Exportar INP",
+  "importINP": "Importar INP",
+  "nothingSelectedSearch": "Ou busque ativos pelo rótulo para encontrá-los e selecioná-los rapidamente.",
+  "nothingSelectedTitleWithSearch": "Selecione ou busque um ativo para ver suas propriedades",
+  "recent": "Recente"
 }

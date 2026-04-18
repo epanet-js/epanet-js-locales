@@ -101,7 +101,7 @@
   "max": "Max",
   "mean": "Moyenne",
   "sum": "Somme",
-  "openProject": "Ouvrir INP",
+  "openProject": "Ouvrir le projet",
   "opening": "Ouverture...",
   "export": "Exporter",
   "failedToOpenModel": "Échec d'ouverture du modèle",
@@ -1224,7 +1224,15 @@
   "labelBy": "Étiqueter par",
   "customChemicalConcentration": "{{1}}",
   "assetSearch": {
-    "placeholder": "Rechercher des éléments..."
+    "placeholder": "Rechercher des éléments...",
+    "emptyHint": "Commencez à taper pour rechercher des éléments",
+    "recents": "Récents",
+    "title": "Rechercher des éléments"
   },
-  "initialQuality": "Qualité initiale"
+  "initialQuality": "Qualité initiale",
+  "exportINP": "Exporter INP",
+  "importINP": "Importer INP",
+  "nothingSelectedSearch": "Ou recherchez des éléments par leur étiquette pour les trouver et les sélectionner rapidement.",
+  "nothingSelectedTitleWithSearch": "Sélectionnez ou recherchez un élément pour afficher ses propriétés",
+  "recent": "Récent"
 }

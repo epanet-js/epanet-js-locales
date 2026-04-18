@@ -101,7 +101,7 @@
   "max": "Max",
   "mean": "Gemiddelde",
   "sum": "Som",
-  "openProject": "INP openen",
+  "openProject": "Project openen",
   "opening": "Openen...",
   "export": "Exporteren",
   "failedToOpenModel": "Openen van model mislukt",
@@ -1224,7 +1224,15 @@
   "labelBy": "Labelen op",
   "customChemicalConcentration": "{{1}}",
   "assetSearch": {
-    "placeholder": "Activa zoeken..."
+    "placeholder": "Activa zoeken...",
+    "emptyHint": "Begin met typen om naar onderdelen te zoeken",
+    "recents": "Recent",
+    "title": "Zoek onderdelen"
   },
-  "initialQuality": "Initiële kwaliteit"
+  "initialQuality": "Initiële kwaliteit",
+  "exportINP": "INP exporteren",
+  "importINP": "INP importeren",
+  "nothingSelectedSearch": "Of zoek onderdelen op hun label om ze snel te vinden en te selecteren.",
+  "nothingSelectedTitleWithSearch": "Selecteer of zoek een onderdeel om de eigenschappen ervan te bekijken",
+  "recent": "Recent"
 }
