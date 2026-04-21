@@ -907,7 +907,6 @@
   "scenariosItem": "Escenarios",
   "customerPattern": "Patrón de demanda de clientes",
   "goToMain": "Ir a principal",
-  "toggleSnapshot": "Cambiar a la última versión",
   "alertScenariosNotSaved": "Los escenarios no se guardarán",
   "alertScenariosNotSavedDetail": "Solo se guardará el modelo principal. Tus escenarios permanecerán disponibles en esta sesión, pero se perderán cuando cierres la aplicación. La persistencia completa de escenarios estará disponible pronto.",
   "directDemand": "Demanda directa",
@@ -1241,5 +1240,7 @@
   "importINP": "Importar INP",
   "nothingSelectedSearch": "O busca activos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
   "nothingSelectedTitleWithSearch": "Selecciona o busca un activo para ver sus propiedades",
-  "recent": "Reciente"
+  "recent": "Reciente",
+  "opened": "Abierto",
+  "toggleBranch": "Cambiar a la última versión"
 }

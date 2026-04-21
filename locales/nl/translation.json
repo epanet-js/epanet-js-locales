@@ -900,7 +900,6 @@
   "scenariosItem": "Scenario's",
   "customerPattern": "Klantvraagpatroon",
   "goToMain": "Ga naar hoofdmodel",
-  "toggleSnapshot": "Overschakelen naar laatste versie",
   "alertScenariosNotSaved": "Scenario's worden niet opgeslagen",
   "alertScenariosNotSavedDetail": "Alleen het hoofdmodel wordt opgeslagen. Uw scenario's blijven beschikbaar in deze sessie, maar gaan verloren wanneer u de app sluit. Volledige scenario-persistentie is binnenkort beschikbaar.",
   "directDemand": "Directe vraag",
@@ -1234,5 +1233,7 @@
   "importINP": "INP importeren",
   "nothingSelectedSearch": "Of zoek onderdelen op hun label om ze snel te vinden en te selecteren.",
   "nothingSelectedTitleWithSearch": "Selecteer of zoek een onderdeel om de eigenschappen ervan te bekijken",
-  "recent": "Recent"
+  "recent": "Recent",
+  "opened": "Geopend",
+  "toggleBranch": "Overschakelen naar laatste versie"
 }

@@ -900,7 +900,6 @@
   "scenariosItem": "Scénarios",
   "customerPattern": "Motif de demande client",
   "goToMain": "Aller au principal",
-  "toggleSnapshot": "Passer à la dernière version",
   "alertScenariosNotSaved": "Les scénarios ne seront pas enregistrés",
   "alertScenariosNotSavedDetail": "Seul le modèle principal sera enregistré. Vos scénarios resteront disponibles dans cette session mais seront perdus lorsque vous fermerez l'application. La persistance complète des scénarios sera bientôt disponible.",
   "directDemand": "Demande directe",
@@ -1234,5 +1233,7 @@
   "importINP": "Importer INP",
   "nothingSelectedSearch": "Ou recherchez des éléments par leur étiquette pour les trouver et les sélectionner rapidement.",
   "nothingSelectedTitleWithSearch": "Sélectionnez ou recherchez un élément pour afficher ses propriétés",
-  "recent": "Récent"
+  "recent": "Récent",
+  "opened": "Ouvert",
+  "toggleBranch": "Basculer vers la dernière version"
 }

@@ -900,7 +900,6 @@
   "scenariosItem": "シナリオ",
   "customerPattern": "顧客需要パターン",
   "goToMain": "メインへ移動",
-  "toggleSnapshot": "最終バージョンに切り替える",
   "alertScenariosNotSaved": "シナリオは保存されません",
   "alertScenariosNotSavedDetail": "メインモデルのみが保存されます。作成したシナリオはこのセッション中利用可能ですが、アプリを閉じると失われます。完全なシナリオの永続化は近日中に提供される予定です。",
   "directDemand": "直接需要",
@@ -1234,5 +1233,7 @@
   "importINP": "INPをインポート",
   "nothingSelectedSearch": "または、ラベルで資産を検索してすばやく見つけて選択することもできます。",
   "nothingSelectedTitleWithSearch": "プロパティを表示するには、資産を選択または検索してください",
-  "recent": "最近"
+  "recent": "最近",
+  "opened": "開きました",
+  "toggleBranch": "最終バージョンに切り替える"
 }

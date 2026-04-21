@@ -900,7 +900,6 @@
   "scenariosItem": "Cenários",
   "customerPattern": "Padrão de demanda de clientes",
   "goToMain": "Ir para o principal",
-  "toggleSnapshot": "Mudar para a última versão",
   "alertScenariosNotSaved": "Cenários não serão salvos",
   "alertScenariosNotSavedDetail": "Apenas o modelo principal será salvo. Seus cenários permanecerão disponíveis nesta sessão, mas serão perdidos ao fechar o aplicativo. A persistência completa de cenários estará disponível em breve.",
   "directDemand": "Demanda direta",
@@ -1234,5 +1233,7 @@
   "importINP": "Importar INP",
   "nothingSelectedSearch": "Ou busque ativos pelo rótulo para encontrá-los e selecioná-los rapidamente.",
   "nothingSelectedTitleWithSearch": "Selecione ou busque um ativo para ver suas propriedades",
-  "recent": "Recente"
+  "recent": "Recente",
+  "opened": "Aberto",
+  "toggleBranch": "Mudar para a última versão"
 }
