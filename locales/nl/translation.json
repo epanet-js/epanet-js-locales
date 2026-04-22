@@ -81,7 +81,6 @@
   "simulationFailureExplain": "Simulatie was niet succesvol. Bekijk het simulatierapport voor details.",
   "simulationTook": "Simulatie duurde {{1}}s.",
   "simulationOutdated": "Simulatie verouderd",
-  "runningSimulation": "Simulatie wordt uitgevoerd om",
   "notAvailable": "Niet beschikbaar",
   "pressure": "Druk",
   "pressures": "Drukken",
@@ -804,7 +803,6 @@
     "backflowAllowedDesc": "Specificeert of terugstroom via een emittor (d.w.z. stroming in het netwerk) is toegestaan.",
     "backflowAllowedNo": "Nee",
     "backflowAllowedYes": "Ja",
-    "qualityTypeNotSupported": "Niet ondersteund.",
     "traceNodeRequired": "Een geldig knooppuntlabel is vereist",
     "qualityDefaultChemical": "Chemisch"
   },
@@ -817,10 +815,6 @@
   "timePattern": "Patroon",
   "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)",
   "count": "Aantal",
-  "waterQualityAge": "Leeftijd van water",
-  "waterQualityChemical": "Chemische analyse",
-  "waterQualitySimulation": "Niet-ondersteunde waterkwaliteitssimulatie:",
-  "waterQualityTrace": "Sporenanalyse",
   "controls": {
     "rulesEmpty": "Geen regelgebaseerde besturingen gedefinieerd",
     "rulesTab": "Regelgebaseerd",
@@ -1187,11 +1181,14 @@
       "missing-projection": "Projectiebestand (.prj) ontbreekt"
     },
     "gisFile": "GIS-bestand",
-    "gisImportError": "GIS-importfouten",
+    "gisImportError": "Importfouten vectorbestand",
     "gisImportSummary": "{{1}} van de {{2}} bestanden konden niet worden geïmporteerd",
     "labels": "Labels",
     "lineWidth": "Lijndikte",
-    "opacity": "Dekking"
+    "opacity": "Dekking",
+    "localData": "Lokale gegevens",
+    "vectorFile": "Vectorbestand",
+    "webServices": "Webservices"
   },
   "free.forEveryone": "Voor iedereen",
   "initialWaterAge": "Initiële waterleeftijd",
@@ -1235,5 +1232,21 @@
   "nothingSelectedTitleWithSearch": "Selecteer of zoek een onderdeel om de eigenschappen ervan te bekijken",
   "recent": "Recent",
   "opened": "Geopend",
-  "toggleBranch": "Overschakelen naar laatste versie"
+  "toggleBranch": "Overschakelen naar laatste versie",
+  "alertExportInp": "Exporteren naar INP kan leiden tot gegevensverlies",
+  "alertExportInpDetail": "Het INP-formaat ondersteunt niet alle functies die beschikbaar zijn in onze app. Om er zeker van te zijn dat er geen gegevens verloren gaan, raden we aan om uw werk eerst op te slaan als een Project.",
+  "drawingTools": "Tekentools",
+  "exportToInpAnyway": "Toch exporteren naar INP",
+  "gotIt": "Begrepen",
+  "newBadge": "nieuw",
+  "pausePlayback": "Afspelen pauzeren",
+  "playbackSpeedAuto": "auto ({{1}}s)",
+  "playbackSpeedX2": "x2",
+  "playbackSpeedX4": "x4",
+  "playSimulation": "Simulatie afspelen",
+  "projectSavedInfo": "Uw werk is nu opgeslagen als een Project",
+  "projectSavedInfoBody": "We hebben de manier waarop opslaan werkt geüpgraded! Uw bestand is nu opgeslagen als een native Project, dat de exacte status van uw werkruimte behoudt en ons in staat stelt om meer geavanceerde details op te slaan.",
+  "projectSavedInfoDontShowAgain": "Dit niet opnieuw tonen",
+  "projectSavedInfoFootnote": "Een INP-bestand nodig? U kunt nog steeds Bestand > Exporteren gebruiken om er op elk moment een te genereren.",
+  "saveAsProject": "Opslaan als Project"
 }

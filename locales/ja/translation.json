@@ -414,7 +414,6 @@
   "reservoir": "貯水池",
   "reverseColors": "色を反転",
   "roughness": "流速係数",
-  "runningSimulation": "シミュレーション実行中（時間）",
   "save": "保存",
   "saveAndContinue": "保存して続行",
   "saveAndRun": "保存して実行",
@@ -804,7 +803,6 @@
     "backflowAllowedDesc": "エミッターを介した逆流（つまり、ネットワークへの流入）が許可されているかどうかを指定します。",
     "backflowAllowedNo": "いいえ",
     "backflowAllowedYes": "はい",
-    "qualityTypeNotSupported": "サポートされていません。",
     "traceNodeRequired": "有効なノードラベルが必要です",
     "qualityDefaultChemical": "化学物質"
   },
@@ -817,10 +815,6 @@
   "timePattern": "パターン",
   "pcvCurves": "特性曲線を持つPCV弁（{{1}}個の弁は設定値のみを使用）",
   "count": "数",
-  "waterQualityAge": "水齢",
-  "waterQualityChemical": "水質化学分析",
-  "waterQualitySimulation": "サポートされていない水質シミュレーション:",
-  "waterQualityTrace": "追跡分析",
   "controls": {
     "rulesEmpty": "ルールベースの制御は定義されていません",
     "rulesTab": "ルールベース",
@@ -1191,7 +1185,10 @@
     "gisImportSummary": "{{2}}個のファイルのうち{{1}}個をインポートできませんでした",
     "labels": "ラベル",
     "lineWidth": "線幅",
-    "opacity": "不透明度"
+    "opacity": "不透明度",
+    "localData": "ローカルデータ",
+    "vectorFile": "ベクターファイル",
+    "webServices": "ウェブサービス"
   },
   "free.forEveryone": "すべての人に",
   "initialWaterAge": "初期水齢",
@@ -1235,5 +1232,21 @@
   "nothingSelectedTitleWithSearch": "プロパティを表示するには、資産を選択または検索してください",
   "recent": "最近",
   "opened": "開きました",
-  "toggleBranch": "最終バージョンに切り替える"
+  "toggleBranch": "最終バージョンに切り替える",
+  "alertExportInp": "INPへのエクスポートではデータが失われる可能性があります",
+  "alertExportInpDetail": "INP形式は、アプリで利用できるすべての機能をサポートしていません。データが失われないように、まずプロジェクトとして保存することをお勧めします。",
+  "drawingTools": "描画ツール",
+  "exportToInpAnyway": "とにかくINPにエクスポート",
+  "gotIt": "了解",
+  "newBadge": "new",
+  "pausePlayback": "再生を一時停止",
+  "playbackSpeedAuto": "自動 ({{1}}秒)",
+  "playbackSpeedX2": "x2",
+  "playbackSpeedX4": "x4",
+  "playSimulation": "シミュレーションを再生",
+  "projectSavedInfo": "作業内容はプロジェクトとして保存されました",
+  "projectSavedInfoBody": "保存方法がアップグレードされました！ファイルはネイティブプロジェクトとして保存され、正確なワークスペースの状態が保持され、より高度な詳細を保存できるようになりました。",
+  "projectSavedInfoDontShowAgain": "次回から表示しない",
+  "projectSavedInfoFootnote": "INPファイルが必要ですか？「ファイル」>「エクスポート」を使用して、いつでも生成できます。",
+  "saveAsProject": "プロジェクトとして保存"
 }

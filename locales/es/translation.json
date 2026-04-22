@@ -88,7 +88,6 @@
   "simulationFailure": "Simulación con errores",
   "simulationFailureExplain": "La ejecución de la simulación no fue exitosa. Revisa el reporte de la simulación para más detalles.",
   "simulationOutdated": "Simulación desactualizada",
-  "runningSimulation": "Ejecutando simulación",
   "pressure": "Presión",
   "pressures": "Presiones",
   "level": "Nivel",
@@ -811,7 +810,6 @@
     "backflowAllowedDesc": "Especifica si se permite el flujo inverso a través de un emisor (es decir, el flujo hacia la red).",
     "backflowAllowedNo": "No",
     "backflowAllowedYes": "Sí",
-    "qualityTypeNotSupported": "No soportado.",
     "traceNodeRequired": "Se requiere una etiqueta de nudo válida",
     "qualityDefaultChemical": "Químico"
   },
@@ -824,10 +822,6 @@
   "timePattern": "Patrón",
   "pcvCurves": "Válvulas PCV con curvas características ({{1}} válvulas usando solo el valor de ajuste)",
   "count": "Cantidad",
-  "waterQualityAge": "Edad del agua",
-  "waterQualityChemical": "Análisis químico",
-  "waterQualitySimulation": "Simulación de calidad del agua no soportada:",
-  "waterQualityTrace": "Análisis de trazas",
   "controls": {
     "rulesEmpty": "No hay controles basados en reglas definidos",
     "rulesTab": "Basado en reglas",
@@ -1194,11 +1188,14 @@
       "missing-projection": "Archivo de proyección (.prj) faltante"
     },
     "gisFile": "Archivo GIS",
-    "gisImportError": "Errores de importación GIS",
+    "gisImportError": "Errores de importación de archivo vectorial",
     "gisImportSummary": "{{1}} de {{2}} archivos no pudieron ser importados",
     "labels": "Etiquetas",
     "lineWidth": "Ancho de línea",
-    "opacity": "Opacidad"
+    "opacity": "Opacidad",
+    "localData": "Datos locales",
+    "vectorFile": "Archivo vectorial",
+    "webServices": "Servicios web"
   },
   "free.forEveryone": "Para todos",
   "initialWaterAge": "Edad inicial del agua",
@@ -1242,5 +1239,21 @@
   "nothingSelectedTitleWithSearch": "Selecciona o busca un activo para ver sus propiedades",
   "recent": "Reciente",
   "opened": "Abierto",
-  "toggleBranch": "Cambiar a la última versión"
+  "toggleBranch": "Cambiar a la última versión",
+  "alertExportInp": "La exportación a INP puede resultar en pérdida de datos",
+  "alertExportInpDetail": "El formato INP no es compatible con todas las funciones disponibles en nuestra aplicación. Para asegurar que no se pierdan datos, recomendamos guardar tu trabajo como un Proyecto primero.",
+  "drawingTools": "Herramientas de dibujo",
+  "exportToInpAnyway": "Exportar a INP de todos modos",
+  "gotIt": "Entendido",
+  "newBadge": "nuevo",
+  "pausePlayback": "Pausar reproducción",
+  "playbackSpeedAuto": "automático ({{1}}s)",
+  "playbackSpeedX2": "x2",
+  "playbackSpeedX4": "x4",
+  "playSimulation": "Reproducir simulación",
+  "projectSavedInfo": "Tu trabajo ya está guardado como un Proyecto",
+  "projectSavedInfoBody": "Hemos mejorado cómo funciona el guardado. Tu archivo ahora se guarda como un Proyecto nativo, que conserva el estado exacto de tu espacio de trabajo y nos permite almacenar detalles más avanzados.",
+  "projectSavedInfoDontShowAgain": "No mostrar esto de nuevo",
+  "projectSavedInfoFootnote": "¿Necesitas un archivo INP? Puedes usar Archivo > Exportar para generarlo en cualquier momento.",
+  "saveAsProject": "Guardar como Proyecto"
 }
