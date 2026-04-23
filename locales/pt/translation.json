@@ -1248,5 +1248,9 @@
   "projectSavedInfoBody": "Atualizamos a forma como o salvamento funciona! Seu arquivo agora é salvo como um Projeto nativo, que preserva o estado exato do seu espaço de trabalho e nos permite armazenar detalhes mais avançados.",
   "projectSavedInfoDontShowAgain": "Não mostrar novamente",
   "projectSavedInfoFootnote": "Precisa de um arquivo INP? Você ainda pode usar Arquivo > Exportar para gerar um a qualquer momento.",
-  "saveAsProject": "Salvar como Projeto"
+  "saveAsProject": "Salvar como Projeto",
+  "simulationStopped": "Simulação interrompida",
+  "simulationStoppedExplain": "A simulação foi interrompida antes de ser concluída. Nenhum resultado está disponível.",
+  "stoppingSimulation": "Parando...",
+  "stopSimulation": "Interromper simulação"
 }

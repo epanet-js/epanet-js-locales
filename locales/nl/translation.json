@@ -1248,5 +1248,9 @@
   "projectSavedInfoBody": "We hebben de manier waarop opslaan werkt geüpgraded! Uw bestand is nu opgeslagen als een native Project, dat de exacte status van uw werkruimte behoudt en ons in staat stelt om meer geavanceerde details op te slaan.",
   "projectSavedInfoDontShowAgain": "Dit niet opnieuw tonen",
   "projectSavedInfoFootnote": "Een INP-bestand nodig? U kunt nog steeds Bestand > Exporteren gebruiken om er op elk moment een te genereren.",
-  "saveAsProject": "Opslaan als Project"
+  "saveAsProject": "Opslaan als Project",
+  "simulationStopped": "Simulatie gestopt",
+  "simulationStoppedExplain": "De simulatie is gestopt voordat deze voltooid was. Er zijn geen resultaten beschikbaar.",
+  "stoppingSimulation": "Stopt...",
+  "stopSimulation": "Simulatie stoppen"
 }

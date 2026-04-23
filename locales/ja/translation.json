@@ -1248,5 +1248,9 @@
   "projectSavedInfoBody": "保存方法がアップグレードされました！ファイルはネイティブプロジェクトとして保存され、正確なワークスペースの状態が保持され、より高度な詳細を保存できるようになりました。",
   "projectSavedInfoDontShowAgain": "次回から表示しない",
   "projectSavedInfoFootnote": "INPファイルが必要ですか？「ファイル」>「エクスポート」を使用して、いつでも生成できます。",
-  "saveAsProject": "プロジェクトとして保存"
+  "saveAsProject": "プロジェクトとして保存",
+  "simulationStopped": "シミュレーション停止",
+  "simulationStoppedExplain": "シミュレーションが完了する前に停止されました。結果は利用できません。",
+  "stoppingSimulation": "停止中...",
+  "stopSimulation": "シミュレーションを停止"
 }

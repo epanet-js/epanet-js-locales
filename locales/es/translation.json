@@ -1255,5 +1255,9 @@
   "projectSavedInfoBody": "Hemos mejorado cómo funciona el guardado. Tu archivo ahora se guarda como un Proyecto nativo, que conserva el estado exacto de tu espacio de trabajo y nos permite almacenar detalles más avanzados.",
   "projectSavedInfoDontShowAgain": "No mostrar esto de nuevo",
   "projectSavedInfoFootnote": "¿Necesitas un archivo INP? Puedes usar Archivo > Exportar para generarlo en cualquier momento.",
-  "saveAsProject": "Guardar como Proyecto"
+  "saveAsProject": "Guardar como Proyecto",
+  "simulationStopped": "Simulación detenida",
+  "simulationStoppedExplain": "La simulación se detuvo antes de completarse. No hay resultados disponibles.",
+  "stoppingSimulation": "Deteniendo...",
+  "stopSimulation": "Detener simulación"
 }

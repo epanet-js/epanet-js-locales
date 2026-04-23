@@ -1248,5 +1248,9 @@
   "projectSavedInfoBody": "Nous avons amélioré la façon dont l'enregistrement fonctionne ! Votre fichier est maintenant enregistré en tant que Projet natif, ce qui préserve l'état exact de votre espace de travail et nous permet de stocker des détails plus avancés.",
   "projectSavedInfoDontShowAgain": "Ne plus afficher ceci",
   "projectSavedInfoFootnote": "Besoin d'un fichier INP ? Vous pouvez toujours utiliser Fichier > Exporter pour en générer un à tout moment.",
-  "saveAsProject": "Enregistrer en tant que Projet"
+  "saveAsProject": "Enregistrer en tant que Projet",
+  "simulationStopped": "Simulation arrêtée",
+  "simulationStoppedExplain": "La simulation a été arrêtée avant d'être terminée. Aucun résultat n'est disponible.",
+  "stoppingSimulation": "Arrêt en cours...",
+  "stopSimulation": "Arrêter la simulation"
 }
