@@ -1252,5 +1252,7 @@
   "simulationStopped": "Simulatie gestopt",
   "simulationStoppedExplain": "De simulatie is gestopt voordat deze voltooid was. Er zijn geen resultaten beschikbaar.",
   "stoppingSimulation": "Stopt...",
-  "stopSimulation": "Simulatie stoppen"
+  "stopSimulation": "Simulatie stoppen",
+  "selectPlaybackSpeed": "Afspelsnelheid selecteren",
+  "updatingMap": "Kaart bijwerken..."
 }

@@ -1252,5 +1252,7 @@
   "simulationStopped": "Simulation arrêtée",
   "simulationStoppedExplain": "La simulation a été arrêtée avant d'être terminée. Aucun résultat n'est disponible.",
   "stoppingSimulation": "Arrêt en cours...",
-  "stopSimulation": "Arrêter la simulation"
+  "stopSimulation": "Arrêter la simulation",
+  "selectPlaybackSpeed": "Sélectionner la vitesse de lecture",
+  "updatingMap": "Mise à jour de la carte..."
 }

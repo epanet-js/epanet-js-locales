@@ -1259,5 +1259,7 @@
   "simulationStopped": "Simulación detenida",
   "simulationStoppedExplain": "La simulación se detuvo antes de completarse. No hay resultados disponibles.",
   "stoppingSimulation": "Deteniendo...",
-  "stopSimulation": "Detener simulación"
+  "stopSimulation": "Detener simulación",
+  "selectPlaybackSpeed": "Seleccionar velocidad de reproducción",
+  "updatingMap": "Actualizando mapa..."
 }

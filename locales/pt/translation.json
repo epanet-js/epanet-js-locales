@@ -1252,5 +1252,7 @@
   "simulationStopped": "Simulação interrompida",
   "simulationStoppedExplain": "A simulação foi interrompida antes de ser concluída. Nenhum resultado está disponível.",
   "stoppingSimulation": "Parando...",
-  "stopSimulation": "Interromper simulação"
+  "stopSimulation": "Interromper simulação",
+  "selectPlaybackSpeed": "Selecionar velocidade de reprodução",
+  "updatingMap": "Atualizando mapa..."
 }

@@ -1252,5 +1252,7 @@
   "simulationStopped": "シミュレーション停止",
   "simulationStoppedExplain": "シミュレーションが完了する前に停止されました。結果は利用できません。",
   "stoppingSimulation": "停止中...",
-  "stopSimulation": "シミュレーションを停止"
+  "stopSimulation": "シミュレーションを停止",
+  "selectPlaybackSpeed": "再生速度を選択",
+  "updatingMap": "マップを更新中..."
 }
