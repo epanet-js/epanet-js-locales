@@ -1240,9 +1240,9 @@
   "gotIt": "Begrepen",
   "newBadge": "nieuw",
   "pausePlayback": "Afspelen pauzeren",
-  "playbackSpeedAuto": "auto ({{1}}s)",
-  "playbackSpeedX2": "x2",
-  "playbackSpeedX4": "x4",
+  "playbackSpeedAuto": "1x",
+  "playbackSpeedX2": "2x",
+  "playbackSpeedX4": "4x",
   "playSimulation": "Simulatie afspelen",
   "projectSavedInfo": "Uw werk is nu opgeslagen als een Project",
   "projectSavedInfoBody": "We hebben de manier waarop opslaan werkt geüpgraded! Uw bestand is nu opgeslagen als een native Project, dat de exacte status van uw werkruimte behoudt en ons in staat stelt om meer geavanceerde details op te slaan.",
@@ -1254,5 +1254,7 @@
   "stoppingSimulation": "Stopt...",
   "stopSimulation": "Simulatie stoppen",
   "selectPlaybackSpeed": "Afspelsnelheid selecteren",
-  "updatingMap": "Kaart bijwerken..."
+  "updatingMap": "Kaart bijwerken...",
+  "playbackSpeedWarningSlow": "Het bijwerken van de kaart duurt meer dan 1 seconde per stap — het afspelen zal traag zijn.",
+  "playbackSpeedWarningTooFast": "Resultaten zijn mogelijk niet zichtbaar vóór de volgende update bij deze snelheid."
 }

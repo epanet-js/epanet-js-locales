@@ -1247,9 +1247,9 @@
   "gotIt": "Entendido",
   "newBadge": "nuevo",
   "pausePlayback": "Pausar reproducción",
-  "playbackSpeedAuto": "automático ({{1}}s)",
-  "playbackSpeedX2": "x2",
-  "playbackSpeedX4": "x4",
+  "playbackSpeedAuto": "1x",
+  "playbackSpeedX2": "2x",
+  "playbackSpeedX4": "4x",
   "playSimulation": "Reproducir simulación",
   "projectSavedInfo": "Tu trabajo ya está guardado como un Proyecto",
   "projectSavedInfoBody": "Hemos mejorado cómo funciona el guardado. Tu archivo ahora se guarda como un Proyecto nativo, que conserva el estado exacto de tu espacio de trabajo y nos permite almacenar detalles más avanzados.",
@@ -1261,5 +1261,7 @@
   "stoppingSimulation": "Deteniendo...",
   "stopSimulation": "Detener simulación",
   "selectPlaybackSpeed": "Seleccionar velocidad de reproducción",
-  "updatingMap": "Actualizando mapa..."
+  "updatingMap": "Actualizando mapa...",
+  "playbackSpeedWarningSlow": "Actualizar el mapa está tardando más de 1s por paso — la reproducción será lenta.",
+  "playbackSpeedWarningTooFast": "Los resultados podrían no ser visibles antes de la próxima actualización a esta velocidad."
 }

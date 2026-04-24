@@ -1240,9 +1240,9 @@
   "gotIt": "了解",
   "newBadge": "new",
   "pausePlayback": "再生を一時停止",
-  "playbackSpeedAuto": "自動 ({{1}}秒)",
-  "playbackSpeedX2": "x2",
-  "playbackSpeedX4": "x4",
+  "playbackSpeedAuto": "1倍",
+  "playbackSpeedX2": "2倍",
+  "playbackSpeedX4": "4倍",
   "playSimulation": "シミュレーションを再生",
   "projectSavedInfo": "作業内容はプロジェクトとして保存されました",
   "projectSavedInfoBody": "保存方法がアップグレードされました！ファイルはネイティブプロジェクトとして保存され、正確なワークスペースの状態が保持され、より高度な詳細を保存できるようになりました。",
@@ -1254,5 +1254,7 @@
   "stoppingSimulation": "停止中...",
   "stopSimulation": "シミュレーションを停止",
   "selectPlaybackSpeed": "再生速度を選択",
-  "updatingMap": "マップを更新中..."
+  "updatingMap": "マップを更新中...",
+  "playbackSpeedWarningSlow": "マップの更新に1秒以上かかっています — 再生が遅くなります。",
+  "playbackSpeedWarningTooFast": "この速度では、次の更新までに結果が表示されない場合があります。"
 }
