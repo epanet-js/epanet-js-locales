@@ -650,7 +650,7 @@
   "standardCurve": "Curva de 3 pontos (curva padrão)",
   "nothingSelectedAreaSelect": "Você também pode selecionar múltiplos ativos com a ferramenta de seleção por área e comparar suas propriedades.",
   "nothingSelectedClickToSelect": "Use a ferramenta de seleção e clique em um ativo para visualizar e editar seus detalhes.",
-  "nothingSelectedTitle": "Selecione um ativo para visualizar suas propriedades",
+  "nothingSelectedTitle": "Selecione ou busque um ativo para ver suas propriedades",
   "curveValidation": {
     "missingValues": "Por favor, preencha todos os valores.",
     "valueAscendingOrder": "Os valores de {{1}} devem estar em ordem crescente.",
@@ -1229,7 +1229,6 @@
   "exportINP": "Exportar INP",
   "importINP": "Importar INP",
   "nothingSelectedSearch": "Ou busque ativos pelo rótulo para encontrá-los e selecioná-los rapidamente.",
-  "nothingSelectedTitleWithSearch": "Selecione ou busque um ativo para ver suas propriedades",
   "recent": "Recente",
   "opened": "Aberto",
   "toggleBranch": "Mudar para a última versão",
@@ -1256,5 +1255,19 @@
   "selectPlaybackSpeed": "Selecionar velocidade de reprodução",
   "updatingMap": "Atualizando mapa...",
   "playbackSpeedWarningSlow": "Atualizar o mapa está demorando mais de 1s por passo — a reprodução será lenta.",
-  "playbackSpeedWarningTooFast": "Os resultados podem não ser visíveis antes da próxima atualização nesta velocidade."
+  "playbackSpeedWarningTooFast": "Os resultados podem não ser visíveis antes da próxima atualização nesta velocidade.",
+  "exportData": "Exportar Dados",
+  "exported": "Exportado com sucesso",
+  "exportFailed": "Exportação falhou",
+  "exportFormat": "Formato de exportação",
+  "exportGeojson": "GeoJSON",
+  "exporting": "Exportando...",
+  "exportShapefile": "Shapefile (GIS)",
+  "includeSimulationResults": "Incluir resultados da simulação",
+  "openProjectProgress.building": "Construindo modelo...",
+  "openProjectProgress.finalizing": "Finalizando...",
+  "openProjectProgress.opening": "Abrindo arquivo de projeto...",
+  "openProjectProgress.readingAssets": "Lendo ativos...",
+  "openProjectProgress.readingCustomerPoints": "Lendo pontos de consumo...",
+  "openProjectProgress.readingSettings": "Lendo configurações..."
 }

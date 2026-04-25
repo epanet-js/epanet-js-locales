@@ -650,7 +650,7 @@
   "standardCurve": "3点曲線（標準曲線）",
   "nothingSelectedAreaSelect": "領域選択ツールを使用して複数のアセットを選択し、そのプロパティを比較することもできます。",
   "nothingSelectedClickToSelect": "選択ツールを使用してアセットをクリックし、その詳細を表示および編集します。",
-  "nothingSelectedTitle": "アセットを選択してそのプロパティを表示します",
+  "nothingSelectedTitle": "プロパティを表示するには、資産を選択または検索してください",
   "curveValidation": {
     "missingValues": "すべての値を入力してください。",
     "valueAscendingOrder": "{{1}} の値は昇順である必要があります。",
@@ -1229,7 +1229,6 @@
   "exportINP": "INPをエクスポート",
   "importINP": "INPをインポート",
   "nothingSelectedSearch": "または、ラベルで資産を検索してすばやく見つけて選択することもできます。",
-  "nothingSelectedTitleWithSearch": "プロパティを表示するには、資産を選択または検索してください",
   "recent": "最近",
   "opened": "開きました",
   "toggleBranch": "最終バージョンに切り替える",
@@ -1256,5 +1255,19 @@
   "selectPlaybackSpeed": "再生速度を選択",
   "updatingMap": "マップを更新中...",
   "playbackSpeedWarningSlow": "マップの更新に1秒以上かかっています — 再生が遅くなります。",
-  "playbackSpeedWarningTooFast": "この速度では、次の更新までに結果が表示されない場合があります。"
+  "playbackSpeedWarningTooFast": "この速度では、次の更新までに結果が表示されない場合があります。",
+  "exportData": "データのエクスポート",
+  "exported": "正常にエクスポートされました",
+  "exportFailed": "エクスポートに失敗しました",
+  "exportFormat": "エクスポート形式",
+  "exportGeojson": "GeoJSON",
+  "exporting": "エクスポート中...",
+  "exportShapefile": "シェープファイル (GIS)",
+  "includeSimulationResults": "シミュレーション結果を含める",
+  "openProjectProgress.building": "モデルを構築中...",
+  "openProjectProgress.finalizing": "最終処理中...",
+  "openProjectProgress.opening": "プロジェクトファイルを開いています...",
+  "openProjectProgress.readingAssets": "資産を読み込み中...",
+  "openProjectProgress.readingCustomerPoints": "顧客ポイントを読み込み中...",
+  "openProjectProgress.readingSettings": "設定を読み込み中..."
 }

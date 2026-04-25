@@ -657,7 +657,7 @@
   "standardCurve": "Curva de 3 puntos (curva estándar)",
   "nothingSelectedAreaSelect": "También puedes seleccionar múltiples activos con la herramienta de selección por área y comparar sus propiedades.",
   "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
-  "nothingSelectedTitle": "Selecciona un activo para ver sus propiedades",
+  "nothingSelectedTitle": "Selecciona o busca un activo para ver sus propiedades",
   "curveValidation": {
     "missingValues": "Por favor, completa todos los valores.",
     "valueAscendingOrder": "Los valores de {{1}} deben estar en orden ascendente.",
@@ -1236,7 +1236,6 @@
   "exportINP": "Exportar INP",
   "importINP": "Importar INP",
   "nothingSelectedSearch": "O busca activos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
-  "nothingSelectedTitleWithSearch": "Selecciona o busca un activo para ver sus propiedades",
   "recent": "Reciente",
   "opened": "Abierto",
   "toggleBranch": "Cambiar a la última versión",
@@ -1263,5 +1262,19 @@
   "selectPlaybackSpeed": "Seleccionar velocidad de reproducción",
   "updatingMap": "Actualizando mapa...",
   "playbackSpeedWarningSlow": "Actualizar el mapa está tardando más de 1s por paso — la reproducción será lenta.",
-  "playbackSpeedWarningTooFast": "Los resultados podrían no ser visibles antes de la próxima actualización a esta velocidad."
+  "playbackSpeedWarningTooFast": "Los resultados podrían no ser visibles antes de la próxima actualización a esta velocidad.",
+  "exportData": "Exportar datos",
+  "exported": "Exportado exitosamente",
+  "exportFailed": "Error al exportar",
+  "exportFormat": "Formato de exportación",
+  "exportGeojson": "GeoJSON",
+  "exporting": "Exportando...",
+  "exportShapefile": "Shapefile (GIS)",
+  "includeSimulationResults": "Incluir resultados de simulación",
+  "openProjectProgress.building": "Construyendo modelo...",
+  "openProjectProgress.finalizing": "Finalizando...",
+  "openProjectProgress.opening": "Abriendo archivo de proyecto...",
+  "openProjectProgress.readingAssets": "Leyendo activos...",
+  "openProjectProgress.readingCustomerPoints": "Leyendo puntos de consumo...",
+  "openProjectProgress.readingSettings": "Leyendo ajustes..."
 }

@@ -650,7 +650,7 @@
   "standardCurve": "3-puntscurve (standaardcurve)",
   "nothingSelectedAreaSelect": "U kunt ook meerdere onderdelen selecteren met het gebiedsselectietool en hun eigenschappen vergelijken.",
   "nothingSelectedClickToSelect": "Gebruik het selectietool en klik op een onderdeel om de details ervan te bekijken en te bewerken.",
-  "nothingSelectedTitle": "Selecteer een onderdeel om de eigenschappen ervan te bekijken",
+  "nothingSelectedTitle": "Selecteer of zoek een onderdeel om de eigenschappen ervan te bekijken",
   "curveValidation": {
     "missingValues": "Vul alstublieft alle waarden in.",
     "valueAscendingOrder": "{{1}} waarden moeten in oplopende volgorde staan.",
@@ -1229,7 +1229,6 @@
   "exportINP": "INP exporteren",
   "importINP": "INP importeren",
   "nothingSelectedSearch": "Of zoek onderdelen op hun label om ze snel te vinden en te selecteren.",
-  "nothingSelectedTitleWithSearch": "Selecteer of zoek een onderdeel om de eigenschappen ervan te bekijken",
   "recent": "Recent",
   "opened": "Geopend",
   "toggleBranch": "Overschakelen naar laatste versie",
@@ -1256,5 +1255,19 @@
   "selectPlaybackSpeed": "Afspelsnelheid selecteren",
   "updatingMap": "Kaart bijwerken...",
   "playbackSpeedWarningSlow": "Het bijwerken van de kaart duurt meer dan 1 seconde per stap — het afspelen zal traag zijn.",
-  "playbackSpeedWarningTooFast": "Resultaten zijn mogelijk niet zichtbaar vóór de volgende update bij deze snelheid."
+  "playbackSpeedWarningTooFast": "Resultaten zijn mogelijk niet zichtbaar vóór de volgende update bij deze snelheid.",
+  "exportData": "Gegevens exporteren",
+  "exported": "Succesvol geëxporteerd",
+  "exportFailed": "Export mislukt",
+  "exportFormat": "Exportformaat",
+  "exportGeojson": "GeoJSON",
+  "exporting": "Exporteren...",
+  "exportShapefile": "Shapefile (GIS)",
+  "includeSimulationResults": "Inclusief simulatie resultaten",
+  "openProjectProgress.building": "Model opbouwen...",
+  "openProjectProgress.finalizing": "Voltooien...",
+  "openProjectProgress.opening": "Projectbestand openen...",
+  "openProjectProgress.readingAssets": "Onderdelen lezen...",
+  "openProjectProgress.readingCustomerPoints": "Klantpunten lezen...",
+  "openProjectProgress.readingSettings": "Instellingen lezen..."
 }

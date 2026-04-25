@@ -650,7 +650,7 @@
   "standardCurve": "Courbe à 3 points (courbe standard)",
   "nothingSelectedAreaSelect": "Vous pouvez également sélectionner plusieurs éléments avec l'outil de sélection de zone et comparer leurs propriétés.",
   "nothingSelectedClickToSelect": "Utilisez l'outil de sélection et cliquez sur un élément pour afficher et modifier ses détails.",
-  "nothingSelectedTitle": "Sélectionnez un élément pour afficher ses propriétés",
+  "nothingSelectedTitle": "Sélectionnez ou recherchez un élément pour afficher ses propriétés",
   "curveValidation": {
     "missingValues": "Veuillez remplir toutes les valeurs.",
     "valueAscendingOrder": "Les valeurs de {{1}} doivent être en ordre croissant.",
@@ -1229,7 +1229,6 @@
   "exportINP": "Exporter INP",
   "importINP": "Importer INP",
   "nothingSelectedSearch": "Ou recherchez des éléments par leur étiquette pour les trouver et les sélectionner rapidement.",
-  "nothingSelectedTitleWithSearch": "Sélectionnez ou recherchez un élément pour afficher ses propriétés",
   "recent": "Récent",
   "opened": "Ouvert",
   "toggleBranch": "Basculer vers la dernière version",
@@ -1256,5 +1255,19 @@
   "selectPlaybackSpeed": "Sélectionner la vitesse de lecture",
   "updatingMap": "Mise à jour de la carte...",
   "playbackSpeedWarningSlow": "La mise à jour de la carte prend plus de 1s par étape — la lecture sera lente.",
-  "playbackSpeedWarningTooFast": "Les résultats peuvent ne pas être visibles avant la prochaine mise à jour à cette vitesse."
+  "playbackSpeedWarningTooFast": "Les résultats peuvent ne pas être visibles avant la prochaine mise à jour à cette vitesse.",
+  "exportData": "Exporter les données",
+  "exported": "Exportation réussie",
+  "exportFailed": "Échec de l'exportation",
+  "exportFormat": "Format d'exportation",
+  "exportGeojson": "GeoJSON",
+  "exporting": "Exportation en cours...",
+  "exportShapefile": "Shapefile (SIG)",
+  "includeSimulationResults": "Inclure les résultats de la simulation",
+  "openProjectProgress.building": "Construction du modèle...",
+  "openProjectProgress.finalizing": "Finalisation...",
+  "openProjectProgress.opening": "Ouverture du fichier projet...",
+  "openProjectProgress.readingAssets": "Lecture des éléments...",
+  "openProjectProgress.readingCustomerPoints": "Lecture des points de consommation...",
+  "openProjectProgress.readingSettings": "Lecture des paramètres..."
 }
