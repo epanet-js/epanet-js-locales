@@ -1230,7 +1230,6 @@
   "importINP": "Importer INP",
   "nothingSelectedSearch": "Ou recherchez des éléments par leur étiquette pour les trouver et les sélectionner rapidement.",
   "recent": "Récent",
-  "opened": "Ouvert",
   "toggleBranch": "Basculer vers la dernière version",
   "alertExportInp": "L'exportation vers INP peut entraîner une perte de données",
   "alertExportInpDetail": "Le format INP ne prend pas en charge toutes les fonctionnalités disponibles dans notre application. Pour vous assurer qu'aucune donnée n'est perdue, nous vous recommandons d'enregistrer d'abord votre travail en tant que Projet.",
@@ -1269,7 +1268,6 @@
   "openProjectProgress.readingAssets": "Lecture des éléments...",
   "openProjectProgress.readingCustomerPoints": "Lecture des points de consommation...",
   "openProjectProgress.readingSettings": "Lecture des paramètres...",
-  "exampleModels": "Modèles d'exemple",
   "exportAllTimesteps": "Toutes les étapes de temps (au format CSV)",
   "exportCsv": "CSV",
   "exportedAsInp": "Exporté en INP",
@@ -1280,8 +1278,10 @@
   "initializedProjectFromInp": "Projet initialisé depuis EPANET INP",
   "newProject.blank": "Projet vierge",
   "newProject.fromEpanetInp": "Depuis EPANET INP",
-  "newProject.fromExample": "Depuis un exemple",
   "newProject.fromGIS": "Depuis des données SIG",
   "openModel": "Ouvrir le modèle",
-  "savingProject": "Enregistrement du projet..."
+  "savingProject": "Enregistrement du projet...",
+  "dropProjectOrInp": "Faites glisser votre projet ou modèle INP ici.",
+  "projectOpened": "Projet ouvert",
+  "simulateUnavailablePrivateBrowsing": "La simulation n'est pas disponible dans les navigateurs plus anciens ou en mode de navigation privée. Essayez de mettre à jour votre navigateur ou d'utiliser une autre fenêtre."
 }

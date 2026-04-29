@@ -1237,7 +1237,6 @@
   "importINP": "Importar INP",
   "nothingSelectedSearch": "O busca activos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
   "recent": "Reciente",
-  "opened": "Abierto",
   "toggleBranch": "Cambiar a la última versión",
   "alertExportInp": "La exportación a INP puede resultar en pérdida de datos",
   "alertExportInpDetail": "El formato INP no es compatible con todas las funciones disponibles en nuestra aplicación. Para asegurar que no se pierdan datos, recomendamos guardar tu trabajo como un Proyecto primero.",
@@ -1276,7 +1275,6 @@
   "openProjectProgress.readingAssets": "Leyendo activos...",
   "openProjectProgress.readingCustomerPoints": "Leyendo puntos de consumo...",
   "openProjectProgress.readingSettings": "Leyendo ajustes...",
-  "exampleModels": "Modelos de ejemplo",
   "exportAllTimesteps": "Todos los pasos de tiempo (como CSV)",
   "exportCsv": "CSV",
   "exportedAsInp": "Exportado como INP",
@@ -1287,8 +1285,10 @@
   "initializedProjectFromInp": "Proyecto inicializado desde EPANET INP",
   "newProject.blank": "Proyecto en blanco",
   "newProject.fromEpanetInp": "Desde EPANET INP",
-  "newProject.fromExample": "Desde ejemplo",
   "newProject.fromGIS": "Desde datos GIS",
   "openModel": "Abrir modelo",
-  "savingProject": "Guardando proyecto..."
+  "savingProject": "Guardando proyecto...",
+  "dropProjectOrInp": "Arrastra tu proyecto o modelo INP aquí.",
+  "projectOpened": "Proyecto abierto",
+  "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana."
 }

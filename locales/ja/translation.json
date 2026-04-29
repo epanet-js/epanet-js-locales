@@ -1230,7 +1230,6 @@
   "importINP": "INPをインポート",
   "nothingSelectedSearch": "または、ラベルで資産を検索してすばやく見つけて選択することもできます。",
   "recent": "最近",
-  "opened": "開きました",
   "toggleBranch": "最終バージョンに切り替える",
   "alertExportInp": "INPへのエクスポートではデータが失われる可能性があります",
   "alertExportInpDetail": "INP形式は、アプリで利用できるすべての機能をサポートしていません。データが失われないように、まずプロジェクトとして保存することをお勧めします。",
@@ -1269,7 +1268,6 @@
   "openProjectProgress.readingAssets": "資産を読み込み中...",
   "openProjectProgress.readingCustomerPoints": "顧客ポイントを読み込み中...",
   "openProjectProgress.readingSettings": "設定を読み込み中...",
-  "exampleModels": "サンプルモデル",
   "exportAllTimesteps": "すべてのタイムステップ (CSV形式)",
   "exportCsv": "CSV",
   "exportedAsInp": "INPとしてエクスポートされました",
@@ -1280,8 +1278,10 @@
   "initializedProjectFromInp": "EPANET INPからプロジェクトを初期化しました",
   "newProject.blank": "空白のプロジェクト",
   "newProject.fromEpanetInp": "EPANET INPから",
-  "newProject.fromExample": "サンプルから",
   "newProject.fromGIS": "GISデータから",
   "openModel": "モデルを開く",
-  "savingProject": "プロジェクトを保存中..."
+  "savingProject": "プロジェクトを保存中...",
+  "dropProjectOrInp": "プロジェクトまたはINPモデルをここにドラッグしてください。",
+  "projectOpened": "プロジェクトが開かれました",
+  "simulateUnavailablePrivateBrowsing": "シミュレーションは、古いブラウザやプライベートブラウジングモードでは利用できません。ブラウザを更新するか、別のウィンドウを使用してみてください。"
 }

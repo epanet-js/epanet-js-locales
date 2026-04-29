@@ -1230,7 +1230,6 @@
   "importINP": "INP importeren",
   "nothingSelectedSearch": "Of zoek onderdelen op hun label om ze snel te vinden en te selecteren.",
   "recent": "Recent",
-  "opened": "Geopend",
   "toggleBranch": "Overschakelen naar laatste versie",
   "alertExportInp": "Exporteren naar INP kan leiden tot gegevensverlies",
   "alertExportInpDetail": "Het INP-formaat ondersteunt niet alle functies die beschikbaar zijn in onze app. Om er zeker van te zijn dat er geen gegevens verloren gaan, raden we aan om uw werk eerst op te slaan als een Project.",
@@ -1269,7 +1268,6 @@
   "openProjectProgress.readingAssets": "Onderdelen lezen...",
   "openProjectProgress.readingCustomerPoints": "Klantpunten lezen...",
   "openProjectProgress.readingSettings": "Instellingen lezen...",
-  "exampleModels": "Voorbeeldmodellen",
   "exportAllTimesteps": "Alle tijdstappen (als CSV)",
   "exportCsv": "CSV",
   "exportedAsInp": "Geëxporteerd als INP",
@@ -1280,8 +1278,10 @@
   "initializedProjectFromInp": "Project geïnitialiseerd vanuit EPANET INP",
   "newProject.blank": "Leeg project",
   "newProject.fromEpanetInp": "Vanuit EPANET INP",
-  "newProject.fromExample": "Vanuit voorbeeld",
   "newProject.fromGIS": "Vanuit GIS-gegevens",
   "openModel": "Model openen",
-  "savingProject": "Project opslaan..."
+  "savingProject": "Project opslaan...",
+  "dropProjectOrInp": "Sleep uw project- of INP-model hierheen.",
+  "projectOpened": "Project geopend",
+  "simulateUnavailablePrivateBrowsing": "Simulatie is niet beschikbaar in oudere browsers of de privémodus. Probeer uw browser bij te werken of een ander venster te gebruiken."
 }
