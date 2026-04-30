@@ -1254,14 +1254,12 @@
   "updatingMap": "Mise à jour de la carte...",
   "playbackSpeedWarningSlow": "La mise à jour de la carte prend plus de 1s par étape — la lecture sera lente.",
   "playbackSpeedWarningTooFast": "Les résultats peuvent ne pas être visibles avant la prochaine mise à jour à cette vitesse.",
-  "exportData": "Exporter les données",
   "exported": "Exportation réussie",
   "exportFailed": "Échec de l'exportation",
   "exportFormat": "Format d'exportation",
   "exportGeojson": "GeoJSON",
   "exporting": "Exportation en cours...",
   "exportShapefile": "Shapefile (SIG)",
-  "includeSimulationResults": "Inclure les résultats de la simulation",
   "openProjectProgress.building": "Construction du modèle...",
   "openProjectProgress.finalizing": "Finalisation...",
   "openProjectProgress.opening": "Ouverture du fichier projet...",
@@ -1283,5 +1281,30 @@
   "savingProject": "Enregistrement du projet...",
   "dropProjectOrInp": "Faites glisser votre projet ou modèle INP ici.",
   "projectOpened": "Projet ouvert",
-  "simulateUnavailablePrivateBrowsing": "La simulation n'est pas disponible dans les navigateurs plus anciens ou en mode de navigation privée. Essayez de mettre à jour votre navigateur ou d'utiliser une autre fenêtre."
+  "simulateUnavailablePrivateBrowsing": "La simulation n'est pas disponible dans les navigateurs plus anciens ou en mode de navigation privée. Essayez de mettre à jour votre navigateur ou d'utiliser une autre fenêtre.",
+  "exportAssetData": "Exporter les données des éléments",
+  "exportSimulationResults": "Inclure les résultats de la simulation",
+  "exportSimulationResultsForCurrentStep": "Inclure les résultats de la simulation pour l'étape actuelle",
+  "profileView": {
+    "cancelSelection": "Annuler",
+    "close": "Fermer le profil",
+    "distance": "Distance",
+    "elevation": "Élévation",
+    "empty": {
+      "idle": "Ouvrez l'outil de visualisation de profil depuis la barre d'outils (ou appuyez sur 9) pour commencer.",
+      "noData": "Aucune donnée.",
+      "selectingEnd": "Cliquez sur un nœud ou une conduite sur la carte pour définir la fin du profil.",
+      "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil."
+    },
+    "estimated": "Estimé",
+    "hgl": "Ligne Piézométrique",
+    "noPath": {
+      "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
+      "title": "Aucun chemin trouvé"
+    },
+    "selectEnd": "Cliquez sur un nœud ou une conduite pour définir la fin du profil",
+    "selectPath": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
+    "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
+    "toolbar": "Vue de profil"
+  }
 }

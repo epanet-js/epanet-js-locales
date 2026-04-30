@@ -1254,14 +1254,12 @@
   "updatingMap": "Kaart bijwerken...",
   "playbackSpeedWarningSlow": "Het bijwerken van de kaart duurt meer dan 1 seconde per stap — het afspelen zal traag zijn.",
   "playbackSpeedWarningTooFast": "Resultaten zijn mogelijk niet zichtbaar vóór de volgende update bij deze snelheid.",
-  "exportData": "Gegevens exporteren",
   "exported": "Succesvol geëxporteerd",
   "exportFailed": "Export mislukt",
   "exportFormat": "Exportformaat",
   "exportGeojson": "GeoJSON",
   "exporting": "Exporteren...",
   "exportShapefile": "Shapefile (GIS)",
-  "includeSimulationResults": "Inclusief simulatie resultaten",
   "openProjectProgress.building": "Model opbouwen...",
   "openProjectProgress.finalizing": "Voltooien...",
   "openProjectProgress.opening": "Projectbestand openen...",
@@ -1283,5 +1281,30 @@
   "savingProject": "Project opslaan...",
   "dropProjectOrInp": "Sleep uw project- of INP-model hierheen.",
   "projectOpened": "Project geopend",
-  "simulateUnavailablePrivateBrowsing": "Simulatie is niet beschikbaar in oudere browsers of de privémodus. Probeer uw browser bij te werken of een ander venster te gebruiken."
+  "simulateUnavailablePrivateBrowsing": "Simulatie is niet beschikbaar in oudere browsers of de privémodus. Probeer uw browser bij te werken of een ander venster te gebruiken.",
+  "exportAssetData": "Onderdeelgegevens exporteren",
+  "exportSimulationResults": "Inclusief simulatie resultaten",
+  "exportSimulationResultsForCurrentStep": "Inclusief simulatie resultaten voor huidige stap",
+  "profileView": {
+    "cancelSelection": "Annuleren",
+    "close": "Profiel sluiten",
+    "distance": "Afstand",
+    "elevation": "Hoogte",
+    "empty": {
+      "idle": "Open het profielweergave-hulpmiddel vanuit de werkbalk (of druk op 9) om te beginnen.",
+      "noData": "Geen gegevens.",
+      "selectingEnd": "Klik op een knooppunt of leiding op de kaart om het einde van het profiel in te stellen.",
+      "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen."
+    },
+    "estimated": "Geschat",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
+      "title": "Geen pad gevonden"
+    },
+    "selectEnd": "Klik op een knooppunt of leiding om het einde van het profiel in te stellen",
+    "selectPath": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
+    "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
+    "toolbar": "Profielweergave"
+  }
 }

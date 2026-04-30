@@ -1261,14 +1261,12 @@
   "updatingMap": "Actualizando mapa...",
   "playbackSpeedWarningSlow": "Actualizar el mapa está tardando más de 1s por paso — la reproducción será lenta.",
   "playbackSpeedWarningTooFast": "Los resultados podrían no ser visibles antes de la próxima actualización a esta velocidad.",
-  "exportData": "Exportar datos",
   "exported": "Exportado exitosamente",
   "exportFailed": "Error al exportar",
   "exportFormat": "Formato de exportación",
   "exportGeojson": "GeoJSON",
   "exporting": "Exportando...",
   "exportShapefile": "Shapefile (GIS)",
-  "includeSimulationResults": "Incluir resultados de simulación",
   "openProjectProgress.building": "Construyendo modelo...",
   "openProjectProgress.finalizing": "Finalizando...",
   "openProjectProgress.opening": "Abriendo archivo de proyecto...",
@@ -1290,5 +1288,30 @@
   "savingProject": "Guardando proyecto...",
   "dropProjectOrInp": "Arrastra tu proyecto o modelo INP aquí.",
   "projectOpened": "Proyecto abierto",
-  "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana."
+  "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana.",
+  "exportAssetData": "Exportar Datos de Activos",
+  "exportSimulationResults": "Incluir resultados de simulación",
+  "exportSimulationResultsForCurrentStep": "Incluir resultados de simulación para el paso actual",
+  "profileView": {
+    "cancelSelection": "Cancelar",
+    "close": "Cerrar perfil",
+    "distance": "Distancia",
+    "elevation": "Elevación",
+    "empty": {
+      "idle": "Abre la herramienta de vista de perfil desde la barra de herramientas (o pulsa 9) para empezar.",
+      "noData": "No hay datos.",
+      "selectingEnd": "Haz clic en un nudo o tubería en el mapa para establecer el final del perfil.",
+      "selectingStart": "Haz clic en un nudo o tubería en el mapa para establecer el inicio del perfil."
+    },
+    "estimated": "Estimado",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "No se encontró un camino conectado entre los nudos seleccionados.",
+      "title": "No se encontró camino"
+    },
+    "selectEnd": "Haz clic en un nudo o tubería para establecer el final del perfil",
+    "selectPath": "Múltiples caminos encontrados. Haz clic en cualquier activo resaltado para seleccionar una ruta.",
+    "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
+    "toolbar": "Vista de perfil"
+  }
 }

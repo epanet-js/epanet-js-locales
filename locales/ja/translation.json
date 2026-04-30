@@ -1254,14 +1254,12 @@
   "updatingMap": "マップを更新中...",
   "playbackSpeedWarningSlow": "マップの更新に1秒以上かかっています — 再生が遅くなります。",
   "playbackSpeedWarningTooFast": "この速度では、次の更新までに結果が表示されない場合があります。",
-  "exportData": "データのエクスポート",
   "exported": "正常にエクスポートされました",
   "exportFailed": "エクスポートに失敗しました",
   "exportFormat": "エクスポート形式",
   "exportGeojson": "GeoJSON",
   "exporting": "エクスポート中...",
   "exportShapefile": "シェープファイル (GIS)",
-  "includeSimulationResults": "シミュレーション結果を含める",
   "openProjectProgress.building": "モデルを構築中...",
   "openProjectProgress.finalizing": "最終処理中...",
   "openProjectProgress.opening": "プロジェクトファイルを開いています...",
@@ -1283,5 +1281,30 @@
   "savingProject": "プロジェクトを保存中...",
   "dropProjectOrInp": "プロジェクトまたはINPモデルをここにドラッグしてください。",
   "projectOpened": "プロジェクトが開かれました",
-  "simulateUnavailablePrivateBrowsing": "シミュレーションは、古いブラウザやプライベートブラウジングモードでは利用できません。ブラウザを更新するか、別のウィンドウを使用してみてください。"
+  "simulateUnavailablePrivateBrowsing": "シミュレーションは、古いブラウザやプライベートブラウジングモードでは利用できません。ブラウザを更新するか、別のウィンドウを使用してみてください。",
+  "exportAssetData": "アセットデータをエクスポート",
+  "exportSimulationResults": "シミュレーション結果を含める",
+  "exportSimulationResultsForCurrentStep": "現在のステップのシミュレーション結果を含める",
+  "profileView": {
+    "cancelSelection": "キャンセル",
+    "close": "プロファイルを閉じる",
+    "distance": "距離",
+    "elevation": "標高",
+    "empty": {
+      "idle": "ツールバーからプロファイル表示ツールを開く（または9を押す）と開始します。",
+      "noData": "データなし。",
+      "selectingEnd": "マップ上のノードまたは管をクリックして、プロファイルの終点を設定します。",
+      "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。"
+    },
+    "estimated": "推定",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "選択されたノード間に接続されたパスは見つかりませんでした。",
+      "title": "パスが見つかりません"
+    },
+    "selectEnd": "ノードまたは管をクリックしてプロファイルの終点を設定します",
+    "selectPath": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
+    "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
+    "toolbar": "プロファイル表示"
+  }
 }

@@ -1254,14 +1254,12 @@
   "updatingMap": "Atualizando mapa...",
   "playbackSpeedWarningSlow": "Atualizar o mapa está demorando mais de 1s por passo — a reprodução será lenta.",
   "playbackSpeedWarningTooFast": "Os resultados podem não ser visíveis antes da próxima atualização nesta velocidade.",
-  "exportData": "Exportar Dados",
   "exported": "Exportado com sucesso",
   "exportFailed": "Exportação falhou",
   "exportFormat": "Formato de exportação",
   "exportGeojson": "GeoJSON",
   "exporting": "Exportando...",
   "exportShapefile": "Shapefile (GIS)",
-  "includeSimulationResults": "Incluir resultados da simulação",
   "openProjectProgress.building": "Construindo modelo...",
   "openProjectProgress.finalizing": "Finalizando...",
   "openProjectProgress.opening": "Abrindo arquivo de projeto...",
@@ -1283,5 +1281,30 @@
   "savingProject": "Salvando projeto...",
   "dropProjectOrInp": "Arraste seu projeto ou modelo INP aqui.",
   "projectOpened": "Projeto aberto",
-  "simulateUnavailablePrivateBrowsing": "A simulação não está disponível em navegadores mais antigos ou no modo de navegação anônima. Tente atualizar seu navegador ou usar outra janela."
+  "simulateUnavailablePrivateBrowsing": "A simulação não está disponível em navegadores mais antigos ou no modo de navegação anônima. Tente atualizar seu navegador ou usar outra janela.",
+  "exportAssetData": "Exportar Dados do Ativo",
+  "exportSimulationResults": "Incluir resultados da simulação",
+  "exportSimulationResultsForCurrentStep": "Incluir resultados da simulação para o passo atual",
+  "profileView": {
+    "cancelSelection": "Cancelar",
+    "close": "Fechar perfil",
+    "distance": "Distância",
+    "elevation": "Elevação",
+    "empty": {
+      "idle": "Abra a ferramenta de visualização de perfil na barra de ferramentas (ou pressione 9) para começar.",
+      "noData": "Sem dados.",
+      "selectingEnd": "Clique em um nó ou tubulação no mapa para definir o fim do perfil.",
+      "selectingStart": "Clique em um nó ou tubulação no mapa para definir o início do perfil."
+    },
+    "estimated": "Estimado",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "Nenhum caminho conectado foi encontrado entre os nós selecionados.",
+      "title": "Nenhum caminho encontrado"
+    },
+    "selectEnd": "Clique em um nó ou tubulação para definir o fim do perfil",
+    "selectPath": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
+    "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
+    "toolbar": "Visualização de perfil"
+  }
 }
