@@ -1306,5 +1306,8 @@
     "selectPath": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
     "toolbar": "Vue de profil"
-  }
+  },
+  "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
+  "sortAscending": "Trier par ordre croissant",
+  "sortDescending": "Trier par ordre décroissant"
 }

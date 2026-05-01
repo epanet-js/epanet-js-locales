@@ -1306,5 +1306,8 @@
     "selectPath": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
     "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
     "toolbar": "Visualização de perfil"
-  }
+  },
+  "exportSelectedAssetsOnly": "Apenas ativos selecionados",
+  "sortAscending": "Ordenar ascendente",
+  "sortDescending": "Ordenar descendente"
 }

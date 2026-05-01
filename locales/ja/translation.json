@@ -1306,5 +1306,8 @@
     "selectPath": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
     "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
     "toolbar": "プロファイル表示"
-  }
+  },
+  "exportSelectedAssetsOnly": "選択したアセットのみ",
+  "sortAscending": "昇順で並べ替え",
+  "sortDescending": "降順で並べ替え"
 }

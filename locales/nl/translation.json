@@ -1306,5 +1306,8 @@
     "selectPath": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
     "toolbar": "Profielweergave"
-  }
+  },
+  "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
+  "sortAscending": "Oplopend sorteren",
+  "sortDescending": "Aflopend sorteren"
 }
