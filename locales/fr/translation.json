@@ -1309,5 +1309,6 @@
   },
   "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
   "sortAscending": "Trier par ordre croissant",
-  "sortDescending": "Trier par ordre décroissant"
+  "sortDescending": "Trier par ordre décroissant",
+  "moreActions": "Plus d'actions"
 }

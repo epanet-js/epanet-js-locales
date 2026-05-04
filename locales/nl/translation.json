@@ -1309,5 +1309,6 @@
   },
   "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
   "sortAscending": "Oplopend sorteren",
-  "sortDescending": "Aflopend sorteren"
+  "sortDescending": "Aflopend sorteren",
+  "moreActions": "Meer acties"
 }

@@ -1309,5 +1309,6 @@
   },
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
-  "sortDescending": "降順で並べ替え"
+  "sortDescending": "降順で並べ替え",
+  "moreActions": "その他のアクション"
 }

@@ -1316,5 +1316,6 @@
   },
   "exportSelectedAssetsOnly": "Solo activos seleccionados",
   "sortAscending": "Ordenar ascendente",
-  "sortDescending": "Ordenar descendente"
+  "sortDescending": "Ordenar descendente",
+  "moreActions": "Más acciones"
 }
