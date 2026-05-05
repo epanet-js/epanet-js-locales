@@ -1256,7 +1256,7 @@
   "playbackSpeedWarningTooFast": "Les résultats peuvent ne pas être visibles avant la prochaine mise à jour à cette vitesse.",
   "exported": "Exportation réussie",
   "exportFailed": "Échec de l'exportation",
-  "exportFormat": "Format d'exportation",
+  "exportFormat": "Type de fichier",
   "exportGeojson": "GeoJSON",
   "exporting": "Exportation en cours...",
   "exportShapefile": "Shapefile (SIG)",
@@ -1310,5 +1310,9 @@
   "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
   "sortAscending": "Trier par ordre croissant",
   "sortDescending": "Trier par ordre décroissant",
-  "moreActions": "Plus d'actions"
+  "moreActions": "Plus d'actions",
+  "exportAssetData.noAssets": "Aucun élément à exporter n'a été trouvé. Vérifiez que votre projet contient des éléments.",
+  "exportTimeSeries": "Exporter les séries temporelles de simulation",
+  "exportTimeSeries.largeExportDescription": "Les fichiers volumineux peuvent être lents à générer et difficiles à ouvrir dans d'autres applications. Envisagez de filtrer vos données ou de réduire le nombre d'étapes de simulation pour en réduire la taille.",
+  "exportTimeSeries.largeExportTitle": "Taille d'exportation importante ({{1}} Go)"
 }

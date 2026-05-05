@@ -1263,7 +1263,7 @@
   "playbackSpeedWarningTooFast": "Los resultados podrían no ser visibles antes de la próxima actualización a esta velocidad.",
   "exported": "Exportado exitosamente",
   "exportFailed": "Error al exportar",
-  "exportFormat": "Formato de exportación",
+  "exportFormat": "Tipo de archivo",
   "exportGeojson": "GeoJSON",
   "exporting": "Exportando...",
   "exportShapefile": "Shapefile (GIS)",
@@ -1289,7 +1289,7 @@
   "dropProjectOrInp": "Arrastra tu proyecto o modelo INP aquí.",
   "projectOpened": "Proyecto abierto",
   "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana.",
-  "exportAssetData": "Exportar Datos de Activos",
+  "exportAssetData": "Exportar datos de activos",
   "exportSimulationResults": "Incluir resultados de simulación",
   "exportSimulationResultsForCurrentStep": "Incluir resultados de simulación para el paso actual",
   "profileView": {
@@ -1317,5 +1317,9 @@
   "exportSelectedAssetsOnly": "Solo activos seleccionados",
   "sortAscending": "Ordenar ascendente",
   "sortDescending": "Ordenar descendente",
-  "moreActions": "Más acciones"
+  "moreActions": "Más acciones",
+  "exportAssetData.noAssets": "No se encontraron activos para exportar. Verifica que tu proyecto tenga activos.",
+  "exportTimeSeries": "Exportar series de tiempo de simulación",
+  "exportTimeSeries.largeExportDescription": "Los archivos grandes pueden tardar en generarse y ser difíciles de abrir en otras aplicaciones. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
+  "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande ({{1}} GB)"
 }

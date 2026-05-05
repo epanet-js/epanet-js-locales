@@ -1256,7 +1256,7 @@
   "playbackSpeedWarningTooFast": "この速度では、次の更新までに結果が表示されない場合があります。",
   "exported": "正常にエクスポートされました",
   "exportFailed": "エクスポートに失敗しました",
-  "exportFormat": "エクスポート形式",
+  "exportFormat": "ファイルタイプ",
   "exportGeojson": "GeoJSON",
   "exporting": "エクスポート中...",
   "exportShapefile": "シェープファイル (GIS)",
@@ -1310,5 +1310,9 @@
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
   "sortDescending": "降順で並べ替え",
-  "moreActions": "その他のアクション"
+  "moreActions": "その他のアクション",
+  "exportAssetData.noAssets": "エクスポートするアセットが見つかりませんでした。プロジェクトにアセットがあることを再確認してください。",
+  "exportTimeSeries": "シミュレーション時系列をエクスポート",
+  "exportTimeSeries.largeExportDescription": "大きなファイルは生成に時間がかかり、他のアプリで開くのが難しい場合があります。データのフィルタリングやシミュレーションステップ数の削減を検討して、サイズを小さくしてください。",
+  "exportTimeSeries.largeExportTitle": "大きなエクスポートサイズ ({{1}} GB)"
 }
