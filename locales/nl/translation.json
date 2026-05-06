@@ -1284,7 +1284,7 @@
   "simulateUnavailablePrivateBrowsing": "Simulatie is niet beschikbaar in oudere browsers of de privémodus. Probeer uw browser bij te werken of een ander venster te gebruiken.",
   "exportAssetData": "Onderdeelgegevens exporteren",
   "exportSimulationResults": "Inclusief simulatie resultaten",
-  "exportSimulationResultsForCurrentStep": "Inclusief simulatie resultaten voor huidige stap",
+  "exportSimulationResultsForCurrentStep": "Inclusief resultaten voor huidige stap",
   "profileView": {
     "cancelSelection": "Annuleren",
     "close": "Profiel sluiten",
@@ -1314,5 +1314,7 @@
   "exportAssetData.noAssets": "Geen onderdelen gevonden om te exporteren. Controleer of uw project onderdelen bevat.",
   "exportTimeSeries": "Tijdreeksen van simulatie exporteren",
   "exportTimeSeries.largeExportDescription": "Grote bestanden kunnen langzaam worden gegenereerd en moeilijk te openen zijn in andere apps. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
-  "exportTimeSeries.largeExportTitle": "Grote exportgrootte ({{1}} GB)"
+  "exportTimeSeries.largeExportTitle": "Grote exportgrootte (~{{1}} GB)",
+  "exportTimeSeries.exceededSizeExportDescription": "De exportgrootte overschrijdt de maximale exportgrootte die door uw browser wordt ondersteund. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
+  "exportTimeSeries.noSimulation": "Geen simulatie­resultaten gevonden. Voer eerst een simulatie uit om tijdreeksgegevens te exporteren."
 }

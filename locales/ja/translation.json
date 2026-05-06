@@ -1284,7 +1284,7 @@
   "simulateUnavailablePrivateBrowsing": "シミュレーションは、古いブラウザやプライベートブラウジングモードでは利用できません。ブラウザを更新するか、別のウィンドウを使用してみてください。",
   "exportAssetData": "アセットデータをエクスポート",
   "exportSimulationResults": "シミュレーション結果を含める",
-  "exportSimulationResultsForCurrentStep": "現在のステップのシミュレーション結果を含める",
+  "exportSimulationResultsForCurrentStep": "現在のステップの結果を含める",
   "profileView": {
     "cancelSelection": "キャンセル",
     "close": "プロファイルを閉じる",
@@ -1314,5 +1314,7 @@
   "exportAssetData.noAssets": "エクスポートするアセットが見つかりませんでした。プロジェクトにアセットがあることを再確認してください。",
   "exportTimeSeries": "シミュレーション時系列をエクスポート",
   "exportTimeSeries.largeExportDescription": "大きなファイルは生成に時間がかかり、他のアプリで開くのが難しい場合があります。データのフィルタリングやシミュレーションステップ数の削減を検討して、サイズを小さくしてください。",
-  "exportTimeSeries.largeExportTitle": "大きなエクスポートサイズ ({{1}} GB)"
+  "exportTimeSeries.largeExportTitle": "大きなエクスポートサイズ (約{{1}} GB)",
+  "exportTimeSeries.exceededSizeExportDescription": "エクスポートサイズがブラウザでサポートされている最大エクスポートサイズを超えています。データのフィルタリングやシミュレーションステップ数の削減を検討して、サイズを小さくしてください。",
+  "exportTimeSeries.noSimulation": "シミュレーション結果が見つかりませんでした。時系列データをエクスポートするには、まずシミュレーションを実行してください。"
 }

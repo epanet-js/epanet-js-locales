@@ -1291,7 +1291,7 @@
   "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana.",
   "exportAssetData": "Exportar datos de activos",
   "exportSimulationResults": "Incluir resultados de simulación",
-  "exportSimulationResultsForCurrentStep": "Incluir resultados de simulación para el paso actual",
+  "exportSimulationResultsForCurrentStep": "Incluir resultados en el paso actual",
   "profileView": {
     "cancelSelection": "Cancelar",
     "close": "Cerrar perfil",
@@ -1321,5 +1321,7 @@
   "exportAssetData.noAssets": "No se encontraron activos para exportar. Verifica que tu proyecto tenga activos.",
   "exportTimeSeries": "Exportar series de tiempo de simulación",
   "exportTimeSeries.largeExportDescription": "Los archivos grandes pueden tardar en generarse y ser difíciles de abrir en otras aplicaciones. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
-  "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande ({{1}} GB)"
+  "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande (~{{1}} GB)",
+  "exportTimeSeries.exceededSizeExportDescription": "El tamaño de exportación excede el tamaño máximo de exportación soportado por tu navegador. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
+  "exportTimeSeries.noSimulation": "No se encontraron resultados de simulación. Ejecuta una simulación primero para exportar datos de series de tiempo."
 }
