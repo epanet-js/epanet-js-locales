@@ -1316,5 +1316,6 @@
   "exportTimeSeries.largeExportDescription": "Grote bestanden kunnen langzaam worden gegenereerd en moeilijk te openen zijn in andere apps. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
   "exportTimeSeries.largeExportTitle": "Grote exportgrootte (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "De exportgrootte overschrijdt de maximale exportgrootte die door uw browser wordt ondersteund. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
-  "exportTimeSeries.noSimulation": "Geen simulatie­resultaten gevonden. Voer eerst een simulatie uit om tijdreeksgegevens te exporteren."
+  "exportTimeSeries.noSimulation": "Geen simulatie­resultaten gevonden. Voer eerst een simulatie uit om tijdreeksgegevens te exporteren.",
+  "exportXlsx": "Excel-werkblad (XLSX)"
 }

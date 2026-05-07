@@ -1323,5 +1323,6 @@
   "exportTimeSeries.largeExportDescription": "Los archivos grandes pueden tardar en generarse y ser difíciles de abrir en otras aplicaciones. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
   "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "El tamaño de exportación excede el tamaño máximo de exportación soportado por tu navegador. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
-  "exportTimeSeries.noSimulation": "No se encontraron resultados de simulación. Ejecuta una simulación primero para exportar datos de series de tiempo."
+  "exportTimeSeries.noSimulation": "No se encontraron resultados de simulación. Ejecuta una simulación primero para exportar datos de series de tiempo.",
+  "exportXlsx": "Hoja de cálculo de Excel (XLSX)"
 }
