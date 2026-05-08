@@ -1231,8 +1231,8 @@
   "nothingSelectedSearch": "Of zoek onderdelen op hun label om ze snel te vinden en te selecteren.",
   "recent": "Recent",
   "toggleBranch": "Overschakelen naar laatste versie",
-  "alertExportInp": "Exporteren naar INP kan leiden tot gegevensverlies",
-  "alertExportInpDetail": "Het INP-formaat ondersteunt niet alle functies die beschikbaar zijn in onze app. Om er zeker van te zijn dat er geen gegevens verloren gaan, raden we aan om uw werk eerst op te slaan als een Project.",
+  "alertExportInp": "Sommige gegevens kunnen verloren gaan",
+  "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals klantpunten en aangepaste onderdeelvelden.",
   "drawingTools": "Tekentools",
   "gotIt": "Begrepen",
   "newBadge": "nieuw",
@@ -1273,7 +1273,6 @@
   "exportSingleTimestep": "Enkele tijdstap",
   "exportToInp": "Exporteren naar INP",
   "generatingInp": "INP genereren...",
-  "initializedProjectFromInp": "Project geïnitialiseerd vanuit EPANET INP",
   "newProject.blank": "Leeg project",
   "newProject.fromEpanetInp": "Vanuit EPANET INP",
   "newProject.fromGIS": "Vanuit GIS-gegevens",
@@ -1291,7 +1290,6 @@
     "distance": "Afstand",
     "elevation": "Hoogte",
     "empty": {
-      "idle": "Open het profielweergave-hulpmiddel vanuit de werkbalk (of druk op 9) om te beginnen.",
       "noData": "Geen gegevens.",
       "selectingEnd": "Klik op een knooppunt of leiding op de kaart om het einde van het profiel in te stellen.",
       "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen."
@@ -1303,9 +1301,14 @@
       "title": "Geen pad gevonden"
     },
     "selectEnd": "Klik op een knooppunt of leiding om het einde van het profiel in te stellen",
-    "selectPath": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
+    "selectPath": "Pad selecteren",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
-    "toolbar": "Profielweergave"
+    "toolbar": "Profielweergave",
+    "createProfile": "Profiel aanmaken",
+    "new": "Nieuw",
+    "selectAll": "Alles selecteren",
+    "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
+    "title": "Profielweergave"
   },
   "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
   "sortAscending": "Oplopend sorteren",
@@ -1317,5 +1320,15 @@
   "exportTimeSeries.largeExportTitle": "Grote exportgrootte (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "De exportgrootte overschrijdt de maximale exportgrootte die door uw browser wordt ondersteund. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
   "exportTimeSeries.noSimulation": "Geen simulatie­resultaten gevonden. Voer eerst een simulatie uit om tijdreeksgegevens te exporteren.",
-  "exportXlsx": "Excel-werkblad (XLSX)"
+  "exportXlsx": "Excel-werkblad (XLSX)",
+  "alertExportInpRecommendation": "We raden aan om het epanet-js Project (.ejsdb) als uw primaire opslag te gebruiken en alleen naar EPANET INP te exporteren voor externe compatibiliteit.",
+  "analysisTools": "Analysetools",
+  "dataTables": {
+    "title": "Gegevenstabellen"
+  },
+  "fileFormatUpdated": "Bestandsformaat bijgewerkt",
+  "fileFormatUpdatedBody": "Uw netwerk is geconverteerd naar een epanet-js Project (.ejsdb). Dit nieuwe formaat stelt ons in staat om meer gegevens op te slaan dan het standaard EPANET INP-formaat, inclusief klantpunten en aangepaste onderdeelvelden.",
+  "fileFormatUpdatedDontShowAgain": "Dit niet opnieuw tonen",
+  "fileFormatUpdatedFootnote": "Het oude formaat nodig? U kunt nog steeds op elk moment exporteren naar EPANET INP via het menu Bestand.",
+  "togglePlayback": "Afspelen / pauzeren"
 }

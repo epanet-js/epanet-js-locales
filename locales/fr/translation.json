@@ -1231,8 +1231,8 @@
   "nothingSelectedSearch": "Ou recherchez des éléments par leur étiquette pour les trouver et les sélectionner rapidement.",
   "recent": "Récent",
   "toggleBranch": "Basculer vers la dernière version",
-  "alertExportInp": "L'exportation vers INP peut entraîner une perte de données",
-  "alertExportInpDetail": "Le format INP ne prend pas en charge toutes les fonctionnalités disponibles dans notre application. Pour vous assurer qu'aucune donnée n'est perdue, nous vous recommandons d'enregistrer d'abord votre travail en tant que Projet.",
+  "alertExportInp": "Certaines données peuvent être perdues",
+  "alertExportInpDetail": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les points de consommation et les champs d'éléments personnalisés.",
   "drawingTools": "Outils de dessin",
   "gotIt": "Compris",
   "newBadge": "nouveau",
@@ -1273,7 +1273,6 @@
   "exportSingleTimestep": "Une seule étape de temps",
   "exportToInp": "Exporter en INP",
   "generatingInp": "Génération de l'INP...",
-  "initializedProjectFromInp": "Projet initialisé depuis EPANET INP",
   "newProject.blank": "Projet vierge",
   "newProject.fromEpanetInp": "Depuis EPANET INP",
   "newProject.fromGIS": "Depuis des données SIG",
@@ -1291,7 +1290,6 @@
     "distance": "Distance",
     "elevation": "Élévation",
     "empty": {
-      "idle": "Ouvrez l'outil de visualisation de profil depuis la barre d'outils (ou appuyez sur 9) pour commencer.",
       "noData": "Aucune donnée.",
       "selectingEnd": "Cliquez sur un nœud ou une conduite sur la carte pour définir la fin du profil.",
       "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil."
@@ -1303,9 +1301,14 @@
       "title": "Aucun chemin trouvé"
     },
     "selectEnd": "Cliquez sur un nœud ou une conduite pour définir la fin du profil",
-    "selectPath": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
+    "selectPath": "Sélectionner le chemin",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
-    "toolbar": "Vue de profil"
+    "toolbar": "Vue de profil",
+    "createProfile": "Créer un profil",
+    "new": "Nouveau",
+    "selectAll": "Tout sélectionner",
+    "selectPathHint": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
+    "title": "Vue de profil"
   },
   "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
   "sortAscending": "Trier par ordre croissant",
@@ -1317,5 +1320,15 @@
   "exportTimeSeries.largeExportTitle": "Taille d'exportation importante (~{{1}} Go)",
   "exportTimeSeries.exceededSizeExportDescription": "La taille de l'exportation dépasse la taille maximale prise en charge par votre navigateur. Envisagez de filtrer vos données ou de réduire le nombre d'étapes de simulation pour en réduire la taille.",
   "exportTimeSeries.noSimulation": "Aucun résultat de simulation n'a été trouvé. Exécutez d'abord une simulation pour exporter les données de séries temporelles.",
-  "exportXlsx": "Feuille de calcul Excel (XLSX)"
+  "exportXlsx": "Feuille de calcul Excel (XLSX)",
+  "alertExportInpRecommendation": "Nous recommandons d'utiliser le Projet epanet-js (.ejsdb) comme sauvegarde principale et d'exporter vers EPANET INP uniquement pour la compatibilité externe.",
+  "analysisTools": "Outils d'analyse",
+  "dataTables": {
+    "title": "Tables de données"
+  },
+  "fileFormatUpdated": "Format de fichier mis à jour",
+  "fileFormatUpdatedBody": "Votre réseau a été converti en un Projet epanet-js (.ejsdb). Ce nouveau format nous permet de stocker plus de données que le format EPANET INP standard, y compris les points de consommation et les champs d'éléments personnalisés.",
+  "fileFormatUpdatedDontShowAgain": "Ne plus afficher ceci",
+  "fileFormatUpdatedFootnote": "Besoin de l'ancien format ? Vous pouvez toujours exporter vers EPANET INP à tout moment via le menu Fichier.",
+  "togglePlayback": "Lecture / pause"
 }

@@ -1238,8 +1238,8 @@
   "nothingSelectedSearch": "O busca activos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
   "recent": "Reciente",
   "toggleBranch": "Cambiar a la última versión",
-  "alertExportInp": "La exportación a INP puede resultar en pérdida de datos",
-  "alertExportInpDetail": "El formato INP no es compatible con todas las funciones disponibles en nuestra aplicación. Para asegurar que no se pierdan datos, recomendamos guardar tu trabajo como un Proyecto primero.",
+  "alertExportInp": "Algunos datos pueden perderse",
+  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo y los campos de activos personalizados.",
   "drawingTools": "Herramientas de dibujo",
   "gotIt": "Entendido",
   "newBadge": "nuevo",
@@ -1280,7 +1280,6 @@
   "exportSingleTimestep": "Paso de tiempo único",
   "exportToInp": "Exportar a INP",
   "generatingInp": "Generando INP...",
-  "initializedProjectFromInp": "Proyecto inicializado desde EPANET INP",
   "newProject.blank": "Proyecto en blanco",
   "newProject.fromEpanetInp": "Desde EPANET INP",
   "newProject.fromGIS": "Desde datos GIS",
@@ -1298,7 +1297,6 @@
     "distance": "Distancia",
     "elevation": "Elevación",
     "empty": {
-      "idle": "Abre la herramienta de vista de perfil desde la barra de herramientas (o pulsa 9) para empezar.",
       "noData": "No hay datos.",
       "selectingEnd": "Haz clic en un nudo o tubería en el mapa para establecer el final del perfil.",
       "selectingStart": "Haz clic en un nudo o tubería en el mapa para establecer el inicio del perfil."
@@ -1310,9 +1308,14 @@
       "title": "No se encontró camino"
     },
     "selectEnd": "Haz clic en un nudo o tubería para establecer el final del perfil",
-    "selectPath": "Múltiples caminos encontrados. Haz clic en cualquier activo resaltado para seleccionar una ruta.",
+    "selectPath": "Seleccionar ruta",
     "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
-    "toolbar": "Vista de perfil"
+    "toolbar": "Vista de perfil",
+    "createProfile": "Crear perfil",
+    "new": "Nuevo",
+    "selectAll": "Seleccionar todo",
+    "selectPathHint": "Se encontraron múltiples rutas. Haz clic en cualquier activo resaltado para seleccionar una.",
+    "title": "Vista de perfil"
   },
   "exportSelectedAssetsOnly": "Solo activos seleccionados",
   "sortAscending": "Ordenar ascendente",
@@ -1324,5 +1327,15 @@
   "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "El tamaño de exportación excede el tamaño máximo de exportación soportado por tu navegador. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
   "exportTimeSeries.noSimulation": "No se encontraron resultados de simulación. Ejecuta una simulación primero para exportar datos de series de tiempo.",
-  "exportXlsx": "Hoja de cálculo de Excel (XLSX)"
+  "exportXlsx": "Hoja de cálculo de Excel (XLSX)",
+  "alertExportInpRecommendation": "Recomendamos usar el Proyecto de epanet-js (.ejsdb) como tu guardado principal y solo exportar a EPANET INP para compatibilidad externa.",
+  "analysisTools": "Herramientas de análisis",
+  "dataTables": {
+    "title": "Tablas de datos"
+  },
+  "fileFormatUpdated": "Formato de archivo actualizado",
+  "fileFormatUpdatedBody": "Tu red ha sido convertida a un Proyecto de epanet-js (.ejsdb). Este nuevo formato nos permite almacenar más datos que el formato estándar de EPANET INP, incluyendo puntos de consumo y campos de activos personalizados.",
+  "fileFormatUpdatedDontShowAgain": "No mostrar esto de nuevo",
+  "fileFormatUpdatedFootnote": "¿Necesitas el formato antiguo? Todavía puedes exportar a EPANET INP en cualquier momento a través del menú Archivo.",
+  "togglePlayback": "Reproducir / pausar"
 }

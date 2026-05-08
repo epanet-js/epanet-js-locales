@@ -1231,8 +1231,8 @@
   "nothingSelectedSearch": "または、ラベルで資産を検索してすばやく見つけて選択することもできます。",
   "recent": "最近",
   "toggleBranch": "最終バージョンに切り替える",
-  "alertExportInp": "INPへのエクスポートではデータが失われる可能性があります",
-  "alertExportInpDetail": "INP形式は、アプリで利用できるすべての機能をサポートしていません。データが失われないように、まずプロジェクトとして保存することをお勧めします。",
+  "alertExportInp": "一部のデータが失われる可能性があります",
+  "alertExportInpDetail": "EPANET INP形式は、顧客ポイントやカスタム資産フィールドなど、epanet-jsのすべての機能をサポートしていません。",
   "drawingTools": "描画ツール",
   "gotIt": "了解",
   "newBadge": "new",
@@ -1273,7 +1273,6 @@
   "exportSingleTimestep": "単一タイムステップ",
   "exportToInp": "INPにエクスポート",
   "generatingInp": "INPを生成中...",
-  "initializedProjectFromInp": "EPANET INPからプロジェクトを初期化しました",
   "newProject.blank": "空白のプロジェクト",
   "newProject.fromEpanetInp": "EPANET INPから",
   "newProject.fromGIS": "GISデータから",
@@ -1291,7 +1290,6 @@
     "distance": "距離",
     "elevation": "標高",
     "empty": {
-      "idle": "ツールバーからプロファイル表示ツールを開く（または9を押す）と開始します。",
       "noData": "データなし。",
       "selectingEnd": "マップ上のノードまたは管をクリックして、プロファイルの終点を設定します。",
       "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。"
@@ -1303,9 +1301,14 @@
       "title": "パスが見つかりません"
     },
     "selectEnd": "ノードまたは管をクリックしてプロファイルの終点を設定します",
-    "selectPath": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
+    "selectPath": "パスを選択",
     "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
-    "toolbar": "プロファイル表示"
+    "toolbar": "プロファイル表示",
+    "createProfile": "プロファイルを作成",
+    "new": "新規",
+    "selectAll": "すべて選択",
+    "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
+    "title": "プロファイル表示"
   },
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
@@ -1317,5 +1320,15 @@
   "exportTimeSeries.largeExportTitle": "大きなエクスポートサイズ (約{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "エクスポートサイズがブラウザでサポートされている最大エクスポートサイズを超えています。データのフィルタリングやシミュレーションステップ数の削減を検討して、サイズを小さくしてください。",
   "exportTimeSeries.noSimulation": "シミュレーション結果が見つかりませんでした。時系列データをエクスポートするには、まずシミュレーションを実行してください。",
-  "exportXlsx": "Excel スプレッドシート (XLSX)"
+  "exportXlsx": "Excel スプレッドシート (XLSX)",
+  "alertExportInpRecommendation": "epanet-jsプロジェクト（.ejsdb）を主要な保存形式として使用し、外部互換性のためにのみEPANET INPにエクスポートすることをお勧めします。",
+  "analysisTools": "解析ツール",
+  "dataTables": {
+    "title": "データテーブル"
+  },
+  "fileFormatUpdated": "ファイル形式が更新されました",
+  "fileFormatUpdatedBody": "あなたのネットワークはepanet-jsプロジェクト（.ejsdb）に変換されました。この新しい形式により、標準のEPANET INP形式よりも多くのデータ（顧客ポイントやカスタム資産フィールドを含む）を保存できます。",
+  "fileFormatUpdatedDontShowAgain": "次回から表示しない",
+  "fileFormatUpdatedFootnote": "古い形式が必要ですか？「ファイル」メニューからいつでもEPANET INPとしてエクスポートできます。",
+  "togglePlayback": "再生 / 一時停止"
 }
