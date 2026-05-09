@@ -1315,7 +1315,7 @@
   "sortDescending": "Ordenar descendente",
   "moreActions": "Mais ações",
   "exportAssetData.noAssets": "Nenhum ativo para exportar foi encontrado. Verifique se seu projeto possui ativos.",
-  "exportTimeSeries": "Exportar série temporal da simulação",
+  "exportTimeSeries": "Exportar resultados da simulação",
   "exportTimeSeries.largeExportDescription": "Arquivos grandes podem ser lentos para gerar e difíceis de abrir em outros aplicativos. Considere filtrar seus dados ou reduzir o número de passos de simulação para diminuir seu tamanho.",
   "exportTimeSeries.largeExportTitle": "Tamanho de exportação grande (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "O tamanho da exportação excede o tamanho máximo suportado pelo seu navegador. Considere filtrar seus dados ou reduzir o número de passos de simulação para diminuir seu tamanho.",
@@ -1330,5 +1330,8 @@
   "fileFormatUpdatedBody": "Sua rede foi convertida para um Projeto epanet-js (.ejsdb). Este novo formato nos permite armazenar mais dados do que o formato padrão EPANET INP, incluindo pontos de consumo e campos de ativos personalizados.",
   "fileFormatUpdatedDontShowAgain": "Não mostrar novamente",
   "fileFormatUpdatedFootnote": "Precisa do formato antigo? Você ainda pode exportar para EPANET INP a qualquer momento através do menu Arquivo.",
-  "togglePlayback": "Reproduzir / pausar"
+  "togglePlayback": "Reproduzir / pausar",
+  "exportTimeSeries.complete": "Exportação concluída",
+  "exportTimeSeries.exceededSizeTitle": "Tamanho máximo de exportação excedido (~{{1}} GB)",
+  "exportTimeSeries.inProgress": "Exportação {{1}}% concluída"
 }

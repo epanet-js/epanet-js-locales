@@ -1330,5 +1330,8 @@
   "fileFormatUpdatedBody": "Uw netwerk is geconverteerd naar een epanet-js Project (.ejsdb). Dit nieuwe formaat stelt ons in staat om meer gegevens op te slaan dan het standaard EPANET INP-formaat, inclusief klantpunten en aangepaste onderdeelvelden.",
   "fileFormatUpdatedDontShowAgain": "Dit niet opnieuw tonen",
   "fileFormatUpdatedFootnote": "Het oude formaat nodig? U kunt nog steeds op elk moment exporteren naar EPANET INP via het menu Bestand.",
-  "togglePlayback": "Afspelen / pauzeren"
+  "togglePlayback": "Afspelen / pauzeren",
+  "exportTimeSeries.complete": "Export voltooid",
+  "exportTimeSeries.exceededSizeTitle": "Maximale exportgrootte overschreden (~{{1}} GB)",
+  "exportTimeSeries.inProgress": "Export {{1}}% voltooid"
 }

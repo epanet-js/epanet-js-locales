@@ -1330,5 +1330,8 @@
   "fileFormatUpdatedBody": "あなたのネットワークはepanet-jsプロジェクト（.ejsdb）に変換されました。この新しい形式により、標準のEPANET INP形式よりも多くのデータ（顧客ポイントやカスタム資産フィールドを含む）を保存できます。",
   "fileFormatUpdatedDontShowAgain": "次回から表示しない",
   "fileFormatUpdatedFootnote": "古い形式が必要ですか？「ファイル」メニューからいつでもEPANET INPとしてエクスポートできます。",
-  "togglePlayback": "再生 / 一時停止"
+  "togglePlayback": "再生 / 一時停止",
+  "exportTimeSeries.complete": "エクスポート完了",
+  "exportTimeSeries.exceededSizeTitle": "最大エクスポートサイズを超過しました（約{{1}} GB）",
+  "exportTimeSeries.inProgress": "エクスポート{{1}}%完了"
 }
