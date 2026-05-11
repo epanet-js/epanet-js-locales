@@ -934,7 +934,7 @@
   },
   "headPattern": "水頭パターン",
   "openPatternsLibrary": "ライブラリを開く...",
-  "speedPattern": "パターン",
+  "speedPattern": "速度パターン",
   "traceSelection": {
     "boundary": "境界トレース",
     "downstream": "下流トレース",
@@ -1333,5 +1333,6 @@
   "togglePlayback": "再生 / 一時停止",
   "exportTimeSeries.complete": "エクスポート完了",
   "exportTimeSeries.exceededSizeTitle": "最大エクスポートサイズを超過しました（約{{1}} GB）",
-  "exportTimeSeries.inProgress": "エクスポート{{1}}%完了"
+  "exportTimeSeries.inProgress": "エクスポート{{1}}%完了",
+  "constantPercent": "定数 {{1}}%"
 }

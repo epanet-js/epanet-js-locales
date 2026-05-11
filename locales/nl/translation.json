@@ -934,7 +934,7 @@
   },
   "headPattern": "Opvoerhoogte patroon",
   "openPatternsLibrary": "Bibliotheek openen...",
-  "speedPattern": "Patroon",
+  "speedPattern": "Snelheidspatroon",
   "traceSelection": {
     "boundary": "Grens tracering",
     "downstream": "Downstream tracering",
@@ -1333,5 +1333,6 @@
   "togglePlayback": "Afspelen / pauzeren",
   "exportTimeSeries.complete": "Export voltooid",
   "exportTimeSeries.exceededSizeTitle": "Maximale exportgrootte overschreden (~{{1}} GB)",
-  "exportTimeSeries.inProgress": "Export {{1}}% voltooid"
+  "exportTimeSeries.inProgress": "Export {{1}}% voltooid",
+  "constantPercent": "Constant {{1}}%"
 }

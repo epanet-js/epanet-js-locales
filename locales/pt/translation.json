@@ -1333,5 +1333,6 @@
   "togglePlayback": "Reproduzir / pausar",
   "exportTimeSeries.complete": "Exportação concluída",
   "exportTimeSeries.exceededSizeTitle": "Tamanho máximo de exportação excedido (~{{1}} GB)",
-  "exportTimeSeries.inProgress": "Exportação {{1}}% concluída"
+  "exportTimeSeries.inProgress": "Exportação {{1}}% concluída",
+  "constantPercent": "Constante {{1}}%"
 }

@@ -941,7 +941,7 @@
   },
   "headPattern": "Patrón de carga",
   "openPatternsLibrary": "Abrir biblioteca...",
-  "speedPattern": "Patrón",
+  "speedPattern": "Patrón de velocidad",
   "traceSelection": {
     "boundary": "Rastreo de límite",
     "downstream": "Rastreo aguas abajo",
@@ -1340,5 +1340,6 @@
   "togglePlayback": "Reproducir / pausar",
   "exportTimeSeries.complete": "Exportación completa",
   "exportTimeSeries.exceededSizeTitle": "Tamaño máximo de exportación excedido (~{{1}} GB)",
-  "exportTimeSeries.inProgress": "Exportación {{1}}% completa"
+  "exportTimeSeries.inProgress": "Exportación {{1}}% completa",
+  "constantPercent": "Constante {{1}}%"
 }
