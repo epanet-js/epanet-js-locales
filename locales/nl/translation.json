@@ -1307,10 +1307,7 @@
     "toolbar": "Profielweergave",
     "selectAll": "Alles selecteren",
     "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
-    "title": "Profielweergave",
-    "refresh": "Vernieuwen",
-    "simulationRequired": "Simulatie vereist",
-    "simulationRequiredHint": "Voer eerst een simulatie uit om het profiel te bekijken."
+    "title": "Profielweergave"
   },
   "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
   "sortAscending": "Oplopend sorteren",
@@ -1326,7 +1323,11 @@
   "alertExportInpRecommendation": "We raden aan om het epanet-js Project (.ejsdb) als uw primaire opslag te gebruiken en alleen naar EPANET INP te exporteren voor externe compatibiliteit.",
   "analysisTools": "Analysetools",
   "dataTables": {
-    "title": "Gegevenstabellen"
+    "title": "Gegevenstabellen",
+    "copy": {
+      "includeHeadersAction": "Kopiëren met headers",
+      "includeHeadersPrompt": "Gekopieerd. Kolomheaders meenemen?"
+    }
   },
   "fileFormatUpdated": "Bestandsformaat bijgewerkt",
   "fileFormatUpdatedBody": "Uw netwerk is geconverteerd naar een epanet-js Project (.ejsdb). Dit nieuwe formaat stelt ons in staat om meer gegevens op te slaan dan het standaard EPANET INP-formaat, inclusief klantpunten en aangepaste onderdeelvelden.",
@@ -1338,5 +1339,8 @@
   "exportTimeSeries.inProgress": "{{1}}% voltooid",
   "constantPercent": "Constant {{1}}%",
   "exportTimeSeries.progress": "Resultaten exporteren",
-  "libraryCurve": "Bibliotheekcurve"
+  "libraryCurve": "Bibliotheekcurve",
+  "copy": "Kopiëren",
+  "paste": "Plakken",
+  "selectInMap": "Selecteren in kaart"
 }

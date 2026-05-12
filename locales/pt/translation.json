@@ -1307,10 +1307,7 @@
     "toolbar": "Visualização de perfil",
     "selectAll": "Selecionar tudo",
     "selectPathHint": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
-    "title": "Visualização de perfil",
-    "refresh": "Atualizar",
-    "simulationRequired": "Simulação necessária",
-    "simulationRequiredHint": "Execute uma simulação primeiro para visualizar o perfil."
+    "title": "Visualização de perfil"
   },
   "exportSelectedAssetsOnly": "Apenas ativos selecionados",
   "sortAscending": "Ordenar ascendente",
@@ -1326,7 +1323,11 @@
   "alertExportInpRecommendation": "Recomendamos usar o Projeto epanet-js (.ejsdb) como seu salvamento principal e exportar para EPANET INP apenas para compatibilidade externa.",
   "analysisTools": "Ferramentas de análise",
   "dataTables": {
-    "title": "Tabelas de dados"
+    "title": "Tabelas de dados",
+    "copy": {
+      "includeHeadersAction": "Copiar com cabeçalhos",
+      "includeHeadersPrompt": "Copiado. Incluir cabeçalhos de coluna?"
+    }
   },
   "fileFormatUpdated": "Formato de arquivo atualizado",
   "fileFormatUpdatedBody": "Sua rede foi convertida para um Projeto epanet-js (.ejsdb). Este novo formato nos permite armazenar mais dados do que o formato padrão EPANET INP, incluindo pontos de consumo e campos de ativos personalizados.",
@@ -1338,5 +1339,8 @@
   "exportTimeSeries.inProgress": "{{1}}% concluído",
   "constantPercent": "Constante {{1}}%",
   "exportTimeSeries.progress": "Exportando resultados",
-  "libraryCurve": "Curva da biblioteca"
+  "libraryCurve": "Curva da biblioteca",
+  "copy": "Copiar",
+  "paste": "Colar",
+  "selectInMap": "Selecionar no mapa"
 }

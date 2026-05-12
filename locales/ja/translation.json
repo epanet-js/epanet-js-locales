@@ -1307,10 +1307,7 @@
     "toolbar": "プロファイル表示",
     "selectAll": "すべて選択",
     "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
-    "title": "プロファイル表示",
-    "refresh": "更新",
-    "simulationRequired": "シミュレーションが必要です",
-    "simulationRequiredHint": "プロファイルを表示するには、まずシミュレーションを実行してください。"
+    "title": "プロファイル表示"
   },
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
@@ -1326,7 +1323,11 @@
   "alertExportInpRecommendation": "epanet-jsプロジェクト（.ejsdb）を主要な保存形式として使用し、外部互換性のためにのみEPANET INPにエクスポートすることをお勧めします。",
   "analysisTools": "解析ツール",
   "dataTables": {
-    "title": "データテーブル"
+    "title": "データテーブル",
+    "copy": {
+      "includeHeadersAction": "ヘッダーを含めてコピー",
+      "includeHeadersPrompt": "コピーしました。列ヘッダーを含めますか？"
+    }
   },
   "fileFormatUpdated": "ファイル形式が更新されました",
   "fileFormatUpdatedBody": "あなたのネットワークはepanet-jsプロジェクト（.ejsdb）に変換されました。この新しい形式により、標準のEPANET INP形式よりも多くのデータ（顧客ポイントやカスタム資産フィールドを含む）を保存できます。",
@@ -1338,5 +1339,8 @@
   "exportTimeSeries.inProgress": "{{1}}% 完了",
   "constantPercent": "定数 {{1}}%",
   "exportTimeSeries.progress": "結果をエクスポート中",
-  "libraryCurve": "ライブラリ曲線"
+  "libraryCurve": "ライブラリ曲線",
+  "copy": "コピー",
+  "paste": "貼り付け",
+  "selectInMap": "マップで選択"
 }
