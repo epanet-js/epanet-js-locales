@@ -1292,7 +1292,8 @@
     "empty": {
       "noData": "Geen gegevens.",
       "selectingEnd": "Klik op een knooppunt of leiding op de kaart om het einde van het profiel in te stellen.",
-      "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen."
+      "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen.",
+      "pathBroken": "Sommige onderdelen in dit profiel bestaan niet meer. Maak een nieuw profiel aan om door te gaan."
     },
     "estimated": "Geschat",
     "hgl": "HGL",
@@ -1304,11 +1305,12 @@
     "selectPath": "Pad selecteren",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
     "toolbar": "Profielweergave",
-    "createProfile": "Profiel aanmaken",
-    "new": "Nieuw",
     "selectAll": "Alles selecteren",
     "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
-    "title": "Profielweergave"
+    "title": "Profielweergave",
+    "refresh": "Vernieuwen",
+    "simulationRequired": "Simulatie vereist",
+    "simulationRequiredHint": "Voer eerst een simulatie uit om het profiel te bekijken."
   },
   "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
   "sortAscending": "Oplopend sorteren",
@@ -1333,6 +1335,8 @@
   "togglePlayback": "Afspelen / pauzeren",
   "exportTimeSeries.complete": "Export voltooid",
   "exportTimeSeries.exceededSizeTitle": "Maximale exportgrootte overschreden (~{{1}} GB)",
-  "exportTimeSeries.inProgress": "Export {{1}}% voltooid",
-  "constantPercent": "Constant {{1}}%"
+  "exportTimeSeries.inProgress": "{{1}}% voltooid",
+  "constantPercent": "Constant {{1}}%",
+  "exportTimeSeries.progress": "Resultaten exporteren",
+  "libraryCurve": "Bibliotheekcurve"
 }

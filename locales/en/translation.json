@@ -226,6 +226,7 @@
   "pumpType": "Pump type",
   "pumpDefinition": "Definition",
   "pumpCurve": "Pump curve",
+  "libraryCurve": "Library curve",
   "pumpHead": "Pump head",
   "simulate": "Simulate",
   "simulateUnavailablePrivateBrowsing": "Simulation is not available in older browsers or private browsing mode. Try updating your browser or using another window.",
@@ -1277,12 +1278,13 @@
   "exportAssetData": "Export asset data",
   "exportAssetData.noAssets": "No assets to export were found. Double-check that your project has assets.",
   "exportTimeSeries": "Export simulation results",
+  "exportTimeSeries.progress": "Exporting results",
   "exportTimeSeries.noSimulation": "No simulation results were found. Run a simulation first to export time-series data.",
   "exportTimeSeries.largeExportTitle": "Large export size (~{{1}} GB)",
   "exportTimeSeries.exceededSizeTitle": "Maximum export size exceeded (~{{1}} GB)",
   "exportTimeSeries.largeExportDescription": "Large files may be slow to generate and difficult to open in other apps. Consider filtering your data or reducing the number of simulation steps to lower its size.",
   "exportTimeSeries.exceededSizeExportDescription": "Export size exceeds maximum export size supported by your browser. Consider filtering your data or reducing the number of simulation steps to lower its size.",
-  "exportTimeSeries.inProgress": "Export {{1}}% complete",
+  "exportTimeSeries.inProgress": "{{1}}% complete",
   "exportTimeSeries.complete": "Export complete",
   "exportFormat": "File type",
   "exportSingleTimestep": "Single time-step",
@@ -1312,10 +1314,9 @@
   "profileView": {
     "title": "Profile view",
     "toolbar": "Profile view",
+    "close": "Close profile",
     "selectStart": "Click a node or pipe to set the start of the profile",
     "selectEnd": "Click a node or pipe to set the end of the profile",
-    "createProfile": "Create profile",
-    "new": "New",
     "selectAll": "Select all",
     "selectPath": "Select path",
     "selectPathHint": "Multiple paths found. Click any highlighted asset to select a route.",
@@ -1324,15 +1325,18 @@
       "title": "No path found",
       "message": "No connected path was found between the selected nodes."
     },
+    "simulationRequired": "Simulation required",
+    "simulationRequiredHint": "Run a simulation first to view the profile.",
+    "refresh": "Refresh",
     "elevation": "Elevation",
     "hgl": "HGL",
     "distance": "Distance",
-    "close": "Close profile",
     "estimated": "Estimated",
     "empty": {
       "selectingStart": "Click a node or pipe on the map to set the start of the profile.",
       "selectingEnd": "Click a node or pipe on the map to set the end of the profile.",
-      "noData": "No data."
+      "noData": "No data.",
+      "pathBroken": "Some assets in this profile no longer exist. Create a new profile to continue."
     }
   }
 }

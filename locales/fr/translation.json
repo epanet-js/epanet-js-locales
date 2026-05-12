@@ -1292,7 +1292,8 @@
     "empty": {
       "noData": "Aucune donnée.",
       "selectingEnd": "Cliquez sur un nœud ou une conduite sur la carte pour définir la fin du profil.",
-      "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil."
+      "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil.",
+      "pathBroken": "Certains éléments de ce profil n'existent plus. Créez un nouveau profil pour continuer."
     },
     "estimated": "Estimé",
     "hgl": "Ligne Piézométrique",
@@ -1304,11 +1305,12 @@
     "selectPath": "Sélectionner le chemin",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
     "toolbar": "Vue de profil",
-    "createProfile": "Créer un profil",
-    "new": "Nouveau",
     "selectAll": "Tout sélectionner",
     "selectPathHint": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
-    "title": "Vue de profil"
+    "title": "Vue de profil",
+    "refresh": "Actualiser",
+    "simulationRequired": "Simulation requise",
+    "simulationRequiredHint": "Exécutez d'abord une simulation pour visualiser le profil."
   },
   "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
   "sortAscending": "Trier par ordre croissant",
@@ -1333,6 +1335,8 @@
   "togglePlayback": "Lecture / pause",
   "exportTimeSeries.complete": "Exportation terminée",
   "exportTimeSeries.exceededSizeTitle": "Taille maximale d'exportation dépassée (~{{1}} Go)",
-  "exportTimeSeries.inProgress": "Exportation {{1}}% terminée",
-  "constantPercent": "Constant {{1}}%"
+  "exportTimeSeries.inProgress": "{{1}}% terminée",
+  "constantPercent": "Constant {{1}}%",
+  "exportTimeSeries.progress": "Exportation des résultats",
+  "libraryCurve": "Courbe de bibliothèque"
 }

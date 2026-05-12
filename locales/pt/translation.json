@@ -1292,7 +1292,8 @@
     "empty": {
       "noData": "Sem dados.",
       "selectingEnd": "Clique em um nó ou tubulação no mapa para definir o fim do perfil.",
-      "selectingStart": "Clique em um nó ou tubulação no mapa para definir o início do perfil."
+      "selectingStart": "Clique em um nó ou tubulação no mapa para definir o início do perfil.",
+      "pathBroken": "Alguns ativos neste perfil não existem mais. Crie um novo perfil para continuar."
     },
     "estimated": "Estimado",
     "hgl": "HGL",
@@ -1304,11 +1305,12 @@
     "selectPath": "Selecionar caminho",
     "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
     "toolbar": "Visualização de perfil",
-    "createProfile": "Criar perfil",
-    "new": "Novo",
     "selectAll": "Selecionar tudo",
     "selectPathHint": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
-    "title": "Visualização de perfil"
+    "title": "Visualização de perfil",
+    "refresh": "Atualizar",
+    "simulationRequired": "Simulação necessária",
+    "simulationRequiredHint": "Execute uma simulação primeiro para visualizar o perfil."
   },
   "exportSelectedAssetsOnly": "Apenas ativos selecionados",
   "sortAscending": "Ordenar ascendente",
@@ -1333,6 +1335,8 @@
   "togglePlayback": "Reproduzir / pausar",
   "exportTimeSeries.complete": "Exportação concluída",
   "exportTimeSeries.exceededSizeTitle": "Tamanho máximo de exportação excedido (~{{1}} GB)",
-  "exportTimeSeries.inProgress": "Exportação {{1}}% concluída",
-  "constantPercent": "Constante {{1}}%"
+  "exportTimeSeries.inProgress": "{{1}}% concluído",
+  "constantPercent": "Constante {{1}}%",
+  "exportTimeSeries.progress": "Exportando resultados",
+  "libraryCurve": "Curva da biblioteca"
 }

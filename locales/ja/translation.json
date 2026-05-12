@@ -1292,7 +1292,8 @@
     "empty": {
       "noData": "データなし。",
       "selectingEnd": "マップ上のノードまたは管をクリックして、プロファイルの終点を設定します。",
-      "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。"
+      "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。",
+      "pathBroken": "このプロファイル内の一部のアセットはもう存在しません。新しいプロファイルを作成して続行してください。"
     },
     "estimated": "推定",
     "hgl": "HGL",
@@ -1304,11 +1305,12 @@
     "selectPath": "パスを選択",
     "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
     "toolbar": "プロファイル表示",
-    "createProfile": "プロファイルを作成",
-    "new": "新規",
     "selectAll": "すべて選択",
     "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
-    "title": "プロファイル表示"
+    "title": "プロファイル表示",
+    "refresh": "更新",
+    "simulationRequired": "シミュレーションが必要です",
+    "simulationRequiredHint": "プロファイルを表示するには、まずシミュレーションを実行してください。"
   },
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
@@ -1333,6 +1335,8 @@
   "togglePlayback": "再生 / 一時停止",
   "exportTimeSeries.complete": "エクスポート完了",
   "exportTimeSeries.exceededSizeTitle": "最大エクスポートサイズを超過しました（約{{1}} GB）",
-  "exportTimeSeries.inProgress": "エクスポート{{1}}%完了",
-  "constantPercent": "定数 {{1}}%"
+  "exportTimeSeries.inProgress": "{{1}}% 完了",
+  "constantPercent": "定数 {{1}}%",
+  "exportTimeSeries.progress": "結果をエクスポート中",
+  "libraryCurve": "ライブラリ曲線"
 }
