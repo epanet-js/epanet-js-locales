@@ -21,6 +21,7 @@ Currently translates to:
 - **French (FR)** - `fr`
 - **Dutch (NL)** - `nl`
 - **Japanese (JA)** - `ja`
+- **Indonesian (ID)** - `id`
 
 ## How to run
 
@@ -75,4 +76,5 @@ locales/
 ├── nl/          # Dutch
 └── pt/          # Portuguese
 └── ja/          # Japanese
+└── id/          # Indonesian
 ```
