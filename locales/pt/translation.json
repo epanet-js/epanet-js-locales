@@ -1301,7 +1301,7 @@
       "message": "Nenhum caminho conectado foi encontrado entre os nós selecionados.",
       "title": "Nenhum caminho encontrado"
     },
-    "selectEnd": "Clique em um nó ou tubulação para definir o fim do perfil",
+    "selectEnd": "Clique para adicionar um ponto de passagem, ou duplo clique para finalizar o perfil",
     "selectPath": "Selecionar caminho",
     "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
     "toolbar": "Visualização de perfil",

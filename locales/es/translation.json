@@ -1308,7 +1308,7 @@
       "message": "No se encontró un camino conectado entre los nudos seleccionados.",
       "title": "No se encontró camino"
     },
-    "selectEnd": "Haz clic en un nudo o tubería para establecer el final del perfil",
+    "selectEnd": "Haz clic para añadir un punto intermedio, o doble clic para finalizar el perfil",
     "selectPath": "Seleccionar ruta",
     "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
     "toolbar": "Vista de perfil",

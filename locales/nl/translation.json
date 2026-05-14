@@ -1301,7 +1301,7 @@
       "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
       "title": "Geen pad gevonden"
     },
-    "selectEnd": "Klik op een knooppunt of leiding om het einde van het profiel in te stellen",
+    "selectEnd": "Klik om een tussenpunt toe te voegen, of dubbelklik om het profiel te voltooien",
     "selectPath": "Pad selecteren",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
     "toolbar": "Profielweergave",

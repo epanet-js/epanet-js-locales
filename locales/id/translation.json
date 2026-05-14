@@ -902,7 +902,7 @@
       "title": "Tidak ada jalur ditemukan"
     },
     "selectAll": "Pilih semua",
-    "selectEnd": "Klik node atau pipa untuk mengatur akhir profil, atau Shift+klik untuk menambahkan titik jalan",
+    "selectEnd": "Klik untuk menambahkan titik jalan, atau klik dua kali untuk menyelesaikan profil",
     "selectPath": "Pilih jalur",
     "selectPathHint": "Beberapa jalur ditemukan. Klik aset yang disorot untuk memilih rute.",
     "selectStart": "Klik node atau pipa untuk mengatur awal profil",

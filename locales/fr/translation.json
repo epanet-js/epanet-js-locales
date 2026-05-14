@@ -1301,7 +1301,7 @@
       "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
       "title": "Aucun chemin trouvé"
     },
-    "selectEnd": "Cliquez sur un nœud ou une conduite pour définir la fin du profil",
+    "selectEnd": "Cliquez pour ajouter un point de cheminement, ou double-cliquez pour terminer le profil",
     "selectPath": "Sélectionner le chemin",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
     "toolbar": "Vue de profil",
