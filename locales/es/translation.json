@@ -1264,9 +1264,9 @@
   "exported": "Exportado exitosamente",
   "exportFailed": "Error al exportar",
   "exportFormat": "Tipo de archivo",
-  "exportGeojson": "GeoJSON",
+  "exportGeojson": "GeoJSON (.geojson)",
   "exporting": "Exportando...",
-  "exportShapefile": "Shapefile (GIS)",
+  "exportShapefile": "Shapefile (.zip)",
   "openProjectProgress.building": "Construyendo modelo...",
   "openProjectProgress.finalizing": "Finalizando...",
   "openProjectProgress.opening": "Abriendo archivo de proyecto...",
@@ -1274,7 +1274,7 @@
   "openProjectProgress.readingCustomerPoints": "Leyendo puntos de consumo...",
   "openProjectProgress.readingSettings": "Leyendo ajustes...",
   "exportAllTimesteps": "Todos los pasos de tiempo (como CSV)",
-  "exportCsv": "CSV",
+  "exportCsv": "Valores separados por comas (.csv)",
   "exportedAsInp": "Exportado como INP",
   "exportInpCanceled": "Exportación a INP cancelada",
   "exportSingleTimestep": "Paso de tiempo único",
@@ -1326,7 +1326,7 @@
   "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "El tamaño de exportación excede el tamaño máximo de exportación soportado por tu navegador. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
   "exportTimeSeries.noSimulation": "No se encontraron resultados de simulación. Ejecuta una simulación primero para exportar datos de series de tiempo.",
-  "exportXlsx": "Hoja de cálculo de Excel (XLSX)",
+  "exportXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
   "alertExportInpRecommendation": "Recomendamos usar el Proyecto de epanet-js (.ejsdb) como tu guardado principal y solo exportar a EPANET INP para compatibilidad externa.",
   "analysisTools": "Herramientas de análisis",
   "dataTables": {
@@ -1349,5 +1349,11 @@
   "libraryCurve": "Curva de biblioteca",
   "copy": "Copiar",
   "paste": "Pegar",
-  "selectInMap": "Seleccionar en el mapa"
+  "selectInMap": "Seleccionar en el mapa",
+  "export.assetData": "Datos de activos",
+  "export.epanetInp": "EPANET INP",
+  "export.simulationResults": "Resultados de simulación",
+  "exportTimeSeries.inProgressWithProperty": "{{1}}% completado - Exportando {{2}}",
+  "exportTimeSeries.savingFiles": "Guardando archivos",
+  "toggleBottomPanel": "Alternar panel inferior"
 }

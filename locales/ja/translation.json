@@ -1257,9 +1257,9 @@
   "exported": "正常にエクスポートされました",
   "exportFailed": "エクスポートに失敗しました",
   "exportFormat": "ファイルタイプ",
-  "exportGeojson": "GeoJSON",
+  "exportGeojson": "GeoJSON (.geojson)",
   "exporting": "エクスポート中...",
-  "exportShapefile": "シェープファイル (GIS)",
+  "exportShapefile": "シェープファイル (.zip)",
   "openProjectProgress.building": "モデルを構築中...",
   "openProjectProgress.finalizing": "最終処理中...",
   "openProjectProgress.opening": "プロジェクトファイルを開いています...",
@@ -1267,7 +1267,7 @@
   "openProjectProgress.readingCustomerPoints": "顧客ポイントを読み込み中...",
   "openProjectProgress.readingSettings": "設定を読み込み中...",
   "exportAllTimesteps": "すべてのタイムステップ (CSV形式)",
-  "exportCsv": "CSV",
+  "exportCsv": "カンマ区切り値 (.csv)",
   "exportedAsInp": "INPとしてエクスポートされました",
   "exportInpCanceled": "INPのエクスポートをキャンセルしました",
   "exportSingleTimestep": "単一タイムステップ",
@@ -1319,7 +1319,7 @@
   "exportTimeSeries.largeExportTitle": "大きなエクスポートサイズ (約{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "エクスポートサイズがブラウザでサポートされている最大エクスポートサイズを超えています。データのフィルタリングやシミュレーションステップ数の削減を検討して、サイズを小さくしてください。",
   "exportTimeSeries.noSimulation": "シミュレーション結果が見つかりませんでした。時系列データをエクスポートするには、まずシミュレーションを実行してください。",
-  "exportXlsx": "Excel スプレッドシート (XLSX)",
+  "exportXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
   "alertExportInpRecommendation": "epanet-jsプロジェクト（.ejsdb）を主要な保存形式として使用し、外部互換性のためにのみEPANET INPにエクスポートすることをお勧めします。",
   "analysisTools": "解析ツール",
   "dataTables": {
@@ -1342,5 +1342,11 @@
   "libraryCurve": "ライブラリ曲線",
   "copy": "コピー",
   "paste": "貼り付け",
-  "selectInMap": "マップで選択"
+  "selectInMap": "マップで選択",
+  "export.assetData": "アセットデータ",
+  "export.epanetInp": "EPANET INP",
+  "export.simulationResults": "シミュレーション結果",
+  "exportTimeSeries.inProgressWithProperty": "{{1}}% 完了 - {{2}}をエクスポート中",
+  "exportTimeSeries.savingFiles": "ファイルを保存中",
+  "toggleBottomPanel": "下部パネルの切り替え"
 }

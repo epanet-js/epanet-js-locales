@@ -1342,5 +1342,11 @@
   "yearlyWithDiscount": "Tahunan - hemat hingga {{1}}%",
   "yearShort": "thn",
   "yes": "Ya",
-  "zoomTo": "Perbesar ke"
+  "zoomTo": "Perbesar ke",
+  "export.assetData": "Data aset",
+  "export.epanetInp": "EPANET INP",
+  "export.simulationResults": "Hasil simulasi",
+  "exportTimeSeries.inProgressWithProperty": "{{1}}% selesai - Mengekspor {{2}}",
+  "exportTimeSeries.savingFiles": "Menyimpan file",
+  "toggleBottomPanel": "Alihkan panel bawah"
 }

@@ -1257,9 +1257,9 @@
   "exported": "Exportation réussie",
   "exportFailed": "Échec de l'exportation",
   "exportFormat": "Type de fichier",
-  "exportGeojson": "GeoJSON",
+  "exportGeojson": "GeoJSON (.geojson)",
   "exporting": "Exportation en cours...",
-  "exportShapefile": "Shapefile (SIG)",
+  "exportShapefile": "Shapefile (.zip)",
   "openProjectProgress.building": "Construction du modèle...",
   "openProjectProgress.finalizing": "Finalisation...",
   "openProjectProgress.opening": "Ouverture du fichier projet...",
@@ -1267,7 +1267,7 @@
   "openProjectProgress.readingCustomerPoints": "Lecture des points de consommation...",
   "openProjectProgress.readingSettings": "Lecture des paramètres...",
   "exportAllTimesteps": "Toutes les étapes de temps (au format CSV)",
-  "exportCsv": "CSV",
+  "exportCsv": "Valeurs séparées par des virgules (.csv)",
   "exportedAsInp": "Exporté en INP",
   "exportInpCanceled": "Exportation INP annulée",
   "exportSingleTimestep": "Une seule étape de temps",
@@ -1319,7 +1319,7 @@
   "exportTimeSeries.largeExportTitle": "Taille d'exportation importante (~{{1}} Go)",
   "exportTimeSeries.exceededSizeExportDescription": "La taille de l'exportation dépasse la taille maximale prise en charge par votre navigateur. Envisagez de filtrer vos données ou de réduire le nombre d'étapes de simulation pour en réduire la taille.",
   "exportTimeSeries.noSimulation": "Aucun résultat de simulation n'a été trouvé. Exécutez d'abord une simulation pour exporter les données de séries temporelles.",
-  "exportXlsx": "Feuille de calcul Excel (XLSX)",
+  "exportXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
   "alertExportInpRecommendation": "Nous recommandons d'utiliser le Projet epanet-js (.ejsdb) comme sauvegarde principale et d'exporter vers EPANET INP uniquement pour la compatibilité externe.",
   "analysisTools": "Outils d'analyse",
   "dataTables": {
@@ -1342,5 +1342,11 @@
   "libraryCurve": "Courbe de bibliothèque",
   "copy": "Copier",
   "paste": "Coller",
-  "selectInMap": "Sélectionner sur la carte"
+  "selectInMap": "Sélectionner sur la carte",
+  "export.assetData": "Données des éléments",
+  "export.epanetInp": "EPANET INP",
+  "export.simulationResults": "Résultats de simulation",
+  "exportTimeSeries.inProgressWithProperty": "{{1}}% terminée - Exportation de {{2}}",
+  "exportTimeSeries.savingFiles": "Enregistrement des fichiers",
+  "toggleBottomPanel": "Basculer le panneau inférieur"
 }

@@ -1257,9 +1257,9 @@
   "exported": "Succesvol geëxporteerd",
   "exportFailed": "Export mislukt",
   "exportFormat": "Bestandstype",
-  "exportGeojson": "GeoJSON",
+  "exportGeojson": "GeoJSON (.geojson)",
   "exporting": "Exporteren...",
-  "exportShapefile": "Shapefile (GIS)",
+  "exportShapefile": "Shapefile (.zip)",
   "openProjectProgress.building": "Model opbouwen...",
   "openProjectProgress.finalizing": "Voltooien...",
   "openProjectProgress.opening": "Projectbestand openen...",
@@ -1267,7 +1267,7 @@
   "openProjectProgress.readingCustomerPoints": "Klantpunten lezen...",
   "openProjectProgress.readingSettings": "Instellingen lezen...",
   "exportAllTimesteps": "Alle tijdstappen (als CSV)",
-  "exportCsv": "CSV",
+  "exportCsv": "Komma-gescheiden waarden (.csv)",
   "exportedAsInp": "Geëxporteerd als INP",
   "exportInpCanceled": "Exporteren van INP geannuleerd",
   "exportSingleTimestep": "Enkele tijdstap",
@@ -1319,7 +1319,7 @@
   "exportTimeSeries.largeExportTitle": "Grote exportgrootte (~{{1}} GB)",
   "exportTimeSeries.exceededSizeExportDescription": "De exportgrootte overschrijdt de maximale exportgrootte die door uw browser wordt ondersteund. Overweeg uw gegevens te filteren of het aantal simulatiestappen te verminderen om de grootte te verlagen.",
   "exportTimeSeries.noSimulation": "Geen simulatie­resultaten gevonden. Voer eerst een simulatie uit om tijdreeksgegevens te exporteren.",
-  "exportXlsx": "Excel-werkblad (XLSX)",
+  "exportXlsx": "Microsoft Excel-werkblad (.xlsx)",
   "alertExportInpRecommendation": "We raden aan om het epanet-js Project (.ejsdb) als uw primaire opslag te gebruiken en alleen naar EPANET INP te exporteren voor externe compatibiliteit.",
   "analysisTools": "Analysetools",
   "dataTables": {
@@ -1342,5 +1342,11 @@
   "libraryCurve": "Bibliotheekcurve",
   "copy": "Kopiëren",
   "paste": "Plakken",
-  "selectInMap": "Selecteren in kaart"
+  "selectInMap": "Selecteren in kaart",
+  "export.assetData": "Onderdeelgegevens",
+  "export.epanetInp": "EPANET INP",
+  "export.simulationResults": "Simulatie resultaten",
+  "exportTimeSeries.inProgressWithProperty": "{{1}}% voltooid - Exporteren {{2}}",
+  "exportTimeSeries.savingFiles": "Bestanden opslaan",
+  "toggleBottomPanel": "Onderpaneel in-/uitschakelen"
 }
