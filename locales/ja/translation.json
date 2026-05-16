@@ -1346,7 +1346,9 @@
   "export.assetData": "アセットデータ",
   "export.epanetInp": "EPANET INP",
   "export.simulationResults": "シミュレーション結果",
-  "exportTimeSeries.inProgressWithProperty": "{{1}}% 完了 - {{2}}をエクスポート中",
+  "exportTimeSeries.inProgressWithProperty": "{{1}} を処理中",
   "exportTimeSeries.savingFiles": "ファイルを保存中",
-  "toggleBottomPanel": "下部パネルの切り替え"
+  "toggleBottomPanel": "下部パネルの切り替え",
+  "maxPressure": "最大圧力",
+  "minPressure": "最小圧力"
 }

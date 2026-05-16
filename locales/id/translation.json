@@ -1346,7 +1346,9 @@
   "export.assetData": "Data aset",
   "export.epanetInp": "EPANET INP",
   "export.simulationResults": "Hasil simulasi",
-  "exportTimeSeries.inProgressWithProperty": "{{1}}% selesai - Mengekspor {{2}}",
+  "exportTimeSeries.inProgressWithProperty": "Memproses {{1}}",
   "exportTimeSeries.savingFiles": "Menyimpan file",
-  "toggleBottomPanel": "Alihkan panel bawah"
+  "toggleBottomPanel": "Alihkan panel bawah",
+  "maxPressure": "Tekanan maks",
+  "minPressure": "Tekanan min"
 }

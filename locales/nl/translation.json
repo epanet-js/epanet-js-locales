@@ -1346,7 +1346,9 @@
   "export.assetData": "Onderdeelgegevens",
   "export.epanetInp": "EPANET INP",
   "export.simulationResults": "Simulatie resultaten",
-  "exportTimeSeries.inProgressWithProperty": "{{1}}% voltooid - Exporteren {{2}}",
+  "exportTimeSeries.inProgressWithProperty": "Verwerken {{1}}",
   "exportTimeSeries.savingFiles": "Bestanden opslaan",
-  "toggleBottomPanel": "Onderpaneel in-/uitschakelen"
+  "toggleBottomPanel": "Onderpaneel in-/uitschakelen",
+  "maxPressure": "Max. druk",
+  "minPressure": "Min. druk"
 }

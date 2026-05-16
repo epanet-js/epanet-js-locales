@@ -1346,7 +1346,9 @@
   "export.assetData": "Données des éléments",
   "export.epanetInp": "EPANET INP",
   "export.simulationResults": "Résultats de simulation",
-  "exportTimeSeries.inProgressWithProperty": "{{1}}% terminée - Exportation de {{2}}",
+  "exportTimeSeries.inProgressWithProperty": "Traitement de {{1}}",
   "exportTimeSeries.savingFiles": "Enregistrement des fichiers",
-  "toggleBottomPanel": "Basculer le panneau inférieur"
+  "toggleBottomPanel": "Basculer le panneau inférieur",
+  "maxPressure": "Pression max",
+  "minPressure": "Pression min"
 }
