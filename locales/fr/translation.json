@@ -1284,31 +1284,6 @@
   "exportAssetData": "Exporter les données des éléments",
   "exportSimulationResults": "Inclure les résultats de la simulation",
   "exportSimulationResultsForCurrentStep": "Inclure les résultats de l'étape actuelle",
-  "profileView": {
-    "cancelSelection": "Annuler",
-    "close": "Fermer le profil",
-    "distance": "Distance",
-    "elevation": "Élévation",
-    "empty": {
-      "noData": "Aucune donnée.",
-      "selectingEnd": "Cliquez sur un nœud ou une conduite sur la carte pour définir la fin du profil.",
-      "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil.",
-      "pathBroken": "Certains éléments de ce profil n'existent plus. Créez un nouveau profil pour continuer."
-    },
-    "estimated": "Estimé",
-    "hgl": "Ligne Piézométrique",
-    "noPath": {
-      "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
-      "title": "Aucun chemin trouvé"
-    },
-    "selectEnd": "Cliquez pour ajouter un point de cheminement, ou double-cliquez pour terminer le profil",
-    "selectPath": "Sélectionner le chemin",
-    "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
-    "toolbar": "Vue de profil",
-    "selectAll": "Tout sélectionner",
-    "selectPathHint": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
-    "title": "Vue de profil"
-  },
   "exportSelectedAssetsOnly": "Éléments sélectionnés uniquement",
   "sortAscending": "Trier par ordre croissant",
   "sortDescending": "Trier par ordre décroissant",
@@ -1350,5 +1325,33 @@
   "exportTimeSeries.savingFiles": "Enregistrement des fichiers",
   "toggleBottomPanel": "Basculer le panneau inférieur",
   "maxPressure": "Pression max",
-  "minPressure": "Pression min"
+  "minPressure": "Pression min",
+  "hglProfile": {
+    "cancelSelection": "Annuler",
+    "close": "Fermer le profil HGL",
+    "distance": "Distance",
+    "elevation": "Élévation",
+    "empty": {
+      "noData": "Aucune donnée.",
+      "pathBroken": "Certains éléments de ce profil n'existent plus. Créez un nouveau profil pour continuer.",
+      "selectingEnd": "Cliquez sur un nœud ou une conduite sur la carte pour définir la fin du profil.",
+      "selectingStart": "Cliquez sur un nœud ou une conduite sur la carte pour définir le début du profil."
+    },
+    "estimated": "Estimé",
+    "hgl": "Ligne Piézométrique",
+    "noPath": {
+      "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
+      "title": "Aucun chemin trouvé"
+    },
+    "selectAll": "Tout sélectionner",
+    "selectEnd": "Cliquez pour ajouter un point de cheminement, ou double-cliquez pour terminer le profil",
+    "selectPath": "Sélectionner le chemin",
+    "selectPathHint": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
+    "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
+    "title": "Profil HGL",
+    "toolbar": "Profil HGL"
+  },
+  "projectOpenFailed": "Impossible d'ouvrir le projet",
+  "projectSaveFailed": "Impossible d'enregistrer le projet",
+  "unexpectedErrorContactSupport": "Quelque chose s'est mal passé. Si l'erreur persiste, contactez le support."
 }

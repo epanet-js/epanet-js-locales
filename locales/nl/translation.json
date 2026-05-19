@@ -1284,31 +1284,6 @@
   "exportAssetData": "Onderdeelgegevens exporteren",
   "exportSimulationResults": "Inclusief simulatie resultaten",
   "exportSimulationResultsForCurrentStep": "Inclusief resultaten voor huidige stap",
-  "profileView": {
-    "cancelSelection": "Annuleren",
-    "close": "Profiel sluiten",
-    "distance": "Afstand",
-    "elevation": "Hoogte",
-    "empty": {
-      "noData": "Geen gegevens.",
-      "selectingEnd": "Klik op een knooppunt of leiding op de kaart om het einde van het profiel in te stellen.",
-      "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen.",
-      "pathBroken": "Sommige onderdelen in dit profiel bestaan niet meer. Maak een nieuw profiel aan om door te gaan."
-    },
-    "estimated": "Geschat",
-    "hgl": "HGL",
-    "noPath": {
-      "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
-      "title": "Geen pad gevonden"
-    },
-    "selectEnd": "Klik om een tussenpunt toe te voegen, of dubbelklik om het profiel te voltooien",
-    "selectPath": "Pad selecteren",
-    "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
-    "toolbar": "Profielweergave",
-    "selectAll": "Alles selecteren",
-    "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
-    "title": "Profielweergave"
-  },
   "exportSelectedAssetsOnly": "Alleen geselecteerde onderdelen",
   "sortAscending": "Oplopend sorteren",
   "sortDescending": "Aflopend sorteren",
@@ -1350,5 +1325,33 @@
   "exportTimeSeries.savingFiles": "Bestanden opslaan",
   "toggleBottomPanel": "Onderpaneel in-/uitschakelen",
   "maxPressure": "Max. druk",
-  "minPressure": "Min. druk"
+  "minPressure": "Min. druk",
+  "hglProfile": {
+    "cancelSelection": "Annuleren",
+    "close": "HGL profiel sluiten",
+    "distance": "Afstand",
+    "elevation": "Hoogte",
+    "empty": {
+      "noData": "Geen gegevens.",
+      "pathBroken": "Sommige onderdelen in dit profiel bestaan niet meer. Maak een nieuw profiel aan om door te gaan.",
+      "selectingEnd": "Klik op een knooppunt of leiding op de kaart om het einde van het profiel in te stellen.",
+      "selectingStart": "Klik op een knooppunt of leiding op de kaart om het begin van het profiel in te stellen."
+    },
+    "estimated": "Geschat",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
+      "title": "Geen pad gevonden"
+    },
+    "selectAll": "Alles selecteren",
+    "selectEnd": "Klik om een tussenpunt toe te voegen, of dubbelklik om het profiel te voltooien",
+    "selectPath": "Pad selecteren",
+    "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
+    "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
+    "title": "HGL profiel",
+    "toolbar": "HGL profiel"
+  },
+  "projectOpenFailed": "Kon project niet openen",
+  "projectSaveFailed": "Kon project niet opslaan",
+  "unexpectedErrorContactSupport": "Er is iets misgegaan. Als de fout aanhoudt, neem dan contact op met de support."
 }

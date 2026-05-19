@@ -319,6 +319,9 @@
   "saved": "Saved",
   "saveAs": "Save as...",
   "saveCanceled": "Canceled saving",
+  "projectOpenFailed": "Couldn't open project",
+  "projectSaveFailed": "Couldn't save project",
+  "unexpectedErrorContactSupport": "Something went wrong. If the error persists, contact support.",
   "menubarFile": "File",
   "unsavedChanges": "Unsaved changes",
   "unsavedChangesQuestion": "Do you want to save the changes made to the current project?",
@@ -1326,10 +1329,10 @@
       "includeHeadersAction": "Copy with headers"
     }
   },
-  "profileView": {
-    "title": "Profile view",
-    "toolbar": "Profile view",
-    "close": "Close profile",
+  "hglProfile": {
+    "title": "HGL profile",
+    "toolbar": "HGL profile",
+    "close": "Close HGL profile",
     "selectStart": "Click a node or pipe to set the start of the profile",
     "selectEnd": "Click to add a waypoint, or double-click to finish the profile",
     "selectAll": "Select all",

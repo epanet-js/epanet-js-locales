@@ -1291,31 +1291,6 @@
   "exportAssetData": "Exportar datos de activos",
   "exportSimulationResults": "Incluir resultados de simulación",
   "exportSimulationResultsForCurrentStep": "Incluir resultados en el paso actual",
-  "profileView": {
-    "cancelSelection": "Cancelar",
-    "close": "Cerrar perfil",
-    "distance": "Distancia",
-    "elevation": "Elevación",
-    "empty": {
-      "noData": "No hay datos.",
-      "selectingEnd": "Haz clic en un nudo o tubería en el mapa para establecer el final del perfil.",
-      "selectingStart": "Haz clic en un nudo o tubería en el mapa para establecer el inicio del perfil.",
-      "pathBroken": "Algunos activos de este perfil ya no existen. Crea un nuevo perfil para continuar."
-    },
-    "estimated": "Estimado",
-    "hgl": "HGL",
-    "noPath": {
-      "message": "No se encontró un camino conectado entre los nudos seleccionados.",
-      "title": "No se encontró camino"
-    },
-    "selectEnd": "Haz clic para añadir un punto intermedio, o doble clic para finalizar el perfil",
-    "selectPath": "Seleccionar ruta",
-    "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
-    "toolbar": "Vista de perfil",
-    "selectAll": "Seleccionar todo",
-    "selectPathHint": "Se encontraron múltiples rutas. Haz clic en cualquier activo resaltado para seleccionar una.",
-    "title": "Vista de perfil"
-  },
   "exportSelectedAssetsOnly": "Solo activos seleccionados",
   "sortAscending": "Ordenar ascendente",
   "sortDescending": "Ordenar descendente",
@@ -1357,5 +1332,33 @@
   "exportTimeSeries.savingFiles": "Guardando archivos",
   "toggleBottomPanel": "Alternar panel inferior",
   "maxPressure": "Presión máxima",
-  "minPressure": "Presión mínima"
+  "minPressure": "Presión mínima",
+  "hglProfile": {
+    "cancelSelection": "Cancelar",
+    "close": "Cerrar perfil HGL",
+    "distance": "Distancia",
+    "elevation": "Elevación",
+    "empty": {
+      "noData": "No hay datos.",
+      "pathBroken": "Algunos activos de este perfil ya no existen. Crea un nuevo perfil para continuar.",
+      "selectingEnd": "Haz clic en un nudo o tubería en el mapa para establecer el final del perfil.",
+      "selectingStart": "Haz clic en un nudo o tubería en el mapa para establecer el inicio del perfil."
+    },
+    "estimated": "Estimado",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "No se encontró un camino conectado entre los nudos seleccionados.",
+      "title": "No se encontró camino"
+    },
+    "selectAll": "Seleccionar todo",
+    "selectEnd": "Haz clic para añadir un punto intermedio, o doble clic para finalizar el perfil",
+    "selectPath": "Seleccionar ruta",
+    "selectPathHint": "Se encontraron múltiples rutas. Haz clic en cualquier activo resaltado para seleccionar una.",
+    "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
+    "title": "Vista de perfil",
+    "toolbar": "Vista de perfil"
+  },
+  "projectOpenFailed": "No se pudo abrir el proyecto",
+  "projectSaveFailed": "No se pudo guardar el proyecto",
+  "unexpectedErrorContactSupport": "Algo ha ido mal. Si el error persiste, contacta con soporte."
 }

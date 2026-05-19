@@ -1284,31 +1284,6 @@
   "exportAssetData": "Exportar Dados do Ativo",
   "exportSimulationResults": "Incluir resultados da simulação",
   "exportSimulationResultsForCurrentStep": "Incluir resultados no passo atual",
-  "profileView": {
-    "cancelSelection": "Cancelar",
-    "close": "Fechar perfil",
-    "distance": "Distância",
-    "elevation": "Elevação",
-    "empty": {
-      "noData": "Sem dados.",
-      "selectingEnd": "Clique em um nó ou tubulação no mapa para definir o fim do perfil.",
-      "selectingStart": "Clique em um nó ou tubulação no mapa para definir o início do perfil.",
-      "pathBroken": "Alguns ativos neste perfil não existem mais. Crie um novo perfil para continuar."
-    },
-    "estimated": "Estimado",
-    "hgl": "HGL",
-    "noPath": {
-      "message": "Nenhum caminho conectado foi encontrado entre os nós selecionados.",
-      "title": "Nenhum caminho encontrado"
-    },
-    "selectEnd": "Clique para adicionar um ponto de passagem, ou duplo clique para finalizar o perfil",
-    "selectPath": "Selecionar caminho",
-    "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
-    "toolbar": "Visualização de perfil",
-    "selectAll": "Selecionar tudo",
-    "selectPathHint": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
-    "title": "Visualização de perfil"
-  },
   "exportSelectedAssetsOnly": "Apenas ativos selecionados",
   "sortAscending": "Ordenar ascendente",
   "sortDescending": "Ordenar descendente",
@@ -1350,5 +1325,33 @@
   "exportTimeSeries.savingFiles": "Salvando arquivos",
   "toggleBottomPanel": "Alternar painel inferior",
   "maxPressure": "Pressão Máx.",
-  "minPressure": "Pressão Mín."
+  "minPressure": "Pressão Mín.",
+  "hglProfile": {
+    "cancelSelection": "Cancelar",
+    "close": "Fechar perfil HGL",
+    "distance": "Distância",
+    "elevation": "Elevação",
+    "empty": {
+      "noData": "Sem dados.",
+      "pathBroken": "Alguns ativos neste perfil não existem mais. Crie um novo perfil para continuar.",
+      "selectingEnd": "Clique em um nó ou tubulação no mapa para definir o fim do perfil.",
+      "selectingStart": "Clique em um nó ou tubulação no mapa para definir o início do perfil."
+    },
+    "estimated": "Estimado",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "Nenhum caminho conectado foi encontrado entre os nós selecionados.",
+      "title": "Nenhum caminho encontrado"
+    },
+    "selectAll": "Selecionar tudo",
+    "selectEnd": "Clique para adicionar um ponto de passagem, ou duplo-clique para finalizar o perfil",
+    "selectPath": "Selecionar caminho",
+    "selectPathHint": "Múltiplos caminhos encontrados. Clique em qualquer ativo destacado para selecionar uma rota.",
+    "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
+    "title": "Perfil HGL",
+    "toolbar": "Perfil HGL"
+  },
+  "projectOpenFailed": "Não foi possível abrir o projeto",
+  "projectSaveFailed": "Não foi possível salvar o projeto",
+  "unexpectedErrorContactSupport": "Algo deu errado. Se o erro persistir, entre em contato com o suporte."
 }

@@ -884,31 +884,6 @@
   },
   "privacyPolicy": "Kebijakan privasi",
   "professionalSupport": "Dukungan profesional",
-  "profileView": {
-    "cancelSelection": "Batal",
-    "close": "Tutup profil",
-    "distance": "Jarak",
-    "elevation": "Ketinggian",
-    "empty": {
-      "noData": "Tidak ada data.",
-      "pathBroken": "Beberapa aset dalam profil ini tidak ada lagi. Buat profil baru untuk melanjutkan.",
-      "selectingEnd": "Klik sebuah node atau pipa pada peta untuk mengatur akhir profil.",
-      "selectingStart": "Klik sebuah node atau pipa pada peta untuk mengatur awal profil."
-    },
-    "estimated": "Diperkirakan",
-    "hgl": "HGL",
-    "noPath": {
-      "message": "Tidak ada jalur terhubung yang ditemukan di antara node yang dipilih.",
-      "title": "Tidak ada jalur ditemukan"
-    },
-    "selectAll": "Pilih semua",
-    "selectEnd": "Klik untuk menambahkan titik jalan, atau klik dua kali untuk menyelesaikan profil",
-    "selectPath": "Pilih jalur",
-    "selectPathHint": "Beberapa jalur ditemukan. Klik aset yang disorot untuk memilih rute.",
-    "selectStart": "Klik node atau pipa untuk mengatur awal profil",
-    "title": "Tampilan profil",
-    "toolbar": "Tampilan profil"
-  },
   "projection": "Proyeksi",
   "projectOpened": "Proyek dibuka",
   "projectSavedInfo": "Pekerjaan Anda sekarang disimpan sebagai Proyek",
@@ -1350,5 +1325,33 @@
   "exportTimeSeries.savingFiles": "Menyimpan file",
   "toggleBottomPanel": "Alihkan panel bawah",
   "maxPressure": "Tekanan maks",
-  "minPressure": "Tekanan min"
+  "minPressure": "Tekanan min",
+  "hglProfile": {
+    "cancelSelection": "Batal",
+    "close": "Tutup profil HGL",
+    "distance": "Jarak",
+    "elevation": "Elevasi",
+    "empty": {
+      "noData": "Tidak ada data.",
+      "pathBroken": "Beberapa aset dalam profil ini tidak ada lagi. Buat profil baru untuk melanjutkan.",
+      "selectingEnd": "Klik sebuah node atau pipa pada peta untuk mengatur akhir profil.",
+      "selectingStart": "Klik sebuah node atau pipa pada peta untuk mengatur awal profil."
+    },
+    "estimated": "Diperkirakan",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "Tidak ada jalur terhubung yang ditemukan di antara node yang dipilih.",
+      "title": "Tidak ada jalur ditemukan"
+    },
+    "selectAll": "Pilih semua",
+    "selectEnd": "Klik untuk menambahkan titik jalan, atau klik dua kali untuk menyelesaikan profil",
+    "selectPath": "Pilih jalur",
+    "selectPathHint": "Beberapa jalur ditemukan. Klik aset yang disorot untuk memilih rute.",
+    "selectStart": "Klik node atau pipa untuk mengatur awal profil",
+    "title": "Profil HGL",
+    "toolbar": "Profil HGL"
+  },
+  "projectOpenFailed": "Tidak dapat membuka proyek",
+  "projectSaveFailed": "Tidak dapat menyimpan proyek",
+  "unexpectedErrorContactSupport": "Terjadi kesalahan. Jika kesalahan terus berlanjut, hubungi dukungan."
 }

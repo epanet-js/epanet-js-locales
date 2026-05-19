@@ -1284,31 +1284,6 @@
   "exportAssetData": "アセットデータをエクスポート",
   "exportSimulationResults": "シミュレーション結果を含める",
   "exportSimulationResultsForCurrentStep": "現在のステップの結果を含める",
-  "profileView": {
-    "cancelSelection": "キャンセル",
-    "close": "プロファイルを閉じる",
-    "distance": "距離",
-    "elevation": "標高",
-    "empty": {
-      "noData": "データなし。",
-      "selectingEnd": "マップ上のノードまたは管をクリックして、プロファイルの終点を設定します。",
-      "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。",
-      "pathBroken": "このプロファイル内の一部のアセットはもう存在しません。新しいプロファイルを作成して続行してください。"
-    },
-    "estimated": "推定",
-    "hgl": "HGL",
-    "noPath": {
-      "message": "選択されたノード間に接続されたパスは見つかりませんでした。",
-      "title": "パスが見つかりません"
-    },
-    "selectEnd": "クリックして経由地を追加するか、ダブルクリックしてプロファイルを終了します",
-    "selectPath": "パスを選択",
-    "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
-    "toolbar": "プロファイル表示",
-    "selectAll": "すべて選択",
-    "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
-    "title": "プロファイル表示"
-  },
   "exportSelectedAssetsOnly": "選択したアセットのみ",
   "sortAscending": "昇順で並べ替え",
   "sortDescending": "降順で並べ替え",
@@ -1350,5 +1325,33 @@
   "exportTimeSeries.savingFiles": "ファイルを保存中",
   "toggleBottomPanel": "下部パネルの切り替え",
   "maxPressure": "最大圧力",
-  "minPressure": "最小圧力"
+  "minPressure": "最小圧力",
+  "hglProfile": {
+    "cancelSelection": "キャンセル",
+    "close": "HGLプロファイルを閉じる",
+    "distance": "距離",
+    "elevation": "標高",
+    "empty": {
+      "noData": "データなし。",
+      "pathBroken": "このプロファイル内の一部のアセットはもう存在しません。新しいプロファイルを作成して続行してください。",
+      "selectingEnd": "マップ上のノードまたは管をクリックして、プロファイルの終点を設定します。",
+      "selectingStart": "マップ上のノードまたは管をクリックして、プロファイルの始点を設定します。"
+    },
+    "estimated": "推定",
+    "hgl": "HGL",
+    "noPath": {
+      "message": "選択されたノード間に接続されたパスは見つかりませんでした。",
+      "title": "パスが見つかりません"
+    },
+    "selectAll": "すべて選択",
+    "selectEnd": "クリックして経由地を追加するか、ダブルクリックしてプロファイルを終了します",
+    "selectPath": "パスを選択",
+    "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
+    "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
+    "title": "HGLプロファイル",
+    "toolbar": "HGLプロファイル"
+  },
+  "projectOpenFailed": "プロジェクトを開けませんでした",
+  "projectSaveFailed": "プロジェクトを保存できませんでした",
+  "unexpectedErrorContactSupport": "問題が発生しました。エラーが続く場合は、サポートにお問い合わせください。"
 }
