@@ -1360,5 +1360,15 @@
   },
   "projectOpenFailed": "No se pudo abrir el proyecto",
   "projectSaveFailed": "No se pudo guardar el proyecto",
-  "unexpectedErrorContactSupport": "Algo ha ido mal. Si el error persiste, contacta con soporte."
+  "unexpectedErrorContactSupport": "Algo ha ido mal. Si el error persiste, contacta con soporte.",
+  "customGraph": {
+    "exportAs": "Exportar como...",
+    "imagePng": "Imagen (.png)",
+    "linkProperty": "Propiedad de enlace",
+    "menuTitle": "Abrir en gráfico",
+    "nodeProperty": "Propiedad de nudo",
+    "tabularCsv": "Valores separados por comas (.csv)",
+    "tabularXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
+    "title": "Gráfico personalizado"
+  }
 }

@@ -1313,6 +1313,16 @@
   "exportGeojson": "GeoJSON (.geojson)",
   "exportShapefile": "Shapefile (.zip)",
   "exportSelectedAssetsOnly": "Selected assets only",
+  "customGraph": {
+    "menuTitle": "Open in graph",
+    "title": "Custom graph",
+    "exportAs": "Export as...",
+    "imagePng": "Image (.png)",
+    "tabularCsv": "Comma-Separated Values (.csv)",
+    "tabularXlsx": "Microsoft Excel spreadsheet (.xlsx)",
+    "nodeProperty": "Node property",
+    "linkProperty": "Link property"
+  },
   "dialog": {
     "save": "Save",
     "cancel": "Cancel",

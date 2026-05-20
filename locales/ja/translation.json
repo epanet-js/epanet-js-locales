@@ -1353,5 +1353,15 @@
   },
   "projectOpenFailed": "プロジェクトを開けませんでした",
   "projectSaveFailed": "プロジェクトを保存できませんでした",
-  "unexpectedErrorContactSupport": "問題が発生しました。エラーが続く場合は、サポートにお問い合わせください。"
+  "unexpectedErrorContactSupport": "問題が発生しました。エラーが続く場合は、サポートにお問い合わせください。",
+  "customGraph": {
+    "exportAs": "エクスポート形式...",
+    "imagePng": "画像 (.png)",
+    "linkProperty": "リンクプロパティ",
+    "menuTitle": "グラフで開く",
+    "nodeProperty": "ノードプロパティ",
+    "tabularCsv": "カンマ区切り値 (.csv)",
+    "tabularXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
+    "title": "カスタムグラフ"
+  }
 }

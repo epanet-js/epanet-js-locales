@@ -1353,5 +1353,15 @@
   },
   "projectOpenFailed": "Tidak dapat membuka proyek",
   "projectSaveFailed": "Tidak dapat menyimpan proyek",
-  "unexpectedErrorContactSupport": "Terjadi kesalahan. Jika kesalahan terus berlanjut, hubungi dukungan."
+  "unexpectedErrorContactSupport": "Terjadi kesalahan. Jika kesalahan terus berlanjut, hubungi dukungan.",
+  "customGraph": {
+    "exportAs": "Ekspor sebagai...",
+    "imagePng": "Gambar (.png)",
+    "linkProperty": "Properti tautan",
+    "menuTitle": "Buka di grafik",
+    "nodeProperty": "Properti node",
+    "tabularCsv": "Nilai Dipisahkan Koma (.csv)",
+    "tabularXlsx": "Lembar bentang Microsoft Excel (.xlsx)",
+    "title": "Grafik kustom"
+  }
 }

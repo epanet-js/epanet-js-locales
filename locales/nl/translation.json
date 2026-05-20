@@ -1353,5 +1353,15 @@
   },
   "projectOpenFailed": "Kon project niet openen",
   "projectSaveFailed": "Kon project niet opslaan",
-  "unexpectedErrorContactSupport": "Er is iets misgegaan. Als de fout aanhoudt, neem dan contact op met de support."
+  "unexpectedErrorContactSupport": "Er is iets misgegaan. Als de fout aanhoudt, neem dan contact op met de support.",
+  "customGraph": {
+    "exportAs": "Exporteren als...",
+    "imagePng": "Afbeelding (.png)",
+    "linkProperty": "Verbindingskenmerk",
+    "menuTitle": "Openen in grafiek",
+    "nodeProperty": "Knooppuntkenmerk",
+    "tabularCsv": "Komma-gescheiden waarden (.csv)",
+    "tabularXlsx": "Microsoft Excel-werkblad (.xlsx)",
+    "title": "Aangepaste grafiek"
+  }
 }
