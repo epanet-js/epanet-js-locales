@@ -1314,14 +1314,17 @@
   "exportShapefile": "Shapefile (.zip)",
   "exportSelectedAssetsOnly": "Selected assets only",
   "customGraph": {
-    "menuTitle": "Open in graph",
+    "noDataAvailable": "No data available. Run a simulation to create a graph.",
+    "menuTitle": "View graph",
     "title": "Custom graph",
     "exportAs": "Export as...",
     "imagePng": "Image (.png)",
     "tabularCsv": "Comma-Separated Values (.csv)",
     "tabularXlsx": "Microsoft Excel spreadsheet (.xlsx)",
-    "nodeProperty": "Node property",
-    "linkProperty": "Link property"
+    "nodeProperty": "Node attribute",
+    "linkProperty": "Links attribute",
+    "loading": "Loading data - {{1}}%",
+    "combineAxes": "Combine axes"
   },
   "dialog": {
     "save": "Save",

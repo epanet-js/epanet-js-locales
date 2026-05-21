@@ -1357,11 +1357,14 @@
   "customGraph": {
     "exportAs": "Exporter sous...",
     "imagePng": "Image (.png)",
-    "linkProperty": "Propriété de la liaison",
-    "menuTitle": "Ouvrir dans le graphique",
-    "nodeProperty": "Propriété du nœud",
+    "linkProperty": "Attribut des liaisons",
+    "menuTitle": "Afficher le graphique",
+    "nodeProperty": "Attribut du nœud",
     "tabularCsv": "Valeurs séparées par des virgules (.csv)",
     "tabularXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
-    "title": "Graphique personnalisé"
+    "title": "Graphique personnalisé",
+    "combineAxes": "Combiner les axes",
+    "loading": "Chargement des données - {{1}}%",
+    "noDataAvailable": "Aucune donnée disponible. Exécutez une simulation pour créer un graphique."
   }
 }

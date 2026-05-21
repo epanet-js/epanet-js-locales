@@ -1357,11 +1357,14 @@
   "customGraph": {
     "exportAs": "Exportar como...",
     "imagePng": "Imagem (.png)",
-    "linkProperty": "Propriedade de link",
-    "menuTitle": "Abrir no gráfico",
-    "nodeProperty": "Propriedade de nó",
+    "linkProperty": "Atributo de links",
+    "menuTitle": "Ver gráfico",
+    "nodeProperty": "Atributo de nó",
     "tabularCsv": "Valores Separados por Vírgula (.csv)",
     "tabularXlsx": "Planilha do Microsoft Excel (.xlsx)",
-    "title": "Gráfico personalizado"
+    "title": "Gráfico personalizado",
+    "combineAxes": "Combinar eixos",
+    "loading": "Carregando dados - {{1}}%",
+    "noDataAvailable": "Nenhum dado disponível. Execute uma simulação para criar um gráfico."
   }
 }

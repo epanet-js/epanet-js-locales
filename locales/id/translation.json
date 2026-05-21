@@ -1357,11 +1357,14 @@
   "customGraph": {
     "exportAs": "Ekspor sebagai...",
     "imagePng": "Gambar (.png)",
-    "linkProperty": "Properti tautan",
-    "menuTitle": "Buka di grafik",
-    "nodeProperty": "Properti node",
+    "linkProperty": "Atribut tautan",
+    "menuTitle": "Lihat grafik",
+    "nodeProperty": "Atribut node",
     "tabularCsv": "Nilai Dipisahkan Koma (.csv)",
     "tabularXlsx": "Lembar bentang Microsoft Excel (.xlsx)",
-    "title": "Grafik kustom"
+    "title": "Grafik kustom",
+    "combineAxes": "Gabungkan sumbu",
+    "loading": "Memuat data - {{1}}%",
+    "noDataAvailable": "Tidak ada data tersedia. Jalankan simulasi untuk membuat grafik."
   }
 }

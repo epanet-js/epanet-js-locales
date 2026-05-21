@@ -1365,10 +1365,13 @@
     "exportAs": "Exportar como...",
     "imagePng": "Imagen (.png)",
     "linkProperty": "Propiedad de enlace",
-    "menuTitle": "Abrir en gráfico",
+    "menuTitle": "Ver gráfico",
     "nodeProperty": "Propiedad de nudo",
     "tabularCsv": "Valores separados por comas (.csv)",
     "tabularXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
-    "title": "Gráfico personalizado"
+    "title": "Gráfico personalizado",
+    "combineAxes": "Combinar ejes",
+    "loading": "Cargando datos - {{1}}%",
+    "noDataAvailable": "No hay datos disponibles. Ejecuta una simulación para crear un gráfico."
   }
 }

@@ -1358,10 +1358,13 @@
     "exportAs": "Exporteren als...",
     "imagePng": "Afbeelding (.png)",
     "linkProperty": "Verbindingskenmerk",
-    "menuTitle": "Openen in grafiek",
+    "menuTitle": "Grafiek bekijken",
     "nodeProperty": "Knooppuntkenmerk",
     "tabularCsv": "Komma-gescheiden waarden (.csv)",
     "tabularXlsx": "Microsoft Excel-werkblad (.xlsx)",
-    "title": "Aangepaste grafiek"
+    "title": "Aangepaste grafiek",
+    "combineAxes": "Assen combineren",
+    "loading": "Gegevens laden - {{1}}%",
+    "noDataAvailable": "Geen gegevens beschikbaar. Voer een simulatie uit om een grafiek te maken."
   }
 }

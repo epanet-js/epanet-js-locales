@@ -1357,11 +1357,14 @@
   "customGraph": {
     "exportAs": "エクスポート形式...",
     "imagePng": "画像 (.png)",
-    "linkProperty": "リンクプロパティ",
-    "menuTitle": "グラフで開く",
-    "nodeProperty": "ノードプロパティ",
+    "linkProperty": "リンク属性",
+    "menuTitle": "グラフを表示",
+    "nodeProperty": "ノード属性",
     "tabularCsv": "カンマ区切り値 (.csv)",
     "tabularXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
-    "title": "カスタムグラフ"
+    "title": "カスタムグラフ",
+    "combineAxes": "軸を結合",
+    "loading": "データ読み込み中 - {{1}}%",
+    "noDataAvailable": "データがありません。グラフを作成するにはシミュレーションを実行してください。"
   }
 }
