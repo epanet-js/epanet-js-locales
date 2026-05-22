@@ -1376,5 +1376,12 @@
   },
   "openFile": "Open",
   "recentFileNotFound": "Het bestand kon niet meer worden gevonden. Het kan zijn verplaatst, hernoemd of verwijderd.",
-  "savePermissionDenied": "Toestemming om het bestand te schrijven werd geweigerd. Het project is niet opgeslagen."
+  "savePermissionDenied": "Toestemming om het bestand te schrijven werd geweigerd. Het project is niet opgeslagen.",
+  "priorityAccess": {
+    "description1": "{{1}} is momenteel beschikbaar voor onze Founding Partners en degenen met betaalde abonnementen. Om epanet-js open en duurzaam te houden, worden nieuwe functies de eerste 30 dagen vrijgegeven aan de ondersteuners van ons project.",
+    "description2": "Overweeg vandaag nog ons werk te steunen om direct toegang te krijgen tot {{1}}, naast geavanceerde tools zoals scenariomanagement en aangepaste lagen.",
+    "maybeLater": "Misschien later",
+    "title": "Prioriteitstoegang",
+    "upgrade": "Upgraden"
+  }
 }

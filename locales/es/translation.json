@@ -1383,5 +1383,12 @@
   },
   "openFile": "Abrir",
   "recentFileNotFound": "El archivo ya no se encuentra. Pudo haber sido movido, renombrado o eliminado.",
-  "savePermissionDenied": "Se denegó el permiso para escribir el archivo. El proyecto no se guardó."
+  "savePermissionDenied": "Se denegó el permiso para escribir el archivo. El proyecto no se guardó.",
+  "priorityAccess": {
+    "description1": "{{1}} está actualmente disponible para nuestros Socios Fundadores y aquellos con planes de pago. Para ayudar a mantener epanet-js abierto y sostenible, las nuevas funciones se lanzan a nuestros patrocinadores del proyecto durante los primeros 30 días.",
+    "description2": "Por favor, considera apoyar nuestro trabajo hoy para obtener acceso instantáneo a {{1}}, junto con herramientas avanzadas como la gestión de escenarios y las capas personalizadas.",
+    "maybeLater": "Quizás más tarde",
+    "title": "Acceso prioritario",
+    "upgrade": "Actualizar"
+  }
 }

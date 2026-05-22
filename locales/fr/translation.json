@@ -1376,5 +1376,12 @@
   },
   "openFile": "Ouvrir",
   "recentFileNotFound": "Le fichier n'a pas pu être retrouvé. Il a peut-être été déplacé, renommé ou supprimé.",
-  "savePermissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le projet n'a pas été enregistré."
+  "savePermissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le projet n'a pas été enregistré.",
+  "priorityAccess": {
+    "description1": "{{1}} est actuellement disponible pour nos Partenaires Fondateurs et ceux qui ont souscrit à des plans payants. Pour aider à maintenir epanet-js ouvert et durable, les nouvelles fonctionnalités sont publiées pour nos contributeurs au projet pendant les 30 premiers jours.",
+    "description2": "Veuillez envisager de soutenir notre travail aujourd'hui pour obtenir un accès instantané à {{1}}, ainsi qu'à des outils avancés comme la gestion des scénarios et les couches personnalisées.",
+    "maybeLater": "Peut-être plus tard",
+    "title": "Accès prioritaire",
+    "upgrade": "Mettre à niveau"
+  }
 }
