@@ -1378,7 +1378,8 @@
     "legendHidden": "Demasiados activos seleccionados para mostrar la leyenda.",
     "savingFiles": "Guardando archivos",
     "statusClosed": "Cerrada",
-    "statusOpen": "Abierta"
+    "statusOpen": "Abierta",
+    "exportSucceeded": "Exportación exitosa"
   },
   "openFile": "Abrir",
   "recentFileNotFound": "El archivo ya no se encuentra. Pudo haber sido movido, renombrado o eliminado.",

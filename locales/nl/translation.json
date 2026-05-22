@@ -1371,7 +1371,8 @@
     "legendHidden": "Te veel onderdelen geselecteerd om de legenda weer te geven.",
     "savingFiles": "Bestanden opslaan",
     "statusClosed": "Gesloten",
-    "statusOpen": "Open"
+    "statusOpen": "Open",
+    "exportSucceeded": "Export is gelukt"
   },
   "openFile": "Open",
   "recentFileNotFound": "Het bestand kon niet meer worden gevonden. Het kan zijn verplaatst, hernoemd of verwijderd.",

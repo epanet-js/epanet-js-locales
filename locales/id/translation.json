@@ -1371,7 +1371,8 @@
     "legendHidden": "Terlalu banyak aset yang dipilih untuk menampilkan legenda.",
     "savingFiles": "Menyimpan file",
     "statusClosed": "Tertutup",
-    "statusOpen": "Buka"
+    "statusOpen": "Buka",
+    "exportSucceeded": "Ekspor berhasil"
   },
   "openFile": "Buka",
   "recentFileNotFound": "File tidak dapat ditemukan lagi. Mungkin telah dipindahkan, diganti nama, atau dihapus.",

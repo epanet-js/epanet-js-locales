@@ -1371,7 +1371,8 @@
     "legendHidden": "Muitos ativos selecionados para exibir a legenda.",
     "savingFiles": "Salvando arquivos",
     "statusClosed": "Fechado",
-    "statusOpen": "Aberto"
+    "statusOpen": "Aberto",
+    "exportSucceeded": "Exportado com sucesso"
   },
   "openFile": "Aberto",
   "recentFileNotFound": "O arquivo não pôde mais ser encontrado. Ele pode ter sido movido, renomeado ou excluído.",
