@@ -1047,7 +1047,7 @@
   "utilization": "Utilisation",
   "actualHead": "Charge",
   "netFlow": "Débit net",
-  "couldNotOpenRecentFile": "Impossible d'ouvrir le fichier récent. Essayez l'option Ouvrir INP.",
+  "couldNotOpenRecentFile": "Impossible d'ouvrir le fichier récent. Essayez l'option Ouvrir le modèle.",
   "afdCompact": "Acre-pieds par jour (AFD)",
   "cfsCompact": "Pieds cubes par seconde (CFS)",
   "cmdCompact": "Mètres cubes par jour (CMD)",
@@ -1067,7 +1067,7 @@
   "demoShort": "Démo",
   "recentNetworks": "Projets récents",
   "defaultColor": "Couleur par défaut",
-  "recentFilePermissionDenied": "L'accès à ce fichier a été refusé. Essayez d'utiliser l'option Ouvrir INP à la place.",
+  "recentFilePermissionDenied": "L'autorisation d'accéder à ce fichier a été refusée. Réessayez d'ouvrir.",
   "files_one": "1 fichier",
   "files_other": "{{count}} fichiers",
   "files_zero": "Aucun fichier",
@@ -1363,8 +1363,17 @@
     "tabularCsv": "Valeurs séparées par des virgules (.csv)",
     "tabularXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
     "title": "Graphique personnalisé",
-    "combineAxes": "Combiner les axes",
     "loading": "Chargement des données - {{1}}%",
-    "noDataAvailable": "Aucune donnée disponible. Exécutez une simulation pour créer un graphique."
-  }
+    "noDataAvailable": "Aucune donnée disponible. Exécutez une simulation pour créer un graphique.",
+    "assetsTruncated": "Seuls {{1}} des {{2}} éléments sélectionnés sont affichés.",
+    "exporting": "Exportation en cours - {{1}}%",
+    "flowAbsolute": "Débit (absolu)",
+    "legendHidden": "Trop d'éléments sélectionnés pour afficher la légende.",
+    "savingFiles": "Enregistrement des fichiers",
+    "statusClosed": "Fermé",
+    "statusOpen": "Ouvert"
+  },
+  "openFile": "Ouvert",
+  "recentFileNotFound": "Le fichier n'a pas pu être retrouvé. Il a peut-être été déplacé, renommé ou supprimé.",
+  "savePermissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le projet n'a pas été enregistré."
 }

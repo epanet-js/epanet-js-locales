@@ -1054,7 +1054,7 @@
   "utilization": "Utilización",
   "actualHead": "Carga",
   "netFlow": "Flujo neto",
-  "couldNotOpenRecentFile": "No se pudo abrir el archivo reciente. Intenta la opción Abrir INP.",
+  "couldNotOpenRecentFile": "No se pudo abrir el archivo reciente. Intenta la opción Abrir modelo.",
   "afdCompact": "Acre-pies por día (AFD)",
   "cfsCompact": "Pies cúbicos por segundo (CFS)",
   "cmdCompact": "Metros cúbicos por día (CMD)",
@@ -1074,7 +1074,7 @@
   "demoShort": "Demo",
   "recentNetworks": "Proyectos recientes",
   "defaultColor": "Color predeterminado",
-  "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta usar la opción Abrir INP en su lugar.",
+  "recentFilePermissionDenied": "Se denegó el permiso para acceder a este archivo. Intenta abrir de nuevo.",
   "files_one": "1 archivo",
   "files_other": "{{count}} archivos",
   "files_zero": "No hay archivos",
@@ -1370,8 +1370,17 @@
     "tabularCsv": "Valores separados por comas (.csv)",
     "tabularXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
     "title": "Gráfico personalizado",
-    "combineAxes": "Combinar ejes",
     "loading": "Cargando datos - {{1}}%",
-    "noDataAvailable": "No hay datos disponibles. Ejecuta una simulación para crear un gráfico."
-  }
+    "noDataAvailable": "No hay datos disponibles. Ejecuta una simulación para crear un gráfico.",
+    "assetsTruncated": "Solo se muestran {{1}} de {{2}} activos seleccionados.",
+    "exporting": "Exportando - {{1}}%",
+    "flowAbsolute": "Flujo (absoluto)",
+    "legendHidden": "Demasiados activos seleccionados para mostrar la leyenda.",
+    "savingFiles": "Guardando archivos",
+    "statusClosed": "Cerrada",
+    "statusOpen": "Abierta"
+  },
+  "openFile": "Abierta",
+  "recentFileNotFound": "El archivo ya no se encuentra. Pudo haber sido movido, renombrado o eliminado.",
+  "savePermissionDenied": "Se denegó el permiso para escribir el archivo. El proyecto no se guardó."
 }

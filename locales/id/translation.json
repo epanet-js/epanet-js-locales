@@ -112,7 +112,7 @@
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
-  "couldNotOpenRecentFile": "Tidak dapat membuka file terbaru. Coba opsi Buka INP.",
+  "couldNotOpenRecentFile": "Tidak dapat membuka file terbaru. Coba opsi Buka model.",
   "count": "Jumlah",
   "create": "Buat",
   "createNew": "Buat baru...",
@@ -913,7 +913,7 @@
   "rampShouldBeAscending": "Nilai masukan ramp harus dalam urutan menaik.",
   "range": "Rentang",
   "recent": "Terbaru",
-  "recentFilePermissionDenied": "Izin untuk mengakses file ini ditolak. Coba gunakan opsi Buka INP.",
+  "recentFilePermissionDenied": "Izin untuk mengakses file ini ditolak. Coba buka lagi.",
   "recentNetworks": "Proyek terbaru",
   "redo": "Ulangi",
   "redraw": "Gambar ulang",
@@ -1363,8 +1363,17 @@
     "tabularCsv": "Nilai Dipisahkan Koma (.csv)",
     "tabularXlsx": "Lembar bentang Microsoft Excel (.xlsx)",
     "title": "Grafik kustom",
-    "combineAxes": "Gabungkan sumbu",
     "loading": "Memuat data - {{1}}%",
-    "noDataAvailable": "Tidak ada data tersedia. Jalankan simulasi untuk membuat grafik."
-  }
+    "noDataAvailable": "Tidak ada data tersedia. Jalankan simulasi untuk membuat grafik.",
+    "assetsTruncated": "Hanya {{1}} dari {{2}} aset yang dipilih yang ditampilkan.",
+    "exporting": "Mengekspor - {{1}}%",
+    "flowAbsolute": "Aliran (absolut)",
+    "legendHidden": "Terlalu banyak aset yang dipilih untuk menampilkan legenda.",
+    "savingFiles": "Menyimpan file",
+    "statusClosed": "Tertutup",
+    "statusOpen": "Buka"
+  },
+  "openFile": "Buka",
+  "recentFileNotFound": "File tidak dapat ditemukan lagi. Mungkin telah dipindahkan, diganti nama, atau dihapus.",
+  "savePermissionDenied": "Izin untuk menulis file ditolak. Proyek tidak disimpan."
 }

@@ -1047,7 +1047,7 @@
   "utilization": "Benutting",
   "actualHead": "Opvoerhoogte",
   "netFlow": "Nettostroom",
-  "couldNotOpenRecentFile": "Kon het recente bestand niet openen. Probeer de optie INP openen.",
+  "couldNotOpenRecentFile": "Kon het recente bestand niet openen. Probeer de optie Model openen.",
   "afdCompact": "Acre-feet per dag (AFD)",
   "cfsCompact": "Kubieke feet per seconde (CFS)",
   "cmdCompact": "Kubieke meter per dag (CMD)",
@@ -1067,7 +1067,7 @@
   "demoShort": "Demo",
   "recentNetworks": "Recent projecten",
   "defaultColor": "Standaardkleur",
-  "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer in plaats daarvan de optie INP openen.",
+  "recentFilePermissionDenied": "Toegang tot dit bestand geweigerd. Probeer opnieuw te openen.",
   "files_one": "1 bestand",
   "files_other": "{{count}} bestanden",
   "files_zero": "Geen bestanden",
@@ -1363,8 +1363,17 @@
     "tabularCsv": "Komma-gescheiden waarden (.csv)",
     "tabularXlsx": "Microsoft Excel-werkblad (.xlsx)",
     "title": "Aangepaste grafiek",
-    "combineAxes": "Assen combineren",
     "loading": "Gegevens laden - {{1}}%",
-    "noDataAvailable": "Geen gegevens beschikbaar. Voer een simulatie uit om een grafiek te maken."
-  }
+    "noDataAvailable": "Geen gegevens beschikbaar. Voer een simulatie uit om een grafiek te maken.",
+    "assetsTruncated": "Slechts {{1}} van de {{2}} geselecteerde onderdelen worden weergegeven.",
+    "exporting": "Exporteren - {{1}}%",
+    "flowAbsolute": "Stroming (absoluut)",
+    "legendHidden": "Te veel onderdelen geselecteerd om de legenda weer te geven.",
+    "savingFiles": "Bestanden opslaan",
+    "statusClosed": "Gesloten",
+    "statusOpen": "Open"
+  },
+  "openFile": "Open",
+  "recentFileNotFound": "Het bestand kon niet meer worden gevonden. Het kan zijn verplaatst, hernoemd of verwijderd.",
+  "savePermissionDenied": "Toestemming om het bestand te schrijven werd geweigerd. Het project is niet opgeslagen."
 }

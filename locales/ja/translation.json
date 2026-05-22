@@ -1047,7 +1047,7 @@
   "utilization": "利用率",
   "actualHead": "水頭",
   "netFlow": "正味流量",
-  "couldNotOpenRecentFile": "最近のファイルを開けませんでした。「INPを開く」オプションを試してください。",
+  "couldNotOpenRecentFile": "最近のファイルを開けませんでした。「モデルを開く」オプションを試してください。",
   "afdCompact": "エーカー・フィート/日 (AFD)",
   "cfsCompact": "立方フィート/秒 (CFS)",
   "cmdCompact": "立方メートル/日 (CMD)",
@@ -1067,7 +1067,7 @@
   "demoShort": "デモ",
   "recentNetworks": "最近のプロジェクト",
   "defaultColor": "デフォルトの色",
-  "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。「INPを開く」を使用してみてください。",
+  "recentFilePermissionDenied": "このファイルへのアクセスは拒否されました。もう一度開いてみてください。",
   "files_one": "ファイル 1 件",
   "files_other": "ファイル {{count}} 件",
   "files_zero": "ファイルなし",
@@ -1363,8 +1363,17 @@
     "tabularCsv": "カンマ区切り値 (.csv)",
     "tabularXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
     "title": "カスタムグラフ",
-    "combineAxes": "軸を結合",
     "loading": "データ読み込み中 - {{1}}%",
-    "noDataAvailable": "データがありません。グラフを作成するにはシミュレーションを実行してください。"
-  }
+    "noDataAvailable": "データがありません。グラフを作成するにはシミュレーションを実行してください。",
+    "assetsTruncated": "選択されたアセット{{2}}件のうち、{{1}}件のみが表示されています。",
+    "exporting": "エクスポート中 - {{1}}%",
+    "flowAbsolute": "流量（絶対値）",
+    "legendHidden": "凡例を表示するには、選択されたアセットが多すぎます。",
+    "savingFiles": "ファイルを保存中",
+    "statusClosed": "閉",
+    "statusOpen": "開"
+  },
+  "openFile": "開",
+  "recentFileNotFound": "ファイルが見つかりません。移動、名前の変更、または削除された可能性があります。",
+  "savePermissionDenied": "ファイルの書き込み権限が拒否されました。プロジェクトは保存されませんでした。"
 }
