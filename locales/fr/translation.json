@@ -1373,7 +1373,7 @@
     "statusClosed": "Fermé",
     "statusOpen": "Ouvert"
   },
-  "openFile": "Ouvert",
+  "openFile": "Ouvrir",
   "recentFileNotFound": "Le fichier n'a pas pu être retrouvé. Il a peut-être été déplacé, renommé ou supprimé.",
   "savePermissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le projet n'a pas été enregistré."
 }

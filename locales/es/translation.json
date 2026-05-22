@@ -1380,7 +1380,7 @@
     "statusClosed": "Cerrada",
     "statusOpen": "Abierta"
   },
-  "openFile": "Abierta",
+  "openFile": "Abrir",
   "recentFileNotFound": "El archivo ya no se encuentra. Pudo haber sido movido, renombrado o eliminado.",
   "savePermissionDenied": "Se denegó el permiso para escribir el archivo. El proyecto no se guardó."
 }
