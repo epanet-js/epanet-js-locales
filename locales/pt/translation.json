@@ -1383,5 +1383,12 @@
     "maybeLater": "Talvez mais tarde",
     "title": "Acesso prioritário",
     "upgrade": "Atualizar"
-  }
+  },
+  "addNewValue": "Adicionar \"{{1}}\"",
+  "clear": "Limpar",
+  "invalidValveKinds": "Válvulas com tipo não suportado ({{1}} válvulas usando TCV)",
+  "material": "Material",
+  "notSet": "Não definido",
+  "searchOrTypeNew": "Buscar ou digitar um novo valor…",
+  "yearOfInstallation": "Ano de instalação"
 }

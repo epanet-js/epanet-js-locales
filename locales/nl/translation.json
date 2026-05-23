@@ -1383,5 +1383,12 @@
     "maybeLater": "Misschien later",
     "title": "Prioriteitstoegang",
     "upgrade": "Upgraden"
-  }
+  },
+  "addNewValue": "Toevoegen \"{{1}}\"",
+  "clear": "Wissen",
+  "invalidValveKinds": "Ventielen met niet-ondersteund type ({{1}} ventielen gebruiken TCV)",
+  "material": "Materiaal",
+  "notSet": "Niet ingesteld",
+  "searchOrTypeNew": "Zoeken of een nieuwe waarde typen…",
+  "yearOfInstallation": "Installatiejaar"
 }

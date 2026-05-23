@@ -1383,5 +1383,12 @@
     "maybeLater": "後で",
     "title": "優先アクセス",
     "upgrade": "アップグレード"
-  }
+  },
+  "addNewValue": "「{{1}}」を追加",
+  "clear": "クリア",
+  "invalidValveKinds": "未サポートのタイプの弁（TCVを使用する{{1}}個の弁）",
+  "material": "材質",
+  "notSet": "未設定",
+  "searchOrTypeNew": "新しい値を検索または入力…",
+  "yearOfInstallation": "設置年"
 }

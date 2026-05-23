@@ -1383,5 +1383,12 @@
     "maybeLater": "Mungkin nanti",
     "title": "Akses prioritas",
     "upgrade": "Tingkatkan"
-  }
+  },
+  "addNewValue": "Tambah \"{{1}}\"",
+  "clear": "Hapus",
+  "invalidValveKinds": "Katup dengan tipe tidak didukung ({{1}} katup menggunakan TCV)",
+  "material": "Material",
+  "notSet": "Belum diatur",
+  "searchOrTypeNew": "Cari atau ketik nilai baru…",
+  "yearOfInstallation": "Tahun pemasangan"
 }

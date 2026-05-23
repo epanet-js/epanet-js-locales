@@ -1383,5 +1383,12 @@
     "maybeLater": "Peut-être plus tard",
     "title": "Accès prioritaire",
     "upgrade": "Mettre à niveau"
-  }
+  },
+  "addNewValue": "Ajouter \"{{1}}\"",
+  "clear": "Effacer",
+  "invalidValveKinds": "Vannes de type non supporté ({{1}} vannes utilisant TCV)",
+  "material": "Matériau",
+  "notSet": "Non défini",
+  "searchOrTypeNew": "Rechercher ou saisir une nouvelle valeur…",
+  "yearOfInstallation": "Année d'installation"
 }
