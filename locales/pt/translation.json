@@ -1378,8 +1378,8 @@
   "recentFileNotFound": "O arquivo não pôde mais ser encontrado. Ele pode ter sido movido, renomeado ou excluído.",
   "savePermissionDenied": "A permissão para gravar o arquivo foi negada. O projeto não foi salvo.",
   "priorityAccess": {
-    "description1": "{{1}} está atualmente disponível para nossos Parceiros Fundadores e para aqueles com planos pagos. Para ajudar a manter o epanet-js aberto e sustentável, novos recursos são lançados para nossos apoiadores do projeto nos primeiros 30 dias.",
-    "description2": "Por favor, considere apoiar nosso trabalho hoje para obter acesso instantâneo a {{1}}, juntamente com ferramentas avançadas como gerenciamento de cenários e camadas personalizadas.",
+    "description1": "<bold>{{1}}</bold> agora está disponível em nossos planos pagos e para nossos Parceiros Fundadores.",
+    "description2": "Para manter o epanet-js sustentável, lançamos novos recursos para <italic>usuários com planos pagos</italic> nos primeiros 30 dias. <bold>Atualize seu plano hoje</bold> para acesso instantâneo ao {{1}}, gerenciamento de cenários e camadas personalizadas.",
     "maybeLater": "Talvez mais tarde",
     "title": "Acesso prioritário",
     "upgrade": "Atualizar"
