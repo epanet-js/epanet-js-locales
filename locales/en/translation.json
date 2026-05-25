@@ -57,8 +57,6 @@
   "yearOfInstallation": "Year of installation",
   "searchOrTypeNew": "Search or type a new value…",
   "addNewValue": "Add \"{{1}}\"",
-  "notSet": "Not set",
-  "clear": "Clear",
   "demand": "Demand",
   "baseDemand": "Base demand",
   "directDemand": "Direct demand",
@@ -586,8 +584,8 @@
   },
   "priorityAccess": {
     "title": "Priority access",
-    "description1": "<bold>{{1}}</bold> is now available on our paid tiers and for our Founding Partners.",
-    "description2": "To keep epanet-js sustainable, we debut new features to <italic>users with paid plans</italic> for the first 30 days. <bold>Upgrade your plan today</bold> for instant access to the {{1}}, scenario management, and custom layers.",
+    "description1": "Access to <bold>{{1}}</bold> is available on our paid tiers and for our Founding Partners.",
+    "description2": "To keep epanet-js sustainable, we debut new features to users with paid plans for the first 30 days. <bold>Upgrade your plan today</bold> for instant access to {{1}}, scenario management, and custom layers.",
     "upgrade": "Upgrade",
     "maybeLater": "Maybe later"
   },
@@ -1332,8 +1330,10 @@
   "exportSelectedAssetsOnly": "Selected assets only",
   "customGraph": {
     "noDataAvailable": "No data available. Run a simulation to create a graph.",
+    "epsOnly": "Graphs are only available in extended period simulations (EPS).",
     "menuTitle": "View graph",
     "title": "Custom graph",
+    "titlePlural": "custom graphs",
     "exportAs": "Export as...",
     "imagePng": "Image (.png)",
     "tabularCsv": "Comma-Separated Values (.csv)",

@@ -1372,23 +1372,23 @@
     "savingFiles": "Enregistrement des fichiers",
     "statusClosed": "Fermé",
     "statusOpen": "Ouvert",
-    "exportSucceeded": "Exportation réussie"
+    "exportSucceeded": "Exportation réussie",
+    "epsOnly": "Les graphiques sont uniquement disponibles dans les simulations en période étendue (EPS).",
+    "titlePlural": "graphiques personnalisés"
   },
   "openFile": "Ouvrir",
   "recentFileNotFound": "Le fichier n'a pas pu être retrouvé. Il a peut-être été déplacé, renommé ou supprimé.",
   "savePermissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le projet n'a pas été enregistré.",
   "priorityAccess": {
-    "description1": "<bold>{{1}}</bold> est maintenant disponible sur nos plans payants et pour nos Partenaires Fondateurs.",
-    "description2": "Pour maintenir epanet-js durable, nous lançons de nouvelles fonctionnalités aux <italic>utilisateurs avec des plans payants</italic> pendant les 30 premiers jours. <bold>Mettez à niveau votre plan aujourd'hui</bold> pour un accès instantané à {{1}}, la gestion des scénarios et les couches personnalisées.",
+    "description1": "L'accès à <bold>{{1}}</bold> est disponible sur nos plans payants et pour nos Partenaires Fondateurs.",
+    "description2": "Pour maintenir epanet-js durable, nous lançons de nouvelles fonctionnalités aux utilisateurs avec des plans payants pendant les 30 premiers jours. <bold>Mettez à niveau votre plan aujourd'hui</bold> pour un accès instantané à {{1}}, la gestion des scénarios et les couches personnalisées.",
     "maybeLater": "Peut-être plus tard",
     "title": "Accès prioritaire",
     "upgrade": "Mettre à niveau"
   },
   "addNewValue": "Ajouter \"{{1}}\"",
-  "clear": "Effacer",
   "invalidValveKinds": "Vannes de type non supporté ({{1}} vannes utilisant TCV)",
   "material": "Matériau",
-  "notSet": "Non défini",
   "searchOrTypeNew": "Rechercher ou saisir une nouvelle valeur…",
   "yearOfInstallation": "Année d'installation"
 }

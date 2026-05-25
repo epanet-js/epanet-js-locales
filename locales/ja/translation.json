@@ -1372,23 +1372,23 @@
     "savingFiles": "ファイルを保存中",
     "statusClosed": "閉",
     "statusOpen": "開",
-    "exportSucceeded": "エクスポートに成功しました"
+    "exportSucceeded": "エクスポートに成功しました",
+    "epsOnly": "グラフは拡張期間シミュレーション（EPS）でのみ利用可能です。",
+    "titlePlural": "カスタムグラフ"
   },
   "openFile": "開",
   "recentFileNotFound": "ファイルが見つかりません。移動、名前の変更、または削除された可能性があります。",
   "savePermissionDenied": "ファイルの書き込み権限が拒否されました。プロジェクトは保存されませんでした。",
   "priorityAccess": {
-    "description1": "<bold>{{1}}</bold>は、当社の有料プランおよび創設パートナー向けに利用可能になりました。",
-    "description2": "epanet-jsを継続可能にするため、新機能は最初の30日間、<italic>有料プランのユーザー</italic>に先行公開されます。<bold>今すぐプランをアップグレード</bold>して、{{1}}、シナリオ管理、カスタムレイヤーにすぐにアクセスできます。",
+    "description1": "<bold>{{1}}</bold>へのアクセスは、有料プランおよび創設パートナー向けに提供されています。",
+    "description2": "epanet-jsを継続可能にするため、新機能は最初の30日間、有料プランのユーザーに先行公開されます。<bold>今すぐプランをアップグレード</bold>して、{{1}}、シナリオ管理、カスタムレイヤーにすぐにアクセスできます。",
     "maybeLater": "後で",
     "title": "優先アクセス",
     "upgrade": "アップグレード"
   },
   "addNewValue": "「{{1}}」を追加",
-  "clear": "クリア",
   "invalidValveKinds": "未サポートのタイプの弁（TCVを使用する{{1}}個の弁）",
   "material": "材質",
-  "notSet": "未設定",
   "searchOrTypeNew": "新しい値を検索または入力…",
   "yearOfInstallation": "設置年"
 }

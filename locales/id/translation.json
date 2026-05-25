@@ -1372,23 +1372,23 @@
     "savingFiles": "Menyimpan file",
     "statusClosed": "Tertutup",
     "statusOpen": "Buka",
-    "exportSucceeded": "Ekspor berhasil"
+    "exportSucceeded": "Ekspor berhasil",
+    "epsOnly": "Grafik hanya tersedia dalam simulasi periode diperpanjang (EPS).",
+    "titlePlural": "grafik kustom"
   },
   "openFile": "Buka",
   "recentFileNotFound": "File tidak dapat ditemukan lagi. Mungkin telah dipindahkan, diganti nama, atau dihapus.",
   "savePermissionDenied": "Izin untuk menulis file ditolak. Proyek tidak disimpan.",
   "priorityAccess": {
-    "description1": "<bold>{{1}}</bold> sekarang tersedia di paket berbayar kami dan untuk Mitra Pendiri kami.",
-    "description2": "Untuk menjaga keberlanjutan epanet-js, kami meluncurkan fitur baru kepada <italic>pengguna dengan paket berbayar</italic> selama 30 hari pertama. <bold>Tingkatkan paket Anda hari ini</bold> untuk akses instan ke {{1}}, manajemen skenario, dan lapisan kustom.",
+    "description1": "Akses ke <bold>{{1}}</bold> tersedia pada tingkatan berbayar kami dan untuk Mitra Pendiri kami.",
+    "description2": "Untuk menjaga keberlanjutan epanet-js, kami meluncurkan fitur baru kepada pengguna dengan paket berbayar selama 30 hari pertama. <bold>Tingkatkan paket Anda hari ini</bold> untuk akses instan ke {{1}}, manajemen skenario, dan lapisan kustom.",
     "maybeLater": "Mungkin nanti",
     "title": "Akses prioritas",
     "upgrade": "Tingkatkan"
   },
   "addNewValue": "Tambah \"{{1}}\"",
-  "clear": "Hapus",
   "invalidValveKinds": "Katup dengan tipe tidak didukung ({{1}} katup menggunakan TCV)",
   "material": "Material",
-  "notSet": "Belum diatur",
   "searchOrTypeNew": "Cari atau ketik nilai baru…",
   "yearOfInstallation": "Tahun pemasangan"
 }

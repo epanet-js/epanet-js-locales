@@ -1379,23 +1379,23 @@
     "savingFiles": "Guardando archivos",
     "statusClosed": "Cerrada",
     "statusOpen": "Abierta",
-    "exportSucceeded": "Exportación exitosa"
+    "exportSucceeded": "Exportación exitosa",
+    "epsOnly": "Los gráficos solo están disponibles en simulaciones de período extendido (EPS).",
+    "titlePlural": "gráficos personalizados"
   },
   "openFile": "Abrir",
   "recentFileNotFound": "El archivo ya no se encuentra. Pudo haber sido movido, renombrado o eliminado.",
   "savePermissionDenied": "Se denegó el permiso para escribir el archivo. El proyecto no se guardó.",
   "priorityAccess": {
-    "description1": "<bold>{{1}}</bold> ya está disponible en nuestros niveles de pago y para nuestros Socios Fundadores.",
-    "description2": "Para mantener epanet-js sostenible, estrenamos nuevas funciones para <italic>usuarios con planes de pago</italic> durante los primeros 30 días. <bold>Actualiza tu plan hoy</bold> para acceso instantáneo a {{1}}, la gestión de escenarios y las capas personalizadas.",
+    "description1": "El acceso a <bold>{{1}}</bold> está disponible en nuestros planes de pago y para nuestros Socios Fundadores.",
+    "description2": "Para mantener epanet-js sostenible, estrenamos nuevas funciones para usuarios con planes de pago durante los primeros 30 días. <bold>Actualiza tu plan hoy</bold> para acceso instantáneo a {{1}}, gestión de escenarios y capas personalizadas.",
     "maybeLater": "Quizás más tarde",
     "title": "Acceso prioritario",
     "upgrade": "Actualizar"
   },
   "addNewValue": "Añadir \"{{1}}\"",
-  "clear": "Borrar",
   "invalidValveKinds": "Válvulas con tipo no soportado ({{1}} válvulas usando TCV)",
   "material": "Material",
-  "notSet": "No establecido",
   "searchOrTypeNew": "Busca o escribe un nuevo valor…",
   "yearOfInstallation": "Año de instalación"
 }
