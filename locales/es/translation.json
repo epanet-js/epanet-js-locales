@@ -1397,5 +1397,28 @@
   "invalidValveKinds": "Válvulas con tipo no soportado ({{1}} válvulas usando TCV)",
   "material": "Material",
   "searchOrTypeNew": "Busca o escribe un nuevo valor…",
-  "yearOfInstallation": "Año de instalación"
+  "yearOfInstallation": "Año de instalación",
+  "importZones": {
+    "completeStep": {
+      "summary": "Importadas {{count}} zonas desde GeoJSON.",
+      "title": "Completado"
+    },
+    "dataInputStep": {
+      "addFromFile": "Añadir desde archivo",
+      "title": "Mapeo de datos"
+    },
+    "dataMappingStep": {
+      "description": "Elige una propiedad para usar como etiqueta de zona, o genera etiquetas automáticamente.",
+      "none": "Ninguno (auto-generar etiquetas)",
+      "previewHeader": "Etiqueta",
+      "previewMore": "... y {{0}} más",
+      "title": "Entrada de datos"
+    },
+    "errors": {
+      "invalidFile": "El archivo seleccionado no es un archivo GeoJSON válido.",
+      "noPolygons": "El archivo no contiene ninguna geometría de Polígono o MultiPolígono."
+    },
+    "title": "Importar zonas"
+  },
+  "zoneSymbology": "Simbología de zonas"
 }

@@ -1390,5 +1390,28 @@
   "invalidValveKinds": "未サポートのタイプの弁（TCVを使用する{{1}}個の弁）",
   "material": "材質",
   "searchOrTypeNew": "新しい値を検索または入力…",
-  "yearOfInstallation": "設置年"
+  "yearOfInstallation": "設置年",
+  "importZones": {
+    "completeStep": {
+      "summary": "GeoJSONから{{count}}ゾーンをインポートしました。",
+      "title": "完了"
+    },
+    "dataInputStep": {
+      "addFromFile": "ファイルから追加",
+      "title": "データマッピング"
+    },
+    "dataMappingStep": {
+      "description": "ゾーンラベルとして使用するプロパティを選択するか、ラベルを自動生成します。",
+      "none": "なし（ラベルを自動生成）",
+      "previewHeader": "ラベル",
+      "previewMore": "... その他 {{0}} 件",
+      "title": "データ入力"
+    },
+    "errors": {
+      "invalidFile": "選択されたファイルは有効なGeoJSONファイルではありません。",
+      "noPolygons": "ファイルにPolygonまたはMultiPolygonジオメトリが含まれていません。"
+    },
+    "title": "ゾーンをインポート"
+  },
+  "zoneSymbology": "ゾーンシンボル"
 }

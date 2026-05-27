@@ -1390,5 +1390,28 @@
   "invalidValveKinds": "Ventielen met niet-ondersteund type ({{1}} ventielen gebruiken TCV)",
   "material": "Materiaal",
   "searchOrTypeNew": "Zoeken of een nieuwe waarde typen…",
-  "yearOfInstallation": "Installatiejaar"
+  "yearOfInstallation": "Installatiejaar",
+  "importZones": {
+    "completeStep": {
+      "summary": "{{count}} zones geïmporteerd uit GeoJSON.",
+      "title": "Voltooid"
+    },
+    "dataInputStep": {
+      "addFromFile": "Toevoegen vanuit bestand",
+      "title": "Gegevenskoppeling"
+    },
+    "dataMappingStep": {
+      "description": "Kies een eigenschap om te gebruiken als zone-label, of genereer labels automatisch.",
+      "none": "Geen (labels automatisch genereren)",
+      "previewHeader": "Label",
+      "previewMore": "... en nog {{0}} meer",
+      "title": "Gegevensinvoer"
+    },
+    "errors": {
+      "invalidFile": "Het geselecteerde bestand is geen geldig GeoJSON-bestand.",
+      "noPolygons": "Het bestand bevat geen Polygon- of MultiPolygon-geometrieën."
+    },
+    "title": "Zones importeren"
+  },
+  "zoneSymbology": "Zone symbologie"
 }

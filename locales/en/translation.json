@@ -712,6 +712,7 @@
   "labelBy": "Label by",
   "nodeSymbology": "Node symbology",
   "linkSymbology": "Link symbology",
+  "zoneSymbology": "Zone symbology",
   "ckmeans": "Ckmeans",
   "simulationSettings": {
     "title": "Simulation settings",
@@ -1389,6 +1390,28 @@
       "selectingEnd": "Click a node or pipe on the map to set the end of the profile.",
       "noData": "No data.",
       "pathBroken": "Some assets in this profile no longer exist. Create a new profile to continue."
+    }
+  },
+  "importZones": {
+    "title": "Import zones",
+    "dataInputStep": {
+      "title": "Data mapping",
+      "addFromFile": "Add from file"
+    },
+    "dataMappingStep": {
+      "title": "Data input",
+      "description": "Choose a property to use as zone label, or auto-generate labels.",
+      "none": "None (auto-generate labels)",
+      "previewHeader": "Label",
+      "previewMore": "... and {{0}} more"
+    },
+    "completeStep": {
+      "title": "Complete",
+      "summary": "Imported {{count}} zones from GeoJSON."
+    },
+    "errors": {
+      "invalidFile": "The selected file is not a valid GeoJSON file.",
+      "noPolygons": "The file does not contain any Polygon or MultiPolygon geometries."
     }
   }
 }

@@ -1390,5 +1390,28 @@
   "invalidValveKinds": "Katup dengan tipe tidak didukung ({{1}} katup menggunakan TCV)",
   "material": "Material",
   "searchOrTypeNew": "Cari atau ketik nilai baru…",
-  "yearOfInstallation": "Tahun pemasangan"
+  "yearOfInstallation": "Tahun pemasangan",
+  "importZones": {
+    "completeStep": {
+      "summary": "Diimpor {{count}} zona dari GeoJSON.",
+      "title": "Selesai"
+    },
+    "dataInputStep": {
+      "addFromFile": "Tambahkan dari file",
+      "title": "Pemetaan data"
+    },
+    "dataMappingStep": {
+      "description": "Pilih properti untuk digunakan sebagai label zona, atau buat label otomatis.",
+      "none": "Tidak ada (buat label otomatis)",
+      "previewHeader": "Label",
+      "previewMore": "... dan {{0}} lainnya",
+      "title": "Input data"
+    },
+    "errors": {
+      "invalidFile": "File yang dipilih bukan file GeoJSON yang valid.",
+      "noPolygons": "File tersebut tidak mengandung geometri Polygon atau MultiPolygon."
+    },
+    "title": "Impor zona"
+  },
+  "zoneSymbology": "Simbologi zona"
 }
