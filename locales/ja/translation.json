@@ -1413,5 +1413,16 @@
     },
     "title": "ゾーンをインポート"
   },
-  "zoneSymbology": "ゾーンシンボル"
+  "zoneSymbology": "ゾーンシンボル",
+  "nodeSize": {
+    "currentZoomAriaLabel": "現在のマップズーム",
+    "label": "サイズ",
+    "maxSize": "最大",
+    "maxSizeAriaLabel": "最大ノードサイズ",
+    "maxZoomAriaLabel": "最大ズーム",
+    "minSize": "最小",
+    "minSizeAriaLabel": "最小ノードサイズ",
+    "minZoomAriaLabel": "最小表示ズーム",
+    "summary": "{{1}}px → {{2}}px"
+  }
 }

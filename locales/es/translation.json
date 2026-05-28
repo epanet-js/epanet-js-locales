@@ -1420,5 +1420,16 @@
     },
     "title": "Importar zonas"
   },
-  "zoneSymbology": "Simbología de zonas"
+  "zoneSymbology": "Simbología de zonas",
+  "nodeSize": {
+    "currentZoomAriaLabel": "Zoom actual del mapa",
+    "label": "Tamaño",
+    "maxSize": "Máx.",
+    "maxSizeAriaLabel": "Tamaño máximo de nudo",
+    "maxZoomAriaLabel": "Zoom máximo",
+    "minSize": "Mín.",
+    "minSizeAriaLabel": "Tamaño mínimo de nudo",
+    "minZoomAriaLabel": "Zoom mínimo visible",
+    "summary": "{{1}}px → {{2}}px"
+  }
 }

@@ -1413,5 +1413,16 @@
     },
     "title": "Impor zona"
   },
-  "zoneSymbology": "Simbologi zona"
+  "zoneSymbology": "Simbologi zona",
+  "nodeSize": {
+    "currentZoomAriaLabel": "Zoom peta saat ini",
+    "label": "Ukuran",
+    "maxSize": "Maks",
+    "maxSizeAriaLabel": "Ukuran node maksimum",
+    "maxZoomAriaLabel": "Zoom maksimum",
+    "minSize": "Min",
+    "minSizeAriaLabel": "Ukuran node minimum",
+    "minZoomAriaLabel": "Zoom terlihat minimum",
+    "summary": "{{1}} piksel → {{2}} piksel"
+  }
 }

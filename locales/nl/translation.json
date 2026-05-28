@@ -1413,5 +1413,16 @@
     },
     "title": "Zones importeren"
   },
-  "zoneSymbology": "Zone symbologie"
+  "zoneSymbology": "Zone symbologie",
+  "nodeSize": {
+    "currentZoomAriaLabel": "Huidige kaartzoom",
+    "label": "Grootte",
+    "maxSize": "Max",
+    "maxSizeAriaLabel": "Maximale knooppuntgrootte",
+    "maxZoomAriaLabel": "Maximale zoom",
+    "minSize": "Min",
+    "minSizeAriaLabel": "Minimale knooppuntgrootte",
+    "minZoomAriaLabel": "Minimale zichtbare zoom",
+    "summary": "{{1}}px → {{2}}px"
+  }
 }

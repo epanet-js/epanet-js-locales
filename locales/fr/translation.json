@@ -1413,5 +1413,16 @@
     },
     "title": "Importer des zones"
   },
-  "zoneSymbology": "Symbologie de zone"
+  "zoneSymbology": "Symbologie de zone",
+  "nodeSize": {
+    "currentZoomAriaLabel": "Zoom actuel de la carte",
+    "label": "Taille",
+    "maxSize": "Max",
+    "maxSizeAriaLabel": "Taille maximale du nœud",
+    "maxZoomAriaLabel": "Zoom maximal",
+    "minSize": "Min",
+    "minSizeAriaLabel": "Taille minimale du nœud",
+    "minZoomAriaLabel": "Zoom visible minimum",
+    "summary": "{{1}}px → {{2}}px"
+  }
 }
