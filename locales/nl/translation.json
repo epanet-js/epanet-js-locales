@@ -1393,23 +1393,26 @@
   "yearOfInstallation": "Installatiejaar",
   "importZones": {
     "completeStep": {
-      "summary": "{{count}} zones geïmporteerd uit GeoJSON.",
+      "summary": "Geïmporteerd {{1}} zones uit GeoJSON.",
       "title": "Voltooid"
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
-      "title": "Gegevenskoppeling"
+      "title": "Gegevenskoppeling",
+      "noProjectionWarning": "Het geselecteerde GeoJSON-bestand bevat geen projectiegegevens. Aangenomen wordt dat {{1}} de standaard is."
     },
     "dataMappingStep": {
       "description": "Kies een eigenschap om te gebruiken als zone-label, of genereer labels automatisch.",
       "none": "Geen (labels automatisch genereren)",
       "previewHeader": "Label",
-      "previewMore": "... en nog {{0}} meer",
+      "previewMore": "... en {{1}} meer",
       "title": "Gegevensinvoer"
     },
     "errors": {
       "invalidFile": "Het geselecteerde bestand is geen geldig GeoJSON-bestand.",
-      "noPolygons": "Het bestand bevat geen Polygon- of MultiPolygon-geometrieën."
+      "noPolygons": "Het bestand bevat geen Polygon- of MultiPolygon-geometrieën.",
+      "invalidProjection": "Het bestand bevat coördinaten die niet in een herkende projectie staan.",
+      "unsupportedProjection": "Het bestand bevat een niet-ondersteunde coördinatenprojectie."
     },
     "title": "Zones importeren"
   },
@@ -1423,6 +1426,7 @@
     "minSize": "Min",
     "minSizeAriaLabel": "Minimale knooppuntgrootte",
     "minZoomAriaLabel": "Minimale zichtbare zoom",
-    "summary": "{{1}}px → {{2}}px"
+    "summary": "{{1}} → {{2}}",
+    "zoom": "Zoom"
   }
 }

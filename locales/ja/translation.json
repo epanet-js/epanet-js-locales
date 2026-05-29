@@ -1393,23 +1393,26 @@
   "yearOfInstallation": "設置年",
   "importZones": {
     "completeStep": {
-      "summary": "GeoJSONから{{count}}ゾーンをインポートしました。",
+      "summary": "GeoJSONから{{1}}ゾーンをインポートしました。",
       "title": "完了"
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
-      "title": "データマッピング"
+      "title": "データマッピング",
+      "noProjectionWarning": "選択されたGeoJSONファイルには投影データが含まれていません。{{1}}をデフォルトとして仮定します。"
     },
     "dataMappingStep": {
       "description": "ゾーンラベルとして使用するプロパティを選択するか、ラベルを自動生成します。",
       "none": "なし（ラベルを自動生成）",
       "previewHeader": "ラベル",
-      "previewMore": "... その他 {{0}} 件",
+      "previewMore": "...その他{{1}}件",
       "title": "データ入力"
     },
     "errors": {
       "invalidFile": "選択されたファイルは有効なGeoJSONファイルではありません。",
-      "noPolygons": "ファイルにPolygonまたはMultiPolygonジオメトリが含まれていません。"
+      "noPolygons": "ファイルにPolygonまたはMultiPolygonジオメトリが含まれていません。",
+      "invalidProjection": "ファイルには、認識されている投影法ではない座標が含まれています。",
+      "unsupportedProjection": "ファイルには、サポートされていない座標投影が含まれています。"
     },
     "title": "ゾーンをインポート"
   },
@@ -1423,6 +1426,7 @@
     "minSize": "最小",
     "minSizeAriaLabel": "最小ノードサイズ",
     "minZoomAriaLabel": "最小表示ズーム",
-    "summary": "{{1}}px → {{2}}px"
+    "summary": "{{1}} → {{2}}",
+    "zoom": "ズーム"
   }
 }

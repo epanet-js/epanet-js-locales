@@ -1393,23 +1393,26 @@
   "yearOfInstallation": "Tahun pemasangan",
   "importZones": {
     "completeStep": {
-      "summary": "Diimpor {{count}} zona dari GeoJSON.",
+      "summary": "Diimpor {{1}} zona dari GeoJSON.",
       "title": "Selesai"
     },
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
-      "title": "Pemetaan data"
+      "title": "Pemetaan data",
+      "noProjectionWarning": "File GeoJSON yang dipilih tidak mengandung data proyeksi. Mengasumsikan {{1}} sebagai default."
     },
     "dataMappingStep": {
       "description": "Pilih properti untuk digunakan sebagai label zona, atau buat label otomatis.",
       "none": "Tidak ada (buat label otomatis)",
       "previewHeader": "Label",
-      "previewMore": "... dan {{0}} lainnya",
+      "previewMore": "... dan {{1}} lainnya",
       "title": "Input data"
     },
     "errors": {
       "invalidFile": "File yang dipilih bukan file GeoJSON yang valid.",
-      "noPolygons": "File tersebut tidak mengandung geometri Polygon atau MultiPolygon."
+      "noPolygons": "File tersebut tidak mengandung geometri Polygon atau MultiPolygon.",
+      "invalidProjection": "File tersebut mengandung koordinat yang tidak dalam proyeksi yang dikenali.",
+      "unsupportedProjection": "File tersebut mengandung proyeksi koordinat yang tidak didukung."
     },
     "title": "Impor zona"
   },
@@ -1423,6 +1426,7 @@
     "minSize": "Min",
     "minSizeAriaLabel": "Ukuran node minimum",
     "minZoomAriaLabel": "Zoom terlihat minimum",
-    "summary": "{{1}} piksel → {{2}} piksel"
+    "summary": "{{1}} → {{2}}",
+    "zoom": "Perbesar"
   }
 }

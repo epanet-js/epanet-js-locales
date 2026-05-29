@@ -1393,23 +1393,26 @@
   "yearOfInstallation": "Année d'installation",
   "importZones": {
     "completeStep": {
-      "summary": "Importé {{count}} zones depuis GeoJSON.",
+      "summary": "Importé {{1}} zones depuis GeoJSON.",
       "title": "Terminé"
     },
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
-      "title": "Mappage des données"
+      "title": "Mappage des données",
+      "noProjectionWarning": "Le fichier GeoJSON sélectionné ne contient pas de données de projection. En supposant {{1}} par défaut."
     },
     "dataMappingStep": {
       "description": "Choisissez une propriété à utiliser comme étiquette de zone, ou générez automatiquement les étiquettes.",
       "none": "Aucun (génération automatique d'étiquettes)",
       "previewHeader": "Étiquette",
-      "previewMore": "... et {{0}} de plus",
+      "previewMore": "... et {{1}} de plus",
       "title": "Saisie des données"
     },
     "errors": {
       "invalidFile": "Le fichier sélectionné n'est pas un fichier GeoJSON valide.",
-      "noPolygons": "Le fichier ne contient aucune géométrie de type Polygone ou MultiPolygone."
+      "noPolygons": "Le fichier ne contient aucune géométrie de type Polygone ou MultiPolygone.",
+      "invalidProjection": "Le fichier contient des coordonnées qui ne sont pas dans une projection reconnue.",
+      "unsupportedProjection": "Le fichier contient une projection de coordonnées non supportée."
     },
     "title": "Importer des zones"
   },
@@ -1423,6 +1426,7 @@
     "minSize": "Min",
     "minSizeAriaLabel": "Taille minimale du nœud",
     "minZoomAriaLabel": "Zoom visible minimum",
-    "summary": "{{1}}px → {{2}}px"
+    "summary": "{{1}} → {{2}}",
+    "zoom": "Zoom"
   }
 }
