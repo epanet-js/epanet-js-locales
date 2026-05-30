@@ -1396,7 +1396,6 @@
   "addNewValue": "Añadir \"{{1}}\"",
   "invalidValveKinds": "Válvulas con tipo no soportado ({{1}} válvulas usando TCV)",
   "material": "Material",
-  "searchOrTypeNew": "Busca o escribe un nuevo valor…",
   "yearOfInstallation": "Año de instalación",
   "importZones": {
     "completeStep": {
@@ -1435,5 +1434,9 @@
     "minZoomAriaLabel": "Zoom mínimo visible",
     "summary": "{{1}} → {{2}}",
     "zoom": "Zoom"
-  }
+  },
+  "globalDefault": "Predeterminado global",
+  "palette": "Paleta",
+  "qualitativeRamp": "Cualitativa",
+  "search": "Buscar…"
 }

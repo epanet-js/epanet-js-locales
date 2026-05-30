@@ -1389,7 +1389,6 @@
   "addNewValue": "「{{1}}」を追加",
   "invalidValveKinds": "未サポートのタイプの弁（TCVを使用する{{1}}個の弁）",
   "material": "材質",
-  "searchOrTypeNew": "新しい値を検索または入力…",
   "yearOfInstallation": "設置年",
   "importZones": {
     "completeStep": {
@@ -1428,5 +1427,9 @@
     "minZoomAriaLabel": "最小表示ズーム",
     "summary": "{{1}} → {{2}}",
     "zoom": "ズーム"
-  }
+  },
+  "globalDefault": "グローバルデフォルト",
+  "palette": "パレット",
+  "qualitativeRamp": "定性",
+  "search": "検索…"
 }

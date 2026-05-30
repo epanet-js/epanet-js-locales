@@ -1389,7 +1389,6 @@
   "addNewValue": "Tambah \"{{1}}\"",
   "invalidValveKinds": "Katup dengan tipe tidak didukung ({{1}} katup menggunakan TCV)",
   "material": "Material",
-  "searchOrTypeNew": "Cari atau ketik nilai baru…",
   "yearOfInstallation": "Tahun pemasangan",
   "importZones": {
     "completeStep": {
@@ -1428,5 +1427,9 @@
     "minZoomAriaLabel": "Zoom terlihat minimum",
     "summary": "{{1}} → {{2}}",
     "zoom": "Perbesar"
-  }
+  },
+  "globalDefault": "Default global",
+  "palette": "Palet",
+  "qualitativeRamp": "Kualitatif",
+  "search": "Cari…"
 }
