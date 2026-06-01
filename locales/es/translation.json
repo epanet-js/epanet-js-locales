@@ -1150,7 +1150,8 @@
       "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
       "title": "Uso no comercial"
     },
-    "or": "o"
+    "or": "o",
+    "tooltip": "Función de pago"
   },
   "namedLicence": "Licencia individual",
   "upgradeToProFor": "Modelado avanzado y escenarios",

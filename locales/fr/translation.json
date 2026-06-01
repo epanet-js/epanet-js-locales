@@ -1143,7 +1143,8 @@
       "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
       "title": "Usage Non Commercial"
     },
-    "or": "ou"
+    "or": "ou",
+    "tooltip": "Fonctionnalité payante"
   },
   "namedLicence": "Licence nominative individuelle",
   "upgradeToProFor": "Modélisation avancée et scénarios",

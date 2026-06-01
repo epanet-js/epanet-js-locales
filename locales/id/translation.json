@@ -828,7 +828,8 @@
       "description": "Untuk belajar, menjelajahi aplikasi, atau mendukung proyek.",
       "title": "Penggunaan non-komersial"
     },
-    "or": "atau"
+    "or": "atau",
+    "tooltip": "Fitur berbayar"
   },
   "pcvCurves": "Katup PCV dengan kurva karakteristik ({{1}} katup hanya menggunakan nilai pengaturan)",
   "peakKw": "Puncak",

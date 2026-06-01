@@ -1143,7 +1143,8 @@
       "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
       "title": "Niet-commercieel gebruik"
     },
-    "or": "of"
+    "or": "of",
+    "tooltip": "Betaalde functie"
   },
   "namedLicence": "Individuele benoemde licentie",
   "upgradeToProFor": "Geavanceerde modellering & scenario's",
