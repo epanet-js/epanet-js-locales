@@ -1432,5 +1432,6 @@
   "globalDefault": "Padrão global",
   "palette": "Paleta",
   "qualitativeRamp": "Qualitativo",
-  "search": "Buscar…"
+  "search": "Buscar…",
+  "demandsCount": "Demandas"
 }

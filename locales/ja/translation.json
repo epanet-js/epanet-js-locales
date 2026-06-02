@@ -1432,5 +1432,6 @@
   "globalDefault": "グローバルデフォルト",
   "palette": "パレット",
   "qualitativeRamp": "定性",
-  "search": "検索…"
+  "search": "検索…",
+  "demandsCount": "需要"
 }

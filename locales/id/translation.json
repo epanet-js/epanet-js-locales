@@ -1432,5 +1432,6 @@
   "globalDefault": "Default global",
   "palette": "Palet",
   "qualitativeRamp": "Kualitatif",
-  "search": "Cari…"
+  "search": "Cari…",
+  "demandsCount": "Kebutuhan"
 }

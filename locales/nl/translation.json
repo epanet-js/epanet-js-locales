@@ -1432,5 +1432,6 @@
   "globalDefault": "Globale standaard",
   "palette": "Palet",
   "qualitativeRamp": "Kwalitatief",
-  "search": "Zoeken..."
+  "search": "Zoeken...",
+  "demandsCount": "Vragen"
 }
