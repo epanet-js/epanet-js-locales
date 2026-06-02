@@ -1394,7 +1394,10 @@
   "importZones": {
     "completeStep": {
       "summary": "Geïmporteerd {{1}} zones uit GeoJSON.",
-      "title": "Voltooid"
+      "title": "Voltooid",
+      "mergedFeaturesHeader": "Aantal samengevoegde objecten",
+      "mergedLabelHeader": "Zone",
+      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:"
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
@@ -1414,7 +1417,13 @@
       "invalidProjection": "Het bestand bevat coördinaten die niet in een herkende projectie staan.",
       "unsupportedProjection": "Het bestand bevat een niet-ondersteunde coördinatenprojectie."
     },
-    "title": "Zones importeren"
+    "title": "Zones importeren",
+    "unprojectedError": "Zones kunnen niet worden geïmporteerd in een ongeprojecteerd netwerk. Stel eerst een coördinatenprojectie in voor het netwerk.",
+    "warningDialog": {
+      "deleteAndImport": "Verwijderen en importeren",
+      "explain": "Uw huidige zones worden permanent verwijderd en vervangen door de zones uit uw nieuwe import.",
+      "question": "Weet u zeker dat u wilt doorgaan?"
+    }
   },
   "zoneSymbology": "Zone symbologie",
   "nodeSize": {
@@ -1433,5 +1442,5 @@
   "palette": "Palet",
   "qualitativeRamp": "Kwalitatief",
   "search": "Zoeken...",
-  "demandsCount": "Vragen"
+  "demandsCount": "Aantal vragen"
 }

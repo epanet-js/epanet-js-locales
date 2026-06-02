@@ -1394,7 +1394,10 @@
   "importZones": {
     "completeStep": {
       "summary": "Diimpor {{1}} zona dari GeoJSON.",
-      "title": "Selesai"
+      "title": "Selesai",
+      "mergedFeaturesHeader": "Jumlah fitur yang digabungkan",
+      "mergedLabelHeader": "Zona",
+      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:"
     },
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
@@ -1414,7 +1417,13 @@
       "invalidProjection": "File tersebut mengandung koordinat yang tidak dalam proyeksi yang dikenali.",
       "unsupportedProjection": "File tersebut mengandung proyeksi koordinat yang tidak didukung."
     },
-    "title": "Impor zona"
+    "title": "Impor zona",
+    "unprojectedError": "Zona tidak dapat diimpor ke jaringan yang tidak terproyeksi. Harap atur proyeksi koordinat untuk jaringan terlebih dahulu.",
+    "warningDialog": {
+      "deleteAndImport": "Hapus dan impor",
+      "explain": "Zona Anda saat ini akan dihapus secara permanen dan diganti dengan zona dari impor baru Anda.",
+      "question": "Apakah Anda yakin ingin melanjutkan?"
+    }
   },
   "zoneSymbology": "Simbologi zona",
   "nodeSize": {
@@ -1433,5 +1442,5 @@
   "palette": "Palet",
   "qualitativeRamp": "Kualitatif",
   "search": "Cari…",
-  "demandsCount": "Kebutuhan"
+  "demandsCount": "Jumlah kebutuhan"
 }

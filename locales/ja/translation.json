@@ -1394,7 +1394,10 @@
   "importZones": {
     "completeStep": {
       "summary": "GeoJSONから{{1}}ゾーンをインポートしました。",
-      "title": "完了"
+      "title": "完了",
+      "mergedFeaturesHeader": "結合されたフィーチャの数",
+      "mergedLabelHeader": "ゾーン",
+      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:"
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
@@ -1414,7 +1417,13 @@
       "invalidProjection": "ファイルには、認識されている投影法ではない座標が含まれています。",
       "unsupportedProjection": "ファイルには、サポートされていない座標投影が含まれています。"
     },
-    "title": "ゾーンをインポート"
+    "title": "ゾーンをインポート",
+    "unprojectedError": "ゾーンは投影されていないネットワークにインポートできません。まず、ネットワークの座標投影を設定してください。",
+    "warningDialog": {
+      "deleteAndImport": "削除してインポート",
+      "explain": "現在のゾーンは完全に削除され、新しくインポートするゾーンに置き換えられます。",
+      "question": "続行してもよろしいですか？"
+    }
   },
   "zoneSymbology": "ゾーンシンボル",
   "nodeSize": {
@@ -1433,5 +1442,5 @@
   "palette": "パレット",
   "qualitativeRamp": "定性",
   "search": "検索…",
-  "demandsCount": "需要"
+  "demandsCount": "需要の数"
 }

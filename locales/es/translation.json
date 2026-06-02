@@ -1401,7 +1401,10 @@
   "importZones": {
     "completeStep": {
       "summary": "Importadas {{1}} zonas desde GeoJSON.",
-      "title": "Completado"
+      "title": "Completado",
+      "mergedFeaturesHeader": "Número de características fusionadas",
+      "mergedLabelHeader": "Zona",
+      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:"
     },
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
@@ -1421,7 +1424,13 @@
       "invalidProjection": "El archivo contiene coordenadas que no están en una proyección reconocida.",
       "unsupportedProjection": "El archivo contiene una proyección de coordenadas no soportada."
     },
-    "title": "Importar zonas"
+    "title": "Importar zonas",
+    "unprojectedError": "Las zonas no se pueden importar a una red sin proyectar. Por favor, establece primero una proyección de coordenadas para la red.",
+    "warningDialog": {
+      "deleteAndImport": "Eliminar e importar",
+      "explain": "Tus zonas actuales se eliminarán permanentemente y se reemplazarán con las zonas de tu nueva importación.",
+      "question": "¿Estás seguro de que quieres continuar?"
+    }
   },
   "zoneSymbology": "Simbología de zonas",
   "nodeSize": {
@@ -1440,5 +1449,5 @@
   "palette": "Paleta",
   "qualitativeRamp": "Cualitativa",
   "search": "Buscar…",
-  "demandsCount": "Consumos"
+  "demandsCount": "Número de demandas"
 }
