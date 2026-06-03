@@ -3,7 +3,16 @@
     "defaultText": "Arrastra archivos aquí o haz clic para explorar",
     "activeText": "Suelta tu archivo aquí",
     "supportedFormats": "Formatos soportados: {{1}}",
-    "selectedFile": "Seleccionado: {{1}}"
+    "selectedFile": "Seleccionado: {{1}}",
+    "fileDescriptions": {
+      "cpg": "Archivo de codificación de texto de la base de datos de propiedades de Shapefile",
+      "dbf": "Base de datos de propiedades de Shapefile",
+      "geojson": "Archivo GeoJSON",
+      "geojsonl": "Archivo GeoJSONL",
+      "prj": "Archivo de proyección WKT de Shapefile",
+      "shp": "Archivo de geometría de Shapefile",
+      "shx": "Archivo de índice de Shapefile"
+    }
   },
   "select": "Seleccionar",
   "selection": "Selección",
@@ -487,18 +496,19 @@
         "demandSelector": {
           "label": "Demanda",
           "placeholder": "Selecciona una propiedad de demanda...",
-          "noneUseDefault": "Ninguno (usar valor predeterminado)"
+          "useDefault": "Usar demanda predeterminada"
         },
         "loading": "Leyendo puntos de consumo...",
         "labelSelector": {
           "description": "Las etiquetas se recortarán a {{1}} caracteres",
           "label": "Etiqueta",
           "placeholder": "Selecciona una propiedad de etiqueta...",
-          "noneAutoGenerate": "Ninguno (Generar etiquetas automáticamente)"
+          "noneAutoGenerate": "Ninguno (Generar etiquetas automáticamente)",
+          "autoGenerate": "Auto-generar"
         },
         "defaultDemand": {
           "description": "Se usa cuando no se selecciona ningún atributo de demanda.",
-          "label": "Valor de demanda predeterminado"
+          "label": "Demanda predeterminada"
         }
       },
       "loading": "Cargando...",

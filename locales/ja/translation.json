@@ -79,7 +79,16 @@
     "activeText": "ファイルをここにドロップ",
     "defaultText": "ファイルをここにドロップするか、クリックして参照",
     "selectedFile": "選択済み: {{1}}",
-    "supportedFormats": "対応形式: {{1}}"
+    "supportedFormats": "対応形式: {{1}}",
+    "fileDescriptions": {
+      "cpg": "Shapefileプロパティデータベーステキストエンコーディング",
+      "dbf": "Shapefileプロパティデータベース",
+      "geojson": "GeoJSONファイル",
+      "geojsonl": "GeoJSONLファイル",
+      "prj": "Shapefile WKT投影ファイル",
+      "shp": "Shapefileジオメトリファイル",
+      "shx": "Shapefileインデックスファイル"
+    }
   },
   "earlyAccess": "早期アクセス",
   "elevation": "標高",
@@ -243,18 +252,19 @@
         "demandSelector": {
           "label": "需要",
           "placeholder": "需要プロパティを選択...",
-          "noneUseDefault": "なし（デフォルト値を使用）"
+          "useDefault": "デフォルト需要を使用"
         },
         "loading": "顧客ポイントを読み込み中...",
         "labelSelector": {
           "description": "ラベルは{{1}}文字にトリミングされます",
           "label": "ラベル",
           "placeholder": "ラベルプロパティを選択...",
-          "noneAutoGenerate": "なし（ラベルを自動生成）"
+          "noneAutoGenerate": "なし（ラベルを自動生成）",
+          "autoGenerate": "自動生成"
         },
         "defaultDemand": {
           "description": "需要属性が選択されていない場合に使用されます。",
-          "label": "デフォルト需要値"
+          "label": "デフォルト需要"
         }
       },
       "loading": "読み込み中...",

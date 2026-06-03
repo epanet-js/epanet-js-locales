@@ -378,7 +378,16 @@
     "defaultText": "Arraste arquivos aqui ou clique para procurar",
     "activeText": "Arraste seu arquivo aqui",
     "supportedFormats": "Formatos suportados: {{1}}",
-    "selectedFile": "Selecionado: {{1}}"
+    "selectedFile": "Selecionado: {{1}}",
+    "fileDescriptions": {
+      "cpg": "Codificação de texto do banco de dados de propriedades Shapefile",
+      "dbf": "Banco de dados de propriedades Shapefile",
+      "geojson": "Arquivo GeoJSON",
+      "geojsonl": "Arquivo GeoJSONL",
+      "prj": "Arquivo de projeção WKT Shapefile",
+      "shp": "Arquivo de geometria Shapefile",
+      "shx": "Arquivo de índice Shapefile"
+    }
   },
   "importCustomerPoints": {
     "wizard": {
@@ -444,7 +453,7 @@
           "nonPointGeometries": "Geometrias não pontuais ({{1}})",
           "noValidJunction": "Nenhum nó válido ({{1}})",
           "title": "Problemas ({{1}})",
-          "defaultedDemands": "Demandas inválidas ({{1}}) (usando padrão)"
+          "defaultedDemands": "Demandas inválidas ({{1}}) (usando demanda padrão)"
         },
         "messages": {
           "andXMore": "... e mais {{1}} pontos de consumo",
@@ -474,18 +483,19 @@
         "demandSelector": {
           "label": "Demanda",
           "placeholder": "Selecionar propriedade de demanda...",
-          "noneUseDefault": "Nenhum (usar valor padrão)"
+          "useDefault": "Usar demanda padrão"
         },
         "loading": "Lendo pontos de consumo...",
         "labelSelector": {
           "description": "Os rótulos serão truncados para {{1}} caracteres",
           "label": "Rótulo",
           "placeholder": "Selecionar propriedade de rótulo...",
-          "noneAutoGenerate": "Nenhum (Gerar rótulos automaticamente)"
+          "noneAutoGenerate": "Nenhum (Gerar rótulos automaticamente)",
+          "autoGenerate": "Gerar automaticamente"
         },
         "defaultDemand": {
           "description": "Usado quando nenhum atributo de demanda é selecionado.",
-          "label": "Valor de demanda padrão"
+          "label": "Demanda padrão"
         }
       },
       "loading": "Carregando...",

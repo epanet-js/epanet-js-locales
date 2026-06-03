@@ -378,7 +378,16 @@
     "defaultText": "Sleep bestanden hierheen of klik om te bladeren",
     "activeText": "Sleep uw bestand hierheen",
     "supportedFormats": "Ondersteunde formaten: {{1}}",
-    "selectedFile": "Geselecteerd: {{1}}"
+    "selectedFile": "Geselecteerd: {{1}}",
+    "fileDescriptions": {
+      "cpg": "Shapefile eigenschapdatabase tekstcodering",
+      "dbf": "Shapefile eigenschapdatabase",
+      "geojson": "GeoJSON bestand",
+      "geojsonl": "GeoJSONL bestand",
+      "prj": "Shapefile WKT projectiebestand",
+      "shp": "Shapefile geometriebestand",
+      "shx": "Shapefile indexbestand"
+    }
   },
   "importCustomerPoints": {
     "wizard": {
@@ -474,14 +483,15 @@
         "demandSelector": {
           "label": "Vraag",
           "placeholder": "Selecteer vraag-eigenschap...",
-          "noneUseDefault": "Geen (gebruik standaardwaarde)"
+          "useDefault": "Gebruik standaardvraag"
         },
         "loading": "Klantpunten lezen...",
         "labelSelector": {
           "description": "Labels worden afgekapt tot {{1}} tekens",
           "label": "Label",
           "placeholder": "Selecteer label eigenschap...",
-          "noneAutoGenerate": "Geen (Labels automatisch genereren)"
+          "noneAutoGenerate": "Geen (Labels automatisch genereren)",
+          "autoGenerate": "Automatisch genereren"
         },
         "defaultDemand": {
           "description": "Gebruikt wanneer geen vraagattribuut is geselecteerd.",

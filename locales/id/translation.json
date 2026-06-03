@@ -254,7 +254,16 @@
     "activeText": "Jatuhkan file Anda di sini",
     "defaultText": "Jatuhkan file di sini atau klik untuk menjelajah",
     "selectedFile": "Terpilih: {{1}}",
-    "supportedFormats": "Format yang didukung: {{1}}"
+    "supportedFormats": "Format yang didukung: {{1}}",
+    "fileDescriptions": {
+      "cpg": "Pengkodean teks basis data properti Shapefile",
+      "dbf": "Basis data properti Shapefile",
+      "geojson": "File GeoJSON",
+      "geojsonl": "File GeoJSONL",
+      "prj": "File proyeksi WKT Shapefile",
+      "shp": "File geometri Shapefile",
+      "shx": "File indeks Shapefile"
+    }
   },
   "duplicate": "Duplikat",
   "earlyAccess": "Akses awal",
@@ -470,7 +479,7 @@
         "demandSelector": {
           "label": "Kebutuhan",
           "placeholder": "Pilih properti kebutuhan...",
-          "noneUseDefault": "Tidak ada (gunakan nilai default)"
+          "useDefault": "Gunakan kebutuhan default"
         },
         "issues": {
           "connectionFailures": "Kegagalan koneksi ({{1}})",
@@ -483,13 +492,14 @@
           "nonPointGeometries": "Geometri non-titik ({{1}})",
           "noValidJunction": "Tidak ada sambungan valid ({{1}})",
           "title": "Masalah ({{1}})",
-          "defaultedDemands": "Kebutuhan tidak valid ({{1}}) (menggunakan default)"
+          "defaultedDemands": "Kebutuhan tidak valid ({{1}}) (menggunakan kebutuhan default)"
         },
         "labelSelector": {
           "description": "Label akan dipangkas hingga {{1}} karakter",
           "label": "Label",
           "noneAutoGenerate": "Tidak ada (Buat label otomatis)",
-          "placeholder": "Pilih properti label..."
+          "placeholder": "Pilih properti label...",
+          "autoGenerate": "Buat otomatis"
         },
         "loading": "Membaca titik pelanggan...",
         "messages": {
@@ -511,7 +521,7 @@
         "title": "Pemetaan data",
         "defaultDemand": {
           "description": "Digunakan ketika tidak ada atribut kebutuhan yang dipilih.",
-          "label": "Nilai kebutuhan default"
+          "label": "Kebutuhan default"
         }
       },
       "dataPreviewStep": "Pemetaan data",

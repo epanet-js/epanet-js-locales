@@ -378,7 +378,16 @@
     "defaultText": "Déposez les fichiers ici ou cliquez pour parcourir",
     "activeText": "Déposez votre fichier ici",
     "supportedFormats": "Formats compatibles : {{1}}",
-    "selectedFile": "Sélectionné : {{1}}"
+    "selectedFile": "Sélectionné : {{1}}",
+    "fileDescriptions": {
+      "cpg": "Encodage de texte de la base de données de propriétés Shapefile",
+      "dbf": "Base de données de propriétés Shapefile",
+      "geojson": "Fichier GeoJSON",
+      "geojsonl": "Fichier GeoJSONL",
+      "prj": "Fichier de projection WKT Shapefile",
+      "shp": "Fichier de géométrie Shapefile",
+      "shx": "Fichier d'index Shapefile"
+    }
   },
   "importCustomerPoints": {
     "wizard": {
@@ -444,7 +453,7 @@
           "nonPointGeometries": "Géométries non ponctuelles ({{1}})",
           "noValidJunction": "Aucune jonction valide ({{1}})",
           "title": "Problèmes ({{1}})",
-          "defaultedDemands": "Demandes invalides ({{1}}) (utilisation de la valeur par défaut)"
+          "defaultedDemands": "Demandes invalides ({{1}}) (utilisation de la demande par défaut)"
         },
         "messages": {
           "andXMore": "... et {{1}} points clients supplémentaires",
@@ -474,18 +483,19 @@
         "demandSelector": {
           "label": "Demande",
           "placeholder": "Sélectionner une propriété de demande...",
-          "noneUseDefault": "Aucun (utiliser la valeur par défaut)"
+          "useDefault": "Utiliser la demande par défaut"
         },
         "loading": "Lecture des points de consommation...",
         "labelSelector": {
           "description": "Les étiquettes seront tronquées à {{1}} caractères",
           "label": "Étiquette",
           "placeholder": "Sélectionner une propriété d'étiquette...",
-          "noneAutoGenerate": "Aucun (Génération automatique d'étiquettes)"
+          "noneAutoGenerate": "Aucun (Génération automatique d'étiquettes)",
+          "autoGenerate": "Génération automatique"
         },
         "defaultDemand": {
           "description": "Utilisé lorsqu'aucun attribut de demande n'est sélectionné.",
-          "label": "Valeur de demande par défaut"
+          "label": "Demande par défaut"
         }
       },
       "loading": "Chargement...",
