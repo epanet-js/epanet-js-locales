@@ -443,7 +443,8 @@
           "missingCoordinates": "Coördinaten ontbreken ({{1}})",
           "nonPointGeometries": "Niet-punt geometrieën ({{1}})",
           "noValidJunction": "Geen geldig knooppunt ({{1}})",
-          "title": "Problemen ({{1}})"
+          "title": "Problemen ({{1}})",
+          "defaultedDemands": "Ongeldige vragen ({{1}}) (standaard gebruikt)"
         },
         "messages": {
           "andXMore": "... en nog {{1}} klantpunten",
@@ -472,7 +473,8 @@
         },
         "demandSelector": {
           "label": "Vraag",
-          "placeholder": "Selecteer vraag-eigenschap..."
+          "placeholder": "Selecteer vraag-eigenschap...",
+          "noneUseDefault": "Geen (gebruik standaardwaarde)"
         },
         "loading": "Klantpunten lezen...",
         "labelSelector": {
@@ -480,6 +482,10 @@
           "label": "Label",
           "placeholder": "Selecteer label eigenschap...",
           "noneAutoGenerate": "Geen (Labels automatisch genereren)"
+        },
+        "defaultDemand": {
+          "description": "Gebruikt wanneer geen vraagattribuut is geselecteerd.",
+          "label": "Standaard vraagwaarde"
         }
       },
       "loading": "Laden...",
@@ -1418,7 +1424,6 @@
       "unsupportedProjection": "Het bestand bevat een niet-ondersteunde coördinatenprojectie."
     },
     "title": "Zones importeren",
-    "unprojectedError": "Zones kunnen niet worden geïmporteerd in een ongeprojecteerd netwerk. Stel eerst een coördinatenprojectie in voor het netwerk.",
     "warningDialog": {
       "deleteAndImport": "Verwijderen en importeren",
       "explain": "Uw huidige zones worden permanent verwijderd en vervangen door de zones uit uw nieuwe import.",

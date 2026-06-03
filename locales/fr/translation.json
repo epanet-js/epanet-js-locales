@@ -443,7 +443,8 @@
           "missingCoordinates": "Coordonnées manquantes ({{1}})",
           "nonPointGeometries": "Géométries non ponctuelles ({{1}})",
           "noValidJunction": "Aucune jonction valide ({{1}})",
-          "title": "Problèmes ({{1}})"
+          "title": "Problèmes ({{1}})",
+          "defaultedDemands": "Demandes invalides ({{1}}) (utilisation de la valeur par défaut)"
         },
         "messages": {
           "andXMore": "... et {{1}} points clients supplémentaires",
@@ -472,7 +473,8 @@
         },
         "demandSelector": {
           "label": "Demande",
-          "placeholder": "Sélectionner une propriété de demande..."
+          "placeholder": "Sélectionner une propriété de demande...",
+          "noneUseDefault": "Aucun (utiliser la valeur par défaut)"
         },
         "loading": "Lecture des points de consommation...",
         "labelSelector": {
@@ -480,6 +482,10 @@
           "label": "Étiquette",
           "placeholder": "Sélectionner une propriété d'étiquette...",
           "noneAutoGenerate": "Aucun (Génération automatique d'étiquettes)"
+        },
+        "defaultDemand": {
+          "description": "Utilisé lorsqu'aucun attribut de demande n'est sélectionné.",
+          "label": "Valeur de demande par défaut"
         }
       },
       "loading": "Chargement...",
@@ -1418,7 +1424,6 @@
       "unsupportedProjection": "Le fichier contient une projection de coordonnées non supportée."
     },
     "title": "Importer des zones",
-    "unprojectedError": "Les zones ne peuvent pas être importées dans un réseau non projeté. Veuillez d'abord définir une projection de coordonnées pour le réseau.",
     "warningDialog": {
       "deleteAndImport": "Supprimer et importer",
       "explain": "Vos zones actuelles seront définitivement supprimées et remplacées par les zones de votre nouvelle importation.",

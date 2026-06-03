@@ -212,7 +212,8 @@
           "missingCoordinates": "座標がありません ({{1}})",
           "nonPointGeometries": "非ポイントジオメトリ ({{1}})",
           "noValidJunction": "有効な接点なし ({{1}})",
-          "title": "問題 ({{1}})"
+          "title": "問題 ({{1}})",
+          "defaultedDemands": "無効な需要 ({{1}}) (デフォルトを使用)"
         },
         "messages": {
           "andXMore": "... その他 {{1}} 件の顧客ポイント",
@@ -241,7 +242,8 @@
         },
         "demandSelector": {
           "label": "需要",
-          "placeholder": "需要プロパティを選択..."
+          "placeholder": "需要プロパティを選択...",
+          "noneUseDefault": "なし（デフォルト値を使用）"
         },
         "loading": "顧客ポイントを読み込み中...",
         "labelSelector": {
@@ -249,6 +251,10 @@
           "label": "ラベル",
           "placeholder": "ラベルプロパティを選択...",
           "noneAutoGenerate": "なし（ラベルを自動生成）"
+        },
+        "defaultDemand": {
+          "description": "需要属性が選択されていない場合に使用されます。",
+          "label": "デフォルト需要値"
         }
       },
       "loading": "読み込み中...",
@@ -1418,7 +1424,6 @@
       "unsupportedProjection": "ファイルには、サポートされていない座標投影が含まれています。"
     },
     "title": "ゾーンをインポート",
-    "unprojectedError": "ゾーンは投影されていないネットワークにインポートできません。まず、ネットワークの座標投影を設定してください。",
     "warningDialog": {
       "deleteAndImport": "削除してインポート",
       "explain": "現在のゾーンは完全に削除され、新しくインポートするゾーンに置き換えられます。",

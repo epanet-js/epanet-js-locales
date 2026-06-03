@@ -443,7 +443,8 @@
           "missingCoordinates": "Coordenadas em falta ({{1}})",
           "nonPointGeometries": "Geometrias não pontuais ({{1}})",
           "noValidJunction": "Nenhum nó válido ({{1}})",
-          "title": "Problemas ({{1}})"
+          "title": "Problemas ({{1}})",
+          "defaultedDemands": "Demandas inválidas ({{1}}) (usando padrão)"
         },
         "messages": {
           "andXMore": "... e mais {{1}} pontos de consumo",
@@ -472,7 +473,8 @@
         },
         "demandSelector": {
           "label": "Demanda",
-          "placeholder": "Selecionar propriedade de demanda..."
+          "placeholder": "Selecionar propriedade de demanda...",
+          "noneUseDefault": "Nenhum (usar valor padrão)"
         },
         "loading": "Lendo pontos de consumo...",
         "labelSelector": {
@@ -480,6 +482,10 @@
           "label": "Rótulo",
           "placeholder": "Selecionar propriedade de rótulo...",
           "noneAutoGenerate": "Nenhum (Gerar rótulos automaticamente)"
+        },
+        "defaultDemand": {
+          "description": "Usado quando nenhum atributo de demanda é selecionado.",
+          "label": "Valor de demanda padrão"
         }
       },
       "loading": "Carregando...",
@@ -1418,7 +1424,6 @@
       "unsupportedProjection": "O arquivo contém uma projeção de coordenadas não suportada."
     },
     "title": "Importar zonas",
-    "unprojectedError": "Zonas não podem ser importadas para uma rede não projetada. Por favor, defina uma projeção de coordenadas para a rede primeiro.",
     "warningDialog": {
       "deleteAndImport": "Excluir e importar",
       "explain": "Suas zonas atuais serão permanentemente excluídas e substituídas pelas zonas de sua nova importação.",

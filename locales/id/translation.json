@@ -469,7 +469,8 @@
         },
         "demandSelector": {
           "label": "Kebutuhan",
-          "placeholder": "Pilih properti kebutuhan..."
+          "placeholder": "Pilih properti kebutuhan...",
+          "noneUseDefault": "Tidak ada (gunakan nilai default)"
         },
         "issues": {
           "connectionFailures": "Kegagalan koneksi ({{1}})",
@@ -481,7 +482,8 @@
           "missingCoordinates": "Koordinat hilang ({{1}})",
           "nonPointGeometries": "Geometri non-titik ({{1}})",
           "noValidJunction": "Tidak ada sambungan valid ({{1}})",
-          "title": "Masalah ({{1}})"
+          "title": "Masalah ({{1}})",
+          "defaultedDemands": "Kebutuhan tidak valid ({{1}}) (menggunakan default)"
         },
         "labelSelector": {
           "description": "Label akan dipangkas hingga {{1}} karakter",
@@ -506,7 +508,11 @@
           "longitude": "Bujur",
           "title": "Titik pelanggan ({{1}})"
         },
-        "title": "Pemetaan data"
+        "title": "Pemetaan data",
+        "defaultDemand": {
+          "description": "Digunakan ketika tidak ada atribut kebutuhan yang dipilih.",
+          "label": "Nilai kebutuhan default"
+        }
       },
       "dataPreviewStep": "Pemetaan data",
       "demandOptions": {
@@ -1418,7 +1424,6 @@
       "unsupportedProjection": "File tersebut mengandung proyeksi koordinat yang tidak didukung."
     },
     "title": "Impor zona",
-    "unprojectedError": "Zona tidak dapat diimpor ke jaringan yang tidak terproyeksi. Harap atur proyeksi koordinat untuk jaringan terlebih dahulu.",
     "warningDialog": {
       "deleteAndImport": "Hapus dan impor",
       "explain": "Zona Anda saat ini akan dihapus secara permanen dan diganti dengan zona dari impor baru Anda.",

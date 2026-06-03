@@ -456,7 +456,8 @@
           "missingCoordinates": "Coordenadas faltantes ({{1}})",
           "nonPointGeometries": "Geometrías no puntuales ({{1}})",
           "noValidJunction": "Sin unión válida ({{1}})",
-          "title": "Problemas ({{1}})"
+          "title": "Problemas ({{1}})",
+          "defaultedDemands": "Demandas inválidas ({{1}}) (usando predeterminado)"
         },
         "messages": {
           "andXMore": "... y {{1}} puntos de consumo más",
@@ -485,7 +486,8 @@
         },
         "demandSelector": {
           "label": "Demanda",
-          "placeholder": "Selecciona una propiedad de demanda..."
+          "placeholder": "Selecciona una propiedad de demanda...",
+          "noneUseDefault": "Ninguno (usar valor predeterminado)"
         },
         "loading": "Leyendo puntos de consumo...",
         "labelSelector": {
@@ -493,6 +495,10 @@
           "label": "Etiqueta",
           "placeholder": "Selecciona una propiedad de etiqueta...",
           "noneAutoGenerate": "Ninguno (Generar etiquetas automáticamente)"
+        },
+        "defaultDemand": {
+          "description": "Se usa cuando no se selecciona ningún atributo de demanda.",
+          "label": "Valor de demanda predeterminado"
         }
       },
       "loading": "Cargando...",
@@ -1425,7 +1431,6 @@
       "unsupportedProjection": "El archivo contiene una proyección de coordenadas no soportada."
     },
     "title": "Importar zonas",
-    "unprojectedError": "Las zonas no se pueden importar a una red sin proyectar. Por favor, establece primero una proyección de coordenadas para la red.",
     "warningDialog": {
       "deleteAndImport": "Eliminar e importar",
       "explain": "Tus zonas actuales se eliminarán permanentemente y se reemplazarán con las zonas de tu nueva importación.",
