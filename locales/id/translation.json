@@ -263,6 +263,11 @@
       "prj": "File proyeksi WKT Shapefile",
       "shp": "File geometri Shapefile",
       "shx": "File indeks Shapefile"
+    },
+    "errors": {
+      "dbfMissing": "Basis data properti hilang",
+      "prjMissing": "File proyeksi hilang",
+      "shpMissing": "File geometri hilang"
     }
   },
   "duplicate": "Duplikat",
@@ -1438,6 +1443,13 @@
       "deleteAndImport": "Hapus dan impor",
       "explain": "Zona Anda saat ini akan dihapus secara permanen dan diganti dengan zona dari impor baru Anda.",
       "question": "Apakah Anda yakin ingin melanjutkan?"
+    },
+    "paywall": {
+      "description1": "Bawa zona Anda ke epanet-js dan gunakan langsung di model Anda.",
+      "description2": "Tumpangkan zona tekanan atau area terukur untuk dengan mudah memetakan jejak jaringan Anda dan memahami jaringan Anda secara sekilas.",
+      "plans": "Overlay zona tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk mengimpor zona",
+      "trial": "Overlay zona adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     }
   },
   "zoneSymbology": "Simbologi zona",

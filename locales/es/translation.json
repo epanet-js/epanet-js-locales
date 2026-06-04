@@ -12,6 +12,11 @@
       "prj": "Archivo de proyección WKT de Shapefile",
       "shp": "Archivo de geometría de Shapefile",
       "shx": "Archivo de índice de Shapefile"
+    },
+    "errors": {
+      "dbfMissing": "Base de datos de propiedades faltante",
+      "prjMissing": "Archivo de proyección faltante",
+      "shpMissing": "Archivo de geometría faltante"
     }
   },
   "select": "Seleccionar",
@@ -1445,6 +1450,13 @@
       "deleteAndImport": "Eliminar e importar",
       "explain": "Tus zonas actuales se eliminarán permanentemente y se reemplazarán con las zonas de tu nueva importación.",
       "question": "¿Estás seguro de que quieres continuar?"
+    },
+    "paywall": {
+      "description1": "Integra tus zonas en epanet-js y úsalas directamente en tu modelo.",
+      "description2": "Superpón zonas de presión o áreas medidas para mapear fácilmente la huella de tu red y entenderla de un vistazo.",
+      "plans": "Las superposiciones de zonas están disponibles en planes de pago.",
+      "title": "Mejora para importar zonas",
+      "trial": "Las superposiciones de zonas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
     }
   },
   "zoneSymbology": "Simbología de zonas",

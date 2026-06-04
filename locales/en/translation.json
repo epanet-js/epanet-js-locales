@@ -18,6 +18,11 @@
       "dbf": "Shapefile property database",
       "cpg": "Shapefile property database text encoding",
       "prj": "Shapefile WKT projection file"
+    },
+    "errors": {
+      "shpMissing": "Geometry file missing",
+      "dbfMissing": "Property database missing",
+      "prjMissing": "Projection file missing"
     }
   },
   "operationalData": "Operational data",
@@ -1456,6 +1461,13 @@
       "explain": "Your current zones will be permanently deleted and replaced with the zones from your new import.",
       "question": "Are you sure you want to proceed?",
       "deleteAndImport": "Delete and import"
+    },
+    "paywall": {
+      "title": "Upgrade to import zones",
+      "description1": "Bring your zones into epanet-js and use them directly in your model.",
+      "description2": "Overlay pressure zones or metered areas to easily map your network’s footprint and understand your network at a glance.",
+      "plans": "Zone overlays are available on paid plans.",
+      "trial": "Zone overlays are a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
     }
   }
 }

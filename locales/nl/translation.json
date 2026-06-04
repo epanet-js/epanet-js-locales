@@ -387,6 +387,11 @@
       "prj": "Shapefile WKT projectiebestand",
       "shp": "Shapefile geometriebestand",
       "shx": "Shapefile indexbestand"
+    },
+    "errors": {
+      "dbfMissing": "Eigenschappen database ontbreekt",
+      "prjMissing": "Projectiebestand ontbreekt",
+      "shpMissing": "Geometriebestand ontbreekt"
     }
   },
   "importCustomerPoints": {
@@ -1438,6 +1443,13 @@
       "deleteAndImport": "Verwijderen en importeren",
       "explain": "Uw huidige zones worden permanent verwijderd en vervangen door de zones uit uw nieuwe import.",
       "question": "Weet u zeker dat u wilt doorgaan?"
+    },
+    "paywall": {
+      "description1": "Breng uw zones in epanet-js en gebruik ze direct in uw model.",
+      "description2": "Leg drukzones of gemeten gebieden over om de voetafdruk van uw netwerk gemakkelijk in kaart te brengen en uw netwerk in één oogopslag te begrijpen.",
+      "plans": "Zone-overlays zijn beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om zones te importeren",
+      "trial": "Zone-overlays zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     }
   },
   "zoneSymbology": "Zone symbologie",
