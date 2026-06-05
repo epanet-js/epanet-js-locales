@@ -264,10 +264,12 @@
       "shp": "File geometri Shapefile",
       "shx": "File indeks Shapefile"
     },
-    "errors": {
-      "dbfMissing": "Basis data properti hilang",
-      "prjMissing": "File proyeksi hilang",
-      "shpMissing": "File geometri hilang"
+    "addMoreFiles": "Tambahkan lebih banyak file ({{1}})",
+    "shapefileReady": "Shapefile yang diperlukan siap",
+    "waiting": {
+      "dbf": "Menunggu basis data properti (DBF)",
+      "prj": "Menunggu proyeksi (PRJ)",
+      "shp": "Menunggu geometri (SHP)"
     }
   },
   "duplicate": "Duplikat",

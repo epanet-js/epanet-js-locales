@@ -388,10 +388,12 @@
       "shp": "Arquivo de geometria Shapefile",
       "shx": "Arquivo de índice Shapefile"
     },
-    "errors": {
-      "dbfMissing": "Banco de dados de propriedades ausente",
-      "prjMissing": "Arquivo de projeção ausente",
-      "shpMissing": "Arquivo de geometria ausente"
+    "addMoreFiles": "Adicionar mais arquivos ({{1}})",
+    "shapefileReady": "Shapefiles necessários prontos",
+    "waiting": {
+      "dbf": "Aguardando banco de dados de propriedades (DBF)",
+      "prj": "Aguardando projeção (PRJ)",
+      "shp": "Aguardando geometria (SHP)"
     }
   },
   "importCustomerPoints": {

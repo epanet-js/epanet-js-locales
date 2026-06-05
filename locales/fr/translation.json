@@ -388,10 +388,12 @@
       "shp": "Fichier de géométrie Shapefile",
       "shx": "Fichier d'index Shapefile"
     },
-    "errors": {
-      "dbfMissing": "Base de données de propriétés manquante",
-      "prjMissing": "Fichier de projection manquant",
-      "shpMissing": "Fichier de géométrie manquant"
+    "addMoreFiles": "Ajouter plus de fichiers ({{1}})",
+    "shapefileReady": "Fichiers Shapefile requis prêts",
+    "waiting": {
+      "dbf": "En attente de la base de données de propriétés (DBF)",
+      "prj": "En attente de la projection (PRJ)",
+      "shp": "En attente de la géométrie (SHP)"
     }
   },
   "importCustomerPoints": {

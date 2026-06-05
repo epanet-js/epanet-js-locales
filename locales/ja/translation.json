@@ -89,10 +89,12 @@
       "shp": "Shapefileジオメトリファイル",
       "shx": "Shapefileインデックスファイル"
     },
-    "errors": {
-      "dbfMissing": "プロパティデータベースが見つかりません",
-      "prjMissing": "投影ファイルが見つかりません",
-      "shpMissing": "ジオメトリファイルが見つかりません"
+    "addMoreFiles": "さらにファイルを追加 ({{1}})",
+    "shapefileReady": "必要なシェープファイルが準備完了",
+    "waiting": {
+      "dbf": "プロパティデータベース（DBF）を待機中",
+      "prj": "投影ファイル（PRJ）を待機中",
+      "shp": "ジオメトリファイル（SHP）を待機中"
     }
   },
   "earlyAccess": "早期アクセス",

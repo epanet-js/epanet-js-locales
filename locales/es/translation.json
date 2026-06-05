@@ -13,10 +13,12 @@
       "shp": "Archivo de geometría de Shapefile",
       "shx": "Archivo de índice de Shapefile"
     },
-    "errors": {
-      "dbfMissing": "Base de datos de propiedades faltante",
-      "prjMissing": "Archivo de proyección faltante",
-      "shpMissing": "Archivo de geometría faltante"
+    "addMoreFiles": "Añadir más archivos ({{1}})",
+    "shapefileReady": "Archivos Shapefile requeridos listos",
+    "waiting": {
+      "dbf": "Esperando la base de datos de propiedades (DBF)",
+      "prj": "Esperando la proyección (PRJ)",
+      "shp": "Esperando la geometría (SHP)"
     }
   },
   "select": "Seleccionar",

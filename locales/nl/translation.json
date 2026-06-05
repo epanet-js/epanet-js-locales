@@ -388,10 +388,12 @@
       "shp": "Shapefile geometriebestand",
       "shx": "Shapefile indexbestand"
     },
-    "errors": {
-      "dbfMissing": "Eigenschappen database ontbreekt",
-      "prjMissing": "Projectiebestand ontbreekt",
-      "shpMissing": "Geometriebestand ontbreekt"
+    "addMoreFiles": "Meer bestanden toevoegen ({{1}})",
+    "shapefileReady": "Vereiste Shapefiles klaar",
+    "waiting": {
+      "dbf": "Wachten op eigenschapdatabase (DBF)",
+      "prj": "Wachten op projectie (PRJ)",
+      "shp": "Wachten op geometrie (SHP)"
     }
   },
   "importCustomerPoints": {
