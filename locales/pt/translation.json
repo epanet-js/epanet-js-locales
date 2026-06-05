@@ -1436,7 +1436,7 @@
     },
     "errors": {
       "invalidFile": "O arquivo selecionado não é um arquivo GeoJSON válido.",
-      "noPolygons": "O arquivo não contém nenhuma geometria de Polígono ou MultiPolígono.",
+      "noPolygons": "O arquivo não contém nenhuma geometria de Polygon ou MultiPolygon.",
       "invalidProjection": "O arquivo contém coordenadas que não estão em uma projeção reconhecida.",
       "unsupportedProjection": "O arquivo contém uma projeção de coordenadas não suportada."
     },
@@ -1448,7 +1448,7 @@
     },
     "paywall": {
       "description1": "Traga suas zonas para o epanet-js e use-as diretamente em seu modelo.",
-      "description2": "Sobreponha zonas de pressão ou áreas medidas para mapear facilmente a pegada de sua rede e entendê-la rapidamente.",
+      "description2": "Sobreponha zonas de pressão ou áreas de medição para mapear facilmente a pegada de sua rede e entendê-la rapidamente.",
       "plans": "As sobreposições de zona estão disponíveis em planos pagos.",
       "title": "Atualize para importar zonas",
       "trial": "As sobreposições de zona são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."

@@ -81,8 +81,8 @@
     "selectedFile": "選択済み: {{1}}",
     "supportedFormats": "対応形式: {{1}}",
     "fileDescriptions": {
-      "cpg": "Shapefileプロパティデータベーステキストエンコーディング",
-      "dbf": "Shapefileプロパティデータベース",
+      "cpg": "Shapefile属性データベース文字コード",
+      "dbf": "Shapefile属性データベース",
       "geojson": "GeoJSONファイル",
       "geojsonl": "GeoJSONLファイル",
       "prj": "Shapefile WKT投影ファイル",
@@ -92,7 +92,7 @@
     "addMoreFiles": "さらにファイルを追加 ({{1}})",
     "shapefileReady": "必要なシェープファイルが準備完了",
     "waiting": {
-      "dbf": "プロパティデータベース（DBF）を待機中",
+      "dbf": "属性データベース（DBF）を待機中",
       "prj": "投影ファイル（PRJ）を待機中",
       "shp": "ジオメトリファイル（SHP）を待機中"
     }
@@ -1428,7 +1428,7 @@
       "noProjectionWarning": "選択されたGeoJSONファイルには投影データが含まれていません。{{1}}をデフォルトとして仮定します。"
     },
     "dataMappingStep": {
-      "description": "ゾーンラベルとして使用するプロパティを選択するか、ラベルを自動生成します。",
+      "description": "ゾーンラベルとして使用する属性を選択するか、ラベルを自動生成します。",
       "none": "なし（ラベルを自動生成）",
       "previewHeader": "ラベル",
       "previewMore": "...その他{{1}}件",

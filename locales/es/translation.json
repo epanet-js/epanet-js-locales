@@ -5,20 +5,20 @@
     "supportedFormats": "Formatos soportados: {{1}}",
     "selectedFile": "Seleccionado: {{1}}",
     "fileDescriptions": {
-      "cpg": "Archivo de codificación de texto de la base de datos de propiedades de Shapefile",
+      "cpg": "Archivo de codificación de texto de Shapefile",
       "dbf": "Base de datos de propiedades de Shapefile",
       "geojson": "Archivo GeoJSON",
       "geojsonl": "Archivo GeoJSONL",
       "prj": "Archivo de proyección WKT de Shapefile",
       "shp": "Archivo de geometría de Shapefile",
-      "shx": "Archivo de índice de Shapefile"
+      "shx": "Archivo de índices de Shapefile"
     },
     "addMoreFiles": "Añadir más archivos ({{1}})",
     "shapefileReady": "Archivos Shapefile requeridos listos",
     "waiting": {
-      "dbf": "Esperando la base de datos de propiedades (DBF)",
-      "prj": "Esperando la proyección (PRJ)",
-      "shp": "Esperando la geometría (SHP)"
+      "dbf": "Añade la base de datos de propiedades (DBF)",
+      "prj": "Añade la proyección (PRJ)",
+      "shp": "Añade la geometría (SHP)"
     }
   },
   "select": "Seleccionar",
@@ -1443,8 +1443,8 @@
     },
     "errors": {
       "invalidFile": "El archivo seleccionado no es un archivo GeoJSON válido.",
-      "noPolygons": "El archivo no contiene ninguna geometría de Polígono o MultiPolígono.",
-      "invalidProjection": "El archivo contiene coordenadas que no están en una proyección reconocida.",
+      "noPolygons": "El archivo no contiene ninguna geometría de tipo Polygon o MultiPolygon.",
+      "invalidProjection": "El archivo contiene una proyección de coordenadas inválida.",
       "unsupportedProjection": "El archivo contiene una proyección de coordenadas no soportada."
     },
     "title": "Importar zonas",
@@ -1455,7 +1455,7 @@
     },
     "paywall": {
       "description1": "Integra tus zonas en epanet-js y úsalas directamente en tu modelo.",
-      "description2": "Superpón zonas de presión o áreas medidas para mapear fácilmente la huella de tu red y entenderla de un vistazo.",
+      "description2": "Superpón zonas de presión o áreas de medida para mapear fácilmente la huella de tu red y entenderla de un vistazo.",
       "plans": "Las superposiciones de zonas están disponibles en planes de pago.",
       "title": "Mejora para importar zonas",
       "trial": "Las superposiciones de zonas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
