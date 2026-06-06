@@ -1471,5 +1471,7 @@
   "palette": "Palet",
   "qualitativeRamp": "Kualitatif",
   "search": "Cari…",
-  "demandsCount": "Jumlah kebutuhan"
+  "demandsCount": "Jumlah kebutuhan",
+  "changeNotApplied": "Kami tidak dapat menerapkan perubahan terakhir Anda",
+  "changeNotAppliedMessage": "Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan."
 }

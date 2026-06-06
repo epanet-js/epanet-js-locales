@@ -1471,5 +1471,7 @@
   "palette": "Palet",
   "qualitativeRamp": "Kwalitatief",
   "search": "Zoeken...",
-  "demandsCount": "Aantal vragen"
+  "demandsCount": "Aantal vragen",
+  "changeNotApplied": "We konden uw laatste wijziging niet toepassen",
+  "changeNotAppliedMessage": "We raden aan uw werk op te slaan en het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de support."
 }

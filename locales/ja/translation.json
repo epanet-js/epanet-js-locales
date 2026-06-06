@@ -1471,5 +1471,7 @@
   "palette": "パレット",
   "qualitativeRamp": "定性",
   "search": "検索…",
-  "demandsCount": "需要の数"
+  "demandsCount": "需要の数",
+  "changeNotApplied": "前回の変更を適用できませんでした",
+  "changeNotAppliedMessage": "作業を保存してもう一度試すことをお勧めします。問題が続く場合は、サポートにお問い合わせください。"
 }

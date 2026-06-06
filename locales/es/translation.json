@@ -1478,5 +1478,7 @@
   "palette": "Paleta",
   "qualitativeRamp": "Cualitativa",
   "search": "Buscar…",
-  "demandsCount": "Número de demandas"
+  "demandsCount": "Número de demandas",
+  "changeNotApplied": "No pudimos aplicar tu último cambio",
+  "changeNotAppliedMessage": "Sugerimos guardar tu trabajo e intentarlo de nuevo. Si el problema continúa, por favor contacta con soporte."
 }
