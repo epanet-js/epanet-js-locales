@@ -389,7 +389,7 @@
       "shx": "Shapefile indexbestand"
     },
     "addMoreFiles": "Meer bestanden toevoegen ({{1}})",
-    "shapefileReady": "Vereiste Shapefiles klaar",
+    "shapefileReady": "Shapefile klaar voor import",
     "waiting": {
       "dbf": "Wachten op eigenschapdatabase (DBF)",
       "prj": "Wachten op projectie (PRJ)",
