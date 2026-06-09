@@ -525,7 +525,8 @@
       "projectionConversionError": "Conversie van coördinatensysteem mislukt",
       "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem"
     },
-    "label": "Klantpunten importeren"
+    "label": "Klantpunten importeren",
+    "menuEntry": "Klantpunten"
   },
   "startBlankProject": "Project starten",
   "startFromExample": "Start vanuit voorbeeld",
@@ -1181,7 +1182,7 @@
     "paywall": {
       "captions": {
         "1": "Voeg uw eigen kaartlagen toe aan epanet-js",
-        "2": "Gebruik XYZ-tegels, Mapbox- of TileJSON-bronnen",
+        "2": "Gebruik XYZ-tegels, Mapbox- of TileJSON-bronnen of vectorbestanden",
         "3": "Leg aangepaste basiskaarten over uw hydraulisch model"
       },
       "description1": "Breng uw eigen kaartlagen in epanet-js met behulp van XYZ-tegels, Mapbox-stijlen of TileJSON.",
@@ -1473,5 +1474,14 @@
   "search": "Zoeken...",
   "demandsCount": "Aantal vragen",
   "changeNotApplied": "We konden uw laatste wijziging niet toepassen",
-  "changeNotAppliedMessage": "We raden aan uw werk op te slaan en het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de support."
+  "changeNotAppliedMessage": "We raden aan uw werk op te slaan en het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de support.",
+  "allocateCustomerPoints": {
+    "menuEntry": "Klantpunten toewijzen",
+    "warningDialog": {
+      "importAction": "Klantpunten importeren",
+      "noCustomerPoints": "Er zijn geen klantpunten in het netwerk. Wilt u deze eerst importeren?",
+      "title": "Geen klantpunten gevonden"
+    }
+  },
+  "import": "Importeren"
 }

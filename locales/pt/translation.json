@@ -525,7 +525,8 @@
       "projectionConversionError": "Falha ao converter sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referência de coordenadas não suportado"
     },
-    "label": "Importar Pontos de Consumo"
+    "label": "Importar Pontos de Consumo",
+    "menuEntry": "Pontos de consumo"
   },
   "startBlankProject": "Iniciar Projeto",
   "startFromExample": "Iniciar de Exemplo",
@@ -1181,7 +1182,7 @@
     "paywall": {
       "captions": {
         "1": "Adicione suas próprias camadas de mapa ao epanet-js",
-        "2": "Use tiles XYZ, Mapbox ou fontes TileJSON",
+        "2": "Use tiles XYZ, Mapbox, TileJSON ou arquivos vetoriais",
         "3": "Sobreponha mapas base personalizados em seu modelo hidráulico"
       },
       "description1": "Traga suas próprias camadas de mapa para o epanet-js usando tiles XYZ, estilos Mapbox ou TileJSON.",
@@ -1473,5 +1474,14 @@
   "search": "Buscar…",
   "demandsCount": "Número de demandas",
   "changeNotApplied": "Não foi possível aplicar sua última alteração",
-  "changeNotAppliedMessage": "Sugerimos salvar seu trabalho e tentar novamente. Se o problema persistir, entre em contato com o suporte."
+  "changeNotAppliedMessage": "Sugerimos salvar seu trabalho e tentar novamente. Se o problema persistir, entre em contato com o suporte.",
+  "allocateCustomerPoints": {
+    "menuEntry": "Alocar pontos de consumo",
+    "warningDialog": {
+      "importAction": "Importar Pontos de Consumo",
+      "noCustomerPoints": "Não há pontos de consumo na rede. Você gostaria de importá-los primeiro?",
+      "title": "Nenhum ponto de consumo encontrado"
+    }
+  },
+  "import": "Importar"
 }

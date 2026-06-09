@@ -525,7 +525,8 @@
       "projectionConversionError": "Échec de la conversion du système de coordonnées",
       "unsupportedCrsError": "Système de référence de coordonnées non pris en charge"
     },
-    "label": "Importer des points de consommation"
+    "label": "Importer des points de consommation",
+    "menuEntry": "Points de consommation"
   },
   "startBlankProject": "Démarrer un projet",
   "startFromExample": "Démarrer à partir d'un exemple",
@@ -1181,7 +1182,7 @@
     "paywall": {
       "captions": {
         "1": "Ajoutez vos propres couches de carte à epanet-js",
-        "2": "Utilisez des tuiles XYZ, Mapbox ou des sources TileJSON",
+        "2": "Utilisez des tuiles XYZ, Mapbox, des sources TileJSON ou des fichiers vectoriels",
         "3": "Superposez des fonds de carte personnalisés sur votre modèle hydraulique"
       },
       "description1": "Intégrez vos propres couches de carte dans epanet-js en utilisant des tuiles XYZ, des styles Mapbox ou TileJSON.",
@@ -1473,5 +1474,14 @@
   "search": "Rechercher…",
   "demandsCount": "Nombre de demandes",
   "changeNotApplied": "Nous n'avons pas pu appliquer votre dernière modification",
-  "changeNotAppliedMessage": "Nous vous suggérons d'enregistrer votre travail et de réessayer. Si le problème persiste, veuillez contacter le support."
+  "changeNotAppliedMessage": "Nous vous suggérons d'enregistrer votre travail et de réessayer. Si le problème persiste, veuillez contacter le support.",
+  "allocateCustomerPoints": {
+    "menuEntry": "Allouer les points de consommation",
+    "warningDialog": {
+      "importAction": "Importer des points de consommation",
+      "noCustomerPoints": "Il n'y a pas de points de consommation dans le réseau. Souhaitez-vous les importer d'abord ?",
+      "title": "Aucun point de consommation trouvé"
+    }
+  },
+  "import": "Importer"
 }

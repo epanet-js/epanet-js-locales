@@ -538,7 +538,8 @@
       "projectionConversionError": "Fallo al convertir el sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referencia de coordenadas no soportado"
     },
-    "label": "Importar Puntos de Consumo"
+    "label": "Importar Puntos de Consumo",
+    "menuEntry": "Puntos de consumo"
   },
   "contextActions": {
     "customerPoints": {
@@ -1188,7 +1189,7 @@
     "paywall": {
       "captions": {
         "1": "Añade tus propias capas de mapa a epanet-js",
-        "2": "Usa teselas XYZ, Mapbox o fuentes TileJSON",
+        "2": "Usa teselas XYZ, Mapbox, fuentes TileJSON o archivos vectoriales",
         "3": "Superpón mapas base personalizados en tu modelo hidráulico"
       },
       "description1": "Trae tus propias capas de mapa a epanet-js usando teselas XYZ, estilos Mapbox o TileJSON.",
@@ -1480,5 +1481,14 @@
   "search": "Buscar…",
   "demandsCount": "Número de demandas",
   "changeNotApplied": "No pudimos aplicar tu último cambio",
-  "changeNotAppliedMessage": "Sugerimos guardar tu trabajo e intentarlo de nuevo. Si el problema continúa, por favor contacta con soporte."
+  "changeNotAppliedMessage": "Sugerimos guardar tu trabajo e intentarlo de nuevo. Si el problema continúa, por favor contacta con soporte.",
+  "allocateCustomerPoints": {
+    "menuEntry": "Asignar puntos de consumo",
+    "warningDialog": {
+      "importAction": "Importar puntos de consumo",
+      "noCustomerPoints": "No hay puntos de consumo en la red. ¿Te gustaría importarlos primero?",
+      "title": "No se encontraron puntos de consumo"
+    }
+  },
+  "import": "Importar"
 }

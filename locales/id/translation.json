@@ -188,7 +188,7 @@
     "paywall": {
       "captions": {
         "1": "Tambahkan lapisan peta Anda sendiri ke epanet-js",
-        "2": "Gunakan ubin XYZ, Mapbox, atau sumber TileJSON",
+        "2": "Gunakan ubin XYZ, Mapbox, TileJSON sumber atau file vektor",
         "3": "Tumpangkan basemap kustom pada model hidrolik Anda"
       },
       "description1": "Bawa lapisan peta Anda sendiri ke epanet-js menggunakan ubin XYZ, gaya Mapbox, atau TileJSON.",
@@ -558,7 +558,8 @@
         "description": "Pelajari cara mengimpor titik pelanggan dengan menonton tutorial di atas atau membaca <guideLink>panduan langkah demi langkah</guideLink>.",
         "title": "Tutorial impor titik pelanggan"
       }
-    }
+    },
+    "menuEntry": "Titik pelanggan"
   },
   "importCustomerPointsWarning": {
     "deleteAndImport": "Hapus dan impor",
@@ -1473,5 +1474,14 @@
   "search": "Cari…",
   "demandsCount": "Jumlah kebutuhan",
   "changeNotApplied": "Kami tidak dapat menerapkan perubahan terakhir Anda",
-  "changeNotAppliedMessage": "Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan."
+  "changeNotAppliedMessage": "Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan.",
+  "allocateCustomerPoints": {
+    "menuEntry": "Alokasikan titik pelanggan",
+    "warningDialog": {
+      "importAction": "Impor titik pelanggan",
+      "noCustomerPoints": "Tidak ada titik pelanggan dalam jaringan. Apakah Anda ingin mengimpornya terlebih dahulu?",
+      "title": "Tidak ada titik pelanggan ditemukan"
+    }
+  },
+  "import": "Impor"
 }
