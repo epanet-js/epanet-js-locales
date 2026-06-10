@@ -1481,7 +1481,9 @@
       "importAction": "Importar Pontos de Consumo",
       "noCustomerPoints": "Não há pontos de consumo na rede. Você gostaria de importá-los primeiro?",
       "title": "Nenhum ponto de consumo encontrado"
-    }
+    },
+    "noPipesSelected": "Selecione as tubulações para realizar a alocação de clientes primeiro"
   },
-  "import": "Importar"
+  "import": "Importar",
+  "connected": "Conectado"
 }
