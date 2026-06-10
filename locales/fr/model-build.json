@@ -1,0 +1,134 @@
+{
+  "attributeMapping": {
+    "buildModel": "Construire le modèle",
+    "dataPreview": "Aperçu des données",
+    "description": "Mapper les propriétés de vos données SIG aux attributs EPANET. Les élévations et la connectivité seront calculées automatiquement.",
+    "elementHeading": "Mappage des attributs {{1}}",
+    "noElementsAssigned": "Aucun élément n'a été attribué. Veuillez revenir en arrière et attribuer des fichiers aux éléments.",
+    "optionalAttributes": "Attributs facultatifs",
+    "recommendedAttributes": "Attributs recommandés",
+    "selectProperty": "Sélectionner une propriété...",
+    "title": "Mapper les attributs"
+  },
+  "attributes": {
+    "year": "Année d'installation"
+  },
+  "buildProgress": {
+    "complete": "Construction terminée",
+    "completeEmbedded": "Construction du modèle terminée !",
+    "downloadModel": "Télécharger le modèle (.ejsdb)",
+    "durationLessThanSecond": "<1 seconde",
+    "durationSeconds_one": "{{count}} seconde",
+    "durationSeconds_other": "{{count}} secondes",
+    "ejsdbFailed": "Échec de la génération du fichier .ejsdb",
+    "errorTitle": "Erreur de construction",
+    "generatingEjsdb": "Génération du .ejsdb...",
+    "preparing": "Préparation de la construction...",
+    "progressTitle": "Progression de la construction",
+    "readyToBuild": "Prêt à construire",
+    "showLess": "Afficher moins",
+    "showMore": "Afficher plus",
+    "statusBuilding": "Traitement de vos données et génération du modèle EPANET...",
+    "statusComplete": "Construction du modèle terminée avec succès !",
+    "statusError": "Une erreur est survenue pendant le processus de construction",
+    "statusReady": "Prêt à construire votre modèle",
+    "successDescription": "Votre modèle EPANET a été généré avec succès. Vous pouvez maintenant télécharger le fichier .ejsdb.",
+    "title": "Construction du modèle EPANET"
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ Projection requise pour continuer"
+  },
+  "dataTable": {
+    "legendDefault": "texte en italique = valeurs par défaut",
+    "legendLabel": "Légende :",
+    "legendNormal": "Texte normal = données mappées,",
+    "showingAll": "Affichage de toutes les {{1}} entités",
+    "showingFirst": "Affichage des 100 premières des {{1}} entités",
+    "yearParseHelp": "Nous n'avons pas pu lire une année à partir de cette valeur. Mappez une propriété qui contient une année à 4 chiffres. Les formats pris en charge incluent : 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "elements": {
+    "nodes": "Nœuds",
+    "pipes": "Conduites",
+    "pumps": "Pompes",
+    "reservoirs": "Réservoirs",
+    "tanks": "Châteaux d'eau",
+    "valves": "Vannes"
+  },
+  "fileDropzone": {
+    "addMoreFiles": "Ajouter plus de fichiers (GeoJSON ou Shapefile)",
+    "assignedFilesCount": "Fichiers attribués ({{1}})",
+    "assignToElement": "Attribuer à l'élément...",
+    "attributesUnavailable": "Attributs indisponibles",
+    "clickToBrowse": "ou cliquez pour parcourir les fichiers (plusieurs fichiers supportés)",
+    "dragAndDrop": "Faites glisser et déposez des fichiers Shapefile ou GeoJSON ici",
+    "featureInfo": "{{1}} • {{2}} entités",
+    "loadAndAssign": "Charger et attribuer des fichiers SIG",
+    "noCompatibleElements": "Aucun élément compatible et non attribué.",
+    "parsing": "Analyse...",
+    "processing": "Traitement...",
+    "projectionUnknown": "Projection inconnue (vous devrez peut-être en sélectionner une)",
+    "removeFile": "Supprimer le fichier",
+    "removeShapefileGroup": "Supprimer le groupe de fichiers Shapefile",
+    "selectFiles": "Sélectionner les fichiers",
+    "selectProjectionToMap": "Sélectionnez une projection pour continuer le mappage des fichiers",
+    "unassignAria": "Désaffecter {{1}}",
+    "unassignedFilesCount": "Fichiers non attribués ({{1}})",
+    "unknownFilename": "(nom de fichier inconnu)",
+    "waitingForShp": "En attente du .shp (géométrie de base)"
+  },
+  "flowUnits": {
+    "afd": "AFD (pied-acre/jour)",
+    "cfs": "CFS (pied cube/sec)",
+    "cmd": "CMD (mètre cube/jour)",
+    "cmh": "CMH (mètre cube/h)",
+    "gpm": "GPM (gal/min)",
+    "imgd": "IMGD (MGD impérial)",
+    "lpm": "LPM (litre/min)",
+    "lps": "LPS (litre/sec)",
+    "mgd": "MGD (Millions de gal/jour)",
+    "mld": "MLD (Mégalitre/jour)"
+  },
+  "map": {
+    "clearProjection": "Effacer la projection",
+    "elementsAssigned_one": "{{count}} élément attribué",
+    "elementsAssigned_other": "{{count}} éléments attribués",
+    "mapboxHint": "Ajoutez votre jeton Mapbox pour voir la carte réelle",
+    "mapboxPlaceholder": "Espace réservé pour la carte - Jeton Mapbox requis",
+    "networkPreview": "Aperçu du réseau"
+  },
+  "modelSettings": {
+    "chezyManning": "Chezy-Manning",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "flowUnits": "Unités de débit",
+    "hazenWilliams": "Hazen-Williams",
+    "headlossFormula": "Formule de perte de charge",
+    "title": "Paramètres du modèle",
+    "tutorialAlt": "Tutoriel de construction de modèle",
+    "tutorialDescription": "Apprenez à construire un modèle EPANET en regardant le tutoriel ci-dessus ou ",
+    "tutorialDuration": "5:23",
+    "tutorialGuideLink": "en lisant le guide étape par étape.",
+    "tutorialTitle": "Tutoriel de construction de modèle",
+    "tutorialVideoTitle": "Tutoriel d'importation de données SIG dans epanet-js",
+    "unitSystem": "Système d'unités",
+    "unitSystemMetric": "Métriques SI",
+    "unitSystemUs": "Impérial américain"
+  },
+  "projection": {
+    "required": "Projection requise",
+    "searchPlaceholder": "Rechercher une projection...",
+    "selectToContinue": "Sélectionnez une projection pour continuer le mappage des fichiers."
+  },
+  "stepProgress": {
+    "attributeMapping": "Mappage des attributs",
+    "buildProgress": "Construction du modèle",
+    "dataAssignment": "Attribution des données",
+    "modelSettings": "Paramètres du modèle"
+  },
+  "wizardActions": {
+    "back": "Retour",
+    "cancel": "Annuler",
+    "finish": "Terminer",
+    "loading": "Chargement...",
+    "next": "Suivant"
+  }
+}

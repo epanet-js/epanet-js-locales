@@ -1,0 +1,134 @@
+{
+  "attributeMapping": {
+    "buildModel": "Bangun model",
+    "dataPreview": "Pratinjau data",
+    "description": "Petakan properti dari data GIS Anda ke atribut EPANET. Elevasi dan konektivitas akan dihitung secara otomatis.",
+    "elementHeading": "Pemetaan atribut {{1}}",
+    "noElementsAssigned": "Tidak ada elemen yang ditetapkan. Harap kembali dan tetapkan file ke elemen.",
+    "optionalAttributes": "Atribut opsional",
+    "recommendedAttributes": "Atribut direkomendasikan",
+    "selectProperty": "Pilih properti...",
+    "title": "Petakan atribut"
+  },
+  "attributes": {
+    "year": "Tahun pemasangan"
+  },
+  "buildProgress": {
+    "complete": "Pembangunan selesai",
+    "completeEmbedded": "Pembangunan model selesai!",
+    "downloadModel": "Unduh model (.ejsdb)",
+    "durationLessThanSecond": "<1 detik",
+    "durationSeconds_one": "{{count}} detik",
+    "durationSeconds_other": "{{count}} detik",
+    "ejsdbFailed": "Gagal membuat file .ejsdb",
+    "errorTitle": "Kesalahan pembangunan",
+    "generatingEjsdb": "Membuat .ejsdb...",
+    "preparing": "Mempersiapkan pembangunan...",
+    "progressTitle": "Progres pembangunan",
+    "readyToBuild": "Siap untuk dibangun",
+    "showLess": "Tampilkan lebih sedikit",
+    "showMore": "Tampilkan lebih banyak",
+    "statusBuilding": "Memproses data Anda dan membuat model EPANET...",
+    "statusComplete": "Pembangunan model berhasil diselesaikan!",
+    "statusError": "Terjadi kesalahan selama proses pembangunan",
+    "statusReady": "Siap membangun model Anda",
+    "successDescription": "Model EPANET Anda telah berhasil dibuat. Anda sekarang dapat mengunduh file .ejsdb.",
+    "title": "Membangun model EPANET"
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"
+  },
+  "dataTable": {
+    "legendDefault": "teks miring = nilai default",
+    "legendLabel": "Legenda:",
+    "legendNormal": "Teks normal = data yang dipetakan,",
+    "showingAll": "Menampilkan semua {{1}} fitur",
+    "showingFirst": "Menampilkan 100 pertama dari {{1}} fitur",
+    "yearParseHelp": "Kami tidak dapat membaca tahun dari nilai ini. Petakan properti yang berisi tahun 4 digit. Format yang didukung meliputi: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "elements": {
+    "nodes": "Sambungan",
+    "pipes": "Pipa",
+    "pumps": "Pompa",
+    "reservoirs": "Reservoir",
+    "tanks": "Tangki",
+    "valves": "Katup"
+  },
+  "fileDropzone": {
+    "addMoreFiles": "Tambahkan lebih banyak file (GeoJSON atau Shapefile)",
+    "assignedFilesCount": "File yang ditetapkan ({{1}})",
+    "assignToElement": "Tetapkan ke elemen...",
+    "attributesUnavailable": "Atribut tidak tersedia",
+    "clickToBrowse": "atau klik untuk menjelajah file (mendukung banyak file)",
+    "dragAndDrop": "Seret dan lepas file Shapefile atau GeoJSON di sini",
+    "featureInfo": "{{1}} • {{2}} fitur",
+    "loadAndAssign": "Muat & tetapkan file GIS",
+    "noCompatibleElements": "Tidak ada elemen yang kompatibel, belum ditetapkan.",
+    "parsing": "Mengurai...",
+    "processing": "Memproses...",
+    "projectionUnknown": "Proyeksi tidak dikenal (Anda mungkin perlu memilih satu)",
+    "removeFile": "Hapus file",
+    "removeShapefileGroup": "Hapus grup shapefile",
+    "selectFiles": "Pilih file",
+    "selectProjectionToMap": "Pilih proyeksi untuk melanjutkan pemetaan file",
+    "unassignAria": "Batalkan penetapan {{1}}",
+    "unassignedFilesCount": "File yang belum ditetapkan ({{1}})",
+    "unknownFilename": "(nama file tidak dikenal)",
+    "waitingForShp": "Menunggu .shp (geometri dasar)"
+  },
+  "flowUnits": {
+    "afd": "AFD (kaki-are/hari)",
+    "cfs": "CFS (kaki kubik/dtk)",
+    "cmd": "CMD (meter kubik/hari)",
+    "cmh": "CMH (meter kubik/jam)",
+    "gpm": "GPM (gal/menit)",
+    "imgd": "IMGD (MGD Imperial)",
+    "lpm": "LPM (liter/menit)",
+    "lps": "LPS (liter/dtk)",
+    "mgd": "MGD (Juta gal/hari)",
+    "mld": "MLD (Megaliter/hari)"
+  },
+  "map": {
+    "clearProjection": "Hapus proyeksi",
+    "elementsAssigned_one": "{{count}} elemen ditetapkan",
+    "elementsAssigned_other": "{{count}} elemen ditetapkan",
+    "mapboxHint": "Tambahkan token Mapbox Anda untuk melihat peta sebenarnya",
+    "mapboxPlaceholder": "Placeholder peta - Token Mapbox diperlukan",
+    "networkPreview": "Pratinjau jaringan"
+  },
+  "modelSettings": {
+    "chezyManning": "Chezy-Manning",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "flowUnits": "Satuan aliran",
+    "hazenWilliams": "Hazen-Williams",
+    "headlossFormula": "Rumus kehilangan head",
+    "title": "Pengaturan model",
+    "tutorialAlt": "Tutorial pembangun model",
+    "tutorialDescription": "Pelajari cara membangun model EPANET dengan menonton tutorial di atas atau ",
+    "tutorialDuration": "5:23",
+    "tutorialGuideLink": "membaca panduan langkah demi langkah.",
+    "tutorialTitle": "Tutorial pembangun model",
+    "tutorialVideoTitle": "tutorial impor epanet-js dari data GIS",
+    "unitSystem": "Sistem satuan",
+    "unitSystemMetric": "Metrik SI",
+    "unitSystemUs": "Adat AS"
+  },
+  "projection": {
+    "required": "Proyeksi diperlukan",
+    "searchPlaceholder": "Cari proyeksi...",
+    "selectToContinue": "Pilih proyeksi untuk melanjutkan pemetaan file."
+  },
+  "stepProgress": {
+    "attributeMapping": "Pemetaan atribut",
+    "buildProgress": "Pembangunan model",
+    "dataAssignment": "Penetapan data",
+    "modelSettings": "Pengaturan model"
+  },
+  "wizardActions": {
+    "back": "Kembali",
+    "cancel": "Batal",
+    "finish": "Selesai",
+    "loading": "Memuat...",
+    "next": "Berikutnya"
+  }
+}

@@ -1482,7 +1482,11 @@
       "noCustomerPoints": "Tidak ada titik pelanggan dalam jaringan. Apakah Anda ingin mengimpornya terlebih dahulu?",
       "title": "Tidak ada titik pelanggan ditemukan"
     },
-    "noPipesSelected": "Pilih pipa untuk melakukan alokasi pelanggan terlebih dahulu"
+    "noPipesSelected": "Pilih pipa untuk melakukan alokasi pelanggan terlebih dahulu",
+    "table": {
+      "ignoreHeader": "Abaikan",
+      "ignoreLabel": "Abaikan"
+    }
   },
   "import": "Impor",
   "connected": "Terhubung"

@@ -1,0 +1,134 @@
+{
+  "stepProgress": {
+    "modelSettings": "Model settings",
+    "dataAssignment": "Data assignment",
+    "attributeMapping": "Attribute mapping",
+    "buildProgress": "Model build"
+  },
+  "modelSettings": {
+    "title": "Model settings",
+    "unitSystem": "Unit system",
+    "unitSystemUs": "US customary",
+    "unitSystemMetric": "SI metric",
+    "flowUnits": "Flow units",
+    "headlossFormula": "Headloss formula",
+    "hazenWilliams": "Hazen-Williams",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "chezyManning": "Chezy-Manning",
+    "tutorialTitle": "Model builder tutorial",
+    "tutorialAlt": "Model builder tutorial",
+    "tutorialDuration": "5:23",
+    "tutorialVideoTitle": "epanet-js import from GIS data tutorial",
+    "tutorialDescription": "Learn how to build an EPANET model by watching the tutorial above or ",
+    "tutorialGuideLink": "reading the step-by-step guide."
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ Projection required to continue"
+  },
+  "attributeMapping": {
+    "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
+    "title": "Map attributes",
+    "description": "Map the properties from your GIS data to EPANET attributes. Elevations and connectivity will be calculated automatically.",
+    "elementHeading": "{{1}} attribute mapping",
+    "recommendedAttributes": "Recommended attributes",
+    "optionalAttributes": "Optional attributes",
+    "selectProperty": "Select property...",
+    "dataPreview": "Data preview",
+    "buildModel": "Build model"
+  },
+  "buildProgress": {
+    "title": "Building EPANET model",
+    "statusBuilding": "Processing your data and generating the EPANET model...",
+    "statusComplete": "Model build completed successfully!",
+    "statusError": "An error occurred during the build process",
+    "statusReady": "Ready to build your model",
+    "progressTitle": "Build progress",
+    "preparing": "Preparing build...",
+    "readyToBuild": "Ready to build",
+    "completeEmbedded": "Model build complete!",
+    "complete": "Build complete",
+    "successDescription": "Your EPANET model has been successfully generated. You can now download the .ejsdb file.",
+    "errorTitle": "Build error",
+    "showLess": "Show less",
+    "showMore": "Show more",
+    "downloadModel": "Download model (.ejsdb)",
+    "generatingEjsdb": "Generating .ejsdb...",
+    "ejsdbFailed": "Failed to generate .ejsdb file",
+    "durationLessThanSecond": "<1 second",
+    "durationSeconds_one": "{{count}} second",
+    "durationSeconds_other": "{{count}} seconds"
+  },
+  "fileDropzone": {
+    "attributesUnavailable": "Attributes unavailable",
+    "projectionUnknown": "Projection unknown (you may need to select one)",
+    "unknownFilename": "(unknown filename)",
+    "featureInfo": "{{1}} • {{2}} features",
+    "unassignAria": "Unassign {{1}}",
+    "selectProjectionToMap": "Select a projection to continue mapping files",
+    "assignToElement": "Assign to element...",
+    "noCompatibleElements": "No compatible, unassigned elements.",
+    "removeFile": "Remove file",
+    "waitingForShp": "Waiting for .shp (base geometry)",
+    "parsing": "Parsing...",
+    "removeShapefileGroup": "Remove shapefile group",
+    "dragAndDrop": "Drag and drop Shapefiles or GeoJSON files here",
+    "clickToBrowse": "or click to browse files (supports multiple files)",
+    "processing": "Processing...",
+    "selectFiles": "Select files",
+    "loadAndAssign": "Load & assign GIS files",
+    "addMoreFiles": "Add more files (GeoJSON or Shapefile)",
+    "assignedFilesCount": "Assigned files ({{1}})",
+    "unassignedFilesCount": "Unassigned files ({{1}})"
+  },
+  "wizardActions": {
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "loading": "Loading..."
+  },
+  "map": {
+    "networkPreview": "Network preview",
+    "elementsAssigned_one": "{{count}} element assigned",
+    "elementsAssigned_other": "{{count}} elements assigned",
+    "clearProjection": "Clear projection",
+    "mapboxPlaceholder": "Map placeholder - Mapbox token required",
+    "mapboxHint": "Add your Mapbox token to see the actual map"
+  },
+  "dataTable": {
+    "showingFirst": "Showing first 100 of {{1}} features",
+    "showingAll": "Showing all {{1}} features",
+    "legendLabel": "Legend:",
+    "legendNormal": "Normal text = mapped data,",
+    "legendDefault": "italic text = default values",
+    "yearParseHelp": "We couldn't read a year from this value. Map a property that contains a 4-digit year. Supported formats include: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "projection": {
+    "required": "Projection required",
+    "selectToContinue": "Select a projection to continue mapping files.",
+    "searchPlaceholder": "Search for projection..."
+  },
+  "elements": {
+    "pipes": "Pipes",
+    "nodes": "Junctions",
+    "valves": "Valves",
+    "pumps": "Pumps",
+    "tanks": "Tanks",
+    "reservoirs": "Reservoirs"
+  },
+  "flowUnits": {
+    "cfs": "CFS (cu foot/sec)",
+    "gpm": "GPM (gal/min)",
+    "mgd": "MGD (Million gal/day)",
+    "imgd": "IMGD (Imperial MGD)",
+    "afd": "AFD (ac-foot/day)",
+    "lps": "LPS (liter/sec)",
+    "lpm": "LPM (liter/min)",
+    "mld": "MLD (Megaliter/day)",
+    "cmh": "CMH (cubic meter/hr)",
+    "cmd": "CMD (cubic meter/day)"
+  },
+  "attributes": {
+    "year": "Year of installation"
+  }
+}

@@ -1482,7 +1482,11 @@
       "noCustomerPoints": "Er zijn geen klantpunten in het netwerk. Wilt u deze eerst importeren?",
       "title": "Geen klantpunten gevonden"
     },
-    "noPipesSelected": "Selecteer eerst leidingen om klanttoewijzing uit te voeren"
+    "noPipesSelected": "Selecteer eerst leidingen om klanttoewijzing uit te voeren",
+    "table": {
+      "ignoreHeader": "Negeren",
+      "ignoreLabel": "Negeren"
+    }
   },
   "import": "Importeren",
   "connected": "Verbonden"

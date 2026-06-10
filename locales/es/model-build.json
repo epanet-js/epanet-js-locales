@@ -1,0 +1,134 @@
+{
+  "attributeMapping": {
+    "buildModel": "Construir modelo",
+    "dataPreview": "Vista previa de datos",
+    "description": "Mapea las propiedades de tus datos GIS a los atributos de EPANET. Las elevaciones y la conectividad se calcularán automáticamente.",
+    "elementHeading": "Mapeo de atributos de {{1}}",
+    "noElementsAssigned": "No se han asignado elementos. Por favor, regresa y asigna archivos a los elementos.",
+    "optionalAttributes": "Atributos opcionales",
+    "recommendedAttributes": "Atributos recomendados",
+    "selectProperty": "Seleccionar propiedad...",
+    "title": "Mapear atributos"
+  },
+  "attributes": {
+    "year": "Año de instalación"
+  },
+  "buildProgress": {
+    "complete": "Construcción completa",
+    "completeEmbedded": "¡Construcción del modelo completa!",
+    "downloadModel": "Descargar modelo (.ejsdb)",
+    "durationLessThanSecond": "<1 segundo",
+    "durationSeconds_one": "{{count}} segundo",
+    "durationSeconds_other": "{{count}} segundos",
+    "ejsdbFailed": "Fallo al generar archivo .ejsdb",
+    "errorTitle": "Error de construcción",
+    "generatingEjsdb": "Generando .ejsdb...",
+    "preparing": "Preparando construcción...",
+    "progressTitle": "Progreso de construcción",
+    "readyToBuild": "Listo para construir",
+    "showLess": "Mostrar menos",
+    "showMore": "Mostrar más",
+    "statusBuilding": "Procesando tus datos y generando el modelo EPANET...",
+    "statusComplete": "¡Construcción del modelo completada con éxito!",
+    "statusError": "Ocurrió un error durante el proceso de construcción",
+    "statusReady": "Listo para construir tu modelo",
+    "successDescription": "Tu modelo EPANET ha sido generado exitosamente. Ahora puedes descargar el archivo .ejsdb.",
+    "title": "Construyendo modelo EPANET"
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ Proyección requerida para continuar"
+  },
+  "dataTable": {
+    "legendDefault": "texto en cursiva = valores predeterminados",
+    "legendLabel": "Leyenda:",
+    "legendNormal": "Texto normal = datos mapeados,",
+    "showingAll": "Mostrando todas las {{1}} características",
+    "showingFirst": "Mostrando las primeras 100 de {{1}} características",
+    "yearParseHelp": "No pudimos leer un año de este valor. Mapea una propiedad que contenga un año de 4 dígitos. Los formatos soportados incluyen: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "elements": {
+    "nodes": "Nudos",
+    "pipes": "Tuberías",
+    "pumps": "Bombas",
+    "reservoirs": "Embalses",
+    "tanks": "Tanques",
+    "valves": "Válvulas"
+  },
+  "fileDropzone": {
+    "addMoreFiles": "Añadir más archivos (GeoJSON o Shapefile)",
+    "assignedFilesCount": "Archivos asignados ({{1}})",
+    "assignToElement": "Asignar a elemento...",
+    "attributesUnavailable": "Atributos no disponibles",
+    "clickToBrowse": "o haz clic para explorar archivos (soporta múltiples archivos)",
+    "dragAndDrop": "Arrastra y suelta Shapefiles o archivos GeoJSON aquí",
+    "featureInfo": "{{1}} • {{2}} características",
+    "loadAndAssign": "Cargar y asignar archivos GIS",
+    "noCompatibleElements": "No hay elementos compatibles sin asignar.",
+    "parsing": "Analizando...",
+    "processing": "Procesando...",
+    "projectionUnknown": "Proyección desconocida (puede que necesites seleccionar una)",
+    "removeFile": "Eliminar archivo",
+    "removeShapefileGroup": "Eliminar grupo de shapefiles",
+    "selectFiles": "Seleccionar archivos",
+    "selectProjectionToMap": "Selecciona una proyección para continuar mapeando archivos",
+    "unassignAria": "Desasignar {{1}}",
+    "unassignedFilesCount": "Archivos sin asignar ({{1}})",
+    "unknownFilename": "(nombre de archivo desconocido)",
+    "waitingForShp": "Esperando .shp (geometría base)"
+  },
+  "flowUnits": {
+    "afd": "AFD (acre-pie/día)",
+    "cfs": "CFS (pie cúbico/seg)",
+    "cmd": "CMD (metro cúbico/día)",
+    "cmh": "CMH (metro cúbico/hora)",
+    "gpm": "GPM (gal/min)",
+    "imgd": "IMGD (MGD Imperial)",
+    "lpm": "LPM (litro/min)",
+    "lps": "LPS (litro/seg)",
+    "mgd": "MGD (Millones de gal/día)",
+    "mld": "MLD (Megalitro/día)"
+  },
+  "map": {
+    "clearProjection": "Borrar proyección",
+    "elementsAssigned_one": "{{count}} elemento asignado",
+    "elementsAssigned_other": "{{count}} elementos asignados",
+    "mapboxHint": "Añade tu token de Mapbox para ver el mapa real",
+    "mapboxPlaceholder": "Marcador de posición del mapa - Se requiere token de Mapbox",
+    "networkPreview": "Vista previa de la red"
+  },
+  "modelSettings": {
+    "chezyManning": "Chezy-Manning",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "flowUnits": "Unidades de caudal",
+    "hazenWilliams": "Hazen-Williams",
+    "headlossFormula": "Fórmula de pérdida de carga",
+    "title": "Configuración del modelo",
+    "tutorialAlt": "Tutorial del constructor de modelos",
+    "tutorialDescription": "Aprende a construir un modelo EPANET viendo el tutorial de arriba o ",
+    "tutorialDuration": "5:23",
+    "tutorialGuideLink": "leyendo la guía paso a paso.",
+    "tutorialTitle": "Tutorial del constructor de modelos",
+    "tutorialVideoTitle": "Tutorial de importación de datos GIS en epanet-js",
+    "unitSystem": "Sistema de unidades",
+    "unitSystemMetric": "Métrico SI",
+    "unitSystemUs": "Sistema de unidades de EE. UU."
+  },
+  "projection": {
+    "required": "Proyección requerida",
+    "searchPlaceholder": "Buscar proyección...",
+    "selectToContinue": "Selecciona una proyección para continuar mapeando archivos."
+  },
+  "stepProgress": {
+    "attributeMapping": "Mapeo de atributos",
+    "buildProgress": "Construcción del modelo",
+    "dataAssignment": "Asignación de datos",
+    "modelSettings": "Configuración del modelo"
+  },
+  "wizardActions": {
+    "back": "Atrás",
+    "cancel": "Cancelar",
+    "finish": "Finalizar",
+    "loading": "Cargando...",
+    "next": "Siguiente"
+  }
+}
