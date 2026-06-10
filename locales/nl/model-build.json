@@ -1,0 +1,134 @@
+{
+  "attributeMapping": {
+    "buildModel": "Model bouwen",
+    "dataPreview": "Gegevensvoorbeeld",
+    "description": "Koppel de eigenschappen van uw GIS-gegevens aan EPANET-attributen. Hoogtes en connectiviteit worden automatisch berekend.",
+    "elementHeading": "{{1}} attribuutkoppeling",
+    "noElementsAssigned": "Er zijn geen elementen toegewezen. Ga terug en wijs bestanden toe aan elementen.",
+    "optionalAttributes": "Optionele attributen",
+    "recommendedAttributes": "Aanbevolen attributen",
+    "selectProperty": "Selecteer eigenschap...",
+    "title": "Attribuutkoppeling"
+  },
+  "attributes": {
+    "year": "Installatiejaar"
+  },
+  "buildProgress": {
+    "complete": "Bouw voltooid",
+    "completeEmbedded": "Modelbouw voltooid!",
+    "downloadModel": "Model downloaden (.ejsdb)",
+    "durationLessThanSecond": "<1 seconde",
+    "durationSeconds_one": "{{count}} seconde",
+    "durationSeconds_other": "{{count}} seconden",
+    "ejsdbFailed": "Genereren van .ejsdb-bestand mislukt",
+    "errorTitle": "Bouwfout",
+    "generatingEjsdb": ".ejsdb genereren...",
+    "preparing": "Bouw voorbereiden...",
+    "progressTitle": "Bouwvoortgang",
+    "readyToBuild": "Klaar om te bouwen",
+    "showLess": "Minder tonen",
+    "showMore": "Meer tonen",
+    "statusBuilding": "Uw gegevens verwerken en het EPANET-model genereren...",
+    "statusComplete": "Modelbouw succesvol voltooid!",
+    "statusError": "Er is een fout opgetreden tijdens het bouwproces",
+    "statusReady": "Klaar om uw model te bouwen",
+    "successDescription": "Uw EPANET-model is succesvol gegenereerd. U kunt nu het .ejsdb-bestand downloaden.",
+    "title": "EPANET-model bouwen"
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ Projectie vereist om door te gaan"
+  },
+  "dataTable": {
+    "legendDefault": "cursieve tekst = standaardwaarden",
+    "legendLabel": "Legenda:",
+    "legendNormal": "Normale tekst = gekoppelde gegevens,",
+    "showingAll": "Alle {{1}} objecten weergeven",
+    "showingFirst": "De eerste 100 van {{1}} objecten weergeven",
+    "yearParseHelp": "We konden geen jaar lezen uit deze waarde. Koppel een eigenschap die een 4-cijferig jaar bevat. Ondersteunde formaten zijn onder andere: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "elements": {
+    "nodes": "Knooppunten",
+    "pipes": "Leidingen",
+    "pumps": "Pompen",
+    "reservoirs": "Reservoirs",
+    "tanks": "Tanks",
+    "valves": "Ventielen"
+  },
+  "fileDropzone": {
+    "addMoreFiles": "Meer bestanden toevoegen (GeoJSON of Shapefile)",
+    "assignedFilesCount": "Toegewezen bestanden ({{1}})",
+    "assignToElement": "Toewijzen aan element...",
+    "attributesUnavailable": "Attributen niet beschikbaar",
+    "clickToBrowse": "of klik om bestanden te bladeren (ondersteunt meerdere bestanden)",
+    "dragAndDrop": "Sleep Shapefiles of GeoJSON-bestanden hierheen",
+    "featureInfo": "{{1}} • {{2}} objecten",
+    "loadAndAssign": "GIS-bestanden laden & toewijzen",
+    "noCompatibleElements": "Geen compatibele, niet-toegewezen elementen.",
+    "parsing": "Parseren...",
+    "processing": "Verwerken...",
+    "projectionUnknown": "Projectie onbekend (mogelijk moet u er een selecteren)",
+    "removeFile": "Bestand verwijderen",
+    "removeShapefileGroup": "Shapefile-groep verwijderen",
+    "selectFiles": "Bestanden selecteren",
+    "selectProjectionToMap": "Selecteer een projectie om door te gaan met het toewijzen van bestanden",
+    "unassignAria": "Toewijzing van {{1}} opheffen",
+    "unassignedFilesCount": "Niet-toegewezen bestanden ({{1}})",
+    "unknownFilename": "(onbekende bestandsnaam)",
+    "waitingForShp": "Wachten op .shp (basisgeometrie)"
+  },
+  "flowUnits": {
+    "afd": "AFD (ac-foot/dag)",
+    "cfs": "CFS (kubieke foot/sec)",
+    "cmd": "CMD (kubieke meter/dag)",
+    "cmh": "CMH (kubieke meter/uur)",
+    "gpm": "GPM (gal/min)",
+    "imgd": "IMGD (Imperiale MGD)",
+    "lpm": "LPM (liter/min)",
+    "lps": "LPS (liter/sec)",
+    "mgd": "MGD (Miljoen gal/dag)",
+    "mld": "MLD (Megaliter/dag)"
+  },
+  "map": {
+    "clearProjection": "Projectie wissen",
+    "elementsAssigned_one": "{{count}} element toegewezen",
+    "elementsAssigned_other": "{{count}} elementen toegewezen",
+    "mapboxHint": "Voeg uw Mapbox-token toe om de werkelijke kaart te zien",
+    "mapboxPlaceholder": "Kaart placeholder - Mapbox-token vereist",
+    "networkPreview": "Netwerkvoorbeeld"
+  },
+  "modelSettings": {
+    "chezyManning": "Chezy-Manning",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "flowUnits": "Stromingseenheden",
+    "hazenWilliams": "Hazen-Williams",
+    "headlossFormula": "Formule voor drukverlies",
+    "title": "Modelinstellingen",
+    "tutorialAlt": "Handleiding modelbouwer",
+    "tutorialDescription": "Leer hoe u een EPANET-model bouwt door de bovenstaande handleiding te bekijken of ",
+    "tutorialDuration": "5:23",
+    "tutorialGuideLink": "de stap-voor-stap handleiding te lezen.",
+    "tutorialTitle": "Handleiding modelbouwer",
+    "tutorialVideoTitle": "epanet-js importeerhandleiding GIS-gegevens",
+    "unitSystem": "Eenhedenstelsel",
+    "unitSystemMetric": "SI metrisch",
+    "unitSystemUs": "US customary"
+  },
+  "projection": {
+    "required": "Projectie vereist",
+    "searchPlaceholder": "Zoek naar projectie...",
+    "selectToContinue": "Selecteer een projectie om door te gaan met het toewijzen van bestanden."
+  },
+  "stepProgress": {
+    "attributeMapping": "Attribuutkoppeling",
+    "buildProgress": "Modelbouw",
+    "dataAssignment": "Gegevenstoewijzing",
+    "modelSettings": "Modelinstellingen"
+  },
+  "wizardActions": {
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "finish": "Voltooien",
+    "loading": "Laden...",
+    "next": "Volgende"
+  }
+}

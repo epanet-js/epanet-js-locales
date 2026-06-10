@@ -1482,7 +1482,11 @@
       "noCustomerPoints": "Não há pontos de consumo na rede. Você gostaria de importá-los primeiro?",
       "title": "Nenhum ponto de consumo encontrado"
     },
-    "noPipesSelected": "Selecione as tubulações para realizar a alocação de clientes primeiro"
+    "noPipesSelected": "Selecione as tubulações para realizar a alocação de clientes primeiro",
+    "table": {
+      "ignoreHeader": "Ignorar",
+      "ignoreLabel": "Ignorar"
+    }
   },
   "import": "Importar",
   "connected": "Conectado"

@@ -1,0 +1,134 @@
+{
+  "attributeMapping": {
+    "buildModel": "モデルを構築",
+    "dataPreview": "データプレビュー",
+    "description": "GISデータからのプロパティをEPANET属性にマッピングします。標高と接続性は自動的に計算されます。",
+    "elementHeading": "{{1}} 属性マッピング",
+    "noElementsAssigned": "要素は割り当てられていません。戻ってファイルと要素を割り当ててください。",
+    "optionalAttributes": "オプション属性",
+    "recommendedAttributes": "推奨属性",
+    "selectProperty": "プロパティを選択...",
+    "title": "属性をマップ"
+  },
+  "attributes": {
+    "year": "設置年"
+  },
+  "buildProgress": {
+    "complete": "ビルド完了",
+    "completeEmbedded": "モデルのビルドが完了しました！",
+    "downloadModel": "モデルをダウンロード (.ejsdb)",
+    "durationLessThanSecond": "1秒未満",
+    "durationSeconds_one": "{{count}} 秒",
+    "durationSeconds_other": "{{count}} 秒",
+    "ejsdbFailed": ".ejsdb ファイルの生成に失敗しました",
+    "errorTitle": "ビルドエラー",
+    "generatingEjsdb": ".ejsdb を生成中...",
+    "preparing": "ビルドを準備中...",
+    "progressTitle": "ビルドの進捗状況",
+    "readyToBuild": "ビルド準備完了",
+    "showLess": "少なく表示",
+    "showMore": "さらに表示",
+    "statusBuilding": "データを処理し、EPANETモデルを生成中...",
+    "statusComplete": "モデルのビルドが正常に完了しました！",
+    "statusError": "ビルドプロセス中にエラーが発生しました",
+    "statusReady": "モデルをビルドする準備ができました",
+    "successDescription": "EPANETモデルが正常に生成されました。.ejsdbファイルをダウンロードできます。",
+    "title": "EPANETモデルをビルド中"
+  },
+  "dataAssignment": {
+    "projectionRequired": "⚠️ 続行するには投影が必要です"
+  },
+  "dataTable": {
+    "legendDefault": "斜体テキスト = デフォルト値",
+    "legendLabel": "凡例:",
+    "legendNormal": "通常テキスト = マップされたデータ,",
+    "showingAll": "すべての {{1}} フィーチャを表示",
+    "showingFirst": "{{1}} フィーチャのうち最初の100件を表示",
+    "yearParseHelp": "この値から年を読み取ることができませんでした。4桁の年を含むプロパティをマッピングしてください。サポートされている形式は次のとおりです: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+  },
+  "elements": {
+    "nodes": "接点",
+    "pipes": "管",
+    "pumps": "ポンプ",
+    "reservoirs": "貯水池",
+    "tanks": "配水池",
+    "valves": "弁"
+  },
+  "fileDropzone": {
+    "addMoreFiles": "さらにファイルを追加 (GeoJSON または Shapefile)",
+    "assignedFilesCount": "割り当て済みファイル ({{1}})",
+    "assignToElement": "要素に割り当てる...",
+    "attributesUnavailable": "属性利用不可",
+    "clickToBrowse": "またはクリックしてファイルを参照 (複数ファイル対応)",
+    "dragAndDrop": "ShapefileまたはGeoJSONファイルをここにドラッグアンドドロップ",
+    "featureInfo": "{{1}} • {{2}} フィーチャ",
+    "loadAndAssign": "GISファイルを読み込み＆割り当て",
+    "noCompatibleElements": "互換性のある未割り当て要素がありません。",
+    "parsing": "解析中...",
+    "processing": "処理中...",
+    "projectionUnknown": "投影不明 (選択する必要があるかもしれません)",
+    "removeFile": "ファイルを削除",
+    "removeShapefileGroup": "シェープファイルグループを削除",
+    "selectFiles": "ファイルを選択",
+    "selectProjectionToMap": "ファイルをマッピングし続けるには投影を選択してください",
+    "unassignAria": "{{1}} の割り当てを解除",
+    "unassignedFilesCount": "未割り当てファイル ({{1}})",
+    "unknownFilename": "(不明なファイル名)",
+    "waitingForShp": ".shp (ベースジオメトリ) を待機中"
+  },
+  "flowUnits": {
+    "afd": "AFD (ac-foot/day)",
+    "cfs": "CFS (cu foot/sec)",
+    "cmd": "CMD (cubic meter/day)",
+    "cmh": "CMH (cubic meter/hr)",
+    "gpm": "GPM (gal/min)",
+    "imgd": "IMGD (Imperial MGD)",
+    "lpm": "LPM (liter/min)",
+    "lps": "LPS (liter/sec)",
+    "mgd": "MGD (Million gal/day)",
+    "mld": "MLD (Megaliter/day)"
+  },
+  "map": {
+    "clearProjection": "投影をクリア",
+    "elementsAssigned_one": "{{count}} 要素が割り当てられました",
+    "elementsAssigned_other": "{{count}} 要素が割り当てられました",
+    "mapboxHint": "Mapboxトークンを追加して実際のマップを表示",
+    "mapboxPlaceholder": "マッププレースホルダー - Mapboxトークンが必要です",
+    "networkPreview": "ネットワークプレビュー"
+  },
+  "modelSettings": {
+    "chezyManning": "Chezy-Manning",
+    "darcyWeisbach": "Darcy-Weisbach",
+    "flowUnits": "流量単位",
+    "hazenWilliams": "Hazen-Williams",
+    "headlossFormula": "損失水頭計算式",
+    "title": "モデル設定",
+    "tutorialAlt": "モデルビルダーチュートリアル",
+    "tutorialDescription": "上記のチュートリアルを視聴するか、",
+    "tutorialDuration": "5:23",
+    "tutorialGuideLink": "ステップバイステップガイドを読む。",
+    "tutorialTitle": "モデルビルダーチュートリアル",
+    "tutorialVideoTitle": "epanet-js GISデータからのインポートチュートリアル",
+    "unitSystem": "単位系",
+    "unitSystemMetric": "SIメートル法",
+    "unitSystemUs": "US慣習"
+  },
+  "projection": {
+    "required": "投影が必要です",
+    "searchPlaceholder": "投影を検索...",
+    "selectToContinue": "ファイルをマッピングし続けるには、投影を選択してください。"
+  },
+  "stepProgress": {
+    "attributeMapping": "属性マッピング",
+    "buildProgress": "モデルのビルド",
+    "dataAssignment": "データ割り当て",
+    "modelSettings": "モデル設定"
+  },
+  "wizardActions": {
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "finish": "完了",
+    "loading": "読み込み中...",
+    "next": "次へ"
+  }
+}

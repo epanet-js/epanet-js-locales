@@ -1489,7 +1489,11 @@
       "noCustomerPoints": "No hay puntos de consumo en la red. ¿Te gustaría importarlos primero?",
       "title": "No se encontraron puntos de consumo"
     },
-    "noPipesSelected": "Selecciona las tuberías primero para asignar los puntos de consumo"
+    "noPipesSelected": "Selecciona las tuberías primero para asignar los puntos de consumo",
+    "table": {
+      "ignoreHeader": "Ignorar",
+      "ignoreLabel": "Ignorar"
+    }
   },
   "import": "Importar",
   "connected": "Conectado"

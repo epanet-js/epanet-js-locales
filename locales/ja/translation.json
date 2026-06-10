@@ -1482,7 +1482,11 @@
       "noCustomerPoints": "ネットワークに顧客ポイントがありません。最初にインポートしますか？",
       "title": "顧客ポイントが見つかりませんでした"
     },
-    "noPipesSelected": "顧客割り当てを行うには、まず管を選択してください"
+    "noPipesSelected": "顧客割り当てを行うには、まず管を選択してください",
+    "table": {
+      "ignoreHeader": "無視",
+      "ignoreLabel": "無視"
+    }
   },
   "import": "インポート",
   "connected": "接続済み"
