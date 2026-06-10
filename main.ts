@@ -1,9 +1,10 @@
 /**
- * Orchestrates the full translation workflow:
+ * Orchestrates the full translation workflow across one or more sources:
  * - init i18next
- * - fetch live EN, read local EN
- * - per-language: diff, translate via array-in/out, validate
- * - all-or-nothing atomic write for every language + sync local EN
+ * - per source: fetch live EN, read local EN, per-language diff/translate/validate,
+ *   then all-or-nothing atomic write for that source + sync its local EN
+ * Each source writes only its own namespace file (e.g. translation.json,
+ * model-build.json), so sources never affect each other's output.
  */
 
 import path from "path";
@@ -14,6 +15,8 @@ import {
   LOCALES_DIR,
   DEFAULT_NS,
   TARGET_LANGUAGES,
+  TRANSLATION_SOURCES,
+  type TranslationSource,
   IS_GITHUB_ACTIONS,
   SLACK_OUTPUT_FILE,
 } from "./translate/config";
@@ -22,7 +25,6 @@ import { translateValues } from "./translate/llm";
 import { diffKeys, diffEnglishChanges } from "./translate/diff";
 import { deleteAtPath, setAtPath } from "./translate/walkers";
 import {
-  slackLog,
   slackLogLanguage,
   slackLogError,
   slackSetCommitUrl,
@@ -31,54 +33,34 @@ import {
   slackReset,
 } from "./translate/slack-data";
 
-export async function run(languageCode?: string) {
-  console.log("Starting translation workflow...");
+// Translate a single source into locales/{lng}/{source.namespace}.json.
+// Returns true if any language failed (matching the prior per-language behavior).
+async function processSource(
+  source: TranslationSource,
+  languageCode?: string,
+): Promise<boolean> {
+  console.log(`\n=== Source: ${source.name} (${source.namespace}) ===`);
 
-  // Initialize Slack data collection
-  slackReset();
-
-  await initI18n();
-
-  // 1) Fetch live EN & load local EN
-  const response = await fetch(LIVE_ENGLISH_URL);
+  // 1) Fetch live EN & load local EN (per source namespace)
+  const response = await fetch(source.liveUrl);
   if (!response.ok) {
     throw new Error(
-      `Failed to fetch live EN: ${response.status} ${response.statusText}`,
+      `Failed to fetch live EN for ${source.name}: ${response.status} ${response.statusText}`,
     );
   }
   const liveEN = (await response.json()) as JSONObject;
-  const localENPath = path.join(LOCALES_DIR, "en", `${DEFAULT_NS}.json`);
+  const localENPath = path.join(LOCALES_DIR, "en", `${source.namespace}.json`);
   const localEN = await readJson(localENPath);
 
-  // Detect English changes for Slack notifications
+  // Detect English changes for Slack notifications (collector accumulates per source)
   const englishChanges = diffEnglishChanges(liveEN, localEN);
   slackSetEnglishChanges({
     addedKeys: englishChanges.addedKeys.map((p) => p.join(".")),
     removedKeys: englishChanges.removedKeys.map((p) => p.join(".")),
     modifiedKeys: englishChanges.modifiedKeys.map((p) => p.join(".")),
     sampleStrings: [],
-    //sampleStrings: [
-    //  ...englishChanges.addedValues.slice(0, 3).map((value, i) => ({
-    //    key: englishChanges.addedKeys[i].join("."),
-    //    value,
-    //  })),
-    //  ...englishChanges.modifiedValues.slice(0, 2).map((mod) => ({
-    //    key: mod.key.join("."),
-    //    value: mod.newValue,
-    //  })),
-    //].slice(0, 5), // Limit to 5 sample strings
   });
 
-  // Set commit URL for Slack notifications
-  const commitUrl =
-    IS_GITHUB_ACTIONS && process.env.GITHUB_SHA && process.env.GITHUB_REPOSITORY
-      ? `${process.env.GITHUB_SERVER_URL || "https://github.com"}/${
-          process.env.GITHUB_REPOSITORY
-        }/commit/${process.env.GITHUB_SHA}`
-      : LIVE_ENGLISH_URL; // Fallback to live EN URL for local development
-  slackSetCommitUrl(commitUrl);
-
-  // Filter languages based on languageCode parameter
   const languagesToProcess = languageCode
     ? TARGET_LANGUAGES.filter((lang) => lang.code === languageCode)
     : TARGET_LANGUAGES;
@@ -91,98 +73,138 @@ export async function run(languageCode?: string) {
     );
   }
 
+  // Non-default sources (model-build) reuse the app's existing translations as a
+  // terminology glossary so shared terms match the app. Read-only — never written.
+  const usesAppGlossary = source.namespace !== DEFAULT_NS;
+
   const proposed: { langCode: string; filePath: string; data: JSONObject }[] =
     [];
+  let hasErrors = false;
+
+  for (const lang of languagesToProcess) {
+    console.log(`\n--- Processing ${lang.name} (${lang.code}) ---`);
+
+    const targetPath = path.join(
+      LOCALES_DIR,
+      lang.code,
+      `${source.namespace}.json`,
+    );
+    const targetJson = await readJson(targetPath);
+
+    const { deleted, toTranslatePaths, toTranslateValues } = diffKeys(
+      liveEN,
+      localEN,
+      targetJson,
+    );
+
+    console.log(
+      `[SUMMARY] ${toTranslateValues.length} strings to translate (${lang.code}), ${deleted.length} keys to delete`,
+    );
+
+    slackLogLanguage(lang.code, {
+      langCode: lang.code,
+      langName: lang.name,
+      stringsTranslated: toTranslateValues.length,
+      keysDeleted: deleted.length,
+      addedKeys: toTranslatePaths.map((p) => p.join(".")),
+      deletedKeys: deleted.map((p) => p.join(".")),
+    });
+
+    try {
+      const glossary = usesAppGlossary
+        ? await readJson(
+            path.join(LOCALES_DIR, lang.code, `${DEFAULT_NS}.json`),
+          )
+        : undefined;
+
+      const translatedValues =
+        toTranslateValues.length > 0
+          ? await translateValues(
+              toTranslateValues,
+              lang,
+              liveEN,
+              targetJson,
+              glossary,
+            )
+          : [];
+
+      const updated = JSON.parse(JSON.stringify(targetJson)) as JSONObject;
+
+      for (const p of deleted) deleteAtPath(updated, p);
+      for (let i = 0; i < toTranslatePaths.length; i++) {
+        setAtPath(updated, toTranslatePaths[i], translatedValues[i]);
+      }
+
+      // Collect sample translations for Slack (Spanish only)
+      if (lang.code === "es" && toTranslateValues.length > 0) {
+        const sampleTranslations = toTranslateValues.map((original, i) => ({
+          key: toTranslatePaths[i].join("."),
+          english: original,
+          translated: translatedValues[i],
+        }));
+        slackLogLanguage(lang.code, { sampleTranslations });
+      }
+
+      proposed.push({
+        langCode: lang.code,
+        filePath: targetPath,
+        data: updated,
+      });
+    } catch (translationError: any) {
+      hasErrors = true;
+      const errorMessage =
+        translationError?.message || String(translationError);
+      console.error(`❌ Translation failed for ${lang.code}:`, errorMessage);
+      slackLogError(
+        `Translation failed for ${lang.code} (${source.namespace}): ${errorMessage}`,
+      );
+      // Continue with other languages instead of aborting
+      continue;
+    }
+  }
+
+  if (DRY_RUN) {
+    console.log(
+      `\n[DRY_RUN] ${source.name}: ${languagesToProcess.length} language(s) processed. No files written.`,
+    );
+  } else {
+    for (const p of proposed) {
+      await writeJsonAtomic(p.filePath, p.data);
+      console.log(`✅ Wrote ${p.langCode}/${source.namespace}.json`);
+    }
+    // Only sync local EN if processing all languages
+    if (!languageCode) {
+      await writeJsonAtomic(localENPath, liveEN);
+      console.log(`✅ Synced local EN to ${source.liveUrl}`);
+    }
+  }
+
+  return hasErrors;
+}
+
+export async function run(languageCode?: string) {
+  console.log("Starting translation workflow...");
+
+  // Initialize Slack data collection
+  slackReset();
+
+  await initI18n();
+
+  // Set commit URL for Slack notifications (shared across sources)
+  const commitUrl =
+    IS_GITHUB_ACTIONS && process.env.GITHUB_SHA && process.env.GITHUB_REPOSITORY
+      ? `${process.env.GITHUB_SERVER_URL || "https://github.com"}/${
+          process.env.GITHUB_REPOSITORY
+        }/commit/${process.env.GITHUB_SHA}`
+      : LIVE_ENGLISH_URL; // Fallback to live EN URL for local development
+  slackSetCommitUrl(commitUrl);
 
   let hasErrors = false;
-  let errorMessage = "";
 
   try {
-    for (const lang of languagesToProcess) {
-      console.log(`\n--- Processing ${lang.name} (${lang.code}) ---`);
-
-      const targetPath = path.join(
-        LOCALES_DIR,
-        lang.code,
-        `${DEFAULT_NS}.json`,
-      );
-      const targetJson = await readJson(targetPath);
-
-      const { deleted, toTranslatePaths, toTranslateValues } = diffKeys(
-        liveEN,
-        localEN,
-        targetJson,
-      );
-
-      console.log(
-        `[SUMMARY] ${toTranslateValues.length} strings to translate (${lang.code}), ${deleted.length} keys to delete`,
-      );
-
-      // Collect language processing data for Slack
-      slackLogLanguage(lang.code, {
-        langCode: lang.code,
-        langName: lang.name,
-        stringsTranslated: toTranslateValues.length,
-        keysDeleted: deleted.length,
-        addedKeys: toTranslatePaths.map((p) => p.join(".")),
-        deletedKeys: deleted.map((p) => p.join(".")),
-      });
-
-      try {
-        const translatedValues =
-          toTranslateValues.length > 0
-            ? await translateValues(toTranslateValues, lang, liveEN, targetJson)
-            : [];
-
-        const updated = JSON.parse(JSON.stringify(targetJson)) as JSONObject;
-
-        for (const p of deleted) deleteAtPath(updated, p);
-        for (let i = 0; i < toTranslatePaths.length; i++) {
-          setAtPath(updated, toTranslatePaths[i], translatedValues[i]);
-        }
-
-        // Collect sample translations for Slack (Spanish only)
-        if (lang.code === "es" && toTranslateValues.length > 0) {
-          const sampleTranslations = toTranslateValues.map((original, i) => ({
-            key: toTranslatePaths[i].join("."),
-            english: original,
-            translated: translatedValues[i],
-          }));
-          slackLogLanguage(lang.code, { sampleTranslations });
-        }
-
-        proposed.push({
-          langCode: lang.code,
-          filePath: targetPath,
-          data: updated,
-        });
-      } catch (translationError: any) {
-        hasErrors = true;
-        errorMessage = translationError?.message || String(translationError);
-        console.error(`❌ Translation failed for ${lang.code}:`, errorMessage);
-
-        // Log error for Slack notifications
-        slackLogError(`Translation failed for ${lang.code}: ${errorMessage}`);
-
-        // Continue with other languages instead of aborting
-        continue;
-      }
-    }
-
-    if (DRY_RUN) {
-      console.log(
-        `\n[DRY_RUN] ${languagesToProcess.length} language(s) processed successfully. No files written.`,
-      );
-    } else {
-      for (const p of proposed) {
-        await writeJsonAtomic(p.filePath, p.data);
-        console.log(`✅ Wrote ${p.langCode}/${DEFAULT_NS}.json`);
-      }
-      // Only sync local EN if processing all languages
-      if (!languageCode) {
-        await writeJsonAtomic(localENPath, liveEN);
-        console.log(`✅ Synced local EN to ${LIVE_ENGLISH_URL}`);
-      }
+    for (const source of TRANSLATION_SOURCES) {
+      const sourceHadErrors = await processSource(source, languageCode);
+      hasErrors = hasErrors || sourceHadErrors;
     }
 
     if (hasErrors) {

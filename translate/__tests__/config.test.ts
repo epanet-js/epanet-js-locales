@@ -48,4 +48,19 @@ describe("Slack Configuration", () => {
     expect(config.SLACK_MAX_CHARACTERS).toBeDefined();
     expect(config.SLACK_TRUNCATE_SUFFIX).toBeDefined();
   });
+
+  it("should expose translation sources for the app and model-build", async () => {
+    const { TRANSLATION_SOURCES } = await import("../config");
+
+    const byNamespace = Object.fromEntries(
+      TRANSLATION_SOURCES.map((s) => [s.namespace, s]),
+    );
+    expect(byNamespace["translation"]).toBeDefined();
+    expect(byNamespace["model-build"]).toBeDefined();
+
+    for (const source of TRANSLATION_SOURCES) {
+      expect(typeof source.liveUrl).toBe("string");
+      expect(source.liveUrl.length).toBeGreaterThan(0);
+    }
+  });
 });

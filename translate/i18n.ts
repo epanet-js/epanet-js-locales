@@ -7,7 +7,7 @@ export async function initI18n() {
   await i18next.use(FsBackend).init({
     fallbackLng: "en",
     lng: "en",
-    ns: [DEFAULT_NS],
+    ns: [DEFAULT_NS, "model-build"],
     defaultNS: DEFAULT_NS,
     backend: {
       loadPath: path.join(LOCALES_DIR, "{{lng}}/{{ns}}.json"),

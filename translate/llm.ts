@@ -20,7 +20,12 @@ function buildPrompt(
   langName: string,
   liveEN: JSONObject,
   target: JSONObject,
+  glossary?: JSONObject,
 ) {
+  const glossaryBlock = glossary
+    ? `Preferred existing translations of shared terms — reuse this exact wording whenever a term matches, for consistency with the rest of the product:
+${JSON.stringify(glossary, null, 2)}`
+    : "";
   return `
 You are a professional UI translator. Translate each English UI string into ${langName}.
 Return ONLY valid JSON: a single array of strings, same length and order as the input array.
@@ -32,7 +37,7 @@ Rules:
 
 Full English JSON (context):
 ${JSON.stringify(liveEN, null, 2)}
-
+${glossaryBlock}
 Existing ${langName} JSON (context):
 ${JSON.stringify(target, null, 2)}
 
@@ -46,10 +51,11 @@ async function callLLMArray(
   lang: TargetLang,
   liveEN: JSONObject,
   target: JSONObject,
+  glossary?: JSONObject,
 ): Promise<string[]> {
   if (values.length === 0) return [];
 
-  const prompt = buildPrompt(values, lang.name, liveEN, target);
+  const prompt = buildPrompt(values, lang.name, liveEN, target, glossary);
   vlog(`LLM prompt for ${lang.code}`, prompt);
 
   const req = {
@@ -93,12 +99,13 @@ export async function translateValues(
   lang: TargetLang,
   liveEN: JSONObject,
   target: JSONObject,
+  glossary?: JSONObject,
 ): Promise<string[]> {
   const pieces = chunk(values, CHUNK_SIZE);
   const results: string[] = [];
   for (let i = 0; i < pieces.length; i++) {
     const translated = await retry(
-      () => callLLMArray(pieces[i], lang, liveEN, target),
+      () => callLLMArray(pieces[i], lang, liveEN, target, glossary),
       MAX_RETRIES,
       RETRY_BASE_MS,
     );

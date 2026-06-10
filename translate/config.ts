@@ -9,8 +9,30 @@ if (!API_KEY) throw new Error("GEMINI_API_KEY environment variable not set.");
 export const LIVE_ENGLISH_URL =
   "https://app.epanetjs.com/locales/en/translation.json";
 
+export const MODEL_BUILD_ENGLISH_URL =
+  process.env.MODEL_BUILD_ENGLISH_URL ??
+  "https://monorepo-model-build.vercel.app/locales/en/translation.json";
+
 export const LOCALES_DIR = path.join(process.cwd(), "locales");
 export const DEFAULT_NS = "translation";
+
+export type TranslationSource = {
+  name: string;
+  liveUrl: string;
+  namespace: string;
+};
+
+// Each source's English is pulled from its live deploy and translated into
+// locales/{lng}/{namespace}.json. The app and model-build are independent: a source
+// only ever reads/writes its own namespace file.
+export const TRANSLATION_SOURCES: TranslationSource[] = [
+  { name: "App", liveUrl: LIVE_ENGLISH_URL, namespace: DEFAULT_NS },
+  {
+    name: "Model builder",
+    liveUrl: MODEL_BUILD_ENGLISH_URL,
+    namespace: "model-build",
+  },
+];
 
 export type TargetLang = { code: string; name: string };
 

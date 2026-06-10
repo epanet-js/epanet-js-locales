@@ -83,7 +83,22 @@ export class SlackDataCollector {
       sampleTranslations: [],
     };
 
-    this.languageData.set(langCode, { ...existing, ...data });
+    // Accumulate so multiple sources (e.g. app + model-build) reporting the same
+    // language sum their counts instead of overwriting each other.
+    this.languageData.set(langCode, {
+      langCode: data.langCode ?? existing.langCode,
+      langName: data.langName ?? existing.langName,
+      stringsTranslated:
+        existing.stringsTranslated + (data.stringsTranslated ?? 0),
+      keysDeleted: existing.keysDeleted + (data.keysDeleted ?? 0),
+      addedKeys: [...existing.addedKeys, ...(data.addedKeys ?? [])],
+      modifiedKeys: [...existing.modifiedKeys, ...(data.modifiedKeys ?? [])],
+      deletedKeys: [...existing.deletedKeys, ...(data.deletedKeys ?? [])],
+      sampleTranslations: [
+        ...existing.sampleTranslations,
+        ...(data.sampleTranslations ?? []),
+      ],
+    });
   }
 
   /**
@@ -104,7 +119,20 @@ export class SlackDataCollector {
    * Set English changes data
    */
   setEnglishChanges(changes: EnglishChangesData): void {
-    this.englishChanges = changes;
+    // Accumulate across sources rather than replace, so a later source does not
+    // wipe an earlier source's reported English changes.
+    this.englishChanges = {
+      addedKeys: [...this.englishChanges.addedKeys, ...changes.addedKeys],
+      removedKeys: [...this.englishChanges.removedKeys, ...changes.removedKeys],
+      modifiedKeys: [
+        ...this.englishChanges.modifiedKeys,
+        ...changes.modifiedKeys,
+      ],
+      sampleStrings: [
+        ...this.englishChanges.sampleStrings,
+        ...changes.sampleStrings,
+      ],
+    };
   }
 
   /**

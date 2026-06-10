@@ -50,6 +50,13 @@ vi.mock("../config", () => ({
   LIVE_ENGLISH_URL: "https://fake/live/en.json",
   LOCALES_DIR: "/tmp/locales",
   DEFAULT_NS: "translation",
+  TRANSLATION_SOURCES: [
+    {
+      name: "App",
+      liveUrl: "https://fake/live/en.json",
+      namespace: "translation",
+    },
+  ],
   TARGET_LANGUAGES: [{ code: "es", name: "Español (ES)" }],
   VERBOSE: false,
   DRY_RUN: false,
