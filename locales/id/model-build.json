@@ -11,7 +11,20 @@
     "title": "Petakan atribut"
   },
   "attributes": {
-    "year": "Tahun pemasangan"
+    "year": "Tahun pemasangan",
+    "diameter": "Diameter",
+    "head": "Head",
+    "id": "ID",
+    "initLevel": "Level awal",
+    "material": "Material",
+    "maxLevel": "Level maks",
+    "minLevel": "Level min",
+    "minorLoss": "Koef. rugi",
+    "minVolume": "Volume min",
+    "roughness": "Kekasaran",
+    "setting": "Pengaturan",
+    "status": "Status",
+    "type": "Jenis"
   },
   "buildProgress": {
     "complete": "Pembangunan selesai",
@@ -116,7 +129,11 @@
   "projection": {
     "required": "Proyeksi diperlukan",
     "searchPlaceholder": "Cari proyeksi...",
-    "selectToContinue": "Pilih proyeksi untuk melanjutkan pemetaan file."
+    "selectToContinue": "Pilih proyeksi untuk melanjutkan pemetaan file.",
+    "loading": "Memuat proyeksi...",
+    "noResults": "Tidak ada proyeksi ditemukan.",
+    "searchHint": "Mulai mengetik untuk mencari proyeksi Anda, misalnya `27700` atau \"British National Grid\".",
+    "selectPlaceholder": "Pilih proyeksi..."
   },
   "stepProgress": {
     "attributeMapping": "Pemetaan atribut",

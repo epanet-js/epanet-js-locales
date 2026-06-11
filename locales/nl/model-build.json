@@ -11,7 +11,20 @@
     "title": "Attributen koppelen"
   },
   "attributes": {
-    "year": "Installatiejaar"
+    "year": "Installatiejaar",
+    "diameter": "Diameter",
+    "head": "Opvoerhoogte",
+    "id": "ID",
+    "initLevel": "Initieel niveau",
+    "material": "Materiaal",
+    "maxLevel": "Max niveau",
+    "minLevel": "Min niveau",
+    "minorLoss": "Verliescoëff.",
+    "minVolume": "Min volume",
+    "roughness": "Ruwheid",
+    "setting": "Instelling",
+    "status": "Status",
+    "type": "Type"
   },
   "buildProgress": {
     "complete": "Build voltooid",
@@ -36,7 +49,7 @@
     "title": "EPANET-model bouwen"
   },
   "dataAssignment": {
-    "projectionRequired": "⚠️ Projectie vereist om door te gaan"
+    "projectionRequired": "Projectie vereist om door te gaan"
   },
   "dataTable": {
     "legendDefault": "cursieve tekst = standaardwaarden",
@@ -116,7 +129,11 @@
   "projection": {
     "required": "Projectie vereist",
     "searchPlaceholder": "Zoeken naar projectie...",
-    "selectToContinue": "Selecteer een projectie om door te gaan met het toewijzen van bestanden."
+    "selectToContinue": "Selecteer een projectie om door te gaan met het toewijzen van bestanden.",
+    "loading": "Projecties laden...",
+    "noResults": "Geen projectie gevonden.",
+    "searchHint": "Begin te typen om naar uw projectie te zoeken, bijvoorbeeld `27700` of \"British National Grid\".",
+    "selectPlaceholder": "Selecteer projectie..."
   },
   "stepProgress": {
     "attributeMapping": "Attribuutkoppeling",

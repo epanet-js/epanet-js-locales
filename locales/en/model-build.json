@@ -23,7 +23,7 @@
     "tutorialGuideLink": "reading the step-by-step guide."
   },
   "dataAssignment": {
-    "projectionRequired": "⚠️ Projection required to continue"
+    "projectionRequired": "Projection required to continue"
   },
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
@@ -106,7 +106,11 @@
   "projection": {
     "required": "Projection required",
     "selectToContinue": "Select a projection to continue mapping files.",
-    "searchPlaceholder": "Search for projection..."
+    "searchPlaceholder": "Search for projection...",
+    "selectPlaceholder": "Select projection...",
+    "loading": "Loading projections...",
+    "noResults": "No projection found.",
+    "searchHint": "Start typing to search for your projection, for example `27700` or \"British National Grid\"."
   },
   "elements": {
     "pipes": "Pipes",
@@ -129,6 +133,19 @@
     "cmd": "CMD (cubic meter/day)"
   },
   "attributes": {
+    "id": "ID",
+    "diameter": "Diameter",
+    "roughness": "Roughness",
+    "minorLoss": "Minor loss",
+    "status": "Status",
+    "material": "Material",
+    "type": "Type",
+    "setting": "Setting",
+    "initLevel": "Initial level",
+    "minLevel": "Min level",
+    "maxLevel": "Max level",
+    "minVolume": "Min volume",
+    "head": "Head",
     "year": "Year of installation"
   }
 }

@@ -11,7 +11,20 @@
     "title": "Mapear atributos"
   },
   "attributes": {
-    "year": "Ano de instalação"
+    "year": "Ano de instalação",
+    "diameter": "Diâmetro",
+    "head": "Carga",
+    "id": "ID",
+    "initLevel": "Nível Inicial",
+    "material": "Material",
+    "maxLevel": "Nível Máx.",
+    "minLevel": "Nível Mín.",
+    "minorLoss": "Perda Menor",
+    "minVolume": "Volume Mín.",
+    "roughness": "Rugosidade",
+    "setting": "Ajuste",
+    "status": "Estado",
+    "type": "Tipo"
   },
   "buildProgress": {
     "complete": "Compilação concluída",
@@ -116,7 +129,11 @@
   "projection": {
     "required": "Projeção necessária",
     "searchPlaceholder": "Buscar projeção...",
-    "selectToContinue": "Selecione uma projeção para continuar mapeando arquivos."
+    "selectToContinue": "Selecione uma projeção para continuar mapeando arquivos.",
+    "loading": "Carregando projeções...",
+    "noResults": "Nenhuma projeção encontrada.",
+    "searchHint": "Comece a digitar para buscar sua projeção, por exemplo `27700` ou \"British National Grid\".",
+    "selectPlaceholder": "Selecionar projeção..."
   },
   "stepProgress": {
     "attributeMapping": "Mapeamento de atributos",

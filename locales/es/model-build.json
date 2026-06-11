@@ -11,7 +11,20 @@
     "title": "Mapear atributos"
   },
   "attributes": {
-    "year": "Año de instalación"
+    "year": "Año de instalación",
+    "diameter": "Diámetro",
+    "head": "Carga",
+    "id": "ID",
+    "initLevel": "Nivel inicial",
+    "material": "Material",
+    "maxLevel": "Nivel máx.",
+    "minLevel": "Nivel mín.",
+    "minorLoss": "Coef. de pérdidas",
+    "minVolume": "Volumen mín.",
+    "roughness": "Rugosidad",
+    "setting": "Ajuste",
+    "status": "Estado",
+    "type": "Tipo"
   },
   "buildProgress": {
     "complete": "Construcción completa",
@@ -36,7 +49,7 @@
     "title": "Construyendo modelo EPANET"
   },
   "dataAssignment": {
-    "projectionRequired": "⚠️ Proyección requerida para continuar"
+    "projectionRequired": "Proyección requerida para continuar"
   },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
@@ -116,7 +129,11 @@
   "projection": {
     "required": "Proyección requerida",
     "searchPlaceholder": "Buscar proyección...",
-    "selectToContinue": "Selecciona una proyección para continuar mapeando archivos."
+    "selectToContinue": "Selecciona una proyección para continuar mapeando archivos.",
+    "loading": "Cargando proyecciones...",
+    "noResults": "No se encontró proyección.",
+    "searchHint": "Empieza a escribir para buscar tu proyección, por ejemplo `27700` o \"British National Grid\".",
+    "selectPlaceholder": "Seleccionar proyección..."
   },
   "stepProgress": {
     "attributeMapping": "Mapeo de atributos",

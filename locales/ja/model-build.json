@@ -11,7 +11,20 @@
     "title": "属性マッピング"
   },
   "attributes": {
-    "year": "設置年"
+    "year": "設置年",
+    "diameter": "直径",
+    "head": "水頭",
+    "id": "ID",
+    "initLevel": "初期水位",
+    "material": "材質",
+    "maxLevel": "最大水位",
+    "minLevel": "最小水位",
+    "minorLoss": "圧損係数",
+    "minVolume": "最小容量",
+    "roughness": "流速係数",
+    "setting": "設定",
+    "status": "ステータス",
+    "type": "タイプ"
   },
   "buildProgress": {
     "complete": "構築完了",
@@ -36,7 +49,7 @@
     "title": "EPANETモデルを構築中"
   },
   "dataAssignment": {
-    "projectionRequired": "⚠️ 続行するには投影が必要です"
+    "projectionRequired": "続行するには投影が必要です"
   },
   "dataTable": {
     "legendDefault": "イタリック体のテキスト = デフォルト値",
@@ -116,7 +129,11 @@
   "projection": {
     "required": "投影が必要です",
     "searchPlaceholder": "投影を検索...",
-    "selectToContinue": "続行するには、ファイルをマッピングするための投影を選択してください。"
+    "selectToContinue": "続行するには、ファイルをマッピングするための投影を選択してください。",
+    "loading": "投影を読み込み中...",
+    "noResults": "投影が見つかりません。",
+    "searchHint": "投影を検索するには入力してください。例えば「27700」や「British National Grid」と入力してください。",
+    "selectPlaceholder": "投影を選択..."
   },
   "stepProgress": {
     "attributeMapping": "属性マッピング",
