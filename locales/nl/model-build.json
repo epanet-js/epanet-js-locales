@@ -46,7 +46,23 @@
     "statusError": "Er is een fout opgetreden tijdens het buildproces",
     "statusReady": "Klaar om uw model te bouwen",
     "successDescription": "Uw EPANET-model is succesvol gegenereerd. U kunt nu het .ejsdb-bestand downloaden.",
-    "title": "EPANET-model bouwen"
+    "title": "EPANET-model bouwen",
+    "steps": {
+      "assigningAttributes": "Attributen toewijzen",
+      "assigningIds": "ID's toewijzen",
+      "calculatingLengths": "Lengtes berekenen",
+      "connectingLinks": "Verbindingen maken",
+      "convertingGeometry": "Multistring geometrie converteren",
+      "convertingNodesToLinks": "Knooppunten converteren naar verbindingen",
+      "expandingShortLinks": "Korte verbindingen uitbreiden",
+      "findingNodes": "Knooppunten zoeken",
+      "finishingBuild": "Build voltooien",
+      "gettingElevations": "Hoogtes ophalen",
+      "inferringReservoirHeads": "Reservoir opvoerhoogtes afleiden",
+      "readingBuildConfig": "Build configuratie lezen",
+      "removingZeroLengthPipes": "Leidingen met nul-lengte verwijderen",
+      "splittingLinks": "Verbindingen splitsen"
+    }
   },
   "dataAssignment": {
     "projectionRequired": "Projectie vereist om door te gaan"
@@ -147,5 +163,8 @@
     "finish": "Voltooien",
     "loading": "Laden...",
     "next": "Volgende"
+  },
+  "modal": {
+    "close": "Sluiten"
   }
 }

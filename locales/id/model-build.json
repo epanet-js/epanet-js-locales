@@ -46,7 +46,23 @@
     "statusError": "Terjadi kesalahan selama proses pembangunan",
     "statusReady": "Siap membangun model Anda",
     "successDescription": "Model EPANET Anda telah berhasil dibuat. Anda sekarang dapat mengunduh file .ejsdb.",
-    "title": "Membangun model EPANET"
+    "title": "Membangun model EPANET",
+    "steps": {
+      "assigningAttributes": "Menetapkan atribut",
+      "assigningIds": "Menetapkan ID",
+      "calculatingLengths": "Menghitung panjang",
+      "connectingLinks": "Menghubungkan tautan",
+      "convertingGeometry": "Mengonversi geometri multistring",
+      "convertingNodesToLinks": "Mengonversi sambungan menjadi tautan",
+      "expandingShortLinks": "Memperluas tautan pendek",
+      "findingNodes": "Menemukan sambungan",
+      "finishingBuild": "Menyelesaikan pembangunan",
+      "gettingElevations": "Mendapatkan elevasi",
+      "inferringReservoirHeads": "Menyimpulkan tinggi muka reservoir",
+      "readingBuildConfig": "Membaca konfigurasi pembangunan",
+      "removingZeroLengthPipes": "Menghapus pipa panjang nol",
+      "splittingLinks": "Memisahkan tautan"
+    }
   },
   "dataAssignment": {
     "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"
@@ -147,5 +163,8 @@
     "finish": "Selesai",
     "loading": "Memuat...",
     "next": "Berikutnya"
+  },
+  "modal": {
+    "close": "Tutup"
   }
 }

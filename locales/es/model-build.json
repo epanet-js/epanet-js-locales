@@ -46,7 +46,23 @@
     "statusError": "Ocurrió un error durante el proceso de construcción",
     "statusReady": "Listo para construir tu modelo",
     "successDescription": "Tu modelo EPANET ha sido generado exitosamente. Ahora puedes descargar el archivo .ejsdb.",
-    "title": "Construyendo modelo EPANET"
+    "title": "Construyendo modelo EPANET",
+    "steps": {
+      "assigningAttributes": "Asignando atributos",
+      "assigningIds": "Asignando IDs",
+      "calculatingLengths": "Calculando longitudes",
+      "connectingLinks": "Conectando enlaces",
+      "convertingGeometry": "Convirtiendo geometría de múltiples cadenas",
+      "convertingNodesToLinks": "Convirtiendo nudos a enlaces",
+      "expandingShortLinks": "Expandiendo enlaces cortos",
+      "findingNodes": "Encontrando nudos",
+      "finishingBuild": "Finalizando construcción",
+      "gettingElevations": "Obteniendo elevaciones",
+      "inferringReservoirHeads": "Infiriendo cargas de embalses",
+      "readingBuildConfig": "Leyendo configuración de construcción",
+      "removingZeroLengthPipes": "Eliminando tuberías de longitud cero",
+      "splittingLinks": "Dividiendo enlaces"
+    }
   },
   "dataAssignment": {
     "projectionRequired": "Proyección requerida para continuar"
@@ -147,5 +163,8 @@
     "finish": "Finalizar",
     "loading": "Cargando...",
     "next": "Siguiente"
+  },
+  "modal": {
+    "close": "Cerrar"
   }
 }

@@ -1496,5 +1496,6 @@
     }
   },
   "import": "Importar",
-  "connected": "Conectado"
+  "connected": "Conectado",
+  "noResults": "No hay resultados"
 }

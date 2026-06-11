@@ -46,7 +46,23 @@
     "statusError": "Ocorreu um erro durante o processo de compilação",
     "statusReady": "Pronto para compilar seu modelo",
     "successDescription": "Seu modelo EPANET foi gerado com sucesso. Você pode agora baixar o arquivo .ejsdb.",
-    "title": "Compilando modelo EPANET"
+    "title": "Compilando modelo EPANET",
+    "steps": {
+      "assigningAttributes": "Atribuindo atributos",
+      "assigningIds": "Atribuindo IDs",
+      "calculatingLengths": "Calculando comprimentos",
+      "connectingLinks": "Conectando links",
+      "convertingGeometry": "Convertendo geometria multistring",
+      "convertingNodesToLinks": "Convertendo nós em links",
+      "expandingShortLinks": "Expandindo links curtos",
+      "findingNodes": "Encontrando nós",
+      "finishingBuild": "Finalizando compilação",
+      "gettingElevations": "Obtendo elevações",
+      "inferringReservoirHeads": "Inferindo cargas de reservatórios",
+      "readingBuildConfig": "Lendo configuração de compilação",
+      "removingZeroLengthPipes": "Removendo tubulações de comprimento zero",
+      "splittingLinks": "Dividindo links"
+    }
   },
   "dataAssignment": {
     "projectionRequired": "⚠️ Projeção necessária para continuar"
@@ -147,5 +163,8 @@
     "finish": "Finalizar",
     "loading": "Carregando...",
     "next": "Próximo"
+  },
+  "modal": {
+    "close": "Fechar"
   }
 }

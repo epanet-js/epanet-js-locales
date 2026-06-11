@@ -46,7 +46,23 @@
     "statusError": "構築プロセス中にエラーが発生しました",
     "statusReady": "モデルを構築する準備ができました",
     "successDescription": "EPANETモデルが正常に生成されました。これで.ejsdbファイルをダウンロードできます。",
-    "title": "EPANETモデルを構築中"
+    "title": "EPANETモデルを構築中",
+    "steps": {
+      "assigningAttributes": "属性の割り当て",
+      "assigningIds": "IDの割り当て",
+      "calculatingLengths": "長さの計算",
+      "connectingLinks": "リンクの接続",
+      "convertingGeometry": "マルチストリングジオメトリの変換",
+      "convertingNodesToLinks": "接点をリンクに変換",
+      "expandingShortLinks": "短いリンクの展開",
+      "findingNodes": "接点の検索",
+      "finishingBuild": "構築の完了",
+      "gettingElevations": "標高の取得",
+      "inferringReservoirHeads": "貯水池水頭の推測",
+      "readingBuildConfig": "構築設定の読み込み",
+      "removingZeroLengthPipes": "ゼロ長管の削除",
+      "splittingLinks": "リンクの分割"
+    }
   },
   "dataAssignment": {
     "projectionRequired": "続行するには投影が必要です"
@@ -147,5 +163,8 @@
     "finish": "完了",
     "loading": "読み込み中...",
     "next": "次へ"
+  },
+  "modal": {
+    "close": "閉じる"
   }
 }

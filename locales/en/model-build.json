@@ -56,7 +56,23 @@
     "ejsdbFailed": "Failed to generate .ejsdb file",
     "durationLessThanSecond": "<1 second",
     "durationSeconds_one": "{{count}} second",
-    "durationSeconds_other": "{{count}} seconds"
+    "durationSeconds_other": "{{count}} seconds",
+    "steps": {
+      "readingBuildConfig": "Reading build config",
+      "convertingGeometry": "Converting multistring geometry",
+      "findingNodes": "Finding nodes",
+      "connectingLinks": "Connecting links",
+      "splittingLinks": "Splitting links",
+      "calculatingLengths": "Calculating lengths",
+      "convertingNodesToLinks": "Converting nodes to links",
+      "expandingShortLinks": "Expanding short links",
+      "assigningAttributes": "Assigning attributes",
+      "assigningIds": "Assigning IDs",
+      "removingZeroLengthPipes": "Removing zero-length pipes",
+      "finishingBuild": "Finishing build",
+      "gettingElevations": "Getting elevations",
+      "inferringReservoirHeads": "Inferring reservoir heads"
+    }
   },
   "fileDropzone": {
     "attributesUnavailable": "Attributes unavailable",
@@ -79,6 +95,9 @@
     "addMoreFiles": "Add more files (GeoJSON or Shapefile)",
     "assignedFilesCount": "Assigned files ({{1}})",
     "unassignedFilesCount": "Unassigned files ({{1}})"
+  },
+  "modal": {
+    "close": "Close"
   },
   "wizardActions": {
     "cancel": "Cancel",
