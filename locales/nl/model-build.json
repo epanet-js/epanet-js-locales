@@ -166,5 +166,19 @@
   },
   "modal": {
     "close": "Sluiten"
+  },
+  "pipe": {
+    "closed": "Gesloten",
+    "cv": "Terugslagklep",
+    "open": "Open"
+  },
+  "pump": {
+    "off": "Uit",
+    "on": "Aan"
+  },
+  "valve": {
+    "active": "Actief",
+    "closed": "Gesloten",
+    "open": "Open"
   }
 }

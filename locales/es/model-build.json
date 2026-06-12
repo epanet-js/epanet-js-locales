@@ -166,5 +166,19 @@
   },
   "modal": {
     "close": "Cerrar"
+  },
+  "pipe": {
+    "closed": "Cerrada",
+    "cv": "Válvula de retención",
+    "open": "Abierta"
+  },
+  "pump": {
+    "off": "Apagada",
+    "on": "Encendida"
+  },
+  "valve": {
+    "active": "Activa",
+    "closed": "Cerrada",
+    "open": "Abierta"
   }
 }

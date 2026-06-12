@@ -166,5 +166,19 @@
   },
   "modal": {
     "close": "Fermer"
+  },
+  "pipe": {
+    "closed": "Fermé",
+    "cv": "Clapet Anti-Retour",
+    "open": "Ouvert"
+  },
+  "pump": {
+    "off": "Arrêté",
+    "on": "En marche"
+  },
+  "valve": {
+    "active": "Actif",
+    "closed": "Fermé",
+    "open": "Ouvert"
   }
 }

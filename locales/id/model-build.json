@@ -166,5 +166,19 @@
   },
   "modal": {
     "close": "Tutup"
+  },
+  "pipe": {
+    "closed": "Tertutup",
+    "cv": "Katup satu arah",
+    "open": "Terbuka"
+  },
+  "pump": {
+    "off": "Mati",
+    "on": "Nyala"
+  },
+  "valve": {
+    "active": "Aktif",
+    "closed": "Tertutup",
+    "open": "Terbuka"
   }
 }

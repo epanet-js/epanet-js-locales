@@ -166,5 +166,19 @@
   },
   "modal": {
     "close": "閉じる"
+  },
+  "pipe": {
+    "closed": "閉",
+    "cv": "逆止弁",
+    "open": "開"
+  },
+  "pump": {
+    "off": "オフ",
+    "on": "オン"
+  },
+  "valve": {
+    "active": "アクティブ",
+    "closed": "閉",
+    "open": "開"
   }
 }

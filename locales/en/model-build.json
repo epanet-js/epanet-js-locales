@@ -166,5 +166,19 @@
     "minVolume": "Min volume",
     "head": "Head",
     "year": "Year of installation"
+  },
+  "pipe": {
+    "open": "Open",
+    "closed": "Closed",
+    "cv": "Check valve"
+  },
+  "valve": {
+    "open": "Open",
+    "closed": "Closed",
+    "active": "Active"
+  },
+  "pump": {
+    "on": "On",
+    "off": "Off"
   }
 }
