@@ -180,5 +180,8 @@
     "active": "アクティブ",
     "closed": "閉",
     "open": "開"
-  }
+  },
+  "addNewValue": "「{{1}}」を追加",
+  "noResults": "結果なし",
+  "search": "検索…"
 }

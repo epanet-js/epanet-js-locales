@@ -180,5 +180,8 @@
     "active": "Aktif",
     "closed": "Tertutup",
     "open": "Terbuka"
-  }
+  },
+  "addNewValue": "Tambah \"{{1}}\"",
+  "noResults": "Tidak ada hasil",
+  "search": "Cari…"
 }

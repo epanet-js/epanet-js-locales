@@ -180,5 +180,8 @@
     "active": "Actief",
     "closed": "Gesloten",
     "open": "Open"
-  }
+  },
+  "addNewValue": "Toevoegen \"{{1}}\"",
+  "noResults": "Geen resultaten",
+  "search": "Zoeken…"
 }

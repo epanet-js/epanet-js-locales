@@ -180,5 +180,8 @@
     "active": "Activa",
     "closed": "Cerrada",
     "open": "Abierta"
-  }
+  },
+  "addNewValue": "Añadir \"{{1}}\"",
+  "noResults": "No hay resultados",
+  "search": "Buscar…"
 }
