@@ -548,7 +548,8 @@
       "connect": "Verbinden",
       "disconnect": "Verbinding verbreken",
       "customerPointSelected": "{{1}} klantpunt",
-      "reconnect": "Opnieuw verbinden"
+      "reconnect": "Opnieuw verbinden",
+      "disconnectCustomers": "Klanten loskoppelen"
     }
   },
   "location": "Locatie",
@@ -1326,7 +1327,10 @@
     "title": "Gegevenstabellen",
     "copy": {
       "includeHeadersAction": "Kopiëren met headers",
-      "includeHeadersPrompt": "Gekopieerd. Kolomheaders meenemen?"
+      "includeHeadersPrompt": "Gekopieerd. Kolomheaders meenemen?",
+      "exportAction": "Gegevens exporteren",
+      "truncatedDescription": "Om alle rijen te exporteren, gebruikt u Gegevens exporteren.",
+      "truncatedTitle": "De eerste {{1}} van de {{2}} rijen gekopieerd"
     }
   },
   "fileFormatUpdated": "Bestandsformaat bijgewerkt",
@@ -1486,6 +1490,20 @@
     "table": {
       "ignoreHeader": "Negeren",
       "ignoreLabel": "Negeren"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} klantpunten worden toegewezen ({{2}}%)",
+      "allocationFailed": "Toewijzing mislukt: {{1}}",
+      "applyChanges": "Wijzigingen toepassen",
+      "cancelButton": "Annuleren",
+      "computingMessage": "Toewijzingen berekenen...",
+      "description": "Definieer regels voor het verbinden van klantpunten met leidingen. U kunt meerdere paren van maximale afstand en maximale diameter specificeren om te bepalen hoe klantpunten aan het netwerk worden toegewezen.",
+      "editButton": "Bewerken",
+      "rulesTitle": "Toewijzingsregels",
+      "saveButton": "Opslaan",
+      "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
+      "title": "Klanttoewijzing",
+      "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)"
     }
   },
   "import": "Importeren",

@@ -548,7 +548,8 @@
       "connect": "Conectar",
       "customerPointSelected": "{{1}} ponto de consumo",
       "disconnect": "Desconectar",
-      "reconnect": "Reconectar"
+      "reconnect": "Reconectar",
+      "disconnectCustomers": "Desconectar clientes"
     }
   },
   "location": "Localização",
@@ -1326,7 +1327,10 @@
     "title": "Tabelas de dados",
     "copy": {
       "includeHeadersAction": "Copiar com cabeçalhos",
-      "includeHeadersPrompt": "Copiado. Incluir cabeçalhos de coluna?"
+      "includeHeadersPrompt": "Copiado. Incluir cabeçalhos de coluna?",
+      "exportAction": "Exportar dados",
+      "truncatedDescription": "Para exportar todas as linhas, use Exportar dados.",
+      "truncatedTitle": "Copiadas as primeiras {{1}} de {{2}} linhas"
     }
   },
   "fileFormatUpdated": "Formato de arquivo atualizado",
@@ -1486,6 +1490,20 @@
     "table": {
       "ignoreHeader": "Ignorar",
       "ignoreLabel": "Ignorar"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} pontos de consumo serão alocados ({{2}}%)",
+      "allocationFailed": "Alocação falhou: {{1}}",
+      "applyChanges": "Aplicar alterações",
+      "cancelButton": "Cancelar",
+      "computingMessage": "Calculando alocações...",
+      "description": "Defina regras para conectar pontos de consumo a tubulações. Você pode especificar múltiplos pares de distância máxima e diâmetro máximo para controlar como os pontos de consumo são alocados à rede.",
+      "editButton": "Editar",
+      "rulesTitle": "Regras de Alocação",
+      "saveButton": "Salvar",
+      "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
+      "title": "Alocação de Pontos de Consumo",
+      "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)"
     }
   },
   "import": "Importar",

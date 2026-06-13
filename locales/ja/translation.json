@@ -42,7 +42,8 @@
       "connect": "接続",
       "customerPointSelected": "顧客ポイント {{1}}",
       "disconnect": "切断",
-      "reconnect": "再接続"
+      "reconnect": "再接続",
+      "disconnectCustomers": "顧客を切断"
     }
   },
   "continueAnyway": "とにかく続行",
@@ -1326,7 +1327,10 @@
     "title": "データテーブル",
     "copy": {
       "includeHeadersAction": "ヘッダーを含めてコピー",
-      "includeHeadersPrompt": "コピーしました。列ヘッダーを含めますか？"
+      "includeHeadersPrompt": "コピーしました。列ヘッダーを含めますか？",
+      "exportAction": "データをエクスポート",
+      "truncatedDescription": "すべての行をエクスポートするには、「データをエクスポート」を使用してください。",
+      "truncatedTitle": "{{2}} 行のうち最初の {{1}} 行をコピーしました"
     }
   },
   "fileFormatUpdated": "ファイル形式が更新されました",
@@ -1486,6 +1490,20 @@
     "table": {
       "ignoreHeader": "無視",
       "ignoreLabel": "無視"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} 個の顧客ポイントが割り当てられます ({{2}}%)",
+      "allocationFailed": "割り当てに失敗しました: {{1}}",
+      "applyChanges": "変更を適用",
+      "cancelButton": "キャンセル",
+      "computingMessage": "割り当てを計算中...",
+      "description": "顧客ポイントを管に接続するためのルールを定義します。顧客ポイントをネットワークに割り当てる方法を制御するために、複数の最大距離と最大直径のペアを指定できます。",
+      "editButton": "編集",
+      "rulesTitle": "割り当てルール",
+      "saveButton": "保存",
+      "summaryTitle": "割り当て概要（合計顧客ポイント数: {{1}}）",
+      "title": "顧客割り当て",
+      "unallocatedPoints": "{{1}} 個の顧客ポイントが未割り当てのままです（{{2}}%）"
     }
   },
   "import": "インポート",

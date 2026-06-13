@@ -548,7 +548,8 @@
       "connect": "Connecter",
       "customerPointSelected": "{{1}} point de consommation",
       "disconnect": "Déconnecter",
-      "reconnect": "Reconnecter"
+      "reconnect": "Reconnecter",
+      "disconnectCustomers": "Déconnecter les clients"
     }
   },
   "location": "Localisation",
@@ -1326,7 +1327,10 @@
     "title": "Tables de données",
     "copy": {
       "includeHeadersAction": "Copier avec les en-têtes",
-      "includeHeadersPrompt": "Copié. Inclure les en-têtes de colonne ?"
+      "includeHeadersPrompt": "Copié. Inclure les en-têtes de colonne ?",
+      "exportAction": "Exporter les données",
+      "truncatedDescription": "Pour exporter toutes les lignes, utilisez Exporter les données.",
+      "truncatedTitle": "Copié les {{1}} premières des {{2}} lignes"
     }
   },
   "fileFormatUpdated": "Format de fichier mis à jour",
@@ -1486,6 +1490,20 @@
     "table": {
       "ignoreHeader": "Ignorer",
       "ignoreLabel": "Ignorer"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} points clients seront alloués ({{2}}%)",
+      "allocationFailed": "Échec de l'allocation : {{1}}",
+      "applyChanges": "Appliquer les modifications",
+      "cancelButton": "Annuler",
+      "computingMessage": "Calcul des allocations...",
+      "description": "Définissez les règles de connexion des points clients aux conduites. Vous pouvez spécifier plusieurs paires de distance maximale et de diamètre maximal pour contrôler la manière dont les points clients sont alloués au réseau.",
+      "editButton": "Modifier",
+      "rulesTitle": "Règles d'Allocation",
+      "saveButton": "Enregistrer",
+      "summaryTitle": "Résumé de l'allocation ({{1}} points clients au total)",
+      "title": "Allocation des clients",
+      "unallocatedPoints": "{{1}} points clients restent non alloués ({{2}}%)"
     }
   },
   "import": "Importer",

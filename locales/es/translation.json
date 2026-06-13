@@ -546,7 +546,8 @@
       "connect": "Conectar",
       "customerPointSelected": "{{1}} punto de consumo",
       "disconnect": "Desconectar",
-      "reconnect": "Reconectar"
+      "reconnect": "Reconectar",
+      "disconnectCustomers": "Desconectar clientes"
     }
   },
   "customerPoint": "Punto de Consumo",
@@ -1333,7 +1334,10 @@
     "title": "Tablas de datos",
     "copy": {
       "includeHeadersAction": "Copiar con encabezados",
-      "includeHeadersPrompt": "Copiado. ¿Incluir encabezados de columna?"
+      "includeHeadersPrompt": "Copiado. ¿Incluir encabezados de columna?",
+      "exportAction": "Exportar datos",
+      "truncatedDescription": "Para exportar todas las filas, usa Exportar datos.",
+      "truncatedTitle": "Copiadas las primeras {{1}} de {{2}} filas"
     }
   },
   "fileFormatUpdated": "Formato de archivo actualizado",
@@ -1493,6 +1497,20 @@
     "table": {
       "ignoreHeader": "Ignorar",
       "ignoreLabel": "Ignorar"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} puntos de consumo serán asignados ({{2}}%)",
+      "allocationFailed": "Asignación fallida: {{1}}",
+      "applyChanges": "Aplicar cambios",
+      "cancelButton": "Cancelar",
+      "computingMessage": "Calculando asignaciones...",
+      "description": "Define reglas para conectar puntos de consumo a tuberías. Puedes especificar múltiples pares de distancia máxima y diámetro máximo para controlar cómo se asignan los puntos de consumo a la red.",
+      "editButton": "Editar",
+      "rulesTitle": "Reglas de asignación",
+      "saveButton": "Guardar",
+      "summaryTitle": "Resumen de asignación ({{1}} puntos de consumo totales)",
+      "title": "Asignación de clientes",
+      "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)"
     }
   },
   "import": "Importar",

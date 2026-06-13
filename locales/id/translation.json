@@ -96,7 +96,8 @@
       "connect": "Hubungkan",
       "customerPointSelected": "{{1}} titik pelanggan",
       "disconnect": "Putuskan sambungan",
-      "reconnect": "Hubungkan kembali"
+      "reconnect": "Hubungkan kembali",
+      "disconnectCustomers": "Putuskan pelanggan"
     }
   },
   "continueAnyway": "Lanjutkan saja",
@@ -211,7 +212,10 @@
   "dataTables": {
     "copy": {
       "includeHeadersAction": "Salin dengan header",
-      "includeHeadersPrompt": "Disalin. Sertakan header kolom?"
+      "includeHeadersPrompt": "Disalin. Sertakan header kolom?",
+      "exportAction": "Ekspor data",
+      "truncatedDescription": "Untuk mengekspor semua baris, gunakan Ekspor data.",
+      "truncatedTitle": "Menyalin {{1}} baris pertama dari {{2}} baris"
     },
     "title": "Tabel data"
   },
@@ -1486,6 +1490,20 @@
     "table": {
       "ignoreHeader": "Abaikan",
       "ignoreLabel": "Abaikan"
+    },
+    "dialog": {
+      "allocatedPoints": "{{1}} titik pelanggan akan dialokasikan ({{2}}%)",
+      "allocationFailed": "Alokasi gagal: {{1}}",
+      "applyChanges": "Terapkan perubahan",
+      "cancelButton": "Batal",
+      "computingMessage": "Menghitung alokasi...",
+      "description": "Definisikan aturan untuk menghubungkan titik pelanggan ke pipa. Anda dapat menentukan beberapa pasangan jarak maks dan diameter maks untuk mengontrol bagaimana titik pelanggan dialokasikan ke jaringan.",
+      "editButton": "Edit",
+      "rulesTitle": "Aturan alokasi",
+      "saveButton": "Simpan",
+      "summaryTitle": "Ringkasan alokasi ({{1}} total titik pelanggan)",
+      "title": "Alokasi pelanggan",
+      "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)"
     }
   },
   "import": "Impor",
