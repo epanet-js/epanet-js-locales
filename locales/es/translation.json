@@ -1511,6 +1511,28 @@
       "summaryTitle": "Resumen de asignación ({{1}} puntos de consumo totales)",
       "title": "Asignación de clientes",
       "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "Todos los clientes",
+        "allCustomersDescription": "Asignar todos los clientes de la red",
+        "title": "Selección de clientes",
+        "zoneCustomers": "Solo clientes en la zona",
+        "zoneCustomersDescription": "Asignar solo clientes ubicados dentro de los límites de una zona específica"
+      },
+      "description": "Configura qué zonas y clientes se incluirán en la asignación",
+      "pipeSelection": {
+        "allPipes": "Todas las tuberías",
+        "allPipesDescription": "Asignar puntos de consumo a todas las tuberías de la red",
+        "selectedPipes": "Solo tuberías seleccionadas",
+        "selectedPipesDescription": "Asignar puntos de consumo solo a las tuberías seleccionadas",
+        "title": "Selección de tuberías"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "Modo de asignación",
+      "allocationStep": "Asignación de clientes",
+      "title": "Asignar puntos de consumo"
     }
   },
   "import": "Importar",

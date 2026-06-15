@@ -1504,6 +1504,28 @@
       "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
       "title": "Klanttoewijzing",
       "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "Alle klanten",
+        "allCustomersDescription": "Alle klanten in het netwerk toewijzen",
+        "title": "Klantenselectie",
+        "zoneCustomers": "Alleen klanten in zone",
+        "zoneCustomersDescription": "Alleen klanten toewijzen die binnen de grenzen van een specifieke zone liggen"
+      },
+      "description": "Configureer welke zones en klanten worden opgenomen in de toewijzing",
+      "pipeSelection": {
+        "allPipes": "Alle leidingen",
+        "allPipesDescription": "Klantpunten toewijzen aan alle leidingen in het netwerk",
+        "selectedPipes": "Alleen geselecteerde leidingen",
+        "selectedPipesDescription": "Klantpunten alleen toewijzen aan geselecteerde leidingen",
+        "title": "Leidingselectie"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "Toewijzingsmodus",
+      "allocationStep": "Klanttoewijzing",
+      "title": "Klantpunten toewijzen"
     }
   },
   "import": "Importeren",

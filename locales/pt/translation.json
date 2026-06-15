@@ -1504,6 +1504,28 @@
       "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
       "title": "Alocação de Pontos de Consumo",
       "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "Todos os clientes",
+        "allCustomersDescription": "Alocar todos os clientes na rede",
+        "title": "Seleção de clientes",
+        "zoneCustomers": "Apenas clientes na zona",
+        "zoneCustomersDescription": "Alocar apenas clientes localizados dentro dos limites de uma zona específica"
+      },
+      "description": "Configure quais zonas e clientes serão incluídos na alocação",
+      "pipeSelection": {
+        "allPipes": "Todas as tubulações",
+        "allPipesDescription": "Alocar pontos de consumo para todas as tubulações na rede",
+        "selectedPipes": "Apenas tubulações selecionadas",
+        "selectedPipesDescription": "Alocar pontos de consumo apenas para tubulações selecionadas",
+        "title": "Seleção de tubulações"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "Modo de alocação",
+      "allocationStep": "Alocação de clientes",
+      "title": "Alocar pontos de consumo"
     }
   },
   "import": "Importar",

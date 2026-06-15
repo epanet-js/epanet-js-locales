@@ -1504,6 +1504,28 @@
       "summaryTitle": "Ringkasan alokasi ({{1}} total titik pelanggan)",
       "title": "Alokasi pelanggan",
       "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "Semua pelanggan",
+        "allCustomersDescription": "Alokasikan semua pelanggan dalam jaringan",
+        "title": "Pemilihan pelanggan",
+        "zoneCustomers": "Hanya pelanggan dalam zona",
+        "zoneCustomersDescription": "Alokasikan hanya pelanggan yang berada dalam batas-batas zona tertentu"
+      },
+      "description": "Konfigurasi zona dan pelanggan mana yang akan disertakan dalam alokasi",
+      "pipeSelection": {
+        "allPipes": "Semua pipa",
+        "allPipesDescription": "Alokasikan titik pelanggan ke semua pipa dalam jaringan",
+        "selectedPipes": "Hanya pipa yang dipilih",
+        "selectedPipesDescription": "Alokasikan titik pelanggan hanya ke pipa yang dipilih",
+        "title": "Pemilihan pipa"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "Mode alokasi",
+      "allocationStep": "Alokasi pelanggan",
+      "title": "Alokasikan titik pelanggan"
     }
   },
   "import": "Impor",

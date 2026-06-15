@@ -1504,6 +1504,28 @@
       "summaryTitle": "Résumé de l'allocation ({{1}} points clients au total)",
       "title": "Allocation des clients",
       "unallocatedPoints": "{{1}} points clients restent non alloués ({{2}}%)"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "Tous les clients",
+        "allCustomersDescription": "Allouer tous les clients du réseau",
+        "title": "Sélection des clients",
+        "zoneCustomers": "Clients dans la zone uniquement",
+        "zoneCustomersDescription": "Allouer uniquement les clients situés à l'intérieur des limites d'une zone spécifique"
+      },
+      "description": "Configurer quelles zones et quels clients seront inclus dans l'allocation",
+      "pipeSelection": {
+        "allPipes": "Toutes les conduites",
+        "allPipesDescription": "Allouer les points de consommation à toutes les conduites du réseau",
+        "selectedPipes": "Conduites sélectionnées uniquement",
+        "selectedPipesDescription": "Allouer les points de consommation uniquement aux conduites sélectionnées",
+        "title": "Sélection des conduites"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "Mode d'allocation",
+      "allocationStep": "Allocation des clients",
+      "title": "Allouer les points de consommation"
     }
   },
   "import": "Importer",

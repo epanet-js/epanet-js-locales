@@ -1504,6 +1504,28 @@
       "summaryTitle": "割り当て概要（合計顧客ポイント数: {{1}}）",
       "title": "顧客割り当て",
       "unallocatedPoints": "{{1}} 個の顧客ポイントが未割り当てのままです（{{2}}%）"
+    },
+    "allocationOptions": {
+      "customerSelection": {
+        "allCustomers": "すべての顧客",
+        "allCustomersDescription": "ネットワーク内のすべての顧客を割り当てる",
+        "title": "顧客選択",
+        "zoneCustomers": "ゾーン内の顧客のみ",
+        "zoneCustomersDescription": "特定のゾーンの境界内に位置する顧客のみを割り当てる"
+      },
+      "description": "割り当てに含めるゾーンと顧客を設定する",
+      "pipeSelection": {
+        "allPipes": "すべての管",
+        "allPipesDescription": "ネットワーク内のすべての管に顧客ポイントを割り当てる",
+        "selectedPipes": "選択された管のみ",
+        "selectedPipesDescription": "選択された管にのみ顧客ポイントを割り当てる",
+        "title": "管の選択"
+      }
+    },
+    "wizard": {
+      "allocationModeStep": "割り当てモード",
+      "allocationStep": "顧客割り当て",
+      "title": "顧客ポイントを割り当てる"
     }
   },
   "import": "インポート",
