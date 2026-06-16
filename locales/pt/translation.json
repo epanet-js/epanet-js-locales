@@ -845,7 +845,10 @@
     "rulesTab": "Baseado em regras",
     "simpleEmpty": "Nenhum controle simples definido",
     "simpleTab": "Simples",
-    "title": "Controles"
+    "title": "Controles",
+    "addTimeStep": "Adicionar passo de tempo",
+    "time": "Tempo",
+    "timeBased": "Baseado no tempo"
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
@@ -1331,6 +1334,10 @@
       "exportAction": "Exportar dados",
       "truncatedDescription": "Para exportar todas as linhas, use Exportar dados.",
       "truncatedTitle": "Copiadas as primeiras {{1}} de {{2}} linhas"
+    },
+    "paste": {
+      "cappedDescription": "A colagem era muito grande para ser aplicada na totalidade. Use Importar para adicionar dados em massa.",
+      "cappedTitle": "Colado nas primeiras {{1}} linhas"
     }
   },
   "fileFormatUpdated": "Formato de arquivo atualizado",
@@ -1511,7 +1518,8 @@
         "allCustomersDescription": "Alocar todos os clientes na rede",
         "title": "Seleção de clientes",
         "zoneCustomers": "Apenas clientes na zona",
-        "zoneCustomersDescription": "Alocar apenas clientes localizados dentro dos limites de uma zona específica"
+        "zoneCustomersDescription": "Alocar apenas clientes localizados dentro dos limites de uma zona específica",
+        "selectZone": "Selecionar uma zona..."
       },
       "description": "Configure quais zonas e clientes serão incluídos na alocação",
       "pipeSelection": {
@@ -1530,5 +1538,8 @@
   },
   "import": "Importar",
   "connected": "Conectado",
-  "noResults": "Sem resultados"
+  "noResults": "Sem resultados",
+  "legacyModelBuilder": "Construtor de modelo legado",
+  "modelBuilderInfo": "O novo construtor de modelo Pro adiciona ano e materiais de tubulação, preservação de projeção e múltiplos idiomas, com atributos personalizados e valores nulos em breve. O construtor legado é mantido apenas para manutenção.",
+  "proModelBuilder": "Construtor de modelo Pro"
 }

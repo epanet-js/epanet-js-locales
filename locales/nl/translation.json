@@ -845,7 +845,10 @@
     "rulesTab": "Regelgebaseerd",
     "simpleEmpty": "Geen eenvoudige besturingen gedefinieerd",
     "simpleTab": "Eenvoudig",
-    "title": "Besturingen"
+    "title": "Besturingen",
+    "addTimeStep": "Tijdstap toevoegen",
+    "time": "Tijd",
+    "timeBased": "Tijdgebaseerd"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -1331,6 +1334,10 @@
       "exportAction": "Gegevens exporteren",
       "truncatedDescription": "Om alle rijen te exporteren, gebruikt u Gegevens exporteren.",
       "truncatedTitle": "De eerste {{1}} van de {{2}} rijen gekopieerd"
+    },
+    "paste": {
+      "cappedDescription": "Deze plakbewerking was te groot om volledig toe te passen. Gebruik Importeren om gegevens in bulk toe te voegen.",
+      "cappedTitle": "Geplakt in de eerste {{1}} rijen"
     }
   },
   "fileFormatUpdated": "Bestandsformaat bijgewerkt",
@@ -1511,7 +1518,8 @@
         "allCustomersDescription": "Alle klanten in het netwerk toewijzen",
         "title": "Klantenselectie",
         "zoneCustomers": "Alleen klanten in zone",
-        "zoneCustomersDescription": "Alleen klanten toewijzen die binnen de grenzen van een specifieke zone liggen"
+        "zoneCustomersDescription": "Alleen klanten toewijzen die binnen de grenzen van een specifieke zone liggen",
+        "selectZone": "Selecteer een zone..."
       },
       "description": "Configureer welke zones en klanten worden opgenomen in de toewijzing",
       "pipeSelection": {
@@ -1530,5 +1538,8 @@
   },
   "import": "Importeren",
   "connected": "Verbonden",
-  "noResults": "Geen resultaten"
+  "noResults": "Geen resultaten",
+  "legacyModelBuilder": "Legacy modelbouwer",
+  "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud en meerdere talen toe, met aangepaste attributen en null-waarden binnenkort beschikbaar. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
+  "proModelBuilder": "Pro modelbouwer"
 }

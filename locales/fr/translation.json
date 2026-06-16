@@ -845,7 +845,10 @@
     "rulesTab": "Basé sur des règles",
     "simpleEmpty": "Aucun contrôle simple défini",
     "simpleTab": "Simple",
-    "title": "Contrôles"
+    "title": "Contrôles",
+    "addTimeStep": "Ajouter un pas de temps",
+    "time": "Temps",
+    "timeBased": "Basé sur l'heure"
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
@@ -1331,6 +1334,10 @@
       "exportAction": "Exporter les données",
       "truncatedDescription": "Pour exporter toutes les lignes, utilisez Exporter les données.",
       "truncatedTitle": "Copié les {{1}} premières des {{2}} lignes"
+    },
+    "paste": {
+      "cappedDescription": "Ce collage était trop volumineux pour être appliqué en entier. Utilisez l'importation pour ajouter des données en masse.",
+      "cappedTitle": "Collé dans les {{1}} premières lignes"
     }
   },
   "fileFormatUpdated": "Format de fichier mis à jour",
@@ -1511,7 +1518,8 @@
         "allCustomersDescription": "Allouer tous les clients du réseau",
         "title": "Sélection des clients",
         "zoneCustomers": "Clients dans la zone uniquement",
-        "zoneCustomersDescription": "Allouer uniquement les clients situés à l'intérieur des limites d'une zone spécifique"
+        "zoneCustomersDescription": "Allouer uniquement les clients situés à l'intérieur des limites d'une zone spécifique",
+        "selectZone": "Sélectionner une zone..."
       },
       "description": "Configurer quelles zones et quels clients seront inclus dans l'allocation",
       "pipeSelection": {
@@ -1530,5 +1538,8 @@
   },
   "import": "Importer",
   "connected": "Connecté",
-  "noResults": "Aucun résultat"
+  "noResults": "Aucun résultat",
+  "legacyModelBuilder": "Générateur de modèle hérité",
+  "modelBuilderInfo": "Le nouveau générateur de modèle Pro ajoute l'année d'installation et les matériaux des conduites, la préservation de la projection et plusieurs langues, avec des attributs personnalisés et des valeurs nulles à venir. Le générateur Hérité est conservé uniquement pour la maintenance.",
+  "proModelBuilder": "Générateur de modèle Pro"
 }

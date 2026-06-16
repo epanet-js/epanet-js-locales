@@ -635,6 +635,9 @@
   "customMapLayers": "Custom map layers",
   "customElevations": "Custom elevations sources",
   "scenariosItem": "Scenarios",
+  "legacyModelBuilder": "Legacy model builder",
+  "proModelBuilder": "Pro model builder",
+  "modelBuilderInfo": "The new Pro model builder adds pipe year & materials, projection preservation and multiple languages, with custom attributes and null values coming soon. The Legacy builder is kept for maintenance only.",
   "cloudStorage": "Cloud storage",
   "pointInTimeRestore": "Point in time restore - {{1}} days",
   "demandsAnalysis": "Demand analysis",
@@ -893,7 +896,10 @@
     "simpleTab": "Simple",
     "rulesTab": "Rule-based",
     "simpleEmpty": "No simple controls defined",
-    "rulesEmpty": "No rule-based controls defined"
+    "rulesEmpty": "No rule-based controls defined",
+    "timeBased": "Time-based",
+    "time": "Time",
+    "addTimeStep": "Add time step"
   },
   "demandMultiplier": "Demand multiplier",
   "saveAndRun": "Save & run",
@@ -990,7 +996,8 @@
         "allCustomers": "All customers",
         "allCustomersDescription": "Allocate all customers in the network",
         "zoneCustomers": "Only customers in zone",
-        "zoneCustomersDescription": "Allocate only customers located within the boundaries of a specific zone"
+        "zoneCustomersDescription": "Allocate only customers located within the boundaries of a specific zone",
+        "selectZone": "Select a zone..."
       }
     },
     "dialog": {
@@ -1464,6 +1471,10 @@
       "truncatedTitle": "Copied the first {{1}} of {{2}} rows",
       "truncatedDescription": "To export all rows, use Export data.",
       "exportAction": "Export data"
+    },
+    "paste": {
+      "cappedTitle": "Pasted into the first {{1}} rows",
+      "cappedDescription": "This paste was too large to apply in full. Use Import to add data in bulk."
     }
   },
   "hglProfile": {

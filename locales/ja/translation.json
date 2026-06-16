@@ -845,7 +845,10 @@
     "rulesTab": "ルールベース",
     "simpleEmpty": "シンプルな制御は定義されていません",
     "simpleTab": "シンプル",
-    "title": "制御"
+    "title": "制御",
+    "addTimeStep": "タイムステップを追加",
+    "time": "時間",
+    "timeBased": "時間ベース"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -1331,6 +1334,10 @@
       "exportAction": "データをエクスポート",
       "truncatedDescription": "すべての行をエクスポートするには、「データをエクスポート」を使用してください。",
       "truncatedTitle": "{{2}} 行のうち最初の {{1}} 行をコピーしました"
+    },
+    "paste": {
+      "cappedDescription": "この貼り付けは大きすぎて完全に適用できませんでした。データを一括で追加するにはインポートを使用してください。",
+      "cappedTitle": "最初の {{1}} 行に貼り付けられました"
     }
   },
   "fileFormatUpdated": "ファイル形式が更新されました",
@@ -1511,7 +1518,8 @@
         "allCustomersDescription": "ネットワーク内のすべての顧客を割り当てる",
         "title": "顧客選択",
         "zoneCustomers": "ゾーン内の顧客のみ",
-        "zoneCustomersDescription": "特定のゾーンの境界内に位置する顧客のみを割り当てる"
+        "zoneCustomersDescription": "特定のゾーンの境界内に位置する顧客のみを割り当てる",
+        "selectZone": "ゾーンを選択..."
       },
       "description": "割り当てに含めるゾーンと顧客を設定する",
       "pipeSelection": {
@@ -1530,5 +1538,8 @@
   },
   "import": "インポート",
   "connected": "接続済み",
-  "noResults": "結果なし"
+  "noResults": "結果なし",
+  "legacyModelBuilder": "レガシーモデルビルダー",
+  "modelBuilderInfo": "新しいProモデルビルダーは、管の製造年と材質、投影の保持、複数の言語に対応し、カスタム属性とnull値は近日中に利用可能になります。レガシービルダーはメンテナンスのみに保持されます。",
+  "proModelBuilder": "プロモデルビルダー"
 }

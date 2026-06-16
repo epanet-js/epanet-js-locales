@@ -852,7 +852,10 @@
     "rulesTab": "Basado en reglas",
     "simpleEmpty": "No hay controles simples definidos",
     "simpleTab": "Simple",
-    "title": "Controles"
+    "title": "Controles",
+    "addTimeStep": "Añadir paso de tiempo",
+    "time": "Tiempo",
+    "timeBased": "Basado en el tiempo"
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
@@ -1338,6 +1341,10 @@
       "exportAction": "Exportar datos",
       "truncatedDescription": "Para exportar todas las filas, usa Exportar datos.",
       "truncatedTitle": "Copiadas las primeras {{1}} de {{2}} filas"
+    },
+    "paste": {
+      "cappedDescription": "Este pegado fue demasiado grande para aplicar por completo. Usa Importar para añadir datos en masa.",
+      "cappedTitle": "Pegado en las primeras {{1}} filas"
     }
   },
   "fileFormatUpdated": "Formato de archivo actualizado",
@@ -1518,7 +1525,8 @@
         "allCustomersDescription": "Asignar todos los clientes de la red",
         "title": "Selección de clientes",
         "zoneCustomers": "Solo clientes en la zona",
-        "zoneCustomersDescription": "Asignar solo clientes ubicados dentro de los límites de una zona específica"
+        "zoneCustomersDescription": "Asignar solo clientes ubicados dentro de los límites de una zona específica",
+        "selectZone": "Seleccionar una zona..."
       },
       "description": "Configura qué zonas y clientes se incluirán en la asignación",
       "pipeSelection": {
@@ -1537,5 +1545,8 @@
   },
   "import": "Importar",
   "connected": "Conectado",
-  "noResults": "No hay resultados"
+  "noResults": "No hay resultados",
+  "legacyModelBuilder": "Constructor de modelos heredado",
+  "modelBuilderInfo": "El nuevo constructor de modelos Pro añade año y materiales de tubería, preservación de proyección y múltiples idiomas, con atributos personalizados y valores nulos próximamente. El constructor heredado se mantiene solo para mantenimiento.",
+  "proModelBuilder": "Constructor de modelos Pro"
 }

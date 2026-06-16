@@ -109,7 +109,10 @@
     "rulesTab": "Berbasis aturan",
     "simpleEmpty": "Tidak ada kontrol sederhana yang ditentukan",
     "simpleTab": "Sederhana",
-    "title": "Kontrol"
+    "title": "Kontrol",
+    "addTimeStep": "Tambah langkah waktu",
+    "time": "Waktu",
+    "timeBased": "Berbasis waktu"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -217,7 +220,11 @@
       "truncatedDescription": "Untuk mengekspor semua baris, gunakan Ekspor data.",
       "truncatedTitle": "Menyalin {{1}} baris pertama dari {{2}} baris"
     },
-    "title": "Tabel data"
+    "title": "Tabel data",
+    "paste": {
+      "cappedDescription": "Penempelan ini terlalu besar untuk diterapkan sepenuhnya. Gunakan Impor untuk menambahkan data secara massal.",
+      "cappedTitle": "Ditempelkan ke {{1}} baris pertama"
+    }
   },
   "deactivateAssets": "Nonaktifkan",
   "defaultColor": "Warna default",
@@ -1511,7 +1518,8 @@
         "allCustomersDescription": "Alokasikan semua pelanggan dalam jaringan",
         "title": "Pemilihan pelanggan",
         "zoneCustomers": "Hanya pelanggan dalam zona",
-        "zoneCustomersDescription": "Alokasikan hanya pelanggan yang berada dalam batas-batas zona tertentu"
+        "zoneCustomersDescription": "Alokasikan hanya pelanggan yang berada dalam batas-batas zona tertentu",
+        "selectZone": "Pilih zona..."
       },
       "description": "Konfigurasi zona dan pelanggan mana yang akan disertakan dalam alokasi",
       "pipeSelection": {
@@ -1530,5 +1538,8 @@
   },
   "import": "Impor",
   "connected": "Terhubung",
-  "noResults": "Tidak ada hasil"
+  "noResults": "Tidak ada hasil",
+  "legacyModelBuilder": "Pembangun model lama",
+  "modelBuilderInfo": "Pembangun model Pro yang baru menambahkan tahun & bahan pipa, pelestarian proyeksi, dan beberapa bahasa, dengan atribut khusus dan nilai null yang akan segera hadir. Pembangun model lama hanya disimpan untuk pemeliharaan.",
+  "proModelBuilder": "Pembangun model Pro"
 }
