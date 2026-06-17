@@ -1510,7 +1510,8 @@
       "saveButton": "保存",
       "summaryTitle": "割り当て概要（合計顧客ポイント数: {{1}}）",
       "title": "顧客割り当て",
-      "unallocatedPoints": "{{1}} 個の顧客ポイントが未割り当てのままです（{{2}}%）"
+      "unallocatedPoints": "{{1}} 個の顧客ポイントが未割り当てのままです（{{2}}%）",
+      "zoneAllocationSummary": "ゾーン{{3}}の顧客ポイント{{2}}件のうち{{1}}件を割り当てました ({{4}}%)"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1541,5 +1542,25 @@
   "noResults": "結果なし",
   "legacyModelBuilder": "レガシーモデルビルダー",
   "modelBuilderInfo": "新しいProモデルビルダーは、管の製造年と材質、投影の保持、複数の言語に対応し、カスタム属性とnull値は近日中に利用可能になります。レガシービルダーはメンテナンスのみに保持されます。",
-  "proModelBuilder": "プロモデルビルダー"
+  "proModelBuilder": "プロモデルビルダー",
+  "modelBuilderPaywall": {
+    "activeUpdates": "アクティブな更新と新機能",
+    "comingSoon": "近日公開：",
+    "continueWithLegacy": "レガシーで続行",
+    "customAttributes": "カスタム属性",
+    "filterData": "データをフィルタリング",
+    "legacy": "レガシー",
+    "legacyLanguages": "複数の言語（英語のみ）",
+    "legacyProjection": "投影の保持（WGS84のみ）",
+    "maintenanceOnly": "メンテナンスのみ",
+    "notAvailable": "利用不可：",
+    "pipeYearAndMaterials": "管の製造年と材質",
+    "pro": "プロ",
+    "proLanguages": "複数の言語",
+    "proProjection": "元の投影を保持",
+    "saveBuildSettings": "ビルド設定を保存",
+    "subtitle": "GISデータからepanet-jsでモデルを構築するための高度な機能をアンロックします。",
+    "title": "モデルビルダーを選択してください",
+    "upgrade": "アップグレード"
+  }
 }

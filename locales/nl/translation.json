@@ -1510,7 +1510,8 @@
       "saveButton": "Opslaan",
       "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
       "title": "Klanttoewijzing",
-      "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)"
+      "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)",
+      "zoneAllocationSummary": "Toegewezen {{1}} klantpunten van {{2}} in zone {{3}} ({{4}}%)"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1519,7 +1520,7 @@
         "title": "Klantenselectie",
         "zoneCustomers": "Alleen klanten in zone",
         "zoneCustomersDescription": "Alleen klanten toewijzen die binnen de grenzen van een specifieke zone liggen",
-        "selectZone": "Selecteer een zone..."
+        "selectZone": "Selecteer een zone"
       },
       "description": "Configureer welke zones en klanten worden opgenomen in de toewijzing",
       "pipeSelection": {
@@ -1541,5 +1542,25 @@
   "noResults": "Geen resultaten",
   "legacyModelBuilder": "Legacy modelbouwer",
   "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud en meerdere talen toe, met aangepaste attributen en null-waarden binnenkort beschikbaar. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
-  "proModelBuilder": "Pro modelbouwer"
+  "proModelBuilder": "Pro modelbouwer",
+  "modelBuilderPaywall": {
+    "activeUpdates": "Actieve updates & nieuwe functies",
+    "comingSoon": "Binnenkort beschikbaar:",
+    "continueWithLegacy": "Doorgaan met Legacy",
+    "customAttributes": "Aangepaste attributen",
+    "filterData": "Gegevens filteren",
+    "legacy": "Legacy",
+    "legacyLanguages": "Meerdere talen (alleen Engels)",
+    "legacyProjection": "Projectiebehoud (alleen WGS84)",
+    "maintenanceOnly": "Alleen onderhoud",
+    "notAvailable": "Niet beschikbaar:",
+    "pipeYearAndMaterials": "Leidingjaar en materialen",
+    "pro": "Pro",
+    "proLanguages": "Meerdere talen",
+    "proProjection": "Originele projectie behouden",
+    "saveBuildSettings": "Build-instellingen opslaan",
+    "subtitle": "Ontgrendel geavanceerde mogelijkheden voor het bouwen van modellen in epanet-js met uw GIS-gegevens.",
+    "title": "Kies uw modelbouwer",
+    "upgrade": "Upgraden"
+  }
 }

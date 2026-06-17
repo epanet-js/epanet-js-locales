@@ -1510,7 +1510,8 @@
       "saveButton": "Simpan",
       "summaryTitle": "Ringkasan alokasi ({{1}} total titik pelanggan)",
       "title": "Alokasi pelanggan",
-      "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)"
+      "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)",
+      "zoneAllocationSummary": "Dialokasikan {{1}} titik pelanggan dari {{2}} di zona {{3}} ({{4}}%)"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1519,7 +1520,7 @@
         "title": "Pemilihan pelanggan",
         "zoneCustomers": "Hanya pelanggan dalam zona",
         "zoneCustomersDescription": "Alokasikan hanya pelanggan yang berada dalam batas-batas zona tertentu",
-        "selectZone": "Pilih zona..."
+        "selectZone": "Pilih zona"
       },
       "description": "Konfigurasi zona dan pelanggan mana yang akan disertakan dalam alokasi",
       "pipeSelection": {
@@ -1541,5 +1542,25 @@
   "noResults": "Tidak ada hasil",
   "legacyModelBuilder": "Pembangun model lama",
   "modelBuilderInfo": "Pembangun model Pro yang baru menambahkan tahun & bahan pipa, pelestarian proyeksi, dan beberapa bahasa, dengan atribut khusus dan nilai null yang akan segera hadir. Pembangun model lama hanya disimpan untuk pemeliharaan.",
-  "proModelBuilder": "Pembangun model Pro"
+  "proModelBuilder": "Pembangun model Pro",
+  "modelBuilderPaywall": {
+    "activeUpdates": "Pembaruan aktif & fitur baru",
+    "comingSoon": "Segera hadir:",
+    "continueWithLegacy": "Lanjutkan dengan Legacy",
+    "customAttributes": "Atribut kustom",
+    "filterData": "Saring data",
+    "legacy": "Legacy",
+    "legacyLanguages": "Beberapa bahasa (hanya bahasa Inggris)",
+    "legacyProjection": "Pelestarian proyeksi (khusus WGS84)",
+    "maintenanceOnly": "Hanya pemeliharaan",
+    "notAvailable": "Tidak tersedia:",
+    "pipeYearAndMaterials": "Tahun & material pipa",
+    "pro": "Pro",
+    "proLanguages": "Beberapa bahasa",
+    "proProjection": "Pertahankan proyeksi asli",
+    "saveBuildSettings": "Simpan pengaturan build",
+    "subtitle": "Buka kemampuan canggih untuk membangun model di epanet-js dari data GIS Anda.",
+    "title": "Pilih pembangun model Anda",
+    "upgrade": "Tingkatkan"
+  }
 }

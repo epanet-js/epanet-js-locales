@@ -1510,7 +1510,8 @@
       "saveButton": "Salvar",
       "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
       "title": "Alocação de Pontos de Consumo",
-      "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)"
+      "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)",
+      "zoneAllocationSummary": "Alocados {{1}} pontos de consumo de {{2}} na zona {{3}} ({{4}}%)"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1519,7 +1520,7 @@
         "title": "Seleção de clientes",
         "zoneCustomers": "Apenas clientes na zona",
         "zoneCustomersDescription": "Alocar apenas clientes localizados dentro dos limites de uma zona específica",
-        "selectZone": "Selecionar uma zona..."
+        "selectZone": "Selecionar uma zona"
       },
       "description": "Configure quais zonas e clientes serão incluídos na alocação",
       "pipeSelection": {
@@ -1541,5 +1542,25 @@
   "noResults": "Sem resultados",
   "legacyModelBuilder": "Construtor de modelo legado",
   "modelBuilderInfo": "O novo construtor de modelo Pro adiciona ano e materiais de tubulação, preservação de projeção e múltiplos idiomas, com atributos personalizados e valores nulos em breve. O construtor legado é mantido apenas para manutenção.",
-  "proModelBuilder": "Construtor de modelo Pro"
+  "proModelBuilder": "Construtor de modelo Pro",
+  "modelBuilderPaywall": {
+    "activeUpdates": "Atualizações ativas e novas funcionalidades",
+    "comingSoon": "Em breve:",
+    "continueWithLegacy": "Continuar com Legado",
+    "customAttributes": "Atributos personalizados",
+    "filterData": "Filtrar dados",
+    "legacy": "Legado",
+    "legacyLanguages": "Múltiplos idiomas (somente inglês)",
+    "legacyProjection": "Preservação de projeção (somente WGS84)",
+    "maintenanceOnly": "Apenas manutenção",
+    "notAvailable": "Não disponível:",
+    "pipeYearAndMaterials": "Ano e materiais de tubulação",
+    "pro": "Pro",
+    "proLanguages": "Múltiplos idiomas",
+    "proProjection": "Preservar projeção original",
+    "saveBuildSettings": "Salvar configurações de construção",
+    "subtitle": "Desbloqueie capacidades avançadas para construir modelos no epanet-js a partir dos seus dados GIS.",
+    "title": "Escolha seu construtor de modelo",
+    "upgrade": "Atualizar"
+  }
 }
