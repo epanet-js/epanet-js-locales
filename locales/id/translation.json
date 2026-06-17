@@ -1562,5 +1562,9 @@
     "subtitle": "Buka kemampuan canggih untuk membangun model di epanet-js dari data GIS Anda.",
     "title": "Pilih pembangun model Anda",
     "upgrade": "Tingkatkan"
-  }
+  },
+  "source.concen": "Konsentrasi",
+  "source.flowpaced": "Peningkat berdasarkan aliran",
+  "source.mass": "Peningkat massa",
+  "source.setpoint": "Peningkat setpoint"
 }

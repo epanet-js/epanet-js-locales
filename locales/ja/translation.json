@@ -1562,5 +1562,9 @@
     "subtitle": "GISデータからepanet-jsでモデルを構築するための高度な機能をアンロックします。",
     "title": "モデルビルダーを選択してください",
     "upgrade": "アップグレード"
-  }
+  },
+  "source.concen": "濃度",
+  "source.flowpaced": "流量比例ブースター",
+  "source.mass": "質量ブースター",
+  "source.setpoint": "設定点ブースター"
 }

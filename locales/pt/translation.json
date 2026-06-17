@@ -1562,5 +1562,9 @@
     "subtitle": "Desbloqueie capacidades avançadas para construir modelos no epanet-js a partir dos seus dados GIS.",
     "title": "Escolha seu construtor de modelo",
     "upgrade": "Atualizar"
-  }
+  },
+  "source.concen": "Concentração",
+  "source.flowpaced": "Dosador de vazão",
+  "source.mass": "Dosador de massa",
+  "source.setpoint": "Dosador de ponto de ajuste"
 }

@@ -1569,5 +1569,9 @@
     "subtitle": "Desbloquea capacidades avanzadas para construir modelos en epanet-js a partir de tus datos GIS.",
     "title": "Elige tu constructor de modelos",
     "upgrade": "Actualizar"
-  }
+  },
+  "source.concen": "Concentración",
+  "source.flowpaced": "Inyección de caudal",
+  "source.mass": "Inyección de masa",
+  "source.setpoint": "Inyección de punto de ajuste"
 }

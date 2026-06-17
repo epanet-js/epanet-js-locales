@@ -1562,5 +1562,9 @@
     "subtitle": "Débloquez des capacités avancées pour la construction de modèles dans epanet-js à partir de vos données SIG.",
     "title": "Choisissez votre générateur de modèle",
     "upgrade": "Mettre à niveau"
-  }
+  },
+  "source.concen": "Concentration",
+  "source.flowpaced": "Booster à débit régulé",
+  "source.mass": "Booster de masse",
+  "source.setpoint": "Booster à point de consigne"
 }

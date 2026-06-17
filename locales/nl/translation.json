@@ -1562,5 +1562,9 @@
     "subtitle": "Ontgrendel geavanceerde mogelijkheden voor het bouwen van modellen in epanet-js met uw GIS-gegevens.",
     "title": "Kies uw modelbouwer",
     "upgrade": "Upgraden"
-  }
+  },
+  "source.concen": "Concentratie",
+  "source.flowpaced": "Debietgestuurde booster",
+  "source.mass": "Massa booster",
+  "source.setpoint": "Setpoint booster"
 }
