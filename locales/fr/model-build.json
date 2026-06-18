@@ -8,7 +8,10 @@
     "optionalAttributes": "Attributs facultatifs",
     "recommendedAttributes": "Attributs recommandés",
     "selectProperty": "Sélectionner une propriété...",
-    "title": "Mapper les attributs"
+    "title": "Mapper les attributs",
+    "autoGenerate": "Générer automatiquement",
+    "empty": "Vide",
+    "useDefault": "Utiliser la valeur par défaut"
   },
   "attributes": {
     "year": "Année d'installation",

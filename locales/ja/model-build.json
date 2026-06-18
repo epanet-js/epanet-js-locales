@@ -8,7 +8,10 @@
     "optionalAttributes": "オプション属性",
     "recommendedAttributes": "推奨属性",
     "selectProperty": "プロパティを選択...",
-    "title": "属性マッピング"
+    "title": "属性マッピング",
+    "autoGenerate": "自動生成",
+    "empty": "空",
+    "useDefault": "デフォルト値を使用"
   },
   "attributes": {
     "year": "設置年",

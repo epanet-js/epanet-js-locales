@@ -8,7 +8,10 @@
     "optionalAttributes": "Atribut opsional",
     "recommendedAttributes": "Atribut direkomendasikan",
     "selectProperty": "Pilih properti...",
-    "title": "Petakan atribut"
+    "title": "Petakan atribut",
+    "autoGenerate": "Buat otomatis",
+    "empty": "Kosong",
+    "useDefault": "Gunakan nilai default"
   },
   "attributes": {
     "year": "Tahun pemasangan",

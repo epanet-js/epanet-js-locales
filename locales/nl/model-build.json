@@ -8,7 +8,10 @@
     "optionalAttributes": "Optionele attributen",
     "recommendedAttributes": "Aanbevolen attributen",
     "selectProperty": "Selecteer eigenschap...",
-    "title": "Attributen koppelen"
+    "title": "Attributen koppelen",
+    "autoGenerate": "Automatisch genereren",
+    "empty": "Leeg",
+    "useDefault": "Standaardwaarde gebruiken"
   },
   "attributes": {
     "year": "Installatiejaar",

@@ -36,6 +36,9 @@
     "recommendedAttributes": "Recommended attributes",
     "optionalAttributes": "Optional attributes",
     "selectProperty": "Select property...",
+    "autoGenerate": "Auto-generate",
+    "useDefault": "Use default value",
+    "empty": "Empty",
     "dataPreview": "Data preview",
     "buildModel": "Build model"
   },
