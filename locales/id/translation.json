@@ -112,7 +112,9 @@
     "title": "Kontrol",
     "addTimeStep": "Tambah langkah waktu",
     "time": "Waktu",
-    "timeBased": "Berbasis waktu"
+    "timeBased": "Berbasis waktu",
+    "level": "Level (m)",
+    "levelBased": "Berbasis level"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -156,7 +158,8 @@
     "needsMorePoints": "Kurva memerlukan lebih dari satu titik.",
     "needsNonZeroValue": "{{1}} memerlukan setidaknya satu nilai bukan nol.",
     "valueAscendingOrder": "Nilai {{1}} harus dalam urutan menaik.",
-    "valueDescendingOrder": "Nilai {{1}} harus dalam urutan menurun."
+    "valueDescendingOrder": "Nilai {{1}} harus dalam urutan menurun.",
+    "valueMustBeNonZero": "Nilai {{1}} tidak boleh nol."
   },
   "customChemicalConcentration": "{{1}}",
   "customElevations": "Sumber elevasi kustom",

@@ -713,7 +713,8 @@
     "needsNonZeroValue": "{{1}} needs at least one non-zero value.",
     "valueAscendingOrder": "{{1}} values must be in ascending order.",
     "valueDescendingOrder": "{{1}} values must be in descending order.",
-    "needsMorePoints": "The curve requires more than one point."
+    "needsMorePoints": "The curve requires more than one point.",
+    "valueMustBeNonZero": "{{1}} value cannot be zero."
   },
   "speed": "Speed",
   "pipeStatus": "Pipe status",
@@ -918,6 +919,8 @@
     "simpleEmpty": "No simple controls defined",
     "rulesEmpty": "No rule-based controls defined",
     "timeBased": "Time-based",
+    "levelBased": "Level-based",
+    "level": "Level (m)",
     "time": "Time",
     "addTimeStep": "Add time step"
   },

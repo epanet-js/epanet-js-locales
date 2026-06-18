@@ -681,7 +681,8 @@
     "valueAscendingOrder": "Les valeurs de {{1}} doivent être en ordre croissant.",
     "valueDescendingOrder": "Les valeurs de {{1}} doivent être en ordre décroissant.",
     "needsMorePoints": "La courbe nécessite plus d'un point.",
-    "needsNonZeroValue": "{{1}} nécessite au moins une valeur non nulle."
+    "needsNonZeroValue": "{{1}} nécessite au moins une valeur non nulle.",
+    "valueMustBeNonZero": "La valeur de {{1}} ne peut pas être zéro."
   },
   "keyboardShortcuts": {
     "editingSelection": "Édition et sélection",
@@ -848,7 +849,9 @@
     "title": "Contrôles",
     "addTimeStep": "Ajouter un pas de temps",
     "time": "Temps",
-    "timeBased": "Basé sur l'heure"
+    "timeBased": "Basé sur l'heure",
+    "level": "Niveau (m)",
+    "levelBased": "Basé sur le niveau"
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",

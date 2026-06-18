@@ -681,7 +681,8 @@
     "valueAscendingOrder": "{{1}} の値は昇順である必要があります。",
     "valueDescendingOrder": "{{1}} の値は降順である必要があります。",
     "needsMorePoints": "曲線には複数の点が必要です。",
-    "needsNonZeroValue": "{{1}} には少なくとも1つのゼロ以外の値が必要です。"
+    "needsNonZeroValue": "{{1}} には少なくとも1つのゼロ以外の値が必要です。",
+    "valueMustBeNonZero": "{{1}} の値はゼロにできません。"
   },
   "keyboardShortcuts": {
     "editingSelection": "編集と選択",
@@ -848,7 +849,9 @@
     "title": "制御",
     "addTimeStep": "タイムステップを追加",
     "time": "時間",
-    "timeBased": "時間ベース"
+    "timeBased": "時間ベース",
+    "level": "レベル (m)",
+    "levelBased": "レベルベース"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",

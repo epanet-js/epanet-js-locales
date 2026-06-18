@@ -681,7 +681,8 @@
     "valueAscendingOrder": "{{1}} waarden moeten in oplopende volgorde staan.",
     "valueDescendingOrder": "{{1}} waarden moeten in aflopende volgorde staan.",
     "needsMorePoints": "De curve vereist meer dan één punt.",
-    "needsNonZeroValue": "{{1}} heeft minstens één niet-nulwaarde nodig."
+    "needsNonZeroValue": "{{1}} heeft minstens één niet-nulwaarde nodig.",
+    "valueMustBeNonZero": "{{1}} waarde kan niet nul zijn."
   },
   "keyboardShortcuts": {
     "editingSelection": "Bewerken & selectie",
@@ -848,7 +849,9 @@
     "title": "Besturingen",
     "addTimeStep": "Tijdstap toevoegen",
     "time": "Tijd",
-    "timeBased": "Tijdgebaseerd"
+    "timeBased": "Tijdgebaseerd",
+    "level": "Niveau (m)",
+    "levelBased": "Niveaugebaseerd"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
