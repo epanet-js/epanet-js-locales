@@ -851,7 +851,12 @@
     "time": "Tijd",
     "timeBased": "Tijdgebaseerd",
     "level": "Niveau (m)",
-    "levelBased": "Niveaugebaseerd"
+    "levelBased": "Niveaugebaseerd",
+    "levelValidation": {
+      "onBelowOff": "Aan-niveau moet onder het uit-niveau liggen.",
+      "outOfRange": "Niveau moet tussen {{1}} en {{2}} liggen."
+    },
+    "nativeTitle": "native besturingen"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -1260,7 +1265,7 @@
   "recent": "Recent",
   "toggleBranch": "Overschakelen naar laatste versie",
   "alertExportInp": "Sommige gegevens kunnen verloren gaan",
-  "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals klantpunten en aangepaste onderdeelvelden.",
+  "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals klantpunten, aangepaste onderdeelvelden en native besturingen.",
   "drawingTools": "Tekentools",
   "gotIt": "Begrepen",
   "newBadge": "nieuw",

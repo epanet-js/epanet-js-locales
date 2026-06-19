@@ -851,7 +851,12 @@
     "time": "時間",
     "timeBased": "時間ベース",
     "level": "レベル (m)",
-    "levelBased": "レベルベース"
+    "levelBased": "レベルベース",
+    "levelValidation": {
+      "onBelowOff": "オンレベルはオフレベルより低くなければなりません。",
+      "outOfRange": "レベルは{{1}}と{{2}}の間である必要があります。"
+    },
+    "nativeTitle": "ネイティブコントロール"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -1260,7 +1265,7 @@
   "recent": "最近",
   "toggleBranch": "最終バージョンに切り替える",
   "alertExportInp": "一部のデータが失われる可能性があります",
-  "alertExportInpDetail": "EPANET INP形式は、顧客ポイントやカスタム資産フィールドなど、epanet-jsのすべての機能をサポートしていません。",
+  "alertExportInpDetail": "EPANET INP形式は、顧客ポイント、カスタム資産フィールド、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
   "drawingTools": "描画ツール",
   "gotIt": "了解",
   "newBadge": "new",

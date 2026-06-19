@@ -858,7 +858,12 @@
     "time": "Tiempo",
     "timeBased": "Basado en el tiempo",
     "level": "Nivel (m)",
-    "levelBased": "Basado en el nivel"
+    "levelBased": "Basado en el nivel",
+    "levelValidation": {
+      "onBelowOff": "El nivel de encendido debe ser inferior al nivel de apagado.",
+      "outOfRange": "El nivel debe estar entre {{1}} y {{2}}."
+    },
+    "nativeTitle": "controles nativos"
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
@@ -1267,7 +1272,7 @@
   "recent": "Reciente",
   "toggleBranch": "Cambiar a la última versión",
   "alertExportInp": "Algunos datos pueden perderse",
-  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo y los campos de activos personalizados.",
+  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de activos personalizados y los controles nativos.",
   "drawingTools": "Herramientas de dibujo",
   "gotIt": "Entendido",
   "newBadge": "nuevo",

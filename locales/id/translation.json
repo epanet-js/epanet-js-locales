@@ -14,7 +14,7 @@
   "afdCompact": "Acre-feet per hari (AFD)",
   "afdDescription": "Satuan AS dengan aliran dinyatakan dalam acft/hari",
   "alertExportInp": "Beberapa data mungkin hilang",
-  "alertExportInpDetail": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti titik pelanggan dan bidang aset kustom.",
+  "alertExportInpDetail": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti titik pelanggan, bidang aset kustom, dan kontrol asli.",
   "alertExportInpRecommendation": "Kami merekomendasikan penggunaan Proyek epanet-js (.ejsdb) sebagai penyimpanan utama Anda dan hanya mengekspor ke EPANET INP untuk kompatibilitas eksternal.",
   "alertInpOutput": "Beberapa data mungkin hilang",
   "alertInpOutputDetail": "Harap diperhatikan bahwa beberapa bagian dan pengaturan mungkin diformat berbeda atau dihilangkan. Kami menyarankan Anda untuk menyimpan salinan alih-alih menimpa konten asli.",
@@ -114,7 +114,12 @@
     "time": "Waktu",
     "timeBased": "Berbasis waktu",
     "level": "Level (m)",
-    "levelBased": "Berbasis level"
+    "levelBased": "Berbasis level",
+    "levelValidation": {
+      "onBelowOff": "Level aktif harus di bawah level nonaktif.",
+      "outOfRange": "Level harus antara {{1}} dan {{2}}."
+    },
+    "nativeTitle": "kontrol asli"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",

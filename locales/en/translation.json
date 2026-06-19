@@ -541,7 +541,7 @@
   "alertInpOutputSubtitle": "Your INP file was created with another application.",
   "alertInpOutputDetail": "Please note that some sections and settings may be formatted differently or omitted. We encourage you to save a copy instead of overriding the original content.",
   "alertExportInp": "Some data may be lost",
-  "alertExportInpDetail": "The EPANET INP format doesn't support all epanet-js features, such as customer points and custom asset fields.",
+  "alertExportInpDetail": "The EPANET INP format doesn't support all epanet-js features, such as customer points, custom asset fields and native controls.",
   "alertExportInpRecommendation": "We recommend using the epanet-js Project (.ejsdb) as your primary save and only exporting to EPANET INP for external compatibility.",
   "saveAsProject": "Save as Project",
   "exportToInp": "Export to INP",
@@ -914,6 +914,7 @@
   },
   "controls": {
     "title": "Controls",
+    "nativeTitle": "native controls",
     "simpleTab": "Simple",
     "rulesTab": "Rule-based",
     "simpleEmpty": "No simple controls defined",
@@ -921,6 +922,10 @@
     "timeBased": "Time-based",
     "levelBased": "Level-based",
     "level": "Level (m)",
+    "levelValidation": {
+      "outOfRange": "Level must be between {{1}} and {{2}}.",
+      "onBelowOff": "On level must be below the off level."
+    },
     "time": "Time",
     "addTimeStep": "Add time step"
   },

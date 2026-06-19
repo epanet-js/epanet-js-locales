@@ -851,7 +851,12 @@
     "time": "Tempo",
     "timeBased": "Baseado no tempo",
     "level": "Nível (m)",
-    "levelBased": "Baseado em nível"
+    "levelBased": "Baseado em nível",
+    "levelValidation": {
+      "onBelowOff": "O nível de ativação deve ser inferior ao nível de desativação.",
+      "outOfRange": "O nível deve estar entre {{1}} e {{2}}."
+    },
+    "nativeTitle": "controles nativos"
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
@@ -1260,7 +1265,7 @@
   "recent": "Recente",
   "toggleBranch": "Mudar para a última versão",
   "alertExportInp": "Alguns dados podem ser perdidos",
-  "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo e campos de ativos personalizados.",
+  "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo, campos de ativos personalizados e controles nativos.",
   "drawingTools": "Ferramentas de desenho",
   "gotIt": "Entendi",
   "newBadge": "novo",
