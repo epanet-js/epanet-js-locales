@@ -193,7 +193,8 @@
         },
         "title": "顧客割り当て",
         "unallocatedPoints": "{{1}} の顧客ポイントが未割り当てのままです（{{2}}%）",
-        "applyChanges": "変更を適用"
+        "applyChanges": "変更を適用",
+        "summaryTitleWithoutTotal": "概要"
       },
       "allocationStepLabel": "顧客割り当て",
       "dataInputStep": "データ入力",
@@ -856,7 +857,12 @@
       "onBelowOff": "オンレベルはオフレベルより低くなければなりません。",
       "outOfRange": "レベルは{{1}}と{{2}}の間である必要があります。"
     },
-    "nativeTitle": "ネイティブコントロール"
+    "nativeTitle": "ネイティブコントロール",
+    "epanetTitle": "EPANET制御",
+    "nativeControlsInfoDescription": "時間ベースおよびレベルベースのポンプ制御をアセットパネルから直接設定できるようになりました！",
+    "nativeControlsInfoNote": "引き続き生エディターを使用できますが、制御の競合を防ぐため、同じアセットを両方の場所で設定することは避けてください。",
+    "nativeControlsInfoTitle": "より簡単なポンプ制御が利用可能になりました",
+    "rawControlsDetected": "EPANET生制御を検出しました"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -1436,7 +1442,8 @@
       "title": "完了",
       "mergedFeaturesHeader": "結合されたフィーチャの数",
       "mergedLabelHeader": "ゾーン",
-      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:"
+      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:",
+      "summaryShapefile": "シェープファイルから {{1}} 個のゾーンをインポートしました。"
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
@@ -1515,7 +1522,17 @@
       "summaryTitle": "割り当て概要（合計顧客ポイント数: {{1}}）",
       "title": "顧客割り当て",
       "unallocatedPoints": "{{1}} 個の顧客ポイントが未割り当てのままです（{{2}}%）",
-      "zoneAllocationSummary": "ゾーン{{3}}の顧客ポイント{{2}}件のうち{{1}}件を割り当てました ({{4}}%)"
+      "zoneAllocationSummary": "ゾーン{{3}}の顧客ポイント{{2}}件のうち{{1}}件を割り当てました ({{4}}%)",
+      "allocationScope": "割り当て範囲",
+      "allocationZone": "割り当てゾーン",
+      "allZones": "すべてのゾーン",
+      "networkCoverage": "ネットワーク全体のカバレッジ",
+      "noChanges": "この範囲には割り当てる顧客ポイントがありません",
+      "rulesHeading": "ルール",
+      "scopeHeading": "範囲",
+      "selectedPipesOnly": "選択された管のみ",
+      "summaryHeading": "概要",
+      "zoneCoverage": "ゾーン {{1}} のカバレッジ"
     },
     "allocationOptions": {
       "customerSelection": {

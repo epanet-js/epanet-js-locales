@@ -444,7 +444,8 @@
           "removeRuleTooltip": "Remover regra",
           "addRuleButton": "Adicionar Regra"
         },
-        "applyChanges": "Aplicar Alterações"
+        "applyChanges": "Aplicar Alterações",
+        "summaryTitleWithoutTotal": "Resumo"
       },
       "allocationStepLabel": "Alocação de Pontos de Consumo",
       "dataMapping": {
@@ -856,7 +857,12 @@
       "onBelowOff": "O nível de ativação deve ser inferior ao nível de desativação.",
       "outOfRange": "O nível deve estar entre {{1}} e {{2}}."
     },
-    "nativeTitle": "controles nativos"
+    "nativeTitle": "controles nativos",
+    "epanetTitle": "Controles EPANET",
+    "nativeControlsInfoDescription": "Agora você pode configurar controles de bomba baseados em tempo e nível diretamente do painel de ativos!",
+    "nativeControlsInfoNote": "Embora você ainda possa usar o editor bruto, evite configurar o mesmo ativo em ambos os lugares para evitar conflitos de controle.",
+    "nativeControlsInfoTitle": "Controles de bomba mais fáceis disponíveis",
+    "rawControlsDetected": "Controles brutos EPANET detectados"
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
@@ -1436,7 +1442,8 @@
       "title": "Concluído",
       "mergedFeaturesHeader": "Número de características mescladas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:"
+      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:",
+      "summaryShapefile": "Importadas {{1}} zonas de Shapefile."
     },
     "dataInputStep": {
       "addFromFile": "Adicionar de arquivo",
@@ -1515,7 +1522,17 @@
       "summaryTitle": "Resumo da Alocação ({{1}} pontos de consumo totais)",
       "title": "Alocação de Pontos de Consumo",
       "unallocatedPoints": "{{1}} pontos de consumo permanecem não alocados ({{2}}%)",
-      "zoneAllocationSummary": "Alocados {{1}} pontos de consumo de {{2}} na zona {{3}} ({{4}}%)"
+      "zoneAllocationSummary": "Alocados {{1}} pontos de consumo de {{2}} na zona {{3}} ({{4}}%)",
+      "allocationScope": "Escopo da Alocação",
+      "allocationZone": "Zona de Alocação",
+      "allZones": "Todas as zonas",
+      "networkCoverage": "Cobertura na rede",
+      "noChanges": "Nenhum ponto de consumo para alocar neste escopo",
+      "rulesHeading": "Regras",
+      "scopeHeading": "Escopo",
+      "selectedPipesOnly": "Apenas tubulações selecionadas",
+      "summaryHeading": "Resumo",
+      "zoneCoverage": "Cobertura na zona {{1}}"
     },
     "allocationOptions": {
       "customerSelection": {

@@ -444,7 +444,8 @@
           "removeRuleTooltip": "Supprimer la règle",
           "addRuleButton": "Ajouter une règle"
         },
-        "applyChanges": "Appliquer les modifications"
+        "applyChanges": "Appliquer les modifications",
+        "summaryTitleWithoutTotal": "Résumé"
       },
       "allocationStepLabel": "Allocation des clients",
       "dataMapping": {
@@ -856,7 +857,12 @@
       "onBelowOff": "Le niveau d'activation doit être inférieur au niveau de désactivation.",
       "outOfRange": "Le niveau doit être compris entre {{1}} et {{2}}."
     },
-    "nativeTitle": "contrôles natifs"
+    "nativeTitle": "contrôles natifs",
+    "epanetTitle": "Contrôles EPANET",
+    "nativeControlsInfoDescription": "Vous pouvez désormais configurer les contrôles de pompe basés sur le temps et sur le niveau directement depuis le panneau d'éléments !",
+    "nativeControlsInfoNote": "Bien que vous puissiez toujours utiliser l'éditeur brut, veuillez éviter de configurer le même élément aux deux endroits pour éviter les conflits de contrôle.",
+    "nativeControlsInfoTitle": "Contrôles de pompe plus faciles disponibles",
+    "rawControlsDetected": "Contrôles bruts EPANET détectés"
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
@@ -1436,7 +1442,8 @@
       "title": "Terminé",
       "mergedFeaturesHeader": "Nombre de caractéristiques fusionnées",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :"
+      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :",
+      "summaryShapefile": "Importé {{1}} zones depuis Shapefile."
     },
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
@@ -1515,7 +1522,17 @@
       "summaryTitle": "Résumé de l'allocation ({{1}} points clients au total)",
       "title": "Allocation des clients",
       "unallocatedPoints": "{{1}} points clients restent non alloués ({{2}}%)",
-      "zoneAllocationSummary": "{{1}} points de consommation alloués sur {{2}} dans la zone {{3}} ({{4}}%)"
+      "zoneAllocationSummary": "{{1}} points de consommation alloués sur {{2}} dans la zone {{3}} ({{4}}%)",
+      "allocationScope": "Portée de l'allocation",
+      "allocationZone": "Zone d'allocation",
+      "allZones": "Toutes les zones",
+      "networkCoverage": "Couverture sur le réseau",
+      "noChanges": "Aucun point de consommation à allouer dans cette portée",
+      "rulesHeading": "Règles",
+      "scopeHeading": "Portée",
+      "selectedPipesOnly": "Conduites sélectionnées uniquement",
+      "summaryHeading": "Résumé",
+      "zoneCoverage": "Couverture dans la zone {{1}}"
     },
     "allocationOptions": {
       "customerSelection": {

@@ -457,7 +457,8 @@
           "removeRuleTooltip": "Eliminar regla"
         },
         "title": "Asignación de Clientes",
-        "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)"
+        "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)",
+        "summaryTitleWithoutTotal": "Resumen"
       },
       "allocationStepLabel": "Asignación de Clientes",
       "dataMapping": {
@@ -863,7 +864,12 @@
       "onBelowOff": "El nivel de encendido debe ser inferior al nivel de apagado.",
       "outOfRange": "El nivel debe estar entre {{1}} y {{2}}."
     },
-    "nativeTitle": "controles nativos"
+    "nativeTitle": "controles nativos",
+    "epanetTitle": "Controles EPANET",
+    "nativeControlsInfoDescription": "¡Ahora puedes configurar los controles de bomba basados en tiempo y nivel directamente desde el panel de activos!",
+    "nativeControlsInfoNote": "Aunque aún puedes usar el editor en bruto, evita configurar el mismo activo en ambos lugares para prevenir conflictos de control.",
+    "nativeControlsInfoTitle": "Controles de bomba más fáciles disponibles",
+    "rawControlsDetected": "Controles EPANET en bruto detectados"
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
@@ -1443,7 +1449,8 @@
       "title": "Completado",
       "mergedFeaturesHeader": "Número de características fusionadas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:"
+      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:",
+      "summaryShapefile": "Importadas {{1}} zonas desde Shapefile."
     },
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
@@ -1522,7 +1529,17 @@
       "summaryTitle": "Resumen de asignación ({{1}} puntos de consumo totales)",
       "title": "Asignación de clientes",
       "unallocatedPoints": "{{1}} puntos de consumo permanecen sin asignar ({{2}}%)",
-      "zoneAllocationSummary": "Asignados {{1}} puntos de consumo de {{2}} en la zona {{3}} ({{4}}%)"
+      "zoneAllocationSummary": "Asignados {{1}} puntos de consumo de {{2}} en la zona {{3}} ({{4}}%)",
+      "allocationScope": "Alcance de asignación",
+      "allocationZone": "Zona de asignación",
+      "allZones": "Todas las zonas",
+      "networkCoverage": "Cobertura en toda la red",
+      "noChanges": "No hay puntos de consumo para asignar en este alcance",
+      "rulesHeading": "Reglas",
+      "scopeHeading": "Alcance",
+      "selectedPipesOnly": "Solo tuberías seleccionadas",
+      "summaryHeading": "Resumen",
+      "zoneCoverage": "Cobertura en la zona {{1}}"
     },
     "allocationOptions": {
       "customerSelection": {

@@ -119,7 +119,12 @@
       "onBelowOff": "Level aktif harus di bawah level nonaktif.",
       "outOfRange": "Level harus antara {{1}} dan {{2}}."
     },
-    "nativeTitle": "kontrol asli"
+    "nativeTitle": "kontrol asli",
+    "epanetTitle": "Kontrol EPANET",
+    "nativeControlsInfoDescription": "Anda sekarang dapat mengonfigurasi kontrol pompa berbasis waktu dan berbasis level langsung dari panel aset!",
+    "nativeControlsInfoNote": "Meskipun Anda masih dapat menggunakan editor mentah, harap hindari mengonfigurasi aset yang sama di kedua tempat untuk mencegah konflik kontrol.",
+    "nativeControlsInfoTitle": "Kontrol pompa yang lebih mudah tersedia",
+    "rawControlsDetected": "Kontrol mentah EPANET terdeteksi"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -488,7 +493,8 @@
           "removeRuleTooltip": "Hapus aturan"
         },
         "title": "Alokasi pelanggan",
-        "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)"
+        "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)",
+        "summaryTitleWithoutTotal": "Ringkasan"
       },
       "allocationStepLabel": "Alokasi pelanggan",
       "dataInputStep": "Input data",
@@ -1436,7 +1442,8 @@
       "title": "Selesai",
       "mergedFeaturesHeader": "Jumlah fitur yang digabungkan",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:"
+      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:",
+      "summaryShapefile": "Diimpor {{1}} zona dari Shapefile."
     },
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
@@ -1515,7 +1522,17 @@
       "summaryTitle": "Ringkasan alokasi ({{1}} total titik pelanggan)",
       "title": "Alokasi pelanggan",
       "unallocatedPoints": "{{1}} titik pelanggan tetap tidak dialokasikan ({{2}}%)",
-      "zoneAllocationSummary": "Dialokasikan {{1}} titik pelanggan dari {{2}} di zona {{3}} ({{4}}%)"
+      "zoneAllocationSummary": "Dialokasikan {{1}} titik pelanggan dari {{2}} di zona {{3}} ({{4}}%)",
+      "allocationScope": "Lingkup alokasi",
+      "allocationZone": "Zona alokasi",
+      "allZones": "Semua zona",
+      "networkCoverage": "Cakupan di seluruh jaringan",
+      "noChanges": "Tidak ada titik pelanggan untuk dialokasikan dalam lingkup ini",
+      "rulesHeading": "Aturan",
+      "scopeHeading": "Lingkup",
+      "selectedPipesOnly": "Hanya pipa yang dipilih",
+      "summaryHeading": "Ringkasan",
+      "zoneCoverage": "Cakupan di zona {{1}}"
     },
     "allocationOptions": {
       "customerSelection": {

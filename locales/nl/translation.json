@@ -444,7 +444,8 @@
           "removeRuleTooltip": "Regel verwijderen",
           "addRuleButton": "Regel toevoegen"
         },
-        "applyChanges": "Wijzigingen toepassen"
+        "applyChanges": "Wijzigingen toepassen",
+        "summaryTitleWithoutTotal": "Samenvatting"
       },
       "allocationStepLabel": "Klanttoewijzing",
       "dataMapping": {
@@ -856,7 +857,12 @@
       "onBelowOff": "Aan-niveau moet onder het uit-niveau liggen.",
       "outOfRange": "Niveau moet tussen {{1}} en {{2}} liggen."
     },
-    "nativeTitle": "native besturingen"
+    "nativeTitle": "native besturingen",
+    "epanetTitle": "EPANET Besturingen",
+    "nativeControlsInfoDescription": "U kunt nu tijdgebaseerde en niveaugebaseerde pompbesturingen rechtstreeks vanuit het onderdelenpaneel configureren!",
+    "nativeControlsInfoNote": "Hoewel u de ruwe editor nog steeds kunt gebruiken, vermijd alstublieft het configureren van hetzelfde onderdeel op beide plaatsen om besturingsconflicten te voorkomen.",
+    "nativeControlsInfoTitle": "Gemakkelijkere pompbesturingen beschikbaar",
+    "rawControlsDetected": "EPANET ruwe besturingen gedetecteerd"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -1436,7 +1442,8 @@
       "title": "Voltooid",
       "mergedFeaturesHeader": "Aantal samengevoegde objecten",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:"
+      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:",
+      "summaryShapefile": "Geïmporteerd {{1}} zones uit Shapefile."
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
@@ -1515,7 +1522,17 @@
       "summaryTitle": "Samenvatting toewijzing ({{1}} totale klantpunten)",
       "title": "Klanttoewijzing",
       "unallocatedPoints": "{{1}} klantpunten blijven ontoegewezen ({{2}}%)",
-      "zoneAllocationSummary": "Toegewezen {{1}} klantpunten van {{2}} in zone {{3}} ({{4}}%)"
+      "zoneAllocationSummary": "Toegewezen {{1}} klantpunten van {{2}} in zone {{3}} ({{4}}%)",
+      "allocationScope": "Toewijzingsbereik",
+      "allocationZone": "Toewijzingszone",
+      "allZones": "Alle zones",
+      "networkCoverage": "Dekking over het netwerk",
+      "noChanges": "Geen klantpunten toe te wijzen in dit bereik",
+      "rulesHeading": "Regels",
+      "scopeHeading": "Bereik",
+      "selectedPipesOnly": "Alleen geselecteerde leidingen",
+      "summaryHeading": "Samenvatting",
+      "zoneCoverage": "Dekking in zone {{1}}"
     },
     "allocationOptions": {
       "customerSelection": {
