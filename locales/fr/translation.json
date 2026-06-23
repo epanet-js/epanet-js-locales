@@ -405,10 +405,6 @@
       "demandOptionsStep": "Options de demande",
       "demandOptions": {
         "title": "Options de demande",
-        "replaceOption": {
-          "title": "Remplacer les demandes existantes par les demandes clients (par défaut)",
-          "description": "Définissez toutes les demandes de base aux jonctions à zéro et utilisez uniquement les demandes des points clients. Recommandé lorsque les données clients sont la principale source de demande."
-        },
         "addOnTopOption": {
           "title": "Ajouter les demandes clients aux demandes existantes",
           "description": "Conservez les demandes de base actuelles et ajoutez les demandes des points clients par-dessus. Utilisez cette option si vous souhaitez inclure à la fois les demandes existantes et celles basées sur les clients."
@@ -417,6 +413,10 @@
         "timePattern": {
           "description": "Appliquer éventuellement un motif temporel à toutes les demandes clients importées.",
           "title": "Motif temporel"
+        },
+        "deleteOption": {
+          "description": "Définissez toutes les demandes de base aux jonctions à zéro et utilisez uniquement les demandes des points clients. Recommandé lorsque les données clients sont la principale source de demande.",
+          "title": "Remplacer les demandes existantes par les demandes clients (par défaut)"
         }
       },
       "allocationStep": {

@@ -563,15 +563,15 @@
           "title": "Tambahkan kebutuhan pelanggan di atas kebutuhan yang sudah ada"
         },
         "processingMessage": "Menghubungkan titik pelanggan ke jaringan...",
-        "replaceOption": {
-          "description": "Atur semua kebutuhan dasar di persimpangan menjadi nol dan hanya gunakan kebutuhan titik pelanggan. Direkomendasikan ketika data pelanggan adalah sumber utama kebutuhan.",
-          "title": "Ganti kebutuhan yang ada dengan kebutuhan pelanggan (default)"
-        },
         "timePattern": {
           "description": "Terapkan secara opsional pola waktu ke semua kebutuhan pelanggan yang diimpor.",
           "title": "Pola waktu"
         },
-        "title": "Opsi kebutuhan"
+        "title": "Opsi kebutuhan",
+        "deleteOption": {
+          "description": "Atur semua kebutuhan dasar di persimpangan menjadi nol dan hanya gunakan kebutuhan titik pelanggan yang dialokasikan. Direkomendasikan ketika data pelanggan adalah sumber utama kebutuhan.",
+          "title": "Ganti kebutuhan yang ada dengan kebutuhan pelanggan (default)"
+        }
       },
       "demandOptionsStep": "Opsi kebutuhan",
       "loading": "Memuat...",

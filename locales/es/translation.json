@@ -418,10 +418,6 @@
       },
       "demandOptions": {
         "title": "Opciones de Demanda",
-        "replaceOption": {
-          "title": "Reemplazar demandas existentes con demandas de consumo (predeterminado)",
-          "description": "Establecer todas las demandas base en los nudos a cero y usar solo las demandas de los puntos de consumo. Recomendado cuando los datos de consumo son la fuente principal de demanda."
-        },
         "addOnTopOption": {
           "title": "Agregar demandas de consumo encima de las demandas existentes",
           "description": "Mantener las demandas base actuales y agregar las demandas de los puntos de consumo. Usa esta opción para incluir tanto las demandas existentes como las basadas en consumo."
@@ -430,6 +426,10 @@
         "timePattern": {
           "description": "Opcionalmente, aplica un patrón de tiempo a todas las demandas de consumo importadas.",
           "title": "Patrón de tiempo"
+        },
+        "deleteOption": {
+          "description": "Establecer todas las demandas base en los nudos a cero y usar solo las demandas de los puntos de consumo asignados. Recomendado cuando los datos de consumo son la fuente principal de demanda.",
+          "title": "Eliminar todas las demandas de nudo existentes (predeterminado)"
         }
       },
       "allocationStep": {

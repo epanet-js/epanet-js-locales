@@ -405,10 +405,6 @@
       "demandOptionsStep": "Opções de Demanda",
       "demandOptions": {
         "title": "Opções de Demanda",
-        "replaceOption": {
-          "title": "Substituir demandas existentes por demandas de clientes (padrão)",
-          "description": "As demandas base existentes nos nós serão zeradas e substituídas pelas demandas dos pontos de consumo. Esta é a abordagem típica para modelagem baseada em clientes."
-        },
         "addOnTopOption": {
           "title": "Adicionar demandas de clientes sobre as demandas existentes",
           "description": "As demandas dos pontos de consumo serão adicionadas às demandas base existentes nos nós. Use esta opção quando quiser manter as demandas atuais da rede e adicionar as cargas dos clientes como demanda adicional."
@@ -417,6 +413,10 @@
         "timePattern": {
           "description": "Opcionalmente aplique um padrão de tempo a todas as demandas de clientes importadas.",
           "title": "Padrão de tempo"
+        },
+        "deleteOption": {
+          "description": "Defina todas as demandas base nos nós como zero e use apenas as demandas de pontos de consumo alocados. Recomendado quando os dados do cliente são a principal fonte de demanda.",
+          "title": "Excluir todas as demandas existentes nos nós (padrão)"
         }
       },
       "allocationStep": {

@@ -405,10 +405,6 @@
       "demandOptionsStep": "Vraagopties",
       "demandOptions": {
         "title": "Vraagopties",
-        "replaceOption": {
-          "title": "Bestaande vragen vervangen door klantvragen (standaard)",
-          "description": "Alle basisvragen bij knooppunten worden op nul gezet en alleen de klantpuntvragen worden gebruikt. Aanbevolen wanneer klantgegevens de belangrijkste bron van vraag zijn."
-        },
         "addOnTopOption": {
           "title": "Klantvragen toevoegen bovenop bestaande vragen",
           "description": "De huidige basisvragen worden behouden en klantpuntvragen worden hieraan toegevoegd. Gebruik dit als u zowel bestaande als klantgebaseerde vragen wilt opnemen."
@@ -417,6 +413,10 @@
         "timePattern": {
           "description": "Pas optioneel een tijdpatroon toe op alle geïmporteerde klantvragen.",
           "title": "Tijdpatroon"
+        },
+        "deleteOption": {
+          "description": "Zet alle basisvragen bij knooppunten op nul en gebruik alleen toegewezen klantpuntvragen. Aanbevolen wanneer klantgegevens de belangrijkste bron van vraag zijn.",
+          "title": "Verwijder alle bestaande knooppuntvraag (standaard)"
         }
       },
       "allocationStep": {
