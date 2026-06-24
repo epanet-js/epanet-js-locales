@@ -622,6 +622,24 @@
       "summary_other": "{{count}} connexions potentielles trouvées",
       "summary_zero": "Aucune connexion potentielle trouvée",
       "title": "Vérification de proximité"
+    },
+    "modelAttributesValidation": {
+      "affectedCount_one": "1 élément affecté",
+      "affectedCount_other": "{{count}} éléments affectés",
+      "collapse": "Réduire les éléments affectés",
+      "description": "Trouvez les valeurs d'attributs manquantes ou invalides qui pourraient empêcher la simulation de s'exécuter.",
+      "emptyMessage": "Les attributs de votre modèle sont valides. Bien joué !",
+      "expand": "Développer les éléments affectés",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "Point de consommation déconnecté",
+        "roughnessPositive": "La rugosité de la conduite doit être positive",
+        "roughnessPresent": "Rugosité de la conduite manquante"
+      },
+      "summary_one": "1 problème trouvé",
+      "summary_other": "{{count}} problèmes trouvés",
+      "summary_zero": "Aucun problème trouvé",
+      "title": "Attributs du modèle"
     }
   },
   "connectedCustomers": "Clients Connectés",
@@ -1587,5 +1605,32 @@
   "source.concen": "Concentration",
   "source.flowpaced": "Booster à débit régulé",
   "source.mass": "Booster de masse",
-  "source.setpoint": "Booster à point de consigne"
+  "source.setpoint": "Booster à point de consigne",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation. Vous pouvez les corriger d'abord ou lancer la simulation quand même.",
+      "fixFirst": "Corriger les problèmes d'abord",
+      "runAnyway": "Lancer quand même",
+      "title": "Problèmes de modèle trouvés"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "Ajouter une entrée",
+    "age": "Âge",
+    "appliedRoughness": "{{count}} conduites mises à jour",
+    "applyRoughness": "Appliquer la rugosité aux éléments...",
+    "emptyDescription": "Ajoutez un matériau de conduite pour commencer",
+    "emptyTitle": "La bibliothèque de conduites est vide",
+    "materials": "Matériaux de conduite",
+    "menuLabel": "Bibliothèque de conduites",
+    "noSelection": "Sélectionnez un matériau pour voir ses entrées de rugosité",
+    "roughness": "Rugosité",
+    "validation": {
+      "agePositive": "L'âge doit être supérieur à zéro",
+      "ageRequired": "L'âge doit être défini",
+      "invalidMaterial": "Le matériau {{1}} contient des valeurs invalides",
+      "roughnessPositive": "La rugosité doit être supérieure à zéro",
+      "roughnessRequired": "La rugosité doit être définie"
+    }
+  }
 }

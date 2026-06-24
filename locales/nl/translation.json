@@ -622,6 +622,24 @@
       "summary_other": "{{count}} potentiële verbindingen gevonden",
       "summary_zero": "Geen potentiële verbindingen gevonden",
       "title": "Nabijheidscontrole"
+    },
+    "modelAttributesValidation": {
+      "affectedCount_one": "1 onderdeel getroffen",
+      "affectedCount_other": "{{count}} onderdelen getroffen",
+      "collapse": "Getroffen onderdelen samenvouwen",
+      "description": "Vind ontbrekende of ongeldige attribuutwaarden die de simulatie kunnen beletten te starten.",
+      "emptyMessage": "Uw modelattributen zijn geldig. Goed gedaan!",
+      "expand": "Getroffen onderdelen uitvouwen",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "Klantpunt losgekoppeld",
+        "roughnessPositive": "Leidingruwheid moet positief zijn",
+        "roughnessPresent": "Leidingruwheid ontbreekt"
+      },
+      "summary_one": "1 probleem gevonden",
+      "summary_other": "{{count}} problemen gevonden",
+      "summary_zero": "Geen problemen gevonden",
+      "title": "Modelattributen"
     }
   },
   "connectedCustomers": "Verbonden Klanten",
@@ -1587,5 +1605,32 @@
   "source.concen": "Concentratie",
   "source.flowpaced": "Debietgestuurde booster",
   "source.mass": "Massa booster",
-  "source.setpoint": "Setpoint booster"
+  "source.setpoint": "Setpoint booster",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "We vonden {{1}} problemen in uw model die de simulatie kunnen beïnvloeden. U kunt ze eerst oplossen of de simulatie toch uitvoeren.",
+      "fixFirst": "Eerst problemen oplossen",
+      "runAnyway": "Toch uitvoeren",
+      "title": "Problemen met model gevonden"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "Invoer toevoegen",
+    "age": "Leeftijd",
+    "appliedRoughness": "{{count}} leidingen bijgewerkt",
+    "applyRoughness": "Ruwheid toepassen op onderdelen...",
+    "emptyDescription": "Voeg een leidingmateriaal toe om te beginnen",
+    "emptyTitle": "De leidingbibliotheek is leeg",
+    "materials": "Leidingmaterialen",
+    "menuLabel": "Leidingbibliotheek",
+    "noSelection": "Selecteer een materiaal om de ruwheidsinvoeren te bekijken",
+    "roughness": "Ruwheid",
+    "validation": {
+      "agePositive": "Leeftijd moet groter zijn dan nul",
+      "ageRequired": "Leeftijd moet ingesteld zijn",
+      "invalidMaterial": "Materiaal {{1}} bevat ongeldige waarden",
+      "roughnessPositive": "Ruwheid moet groter zijn dan nul",
+      "roughnessRequired": "Ruwheid moet ingesteld zijn"
+    }
+  }
 }

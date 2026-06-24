@@ -622,6 +622,24 @@
       "summary_other": "{{count}} conexões potenciais encontradas",
       "summary_zero": "Nenhuma conexão potencial encontrada",
       "title": "Verificação de proximidade"
+    },
+    "modelAttributesValidation": {
+      "affectedCount_one": "1 ativo afetado",
+      "affectedCount_other": "{{count}} ativos afetados",
+      "collapse": "Recolher ativos afetados",
+      "description": "Encontre valores de atributos ausentes ou inválidos que podem impedir a execução da simulação.",
+      "emptyMessage": "Seus atributos de modelo são válidos. Muito bem!",
+      "expand": "Expandir ativos afetados",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "Ponto de consumo desconectado",
+        "roughnessPositive": "A rugosidade da tubulação deve ser positiva",
+        "roughnessPresent": "Rugosidade da tubulação ausente"
+      },
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "Nenhum problema encontrado",
+      "title": "Atributos do modelo"
     }
   },
   "connectedCustomers": "Clientes Conectados",
@@ -1587,5 +1605,32 @@
   "source.concen": "Concentração",
   "source.flowpaced": "Dosador de vazão",
   "source.mass": "Dosador de massa",
-  "source.setpoint": "Dosador de ponto de ajuste"
+  "source.setpoint": "Dosador de ponto de ajuste",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "Encontramos {{1}} problema(s) em seu modelo que pode(m) afetar a simulação. Você pode corrigi-los primeiro ou executar a simulação mesmo assim.",
+      "fixFirst": "Corrigir problemas primeiro",
+      "runAnyway": "Executar mesmo assim",
+      "title": "Problemas no modelo encontrados"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "Adicionar entrada",
+    "age": "Idade",
+    "appliedRoughness": "Tubulações atualizadas: {{count}}",
+    "applyRoughness": "Aplicar rugosidade aos ativos...",
+    "emptyDescription": "Adicione um material de tubulação para começar",
+    "emptyTitle": "A biblioteca de tubulações está vazia",
+    "materials": "Materiais de tubulação",
+    "menuLabel": "Biblioteca de tubulações",
+    "noSelection": "Selecione um material para ver suas entradas de rugosidade",
+    "roughness": "Rugosidade",
+    "validation": {
+      "agePositive": "A idade deve ser maior que zero",
+      "ageRequired": "A idade deve ser definida",
+      "invalidMaterial": "O material {{1}} contém valores inválidos",
+      "roughnessPositive": "A rugosidade deve ser maior que zero",
+      "roughnessRequired": "A rugosidade deve ser definida"
+    }
+  }
 }

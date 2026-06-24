@@ -658,6 +658,14 @@
     "saveBuildSettings": "Save build settings",
     "filterData": "Filter data"
   },
+  "modelAttributesValidation": {
+    "dialog": {
+      "title": "Model issues found",
+      "body": "We found {{1}} issue(s) in your model that may affect the simulation. You can fix them first or run the simulation anyway.",
+      "fixFirst": "Fix issues first",
+      "runAnyway": "Run anyway"
+    }
+  },
   "cloudStorage": "Cloud storage",
   "pointInTimeRestore": "Point in time restore - {{1}} days",
   "demandsAnalysis": "Demand analysis",
@@ -1254,6 +1262,24 @@
       "summary_other": "{{count}} intersections found",
       "issueLabel": "Pipe {{1}} crosses pipe {{2}}",
       "emptyMessage": "No crossing pipes found in your network"
+    },
+    "modelAttributesValidation": {
+      "title": "Model attributes",
+      "description": "Find missing or invalid attribute values that may prevent the simulation from running.",
+      "summary_zero": "No issues found",
+      "summary_one": "1 issue found",
+      "summary_other": "{{count}} issues found",
+      "issueLabel": "{{1}} ({{2}})",
+      "emptyMessage": "Your model attributes are valid. Well done!",
+      "affectedCount_one": "1 asset affected",
+      "affectedCount_other": "{{count}} assets affected",
+      "expand": "Expand affected assets",
+      "collapse": "Collapse affected assets",
+      "rule": {
+        "roughnessPresent": "Pipe roughness missing",
+        "roughnessPositive": "Pipe roughness must be positive",
+        "customerPointConnected": "Customer point disconnected"
+      }
     }
   },
   "privacyBanner": {
@@ -1586,6 +1612,25 @@
       "description2": "Overlay pressure zones or metered areas to easily map your network’s footprint and understand your network at a glance.",
       "plans": "Zone overlays are available on paid plans.",
       "trial": "Zone overlays are a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
+    }
+  },
+  "pipeLibrary": {
+    "menuLabel": "Pipe library",
+    "applyRoughness": "Apply roughness to assets...",
+    "materials": "Pipe materials",
+    "age": "Age",
+    "roughness": "Roughness",
+    "addEntry": "Add entry",
+    "noSelection": "Select a material to view its roughness entries",
+    "emptyTitle": "The pipe library is empty",
+    "emptyDescription": "Add a pipe material to get started",
+    "appliedRoughness": "Updated {{count}} pipes",
+    "validation": {
+      "invalidMaterial": "Material {{1}} contains invalid values",
+      "roughnessPositive": "Roughness must be greater than zero",
+      "agePositive": "Age must be greater than zero",
+      "roughnessRequired": "Roughness must be set",
+      "ageRequired": "Age must be set"
     }
   }
 }

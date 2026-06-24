@@ -756,7 +756,25 @@
       "title": "Pemeriksaan kedekatan"
     },
     "title": "Tinjauan Jaringan",
-    "toggle": "Alihkan Tinjauan Jaringan"
+    "toggle": "Alihkan Tinjauan Jaringan",
+    "modelAttributesValidation": {
+      "affectedCount_one": "1 aset terpengaruh",
+      "affectedCount_other": "{{count}} aset terpengaruh",
+      "collapse": "Sembunyikan aset yang terpengaruh",
+      "description": "Temukan nilai atribut yang hilang atau tidak valid yang dapat mencegah simulasi berjalan.",
+      "emptyMessage": "Atribut model Anda valid. Bagus sekali!",
+      "expand": "Perluas aset yang terpengaruh",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "Titik pelanggan terputus",
+        "roughnessPositive": "Kekasaran pipa harus positif",
+        "roughnessPresent": "Kekasaran pipa hilang"
+      },
+      "summary_one": "1 masalah ditemukan",
+      "summary_other": "{{count}} masalah ditemukan",
+      "summary_zero": "Tidak ada masalah ditemukan",
+      "title": "Atribut model"
+    }
   },
   "newBadge": "baru",
   "newFeaturesEveryDay": "Kami terus menambahkan fitur dan peningkatan baru! Tetaplah terinformasi tentang pembaruan terbaru dengan berlangganan buletin kami!",
@@ -1587,5 +1605,32 @@
   "source.concen": "Konsentrasi",
   "source.flowpaced": "Peningkat berdasarkan aliran",
   "source.mass": "Peningkat massa",
-  "source.setpoint": "Peningkat setpoint"
+  "source.setpoint": "Peningkat setpoint",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "Kami menemukan {{1}} masalah dalam model Anda yang dapat memengaruhi simulasi. Anda dapat memperbaikinya terlebih dahulu atau menjalankan simulasi saja.",
+      "fixFirst": "Perbaiki masalah terlebih dahulu",
+      "runAnyway": "Jalankan saja",
+      "title": "Masalah model ditemukan"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "Tambah entri",
+    "age": "Usia",
+    "appliedRoughness": "{{count}} pipa diperbarui",
+    "applyRoughness": "Terapkan kekasaran ke aset...",
+    "emptyDescription": "Tambahkan material pipa untuk memulai",
+    "emptyTitle": "Pustaka pipa kosong",
+    "materials": "Material pipa",
+    "menuLabel": "Pustaka pipa",
+    "noSelection": "Pilih material untuk melihat entri kekasarannya",
+    "roughness": "Kekasaran",
+    "validation": {
+      "agePositive": "Usia harus lebih besar dari nol",
+      "ageRequired": "Usia harus ditetapkan",
+      "invalidMaterial": "Material {{1}} mengandung nilai tidak valid",
+      "roughnessPositive": "Kekasaran harus lebih besar dari nol",
+      "roughnessRequired": "Kekasaran harus ditetapkan"
+    }
+  }
 }

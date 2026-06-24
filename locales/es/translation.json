@@ -629,6 +629,24 @@
       "summary_other": "{{count}} conexiones potenciales encontradas",
       "summary_zero": "No se encontraron conexiones potenciales",
       "title": "Verificación de proximidad"
+    },
+    "modelAttributesValidation": {
+      "affectedCount_one": "1 activo afectado",
+      "affectedCount_other": "{{count}} activos afectados",
+      "collapse": "Contraer activos afectados",
+      "description": "Encuentra valores de atributos faltantes o inválidos que pueden impedir que la simulación se ejecute.",
+      "emptyMessage": "Los atributos de tu modelo son válidos. ¡Bien hecho!",
+      "expand": "Expandir activos afectados",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "Punto de consumo desconectado",
+        "roughnessPositive": "La rugosidad de la tubería debe ser positiva",
+        "roughnessPresent": "Falta la rugosidad de la tubería"
+      },
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "No se encontraron problemas",
+      "title": "Atributos del modelo"
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -1594,5 +1612,32 @@
   "source.concen": "Concentración",
   "source.flowpaced": "Inyección de caudal",
   "source.mass": "Inyección de masa",
-  "source.setpoint": "Inyección de punto de ajuste"
+  "source.setpoint": "Inyección de punto de ajuste",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación. Puedes solucionarlos primero o ejecutar la simulación de todos modos.",
+      "fixFirst": "Solucionar problemas primero",
+      "runAnyway": "Ejecutar de todos modos",
+      "title": "Problemas del modelo encontrados"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "Añadir entrada",
+    "age": "Edad",
+    "appliedRoughness": "Tuberías actualizadas: {{count}}",
+    "applyRoughness": "Aplicar rugosidad a los activos...",
+    "emptyDescription": "Añade un material de tubería para empezar",
+    "emptyTitle": "La biblioteca de tuberías está vacía",
+    "materials": "Materiales de tubería",
+    "menuLabel": "Biblioteca de tuberías",
+    "noSelection": "Selecciona un material para ver sus entradas de rugosidad",
+    "roughness": "Rugosidad",
+    "validation": {
+      "agePositive": "La edad debe ser mayor que cero",
+      "ageRequired": "La edad debe establecerse",
+      "invalidMaterial": "El material {{1}} contiene valores inválidos",
+      "roughnessPositive": "La rugosidad debe ser mayor que cero",
+      "roughnessRequired": "La rugosidad debe establecerse"
+    }
+  }
 }

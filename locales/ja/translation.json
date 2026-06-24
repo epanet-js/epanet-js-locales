@@ -622,6 +622,24 @@
       "summary_other": "{{count}} 件の潜在的な接続が見つかりました",
       "summary_zero": "潜在的な接続は見つかりませんでした",
       "title": "近接チェック"
+    },
+    "modelAttributesValidation": {
+      "affectedCount_one": "影響を受けるアセット 1 件",
+      "affectedCount_other": "影響を受けるアセット {{count}} 件",
+      "collapse": "影響を受けるアセットを折りたたむ",
+      "description": "シミュレーションの実行を妨げる可能性のある、欠落または無効な属性値を見つけます。",
+      "emptyMessage": "モデル属性は有効です。よくできました！",
+      "expand": "影響を受けるアセットを展開",
+      "issueLabel": "{{1}} ({{2}})",
+      "rule": {
+        "customerPointConnected": "顧客ポイントが切断されました",
+        "roughnessPositive": "管の粗度は正の値でなければなりません",
+        "roughnessPresent": "管の粗度がありません"
+      },
+      "summary_one": "問題が 1 件見つかりました",
+      "summary_other": "問題が {{count}} 件見つかりました",
+      "summary_zero": "問題は見つかりませんでした",
+      "title": "モデル属性"
     }
   },
   "connectedCustomers": "接続済み顧客",
@@ -1587,5 +1605,32 @@
   "source.concen": "濃度",
   "source.flowpaced": "流量比例ブースター",
   "source.mass": "質量ブースター",
-  "source.setpoint": "設定点ブースター"
+  "source.setpoint": "設定点ブースター",
+  "modelAttributesValidation": {
+    "dialog": {
+      "body": "モデルにシミュレーションに影響する可能性のある問題が {{1}} 件見つかりました。最初に修正するか、シミュレーションをそのまま実行できます。",
+      "fixFirst": "まず問題を修正",
+      "runAnyway": "とにかく実行",
+      "title": "モデルの問題が見つかりました"
+    }
+  },
+  "pipeLibrary": {
+    "addEntry": "エントリを追加",
+    "age": "経年",
+    "appliedRoughness": "{{count}} 本の管を更新しました",
+    "applyRoughness": "アセットに粗度を適用...",
+    "emptyDescription": "開始するには、管の材質を追加してください",
+    "emptyTitle": "管ライブラリが空です",
+    "materials": "管の材質",
+    "menuLabel": "管ライブラリ",
+    "noSelection": "粗度エントリを表示するには、材質を選択してください",
+    "roughness": "流速係数",
+    "validation": {
+      "agePositive": "経年はゼロより大きくなければなりません",
+      "ageRequired": "経年を設定する必要があります",
+      "invalidMaterial": "材質 {{1}} に無効な値が含まれています",
+      "roughnessPositive": "粗度はゼロより大きくなければなりません",
+      "roughnessRequired": "粗度を設定する必要があります"
+    }
+  }
 }
