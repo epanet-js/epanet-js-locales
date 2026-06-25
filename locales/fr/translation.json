@@ -639,7 +639,10 @@
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
       "summary_zero": "Aucun problème trouvé",
-      "title": "Attributs du modèle"
+      "title": "Attributs du modèle",
+      "upgrade": {
+        "title": "Mettre à niveau pour examiner et corrier tous les problèmes du modèle"
+      }
     }
   },
   "connectedCustomers": "Clients Connectés",
@@ -1608,7 +1611,7 @@
   "source.setpoint": "Booster à point de consigne",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation. Vous pouvez les corriger d'abord ou lancer la simulation quand même.",
+      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation.",
       "fixFirst": "Corriger les problèmes d'abord",
       "runAnyway": "Lancer quand même",
       "title": "Problèmes de modèle trouvés"
@@ -1626,11 +1629,14 @@
     "noSelection": "Sélectionnez un matériau pour voir ses entrées de rugosité",
     "roughness": "Rugosité",
     "validation": {
-      "agePositive": "L'âge doit être supérieur à zéro",
+      "agePositive": "L'âge ne doit pas être négatif",
       "ageRequired": "L'âge doit être défini",
       "invalidMaterial": "Le matériau {{1}} contient des valeurs invalides",
       "roughnessPositive": "La rugosité doit être supérieure à zéro",
-      "roughnessRequired": "La rugosité doit être définie"
+      "roughnessRequired": "La rugosité doit être définie",
+      "duplicateAge": "Chaque valeur d'âge doit être unique",
+      "emptyEntries": "Les entrées vides ne sont pas valides",
+      "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) devrait exister"
     }
   }
 }

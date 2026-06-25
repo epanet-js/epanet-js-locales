@@ -639,7 +639,10 @@
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
       "summary_zero": "問題は見つかりませんでした",
-      "title": "モデル属性"
+      "title": "モデル属性",
+      "upgrade": {
+        "title": "すべてのモデルの問題を確認して修正するにはアップグレードしてください"
+      }
     }
   },
   "connectedCustomers": "接続済み顧客",
@@ -1608,7 +1611,7 @@
   "source.setpoint": "設定点ブースター",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "モデルにシミュレーションに影響する可能性のある問題が {{1}} 件見つかりました。最初に修正するか、シミュレーションをそのまま実行できます。",
+      "body": "モデルにシミュレーションに影響する可能性のある問題が {{1}} 件見つかりました。",
       "fixFirst": "まず問題を修正",
       "runAnyway": "とにかく実行",
       "title": "モデルの問題が見つかりました"
@@ -1626,11 +1629,14 @@
     "noSelection": "粗度エントリを表示するには、材質を選択してください",
     "roughness": "流速係数",
     "validation": {
-      "agePositive": "経年はゼロより大きくなければなりません",
+      "agePositive": "経年は負の値であってはなりません",
       "ageRequired": "経年を設定する必要があります",
       "invalidMaterial": "材質 {{1}} に無効な値が含まれています",
       "roughnessPositive": "粗度はゼロより大きくなければなりません",
-      "roughnessRequired": "粗度を設定する必要があります"
+      "roughnessRequired": "粗度を設定する必要があります",
+      "duplicateAge": "各経年値は一意である必要があります",
+      "emptyEntries": "空のエントリは無効です",
+      "zeroAge": "新しい管（経年0）のエントリが存在する必要があります"
     }
   }
 }

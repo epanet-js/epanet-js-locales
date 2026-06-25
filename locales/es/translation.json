@@ -646,7 +646,10 @@
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
-      "title": "Atributos del modelo"
+      "title": "Atributos del modelo",
+      "upgrade": {
+        "title": "Mejora para revisar y solucionar todos los problemas del modelo"
+      }
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -1615,7 +1618,7 @@
   "source.setpoint": "Inyección de punto de ajuste",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación. Puedes solucionarlos primero o ejecutar la simulación de todos modos.",
+      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación.",
       "fixFirst": "Solucionar problemas primero",
       "runAnyway": "Ejecutar de todos modos",
       "title": "Problemas del modelo encontrados"
@@ -1633,11 +1636,14 @@
     "noSelection": "Selecciona un material para ver sus entradas de rugosidad",
     "roughness": "Rugosidad",
     "validation": {
-      "agePositive": "La edad debe ser mayor que cero",
+      "agePositive": "La edad no debe ser negativa",
       "ageRequired": "La edad debe establecerse",
       "invalidMaterial": "El material {{1}} contiene valores inválidos",
       "roughnessPositive": "La rugosidad debe ser mayor que cero",
-      "roughnessRequired": "La rugosidad debe establecerse"
+      "roughnessRequired": "La rugosidad debe establecerse",
+      "duplicateAge": "Cada valor de edad debe ser único",
+      "emptyEntries": "Las entradas vacías no son válidas",
+      "zeroAge": "Debe existir una entrada para tuberías nuevas (edad 0)"
     }
   }
 }

@@ -639,7 +639,10 @@
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
       "summary_zero": "Geen problemen gevonden",
-      "title": "Modelattributen"
+      "title": "Modelattributen",
+      "upgrade": {
+        "title": "Upgrade om alle modelproblemen te bekijken en op te lossen"
+      }
     }
   },
   "connectedCustomers": "Verbonden Klanten",
@@ -1608,7 +1611,7 @@
   "source.setpoint": "Setpoint booster",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "We vonden {{1}} problemen in uw model die de simulatie kunnen beïnvloeden. U kunt ze eerst oplossen of de simulatie toch uitvoeren.",
+      "body": "We vonden {{1}} problemen in uw model die de simulatie kunnen beïnvloeden.",
       "fixFirst": "Eerst problemen oplossen",
       "runAnyway": "Toch uitvoeren",
       "title": "Problemen met model gevonden"
@@ -1626,11 +1629,14 @@
     "noSelection": "Selecteer een materiaal om de ruwheidsinvoeren te bekijken",
     "roughness": "Ruwheid",
     "validation": {
-      "agePositive": "Leeftijd moet groter zijn dan nul",
+      "agePositive": "Leeftijd mag niet negatief zijn",
       "ageRequired": "Leeftijd moet ingesteld zijn",
       "invalidMaterial": "Materiaal {{1}} bevat ongeldige waarden",
       "roughnessPositive": "Ruwheid moet groter zijn dan nul",
-      "roughnessRequired": "Ruwheid moet ingesteld zijn"
+      "roughnessRequired": "Ruwheid moet ingesteld zijn",
+      "duplicateAge": "Elke leeftijdswaarde moet uniek zijn",
+      "emptyEntries": "Lege invoeren zijn niet geldig",
+      "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) moet bestaan"
     }
   }
 }
