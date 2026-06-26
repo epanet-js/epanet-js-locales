@@ -633,8 +633,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "顧客ポイントが切断されました",
-        "roughnessPositive": "管の粗度は正の値でなければなりません",
-        "roughnessPresent": "管の粗度がありません"
+        "pipeRoughnessPositive": "管の粗度は正の値でなければなりません",
+        "pipeRoughnessPresent": "管の粗度がありません",
+        "reservoirHeadPresent": "貯水池の水頭がありません",
+        "tankDiameterPositive": "配水池の直径は正の値でなければなりません",
+        "tankDiameterPresent": "配水池の直径がありません",
+        "tankInitialLevelNonNegative": "配水池の初期水位はゼロ以上でなければなりません",
+        "tankInitialLevelPresent": "配水池の初期水位がありません",
+        "valveDiameterPositive": "弁の直径は正の値でなければなりません",
+        "valveDiameterPresent": "弁の直径がありません",
+        "valveSettingPresent": "弁の設定がありません"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -1637,6 +1645,27 @@
       "duplicateAge": "各経年値は一意である必要があります",
       "emptyEntries": "空のエントリは無効です",
       "zeroAge": "新しい管（経年0）のエントリが存在する必要があります"
+    },
+    "importFromModel": "モデルからインポート",
+    "paywall": {
+      "description1": "一元化されたライブラリで、管の材質と経年による粗度係数を定義します。",
+      "description2": "ワンクリックでネットワーク全体に粗度値を適用し、モデルを一貫性のある最新の状態に保ちます。",
+      "plans": "管ライブラリは有料プランで利用できます。",
+      "title": "管ライブラリを使用するにはアップグレードしてください",
+      "trial": "管ライブラリは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
     }
+  },
+  "customAttributes": {
+    "addAttribute": "属性を追加",
+    "defaultLabel": "属性 {{1}}",
+    "duplicateLabelError": "属性ラベルはアセットタイプ内で一意である必要があります。",
+    "emptyLabelError": "属性ラベルは空にできません。",
+    "invalidLabel": "無効な属性",
+    "label": "ラベル",
+    "labelTooLongError": "属性ラベルは{{1}}文字を超えることはできません。",
+    "title": "カスタム属性",
+    "type": "タイプ",
+    "typeNumber": "数値",
+    "typeText": "テキスト"
   }
 }

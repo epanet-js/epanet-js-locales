@@ -640,8 +640,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Punto de consumo desconectado",
-        "roughnessPositive": "La rugosidad de la tubería debe ser positiva",
-        "roughnessPresent": "Falta la rugosidad de la tubería"
+        "pipeRoughnessPositive": "La rugosidad de la tubería debe ser positiva",
+        "pipeRoughnessPresent": "Falta la rugosidad de la tubería",
+        "reservoirHeadPresent": "Falta la carga del embalse",
+        "tankDiameterPositive": "El diámetro del tanque debe ser positivo",
+        "tankDiameterPresent": "Falta el diámetro del tanque",
+        "tankInitialLevelNonNegative": "El nivel inicial del tanque debe ser cero o mayor",
+        "tankInitialLevelPresent": "Falta el nivel inicial del tanque",
+        "valveDiameterPositive": "El diámetro de la válvula debe ser positivo",
+        "valveDiameterPresent": "Falta el diámetro de la válvula",
+        "valveSettingPresent": "Falta el ajuste de la válvula"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1644,6 +1652,27 @@
       "duplicateAge": "Cada valor de edad debe ser único",
       "emptyEntries": "Las entradas vacías no son válidas",
       "zeroAge": "Debe existir una entrada para tuberías nuevas (edad 0)"
+    },
+    "importFromModel": "Importar desde el modelo",
+    "paywall": {
+      "description1": "Define los materiales de las tuberías y sus coeficientes de rugosidad por edad en una biblioteca centralizada.",
+      "description2": "Aplica los valores de rugosidad en toda tu red con un solo clic, manteniendo tu modelo consistente y actualizado.",
+      "plans": "La biblioteca de tuberías está disponible en planes de pago.",
+      "title": "Mejora para usar la biblioteca de tuberías",
+      "trial": "La biblioteca de tuberías es una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
     }
+  },
+  "customAttributes": {
+    "addAttribute": "Añadir atributo",
+    "defaultLabel": "Atributo {{1}}",
+    "duplicateLabelError": "Las etiquetas de atributo deben ser únicas dentro de un tipo de activo.",
+    "emptyLabelError": "Las etiquetas de atributo no pueden estar vacías.",
+    "invalidLabel": "Atributo inválido",
+    "label": "Etiqueta",
+    "labelTooLongError": "Las etiquetas de atributo no pueden exceder los {{1}} caracteres.",
+    "title": "Atributos personalizados",
+    "type": "Tipo",
+    "typeNumber": "Número",
+    "typeText": "Texto"
   }
 }

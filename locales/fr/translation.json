@@ -633,8 +633,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Point de consommation déconnecté",
-        "roughnessPositive": "La rugosité de la conduite doit être positive",
-        "roughnessPresent": "Rugosité de la conduite manquante"
+        "pipeRoughnessPositive": "La rugosité de la conduite doit être positive",
+        "pipeRoughnessPresent": "Rugosité de la conduite manquante",
+        "reservoirHeadPresent": "Charge du réservoir manquante",
+        "tankDiameterPositive": "Le diamètre du château d'eau doit être positif",
+        "tankDiameterPresent": "Diamètre du château d'eau manquant",
+        "tankInitialLevelNonNegative": "Le niveau initial du château d'eau doit être supérieur ou égal à zéro",
+        "tankInitialLevelPresent": "Niveau initial du château d'eau manquant",
+        "valveDiameterPositive": "Le diamètre de la vanne doit être positif",
+        "valveDiameterPresent": "Diamètre de la vanne manquant",
+        "valveSettingPresent": "Réglage de la vanne manquant"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -1637,6 +1645,27 @@
       "duplicateAge": "Chaque valeur d'âge doit être unique",
       "emptyEntries": "Les entrées vides ne sont pas valides",
       "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) devrait exister"
+    },
+    "importFromModel": "Importer depuis le modèle",
+    "paywall": {
+      "description1": "Définissez les matériaux des conduites et leurs coefficients de rugosité par âge dans une bibliothèque centralisée.",
+      "description2": "Appliquez les valeurs de rugosité à l'ensemble de votre réseau en un clic, en gardant votre modèle cohérent et à jour.",
+      "plans": "La bibliothèque de conduites est disponible avec les forfaits payants.",
+      "title": "Mettre à niveau pour utiliser la bibliothèque de conduites",
+      "trial": "La bibliothèque de conduites est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
     }
+  },
+  "customAttributes": {
+    "addAttribute": "Ajouter un attribut",
+    "defaultLabel": "Attribut {{1}}",
+    "duplicateLabelError": "Les étiquettes d'attribut doivent être uniques pour un type d'élément donné.",
+    "emptyLabelError": "Les étiquettes d'attribut ne peuvent pas être vides.",
+    "invalidLabel": "Attribut invalide",
+    "label": "Étiquette",
+    "labelTooLongError": "Les étiquettes d'attribut ne peuvent pas dépasser {{1}} caractères.",
+    "title": "Attributs personnalisés",
+    "type": "Type",
+    "typeNumber": "Nombre",
+    "typeText": "Texte"
   }
 }

@@ -1279,8 +1279,16 @@
         "title": "Upgrade to review and fix all model issues"
       },
       "rule": {
-        "roughnessPresent": "Pipe roughness missing",
-        "roughnessPositive": "Pipe roughness must be positive",
+        "pipeRoughnessPresent": "Pipe roughness missing",
+        "pipeRoughnessPositive": "Pipe roughness must be positive",
+        "reservoirHeadPresent": "Reservoir head missing",
+        "tankInitialLevelPresent": "Tank initial level missing",
+        "tankInitialLevelNonNegative": "Tank initial level must be zero or greater",
+        "tankDiameterPresent": "Tank diameter missing",
+        "tankDiameterPositive": "Tank diameter must be positive",
+        "valveDiameterPresent": "Valve diameter missing",
+        "valveDiameterPositive": "Valve diameter must be positive",
+        "valveSettingPresent": "Valve setting missing",
         "customerPointConnected": "Customer point disconnected"
       }
     }
@@ -1425,6 +1433,19 @@
     "setAsValve": "Set as Valve",
     "setAsHeadloss": "Set as Headloss",
     "saveInvalid": "Some curves have validation warnings."
+  },
+  "customAttributes": {
+    "title": "Custom attributes",
+    "label": "Label",
+    "type": "Type",
+    "typeText": "Text",
+    "typeNumber": "Number",
+    "addAttribute": "Add attribute",
+    "defaultLabel": "Attribute {{1}}",
+    "invalidLabel": "Invalid attribute",
+    "emptyLabelError": "Attribute labels cannot be empty.",
+    "duplicateLabelError": "Attribute labels must be unique within an asset type.",
+    "labelTooLongError": "Attribute labels cannot exceed {{1}} characters."
   },
   "percentOpen": "% Open",
   "percentFullFlow": "% Full flow",
@@ -1628,6 +1649,7 @@
     "emptyTitle": "The pipe library is empty",
     "emptyDescription": "Add a pipe material to get started",
     "appliedRoughness": "Updated {{count}} pipes",
+    "importFromModel": "Import from model",
     "validation": {
       "invalidMaterial": "Material {{1}} contains invalid values",
       "roughnessPositive": "Roughness must be greater than zero",
@@ -1637,6 +1659,13 @@
       "emptyEntries": "Empty entries are not valid",
       "zeroAge": "An entry for new pipes (age 0) should exist",
       "duplicateAge": "Each age value must be unique"
+    },
+    "paywall": {
+      "title": "Upgrade to use the pipe library",
+      "description1": "Define pipe materials and their roughness coefficients by age in a centralized library.",
+      "description2": "Apply roughness values across your network in one click, keeping your model consistent and up to date.",
+      "plans": "The pipe library is available on paid plans.",
+      "trial": "The pipe library is a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
     }
   }
 }

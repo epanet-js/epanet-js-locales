@@ -633,8 +633,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Klantpunt losgekoppeld",
-        "roughnessPositive": "Leidingruwheid moet positief zijn",
-        "roughnessPresent": "Leidingruwheid ontbreekt"
+        "pipeRoughnessPositive": "Leidingruwheid moet positief zijn",
+        "pipeRoughnessPresent": "Leidingruwheid ontbreekt",
+        "reservoirHeadPresent": "Reservoir opvoerhoogte ontbreekt",
+        "tankDiameterPositive": "Tankdiameter moet positief zijn",
+        "tankDiameterPresent": "Tankdiameter ontbreekt",
+        "tankInitialLevelNonNegative": "Initieel tankniveau moet nul of groter zijn",
+        "tankInitialLevelPresent": "Initieel tankniveau ontbreekt",
+        "valveDiameterPositive": "Ventieldiameter moet positief zijn",
+        "valveDiameterPresent": "Ventieldiameter ontbreekt",
+        "valveSettingPresent": "Ventielinstelling ontbreekt"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -1637,6 +1645,27 @@
       "duplicateAge": "Elke leeftijdswaarde moet uniek zijn",
       "emptyEntries": "Lege invoeren zijn niet geldig",
       "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) moet bestaan"
+    },
+    "importFromModel": "Importeren uit model",
+    "paywall": {
+      "description1": "Definieer leidingmaterialen en hun ruwheidscoëfficiënten per leeftijd in een gecentraliseerde bibliotheek.",
+      "description2": "Pas ruwheidswaarden toe op uw netwerk met één klik, waardoor uw model consistent en up-to-date blijft.",
+      "plans": "De leidingbibliotheek is beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om de leidingbibliotheek te gebruiken",
+      "trial": "De leidingbibliotheek is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     }
+  },
+  "customAttributes": {
+    "addAttribute": "Attribuut toevoegen",
+    "defaultLabel": "Attribuut {{1}}",
+    "duplicateLabelError": "Attribuutlabels moeten uniek zijn binnen een onderdeeltype.",
+    "emptyLabelError": "Attribuutlabels kunnen niet leeg zijn.",
+    "invalidLabel": "Ongeldig attribuut",
+    "label": "Label",
+    "labelTooLongError": "Attribuutlabels mogen niet langer zijn dan {{1}} tekens.",
+    "title": "Aangepaste attributen",
+    "type": "Type",
+    "typeNumber": "Getal",
+    "typeText": "Tekst"
   }
 }

@@ -767,8 +767,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Titik pelanggan terputus",
-        "roughnessPositive": "Kekasaran pipa harus positif",
-        "roughnessPresent": "Kekasaran pipa hilang"
+        "pipeRoughnessPositive": "Kekasaran pipa harus positif",
+        "pipeRoughnessPresent": "Kekasaran pipa hilang",
+        "reservoirHeadPresent": "Head reservoir hilang",
+        "tankDiameterPositive": "Diameter tangki harus positif",
+        "tankDiameterPresent": "Diameter tangki hilang",
+        "tankInitialLevelNonNegative": "Level awal tangki harus nol atau lebih besar",
+        "tankInitialLevelPresent": "Level awal tangki hilang",
+        "valveDiameterPositive": "Diameter katup harus positif",
+        "valveDiameterPresent": "Diameter katup hilang",
+        "valveSettingPresent": "Pengaturan katup hilang"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -1637,6 +1645,27 @@
       "duplicateAge": "Setiap nilai usia harus unik",
       "emptyEntries": "Entri kosong tidak valid",
       "zeroAge": "Entri untuk pipa baru (usia 0) harus ada"
+    },
+    "importFromModel": "Impor dari model",
+    "paywall": {
+      "description1": "Definisikan material pipa dan koefisien kekasarannya berdasarkan usia dalam pustaka terpusat.",
+      "description2": "Terapkan nilai kekasaran di seluruh jaringan Anda dengan satu klik, menjaga model Anda konsisten dan selalu terbaru.",
+      "plans": "Pustaka pipa tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk menggunakan pustaka pipa",
+      "trial": "Pustaka pipa adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     }
+  },
+  "customAttributes": {
+    "addAttribute": "Tambah atribut",
+    "defaultLabel": "Atribut {{1}}",
+    "duplicateLabelError": "Label atribut harus unik dalam tipe aset.",
+    "emptyLabelError": "Label atribut tidak boleh kosong.",
+    "invalidLabel": "Atribut tidak valid",
+    "label": "Label",
+    "labelTooLongError": "Label atribut tidak boleh melebihi {{1}} karakter.",
+    "title": "Atribut kustom",
+    "type": "Jenis",
+    "typeNumber": "Angka",
+    "typeText": "Teks"
   }
 }

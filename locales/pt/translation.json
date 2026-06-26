@@ -633,8 +633,16 @@
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Ponto de consumo desconectado",
-        "roughnessPositive": "A rugosidade da tubulação deve ser positiva",
-        "roughnessPresent": "Rugosidade da tubulação ausente"
+        "pipeRoughnessPositive": "A rugosidade da tubulação deve ser positiva",
+        "pipeRoughnessPresent": "Rugosidade da tubulação ausente",
+        "reservoirHeadPresent": "Carga do reservatório ausente",
+        "tankDiameterPositive": "O diâmetro do tanque deve ser positivo",
+        "tankDiameterPresent": "Diâmetro do tanque ausente",
+        "tankInitialLevelNonNegative": "O nível inicial do tanque deve ser zero ou maior",
+        "tankInitialLevelPresent": "Nível inicial do tanque ausente",
+        "valveDiameterPositive": "O diâmetro da válvula deve ser positivo",
+        "valveDiameterPresent": "Diâmetro da válvula ausente",
+        "valveSettingPresent": "Ajuste da válvula ausente"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1637,6 +1645,27 @@
       "duplicateAge": "Cada valor de idade deve ser único",
       "emptyEntries": "Entradas vazias não são válidas",
       "zeroAge": "Uma entrada para tubulações novas (idade 0) deve existir"
+    },
+    "importFromModel": "Importar do modelo",
+    "paywall": {
+      "description1": "Defina os materiais das tubulações e seus coeficientes de rugosidade por idade em uma biblioteca centralizada.",
+      "description2": "Aplique valores de rugosidade em sua rede com um clique, mantendo seu modelo consistente e atualizado.",
+      "plans": "A biblioteca de tubulações está disponível em planos pagos.",
+      "title": "Atualize para usar a biblioteca de tubulações",
+      "trial": "A biblioteca de tubulações é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
     }
+  },
+  "customAttributes": {
+    "addAttribute": "Adicionar atributo",
+    "defaultLabel": "Atributo {{1}}",
+    "duplicateLabelError": "Os rótulos dos atributos devem ser únicos dentro de um tipo de ativo.",
+    "emptyLabelError": "Os rótulos dos atributos não podem estar vazios.",
+    "invalidLabel": "Atributo inválido",
+    "label": "Rótulo",
+    "labelTooLongError": "Os rótulos dos atributos não podem exceder {{1}} caracteres.",
+    "title": "Atributos personalizados",
+    "type": "Tipo",
+    "typeNumber": "Número",
+    "typeText": "Texto"
   }
 }
