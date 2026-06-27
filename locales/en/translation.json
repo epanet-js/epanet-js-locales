@@ -661,7 +661,8 @@
   "modelAttributesValidation": {
     "dialog": {
       "title": "Model issues found",
-      "body": "We found {{1}} issue(s) in your model that may affect the simulation.",
+      "body": "We found {{1}} issue(s) in your model that may affect the simulation. We recommend fixing them to ensure the simulation is accurate and completes successfully.",
+      "upgradeHint": "Upgrade to a paid plan to unlock detailed lists and automated fixes, or review the issue categories below for free.",
       "fixFirst": "Fix issues first",
       "runAnyway": "Run anyway"
     }
@@ -1143,11 +1144,11 @@
       "demandOptions": {
         "title": "Demand options",
         "deleteOption": {
-          "title": "Delete all existing junction demand (default)",
+          "title": "Delete all existing junction demand",
           "description": "Set all base demands at junctions to zero and use only allocated customer point demands. Recommended when customer data is the main source of demand."
         },
         "addOnTopOption": {
-          "title": "Add customer demands on top of existing demands",
+          "title": "Add customer demands on top of existing demands (default)",
           "description": "Keep the current base demands and add customer point demands on top. Use this if you want to include both existing and customer-based demands."
         },
         "timePattern": {
@@ -1276,7 +1277,8 @@
       "expand": "Expand affected assets",
       "collapse": "Collapse affected assets",
       "upgrade": {
-        "title": "Upgrade to review and fix all model issues"
+        "title": "See the full list of issues",
+        "description": "Review the detailed list of assets with issues and access automated fixes"
       },
       "rule": {
         "pipeRoughnessPresent": "Pipe roughness missing",

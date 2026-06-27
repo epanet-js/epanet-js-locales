@@ -406,7 +406,7 @@
       "demandOptions": {
         "title": "Vraagopties",
         "addOnTopOption": {
-          "title": "Klantvragen toevoegen bovenop bestaande vragen",
+          "title": "Klantvragen toevoegen bovenop bestaande vragen (standaard)",
           "description": "De huidige basisvragen worden behouden en klantpuntvragen worden hieraan toegevoegd. Gebruik dit als u zowel bestaande als klantgebaseerde vragen wilt opnemen."
         },
         "processingMessage": "Klantpunten verbinden met netwerk...",
@@ -416,7 +416,7 @@
         },
         "deleteOption": {
           "description": "Zet alle basisvragen bij knooppunten op nul en gebruik alleen toegewezen klantpuntvragen. Aanbevolen wanneer klantgegevens de belangrijkste bron van vraag zijn.",
-          "title": "Verwijder alle bestaande knooppuntvraag (standaard)"
+          "title": "Verwijder alle bestaande knooppuntvraag"
         }
       },
       "allocationStep": {
@@ -649,7 +649,8 @@
       "summary_zero": "Geen problemen gevonden",
       "title": "Modelattributen",
       "upgrade": {
-        "title": "Upgrade om alle modelproblemen te bekijken en op te lossen"
+        "title": "Bekijk de volledige lijst met problemen",
+        "description": "Bekijk de gedetailleerde lijst van onderdelen met problemen en krijg toegang tot geautomatiseerde oplossingen"
       }
     }
   },
@@ -1619,10 +1620,11 @@
   "source.setpoint": "Setpoint booster",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "We vonden {{1}} problemen in uw model die de simulatie kunnen beïnvloeden.",
+      "body": "We vonden {{1}} probleem(en) in uw model die de simulatie kunnen beïnvloeden. We raden aan deze op te lossen om ervoor te zorgen dat de simulatie nauwkeurig is en succesvol wordt voltooid.",
       "fixFirst": "Eerst problemen oplossen",
       "runAnyway": "Toch uitvoeren",
-      "title": "Problemen met model gevonden"
+      "title": "Problemen met model gevonden",
+      "upgradeHint": "Upgrade naar een betaald abonnement om gedetailleerde lijsten en geautomatiseerde oplossingen te ontgrendelen, of bekijk de probleemcategorieën hieronder gratis."
     }
   },
   "pipeLibrary": {

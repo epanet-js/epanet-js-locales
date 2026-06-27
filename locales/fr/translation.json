@@ -406,7 +406,7 @@
       "demandOptions": {
         "title": "Options de demande",
         "addOnTopOption": {
-          "title": "Ajouter les demandes clients aux demandes existantes",
+          "title": "Ajouter les demandes clients aux demandes existantes (par défaut)",
           "description": "Conservez les demandes de base actuelles et ajoutez les demandes des points clients par-dessus. Utilisez cette option si vous souhaitez inclure à la fois les demandes existantes et celles basées sur les clients."
         },
         "processingMessage": "Connexion des points clients au réseau...",
@@ -416,7 +416,7 @@
         },
         "deleteOption": {
           "description": "Définissez toutes les demandes de base aux jonctions à zéro et utilisez uniquement les demandes des points clients. Recommandé lorsque les données clients sont la principale source de demande.",
-          "title": "Remplacer les demandes existantes par les demandes clients (par défaut)"
+          "title": "Supprimer toutes les demandes de jonction existantes"
         }
       },
       "allocationStep": {
@@ -649,7 +649,8 @@
       "summary_zero": "Aucun problème trouvé",
       "title": "Attributs du modèle",
       "upgrade": {
-        "title": "Mettre à niveau pour examiner et corrier tous les problèmes du modèle"
+        "title": "Voir la liste complète des problèmes",
+        "description": "Passez en revue la liste détaillée des éléments présentant des problèmes et accédez aux corrections automatisées"
       }
     }
   },
@@ -1619,10 +1620,11 @@
   "source.setpoint": "Booster à point de consigne",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation.",
+      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation. Nous vous recommandons de les corriger pour garantir que la simulation soit précise et se termine avec succès.",
       "fixFirst": "Corriger les problèmes d'abord",
       "runAnyway": "Lancer quand même",
-      "title": "Problèmes de modèle trouvés"
+      "title": "Problèmes de modèle trouvés",
+      "upgradeHint": "Mettez à niveau vers un plan payant pour débloquer les listes détaillées et les corrections automatisées, ou consultez gratuitement les catégories de problèmes ci-dessous."
     }
   },
   "pipeLibrary": {

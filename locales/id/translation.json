@@ -560,7 +560,7 @@
       "demandOptions": {
         "addOnTopOption": {
           "description": "Pertahankan kebutuhan dasar saat ini dan tambahkan kebutuhan titik pelanggan di atasnya. Gunakan ini jika Anda ingin menyertakan kebutuhan yang ada dan kebutuhan berbasis pelanggan.",
-          "title": "Tambahkan kebutuhan pelanggan di atas kebutuhan yang sudah ada"
+          "title": "Tambahkan kebutuhan pelanggan di atas kebutuhan yang sudah ada (default)"
         },
         "processingMessage": "Menghubungkan titik pelanggan ke jaringan...",
         "timePattern": {
@@ -570,7 +570,7 @@
         "title": "Opsi kebutuhan",
         "deleteOption": {
           "description": "Atur semua kebutuhan dasar di persimpangan menjadi nol dan hanya gunakan kebutuhan titik pelanggan yang dialokasikan. Direkomendasikan ketika data pelanggan adalah sumber utama kebutuhan.",
-          "title": "Ganti kebutuhan yang ada dengan kebutuhan pelanggan (default)"
+          "title": "Hapus semua kebutuhan sambungan yang ada"
         }
       },
       "demandOptionsStep": "Opsi kebutuhan",
@@ -783,7 +783,8 @@
       "summary_zero": "Tidak ada masalah ditemukan",
       "title": "Atribut model",
       "upgrade": {
-        "title": "Tingkatkan untuk meninjau dan memperbaiki semua masalah model"
+        "title": "Lihat daftar lengkap masalah",
+        "description": "Tinjau daftar aset yang bermasalah secara detail dan akses perbaikan otomatis"
       }
     }
   },
@@ -1619,10 +1620,11 @@
   "source.setpoint": "Peningkat setpoint",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Kami menemukan {{1}} masalah dalam model Anda yang dapat memengaruhi simulasi.",
+      "body": "Kami menemukan {{1}} masalah dalam model Anda yang dapat memengaruhi simulasi. Kami merekomendasikan memperbaikinya untuk memastikan simulasi akurat dan berhasil diselesaikan.",
       "fixFirst": "Perbaiki masalah terlebih dahulu",
       "runAnyway": "Jalankan saja",
-      "title": "Masalah model ditemukan"
+      "title": "Masalah model ditemukan",
+      "upgradeHint": "Tingkatkan ke paket berbayar untuk membuka daftar detail dan perbaikan otomatis, atau tinjau kategori masalah di bawah secara gratis."
     }
   },
   "pipeLibrary": {

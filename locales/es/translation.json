@@ -419,7 +419,7 @@
       "demandOptions": {
         "title": "Opciones de Demanda",
         "addOnTopOption": {
-          "title": "Agregar demandas de consumo encima de las demandas existentes",
+          "title": "Añadir demandas de consumo encima de las existentes (predeterminado)",
           "description": "Mantener las demandas base actuales y agregar las demandas de los puntos de consumo. Usa esta opción para incluir tanto las demandas existentes como las basadas en consumo."
         },
         "processingMessage": "Conectando puntos de consumo a la red...",
@@ -429,7 +429,7 @@
         },
         "deleteOption": {
           "description": "Establecer todas las demandas base en los nudos a cero y usar solo las demandas de los puntos de consumo asignados. Recomendado cuando los datos de consumo son la fuente principal de demanda.",
-          "title": "Eliminar todas las demandas de nudo existentes (predeterminado)"
+          "title": "Eliminar todas las demandas de nudo existentes"
         }
       },
       "allocationStep": {
@@ -656,7 +656,8 @@
       "summary_zero": "No se encontraron problemas",
       "title": "Atributos del modelo",
       "upgrade": {
-        "title": "Mejora para revisar y solucionar todos los problemas del modelo"
+        "title": "Ver la lista completa de problemas",
+        "description": "Revisa la lista detallada de activos con problemas y accede a las correcciones automatizadas"
       }
     }
   },
@@ -1626,10 +1627,11 @@
   "source.setpoint": "Inyección de punto de ajuste",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación.",
+      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación. Recomendamos solucionarlos para asegurar que la simulación sea precisa y se complete con éxito.",
       "fixFirst": "Solucionar problemas primero",
       "runAnyway": "Ejecutar de todos modos",
-      "title": "Problemas del modelo encontrados"
+      "title": "Problemas del modelo encontrados",
+      "upgradeHint": "Actualiza a un plan de pago para desbloquear listas detalladas y correcciones automatizadas, o revisa las categorías de problemas a continuación de forma gratuita."
     }
   },
   "pipeLibrary": {

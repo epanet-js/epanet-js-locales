@@ -406,7 +406,7 @@
       "demandOptions": {
         "title": "Opções de Demanda",
         "addOnTopOption": {
-          "title": "Adicionar demandas de clientes sobre as demandas existentes",
+          "title": "Adicionar demandas de clientes sobre as demandas existentes (padrão)",
           "description": "As demandas dos pontos de consumo serão adicionadas às demandas base existentes nos nós. Use esta opção quando quiser manter as demandas atuais da rede e adicionar as cargas dos clientes como demanda adicional."
         },
         "processingMessage": "Conectando pontos de consumo à rede...",
@@ -416,7 +416,7 @@
         },
         "deleteOption": {
           "description": "Defina todas as demandas base nos nós como zero e use apenas as demandas de pontos de consumo alocados. Recomendado quando os dados do cliente são a principal fonte de demanda.",
-          "title": "Excluir todas as demandas existentes nos nós (padrão)"
+          "title": "Excluir todas as demandas existentes nos nós"
         }
       },
       "allocationStep": {
@@ -649,7 +649,8 @@
       "summary_zero": "Nenhum problema encontrado",
       "title": "Atributos do modelo",
       "upgrade": {
-        "title": "Atualize para revisar e corrigir todos os problemas do modelo"
+        "title": "Ver a lista completa de problemas",
+        "description": "Revise a lista detalhada de ativos com problemas e acesse correções automatizadas"
       }
     }
   },
@@ -1619,10 +1620,11 @@
   "source.setpoint": "Dosador de ponto de ajuste",
   "modelAttributesValidation": {
     "dialog": {
-      "body": "Encontramos {{1}} problema(s) em seu modelo que pode(m) afetar a simulação.",
+      "body": "Encontramos {{1}} problema(s) em seu modelo que pode(m) afetar a simulação. Recomendamos corrigi-los para garantir que a simulação seja precisa e concluída com sucesso.",
       "fixFirst": "Corrigir problemas primeiro",
       "runAnyway": "Executar mesmo assim",
-      "title": "Problemas no modelo encontrados"
+      "title": "Problemas no modelo encontrados",
+      "upgradeHint": "Atualize para um plano pago para desbloquear listas detalhadas e correções automatizadas, ou revise as categorias de problemas abaixo gratuitamente."
     }
   },
   "pipeLibrary": {
