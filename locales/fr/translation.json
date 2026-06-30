@@ -1669,5 +1669,10 @@
     "type": "Type",
     "typeNumber": "Nombre",
     "typeText": "Texte"
-  }
+  },
+  "simulationOutOfMemory": "Mémoire insuffisante",
+  "simulationOutOfMemoryExplain": "La simulation a manqué de mémoire et n'a pas pu se terminer.",
+  "simulationOutOfMemoryReduce": "Essayez à nouveau avec moins de pas de temps ou un réseau plus petit.",
+  "simulationOutOfMemoryRetry": "Essayez de relancer la simulation.",
+  "simulationOutOfMemorySupport": "Contactez le support si le problème persiste."
 }

@@ -1676,5 +1676,10 @@
     "type": "Tipo",
     "typeNumber": "Número",
     "typeText": "Texto"
-  }
+  },
+  "simulationOutOfMemory": "Memoria insuficiente",
+  "simulationOutOfMemoryExplain": "La simulación se quedó sin memoria y no pudo finalizar.",
+  "simulationOutOfMemoryReduce": "Intenta de nuevo con menos pasos de tiempo o una red más pequeña.",
+  "simulationOutOfMemoryRetry": "Intenta ejecutar la simulación de nuevo.",
+  "simulationOutOfMemorySupport": "Contacta con soporte si el problema persiste."
 }

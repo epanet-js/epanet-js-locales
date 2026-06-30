@@ -1669,5 +1669,10 @@
     "type": "Jenis",
     "typeNumber": "Angka",
     "typeText": "Teks"
-  }
+  },
+  "simulationOutOfMemory": "Memori habis",
+  "simulationOutOfMemoryExplain": "Simulasi kehabisan memori dan tidak dapat diselesaikan.",
+  "simulationOutOfMemoryReduce": "Coba lagi dengan langkah waktu yang lebih sedikit atau jaringan yang lebih kecil.",
+  "simulationOutOfMemoryRetry": "Coba jalankan simulasi lagi.",
+  "simulationOutOfMemorySupport": "Hubungi dukungan jika masalah berlanjut."
 }

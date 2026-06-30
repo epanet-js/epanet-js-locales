@@ -1669,5 +1669,10 @@
     "type": "Type",
     "typeNumber": "Getal",
     "typeText": "Tekst"
-  }
+  },
+  "simulationOutOfMemory": "Geheugen vol",
+  "simulationOutOfMemoryExplain": "De simulatie raakte uit het geheugen en kon niet worden voltooid.",
+  "simulationOutOfMemoryReduce": "Probeer het opnieuw met minder tijdstappen of een kleiner netwerk.",
+  "simulationOutOfMemoryRetry": "Probeer de simulatie opnieuw uit te voeren.",
+  "simulationOutOfMemorySupport": "Neem contact op met de support als het probleem aanhoudt."
 }

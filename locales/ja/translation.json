@@ -1669,5 +1669,10 @@
     "type": "タイプ",
     "typeNumber": "数値",
     "typeText": "テキスト"
-  }
+  },
+  "simulationOutOfMemory": "メモリ不足",
+  "simulationOutOfMemoryExplain": "シミュレーションはメモリ不足により完了できませんでした。",
+  "simulationOutOfMemoryReduce": "タイムステップを減らすか、より小さなネットワークで再度お試しください。",
+  "simulationOutOfMemoryRetry": "シミュレーションを再度実行してみてください。",
+  "simulationOutOfMemorySupport": "問題が解決しない場合はサポートにお問い合わせください。"
 }
