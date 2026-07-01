@@ -1655,7 +1655,8 @@
       "plans": "A biblioteca de tubulações está disponível em planos pagos.",
       "title": "Atualize para usar a biblioteca de tubulações",
       "trial": "A biblioteca de tubulações é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
-    }
+    },
+    "noAssetsChanged": "Nenhum ativo alterado"
   },
   "customAttributes": {
     "addAttribute": "Adicionar atributo",

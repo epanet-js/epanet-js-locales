@@ -1655,7 +1655,8 @@
       "plans": "La bibliothèque de conduites est disponible avec les forfaits payants.",
       "title": "Mettre à niveau pour utiliser la bibliothèque de conduites",
       "trial": "La bibliothèque de conduites est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
-    }
+    },
+    "noAssetsChanged": "Aucun élément n'a été modifié."
   },
   "customAttributes": {
     "addAttribute": "Ajouter un attribut",

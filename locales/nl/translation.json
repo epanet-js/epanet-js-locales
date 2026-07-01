@@ -1655,7 +1655,8 @@
       "plans": "De leidingbibliotheek is beschikbaar op betaalde abonnementen.",
       "title": "Upgrade om de leidingbibliotheek te gebruiken",
       "trial": "De leidingbibliotheek is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
-    }
+    },
+    "noAssetsChanged": "Geen onderdelen gewijzigd"
   },
   "customAttributes": {
     "addAttribute": "Attribuut toevoegen",

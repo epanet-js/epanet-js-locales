@@ -1655,7 +1655,8 @@
       "plans": "Pustaka pipa tersedia pada paket berbayar.",
       "title": "Tingkatkan untuk menggunakan pustaka pipa",
       "trial": "Pustaka pipa adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
-    }
+    },
+    "noAssetsChanged": "Tidak ada aset yang diubah"
   },
   "customAttributes": {
     "addAttribute": "Tambah atribut",
