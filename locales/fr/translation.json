@@ -642,7 +642,17 @@
         "tankInitialLevelPresent": "Niveau initial du château d'eau manquant",
         "valveDiameterPositive": "Le diamètre de la vanne doit être positif",
         "valveDiameterPresent": "Diamètre de la vanne manquant",
-        "valveSettingPresent": "Réglage de la vanne manquant"
+        "valveSettingPresent": "Réglage de la vanne manquant",
+        "junctionEmitterCoefficientNonNegative": "Le coefficient d'émetteur du nœud doit être supérieur ou égal à zéro",
+        "nodeChemicalSourceStrengthNonNegative": "La force de la source doit être supérieure ou égale à zéro",
+        "nodeInitialQualityNonNegative": "La qualité initiale doit être supérieure ou égale à zéro",
+        "pipeMinorLossNonNegative": "La perte mineure de la conduite doit être supérieure ou égale à zéro",
+        "pipeYearValid": "Année d'installation de la conduite invalide",
+        "pumpEnergyPriceNonNegative": "Le prix de l'énergie de la pompe doit être supérieur ou égal à zéro",
+        "pumpSpeedNonNegative": "La vitesse de la pompe doit être supérieure ou égale à zéro",
+        "tankMinVolumeNonNegative": "Le volume minimum du château d'eau doit être supérieur ou égal à zéro",
+        "tankMixingFractionUnitRange": "La fraction de mélange du château d'eau doit être comprise entre 0 et 1",
+        "valveMinorLossNonNegative": "La perte mineure de la vanne doit être supérieure ou égale à zéro"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -1639,14 +1649,15 @@
     "noSelection": "Sélectionnez un matériau pour voir ses entrées de rugosité",
     "roughness": "Rugosité",
     "validation": {
-      "agePositive": "L'âge ne doit pas être négatif",
+      "agePositive": "La valeur « {{1}} » ne doit pas être négative",
       "ageRequired": "L'âge doit être défini",
       "invalidMaterial": "Le matériau {{1}} contient des valeurs invalides",
-      "roughnessPositive": "La rugosité doit être supérieure à zéro",
+      "roughnessPositive": "La valeur « {{1}} » doit être supérieure à zéro",
       "roughnessRequired": "La rugosité doit être définie",
-      "duplicateAge": "Chaque valeur d'âge doit être unique",
+      "duplicateAge": "Toutes les valeurs d'âge doivent être uniques",
       "emptyEntries": "Les entrées vides ne sont pas valides",
-      "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) devrait exister"
+      "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) devrait exister",
+      "mustBeNumber": "Contient une valeur non numérique"
     },
     "importFromModel": "Importer depuis le modèle",
     "paywall": {
@@ -1656,7 +1667,22 @@
       "title": "Mettre à niveau pour utiliser la bibliothèque de conduites",
       "trial": "La bibliothèque de conduites est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
     },
-    "noAssetsChanged": "Aucun élément n'a été modifié."
+    "noAssetsChanged": "Aucun élément n'a été modifié.",
+    "export": "Exporter",
+    "exportCsv": "Valeurs séparées par des virgules (.csv)",
+    "exportXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
+    "import": {
+      "cancel": "Annuler",
+      "confirmMessage": "L'importation d'une bibliothèque depuis un fichier écrasera la bibliothèque existante. Voulez-vous continuer ?",
+      "confirmTitle": "Importer la bibliothèque de conduites",
+      "continue": "Continuer",
+      "emptyFile": "Le fichier ne contient aucun matériau",
+      "errorDescription": "Le fichier sélectionné contient des entrées invalides. Vérifiez la liste complète des erreurs dans les détails.",
+      "errorTitle": "Échec de l'importation de la bibliothèque de conduites",
+      "success": "Importé {{count}} matériaux depuis le fichier"
+    },
+    "importFromFile": "Importer depuis un fichier",
+    "importMenu": "Importer"
   },
   "customAttributes": {
     "addAttribute": "Ajouter un attribut",

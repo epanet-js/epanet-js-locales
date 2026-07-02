@@ -642,7 +642,17 @@
         "tankInitialLevelPresent": "Initieel tankniveau ontbreekt",
         "valveDiameterPositive": "Ventieldiameter moet positief zijn",
         "valveDiameterPresent": "Ventieldiameter ontbreekt",
-        "valveSettingPresent": "Ventielinstelling ontbreekt"
+        "valveSettingPresent": "Ventielinstelling ontbreekt",
+        "junctionEmitterCoefficientNonNegative": "Knooppunt emittorcoëfficiënt moet nul of groter zijn",
+        "nodeChemicalSourceStrengthNonNegative": "Bronsterkte moet nul of groter zijn",
+        "nodeInitialQualityNonNegative": "Initiële kwaliteit moet nul of groter zijn",
+        "pipeMinorLossNonNegative": "Leiding verliescoëfficiënt moet nul of groter zijn",
+        "pipeYearValid": "Installatiejaar leiding ongeldig",
+        "pumpEnergyPriceNonNegative": "Pomp energieprijs moet nul of groter zijn",
+        "pumpSpeedNonNegative": "Pompsnelheid moet nul of groter zijn",
+        "tankMinVolumeNonNegative": "Tank minimum volume moet nul of groter zijn",
+        "tankMixingFractionUnitRange": "Tank mengfractie moet tussen 0 en 1 liggen",
+        "valveMinorLossNonNegative": "Ventiel verliescoëfficiënt moet nul of groter zijn"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -1639,14 +1649,15 @@
     "noSelection": "Selecteer een materiaal om de ruwheidsinvoeren te bekijken",
     "roughness": "Ruwheid",
     "validation": {
-      "agePositive": "Leeftijd mag niet negatief zijn",
+      "agePositive": "Waarde \"{{1}}\" mag niet negatief zijn",
       "ageRequired": "Leeftijd moet ingesteld zijn",
       "invalidMaterial": "Materiaal {{1}} bevat ongeldige waarden",
-      "roughnessPositive": "Ruwheid moet groter zijn dan nul",
+      "roughnessPositive": "Waarde \"{{1}}\" moet groter zijn dan nul",
       "roughnessRequired": "Ruwheid moet ingesteld zijn",
-      "duplicateAge": "Elke leeftijdswaarde moet uniek zijn",
+      "duplicateAge": "Alle leeftijdswaarden moeten uniek zijn",
       "emptyEntries": "Lege invoeren zijn niet geldig",
-      "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) moet bestaan"
+      "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) moet bestaan",
+      "mustBeNumber": "Bevat een niet-numerieke waarde"
     },
     "importFromModel": "Importeren uit model",
     "paywall": {
@@ -1656,7 +1667,22 @@
       "title": "Upgrade om de leidingbibliotheek te gebruiken",
       "trial": "De leidingbibliotheek is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
-    "noAssetsChanged": "Geen onderdelen gewijzigd"
+    "noAssetsChanged": "Geen onderdelen gewijzigd",
+    "export": "Exporteren",
+    "exportCsv": "Komma-gescheiden waarden (.csv)",
+    "exportXlsx": "Microsoft Excel-werkblad (.xlsx)",
+    "import": {
+      "cancel": "Annuleren",
+      "confirmMessage": "Het importeren van een bibliotheek vanuit een bestand zal de bestaande bibliotheek overschrijven. Wilt u doorgaan?",
+      "confirmTitle": "Leidingbibliotheek importeren",
+      "continue": "Doorgaan",
+      "emptyFile": "Het bestand bevat geen materialen",
+      "errorDescription": "Het geselecteerde bestand bevat ongeldige invoeren. Controleer de volledige foutenlijst in de details.",
+      "errorTitle": "Importeren van leidingbibliotheek mislukt",
+      "success": "{{count}} materialen uit bestand geïmporteerd"
+    },
+    "importFromFile": "Importeren vanuit bestand",
+    "importMenu": "Importeren"
   },
   "customAttributes": {
     "addAttribute": "Attribuut toevoegen",

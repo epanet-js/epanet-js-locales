@@ -642,7 +642,17 @@
         "tankInitialLevelPresent": "配水池の初期水位がありません",
         "valveDiameterPositive": "弁の直径は正の値でなければなりません",
         "valveDiameterPresent": "弁の直径がありません",
-        "valveSettingPresent": "弁の設定がありません"
+        "valveSettingPresent": "弁の設定がありません",
+        "junctionEmitterCoefficientNonNegative": "接点エミッター係数はゼロ以上である必要があります",
+        "nodeChemicalSourceStrengthNonNegative": "ソース強度はゼロ以上である必要があります",
+        "nodeInitialQualityNonNegative": "初期水質はゼロ以上である必要があります",
+        "pipeMinorLossNonNegative": "管の損失水頭はゼロ以上である必要があります",
+        "pipeYearValid": "管の設置年が無効です",
+        "pumpEnergyPriceNonNegative": "ポンプのエネルギー価格はゼロ以上である必要があります",
+        "pumpSpeedNonNegative": "ポンプ速度はゼロ以上である必要があります",
+        "tankMinVolumeNonNegative": "配水池の最小容量はゼロ以上である必要があります",
+        "tankMixingFractionUnitRange": "配水池の混合割合は0から1の間である必要があります",
+        "valveMinorLossNonNegative": "弁の損失水頭はゼロ以上である必要があります"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -1639,14 +1649,15 @@
     "noSelection": "粗度エントリを表示するには、材質を選択してください",
     "roughness": "流速係数",
     "validation": {
-      "agePositive": "経年は負の値であってはなりません",
+      "agePositive": "「{{1}}」の値は負であってはなりません",
       "ageRequired": "経年を設定する必要があります",
       "invalidMaterial": "材質 {{1}} に無効な値が含まれています",
-      "roughnessPositive": "粗度はゼロより大きくなければなりません",
+      "roughnessPositive": "「{{1}}」の値はゼロより大きくなければなりません",
       "roughnessRequired": "粗度を設定する必要があります",
-      "duplicateAge": "各経年値は一意である必要があります",
+      "duplicateAge": "すべての経年値は一意である必要があります",
       "emptyEntries": "空のエントリは無効です",
-      "zeroAge": "新しい管（経年0）のエントリが存在する必要があります"
+      "zeroAge": "新しい管（経年0）のエントリが存在する必要があります",
+      "mustBeNumber": "非数値が含まれています"
     },
     "importFromModel": "モデルからインポート",
     "paywall": {
@@ -1656,7 +1667,22 @@
       "title": "管ライブラリを使用するにはアップグレードしてください",
       "trial": "管ライブラリは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
     },
-    "noAssetsChanged": "変更されたアセットはありません"
+    "noAssetsChanged": "変更されたアセットはありません",
+    "export": "エクスポート",
+    "exportCsv": "カンマ区切り値 (.csv)",
+    "exportXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
+    "import": {
+      "cancel": "キャンセル",
+      "confirmMessage": "ファイルからライブラリをインポートすると、既存のライブラリが上書きされます。続行しますか？",
+      "confirmTitle": "管ライブラリをインポート",
+      "continue": "続行",
+      "emptyFile": "ファイルに材質が含まれていません",
+      "errorDescription": "選択したファイルに無効なエントリが含まれています。詳細で完全なエラーリストを確認してください。",
+      "errorTitle": "管ライブラリのインポートに失敗しました",
+      "success": "ファイルから {{count}} 件の材質をインポートしました"
+    },
+    "importFromFile": "ファイルからインポート",
+    "importMenu": "インポート"
   },
   "customAttributes": {
     "addAttribute": "属性を追加",

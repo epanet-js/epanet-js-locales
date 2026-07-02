@@ -642,7 +642,17 @@
         "tankInitialLevelPresent": "Nível inicial do tanque ausente",
         "valveDiameterPositive": "O diâmetro da válvula deve ser positivo",
         "valveDiameterPresent": "Diâmetro da válvula ausente",
-        "valveSettingPresent": "Ajuste da válvula ausente"
+        "valveSettingPresent": "Ajuste da válvula ausente",
+        "junctionEmitterCoefficientNonNegative": "O coeficiente do emissor do nó deve ser zero ou maior",
+        "nodeChemicalSourceStrengthNonNegative": "A intensidade da fonte deve ser zero ou maior",
+        "nodeInitialQualityNonNegative": "A qualidade inicial deve ser zero ou maior",
+        "pipeMinorLossNonNegative": "A perda menor da tubulação deve ser zero ou maior",
+        "pipeYearValid": "Ano de instalação da tubulação inválido",
+        "pumpEnergyPriceNonNegative": "O preço da energia da bomba deve ser zero ou maior",
+        "pumpSpeedNonNegative": "A velocidade da bomba deve ser zero ou maior",
+        "tankMinVolumeNonNegative": "O volume mínimo do tanque deve ser zero ou maior",
+        "tankMixingFractionUnitRange": "A fração de mistura do tanque deve estar entre 0 e 1",
+        "valveMinorLossNonNegative": "A perda menor da válvula deve ser zero ou maior"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1639,14 +1649,15 @@
     "noSelection": "Selecione um material para ver suas entradas de rugosidade",
     "roughness": "Rugosidade",
     "validation": {
-      "agePositive": "A idade não deve ser negativa",
+      "agePositive": "O valor \"{{1}}\" não deve ser negativo",
       "ageRequired": "A idade deve ser definida",
       "invalidMaterial": "O material {{1}} contém valores inválidos",
-      "roughnessPositive": "A rugosidade deve ser maior que zero",
+      "roughnessPositive": "O valor \"{{1}}\" deve ser maior que zero",
       "roughnessRequired": "A rugosidade deve ser definida",
-      "duplicateAge": "Cada valor de idade deve ser único",
+      "duplicateAge": "Todos os valores de idade devem ser únicos",
       "emptyEntries": "Entradas vazias não são válidas",
-      "zeroAge": "Uma entrada para tubulações novas (idade 0) deve existir"
+      "zeroAge": "Uma entrada para tubulações novas (idade 0) deve existir",
+      "mustBeNumber": "Contém um valor não numérico"
     },
     "importFromModel": "Importar do modelo",
     "paywall": {
@@ -1656,7 +1667,22 @@
       "title": "Atualize para usar a biblioteca de tubulações",
       "trial": "A biblioteca de tubulações é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
     },
-    "noAssetsChanged": "Nenhum ativo alterado"
+    "noAssetsChanged": "Nenhum ativo alterado",
+    "export": "Exportar",
+    "exportCsv": "Valores Separados por Vírgula (.csv)",
+    "exportXlsx": "Planilha do Microsoft Excel (.xlsx)",
+    "import": {
+      "cancel": "Cancelar",
+      "confirmMessage": "Importar uma biblioteca de arquivo sobrescreverá a biblioteca existente. Deseja continuar?",
+      "confirmTitle": "Importar biblioteca de tubulações",
+      "continue": "Continuar",
+      "emptyFile": "O arquivo não contém materiais",
+      "errorDescription": "O arquivo selecionado contém entradas inválidas. Verifique a lista completa de erros nos detalhes.",
+      "errorTitle": "Falha ao importar biblioteca de tubulações",
+      "success": "Importados {{count}} materiais do arquivo"
+    },
+    "importFromFile": "Importar do arquivo",
+    "importMenu": "Importar"
   },
   "customAttributes": {
     "addAttribute": "Adicionar atributo",
