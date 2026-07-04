@@ -1641,7 +1641,7 @@
     "addEntry": "Tambah entri",
     "age": "Usia",
     "appliedRoughness": "{{count}} pipa diperbarui",
-    "applyRoughness": "Terapkan kekasaran ke aset...",
+    "applyRoughness": "Terapkan kekasaran ke aset",
     "emptyDescription": "Tambahkan material pipa untuk memulai",
     "emptyTitle": "Pustaka pipa kosong",
     "materials": "Material pipa",
@@ -1652,12 +1652,12 @@
       "agePositive": "Nilai \"{{1}}\" tidak boleh negatif",
       "ageRequired": "Usia harus ditetapkan",
       "invalidMaterial": "Material {{1}} mengandung nilai tidak valid",
-      "roughnessPositive": "Nilai \"{{1}}\" harus lebih besar dari nol",
+      "roughnessPositive": "Nilai \"{{1}}\" tidak boleh negatif",
       "roughnessRequired": "Kekasaran harus ditetapkan",
       "duplicateAge": "Semua nilai usia harus unik",
       "emptyEntries": "Entri kosong tidak valid",
       "zeroAge": "Entri untuk pipa baru (usia 0) harus ada",
-      "mustBeNumber": "Mengandung nilai non-numerik"
+      "mustBeNumber": "Nilai harus numerik"
     },
     "importFromModel": "Impor dari model",
     "paywall": {
@@ -1673,15 +1673,21 @@
     "exportXlsx": "Lembar Kerja Microsoft Excel (.xlsx)",
     "import": {
       "cancel": "Batal",
-      "confirmMessage": "Mengimpor pustaka dari file akan menimpa pustaka yang ada. Apakah Anda ingin melanjutkan?",
+      "confirmMessage": "Mengimpor pustaka pipa akan menimpa pustaka yang ada. Apakah Anda ingin melanjutkan?",
       "confirmTitle": "Impor pustaka pipa",
       "continue": "Lanjutkan",
       "emptyFile": "File tidak mengandung material",
       "errorDescription": "File yang dipilih mengandung entri tidak valid. Periksa daftar kesalahan lengkap di detail.",
       "errorTitle": "Gagal mengimpor pustaka pipa",
-      "success": "Diimpor {{count}} material dari file"
+      "success": "Diimpor {{count}} material dari file",
+      "exception": "Terjadi kesalahan tak terduga saat mengimpor file",
+      "importedWithErrors": "Beberapa material yang diimpor mengandung kesalahan. Perbaiki sebelum menyimpan pustaka.",
+      "invalidFile": "File yang dipilih tidak valid",
+      "noMaterialsImported": "Tidak ada material yang diimpor",
+      "partialTitle": "Pustaka mengandung entri tidak valid. Diimpor {{count}} material yang valid",
+      "unsupportedFormat": "Format file yang dipilih tidak didukung"
     },
-    "importFromFile": "Impor dari file",
+    "importFromFile": "Impor dari file...",
     "importMenu": "Impor"
   },
   "customAttributes": {

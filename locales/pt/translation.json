@@ -1641,7 +1641,7 @@
     "addEntry": "Adicionar entrada",
     "age": "Idade",
     "appliedRoughness": "Tubulações atualizadas: {{count}}",
-    "applyRoughness": "Aplicar rugosidade aos ativos...",
+    "applyRoughness": "Aplicar rugosidade aos ativos",
     "emptyDescription": "Adicione um material de tubulação para começar",
     "emptyTitle": "A biblioteca de tubulações está vazia",
     "materials": "Materiais de tubulação",
@@ -1649,15 +1649,15 @@
     "noSelection": "Selecione um material para ver suas entradas de rugosidade",
     "roughness": "Rugosidade",
     "validation": {
-      "agePositive": "O valor \"{{1}}\" não deve ser negativo",
-      "ageRequired": "A idade deve ser definida",
+      "agePositive": "O valor \"{{1}}\" não pode ser negativo",
+      "ageRequired": "A idade é obrigatória",
       "invalidMaterial": "O material {{1}} contém valores inválidos",
-      "roughnessPositive": "O valor \"{{1}}\" deve ser maior que zero",
-      "roughnessRequired": "A rugosidade deve ser definida",
-      "duplicateAge": "Todos os valores de idade devem ser únicos",
-      "emptyEntries": "Entradas vazias não são válidas",
-      "zeroAge": "Uma entrada para tubulações novas (idade 0) deve existir",
-      "mustBeNumber": "Contém um valor não numérico"
+      "roughnessPositive": "O valor \"{{1}}\" não pode ser negativo",
+      "roughnessRequired": "A rugosidade é obrigatória",
+      "duplicateAge": "Os valores de idade devem ser únicos",
+      "emptyEntries": "Entradas vazias não são permitidas",
+      "zeroAge": "Uma entrada para novas tubulações (idade 0) é obrigatória",
+      "mustBeNumber": "O valor deve ser numérico"
     },
     "importFromModel": "Importar do modelo",
     "paywall": {
@@ -1673,15 +1673,21 @@
     "exportXlsx": "Planilha do Microsoft Excel (.xlsx)",
     "import": {
       "cancel": "Cancelar",
-      "confirmMessage": "Importar uma biblioteca de arquivo sobrescreverá a biblioteca existente. Deseja continuar?",
+      "confirmMessage": "Importar uma biblioteca de tubulações substituirá a biblioteca atual. Deseja continuar?",
       "confirmTitle": "Importar biblioteca de tubulações",
       "continue": "Continuar",
       "emptyFile": "O arquivo não contém materiais",
-      "errorDescription": "O arquivo selecionado contém entradas inválidas. Verifique a lista completa de erros nos detalhes.",
+      "errorDescription": "O arquivo selecionado contém entradas inválidas. Veja os detalhes para a lista completa de erros.",
       "errorTitle": "Falha ao importar biblioteca de tubulações",
-      "success": "Importados {{count}} materiais do arquivo"
+      "success": "Importados {{count}} materiais do arquivo",
+      "exception": "Houve um erro inesperado ao importar o arquivo",
+      "importedWithErrors": "Alguns materiais importados contêm erros. Corrija-os antes de salvar a biblioteca.",
+      "invalidFile": "O arquivo selecionado não é válido",
+      "noMaterialsImported": "Nenhum material foi importado",
+      "partialTitle": "A biblioteca continha entradas inválidas. Importados {{count}} materiais válidos",
+      "unsupportedFormat": "Formato de arquivo selecionado não suportado"
     },
-    "importFromFile": "Importar do arquivo",
+    "importFromFile": "Importar do arquivo...",
     "importMenu": "Importar"
   },
   "customAttributes": {

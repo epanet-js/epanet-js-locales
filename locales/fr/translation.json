@@ -1641,7 +1641,7 @@
     "addEntry": "Ajouter une entrée",
     "age": "Âge",
     "appliedRoughness": "{{count}} conduites mises à jour",
-    "applyRoughness": "Appliquer la rugosité aux éléments...",
+    "applyRoughness": "Appliquer la rugosité aux éléments",
     "emptyDescription": "Ajoutez un matériau de conduite pour commencer",
     "emptyTitle": "La bibliothèque de conduites est vide",
     "materials": "Matériaux de conduite",
@@ -1649,15 +1649,15 @@
     "noSelection": "Sélectionnez un matériau pour voir ses entrées de rugosité",
     "roughness": "Rugosité",
     "validation": {
-      "agePositive": "La valeur « {{1}} » ne doit pas être négative",
-      "ageRequired": "L'âge doit être défini",
+      "agePositive": "La valeur « {{1}} » ne peut pas être négative",
+      "ageRequired": "L'âge est requis",
       "invalidMaterial": "Le matériau {{1}} contient des valeurs invalides",
-      "roughnessPositive": "La valeur « {{1}} » doit être supérieure à zéro",
-      "roughnessRequired": "La rugosité doit être définie",
-      "duplicateAge": "Toutes les valeurs d'âge doivent être uniques",
-      "emptyEntries": "Les entrées vides ne sont pas valides",
-      "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) devrait exister",
-      "mustBeNumber": "Contient une valeur non numérique"
+      "roughnessPositive": "La valeur « {{1}} » ne peut pas être négative",
+      "roughnessRequired": "La rugosité est requise",
+      "duplicateAge": "Les valeurs d'âge doivent être uniques",
+      "emptyEntries": "Les entrées vides ne sont pas autorisées",
+      "zeroAge": "Une entrée pour les nouvelles conduites (âge 0) est requise",
+      "mustBeNumber": "La valeur doit être numérique"
     },
     "importFromModel": "Importer depuis le modèle",
     "paywall": {
@@ -1673,15 +1673,21 @@
     "exportXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
     "import": {
       "cancel": "Annuler",
-      "confirmMessage": "L'importation d'une bibliothèque depuis un fichier écrasera la bibliothèque existante. Voulez-vous continuer ?",
+      "confirmMessage": "L'importation d'une bibliothèque de conduites remplacera la bibliothèque actuelle. Voulez-vous continuer ?",
       "confirmTitle": "Importer la bibliothèque de conduites",
       "continue": "Continuer",
       "emptyFile": "Le fichier ne contient aucun matériau",
-      "errorDescription": "Le fichier sélectionné contient des entrées invalides. Vérifiez la liste complète des erreurs dans les détails.",
+      "errorDescription": "Le fichier sélectionné contient des entrées invalides. Voir les détails pour la liste complète des erreurs.",
       "errorTitle": "Échec de l'importation de la bibliothèque de conduites",
-      "success": "Importé {{count}} matériaux depuis le fichier"
+      "success": "Importé {{count}} matériaux depuis le fichier",
+      "exception": "Une erreur inattendue est survenue lors de l'importation du fichier",
+      "importedWithErrors": "Certains matériaux importés contiennent des erreurs. Corrigez-les avant d'enregistrer la bibliothèque.",
+      "invalidFile": "Le fichier sélectionné n'est pas valide",
+      "noMaterialsImported": "Aucun matériau n'a été importé",
+      "partialTitle": "La bibliothèque contenait des entrées invalides. Importé {{count}} matériaux valides",
+      "unsupportedFormat": "Le format de fichier sélectionné n'est pas supporté"
     },
-    "importFromFile": "Importer depuis un fichier",
+    "importFromFile": "Importer depuis un fichier...",
     "importMenu": "Importer"
   },
   "customAttributes": {

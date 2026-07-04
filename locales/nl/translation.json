@@ -1641,7 +1641,7 @@
     "addEntry": "Invoer toevoegen",
     "age": "Leeftijd",
     "appliedRoughness": "{{count}} leidingen bijgewerkt",
-    "applyRoughness": "Ruwheid toepassen op onderdelen...",
+    "applyRoughness": "Ruwheid toepassen op onderdelen",
     "emptyDescription": "Voeg een leidingmateriaal toe om te beginnen",
     "emptyTitle": "De leidingbibliotheek is leeg",
     "materials": "Leidingmaterialen",
@@ -1649,15 +1649,15 @@
     "noSelection": "Selecteer een materiaal om de ruwheidsinvoeren te bekijken",
     "roughness": "Ruwheid",
     "validation": {
-      "agePositive": "Waarde \"{{1}}\" mag niet negatief zijn",
-      "ageRequired": "Leeftijd moet ingesteld zijn",
+      "agePositive": "Waarde \"{{1}}\" kan niet negatief zijn",
+      "ageRequired": "Leeftijd is vereist",
       "invalidMaterial": "Materiaal {{1}} bevat ongeldige waarden",
-      "roughnessPositive": "Waarde \"{{1}}\" moet groter zijn dan nul",
-      "roughnessRequired": "Ruwheid moet ingesteld zijn",
-      "duplicateAge": "Alle leeftijdswaarden moeten uniek zijn",
-      "emptyEntries": "Lege invoeren zijn niet geldig",
-      "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) moet bestaan",
-      "mustBeNumber": "Bevat een niet-numerieke waarde"
+      "roughnessPositive": "Waarde \"{{1}}\" kan niet negatief zijn",
+      "roughnessRequired": "Ruwheid is vereist",
+      "duplicateAge": "Leeftijdswaarden moeten uniek zijn",
+      "emptyEntries": "Lege invoeren zijn niet toegestaan",
+      "zeroAge": "Een invoer voor nieuwe leidingen (leeftijd 0) is vereist",
+      "mustBeNumber": "Waarde moet numeriek zijn"
     },
     "importFromModel": "Importeren uit model",
     "paywall": {
@@ -1673,15 +1673,21 @@
     "exportXlsx": "Microsoft Excel-werkblad (.xlsx)",
     "import": {
       "cancel": "Annuleren",
-      "confirmMessage": "Het importeren van een bibliotheek vanuit een bestand zal de bestaande bibliotheek overschrijven. Wilt u doorgaan?",
+      "confirmMessage": "Het importeren van een leidingbibliotheek zal de huidige bibliotheek vervangen. Wilt u doorgaan?",
       "confirmTitle": "Leidingbibliotheek importeren",
       "continue": "Doorgaan",
       "emptyFile": "Het bestand bevat geen materialen",
-      "errorDescription": "Het geselecteerde bestand bevat ongeldige invoeren. Controleer de volledige foutenlijst in de details.",
+      "errorDescription": "Het geselecteerde bestand bevat ongeldige invoeren. Zie de details voor de volledige lijst met fouten.",
       "errorTitle": "Importeren van leidingbibliotheek mislukt",
-      "success": "{{count}} materialen uit bestand geïmporteerd"
+      "success": "{{count}} materialen uit bestand geïmporteerd",
+      "exception": "Er is een onverwachte fout opgetreden tijdens het importeren van het bestand",
+      "importedWithErrors": "Sommige geïmporteerde materialen bevatten fouten. Los deze op voordat u de bibliotheek opslaat.",
+      "invalidFile": "Geselecteerd bestand is niet geldig",
+      "noMaterialsImported": "Geen materialen geïmporteerd",
+      "partialTitle": "Bibliotheek bevatte ongeldige invoeren. Geïmporteerd {{count}} geldige materialen",
+      "unsupportedFormat": "Geselecteerd bestandsformaat wordt niet ondersteund"
     },
-    "importFromFile": "Importeren vanuit bestand",
+    "importFromFile": "Importeren vanuit bestand...",
     "importMenu": "Importeren"
   },
   "customAttributes": {

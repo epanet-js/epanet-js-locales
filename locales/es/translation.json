@@ -1648,7 +1648,7 @@
     "addEntry": "Añadir entrada",
     "age": "Edad",
     "appliedRoughness": "Tuberías actualizadas: {{count}}",
-    "applyRoughness": "Aplicar rugosidad a los activos...",
+    "applyRoughness": "Aplicar rugosidad a los activos",
     "emptyDescription": "Añade un material de tubería para empezar",
     "emptyTitle": "La biblioteca de tuberías está vacía",
     "materials": "Materiales de tubería",
@@ -1656,15 +1656,15 @@
     "noSelection": "Selecciona un material para ver sus entradas de rugosidad",
     "roughness": "Rugosidad",
     "validation": {
-      "agePositive": "El valor \"{{1}}\" no debe ser negativo",
-      "ageRequired": "La edad debe establecerse",
+      "agePositive": "El valor \"{{1}}\" no puede ser negativo",
+      "ageRequired": "La edad es obligatoria",
       "invalidMaterial": "El material {{1}} contiene valores inválidos",
-      "roughnessPositive": "El valor \"{{1}}\" debe ser mayor que cero",
-      "roughnessRequired": "La rugosidad debe establecerse",
-      "duplicateAge": "Todos los valores de edad deben ser únicos",
-      "emptyEntries": "Las entradas vacías no son válidas",
-      "zeroAge": "Debe existir una entrada para tuberías nuevas (edad 0)",
-      "mustBeNumber": "Contiene un valor no numérico"
+      "roughnessPositive": "El valor \"{{1}}\" no puede ser negativo",
+      "roughnessRequired": "La rugosidad es obligatoria",
+      "duplicateAge": "Los valores de edad deben ser únicos",
+      "emptyEntries": "No se permiten entradas vacías",
+      "zeroAge": "Se requiere una entrada para tuberías nuevas (edad 0)",
+      "mustBeNumber": "El valor debe ser numérico"
     },
     "importFromModel": "Importar desde el modelo",
     "paywall": {
@@ -1680,15 +1680,21 @@
     "exportXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
     "import": {
       "cancel": "Cancelar",
-      "confirmMessage": "La importación de una biblioteca desde un archivo sobrescribirá la biblioteca existente. ¿Deseas continuar?",
+      "confirmMessage": "La importación de una biblioteca de tuberías reemplazará la biblioteca actual. ¿Deseas continuar?",
       "confirmTitle": "Importar biblioteca de tuberías",
       "continue": "Continuar",
       "emptyFile": "El archivo no contiene materiales",
-      "errorDescription": "El archivo seleccionado contiene entradas inválidas. Revisa la lista completa de errores en los detalles.",
+      "errorDescription": "El archivo seleccionado contiene entradas inválidas. Consulta los detalles para ver la lista completa de errores.",
       "errorTitle": "Error al importar la biblioteca de tuberías",
-      "success": "Importados {{count}} materiales desde el archivo"
+      "success": "Importados {{count}} materiales desde el archivo",
+      "exception": "Ocurrió un error inesperado al importar el archivo",
+      "importedWithErrors": "Algunos materiales importados contienen errores. Corrígelos antes de guardar la biblioteca.",
+      "invalidFile": "El archivo seleccionado no es válido",
+      "noMaterialsImported": "No se importaron materiales",
+      "partialTitle": "La biblioteca contenía entradas inválidas. Se importaron {{count}} materiales válidos",
+      "unsupportedFormat": "El formato de archivo seleccionado no es compatible"
     },
-    "importFromFile": "Importar desde archivo",
+    "importFromFile": "Importar desde archivo...",
     "importMenu": "Importar"
   },
   "customAttributes": {

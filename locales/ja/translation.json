@@ -1641,7 +1641,7 @@
     "addEntry": "エントリを追加",
     "age": "経年",
     "appliedRoughness": "{{count}} 本の管を更新しました",
-    "applyRoughness": "アセットに粗度を適用...",
+    "applyRoughness": "アセットに粗度を適用",
     "emptyDescription": "開始するには、管の材質を追加してください",
     "emptyTitle": "管ライブラリが空です",
     "materials": "管の材質",
@@ -1649,15 +1649,15 @@
     "noSelection": "粗度エントリを表示するには、材質を選択してください",
     "roughness": "流速係数",
     "validation": {
-      "agePositive": "「{{1}}」の値は負であってはなりません",
+      "agePositive": "値「{{1}}」は負であってはなりません",
       "ageRequired": "経年を設定する必要があります",
       "invalidMaterial": "材質 {{1}} に無効な値が含まれています",
-      "roughnessPositive": "「{{1}}」の値はゼロより大きくなければなりません",
+      "roughnessPositive": "値「{{1}}」は負であってはなりません",
       "roughnessRequired": "粗度を設定する必要があります",
-      "duplicateAge": "すべての経年値は一意である必要があります",
-      "emptyEntries": "空のエントリは無効です",
-      "zeroAge": "新しい管（経年0）のエントリが存在する必要があります",
-      "mustBeNumber": "非数値が含まれています"
+      "duplicateAge": "経年値は一意である必要があります",
+      "emptyEntries": "空のエントリは許可されていません",
+      "zeroAge": "新しい管（経年0）のエントリが必要です",
+      "mustBeNumber": "値は数値である必要があります"
     },
     "importFromModel": "モデルからインポート",
     "paywall": {
@@ -1673,15 +1673,21 @@
     "exportXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
     "import": {
       "cancel": "キャンセル",
-      "confirmMessage": "ファイルからライブラリをインポートすると、既存のライブラリが上書きされます。続行しますか？",
+      "confirmMessage": "管ライブラリをインポートすると、現在のライブラリが上書きされます。続行しますか？",
       "confirmTitle": "管ライブラリをインポート",
       "continue": "続行",
       "emptyFile": "ファイルに材質が含まれていません",
       "errorDescription": "選択したファイルに無効なエントリが含まれています。詳細で完全なエラーリストを確認してください。",
       "errorTitle": "管ライブラリのインポートに失敗しました",
-      "success": "ファイルから {{count}} 件の材質をインポートしました"
+      "success": "ファイルから {{count}} 件の材質をインポートしました",
+      "exception": "ファイルのインポート中に予期せぬエラーが発生しました",
+      "importedWithErrors": "インポートされた材質の一部にエラーが含まれています。ライブラリを保存する前に修正してください。",
+      "invalidFile": "選択したファイルは無効です",
+      "noMaterialsImported": "材質はインポートされませんでした",
+      "partialTitle": "ライブラリに無効なエントリが含まれていました。有効な材質が {{count}} 件インポートされました",
+      "unsupportedFormat": "選択したファイル形式はサポートされていません"
     },
-    "importFromFile": "ファイルからインポート",
+    "importFromFile": "ファイルからインポート...",
     "importMenu": "インポート"
   },
   "customAttributes": {
