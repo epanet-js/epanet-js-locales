@@ -1701,11 +1701,19 @@
     "title": "カスタム属性",
     "type": "タイプ",
     "typeNumber": "数値",
-    "typeText": "テキスト"
+    "typeText": "テキスト",
+    "paywall": {
+      "description1": "パイプ、ポンプ、弁、接点、貯水池、配水池、顧客ポイントに独自の属性を定義します。",
+      "description2": "組織にとって重要なデータをキャプチャし、モデルと一緒に保管します。",
+      "plans": "カスタム属性は有料プランでご利用いただけます。",
+      "title": "カスタム属性を使用するにはアップグレードしてください",
+      "trial": "カスタム属性は有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+    }
   },
   "simulationOutOfMemory": "メモリ不足",
   "simulationOutOfMemoryExplain": "シミュレーションはメモリ不足により完了できませんでした。",
   "simulationOutOfMemoryReduce": "タイムステップを減らすか、より小さなネットワークで再度お試しください。",
   "simulationOutOfMemoryRetry": "シミュレーションを再度実行してみてください。",
-  "simulationOutOfMemorySupport": "問題が解決しない場合はサポートにお問い合わせください。"
+  "simulationOutOfMemorySupport": "問題が解決しない場合はサポートにお問い合わせください。",
+  "customAttributesItem": "カスタム属性"
 }

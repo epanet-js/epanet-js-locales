@@ -1701,11 +1701,19 @@
     "title": "Attributs personnalisés",
     "type": "Type",
     "typeNumber": "Nombre",
-    "typeText": "Texte"
+    "typeText": "Texte",
+    "paywall": {
+      "description1": "Définissez vos propres attributs pour les conduites, les pompes, les vannes, les nœuds, les réservoirs, les châteaux d'eau et les points de consommation.",
+      "description2": "Saisissez les données importantes pour votre organisation et conservez-les avec votre modèle.",
+      "plans": "Les attributs personnalisés sont disponibles avec les forfaits payants.",
+      "title": "Mettre à niveau pour utiliser les attributs personnalisés",
+      "trial": "Les attributs personnalisés sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+    }
   },
   "simulationOutOfMemory": "Mémoire insuffisante",
   "simulationOutOfMemoryExplain": "La simulation a manqué de mémoire et n'a pas pu se terminer.",
   "simulationOutOfMemoryReduce": "Essayez à nouveau avec moins de pas de temps ou un réseau plus petit.",
   "simulationOutOfMemoryRetry": "Essayez de relancer la simulation.",
-  "simulationOutOfMemorySupport": "Contactez le support si le problème persiste."
+  "simulationOutOfMemorySupport": "Contactez le support si le problème persiste.",
+  "customAttributesItem": "Attributs personnalisés"
 }

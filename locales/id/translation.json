@@ -1701,11 +1701,19 @@
     "title": "Atribut kustom",
     "type": "Jenis",
     "typeNumber": "Angka",
-    "typeText": "Teks"
+    "typeText": "Teks",
+    "paywall": {
+      "description1": "Definisikan atribut Anda sendiri untuk pipa, pompa, katup, sambungan, reservoir, tangki, dan titik pelanggan.",
+      "description2": "Tangkap data yang penting bagi organisasi Anda dan simpan bersama model Anda.",
+      "plans": "Atribut kustom tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk menggunakan atribut kustom",
+      "trial": "Atribut kustom adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+    }
   },
   "simulationOutOfMemory": "Memori habis",
   "simulationOutOfMemoryExplain": "Simulasi kehabisan memori dan tidak dapat diselesaikan.",
   "simulationOutOfMemoryReduce": "Coba lagi dengan langkah waktu yang lebih sedikit atau jaringan yang lebih kecil.",
   "simulationOutOfMemoryRetry": "Coba jalankan simulasi lagi.",
-  "simulationOutOfMemorySupport": "Hubungi dukungan jika masalah berlanjut."
+  "simulationOutOfMemorySupport": "Hubungi dukungan jika masalah berlanjut.",
+  "customAttributesItem": "Atribut kustom"
 }

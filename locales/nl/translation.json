@@ -1701,11 +1701,19 @@
     "title": "Aangepaste attributen",
     "type": "Type",
     "typeNumber": "Getal",
-    "typeText": "Tekst"
+    "typeText": "Tekst",
+    "paywall": {
+      "description1": "Definieer uw eigen attributen voor leidingen, pompen, ventielen, knooppunten, reservoirs, tanks en klantpunten.",
+      "description2": "Leg de gegevens vast die belangrijk zijn voor uw organisatie en bewaar deze naast uw model.",
+      "plans": "Aangepaste attributen zijn beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om aangepaste attributen te gebruiken",
+      "trial": "Aangepaste attributen zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    }
   },
   "simulationOutOfMemory": "Geheugen vol",
   "simulationOutOfMemoryExplain": "De simulatie raakte uit het geheugen en kon niet worden voltooid.",
   "simulationOutOfMemoryReduce": "Probeer het opnieuw met minder tijdstappen of een kleiner netwerk.",
   "simulationOutOfMemoryRetry": "Probeer de simulatie opnieuw uit te voeren.",
-  "simulationOutOfMemorySupport": "Neem contact op met de support als het probleem aanhoudt."
+  "simulationOutOfMemorySupport": "Neem contact op met de support als het probleem aanhoudt.",
+  "customAttributesItem": "Aangepaste attributen"
 }

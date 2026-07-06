@@ -1708,11 +1708,19 @@
     "title": "Atributos personalizados",
     "type": "Tipo",
     "typeNumber": "Número",
-    "typeText": "Texto"
+    "typeText": "Texto",
+    "paywall": {
+      "description1": "Define tus propios atributos para tuberías, bombas, válvulas, nudos, embalses, tanques y puntos de consumo.",
+      "description2": "Captura los datos importantes para tu organización y mantenlos junto a tu modelo.",
+      "plans": "Los atributos personalizados están disponibles en planes de pago.",
+      "title": "Mejora para usar atributos personalizados",
+      "trial": "Los atributos personalizados son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+    }
   },
   "simulationOutOfMemory": "Memoria insuficiente",
   "simulationOutOfMemoryExplain": "La simulación se quedó sin memoria y no pudo finalizar.",
   "simulationOutOfMemoryReduce": "Intenta de nuevo con menos pasos de tiempo o una red más pequeña.",
   "simulationOutOfMemoryRetry": "Intenta ejecutar la simulación de nuevo.",
-  "simulationOutOfMemorySupport": "Contacta con soporte si el problema persiste."
+  "simulationOutOfMemorySupport": "Contacta con soporte si el problema persiste.",
+  "customAttributesItem": "Atributos personalizados"
 }
