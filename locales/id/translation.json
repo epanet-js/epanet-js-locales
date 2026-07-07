@@ -786,7 +786,13 @@
         "pumpSpeedNonNegative": "Kecepatan pompa harus nol atau lebih besar",
         "tankMinVolumeNonNegative": "Volume minimum tangki harus nol atau lebih besar",
         "tankMixingFractionUnitRange": "Fraksi pencampuran tangki harus antara 0 dan 1",
-        "valveMinorLossNonNegative": "Kehilangan minor katup harus nol atau lebih besar"
+        "valveMinorLossNonNegative": "Kehilangan minor katup harus nol atau lebih besar",
+        "tankInitialLevelWithinLevelRange": "Level awal tangki harus antara level minimum dan maksimum",
+        "tankMaxLevelAboveMinLevel": "Level maksimum tangki harus lebih besar dari level minimum",
+        "tankMaxLevelPositive": "Level maksimum tangki harus positif",
+        "tankMaxLevelPresent": "Level maksimum tangki hilang",
+        "tankMinLevelNonNegative": "Level minimum tangki harus nol atau lebih besar",
+        "tankMinLevelPresent": "Level minimum tangki hilang"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -1672,16 +1678,14 @@
     "exportCsv": "Nilai Dipisahkan Koma (.csv)",
     "exportXlsx": "Lembar Kerja Microsoft Excel (.xlsx)",
     "import": {
-      "cancel": "Batal",
       "confirmMessage": "Mengimpor pustaka pipa akan menimpa pustaka yang ada. Apakah Anda ingin melanjutkan?",
       "confirmTitle": "Impor pustaka pipa",
-      "continue": "Lanjutkan",
       "emptyFile": "File tidak mengandung material",
       "errorDescription": "File yang dipilih mengandung entri tidak valid. Periksa daftar kesalahan lengkap di detail.",
       "errorTitle": "Gagal mengimpor pustaka pipa",
       "success": "Diimpor {{count}} material dari file",
       "exception": "Terjadi kesalahan tak terduga saat mengimpor file",
-      "importedWithErrors": "Beberapa material yang diimpor mengandung kesalahan. Perbaiki sebelum menyimpan pustaka.",
+      "importedWithErrors": "File mengandung entri tidak valid. Harap perbaiki sebelum dapat menyimpan.",
       "invalidFile": "File yang dipilih tidak valid",
       "noMaterialsImported": "Tidak ada material yang diimpor",
       "partialTitle": "Pustaka mengandung entri tidak valid. Diimpor {{count}} material yang valid",
@@ -1715,5 +1719,7 @@
   "simulationOutOfMemoryReduce": "Coba lagi dengan langkah waktu yang lebih sedikit atau jaringan yang lebih kecil.",
   "simulationOutOfMemoryRetry": "Coba jalankan simulasi lagi.",
   "simulationOutOfMemorySupport": "Hubungi dukungan jika masalah berlanjut.",
-  "customAttributesItem": "Atribut kustom"
+  "customAttributesItem": "Atribut kustom",
+  "cancel": "Batal",
+  "continue": "Lanjutkan"
 }

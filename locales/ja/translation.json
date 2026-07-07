@@ -652,7 +652,13 @@
         "pumpSpeedNonNegative": "ポンプ速度はゼロ以上である必要があります",
         "tankMinVolumeNonNegative": "配水池の最小容量はゼロ以上である必要があります",
         "tankMixingFractionUnitRange": "配水池の混合割合は0から1の間である必要があります",
-        "valveMinorLossNonNegative": "弁の損失水頭はゼロ以上である必要があります"
+        "valveMinorLossNonNegative": "弁の損失水頭はゼロ以上である必要があります",
+        "tankInitialLevelWithinLevelRange": "配水池の初期水位は、最小水位と最大水位の間である必要があります",
+        "tankMaxLevelAboveMinLevel": "配水池の最大水位は、最小水位よりも高くなければなりません",
+        "tankMaxLevelPositive": "配水池の最大水位は正の値でなければなりません",
+        "tankMaxLevelPresent": "配水池の最大水位がありません",
+        "tankMinLevelNonNegative": "配水池の最小水位はゼロ以上でなければなりません",
+        "tankMinLevelPresent": "配水池の最小水位がありません"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -1672,10 +1678,8 @@
     "exportCsv": "カンマ区切り値 (.csv)",
     "exportXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
     "import": {
-      "cancel": "キャンセル",
       "confirmMessage": "管ライブラリをインポートすると、現在のライブラリが上書きされます。続行しますか？",
       "confirmTitle": "管ライブラリをインポート",
-      "continue": "続行",
       "emptyFile": "ファイルに材質が含まれていません",
       "errorDescription": "選択したファイルに無効なエントリが含まれています。詳細で完全なエラーリストを確認してください。",
       "errorTitle": "管ライブラリのインポートに失敗しました",
@@ -1715,5 +1719,7 @@
   "simulationOutOfMemoryReduce": "タイムステップを減らすか、より小さなネットワークで再度お試しください。",
   "simulationOutOfMemoryRetry": "シミュレーションを再度実行してみてください。",
   "simulationOutOfMemorySupport": "問題が解決しない場合はサポートにお問い合わせください。",
-  "customAttributesItem": "カスタム属性"
+  "customAttributesItem": "カスタム属性",
+  "cancel": "キャンセル",
+  "continue": "続行"
 }

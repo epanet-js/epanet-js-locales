@@ -652,7 +652,13 @@
         "pumpSpeedNonNegative": "Pompsnelheid moet nul of groter zijn",
         "tankMinVolumeNonNegative": "Tank minimum volume moet nul of groter zijn",
         "tankMixingFractionUnitRange": "Tank mengfractie moet tussen 0 en 1 liggen",
-        "valveMinorLossNonNegative": "Ventiel verliescoëfficiënt moet nul of groter zijn"
+        "valveMinorLossNonNegative": "Ventiel verliescoëfficiënt moet nul of groter zijn",
+        "tankInitialLevelWithinLevelRange": "Tank initiële niveau moet tussen het minimum- en maximumniveau liggen",
+        "tankMaxLevelAboveMinLevel": "Tank maximumniveau moet groter zijn dan het minimumniveau",
+        "tankMaxLevelPositive": "Tank maximumniveau moet positief zijn",
+        "tankMaxLevelPresent": "Tank maximumniveau ontbreekt",
+        "tankMinLevelNonNegative": "Tank minimumniveau moet nul of groter zijn",
+        "tankMinLevelPresent": "Tank minimumniveau ontbreekt"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -1672,16 +1678,14 @@
     "exportCsv": "Komma-gescheiden waarden (.csv)",
     "exportXlsx": "Microsoft Excel-werkblad (.xlsx)",
     "import": {
-      "cancel": "Annuleren",
       "confirmMessage": "Het importeren van een leidingbibliotheek zal de huidige bibliotheek vervangen. Wilt u doorgaan?",
       "confirmTitle": "Leidingbibliotheek importeren",
-      "continue": "Doorgaan",
       "emptyFile": "Het bestand bevat geen materialen",
       "errorDescription": "Het geselecteerde bestand bevat ongeldige invoeren. Zie de details voor de volledige lijst met fouten.",
       "errorTitle": "Importeren van leidingbibliotheek mislukt",
       "success": "{{count}} materialen uit bestand geïmporteerd",
       "exception": "Er is een onverwachte fout opgetreden tijdens het importeren van het bestand",
-      "importedWithErrors": "Sommige geïmporteerde materialen bevatten fouten. Los deze op voordat u de bibliotheek opslaat.",
+      "importedWithErrors": "Bestand bevat ongeldige invoeren. Los deze op voordat u kunt opslaan.",
       "invalidFile": "Geselecteerd bestand is niet geldig",
       "noMaterialsImported": "Geen materialen geïmporteerd",
       "partialTitle": "Bibliotheek bevatte ongeldige invoeren. Geïmporteerd {{count}} geldige materialen",
@@ -1715,5 +1719,7 @@
   "simulationOutOfMemoryReduce": "Probeer het opnieuw met minder tijdstappen of een kleiner netwerk.",
   "simulationOutOfMemoryRetry": "Probeer de simulatie opnieuw uit te voeren.",
   "simulationOutOfMemorySupport": "Neem contact op met de support als het probleem aanhoudt.",
-  "customAttributesItem": "Aangepaste attributen"
+  "customAttributesItem": "Aangepaste attributen",
+  "cancel": "Annuleren",
+  "continue": "Doorgaan"
 }

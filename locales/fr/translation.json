@@ -652,7 +652,13 @@
         "pumpSpeedNonNegative": "La vitesse de la pompe doit être supérieure ou égale à zéro",
         "tankMinVolumeNonNegative": "Le volume minimum du château d'eau doit être supérieur ou égal à zéro",
         "tankMixingFractionUnitRange": "La fraction de mélange du château d'eau doit être comprise entre 0 et 1",
-        "valveMinorLossNonNegative": "La perte mineure de la vanne doit être supérieure ou égale à zéro"
+        "valveMinorLossNonNegative": "La perte mineure de la vanne doit être supérieure ou égale à zéro",
+        "tankInitialLevelWithinLevelRange": "Le niveau initial du château d'eau doit être compris entre les niveaux minimum et maximum.",
+        "tankMaxLevelAboveMinLevel": "Le niveau maximum du château d'eau doit être supérieur au niveau minimum.",
+        "tankMaxLevelPositive": "Le niveau maximum du château d'eau doit être positif.",
+        "tankMaxLevelPresent": "Niveau maximum du château d'eau manquant.",
+        "tankMinLevelNonNegative": "Le niveau minimum du château d'eau doit être supérieur ou égal à zéro.",
+        "tankMinLevelPresent": "Niveau minimum du château d'eau manquant."
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -1672,16 +1678,14 @@
     "exportCsv": "Valeurs séparées par des virgules (.csv)",
     "exportXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
     "import": {
-      "cancel": "Annuler",
       "confirmMessage": "L'importation d'une bibliothèque de conduites remplacera la bibliothèque actuelle. Voulez-vous continuer ?",
       "confirmTitle": "Importer la bibliothèque de conduites",
-      "continue": "Continuer",
       "emptyFile": "Le fichier ne contient aucun matériau",
       "errorDescription": "Le fichier sélectionné contient des entrées invalides. Voir les détails pour la liste complète des erreurs.",
       "errorTitle": "Échec de l'importation de la bibliothèque de conduites",
       "success": "Importé {{count}} matériaux depuis le fichier",
       "exception": "Une erreur inattendue est survenue lors de l'importation du fichier",
-      "importedWithErrors": "Certains matériaux importés contiennent des erreurs. Corrigez-les avant d'enregistrer la bibliothèque.",
+      "importedWithErrors": "Le fichier contient des entrées invalides. Veuillez les corriger avant de pouvoir enregistrer.",
       "invalidFile": "Le fichier sélectionné n'est pas valide",
       "noMaterialsImported": "Aucun matériau n'a été importé",
       "partialTitle": "La bibliothèque contenait des entrées invalides. Importé {{count}} matériaux valides",
@@ -1715,5 +1719,7 @@
   "simulationOutOfMemoryReduce": "Essayez à nouveau avec moins de pas de temps ou un réseau plus petit.",
   "simulationOutOfMemoryRetry": "Essayez de relancer la simulation.",
   "simulationOutOfMemorySupport": "Contactez le support si le problème persiste.",
-  "customAttributesItem": "Attributs personnalisés"
+  "customAttributesItem": "Attributs personnalisés",
+  "cancel": "Annuler",
+  "continue": "Continuer"
 }

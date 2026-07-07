@@ -652,7 +652,13 @@
         "pumpSpeedNonNegative": "A velocidade da bomba deve ser zero ou maior",
         "tankMinVolumeNonNegative": "O volume mínimo do tanque deve ser zero ou maior",
         "tankMixingFractionUnitRange": "A fração de mistura do tanque deve estar entre 0 e 1",
-        "valveMinorLossNonNegative": "A perda menor da válvula deve ser zero ou maior"
+        "valveMinorLossNonNegative": "A perda menor da válvula deve ser zero ou maior",
+        "tankInitialLevelWithinLevelRange": "O nível inicial do tanque deve estar entre os níveis mínimo e máximo",
+        "tankMaxLevelAboveMinLevel": "O nível máximo do tanque deve ser maior que o nível mínimo",
+        "tankMaxLevelPositive": "O nível máximo do tanque deve ser positivo",
+        "tankMaxLevelPresent": "Nível máximo do tanque ausente",
+        "tankMinLevelNonNegative": "O nível mínimo do tanque deve ser zero ou maior",
+        "tankMinLevelPresent": "Nível mínimo do tanque ausente"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1672,16 +1678,14 @@
     "exportCsv": "Valores Separados por Vírgula (.csv)",
     "exportXlsx": "Planilha do Microsoft Excel (.xlsx)",
     "import": {
-      "cancel": "Cancelar",
       "confirmMessage": "Importar uma biblioteca de tubulações substituirá a biblioteca atual. Deseja continuar?",
       "confirmTitle": "Importar biblioteca de tubulações",
-      "continue": "Continuar",
       "emptyFile": "O arquivo não contém materiais",
       "errorDescription": "O arquivo selecionado contém entradas inválidas. Veja os detalhes para a lista completa de erros.",
       "errorTitle": "Falha ao importar biblioteca de tubulações",
       "success": "Importados {{count}} materiais do arquivo",
       "exception": "Houve um erro inesperado ao importar o arquivo",
-      "importedWithErrors": "Alguns materiais importados contêm erros. Corrija-os antes de salvar a biblioteca.",
+      "importedWithErrors": "O arquivo contém entradas inválidas. Por favor, corrija-as antes de poder salvar.",
       "invalidFile": "O arquivo selecionado não é válido",
       "noMaterialsImported": "Nenhum material foi importado",
       "partialTitle": "A biblioteca continha entradas inválidas. Importados {{count}} materiais válidos",
@@ -1715,5 +1719,7 @@
   "simulationOutOfMemoryReduce": "Tente novamente com menos passos de tempo ou uma rede menor.",
   "simulationOutOfMemoryRetry": "Tente executar a simulação novamente.",
   "simulationOutOfMemorySupport": "Entre em contato com o suporte se o problema persistir.",
-  "customAttributesItem": "Atributos personalizados"
+  "customAttributesItem": "Atributos personalizados",
+  "cancel": "Cancelar",
+  "continue": "Continuar"
 }
