@@ -658,7 +658,17 @@
         "tankMaxLevelPositive": "Tank maximumniveau moet positief zijn",
         "tankMaxLevelPresent": "Tank maximumniveau ontbreekt",
         "tankMinLevelNonNegative": "Tank minimumniveau moet nul of groter zijn",
-        "tankMinLevelPresent": "Tank minimumniveau ontbreekt"
+        "tankMinLevelPresent": "Tank minimumniveau ontbreekt",
+        "pipeDiameterPositive": "Leidingdiameter moet positief zijn",
+        "pipeDiameterPresent": "Leidingdiameter ontbreekt",
+        "pipeLengthPositive": "Leidinglengte moet positief zijn",
+        "pipeLengthPresent": "Leidinglengte ontbreekt",
+        "pumpCurveIdPresent": "Pompcurve ontbreekt",
+        "pumpCurveIdValid": "Pompcurvepunten zijn ongeldig",
+        "pumpCurvePresent": "Pompcurve ontbreekt",
+        "pumpCurveValid": "Pompcurvepunten zijn ongeldig",
+        "pumpPowerPositive": "Pompvermogen moet positief zijn",
+        "pumpPowerPresent": "Pompvermogen ontbreekt"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",

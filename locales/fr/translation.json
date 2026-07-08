@@ -658,7 +658,17 @@
         "tankMaxLevelPositive": "Le niveau maximum du château d'eau doit être positif.",
         "tankMaxLevelPresent": "Niveau maximum du château d'eau manquant.",
         "tankMinLevelNonNegative": "Le niveau minimum du château d'eau doit être supérieur ou égal à zéro.",
-        "tankMinLevelPresent": "Niveau minimum du château d'eau manquant."
+        "tankMinLevelPresent": "Niveau minimum du château d'eau manquant.",
+        "pipeDiameterPositive": "Le diamètre de la conduite doit être positif",
+        "pipeDiameterPresent": "Diamètre de la conduite manquant",
+        "pipeLengthPositive": "La longueur de la conduite doit être positive",
+        "pipeLengthPresent": "Longueur de la conduite manquante",
+        "pumpCurveIdPresent": "Courbe de pompe manquante",
+        "pumpCurveIdValid": "Les points de la courbe de pompe sont invalides",
+        "pumpCurvePresent": "Courbe de pompe manquante",
+        "pumpCurveValid": "Les points de la courbe de pompe sont invalides",
+        "pumpPowerPositive": "La puissance de la pompe doit être positive",
+        "pumpPowerPresent": "Puissance de la pompe manquante"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",

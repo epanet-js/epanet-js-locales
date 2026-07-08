@@ -658,7 +658,17 @@
         "tankMaxLevelPositive": "配水池の最大水位は正の値でなければなりません",
         "tankMaxLevelPresent": "配水池の最大水位がありません",
         "tankMinLevelNonNegative": "配水池の最小水位はゼロ以上でなければなりません",
-        "tankMinLevelPresent": "配水池の最小水位がありません"
+        "tankMinLevelPresent": "配水池の最小水位がありません",
+        "pipeDiameterPositive": "管の直径は正の値でなければなりません",
+        "pipeDiameterPresent": "管の直径がありません",
+        "pipeLengthPositive": "管の長さは正の値でなければなりません",
+        "pipeLengthPresent": "管の長さがありません",
+        "pumpCurveIdPresent": "ポンプ曲線がありません",
+        "pumpCurveIdValid": "ポンプ曲線点が無効です",
+        "pumpCurvePresent": "ポンプ曲線がありません",
+        "pumpCurveValid": "ポンプ曲線点が無効です",
+        "pumpPowerPositive": "ポンプ動力は正の値でなければなりません",
+        "pumpPowerPresent": "ポンプ動力がありません"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",

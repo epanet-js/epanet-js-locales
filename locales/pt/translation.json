@@ -658,7 +658,17 @@
         "tankMaxLevelPositive": "O nível máximo do tanque deve ser positivo",
         "tankMaxLevelPresent": "Nível máximo do tanque ausente",
         "tankMinLevelNonNegative": "O nível mínimo do tanque deve ser zero ou maior",
-        "tankMinLevelPresent": "Nível mínimo do tanque ausente"
+        "tankMinLevelPresent": "Nível mínimo do tanque ausente",
+        "pipeDiameterPositive": "O diâmetro da tubulação deve ser positivo",
+        "pipeDiameterPresent": "Diâmetro da tubulação ausente",
+        "pipeLengthPositive": "O comprimento da tubulação deve ser positivo",
+        "pipeLengthPresent": "Comprimento da tubulação ausente",
+        "pumpCurveIdPresent": "Curva da bomba ausente",
+        "pumpCurveIdValid": "Os pontos da curva da bomba são inválidos",
+        "pumpCurvePresent": "Curva da bomba ausente",
+        "pumpCurveValid": "Os pontos da curva da bomba são inválidos",
+        "pumpPowerPositive": "A potência da bomba deve ser positiva",
+        "pumpPowerPresent": "Potência da bomba ausente"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",

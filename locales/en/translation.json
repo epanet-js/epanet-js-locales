@@ -1289,6 +1289,10 @@
         "description": "Review the detailed list of assets with issues and access automated fixes"
       },
       "rule": {
+        "pipeDiameterPresent": "Pipe diameter missing",
+        "pipeDiameterPositive": "Pipe diameter must be positive",
+        "pipeLengthPresent": "Pipe length missing",
+        "pipeLengthPositive": "Pipe length must be positive",
         "pipeRoughnessPresent": "Pipe roughness missing",
         "pipeRoughnessPositive": "Pipe roughness must be positive",
         "pipeYearValid": "Pipe installation year invalid",
@@ -1306,6 +1310,12 @@
         "valveDiameterPresent": "Valve diameter missing",
         "valveDiameterPositive": "Valve diameter must be positive",
         "valveSettingPresent": "Valve setting missing",
+        "pumpPowerPresent": "Pump power missing",
+        "pumpPowerPositive": "Pump power must be positive",
+        "pumpCurvePresent": "Pump curve missing",
+        "pumpCurveValid": "Pump curve points are invalid",
+        "pumpCurveIdPresent": "Pump curve missing",
+        "pumpCurveIdValid": "Pump curve points are invalid",
         "pipeMinorLossNonNegative": "Pipe minor loss must be zero or greater",
         "valveMinorLossNonNegative": "Valve minor loss must be zero or greater",
         "tankMinVolumeNonNegative": "Tank minimum volume must be zero or greater",

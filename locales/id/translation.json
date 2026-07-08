@@ -792,7 +792,17 @@
         "tankMaxLevelPositive": "Level maksimum tangki harus positif",
         "tankMaxLevelPresent": "Level maksimum tangki hilang",
         "tankMinLevelNonNegative": "Level minimum tangki harus nol atau lebih besar",
-        "tankMinLevelPresent": "Level minimum tangki hilang"
+        "tankMinLevelPresent": "Level minimum tangki hilang",
+        "pipeDiameterPositive": "Diameter pipa harus positif",
+        "pipeDiameterPresent": "Diameter pipa hilang",
+        "pipeLengthPositive": "Panjang pipa harus positif",
+        "pipeLengthPresent": "Panjang pipa hilang",
+        "pumpCurveIdPresent": "Kurva pompa hilang",
+        "pumpCurveIdValid": "Titik kurva pompa tidak valid",
+        "pumpCurvePresent": "Kurva pompa hilang",
+        "pumpCurveValid": "Titik kurva pompa tidak valid",
+        "pumpPowerPositive": "Daya pompa harus positif",
+        "pumpPowerPresent": "Daya pompa hilang"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
