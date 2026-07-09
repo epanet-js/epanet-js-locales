@@ -802,7 +802,8 @@
         "pumpCurvePresent": "Kurva pompa hilang",
         "pumpCurveValid": "Titik kurva pompa tidak valid",
         "pumpPowerPositive": "Daya pompa harus positif",
-        "pumpPowerPresent": "Daya pompa hilang"
+        "pumpPowerPresent": "Daya pompa hilang",
+        "nodeElevationPresent": "Elevasi hilang"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",

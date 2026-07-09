@@ -11,7 +11,13 @@
     "title": "属性マッピング",
     "autoGenerate": "自動生成",
     "empty": "空",
-    "useDefault": "デフォルト値を使用"
+    "useDefault": "デフォルト値を使用",
+    "customAttributes": {
+      "label": "カスタム属性",
+      "placeholder": "カスタム属性を選択...",
+      "selectedCount_one": "{{count}} 選択済み",
+      "selectedCount_other": "{{count}} 選択済み"
+    }
   },
   "attributes": {
     "year": "設置年",
@@ -64,7 +70,8 @@
       "inferringReservoirHeads": "貯水池水頭の推測",
       "readingBuildConfig": "構築設定の読み込み",
       "removingZeroLengthPipes": "ゼロ長管の削除",
-      "splittingLinks": "リンクの分割"
+      "splittingLinks": "リンクの分割",
+      "finalizingModel": "モデルを最終処理中"
     }
   },
   "dataAssignment": {

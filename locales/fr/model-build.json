@@ -11,7 +11,13 @@
     "title": "Mapper les attributs",
     "autoGenerate": "Générer automatiquement",
     "empty": "Vide",
-    "useDefault": "Utiliser la valeur par défaut"
+    "useDefault": "Utiliser la valeur par défaut",
+    "customAttributes": {
+      "label": "Attributs personnalisés",
+      "placeholder": "Sélectionner des attributs personnalisés...",
+      "selectedCount_one": "{{count}} sélectionné",
+      "selectedCount_other": "{{count}} sélectionnés"
+    }
   },
   "attributes": {
     "year": "Année d'installation",
@@ -64,7 +70,8 @@
       "inferringReservoirHeads": "Déduction des charges des réservoirs",
       "readingBuildConfig": "Lecture de la configuration de construction",
       "removingZeroLengthPipes": "Suppression des conduites de longueur nulle",
-      "splittingLinks": "Division des liaisons"
+      "splittingLinks": "Division des liaisons",
+      "finalizingModel": "Finalisation du modèle"
     }
   },
   "dataAssignment": {

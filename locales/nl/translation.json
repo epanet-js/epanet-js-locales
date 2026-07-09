@@ -668,7 +668,8 @@
         "pumpCurvePresent": "Pompcurve ontbreekt",
         "pumpCurveValid": "Pompcurvepunten zijn ongeldig",
         "pumpPowerPositive": "Pompvermogen moet positief zijn",
-        "pumpPowerPresent": "Pompvermogen ontbreekt"
+        "pumpPowerPresent": "Pompvermogen ontbreekt",
+        "nodeElevationPresent": "Hoogte ontbreekt"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",

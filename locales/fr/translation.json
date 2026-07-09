@@ -668,7 +668,8 @@
         "pumpCurvePresent": "Courbe de pompe manquante",
         "pumpCurveValid": "Les points de la courbe de pompe sont invalides",
         "pumpPowerPositive": "La puissance de la pompe doit être positive",
-        "pumpPowerPresent": "Puissance de la pompe manquante"
+        "pumpPowerPresent": "Puissance de la pompe manquante",
+        "nodeElevationPresent": "Élévation manquante"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",

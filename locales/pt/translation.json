@@ -668,7 +668,8 @@
         "pumpCurvePresent": "Curva da bomba ausente",
         "pumpCurveValid": "Os pontos da curva da bomba são inválidos",
         "pumpPowerPositive": "A potência da bomba deve ser positiva",
-        "pumpPowerPresent": "Potência da bomba ausente"
+        "pumpPowerPresent": "Potência da bomba ausente",
+        "nodeElevationPresent": "Elevação ausente"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",

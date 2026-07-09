@@ -11,7 +11,13 @@
     "title": "Mapear atributos",
     "autoGenerate": "Auto-generar",
     "empty": "Vacío",
-    "useDefault": "Usar valor predeterminado"
+    "useDefault": "Usar valor predeterminado",
+    "customAttributes": {
+      "label": "Atributos personalizados",
+      "placeholder": "Seleccionar atributos personalizados...",
+      "selectedCount_one": "{{count}} seleccionado",
+      "selectedCount_other": "{{count}} seleccionados"
+    }
   },
   "attributes": {
     "year": "Año de instalación",
@@ -64,7 +70,8 @@
       "inferringReservoirHeads": "Infiriendo cargas de embalses",
       "readingBuildConfig": "Leyendo configuración de construcción",
       "removingZeroLengthPipes": "Eliminando tuberías de longitud cero",
-      "splittingLinks": "Dividiendo enlaces"
+      "splittingLinks": "Dividiendo enlaces",
+      "finalizingModel": "Finalizando modelo"
     }
   },
   "dataAssignment": {

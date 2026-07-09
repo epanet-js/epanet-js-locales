@@ -675,7 +675,8 @@
         "pumpCurvePresent": "Falta la curva de la bomba",
         "pumpCurveValid": "Los puntos de la curva de la bomba no son válidos",
         "pumpPowerPositive": "La potencia de la bomba debe ser positiva",
-        "pumpPowerPresent": "Falta la potencia de la bomba"
+        "pumpPowerPresent": "Falta la potencia de la bomba",
+        "nodeElevationPresent": "Falta la elevación"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",

@@ -40,7 +40,13 @@
     "useDefault": "Use default value",
     "empty": "Empty",
     "dataPreview": "Data preview",
-    "buildModel": "Build model"
+    "buildModel": "Build model",
+    "customAttributes": {
+      "label": "Custom attributes",
+      "placeholder": "Select custom attributes...",
+      "selectedCount_one": "{{count}} selected",
+      "selectedCount_other": "{{count}} selected"
+    }
   },
   "buildProgress": {
     "title": "Building EPANET model",
@@ -77,7 +83,8 @@
       "removingZeroLengthPipes": "Removing zero-length pipes",
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
-      "inferringReservoirHeads": "Inferring reservoir heads"
+      "inferringReservoirHeads": "Inferring reservoir heads",
+      "finalizingModel": "Finalizing model"
     }
   },
   "fileDropzone": {

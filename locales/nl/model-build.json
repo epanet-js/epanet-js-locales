@@ -11,7 +11,13 @@
     "title": "Attributen koppelen",
     "autoGenerate": "Automatisch genereren",
     "empty": "Leeg",
-    "useDefault": "Standaardwaarde gebruiken"
+    "useDefault": "Standaardwaarde gebruiken",
+    "customAttributes": {
+      "label": "Aangepaste attributen",
+      "placeholder": "Selecteer aangepaste attributen...",
+      "selectedCount_one": "{{count}} geselecteerd",
+      "selectedCount_other": "{{count}} geselecteerd"
+    }
   },
   "attributes": {
     "year": "Installatiejaar",
@@ -64,7 +70,8 @@
       "inferringReservoirHeads": "Reservoir opvoerhoogtes afleiden",
       "readingBuildConfig": "Build configuratie lezen",
       "removingZeroLengthPipes": "Leidingen met nul-lengte verwijderen",
-      "splittingLinks": "Verbindingen splitsen"
+      "splittingLinks": "Verbindingen splitsen",
+      "finalizingModel": "Model voltooien"
     }
   },
   "dataAssignment": {
