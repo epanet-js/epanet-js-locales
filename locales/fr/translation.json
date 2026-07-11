@@ -1732,5 +1732,14 @@
   "simulationOutOfMemorySupport": "Contactez le support si le problème persiste.",
   "customAttributesItem": "Attributs personnalisés",
   "cancel": "Annuler",
-  "continue": "Continuer"
+  "continue": "Continuer",
+  "discardChangesAction": "Ignorer les modifications",
+  "recoverChangesAction": "Récupérer les modifications",
+  "recoveredModelName": "Modèle récupéré",
+  "recoverUnsavedModelFailedDescription": "Le modèle non enregistré n'a plus pu être lu depuis le stockage local.",
+  "recoverUnsavedModelFailedTitle": "Impossible de récupérer le modèle non enregistré",
+  "restoreUnsavedWorkDescription": "Votre dernière session s'est terminée de manière inattendue. Nous avons conservé une copie des modifications que vous n'aviez pas encore enregistrées.",
+  "restoreUnsavedWorkLastSave": "Dernière sauvegarde",
+  "restoreUnsavedWorkProject": "Projet",
+  "restoreUnsavedWorkTitle": "Restaurer le travail non enregistré ?"
 }

@@ -1732,5 +1732,14 @@
   "simulationOutOfMemorySupport": "Entre em contato com o suporte se o problema persistir.",
   "customAttributesItem": "Atributos personalizados",
   "cancel": "Cancelar",
-  "continue": "Continuar"
+  "continue": "Continuar",
+  "discardChangesAction": "Descartar Alterações",
+  "recoverChangesAction": "Recuperar Alterações",
+  "recoveredModelName": "Modelo recuperado",
+  "recoverUnsavedModelFailedDescription": "O modelo não salvo não pôde mais ser lido do armazenamento local.",
+  "recoverUnsavedModelFailedTitle": "Não foi possível recuperar o modelo não salvo",
+  "restoreUnsavedWorkDescription": "Sua última sessão foi encerrada inesperadamente. Mantivemos uma cópia das alterações que você não havia salvo ainda.",
+  "restoreUnsavedWorkLastSave": "Último salvamento",
+  "restoreUnsavedWorkProject": "Projeto",
+  "restoreUnsavedWorkTitle": "Restaurar trabalho não salvo?"
 }

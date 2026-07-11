@@ -1732,5 +1732,14 @@
   "simulationOutOfMemorySupport": "問題が解決しない場合はサポートにお問い合わせください。",
   "customAttributesItem": "カスタム属性",
   "cancel": "キャンセル",
-  "continue": "続行"
+  "continue": "続行",
+  "discardChangesAction": "変更を破棄",
+  "recoverChangesAction": "変更を復元",
+  "recoveredModelName": "復元されたモデル",
+  "recoverUnsavedModelFailedDescription": "未保存のモデルをローカルストレージから読み取ることができませんでした。",
+  "recoverUnsavedModelFailedTitle": "未保存のモデルを復元できませんでした",
+  "restoreUnsavedWorkDescription": "前回のセッションが予期せず終了しました。保存していなかった変更のコピーを保持しています。",
+  "restoreUnsavedWorkLastSave": "最終保存",
+  "restoreUnsavedWorkProject": "プロジェクト",
+  "restoreUnsavedWorkTitle": "未保存の作業を復元しますか？"
 }

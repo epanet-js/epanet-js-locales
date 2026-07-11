@@ -1732,5 +1732,14 @@
   "simulationOutOfMemorySupport": "Neem contact op met de support als het probleem aanhoudt.",
   "customAttributesItem": "Aangepaste attributen",
   "cancel": "Annuleren",
-  "continue": "Doorgaan"
+  "continue": "Doorgaan",
+  "discardChangesAction": "Wijzigingen verwerpen",
+  "recoverChangesAction": "Wijzigingen herstellen",
+  "recoveredModelName": "Hersteld model",
+  "recoverUnsavedModelFailedDescription": "Het niet-opgeslagen model kon niet meer worden gelezen uit de lokale opslag.",
+  "recoverUnsavedModelFailedTitle": "Kon het niet-opgeslagen model niet herstellen",
+  "restoreUnsavedWorkDescription": "Uw laatste sessie is onverwachts afgesloten. We hebben een kopie bewaard van de wijzigingen die u nog niet had opgeslagen.",
+  "restoreUnsavedWorkLastSave": "Laatst opgeslagen",
+  "restoreUnsavedWorkProject": "Project",
+  "restoreUnsavedWorkTitle": "Niet-opgeslagen werk herstellen?"
 }

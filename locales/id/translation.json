@@ -1732,5 +1732,14 @@
   "simulationOutOfMemorySupport": "Hubungi dukungan jika masalah berlanjut.",
   "customAttributesItem": "Atribut kustom",
   "cancel": "Batal",
-  "continue": "Lanjutkan"
+  "continue": "Lanjutkan",
+  "discardChangesAction": "Buang Perubahan",
+  "recoverChangesAction": "Pulihkan Perubahan",
+  "recoveredModelName": "Model yang dipulihkan",
+  "recoverUnsavedModelFailedDescription": "Model yang belum disimpan tidak dapat lagi dibaca dari penyimpanan lokal.",
+  "recoverUnsavedModelFailedTitle": "Tidak dapat memulihkan model yang belum disimpan",
+  "restoreUnsavedWorkDescription": "Sesi terakhir Anda ditutup secara tidak terduga. Kami menyimpan salinan perubahan yang belum Anda simpan.",
+  "restoreUnsavedWorkLastSave": "Penyimpanan terakhir",
+  "restoreUnsavedWorkProject": "Proyek",
+  "restoreUnsavedWorkTitle": "Pulihkan pekerjaan yang belum disimpan?"
 }
