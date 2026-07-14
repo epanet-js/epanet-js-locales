@@ -888,7 +888,8 @@
     "backflowAllowedNo": "Não",
     "backflowAllowedYes": "Sim",
     "traceNodeRequired": "Um rótulo de nó válido é necessário",
-    "qualityDefaultChemical": "Químico"
+    "qualityDefaultChemical": "Químico",
+    "sectionHasError": "Esta seção tem valores inválidos"
   },
   "utilities": "Aplicativos utilitários",
   "pumpPatterns": "Bombas com padrões de tempo ({{1}} bombas usando velocidade constante)",
@@ -1532,7 +1533,8 @@
       "plans": "As sobreposições de zona estão disponíveis em planos pagos.",
       "title": "Atualize para importar zonas",
       "trial": "As sobreposições de zona são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
-    }
+    },
+    "menuTitle": "Zonas"
   },
   "zoneSymbology": "Simbologia de zona",
   "nodeSize": {

@@ -888,7 +888,8 @@
     "backflowAllowedNo": "Nee",
     "backflowAllowedYes": "Ja",
     "traceNodeRequired": "Een geldig knooppuntlabel is vereist",
-    "qualityDefaultChemical": "Chemisch"
+    "qualityDefaultChemical": "Chemisch",
+    "sectionHasError": "Deze sectie bevat ongeldige waarden"
   },
   "utilities": "Hulpprogramma's",
   "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
@@ -1532,7 +1533,8 @@
       "plans": "Zone-overlays zijn beschikbaar op betaalde abonnementen.",
       "title": "Upgrade om zones te importeren",
       "trial": "Zone-overlays zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
-    }
+    },
+    "menuTitle": "Zones"
   },
   "zoneSymbology": "Zone symbologie",
   "nodeSize": {

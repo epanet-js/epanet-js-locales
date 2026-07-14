@@ -888,7 +888,8 @@
     "backflowAllowedNo": "Non",
     "backflowAllowedYes": "Oui",
     "traceNodeRequired": "Un libellé de nœud valide est requis",
-    "qualityDefaultChemical": "Produit chimique"
+    "qualityDefaultChemical": "Produit chimique",
+    "sectionHasError": "Cette section contient des valeurs invalides"
   },
   "utilities": "Applications utilitaires",
   "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
@@ -1532,7 +1533,8 @@
       "plans": "Les superpositions de zones sont disponibles avec les forfaits payants.",
       "title": "Mettre à niveau pour importer des zones",
       "trial": "Les superpositions de zones sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
-    }
+    },
+    "menuTitle": "Zones"
   },
   "zoneSymbology": "Symbologie de zone",
   "nodeSize": {

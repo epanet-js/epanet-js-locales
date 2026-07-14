@@ -1260,7 +1260,8 @@
     "waterQuality": "Kualitas air",
     "waterQualityAnalysis": "Analisis",
     "waterQualityReactions": "Konstanta reaksi",
-    "waterQualityWall": "Interaksi dinding"
+    "waterQualityWall": "Interaksi dinding",
+    "sectionHasError": "Bagian ini memiliki nilai yang tidak valid"
   },
   "simulationStatus": "Status simulasi",
   "simulationStopped": "Simulasi dihentikan",
@@ -1532,7 +1533,8 @@
       "plans": "Overlay zona tersedia pada paket berbayar.",
       "title": "Tingkatkan untuk mengimpor zona",
       "trial": "Overlay zona adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
-    }
+    },
+    "menuTitle": "Zona"
   },
   "zoneSymbology": "Simbologi zona",
   "nodeSize": {

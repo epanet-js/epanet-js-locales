@@ -801,6 +801,7 @@
   "ckmeans": "Ckmeans",
   "simulationSettings": {
     "title": "Simulation settings",
+    "sectionHasError": "This section has invalid values",
     "demand": "Demand",
     "demandMultiplier": "Demand multiplier",
     "times": "Times",
@@ -1651,6 +1652,7 @@
     }
   },
   "importZones": {
+    "menuTitle": "Zones",
     "title": "Import zones",
     "dataInputStep": {
       "title": "Data mapping",

@@ -888,7 +888,8 @@
     "backflowAllowedNo": "いいえ",
     "backflowAllowedYes": "はい",
     "traceNodeRequired": "有効なノードラベルが必要です",
-    "qualityDefaultChemical": "化学物質"
+    "qualityDefaultChemical": "化学物質",
+    "sectionHasError": "このセクションには無効な値が含まれています"
   },
   "utilities": "ユーティリティ",
   "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
@@ -1532,7 +1533,8 @@
       "plans": "ゾーンオーバーレイは有料プランでご利用いただけます。",
       "title": "ゾーンをインポートするにはアップグレードしてください",
       "trial": "ゾーンオーバーレイは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
-    }
+    },
+    "menuTitle": "ゾーン"
   },
   "zoneSymbology": "ゾーンシンボル",
   "nodeSize": {

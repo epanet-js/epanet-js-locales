@@ -895,7 +895,8 @@
     "backflowAllowedNo": "No",
     "backflowAllowedYes": "Sí",
     "traceNodeRequired": "Se requiere una etiqueta de nudo válida",
-    "qualityDefaultChemical": "Químico"
+    "qualityDefaultChemical": "Químico",
+    "sectionHasError": "Esta sección tiene valores inválidos"
   },
   "utilities": "Aplicaciones de utilidades",
   "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
@@ -1539,7 +1540,8 @@
       "plans": "Las superposiciones de zonas están disponibles en planes de pago.",
       "title": "Mejora para importar zonas",
       "trial": "Las superposiciones de zonas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
-    }
+    },
+    "menuTitle": "Zonas"
   },
   "zoneSymbology": "Simbología de zonas",
   "nodeSize": {
