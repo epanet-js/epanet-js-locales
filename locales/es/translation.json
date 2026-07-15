@@ -1745,9 +1745,9 @@
   "discardChangesAction": "Descartar cambios",
   "recoverChangesAction": "Recuperar cambios",
   "recoveredModelName": "Modelo recuperado",
-  "recoverUnsavedModelFailedDescription": "El modelo no guardado ya no pudo leerse desde el almacenamiento local.",
+  "recoverUnsavedModelFailedDescription": "El modelo no guardado no pudo leerse desde el almacenamiento local.",
   "recoverUnsavedModelFailedTitle": "No se pudo recuperar el modelo no guardado",
-  "restoreUnsavedWorkDescription": "Tu última sesión se cerró inesperadamente. Guardamos una copia de los cambios que no habías guardado aún.",
+  "restoreUnsavedWorkDescription": "Tu última sesión se cerró inesperadamente. Conservamos una copia con los cambios que no habías guardado.",
   "restoreUnsavedWorkLastSave": "Último guardado",
   "restoreUnsavedWorkProject": "Proyecto",
   "restoreUnsavedWorkTitle": "¿Restaurar trabajo no guardado?"
