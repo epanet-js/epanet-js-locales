@@ -249,6 +249,12 @@
   "signUpToUnlockResolution": "Regístrate para desbloquear imágenes satelitales en alta resolución.",
   "continueWithLowResolution": "Continuar con baja resolución",
   "basemap": "Mapa base",
+  "basemapNames": {
+    "monochrome": "Monocromo",
+    "satellite": "Satélite",
+    "outdoors": "Exterior",
+    "streets": "Calles"
+  },
   "back": "Atrás",
   "name": "Nombre",
   "here": "Aquí",
@@ -1742,6 +1748,7 @@
   "customAttributesItem": "Atributos personalizados",
   "cancel": "Cancelar",
   "continue": "Continuar",
+  "done": "Aceptar",
   "discardChangesAction": "Descartar cambios",
   "recoverChangesAction": "Recuperar cambios",
   "recoveredModelName": "Modelo recuperado",
