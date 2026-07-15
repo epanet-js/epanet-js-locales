@@ -1750,5 +1750,7 @@
   "restoreUnsavedWorkDescription": "Tu última sesión se cerró inesperadamente. Conservamos una copia con los cambios que no habías guardado.",
   "restoreUnsavedWorkLastSave": "Último guardado",
   "restoreUnsavedWorkProject": "Proyecto",
-  "restoreUnsavedWorkTitle": "¿Restaurar trabajo no guardado?"
+  "restoreUnsavedWorkTitle": "¿Restaurar trabajo no guardado?",
+  "restoreUnsavedWorkLastChange": "Último cambio",
+  "restoreUnsavedWorkNeverSaved": "Sin guardar"
 }

@@ -1743,5 +1743,7 @@
   "restoreUnsavedWorkDescription": "Uw laatste sessie is onverwachts afgesloten. We hebben een kopie bewaard van de wijzigingen die u nog niet had opgeslagen.",
   "restoreUnsavedWorkLastSave": "Laatst opgeslagen",
   "restoreUnsavedWorkProject": "Project",
-  "restoreUnsavedWorkTitle": "Niet-opgeslagen werk herstellen?"
+  "restoreUnsavedWorkTitle": "Niet-opgeslagen werk herstellen?",
+  "restoreUnsavedWorkLastChange": "Laatste wijziging",
+  "restoreUnsavedWorkNeverSaved": "Niet-opgeslagen"
 }

@@ -1743,5 +1743,7 @@
   "restoreUnsavedWorkDescription": "Votre dernière session s'est terminée de manière inattendue. Nous avons conservé une copie des modifications que vous n'aviez pas encore enregistrées.",
   "restoreUnsavedWorkLastSave": "Dernière sauvegarde",
   "restoreUnsavedWorkProject": "Projet",
-  "restoreUnsavedWorkTitle": "Restaurer le travail non enregistré ?"
+  "restoreUnsavedWorkTitle": "Restaurer le travail non enregistré ?",
+  "restoreUnsavedWorkLastChange": "Dernière modification",
+  "restoreUnsavedWorkNeverSaved": "Non enregistré"
 }

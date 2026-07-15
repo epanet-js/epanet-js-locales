@@ -1743,5 +1743,7 @@
   "restoreUnsavedWorkDescription": "前回のセッションが予期せず終了しました。保存していなかった変更のコピーを保持しています。",
   "restoreUnsavedWorkLastSave": "最終保存",
   "restoreUnsavedWorkProject": "プロジェクト",
-  "restoreUnsavedWorkTitle": "未保存の作業を復元しますか？"
+  "restoreUnsavedWorkTitle": "未保存の作業を復元しますか？",
+  "restoreUnsavedWorkLastChange": "最終変更",
+  "restoreUnsavedWorkNeverSaved": "未保存"
 }

@@ -1743,5 +1743,7 @@
   "restoreUnsavedWorkDescription": "Sesi terakhir Anda ditutup secara tidak terduga. Kami menyimpan salinan perubahan yang belum Anda simpan.",
   "restoreUnsavedWorkLastSave": "Penyimpanan terakhir",
   "restoreUnsavedWorkProject": "Proyek",
-  "restoreUnsavedWorkTitle": "Pulihkan pekerjaan yang belum disimpan?"
+  "restoreUnsavedWorkTitle": "Pulihkan pekerjaan yang belum disimpan?",
+  "restoreUnsavedWorkLastChange": "Perubahan terakhir",
+  "restoreUnsavedWorkNeverSaved": "Belum disimpan"
 }

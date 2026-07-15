@@ -1743,5 +1743,7 @@
   "restoreUnsavedWorkDescription": "Sua última sessão foi encerrada inesperadamente. Mantivemos uma cópia das alterações que você não havia salvo ainda.",
   "restoreUnsavedWorkLastSave": "Último salvamento",
   "restoreUnsavedWorkProject": "Projeto",
-  "restoreUnsavedWorkTitle": "Restaurar trabalho não salvo?"
+  "restoreUnsavedWorkTitle": "Restaurar trabalho não salvo?",
+  "restoreUnsavedWorkLastChange": "Última alteração",
+  "restoreUnsavedWorkNeverSaved": "Não salvo"
 }
