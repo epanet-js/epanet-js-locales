@@ -1745,5 +1745,17 @@
   "restoreUnsavedWorkProject": "プロジェクト",
   "restoreUnsavedWorkTitle": "未保存の作業を復元しますか？",
   "restoreUnsavedWorkLastChange": "最終変更",
-  "restoreUnsavedWorkNeverSaved": "未保存"
+  "restoreUnsavedWorkNeverSaved": "未保存",
+  "basemapNames": {
+    "monochrome": "モノクロ",
+    "outdoors": "アウトドア",
+    "satellite": "衛星",
+    "streets": "道路"
+  },
+  "connectionX": "接続X",
+  "connectionY": "接続Y",
+  "done": "完了",
+  "positionX": "位置X",
+  "positionY": "位置Y",
+  "visibility": "表示"
 }

@@ -1759,5 +1759,10 @@
   "restoreUnsavedWorkProject": "Proyecto",
   "restoreUnsavedWorkTitle": "¿Restaurar trabajo no guardado?",
   "restoreUnsavedWorkLastChange": "Último cambio",
-  "restoreUnsavedWorkNeverSaved": "Sin guardar"
+  "restoreUnsavedWorkNeverSaved": "Sin guardar",
+  "connectionX": "Conexión X",
+  "connectionY": "Conexión Y",
+  "positionX": "Posición X",
+  "positionY": "Posición Y",
+  "visibility": "Visibilidad"
 }

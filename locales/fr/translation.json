@@ -1745,5 +1745,17 @@
   "restoreUnsavedWorkProject": "Projet",
   "restoreUnsavedWorkTitle": "Restaurer le travail non enregistré ?",
   "restoreUnsavedWorkLastChange": "Dernière modification",
-  "restoreUnsavedWorkNeverSaved": "Non enregistré"
+  "restoreUnsavedWorkNeverSaved": "Non enregistré",
+  "basemapNames": {
+    "monochrome": "Monochrome",
+    "outdoors": "Extérieur",
+    "satellite": "Satellite",
+    "streets": "Rues"
+  },
+  "connectionX": "Connexion X",
+  "connectionY": "Connexion Y",
+  "done": "Terminé",
+  "positionX": "Position X",
+  "positionY": "Position Y",
+  "visibility": "Visibilité"
 }

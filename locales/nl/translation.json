@@ -1745,5 +1745,17 @@
   "restoreUnsavedWorkProject": "Project",
   "restoreUnsavedWorkTitle": "Niet-opgeslagen werk herstellen?",
   "restoreUnsavedWorkLastChange": "Laatste wijziging",
-  "restoreUnsavedWorkNeverSaved": "Niet-opgeslagen"
+  "restoreUnsavedWorkNeverSaved": "Niet-opgeslagen",
+  "basemapNames": {
+    "monochrome": "Monochroom",
+    "outdoors": "Buiten",
+    "satellite": "Satelliet",
+    "streets": "Straten"
+  },
+  "connectionX": "Verbinding X",
+  "connectionY": "Verbinding Y",
+  "done": "Klaar",
+  "positionX": "Positie X",
+  "positionY": "Positie Y",
+  "visibility": "Zichtbaarheid"
 }

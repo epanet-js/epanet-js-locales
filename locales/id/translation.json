@@ -1745,5 +1745,17 @@
   "restoreUnsavedWorkProject": "Proyek",
   "restoreUnsavedWorkTitle": "Pulihkan pekerjaan yang belum disimpan?",
   "restoreUnsavedWorkLastChange": "Perubahan terakhir",
-  "restoreUnsavedWorkNeverSaved": "Belum disimpan"
+  "restoreUnsavedWorkNeverSaved": "Belum disimpan",
+  "basemapNames": {
+    "monochrome": "Monokrom",
+    "outdoors": "Luar Ruangan",
+    "satellite": "Satelit",
+    "streets": "Jalanan"
+  },
+  "connectionX": "Koneksi X",
+  "connectionY": "Koneksi Y",
+  "done": "Selesai",
+  "positionX": "Posisi X",
+  "positionY": "Posisi Y",
+  "visibility": "Visibilitas"
 }
