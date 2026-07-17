@@ -1764,5 +1764,9 @@
   "connectionY": "Conexión Y",
   "positionX": "Posición X",
   "positionY": "Posición Y",
-  "visibility": "Visibilidad"
+  "visibility": "Visibilidad",
+  "linksMalformedVertices": "Enlaces con vértices inválidos",
+  "malformedCoordinates": "Coordenadas inválidas",
+  "malformedCoordinatesDetail": "Tu INP contiene coordenadas que no son números válidos, por lo que no se puede abrir. Corrige las filas listadas a continuación e importa el archivo de nuevo.",
+  "nodesMalformedCoordinates": "Nudos con coordenadas inválidas"
 }

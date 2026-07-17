@@ -1757,5 +1757,9 @@
   "done": "Klaar",
   "positionX": "Positie X",
   "positionY": "Positie Y",
-  "visibility": "Zichtbaarheid"
+  "visibility": "Zichtbaarheid",
+  "linksMalformedVertices": "Verbindingen met ongeldige hoekpunten",
+  "malformedCoordinates": "Ongeldige coördinaten",
+  "malformedCoordinatesDetail": "Uw INP bevat coördinaten die geen geldige getallen zijn, waardoor het niet kan worden geopend. Los de onderstaande rijen op en importeer het bestand opnieuw.",
+  "nodesMalformedCoordinates": "Knooppunten met ongeldige coördinaten"
 }

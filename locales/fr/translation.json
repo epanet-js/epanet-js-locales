@@ -1757,5 +1757,9 @@
   "done": "Terminé",
   "positionX": "Position X",
   "positionY": "Position Y",
-  "visibility": "Visibilité"
+  "visibility": "Visibilité",
+  "linksMalformedVertices": "Liaisons avec sommets invalides",
+  "malformedCoordinates": "Coordonnées invalides",
+  "malformedCoordinatesDetail": "Votre fichier INP contient des coordonnées qui ne sont pas des nombres valides et ne peut donc pas être ouvert. Corrigez les lignes listées ci-dessous et importez le fichier à nouveau.",
+  "nodesMalformedCoordinates": "Nœuds avec coordonnées invalides"
 }
