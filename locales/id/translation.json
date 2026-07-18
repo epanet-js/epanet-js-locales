@@ -706,7 +706,8 @@
     "searchingProjections": "Mencari proyeksi...",
     "searchPlaceholder": "Cari berdasarkan lokasi atau kode",
     "setMapProjection": "Atur proyeksi peta",
-    "title": "Proyeksi jaringan"
+    "title": "Proyeksi jaringan",
+    "searchUnavailable": "Layanan pencarian berdasarkan lokasi tidak tersedia. Coba lagi nanti atau gunakan kode EPSG atau nama proyeksi"
   },
   "networkReview": {
     "connectivityTrace": {

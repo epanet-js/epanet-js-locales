@@ -1200,7 +1200,8 @@
     "noResultsDescription": "Intenta buscar una ubicación diferente o alejarte en el mapa para ampliar tu área de búsqueda.",
     "noResultsTitle": "No se encontraron proyecciones coincidentes aquí",
     "removeBasemap": "Quitar mapa base",
-    "setMapProjection": "Establecer proyección del mapa"
+    "setMapProjection": "Establecer proyección del mapa",
+    "searchUnavailable": "El servicio de búsqueda por ubicación no está disponible. Intenta de nuevo más tarde o usa un código EPSG o un nombre de proyección"
   },
   "baseCost": "Costo base",
   "customElevations": "Fuentes de elevación personalizadas",

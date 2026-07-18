@@ -1187,7 +1187,8 @@
     "noResultsDescription": "Essayez de rechercher un autre emplacement ou de dézoomer sur la carte pour étendre votre zone de recherche.",
     "noResultsTitle": "Aucune projection correspondante trouvée ici",
     "removeBasemap": "Supprimer le fond de carte",
-    "setMapProjection": "Définir la projection de la carte"
+    "setMapProjection": "Définir la projection de la carte",
+    "searchUnavailable": "Le service de recherche par lieu n'est pas disponible. Réessayez plus tard ou utilisez un code EPSG ou un nom de projection"
   },
   "baseCost": "Coût de base",
   "customElevations": "Sources d'élévations personnalisées",

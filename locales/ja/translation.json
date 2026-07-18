@@ -1187,7 +1187,8 @@
     "noResultsDescription": "別の場所を検索するか、マップをズームアウトして検索範囲を広げてみてください。",
     "noResultsTitle": "ここでは一致する投影が見つかりませんでした",
     "removeBasemap": "ベースマップを削除",
-    "setMapProjection": "マップ投影を設定"
+    "setMapProjection": "マップ投影を設定",
+    "searchUnavailable": "位置検索サービスは利用できません。後でもう一度お試しいただくか、EPSGコードまたは投影名を使用してください。"
   },
   "baseCost": "基本料金",
   "customElevations": "カスタム標高ソース",
