@@ -1762,5 +1762,6 @@
   "linksMalformedVertices": "Links com vértices inválidos",
   "malformedCoordinates": "Coordenadas inválidas",
   "malformedCoordinatesDetail": "Seu INP contém coordenadas que não são números válidos, então não pode ser aberto. Corrija as linhas listadas abaixo e importe o arquivo novamente.",
-  "nodesMalformedCoordinates": "Nós com coordenadas inválidas"
+  "nodesMalformedCoordinates": "Nós com coordenadas inválidas",
+  "signOut": "Desconectar"
 }

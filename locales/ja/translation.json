@@ -1762,5 +1762,6 @@
   "linksMalformedVertices": "無効な頂点を持つリンク",
   "malformedCoordinates": "無効な座標",
   "malformedCoordinatesDetail": "INPファイルに無効な数値の座標が含まれているため、開くことができません。下記にリストされている行を修正し、再度ファイルをインポートしてください。",
-  "nodesMalformedCoordinates": "無効な座標を持つノード"
+  "nodesMalformedCoordinates": "無効な座標を持つノード",
+  "signOut": "サインアウト"
 }
