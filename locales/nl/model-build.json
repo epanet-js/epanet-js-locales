@@ -3,7 +3,6 @@
     "buildModel": "Model bouwen",
     "dataPreview": "Gegevensvoorbeeld",
     "description": "Koppel de eigenschappen van uw GIS-gegevens aan EPANET-attributen. Hoogtes en connectiviteit worden automatisch berekend.",
-    "elementHeading": "{{1}} attribuutkoppeling",
     "noElementsAssigned": "Er zijn geen elementen toegewezen. Ga terug en wijs bestanden toe aan elementen.",
     "optionalAttributes": "Optionele attributen",
     "recommendedAttributes": "Aanbevolen attributen",

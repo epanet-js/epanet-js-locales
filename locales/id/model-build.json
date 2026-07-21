@@ -3,7 +3,6 @@
     "buildModel": "Bangun model",
     "dataPreview": "Pratinjau data",
     "description": "Petakan properti dari data GIS Anda ke atribut EPANET. Elevasi dan konektivitas akan dihitung secara otomatis.",
-    "elementHeading": "Pemetaan atribut {{1}}",
     "noElementsAssigned": "Tidak ada elemen yang ditetapkan. Harap kembali dan tetapkan file ke elemen.",
     "optionalAttributes": "Atribut opsional",
     "recommendedAttributes": "Atribut direkomendasikan",

@@ -3,7 +3,6 @@
     "buildModel": "Construir modelo",
     "dataPreview": "Pré-visualização dos Dados",
     "description": "Mapeie as propriedades dos seus dados GIS para os atributos EPANET. Elevações e conectividade serão calculadas automaticamente.",
-    "elementHeading": "{{1}} mapeamento de atributos",
     "noElementsAssigned": "Nenhum elemento foi atribuído. Por favor, volte e atribua arquivos aos elementos.",
     "optionalAttributes": "Atributos opcionais",
     "recommendedAttributes": "Atributos recomendados",

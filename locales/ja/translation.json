@@ -1763,5 +1763,7 @@
   "malformedCoordinates": "無効な座標",
   "malformedCoordinatesDetail": "INPファイルに無効な数値の座標が含まれているため、開くことができません。下記にリストされている行を修正し、再度ファイルをインポートしてください。",
   "nodesMalformedCoordinates": "無効な座標を持つノード",
-  "signOut": "サインアウト"
+  "signOut": "サインアウト",
+  "changeNotSaved": "前回の変更を保存できませんでした",
+  "changeNotSavedMessage": "変更は元に戻されました。作業を保存してもう一度試すことをお勧めします。問題が続く場合は、サポートにお問い合わせください。"
 }

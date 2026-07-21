@@ -3,7 +3,6 @@
     "buildModel": "モデルを構築",
     "dataPreview": "データプレビュー",
     "description": "GISデータからのプロパティをEPANET属性にマッピングします。標高と接続性は自動的に計算されます。",
-    "elementHeading": "{{1}} 属性マッピング",
     "noElementsAssigned": "要素は割り当てられていません。戻ってファイルを要素に割り当ててください。",
     "optionalAttributes": "オプション属性",
     "recommendedAttributes": "推奨属性",

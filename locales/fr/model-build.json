@@ -3,7 +3,6 @@
     "buildModel": "Construire le modèle",
     "dataPreview": "Aperçu des données",
     "description": "Mapper les propriétés de vos données SIG aux attributs EPANET. Les élévations et la connectivité seront calculées automatiquement.",
-    "elementHeading": "Mappage des attributs {{1}}",
     "noElementsAssigned": "Aucun élément n'a été attribué. Veuillez revenir en arrière et attribuer des fichiers aux éléments.",
     "optionalAttributes": "Attributs facultatifs",
     "recommendedAttributes": "Attributs recommandés",

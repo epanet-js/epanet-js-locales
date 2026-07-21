@@ -1763,5 +1763,7 @@
   "malformedCoordinates": "Coordonnées invalides",
   "malformedCoordinatesDetail": "Votre fichier INP contient des coordonnées qui ne sont pas des nombres valides et ne peut donc pas être ouvert. Corrigez les lignes listées ci-dessous et importez le fichier à nouveau.",
   "nodesMalformedCoordinates": "Nœuds avec coordonnées invalides",
-  "signOut": "Se Déconnecter"
+  "signOut": "Se Déconnecter",
+  "changeNotSaved": "Nous n'avons pas pu enregistrer votre dernière modification",
+  "changeNotSavedMessage": "Votre modification a été annulée. Nous vous suggérons d'enregistrer votre travail et de réessayer. Si le problème persiste, veuillez contacter le support."
 }

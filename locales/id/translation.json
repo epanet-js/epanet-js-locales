@@ -1763,5 +1763,7 @@
   "malformedCoordinates": "Koordinat tidak valid",
   "malformedCoordinatesDetail": "INP Anda berisi koordinat yang bukan angka valid, sehingga tidak dapat dibuka. Perbaiki baris yang tercantum di bawah ini dan impor file lagi.",
   "nodesMalformedCoordinates": "Node dengan koordinat tidak valid",
-  "signOut": "Keluar"
+  "signOut": "Keluar",
+  "changeNotSaved": "Kami tidak dapat menyimpan perubahan terakhir Anda",
+  "changeNotSavedMessage": "Perubahan Anda telah dibatalkan. Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan."
 }

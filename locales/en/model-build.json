@@ -32,7 +32,6 @@
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
     "title": "Map attributes",
     "description": "Map the properties from your GIS data to EPANET attributes. Elevations and connectivity will be calculated automatically.",
-    "elementHeading": "{{1}} attribute mapping",
     "recommendedAttributes": "Recommended attributes",
     "optionalAttributes": "Optional attributes",
     "selectProperty": "Select property...",
