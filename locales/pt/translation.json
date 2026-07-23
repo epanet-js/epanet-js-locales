@@ -1765,5 +1765,9 @@
   "nodesMalformedCoordinates": "Nós com coordenadas inválidas",
   "signOut": "Desconectar",
   "changeNotSaved": "Não foi possível salvar sua última alteração",
-  "changeNotSavedMessage": "Sua alteração foi desfeita. Sugerimos que você salve seu trabalho e tente novamente. Se o problema persistir, entre em contato com o suporte."
+  "changeNotSavedMessage": "Sua alteração foi desfeita. Sugerimos que você salve seu trabalho e tente novamente. Se o problema persistir, entre em contato com o suporte.",
+  "alertExportInpLabels": "Rótulos longos podem ser encurtados e alguns caracteres removidos para atender às restrições de nomenclatura do EPANET.",
+  "clipboardPasteDeniedTitle": "Não foi possível colar da área de transferência",
+  "clipboardPermissionDenied": "O acesso à área de transferência está bloqueado. Habilite-o nas configurações do site do seu navegador e tente novamente.",
+  "clipboardPermissionDeniedTitle": "Não foi possível copiar para a área de transferência"
 }

@@ -1765,5 +1765,9 @@
   "nodesMalformedCoordinates": "Node dengan koordinat tidak valid",
   "signOut": "Keluar",
   "changeNotSaved": "Kami tidak dapat menyimpan perubahan terakhir Anda",
-  "changeNotSavedMessage": "Perubahan Anda telah dibatalkan. Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan."
+  "changeNotSavedMessage": "Perubahan Anda telah dibatalkan. Kami menyarankan untuk menyimpan pekerjaan Anda dan mencoba lagi. Jika masalah berlanjut, silakan hubungi dukungan.",
+  "alertExportInpLabels": "Label panjang mungkin dipersingkat dan beberapa karakter dihapus untuk memenuhi batasan penamaan EPANET.",
+  "clipboardPasteDeniedTitle": "Tidak dapat menempel dari papan klip",
+  "clipboardPermissionDenied": "Akses papan klip diblokir. Aktifkan di pengaturan situs browser Anda, lalu coba lagi.",
+  "clipboardPermissionDeniedTitle": "Tidak dapat menyalin ke papan klip"
 }
