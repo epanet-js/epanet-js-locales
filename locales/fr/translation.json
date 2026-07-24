@@ -1764,10 +1764,10 @@
   "malformedCoordinatesDetail": "Votre fichier INP contient des coordonnées qui ne sont pas des nombres valides et ne peut donc pas être ouvert. Corrigez les lignes listées ci-dessous et importez le fichier à nouveau.",
   "nodesMalformedCoordinates": "Nœuds avec coordonnées invalides",
   "signOut": "Se Déconnecter",
-  "changeNotSaved": "Nous n'avons pas pu enregistrer votre dernière modification",
-  "changeNotSavedMessage": "Votre modification a été annulée. Nous vous suggérons d'enregistrer votre travail et de réessayer. Si le problème persiste, veuillez contacter le support.",
   "alertExportInpLabels": "Les étiquettes longues peuvent être raccourcies et certains caractères supprimés pour respecter les restrictions de dénomination d'EPANET.",
   "clipboardPasteDeniedTitle": "Impossible de coller depuis le presse-papiers",
   "clipboardPermissionDenied": "L'accès au presse-papiers est bloqué. Activez-le dans les paramètres du site de votre navigateur, puis réessayez.",
-  "clipboardPermissionDeniedTitle": "Impossible de copier dans le presse-papiers"
+  "clipboardPermissionDeniedTitle": "Impossible de copier dans le presse-papiers",
+  "writeFailedRecoveredDescription": "Nous avons restauré votre modèle à la dernière version enregistrée. Veuillez réessayer votre modification.",
+  "writeFailedRecoveredTitle": "Nous n'avons pas pu enregistrer votre dernière modification"
 }

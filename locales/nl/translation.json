@@ -1764,10 +1764,10 @@
   "malformedCoordinatesDetail": "Uw INP bevat coördinaten die geen geldige getallen zijn, waardoor het niet kan worden geopend. Los de onderstaande rijen op en importeer het bestand opnieuw.",
   "nodesMalformedCoordinates": "Knooppunten met ongeldige coördinaten",
   "signOut": "Afmelden",
-  "changeNotSaved": "We konden uw laatste wijziging niet opslaan",
-  "changeNotSavedMessage": "Uw wijziging is ongedaan gemaakt. We raden aan uw werk op te slaan en het opnieuw te proberen. Als het probleem aanhoudt, neem dan contact op met de support.",
   "alertExportInpLabels": "Lange labels kunnen worden ingekort en sommige tekens verwijderd om te voldoen aan de naamgevingsbeperkingen van EPANET.",
   "clipboardPasteDeniedTitle": "Kon niet plakken vanaf klembord",
   "clipboardPermissionDenied": "Klembordtoegang is geblokkeerd. Schakel dit in de site-instellingen van uw browser in, probeer het daarna opnieuw.",
-  "clipboardPermissionDeniedTitle": "Kon niet kopiëren naar klembord"
+  "clipboardPermissionDeniedTitle": "Kon niet kopiëren naar klembord",
+  "writeFailedRecoveredDescription": "We hebben uw model hersteld naar de laatst opgeslagen versie. Probeer uw wijziging opnieuw.",
+  "writeFailedRecoveredTitle": "We konden uw laatste wijziging niet opslaan"
 }

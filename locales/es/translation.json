@@ -1771,10 +1771,10 @@
   "malformedCoordinatesDetail": "Tu INP contiene coordenadas que no son números válidos, por lo que no se puede abrir. Corrige las filas listadas a continuación e importa el archivo de nuevo.",
   "nodesMalformedCoordinates": "Nudos con coordenadas inválidas",
   "signOut": "Cerrar sesión",
-  "changeNotSaved": "No pudimos guardar tu último cambio",
-  "changeNotSavedMessage": "Tu cambio ha sido deshecho. Sugerimos guardar tu trabajo e intentar de nuevo. Si el problema continúa, por favor contacta con soporte.",
   "alertExportInpLabels": "Las etiquetas largas pueden acortarse y algunos caracteres eliminarse para cumplir con las restricciones de nombres de EPANET.",
   "clipboardPasteDeniedTitle": "No se pudo pegar desde el portapapeles",
   "clipboardPermissionDenied": "El acceso al portapapeles está bloqueado. Habilítalo en la configuración de sitios de tu navegador, luego inténtalo de nuevo.",
-  "clipboardPermissionDeniedTitle": "No se pudo copiar al portapapeles"
+  "clipboardPermissionDeniedTitle": "No se pudo copiar al portapapeles",
+  "writeFailedRecoveredDescription": "Restauramos tu modelo a la última versión guardada. Por favor, intenta tu cambio de nuevo.",
+  "writeFailedRecoveredTitle": "No pudimos guardar tu último cambio"
 }
