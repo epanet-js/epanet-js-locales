@@ -1230,7 +1230,21 @@
       "unknownProjectionCode": "Sistema de coordenadas não suportado. Por favor, reprojete para um CRS suportado (ex: EPSG:4326 ou uma zona UTM)."
     },
     "tilesLoadingSummary": "{{1}} de {{2}} arquivos não puderam ser processados.",
-    "verticalUnit": "Unidade de elevação"
+    "verticalUnit": "Unidade de elevação",
+    "recompute": {
+      "failed": "Algo deu errado ao calcular as elevações.\nRevise as configurações de elevação e tente novamente.",
+      "failedTitle": "Não foi possível recalcular as elevações",
+      "noneResolved": "Nenhum dos {{1}} nós selecionados está coberto pelos dados de elevação.",
+      "noneResolvedTitle": "Nenhuma elevação atualizada",
+      "noSources": "Habilite uma fonte de elevação para calcular as elevações.",
+      "noSourcesTitle": "Nenhuma fonte de elevação disponível",
+      "refreshAll": "Atualizar tudo (sobrescrever)",
+      "refreshMissing": "Atualizar elevações ausentes",
+      "summary": "{{1}} elevações atualizadas.\n{{2}} nós permanecem vazios.\nRevise as configurações de elevação e tente novamente.",
+      "summaryAllResolved": "{{1}} elevações atualizadas.",
+      "summaryTitle": "Elevações atualizadas",
+      "tooltip": "Atualizar elevações"
+    }
   },
   "paywall": {
     "commercial": {

@@ -1230,7 +1230,21 @@
       "unknownProjectionCode": "Niet-ondersteund coördinatensysteem. Herprojecteer naar een ondersteund CRS (bijv. EPSG:4326 of een UTM-zone)."
     },
     "tilesLoadingSummary": "{{1}} van de {{2}} bestanden konden niet worden verwerkt.",
-    "verticalUnit": "Hoogte-eenheid"
+    "verticalUnit": "Hoogte-eenheid",
+    "recompute": {
+      "failed": "Er is iets misgegaan tijdens het berekenen van hoogtes.\nControleer de hoogte-instellingen en probeer het opnieuw.",
+      "failedTitle": "Hoogtes konden niet opnieuw worden berekend",
+      "noneResolved": "Geen van de {{1}} geselecteerde knooppunten worden gedekt door de hoogtegegevens.",
+      "noneResolvedTitle": "Geen hoogtes bijgewerkt",
+      "noSources": "Schakel een hoogtebron in om hoogtes te berekenen.",
+      "noSourcesTitle": "Geen hoogtebron beschikbaar",
+      "refreshAll": "Alles vernieuwen (overschrijven)",
+      "refreshMissing": "Ontbrekende hoogtes vernieuwen",
+      "summary": "{{1}} hoogtes bijgewerkt.\n{{2}} knooppunten blijven leeg.\nControleer de hoogte-instellingen en probeer het opnieuw.",
+      "summaryAllResolved": "{{1}} hoogtes bijgewerkt.",
+      "summaryTitle": "Hoogtes bijgewerkt",
+      "tooltip": "Hoogtes vernieuwen"
+    }
   },
   "paywall": {
     "commercial": {

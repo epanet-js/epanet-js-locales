@@ -1230,7 +1230,21 @@
       "unknownProjectionCode": "Système de coordonnées non pris en charge. Veuillez reprojeter vers un SCR pris en charge (par ex. EPSG:4326 ou une zone UTM)."
     },
     "tilesLoadingSummary": "{{1}} des {{2}} fichiers n'ont pas pu être traités.",
-    "verticalUnit": "Unité d'élévation"
+    "verticalUnit": "Unité d'élévation",
+    "recompute": {
+      "failed": "Un problème est survenu lors du calcul des élévations.\nVérifiez les paramètres d'élévations et réessayez.",
+      "failedTitle": "Impossible de recalculer les élévations",
+      "noneResolved": "Aucun des {{1}} nœuds sélectionnés n'est couvert par les données d'élévation.",
+      "noneResolvedTitle": "Aucune élévation mise à jour",
+      "noSources": "Activez une source d'élévation pour calculer les élévations.",
+      "noSourcesTitle": "Aucune source d'élévation disponible",
+      "refreshAll": "Actualiser tout (écraser)",
+      "refreshMissing": "Actualiser les élévations manquantes",
+      "summary": "{{1}} élévations mises à jour.\n{{2}} nœuds restent vides.\nVérifiez les paramètres d'élévations et réessayez.",
+      "summaryAllResolved": "{{1}} élévations mises à jour.",
+      "summaryTitle": "Élévations mises à jour",
+      "tooltip": "Actualiser les élévations"
+    }
   },
   "paywall": {
     "commercial": {

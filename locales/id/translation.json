@@ -344,7 +344,21 @@
     "tilesProcessed": "Ubin elevasi diproses",
     "title": "Elevasi",
     "userElevationData": "Data elevasi pengguna",
-    "verticalUnit": "Unit elevasi"
+    "verticalUnit": "Unit elevasi",
+    "recompute": {
+      "failed": "Terjadi kesalahan saat menghitung elevasi.\nTinjau pengaturan elevasi dan coba lagi.",
+      "failedTitle": "Elevasi tidak dapat dihitung ulang",
+      "noneResolved": "Tidak satu pun dari {{1}} node yang dipilih tercakup oleh data elevasi.",
+      "noneResolvedTitle": "Tidak ada elevasi yang diperbarui",
+      "noSources": "Aktifkan sumber elevasi untuk menghitung elevasi.",
+      "noSourcesTitle": "Tidak ada sumber elevasi tersedia",
+      "refreshAll": "Segarkan semua (timpa)",
+      "refreshMissing": "Segarkan elevasi yang hilang",
+      "summary": "{{1}} elevasi diperbarui.\n{{2}} node tetap kosong.\nTinjau pengaturan elevasi dan coba lagi.",
+      "summaryAllResolved": "{{1}} elevasi diperbarui.",
+      "summaryTitle": "Elevasi diperbarui",
+      "tooltip": "Segarkan elevasi"
+    }
   },
   "emitterCoefficient": "Koef. emiter",
   "empty": "Kosong",

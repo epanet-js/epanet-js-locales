@@ -1230,7 +1230,21 @@
       "unknownProjectionCode": "サポートされていない座標系です。サポートされているCRS（例：EPSG:4326またはUTMゾーン）に再投影してください。"
     },
     "tilesLoadingSummary": "{{2}}個のファイルのうち{{1}}個を処理できませんでした。",
-    "verticalUnit": "標高単位"
+    "verticalUnit": "標高単位",
+    "recompute": {
+      "failed": "標高の計算中に問題が発生しました。\n標高設定を確認し、もう一度お試しください。",
+      "failedTitle": "標高を再計算できませんでした",
+      "noneResolved": "選択された {{1}} 個のノードのうち、いずれも標高データでカバーされていません。",
+      "noneResolvedTitle": "標高は更新されませんでした",
+      "noSources": "標高を計算するには、標高ソースを有効にしてください。",
+      "noSourcesTitle": "利用可能な標高ソースがありません",
+      "refreshAll": "すべて更新（上書き）",
+      "refreshMissing": "欠落している標高を更新",
+      "summary": "{{1}} 個の標高が更新されました。\n{{2}} 個のノードが空のままです。\n標高設定を確認し、もう一度お試しください。",
+      "summaryAllResolved": "{{1}} 個の標高が更新されました。",
+      "summaryTitle": "標高が更新されました",
+      "tooltip": "標高を更新"
+    }
   },
   "paywall": {
     "commercial": {
