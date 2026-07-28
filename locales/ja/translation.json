@@ -1783,5 +1783,10 @@
   "clipboardPermissionDenied": "クリップボードへのアクセスがブロックされています。ブラウザのサイト設定で有効にしてから、もう一度お試しください。",
   "clipboardPermissionDeniedTitle": "クリップボードにコピーできませんでした",
   "writeFailedRecoveredDescription": "モデルを最後に保存されたバージョンに復元しました。もう一度変更をお試しください。",
-  "writeFailedRecoveredTitle": "前回の変更を保存できませんでした"
+  "writeFailedRecoveredTitle": "前回の変更を保存できませんでした",
+  "simulationStorageError": "結果を保存できませんでした",
+  "simulationStorageErrorAntivirus": "アンチウイルスソフトウェアや同期フォルダ（OneDriveなど）がブラウザのストレージをブロックしている可能性があります。別のブラウザまたはプロファイルでお試しください。",
+  "simulationStorageErrorExplain": "シミュレーションは正常に実行されましたが、結果をブラウザのローカルストレージに保存できなかったため、表示できません。",
+  "simulationStorageErrorPrivateMode": "プライベートウィンドウまたはシークレットウィンドウをご利用の場合は、通常のウィンドウでもう一度お試しください。",
+  "simulationStorageErrorSupport": "問題が解決しない場合はサポートにお問い合わせください。"
 }

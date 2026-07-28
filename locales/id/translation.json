@@ -1783,5 +1783,10 @@
   "clipboardPermissionDenied": "Akses papan klip diblokir. Aktifkan di pengaturan situs browser Anda, lalu coba lagi.",
   "clipboardPermissionDeniedTitle": "Tidak dapat menyalin ke papan klip",
   "writeFailedRecoveredDescription": "Kami memulihkan model Anda ke versi terakhir yang disimpan. Silakan coba perubahan Anda lagi.",
-  "writeFailedRecoveredTitle": "Kami tidak dapat menyimpan perubahan terakhir Anda"
+  "writeFailedRecoveredTitle": "Kami tidak dapat menyimpan perubahan terakhir Anda",
+  "simulationStorageError": "Tidak dapat menyimpan hasil",
+  "simulationStorageErrorAntivirus": "Perangkat lunak antivirus atau folder tersinkronisasi (misalnya OneDrive) dapat memblokir penyimpanan browser. Coba browser atau profil yang berbeda.",
+  "simulationStorageErrorExplain": "Simulasi berhasil dijalankan, tetapi hasilnya tidak dapat disimpan ke penyimpanan lokal browser Anda, sehingga tidak dapat ditampilkan.",
+  "simulationStorageErrorPrivateMode": "Jika Anda berada di jendela pribadi atau penyamaran, coba lagi di jendela normal.",
+  "simulationStorageErrorSupport": "Hubungi dukungan jika masalah berlanjut."
 }

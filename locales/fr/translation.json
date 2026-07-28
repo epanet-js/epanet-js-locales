@@ -1783,5 +1783,10 @@
   "clipboardPermissionDenied": "L'accès au presse-papiers est bloqué. Activez-le dans les paramètres du site de votre navigateur, puis réessayez.",
   "clipboardPermissionDeniedTitle": "Impossible de copier dans le presse-papiers",
   "writeFailedRecoveredDescription": "Nous avons restauré votre modèle à la dernière version enregistrée. Veuillez réessayer votre modification.",
-  "writeFailedRecoveredTitle": "Nous n'avons pas pu enregistrer votre dernière modification"
+  "writeFailedRecoveredTitle": "Nous n'avons pas pu enregistrer votre dernière modification",
+  "simulationStorageError": "Impossible d'enregistrer les résultats",
+  "simulationStorageErrorAntivirus": "Les logiciels antivirus ou les dossiers synchronisés (par ex. OneDrive) peuvent bloquer le stockage du navigateur. Essayez un autre navigateur ou profil.",
+  "simulationStorageErrorExplain": "La simulation s'est exécutée avec succès, mais ses résultats n'ont pas pu être enregistrés dans le stockage local de votre navigateur, ils ne peuvent donc pas être affichés.",
+  "simulationStorageErrorPrivateMode": "Si vous êtes dans une fenêtre privée ou incognito, réessayez dans une fenêtre normale.",
+  "simulationStorageErrorSupport": "Contactez le support si le problème persiste."
 }

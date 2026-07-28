@@ -1783,5 +1783,10 @@
   "clipboardPermissionDenied": "Klembordtoegang is geblokkeerd. Schakel dit in de site-instellingen van uw browser in, probeer het daarna opnieuw.",
   "clipboardPermissionDeniedTitle": "Kon niet kopiëren naar klembord",
   "writeFailedRecoveredDescription": "We hebben uw model hersteld naar de laatst opgeslagen versie. Probeer uw wijziging opnieuw.",
-  "writeFailedRecoveredTitle": "We konden uw laatste wijziging niet opslaan"
+  "writeFailedRecoveredTitle": "We konden uw laatste wijziging niet opslaan",
+  "simulationStorageError": "Kon resultaten niet opslaan",
+  "simulationStorageErrorAntivirus": "Antivirussoftware of gesynchroniseerde mappen (bijv. OneDrive) kunnen browseropslag blokkeren. Probeer een andere browser of profiel.",
+  "simulationStorageErrorExplain": "De simulatie is succesvol uitgevoerd, maar de resultaten konden niet worden opgeslagen in de lokale opslag van uw browser, waardoor ze niet kunnen worden weergegeven.",
+  "simulationStorageErrorPrivateMode": "Als u in een privé- of incognitovenster bent, probeer het dan opnieuw in een normaal venster.",
+  "simulationStorageErrorSupport": "Neem contact op met de support als het probleem aanhoudt."
 }

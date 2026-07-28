@@ -1790,5 +1790,10 @@
   "clipboardPermissionDenied": "El acceso al portapapeles está bloqueado. Habilítalo en la configuración de sitios de tu navegador, luego inténtalo de nuevo.",
   "clipboardPermissionDeniedTitle": "No se pudo copiar al portapapeles",
   "writeFailedRecoveredDescription": "Restauramos tu modelo a la última versión guardada. Por favor, intenta tu cambio de nuevo.",
-  "writeFailedRecoveredTitle": "No pudimos guardar tu último cambio"
+  "writeFailedRecoveredTitle": "No pudimos guardar tu último cambio",
+  "simulationStorageError": "No se pudieron guardar los resultados",
+  "simulationStorageErrorAntivirus": "El software antivirus o las carpetas sincronizadas (ej. OneDrive) pueden bloquear el almacenamiento del navegador. Prueba con un navegador o perfil diferente.",
+  "simulationStorageErrorExplain": "La simulación se ejecutó con éxito, pero sus resultados no pudieron guardarse en el almacenamiento local de tu navegador, por lo que no pueden mostrarse.",
+  "simulationStorageErrorPrivateMode": "Si estás en una ventana privada o de incógnito, inténtalo de nuevo en una ventana normal.",
+  "simulationStorageErrorSupport": "Contacta con soporte si el problema persiste."
 }
