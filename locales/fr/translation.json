@@ -1240,10 +1240,15 @@
       "noSourcesTitle": "Aucune source d'élévation disponible",
       "refreshAll": "Actualiser tout (écraser)",
       "refreshMissing": "Actualiser les élévations manquantes",
-      "summary": "{{1}} élévations mises à jour.\n{{2}} nœuds restent vides.\nVérifiez les paramètres d'élévations et réessayez.",
+      "summary": "{{1}} élévations mises à jour.\n{{2}} nœuds restent vides.",
       "summaryAllResolved": "{{1}} élévations mises à jour.",
       "summaryTitle": "Élévations mises à jour",
-      "tooltip": "Actualiser les élévations"
+      "tooltip": "Actualiser les élévations",
+      "action": "Actualiser",
+      "dialogTitle": "Actualiser les élévations",
+      "intro": "Choisissez quelles élévations actualiser à partir de vos données d'élévation.",
+      "reviewHint": "Vérifiez les paramètres d'élévations et réessayez.",
+      "running": "Actualisation des élévations…"
     }
   },
   "paywall": {

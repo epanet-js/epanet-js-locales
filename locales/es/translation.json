@@ -1253,10 +1253,15 @@
       "noSourcesTitle": "No hay fuente de elevación disponible",
       "refreshAll": "Actualizar todo (sobrescribir)",
       "refreshMissing": "Actualizar elevaciones faltantes",
-      "summary": "{{1}} elevaciones actualizadas.\n{{2}} nudos permanecen vacíos.\nRevisa la configuración de elevaciones e inténtalo de nuevo.",
+      "summary": "{{1}} elevaciones actualizadas.\n{{2}} nudos permanecen vacíos.",
       "summaryAllResolved": "{{1}} elevaciones actualizadas.",
       "summaryTitle": "Elevaciones actualizadas",
-      "tooltip": "Actualizar elevaciones"
+      "tooltip": "Actualizar elevaciones",
+      "action": "Actualizar",
+      "dialogTitle": "Actualizar elevaciones",
+      "intro": "Elige qué elevaciones actualizar de tus datos de elevación.",
+      "reviewHint": "Revisa la configuración de elevaciones e inténtalo de nuevo.",
+      "running": "Actualizando elevaciones…"
     }
   },
   "paywall": {

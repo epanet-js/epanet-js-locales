@@ -354,10 +354,15 @@
       "noSourcesTitle": "Tidak ada sumber elevasi tersedia",
       "refreshAll": "Segarkan semua (timpa)",
       "refreshMissing": "Segarkan elevasi yang hilang",
-      "summary": "{{1}} elevasi diperbarui.\n{{2}} node tetap kosong.\nTinjau pengaturan elevasi dan coba lagi.",
+      "summary": "{{1}} elevasi diperbarui.\n{{2}} node tetap kosong.",
       "summaryAllResolved": "{{1}} elevasi diperbarui.",
       "summaryTitle": "Elevasi diperbarui",
-      "tooltip": "Segarkan elevasi"
+      "tooltip": "Segarkan elevasi",
+      "action": "Segarkan",
+      "dialogTitle": "Segarkan elevasi",
+      "intro": "Pilih elevasi mana yang akan disegarkan dari data elevasi Anda.",
+      "reviewHint": "Tinjau pengaturan elevasi dan coba lagi.",
+      "running": "Menyegarkan elevasi…"
     }
   },
   "emitterCoefficient": "Koef. emiter",

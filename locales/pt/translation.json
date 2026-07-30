@@ -1240,10 +1240,15 @@
       "noSourcesTitle": "Nenhuma fonte de elevação disponível",
       "refreshAll": "Atualizar tudo (sobrescrever)",
       "refreshMissing": "Atualizar elevações ausentes",
-      "summary": "{{1}} elevações atualizadas.\n{{2}} nós permanecem vazios.\nRevise as configurações de elevação e tente novamente.",
+      "summary": "{{1}} elevações atualizadas.\n{{2}} nós permanecem vazios.",
       "summaryAllResolved": "{{1}} elevações atualizadas.",
       "summaryTitle": "Elevações atualizadas",
-      "tooltip": "Atualizar elevações"
+      "tooltip": "Atualizar elevações",
+      "action": "Atualizar",
+      "dialogTitle": "Atualizar elevações",
+      "intro": "Escolha quais elevações atualizar a partir dos seus dados de elevação.",
+      "reviewHint": "Revise as configurações de elevação e tente novamente.",
+      "running": "Atualizando elevações…"
     }
   },
   "paywall": {

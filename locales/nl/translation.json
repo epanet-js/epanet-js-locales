@@ -1240,10 +1240,15 @@
       "noSourcesTitle": "Geen hoogtebron beschikbaar",
       "refreshAll": "Alles vernieuwen (overschrijven)",
       "refreshMissing": "Ontbrekende hoogtes vernieuwen",
-      "summary": "{{1}} hoogtes bijgewerkt.\n{{2}} knooppunten blijven leeg.\nControleer de hoogte-instellingen en probeer het opnieuw.",
+      "summary": "{{1}} hoogtes bijgewerkt.\n{{2}} knooppunten blijven leeg.",
       "summaryAllResolved": "{{1}} hoogtes bijgewerkt.",
       "summaryTitle": "Hoogtes bijgewerkt",
-      "tooltip": "Hoogtes vernieuwen"
+      "tooltip": "Hoogtes vernieuwen",
+      "action": "Vernieuwen",
+      "dialogTitle": "Hoogtes vernieuwen",
+      "intro": "Kies welke hoogtes u wilt vernieuwen vanuit uw hoogtegegevens.",
+      "reviewHint": "Controleer de hoogte-instellingen en probeer het opnieuw.",
+      "running": "Hoogtes vernieuwen…"
     }
   },
   "paywall": {
