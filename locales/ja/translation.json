@@ -1802,5 +1802,11 @@
   "simulationStorageErrorAntivirus": "アンチウイルスソフトウェアや同期フォルダ（OneDriveなど）がブラウザのストレージをブロックしている可能性があります。別のブラウザまたはプロファイルでお試しください。",
   "simulationStorageErrorExplain": "シミュレーションは正常に実行されましたが、結果をブラウザのローカルストレージに保存できなかったため、表示できません。",
   "simulationStorageErrorPrivateMode": "プライベートウィンドウまたはシークレットウィンドウをご利用の場合は、通常のウィンドウでもう一度お試しください。",
-  "simulationStorageErrorSupport": "問題が解決しない場合はサポートにお問い合わせください。"
+  "simulationStorageErrorSupport": "問題が解決しない場合はサポートにお問い合わせください。",
+  "exportInpTooLarge": "モデルが大きすぎるためINPとしてエクスポートできません",
+  "restoreUnsavedWorkDiscardAllAction": "すべて破棄",
+  "restoreUnsavedWorkLaterAction": "後で",
+  "restoreUnsavedWorkRecoverAction": "復元",
+  "restoreUnsavedWorkSessionsDescription_one": "1つのセッションが予期せず終了しました。未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップした場合でも、後で復元可能です。",
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}}件のセッションが予期せず終了しました。各セッションからの未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップしたものは後で復元可能です。"
 }

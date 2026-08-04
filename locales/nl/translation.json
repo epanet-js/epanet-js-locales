@@ -1802,5 +1802,11 @@
   "simulationStorageErrorAntivirus": "Antivirussoftware of gesynchroniseerde mappen (bijv. OneDrive) kunnen browseropslag blokkeren. Probeer een andere browser of profiel.",
   "simulationStorageErrorExplain": "De simulatie is succesvol uitgevoerd, maar de resultaten konden niet worden opgeslagen in de lokale opslag van uw browser, waardoor ze niet kunnen worden weergegeven.",
   "simulationStorageErrorPrivateMode": "Als u in een privé- of incognitovenster bent, probeer het dan opnieuw in een normaal venster.",
-  "simulationStorageErrorSupport": "Neem contact op met de support als het probleem aanhoudt."
+  "simulationStorageErrorSupport": "Neem contact op met de support als het probleem aanhoudt.",
+  "exportInpTooLarge": "Model is te groot om als INP te exporteren",
+  "restoreUnsavedWorkDiscardAllAction": "Alles verwijderen",
+  "restoreUnsavedWorkLaterAction": "Later",
+  "restoreUnsavedWorkRecoverAction": "Herstellen",
+  "restoreUnsavedWorkSessionsDescription_one": "1 sessie is onverwachts afgesloten. We hebben een kopie bewaard van het niet-opgeslagen werk. Selecteer het project om het nu te herstellen — als u het overslaat, blijft het later beschikbaar om te herstellen.",
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessies zijn onverwachts afgesloten. We hebben van elke sessie een kopie bewaard van het niet-opgeslagen werk. Selecteer een project om nu te herstellen — alles wat u overslaat, blijft later beschikbaar om te herstellen."
 }

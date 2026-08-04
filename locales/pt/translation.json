@@ -1802,5 +1802,11 @@
   "simulationStorageErrorAntivirus": "Software antivírus ou pastas sincronizadas (por exemplo, OneDrive) podem bloquear o armazenamento do navegador. Tente um navegador ou perfil diferente.",
   "simulationStorageErrorExplain": "A simulação foi executada com sucesso, mas seus resultados não puderam ser salvos no armazenamento local do seu navegador, então não podem ser exibidos.",
   "simulationStorageErrorPrivateMode": "Se você estiver em uma janela privada ou anônima, tente novamente em uma janela normal.",
-  "simulationStorageErrorSupport": "Entre em contato com o suporte se o problema persistir."
+  "simulationStorageErrorSupport": "Entre em contato com o suporte se o problema persistir.",
+  "exportInpTooLarge": "Modelo é muito grande para exportar como INP",
+  "restoreUnsavedWorkDiscardAllAction": "Descartar tudo",
+  "restoreUnsavedWorkLaterAction": "Mais tarde",
+  "restoreUnsavedWorkRecoverAction": "Recuperar",
+  "restoreUnsavedWorkSessionsDescription_one": "1 sessão foi encerrada inesperadamente. Mantivemos uma cópia do trabalho não salvo. Selecione o projeto para recuperá-lo agora — se você pular, ele permanecerá disponível para recuperar mais tarde.",
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessões foram encerradas inesperadamente. Mantivemos uma cópia do trabalho não salvo de cada uma. Selecione um projeto para recuperar agora — o que você pular permanecerá disponível para recuperar mais tarde."
 }

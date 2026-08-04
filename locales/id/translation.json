@@ -1802,5 +1802,11 @@
   "simulationStorageErrorAntivirus": "Perangkat lunak antivirus atau folder tersinkronisasi (misalnya OneDrive) dapat memblokir penyimpanan browser. Coba browser atau profil yang berbeda.",
   "simulationStorageErrorExplain": "Simulasi berhasil dijalankan, tetapi hasilnya tidak dapat disimpan ke penyimpanan lokal browser Anda, sehingga tidak dapat ditampilkan.",
   "simulationStorageErrorPrivateMode": "Jika Anda berada di jendela pribadi atau penyamaran, coba lagi di jendela normal.",
-  "simulationStorageErrorSupport": "Hubungi dukungan jika masalah berlanjut."
+  "simulationStorageErrorSupport": "Hubungi dukungan jika masalah berlanjut.",
+  "exportInpTooLarge": "Model terlalu besar untuk diekspor sebagai INP",
+  "restoreUnsavedWorkDiscardAllAction": "Buang semua",
+  "restoreUnsavedWorkLaterAction": "Nanti",
+  "restoreUnsavedWorkRecoverAction": "Pulihkan",
+  "restoreUnsavedWorkSessionsDescription_one": "1 sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum Anda simpan. Pilih proyek untuk memulihkannya sekarang — jika Anda melewatkannya, itu tetap tersedia untuk dipulihkan nanti.",
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum disimpan dari setiap sesi. Pilih proyek untuk dipulihkan sekarang — apa pun yang Anda lewati tetap tersedia untuk dipulihkan nanti."
 }

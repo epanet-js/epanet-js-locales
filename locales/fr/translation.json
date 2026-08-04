@@ -1802,5 +1802,11 @@
   "simulationStorageErrorAntivirus": "Les logiciels antivirus ou les dossiers synchronisés (par ex. OneDrive) peuvent bloquer le stockage du navigateur. Essayez un autre navigateur ou profil.",
   "simulationStorageErrorExplain": "La simulation s'est exécutée avec succès, mais ses résultats n'ont pas pu être enregistrés dans le stockage local de votre navigateur, ils ne peuvent donc pas être affichés.",
   "simulationStorageErrorPrivateMode": "Si vous êtes dans une fenêtre privée ou incognito, réessayez dans une fenêtre normale.",
-  "simulationStorageErrorSupport": "Contactez le support si le problème persiste."
+  "simulationStorageErrorSupport": "Contactez le support si le problème persiste.",
+  "exportInpTooLarge": "Le modèle est trop grand pour être exporté en INP",
+  "restoreUnsavedWorkDiscardAllAction": "Tout ignorer",
+  "restoreUnsavedWorkLaterAction": "Plus tard",
+  "restoreUnsavedWorkRecoverAction": "Récupérer",
+  "restoreUnsavedWorkSessionsDescription_one": "1 session s'est terminée de manière inattendue. Nous avons conservé une copie du travail non enregistré. Sélectionnez le projet pour le récupérer maintenant — si vous l'ignorez, il restera disponible pour être récupéré plus tard.",
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessions se sont terminées de manière inattendue. Nous avons conservé une copie du travail non enregistré de chacune. Sélectionnez un projet à récupérer maintenant — tout ce que vous ignorez restera disponible pour être récupéré plus tard."
 }
