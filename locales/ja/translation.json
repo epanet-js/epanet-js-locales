@@ -669,7 +669,9 @@
         "pumpCurveValid": "ポンプ曲線点が無効です",
         "pumpPowerPositive": "ポンプ動力は正の値でなければなりません",
         "pumpPowerPresent": "ポンプ動力がありません",
-        "nodeElevationPresent": "標高がありません"
+        "nodeElevationPresent": "標高がありません",
+        "pipeMaterialInLibrary": "管の材質が管ライブラリにありません",
+        "pipeMaterialProvidesRoughness": "この材質と経年では、管ライブラリに粗度が設定されていません"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -1731,7 +1733,8 @@
       "invalidFile": "選択したファイルは無効です",
       "noMaterialsImported": "材質はインポートされませんでした",
       "partialTitle": "ライブラリに無効なエントリが含まれていました。有効な材質が {{count}} 件インポートされました",
-      "unsupportedFormat": "選択したファイル形式はサポートされていません"
+      "unsupportedFormat": "選択したファイル形式はサポートされていません",
+      "duplicateMaterial": "材質はすでに異なる大文字小文字で定義されています"
     },
     "importFromFile": "ファイルからインポート...",
     "importMenu": "インポート"

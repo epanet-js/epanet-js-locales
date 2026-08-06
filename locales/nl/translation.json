@@ -669,7 +669,9 @@
         "pumpCurveValid": "Pompcurvepunten zijn ongeldig",
         "pumpPowerPositive": "Pompvermogen moet positief zijn",
         "pumpPowerPresent": "Pompvermogen ontbreekt",
-        "nodeElevationPresent": "Hoogte ontbreekt"
+        "nodeElevationPresent": "Hoogte ontbreekt",
+        "pipeMaterialInLibrary": "Leidingmateriaal niet in de leidingbibliotheek",
+        "pipeMaterialProvidesRoughness": "Geen ruwheid in de leidingbibliotheek voor dit materiaal en jaar"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -1731,7 +1733,8 @@
       "invalidFile": "Geselecteerd bestand is niet geldig",
       "noMaterialsImported": "Geen materialen geïmporteerd",
       "partialTitle": "Bibliotheek bevatte ongeldige invoeren. Geïmporteerd {{count}} geldige materialen",
-      "unsupportedFormat": "Geselecteerd bestandsformaat wordt niet ondersteund"
+      "unsupportedFormat": "Geselecteerd bestandsformaat wordt niet ondersteund",
+      "duplicateMaterial": "Materiaal is al gedefinieerd met een andere hoofdletter/kleine letter"
     },
     "importFromFile": "Importeren vanuit bestand...",
     "importMenu": "Importeren"

@@ -682,7 +682,9 @@
         "pumpCurveValid": "Los puntos de la curva de la bomba no son válidos",
         "pumpPowerPositive": "La potencia de la bomba debe ser positiva",
         "pumpPowerPresent": "Falta la potencia de la bomba",
-        "nodeElevationPresent": "Falta la elevación"
+        "nodeElevationPresent": "Falta la elevación",
+        "pipeMaterialInLibrary": "Material de tubería no encontrado en la biblioteca de tuberías",
+        "pipeMaterialProvidesRoughness": "No hay rugosidad en la biblioteca de tuberías para este material y año"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1744,7 +1746,8 @@
       "invalidFile": "El archivo seleccionado no es válido",
       "noMaterialsImported": "No se importaron materiales",
       "partialTitle": "La biblioteca contenía entradas inválidas. Se importaron {{count}} materiales válidos",
-      "unsupportedFormat": "El formato de archivo seleccionado no es compatible"
+      "unsupportedFormat": "El formato de archivo seleccionado no es compatible",
+      "duplicateMaterial": "El material ya está definido con una capitalización diferente"
     },
     "importFromFile": "Importar desde archivo...",
     "importMenu": "Importar"

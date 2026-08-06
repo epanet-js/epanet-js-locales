@@ -669,7 +669,9 @@
         "pumpCurveValid": "Les points de la courbe de pompe sont invalides",
         "pumpPowerPositive": "La puissance de la pompe doit être positive",
         "pumpPowerPresent": "Puissance de la pompe manquante",
-        "nodeElevationPresent": "Élévation manquante"
+        "nodeElevationPresent": "Élévation manquante",
+        "pipeMaterialInLibrary": "Matériau de conduite non présent dans la bibliothèque de conduites",
+        "pipeMaterialProvidesRoughness": "Pas de rugosité dans la bibliothèque de conduites pour ce matériau et cette année"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -1731,7 +1733,8 @@
       "invalidFile": "Le fichier sélectionné n'est pas valide",
       "noMaterialsImported": "Aucun matériau n'a été importé",
       "partialTitle": "La bibliothèque contenait des entrées invalides. Importé {{count}} matériaux valides",
-      "unsupportedFormat": "Le format de fichier sélectionné n'est pas supporté"
+      "unsupportedFormat": "Le format de fichier sélectionné n'est pas supporté",
+      "duplicateMaterial": "Le matériau est déjà défini avec une capitalisation différente"
     },
     "importFromFile": "Importer depuis un fichier...",
     "importMenu": "Importer"

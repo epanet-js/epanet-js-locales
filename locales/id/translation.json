@@ -832,7 +832,9 @@
         "pumpCurveValid": "Titik kurva pompa tidak valid",
         "pumpPowerPositive": "Daya pompa harus positif",
         "pumpPowerPresent": "Daya pompa hilang",
-        "nodeElevationPresent": "Elevasi hilang"
+        "nodeElevationPresent": "Elevasi hilang",
+        "pipeMaterialInLibrary": "Material pipa tidak ada di pustaka pipa",
+        "pipeMaterialProvidesRoughness": "Tidak ada kekasaran di pustaka pipa untuk material dan tahun ini"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -1731,7 +1733,8 @@
       "invalidFile": "File yang dipilih tidak valid",
       "noMaterialsImported": "Tidak ada material yang diimpor",
       "partialTitle": "Pustaka mengandung entri tidak valid. Diimpor {{count}} material yang valid",
-      "unsupportedFormat": "Format file yang dipilih tidak didukung"
+      "unsupportedFormat": "Format file yang dipilih tidak didukung",
+      "duplicateMaterial": "Material sudah didefinisikan dengan kapitalisasi yang berbeda"
     },
     "importFromFile": "Impor dari file...",
     "importMenu": "Impor"
