@@ -112,7 +112,11 @@
     "unassignAria": "Désaffecter {{1}}",
     "unassignedFilesCount": "Fichiers non attribués ({{1}})",
     "unknownFilename": "(nom de fichier inconnu)",
-    "waitingForShp": "En attente du .shp (géométrie de base)"
+    "waitingForShp": "En attente du .shp (géométrie de base)",
+    "hideIgnoredFiles": "Masquer les fichiers ignorés",
+    "unsupportedFilesIgnored_one": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichier non pris en charge a été ignoré.",
+    "unsupportedFilesIgnored_other": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichiers non pris en charge ont été ignorés.",
+    "viewIgnoredFiles": "Afficher les fichiers ignorés"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",

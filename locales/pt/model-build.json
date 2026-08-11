@@ -112,7 +112,11 @@
     "unassignAria": "Desatribuir {{1}}",
     "unassignedFilesCount": "Arquivos não atribuídos ({{1}})",
     "unknownFilename": "(nome de arquivo desconhecido)",
-    "waitingForShp": "Aguardando .shp (geometria base)"
+    "waitingForShp": "Aguardando .shp (geometria base)",
+    "hideIgnoredFiles": "Ocultar arquivos ignorados",
+    "unsupportedFilesIgnored_one": "Apenas GeoJSON e Shapefiles são suportados. {{count}} arquivo não suportado foi ignorado.",
+    "unsupportedFilesIgnored_other": "Apenas GeoJSON e Shapefiles são suportados. {{count}} arquivos não suportados foram ignorados.",
+    "viewIgnoredFiles": "Ver arquivos ignorados"
   },
   "flowUnits": {
     "afd": "AFD (acre-pés/dia)",

@@ -112,7 +112,11 @@
     "unassignAria": "Toewijzing van {{1}} ongedaan maken",
     "unassignedFilesCount": "Niet-toegewezen bestanden ({{1}})",
     "unknownFilename": "(onbekende bestandsnaam)",
-    "waitingForShp": "Wachten op .shp (basisgeometrie)"
+    "waitingForShp": "Wachten op .shp (basisgeometrie)",
+    "hideIgnoredFiles": "Genegeerde bestanden verbergen",
+    "unsupportedFilesIgnored_one": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteund bestand werd genegeerd.",
+    "unsupportedFilesIgnored_other": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteunde bestanden werden genegeerd.",
+    "viewIgnoredFiles": "Genegeerde bestanden bekijken"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",

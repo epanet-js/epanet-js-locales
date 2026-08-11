@@ -112,7 +112,11 @@
     "unassignAria": "Batalkan penetapan {{1}}",
     "unassignedFilesCount": "File yang belum ditetapkan ({{1}})",
     "unknownFilename": "(nama file tidak dikenal)",
-    "waitingForShp": "Menunggu .shp (geometri dasar)"
+    "waitingForShp": "Menunggu .shp (geometri dasar)",
+    "hideIgnoredFiles": "Sembunyikan file yang diabaikan",
+    "unsupportedFilesIgnored_one": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
+    "unsupportedFilesIgnored_other": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
+    "viewIgnoredFiles": "Lihat file yang diabaikan"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

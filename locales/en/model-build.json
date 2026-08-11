@@ -106,7 +106,11 @@
     "loadAndAssign": "Load & assign GIS files",
     "addMoreFiles": "Add more files (GeoJSON or Shapefile)",
     "assignedFilesCount": "Assigned files ({{1}})",
-    "unassignedFilesCount": "Unassigned files ({{1}})"
+    "unassignedFilesCount": "Unassigned files ({{1}})",
+    "unsupportedFilesIgnored_one": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported file was ignored.",
+    "unsupportedFilesIgnored_other": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported files were ignored.",
+    "viewIgnoredFiles": "View ignored files",
+    "hideIgnoredFiles": "Hide ignored files"
   },
   "modal": {
     "close": "Close"

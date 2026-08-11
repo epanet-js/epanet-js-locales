@@ -112,7 +112,11 @@
     "unassignAria": "{{1}} の割り当てを解除",
     "unassignedFilesCount": "未割り当てファイル ({{1}})",
     "unknownFilename": "(不明なファイル名)",
-    "waitingForShp": ".shp (ベースジオメトリ) を待機中"
+    "waitingForShp": ".shp (ベースジオメトリ) を待機中",
+    "hideIgnoredFiles": "無視されたファイルを非表示",
+    "unsupportedFilesIgnored_one": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
+    "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
+    "viewIgnoredFiles": "無視されたファイルを表示"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",
