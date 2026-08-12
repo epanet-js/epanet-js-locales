@@ -1690,8 +1690,6 @@
   "pipeLibrary": {
     "addEntry": "Invoer toevoegen",
     "age": "Leeftijd",
-    "appliedRoughness": "{{count}} leidingen bijgewerkt",
-    "applyRoughness": "Ruwheid toepassen op onderdelen",
     "emptyDescription": "Voeg een leidingmateriaal toe om te beginnen",
     "emptyTitle": "De leidingbibliotheek is leeg",
     "materials": "Leidingmaterialen",
@@ -1717,7 +1715,6 @@
       "title": "Upgrade om de leidingbibliotheek te gebruiken",
       "trial": "De leidingbibliotheek is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
-    "noAssetsChanged": "Geen onderdelen gewijzigd",
     "export": "Exporteren",
     "exportCsv": "Komma-gescheiden waarden (.csv)",
     "exportXlsx": "Microsoft Excel-werkblad (.xlsx)",
@@ -1809,7 +1806,10 @@
   "exportInpTooLarge": "Model is te groot om als INP te exporteren",
   "restoreUnsavedWorkDiscardAllAction": "Alles verwijderen",
   "restoreUnsavedWorkLaterAction": "Later",
-  "restoreUnsavedWorkRecoverAction": "Herstellen",
+  "restoreUnsavedWorkRecoverAction": "Geselecteerde herstellen",
   "restoreUnsavedWorkSessionsDescription_one": "1 sessie is onverwachts afgesloten. We hebben een kopie bewaard van het niet-opgeslagen werk. Selecteer het project om het nu te herstellen — als u het overslaat, blijft het later beschikbaar om te herstellen.",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessies zijn onverwachts afgesloten. We hebben van elke sessie een kopie bewaard van het niet-opgeslagen werk. Selecteer een project om nu te herstellen — alles wat u overslaat, blijft later beschikbaar om te herstellen."
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessies zijn onverwachts afgesloten. We hebben van elke sessie een kopie bewaard van het niet-opgeslagen werk. Selecteer een project om nu te herstellen — alles wat u overslaat, blijft later beschikbaar om te herstellen.",
+  "fileReadError": "Bestand lezen mislukt",
+  "fileReadErrorDetail": "We konden \"{{1}}\" niet lezen. Controleer of het bestand nog beschikbaar is en probeer het opnieuw.",
+  "pump.relativeSpeedSetting": "Relatieve snelheid"
 }

@@ -1703,8 +1703,6 @@
   "pipeLibrary": {
     "addEntry": "Añadir entrada",
     "age": "Edad",
-    "appliedRoughness": "Tuberías actualizadas: {{count}}",
-    "applyRoughness": "Aplicar rugosidad a los activos",
     "emptyDescription": "Añade un material de tubería para empezar",
     "emptyTitle": "La biblioteca de tuberías está vacía",
     "materials": "Materiales de tubería",
@@ -1730,7 +1728,6 @@
       "title": "Mejora para usar la biblioteca de tuberías",
       "trial": "La biblioteca de tuberías es una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
     },
-    "noAssetsChanged": "No se modificaron activos",
     "export": "Exportar",
     "exportCsv": "Valores separados por comas (.csv)",
     "exportXlsx": "Hoja de cálculo de Microsoft Excel (.xlsx)",
@@ -1816,7 +1813,10 @@
   "exportInpTooLarge": "El modelo es demasiado grande para exportar como INP",
   "restoreUnsavedWorkDiscardAllAction": "Descartar todo",
   "restoreUnsavedWorkLaterAction": "Más tarde",
-  "restoreUnsavedWorkRecoverAction": "Recuperar",
+  "restoreUnsavedWorkRecoverAction": "Recuperar seleccionados",
   "restoreUnsavedWorkSessionsDescription_one": "1 sesión se cerró inesperadamente. Conservamos una copia del trabajo sin guardar. Selecciona el proyecto para recuperarlo ahora — si lo omites, permanecerá disponible para recuperar más tarde.",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesiones se cerraron inesperadamente. Conservamos una copia del trabajo sin guardar de cada una. Selecciona un proyecto para recuperar ahora — cualquier cosa que omitas permanecerá disponible para recuperar más tarde."
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesiones se cerraron inesperadamente. Conservamos una copia del trabajo sin guardar de cada una. Selecciona un proyecto para recuperar ahora — cualquier cosa que omitas permanecerá disponible para recuperar más tarde.",
+  "fileReadError": "Error al leer archivo",
+  "fileReadErrorDetail": "No pudimos leer \"{{1}}\". Comprueba que el archivo siga disponible e inténtalo de nuevo.",
+  "pump.relativeSpeedSetting": "Velocidad relativa"
 }

@@ -43,7 +43,6 @@
     "durationSeconds_other": "{{count}} detik",
     "ejsdbFailed": "Gagal membuat file .ejsdb",
     "errorTitle": "Kesalahan pembangunan",
-    "generatingEjsdb": "Membuat .ejsdb...",
     "preparing": "Mempersiapkan pembangunan...",
     "progressTitle": "Progres pembangunan",
     "readyToBuild": "Siap untuk dibangun",
@@ -70,8 +69,12 @@
       "readingBuildConfig": "Membaca konfigurasi pembangunan",
       "removingZeroLengthPipes": "Menghapus pipa panjang nol",
       "splittingLinks": "Memisahkan tautan",
-      "finalizingModel": "Menyelesaikan model"
-    }
+      "finalizingModel": "Menyelesaikan model",
+      "generatingEjsdb": "Membuat file proyek"
+    },
+    "continueToApp": "Buka model",
+    "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
+    "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi."
   },
   "dataAssignment": {
     "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"
@@ -116,7 +119,8 @@
     "hideIgnoredFiles": "Sembunyikan file yang diabaikan",
     "unsupportedFilesIgnored_one": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
     "unsupportedFilesIgnored_other": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
-    "viewIgnoredFiles": "Lihat file yang diabaikan"
+    "viewIgnoredFiles": "Lihat file yang diabaikan",
+    "dragAndDropWithZip": "Seret dan lepas file Shapefile, GeoJSON, atau ZIP di sini"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

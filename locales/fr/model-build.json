@@ -43,7 +43,6 @@
     "durationSeconds_other": "{{count}} secondes",
     "ejsdbFailed": "Échec de la génération du fichier .ejsdb",
     "errorTitle": "Erreur de construction",
-    "generatingEjsdb": "Génération du .ejsdb...",
     "preparing": "Préparation de la construction...",
     "progressTitle": "Progression de la construction",
     "readyToBuild": "Prêt à construire",
@@ -70,8 +69,12 @@
       "readingBuildConfig": "Lecture de la configuration de construction",
       "removingZeroLengthPipes": "Suppression des conduites de longueur nulle",
       "splittingLinks": "Division des liaisons",
-      "finalizingModel": "Finalisation du modèle"
-    }
+      "finalizingModel": "Finalisation du modèle",
+      "generatingEjsdb": "Génération du fichier projet"
+    },
+    "continueToApp": "Ouvrir le modèle",
+    "elevationsUncovered": "Le service de terrain n'a pas de données à cet endroit.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
+    "elevationsUnreachable": "Impossible d'atteindre le service de terrain.\n{{1}} des {{2}} nœuds n'ont pas d'élévation."
   },
   "dataAssignment": {
     "projectionRequired": "Projection requise pour continuer"
@@ -116,7 +119,8 @@
     "hideIgnoredFiles": "Masquer les fichiers ignorés",
     "unsupportedFilesIgnored_one": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichier non pris en charge a été ignoré.",
     "unsupportedFilesIgnored_other": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichiers non pris en charge ont été ignorés.",
-    "viewIgnoredFiles": "Afficher les fichiers ignorés"
+    "viewIgnoredFiles": "Afficher les fichiers ignorés",
+    "dragAndDropWithZip": "Faites glisser et déposez des fichiers Shapefile, GeoJSON ou ZIP ici"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",

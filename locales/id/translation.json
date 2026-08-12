@@ -1690,8 +1690,6 @@
   "pipeLibrary": {
     "addEntry": "Tambah entri",
     "age": "Usia",
-    "appliedRoughness": "{{count}} pipa diperbarui",
-    "applyRoughness": "Terapkan kekasaran ke aset",
     "emptyDescription": "Tambahkan material pipa untuk memulai",
     "emptyTitle": "Pustaka pipa kosong",
     "materials": "Material pipa",
@@ -1717,7 +1715,6 @@
       "title": "Tingkatkan untuk menggunakan pustaka pipa",
       "trial": "Pustaka pipa adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     },
-    "noAssetsChanged": "Tidak ada aset yang diubah",
     "export": "Ekspor",
     "exportCsv": "Nilai Dipisahkan Koma (.csv)",
     "exportXlsx": "Lembar Kerja Microsoft Excel (.xlsx)",
@@ -1809,7 +1806,10 @@
   "exportInpTooLarge": "Model terlalu besar untuk diekspor sebagai INP",
   "restoreUnsavedWorkDiscardAllAction": "Buang semua",
   "restoreUnsavedWorkLaterAction": "Nanti",
-  "restoreUnsavedWorkRecoverAction": "Pulihkan",
+  "restoreUnsavedWorkRecoverAction": "Pulihkan yang dipilih",
   "restoreUnsavedWorkSessionsDescription_one": "1 sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum Anda simpan. Pilih proyek untuk memulihkannya sekarang — jika Anda melewatkannya, itu tetap tersedia untuk dipulihkan nanti.",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum disimpan dari setiap sesi. Pilih proyek untuk dipulihkan sekarang — apa pun yang Anda lewati tetap tersedia untuk dipulihkan nanti."
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum disimpan dari setiap sesi. Pilih proyek untuk dipulihkan sekarang — apa pun yang Anda lewati tetap tersedia untuk dipulihkan nanti.",
+  "fileReadError": "Gagal membaca file",
+  "fileReadErrorDetail": "Kami tidak dapat membaca \"{{1}}\". Periksa apakah file masih tersedia dan coba lagi.",
+  "pump.relativeSpeedSetting": "Kecepatan relatif"
 }

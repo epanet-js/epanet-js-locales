@@ -43,7 +43,6 @@
     "durationSeconds_other": "{{count}} 秒",
     "ejsdbFailed": ".ejsdb ファイルの生成に失敗しました",
     "errorTitle": "構築エラー",
-    "generatingEjsdb": ".ejsdb を生成中...",
     "preparing": "構築を準備中...",
     "progressTitle": "構築の進捗",
     "readyToBuild": "構築準備完了",
@@ -70,8 +69,12 @@
       "readingBuildConfig": "構築設定の読み込み",
       "removingZeroLengthPipes": "ゼロ長管の削除",
       "splittingLinks": "リンクの分割",
-      "finalizingModel": "モデルを最終処理中"
-    }
+      "finalizingModel": "モデルを最終処理中",
+      "generatingEjsdb": "プロジェクトファイルを生成中"
+    },
+    "continueToApp": "モデルを開く",
+    "elevationsUncovered": "地形サービスにはデータがありません。\n{{2}}個のノードのうち{{1}}個には標高がありません。",
+    "elevationsUnreachable": "地形サービスに接続できませんでした。\n{{2}}個のノードのうち{{1}}個には標高がありません。"
   },
   "dataAssignment": {
     "projectionRequired": "続行するには投影が必要です"
@@ -116,7 +119,8 @@
     "hideIgnoredFiles": "無視されたファイルを非表示",
     "unsupportedFilesIgnored_one": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
     "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
-    "viewIgnoredFiles": "無視されたファイルを表示"
+    "viewIgnoredFiles": "無視されたファイルを表示",
+    "dragAndDropWithZip": "Shapefile、GeoJSON、またはZIPファイルをここにドラッグ&ドロップしてください。"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",

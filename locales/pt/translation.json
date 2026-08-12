@@ -1690,8 +1690,6 @@
   "pipeLibrary": {
     "addEntry": "Adicionar entrada",
     "age": "Idade",
-    "appliedRoughness": "Tubulações atualizadas: {{count}}",
-    "applyRoughness": "Aplicar rugosidade aos ativos",
     "emptyDescription": "Adicione um material de tubulação para começar",
     "emptyTitle": "A biblioteca de tubulações está vazia",
     "materials": "Materiais de tubulação",
@@ -1717,7 +1715,6 @@
       "title": "Atualize para usar a biblioteca de tubulações",
       "trial": "A biblioteca de tubulações é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
     },
-    "noAssetsChanged": "Nenhum ativo alterado",
     "export": "Exportar",
     "exportCsv": "Valores Separados por Vírgula (.csv)",
     "exportXlsx": "Planilha do Microsoft Excel (.xlsx)",
@@ -1809,7 +1806,10 @@
   "exportInpTooLarge": "Modelo é muito grande para exportar como INP",
   "restoreUnsavedWorkDiscardAllAction": "Descartar tudo",
   "restoreUnsavedWorkLaterAction": "Mais tarde",
-  "restoreUnsavedWorkRecoverAction": "Recuperar",
+  "restoreUnsavedWorkRecoverAction": "Recuperar selecionado",
   "restoreUnsavedWorkSessionsDescription_one": "1 sessão foi encerrada inesperadamente. Mantivemos uma cópia do trabalho não salvo. Selecione o projeto para recuperá-lo agora — se você pular, ele permanecerá disponível para recuperar mais tarde.",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessões foram encerradas inesperadamente. Mantivemos uma cópia do trabalho não salvo de cada uma. Selecione um projeto para recuperar agora — o que você pular permanecerá disponível para recuperar mais tarde."
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessões foram encerradas inesperadamente. Mantivemos uma cópia do trabalho não salvo de cada uma. Selecione um projeto para recuperar agora — o que você pular permanecerá disponível para recuperar mais tarde.",
+  "fileReadError": "Falha ao ler arquivo",
+  "fileReadErrorDetail": "Não foi possível ler \"{{1}}\". Verifique se o arquivo ainda está disponível e tente novamente.",
+  "pump.relativeSpeedSetting": "Velocidade relativa"
 }

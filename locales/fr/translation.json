@@ -1690,8 +1690,6 @@
   "pipeLibrary": {
     "addEntry": "Ajouter une entrée",
     "age": "Âge",
-    "appliedRoughness": "{{count}} conduites mises à jour",
-    "applyRoughness": "Appliquer la rugosité aux éléments",
     "emptyDescription": "Ajoutez un matériau de conduite pour commencer",
     "emptyTitle": "La bibliothèque de conduites est vide",
     "materials": "Matériaux de conduite",
@@ -1717,7 +1715,6 @@
       "title": "Mettre à niveau pour utiliser la bibliothèque de conduites",
       "trial": "La bibliothèque de conduites est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
     },
-    "noAssetsChanged": "Aucun élément n'a été modifié.",
     "export": "Exporter",
     "exportCsv": "Valeurs séparées par des virgules (.csv)",
     "exportXlsx": "Feuille de calcul Microsoft Excel (.xlsx)",
@@ -1809,7 +1806,10 @@
   "exportInpTooLarge": "Le modèle est trop grand pour être exporté en INP",
   "restoreUnsavedWorkDiscardAllAction": "Tout ignorer",
   "restoreUnsavedWorkLaterAction": "Plus tard",
-  "restoreUnsavedWorkRecoverAction": "Récupérer",
+  "restoreUnsavedWorkRecoverAction": "Récupérer sélectionné",
   "restoreUnsavedWorkSessionsDescription_one": "1 session s'est terminée de manière inattendue. Nous avons conservé une copie du travail non enregistré. Sélectionnez le projet pour le récupérer maintenant — si vous l'ignorez, il restera disponible pour être récupéré plus tard.",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessions se sont terminées de manière inattendue. Nous avons conservé une copie du travail non enregistré de chacune. Sélectionnez un projet à récupérer maintenant — tout ce que vous ignorez restera disponible pour être récupéré plus tard."
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessions se sont terminées de manière inattendue. Nous avons conservé une copie du travail non enregistré de chacune. Sélectionnez un projet à récupérer maintenant — tout ce que vous ignorez restera disponible pour être récupéré plus tard.",
+  "fileReadError": "Échec de lecture du fichier",
+  "fileReadErrorDetail": "Nous n'avons pas pu lire « {{1}} ». Vérifiez que le fichier est toujours disponible et réessayez.",
+  "pump.relativeSpeedSetting": "Vitesse relative"
 }

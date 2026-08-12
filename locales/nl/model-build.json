@@ -43,7 +43,6 @@
     "durationSeconds_other": "{{count}} seconden",
     "ejsdbFailed": "Genereren van .ejsdb bestand mislukt",
     "errorTitle": "Build fout",
-    "generatingEjsdb": ".ejsdb genereren...",
     "preparing": "Build voorbereiden...",
     "progressTitle": "Build voortgang",
     "readyToBuild": "Klaar om te bouwen",
@@ -70,8 +69,12 @@
       "readingBuildConfig": "Build configuratie lezen",
       "removingZeroLengthPipes": "Leidingen met nul-lengte verwijderen",
       "splittingLinks": "Verbindingen splitsen",
-      "finalizingModel": "Model voltooien"
-    }
+      "finalizingModel": "Model voltooien",
+      "generatingEjsdb": "Projectbestand genereren"
+    },
+    "continueToApp": "Model openen",
+    "elevationsUncovered": "De terreindienst heeft daar geen gegevens.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
+    "elevationsUnreachable": "Kon de terreindienst niet bereiken.\n{{1}} van de {{2}} knooppunten hebben geen hoogte."
   },
   "dataAssignment": {
     "projectionRequired": "Projectie vereist om door te gaan"
@@ -116,7 +119,8 @@
     "hideIgnoredFiles": "Genegeerde bestanden verbergen",
     "unsupportedFilesIgnored_one": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteund bestand werd genegeerd.",
     "unsupportedFilesIgnored_other": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteunde bestanden werden genegeerd.",
-    "viewIgnoredFiles": "Genegeerde bestanden bekijken"
+    "viewIgnoredFiles": "Genegeerde bestanden bekijken",
+    "dragAndDropWithZip": "Sleep Shapefiles, GeoJSON, of ZIP-bestanden hierheen"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",

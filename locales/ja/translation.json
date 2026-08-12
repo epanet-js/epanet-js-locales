@@ -1690,8 +1690,6 @@
   "pipeLibrary": {
     "addEntry": "エントリを追加",
     "age": "経年",
-    "appliedRoughness": "{{count}} 本の管を更新しました",
-    "applyRoughness": "アセットに粗度を適用",
     "emptyDescription": "開始するには、管の材質を追加してください",
     "emptyTitle": "管ライブラリが空です",
     "materials": "管の材質",
@@ -1717,7 +1715,6 @@
       "title": "管ライブラリを使用するにはアップグレードしてください",
       "trial": "管ライブラリは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
     },
-    "noAssetsChanged": "変更されたアセットはありません",
     "export": "エクスポート",
     "exportCsv": "カンマ区切り値 (.csv)",
     "exportXlsx": "Microsoft Excel スプレッドシート (.xlsx)",
@@ -1809,7 +1806,10 @@
   "exportInpTooLarge": "モデルが大きすぎるためINPとしてエクスポートできません",
   "restoreUnsavedWorkDiscardAllAction": "すべて破棄",
   "restoreUnsavedWorkLaterAction": "後で",
-  "restoreUnsavedWorkRecoverAction": "復元",
+  "restoreUnsavedWorkRecoverAction": "選択したものを復元",
   "restoreUnsavedWorkSessionsDescription_one": "1つのセッションが予期せず終了しました。未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップした場合でも、後で復元可能です。",
-  "restoreUnsavedWorkSessionsDescription_other": "{{count}}件のセッションが予期せず終了しました。各セッションからの未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップしたものは後で復元可能です。"
+  "restoreUnsavedWorkSessionsDescription_other": "{{count}}件のセッションが予期せず終了しました。各セッションからの未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップしたものは後で復元可能です。",
+  "fileReadError": "ファイルの読み込みに失敗しました",
+  "fileReadErrorDetail": "「{{1}}」を読み取れませんでした。ファイルがまだ利用可能か確認し、もう一度お試しください。",
+  "pump.relativeSpeedSetting": "相対速度"
 }

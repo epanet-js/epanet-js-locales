@@ -63,7 +63,6 @@
     "showLess": "Show less",
     "showMore": "Show more",
     "downloadModel": "Download model (.ejsdb)",
-    "generatingEjsdb": "Generating .ejsdb...",
     "ejsdbFailed": "Failed to generate .ejsdb file",
     "durationLessThanSecond": "<1 second",
     "durationSeconds_one": "{{count}} second",
@@ -83,8 +82,12 @@
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
       "inferringReservoirHeads": "Inferring reservoir heads",
-      "finalizingModel": "Finalizing model"
-    }
+      "finalizingModel": "Finalizing model",
+      "generatingEjsdb": "Generating project file"
+    },
+    "elevationsUnreachable": "Could not reach the terrain service.\n{{1}} of {{2}} nodes have no elevation.",
+    "elevationsUncovered": "The terrain service has no data there.\n{{1}} of {{2}} nodes have no elevation.",
+    "continueToApp": "Open model"
   },
   "fileDropzone": {
     "attributesUnavailable": "Attributes unavailable",
@@ -100,6 +103,7 @@
     "parsing": "Parsing...",
     "removeShapefileGroup": "Remove shapefile group",
     "dragAndDrop": "Drag and drop Shapefiles or GeoJSON files here",
+    "dragAndDropWithZip": "Drag and drop Shapefiles, GeoJSON, or ZIP files here",
     "clickToBrowse": "or click to browse files (supports multiple files)",
     "processing": "Processing...",
     "selectFiles": "Select files",
