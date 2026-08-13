@@ -101,7 +101,7 @@
     "assignToElement": "Toewijzen aan element...",
     "attributesUnavailable": "Attributen niet beschikbaar",
     "clickToBrowse": "of klik om bestanden te bladeren (ondersteunt meerdere bestanden)",
-    "dragAndDrop": "Sleep Shapefiles of GeoJSON-bestanden hierheen",
+    "dragAndDrop": "Sleep Shapefiles, GeoJSON, of ZIP-bestanden hierheen",
     "featureInfo": "{{1}} • {{2}} objecten",
     "loadAndAssign": "GIS-bestanden laden & toewijzen",
     "noCompatibleElements": "Geen compatibele, niet-toegewezen elementen.",
@@ -119,8 +119,7 @@
     "hideIgnoredFiles": "Genegeerde bestanden verbergen",
     "unsupportedFilesIgnored_one": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteund bestand werd genegeerd.",
     "unsupportedFilesIgnored_other": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteunde bestanden werden genegeerd.",
-    "viewIgnoredFiles": "Genegeerde bestanden bekijken",
-    "dragAndDropWithZip": "Sleep Shapefiles, GeoJSON, of ZIP-bestanden hierheen"
+    "viewIgnoredFiles": "Genegeerde bestanden bekijken"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",

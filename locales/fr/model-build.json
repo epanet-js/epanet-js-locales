@@ -101,7 +101,7 @@
     "assignToElement": "Attribuer à l'élément...",
     "attributesUnavailable": "Attributs indisponibles",
     "clickToBrowse": "ou cliquez pour parcourir les fichiers (plusieurs fichiers supportés)",
-    "dragAndDrop": "Faites glisser et déposez des fichiers Shapefile ou GeoJSON ici",
+    "dragAndDrop": "Faites glisser et déposez des fichiers Shapefile, GeoJSON ou ZIP ici",
     "featureInfo": "{{1}} • {{2}} entités",
     "loadAndAssign": "Charger et attribuer des fichiers SIG",
     "noCompatibleElements": "Aucun élément compatible et non attribué.",
@@ -119,8 +119,7 @@
     "hideIgnoredFiles": "Masquer les fichiers ignorés",
     "unsupportedFilesIgnored_one": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichier non pris en charge a été ignoré.",
     "unsupportedFilesIgnored_other": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichiers non pris en charge ont été ignorés.",
-    "viewIgnoredFiles": "Afficher les fichiers ignorés",
-    "dragAndDropWithZip": "Faites glisser et déposez des fichiers Shapefile, GeoJSON ou ZIP ici"
+    "viewIgnoredFiles": "Afficher les fichiers ignorés"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",

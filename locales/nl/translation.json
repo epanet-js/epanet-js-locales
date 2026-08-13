@@ -602,7 +602,7 @@
       "summary_other": "{{count}} kruisingen gevonden",
       "summary_zero": "Geen kruisingen gevonden"
     },
-    "issuesFound": "{{1}} problemen gevonden",
+    "issuesFound": "Problemen gevonden",
     "noIssuesFound": "Geen problemen gevonden",
     "orphanAssets": {
       "description": "Vind onderdelen die zijn losgekoppeld van uw netwerk",
@@ -681,7 +681,9 @@
         "title": "Bekijk de volledige lijst met problemen",
         "description": "Bekijk de gedetailleerde lijst van onderdelen met problemen en krijg toegang tot geautomatiseerde oplossingen"
       }
-    }
+    },
+    "outdated": "Niet up-to-date — vernieuw om deze controle uit te voeren",
+    "refresh": "Controles vernieuwen"
   },
   "connectedCustomers": "Verbonden Klanten",
   "connections": "Verbindingen",
@@ -1811,5 +1813,14 @@
   "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessies zijn onverwachts afgesloten. We hebben van elke sessie een kopie bewaard van het niet-opgeslagen werk. Selecteer een project om nu te herstellen — alles wat u overslaat, blijft later beschikbaar om te herstellen.",
   "fileReadError": "Bestand lezen mislukt",
   "fileReadErrorDetail": "We konden \"{{1}}\" niet lezen. Controleer of het bestand nog beschikbaar is en probeer het opnieuw.",
-  "pump.relativeSpeedSetting": "Relatieve snelheid"
+  "pump.relativeSpeedSetting": "Relatieve snelheid",
+  "preSimulationChecks": {
+    "affectedCount_one": "1 getroffen",
+    "affectedCount_other": "{{count}} getroffen",
+    "body": "Deze controles vonden problemen die de simulatie kunnen doen mislukken of misleidende resultaten kunnen opleveren.",
+    "review": "Problemen bekijken",
+    "runAnyway": "Toch uitvoeren",
+    "running": "Uw model controleren…",
+    "title": "Voordat de simulatie wordt uitgevoerd"
+  }
 }

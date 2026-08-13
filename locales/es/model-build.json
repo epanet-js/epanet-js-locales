@@ -101,7 +101,7 @@
     "assignToElement": "Asignar a elemento...",
     "attributesUnavailable": "Atributos no disponibles",
     "clickToBrowse": "o haz clic para explorar archivos (soporta múltiples archivos)",
-    "dragAndDrop": "Arrastra y suelta Shapefiles o archivos GeoJSON aquí",
+    "dragAndDrop": "Arrastra y suelta Shapefiles, GeoJSON o archivos ZIP aquí",
     "featureInfo": "{{1}} • {{2}} características",
     "loadAndAssign": "Cargar y asignar archivos GIS",
     "noCompatibleElements": "No hay elementos compatibles sin asignar.",
@@ -119,8 +119,7 @@
     "hideIgnoredFiles": "Ocultar archivos ignorados",
     "unsupportedFilesIgnored_one": "Solo se admiten archivos GeoJSON y Shapefile. Se ignoró {{count}} archivo no compatible.",
     "unsupportedFilesIgnored_other": "Solo se admiten archivos GeoJSON y Shapefile. Se ignoraron {{count}} archivos no compatibles.",
-    "viewIgnoredFiles": "Ver archivos ignorados",
-    "dragAndDropWithZip": "Arrastra y suelta Shapefiles, GeoJSON o archivos ZIP aquí"
+    "viewIgnoredFiles": "Ver archivos ignorados"
   },
   "flowUnits": {
     "afd": "AFD (acre-pie/día)",

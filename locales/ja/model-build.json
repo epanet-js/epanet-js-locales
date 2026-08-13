@@ -101,7 +101,7 @@
     "assignToElement": "要素に割り当てる...",
     "attributesUnavailable": "属性利用不可",
     "clickToBrowse": "またはクリックしてファイルを参照 (複数ファイル対応)",
-    "dragAndDrop": "ShapefileまたはGeoJSONファイルをここにドラッグ&ドロップ",
+    "dragAndDrop": "Shapefile、GeoJSON、またはZIPファイルをここにドラッグ&ドロップ",
     "featureInfo": "{{1}} • {{2}} フィーチャ",
     "loadAndAssign": "GISファイルを読み込んで割り当て",
     "noCompatibleElements": "互換性のある未割り当て要素がありません。",
@@ -119,8 +119,7 @@
     "hideIgnoredFiles": "無視されたファイルを非表示",
     "unsupportedFilesIgnored_one": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
     "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
-    "viewIgnoredFiles": "無視されたファイルを表示",
-    "dragAndDropWithZip": "Shapefile、GeoJSON、またはZIPファイルをここにドラッグ&ドロップしてください。"
+    "viewIgnoredFiles": "無視されたファイルを表示"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",

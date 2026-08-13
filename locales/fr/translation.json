@@ -602,7 +602,7 @@
       "summary_other": "{{count}} intersections trouvées",
       "summary_zero": "Aucune intersection trouvée"
     },
-    "issuesFound": "{{1}} problèmes trouvés",
+    "issuesFound": "Problèmes trouvés",
     "noIssuesFound": "Aucun problème trouvé",
     "orphanAssets": {
       "description": "Trouver les éléments déconnectés de votre réseau",
@@ -681,7 +681,9 @@
         "title": "Voir la liste complète des problèmes",
         "description": "Passez en revue la liste détaillée des éléments présentant des problèmes et accédez aux corrections automatisées"
       }
-    }
+    },
+    "outdated": "Non à jour — actualiser pour exécuter cette vérification",
+    "refresh": "Actualiser les vérifications"
   },
   "connectedCustomers": "Clients Connectés",
   "connections": "Connexions",
@@ -1811,5 +1813,14 @@
   "restoreUnsavedWorkSessionsDescription_other": "{{count}} sessions se sont terminées de manière inattendue. Nous avons conservé une copie du travail non enregistré de chacune. Sélectionnez un projet à récupérer maintenant — tout ce que vous ignorez restera disponible pour être récupéré plus tard.",
   "fileReadError": "Échec de lecture du fichier",
   "fileReadErrorDetail": "Nous n'avons pas pu lire « {{1}} ». Vérifiez que le fichier est toujours disponible et réessayez.",
-  "pump.relativeSpeedSetting": "Vitesse relative"
+  "pump.relativeSpeedSetting": "Vitesse relative",
+  "preSimulationChecks": {
+    "affectedCount_one": "1 affecté",
+    "affectedCount_other": "{{count}} affectés",
+    "body": "Ces vérifications ont trouvé des problèmes qui peuvent faire échouer la simulation ou produire des résultats trompeurs.",
+    "review": "Examiner les problèmes",
+    "runAnyway": "Lancer quand même",
+    "running": "Vérification de votre modèle…",
+    "title": "Avant de lancer la simulation"
+  }
 }

@@ -101,7 +101,7 @@
     "assignToElement": "Tetapkan ke elemen...",
     "attributesUnavailable": "Atribut tidak tersedia",
     "clickToBrowse": "atau klik untuk menjelajah file (mendukung banyak file)",
-    "dragAndDrop": "Seret dan lepas file Shapefile atau GeoJSON di sini",
+    "dragAndDrop": "Seret dan lepas file Shapefile, GeoJSON, atau ZIP di sini",
     "featureInfo": "{{1}} • {{2}} fitur",
     "loadAndAssign": "Muat & tetapkan file GIS",
     "noCompatibleElements": "Tidak ada elemen yang kompatibel, belum ditetapkan.",
@@ -119,8 +119,7 @@
     "hideIgnoredFiles": "Sembunyikan file yang diabaikan",
     "unsupportedFilesIgnored_one": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
     "unsupportedFilesIgnored_other": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
-    "viewIgnoredFiles": "Lihat file yang diabaikan",
-    "dragAndDropWithZip": "Seret dan lepas file Shapefile, GeoJSON, atau ZIP di sini"
+    "viewIgnoredFiles": "Lihat file yang diabaikan"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

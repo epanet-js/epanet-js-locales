@@ -763,7 +763,7 @@
       "title": "Pipa bersilangan"
     },
     "description": "Jalankan serangkaian pemeriksaan untuk memvalidasi topologi jaringan Anda dan memastikan kualitas data.",
-    "issuesFound": "{{1}} masalah ditemukan",
+    "issuesFound": "Masalah ditemukan",
     "noIssuesFound": "Tidak ada masalah ditemukan",
     "orphanAssets": {
       "description": "Temukan aset yang terputus dari jaringan Anda",
@@ -844,7 +844,9 @@
         "title": "Lihat daftar lengkap masalah",
         "description": "Tinjau daftar aset yang bermasalah secara detail dan akses perbaikan otomatis"
       }
-    }
+    },
+    "outdated": "Tidak terbaru — segarkan untuk menjalankan pemeriksaan ini",
+    "refresh": "Segarkan pemeriksaan"
   },
   "newBadge": "baru",
   "newFeaturesEveryDay": "Kami terus menambahkan fitur dan peningkatan baru! Tetaplah terinformasi tentang pembaruan terbaru dengan berlangganan buletin kami!",
@@ -1811,5 +1813,14 @@
   "restoreUnsavedWorkSessionsDescription_other": "{{count}} sesi tertutup secara tak terduga. Kami menyimpan salinan pekerjaan yang belum disimpan dari setiap sesi. Pilih proyek untuk dipulihkan sekarang — apa pun yang Anda lewati tetap tersedia untuk dipulihkan nanti.",
   "fileReadError": "Gagal membaca file",
   "fileReadErrorDetail": "Kami tidak dapat membaca \"{{1}}\". Periksa apakah file masih tersedia dan coba lagi.",
-  "pump.relativeSpeedSetting": "Kecepatan relatif"
+  "pump.relativeSpeedSetting": "Kecepatan relatif",
+  "preSimulationChecks": {
+    "affectedCount_one": "1 terpengaruh",
+    "affectedCount_other": "{{count}} terpengaruh",
+    "body": "Pemeriksaan ini menemukan masalah yang dapat membuat simulasi gagal atau menghasilkan hasil yang menyesatkan.",
+    "review": "Tinjau masalah",
+    "runAnyway": "Jalankan saja",
+    "running": "Memeriksa model Anda…",
+    "title": "Sebelum menjalankan simulasi"
+  }
 }

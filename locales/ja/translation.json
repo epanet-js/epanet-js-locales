@@ -602,7 +602,7 @@
       "summary_other": "{{count}} 件の交差点が見つかりました",
       "summary_zero": "交差点は見つかりませんでした"
     },
-    "issuesFound": "{{1}} 件の問題が見つかりました",
+    "issuesFound": "問題が見つかりました",
     "noIssuesFound": "問題は見つかりませんでした",
     "orphanAssets": {
       "description": "ネットワークから切断されているアセットを見つける",
@@ -681,7 +681,9 @@
         "title": "すべての問題の完全なリストを確認",
         "description": "問題のあるアセットの詳細リストを確認し、自動修正にアクセス"
       }
-    }
+    },
+    "outdated": "最新ではありません — このチェックを実行するには更新してください",
+    "refresh": "チェックを更新"
   },
   "connectedCustomers": "接続済み顧客",
   "connections": "接続",
@@ -1811,5 +1813,14 @@
   "restoreUnsavedWorkSessionsDescription_other": "{{count}}件のセッションが予期せず終了しました。各セッションからの未保存の作業のコピーを保持しています。今すぐ復元するプロジェクトを選択してください — スキップしたものは後で復元可能です。",
   "fileReadError": "ファイルの読み込みに失敗しました",
   "fileReadErrorDetail": "「{{1}}」を読み取れませんでした。ファイルがまだ利用可能か確認し、もう一度お試しください。",
-  "pump.relativeSpeedSetting": "相対速度"
+  "pump.relativeSpeedSetting": "相対速度",
+  "preSimulationChecks": {
+    "affectedCount_one": "1 件影響を受けています",
+    "affectedCount_other": "{{count}} 件影響を受けています",
+    "body": "これらのチェックにより、シミュレーションが失敗したり、誤解を招く結果を生成したりする可能性のある問題が見つかりました。",
+    "review": "問題を確認",
+    "runAnyway": "とにかく実行",
+    "running": "モデルを確認中…",
+    "title": "シミュレーションを実行する前に"
+  }
 }
