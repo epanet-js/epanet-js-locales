@@ -588,7 +588,8 @@
       "summary_zero": "Aucun sous-réseau trouvé",
       "supplySourceCount_one": "1 source d'approvisionnement",
       "supplySourceCount_other": "{{count}} sources d'approvisionnement",
-      "supplySourceCount_zero": "Aucune source d'approvisionnement"
+      "supplySourceCount_zero": "Aucune source d'approvisionnement",
+      "rule": "Sous-réseaux sans approvisionnement"
     },
     "description": "Effectuer une série de vérifications pour valider la topologie de votre réseau et assurer la qualité des données.",
     "title": "Examen du réseau",
@@ -602,8 +603,6 @@
       "summary_other": "{{count}} intersections trouvées",
       "summary_zero": "Aucune intersection trouvée"
     },
-    "issuesFound": "Problèmes trouvés",
-    "noIssuesFound": "Aucun problème trouvé",
     "orphanAssets": {
       "description": "Trouver les éléments déconnectés de votre réseau",
       "emptyMessage": "Il n'y a pas d'éléments orphelins dans votre réseau. Bien joué !",
@@ -611,7 +610,8 @@
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
       "summary_zero": "Aucun problème trouvé",
-      "title": "Éléments orphelins"
+      "title": "Éléments orphelins",
+      "rule": "Éléments non connectés"
     },
     "proximityAnomalies": {
       "description": "Trouve les nœuds situés près de conduites voisines qui pourraient nécessiter une connexion.",
@@ -682,8 +682,8 @@
         "description": "Passez en revue la liste détaillée des éléments présentant des problèmes et accédez aux corrections automatisées"
       }
     },
-    "outdated": "Non à jour — actualiser pour exécuter cette vérification",
-    "refresh": "Actualiser les vérifications"
+    "issuesFound_one": "1 problème",
+    "issuesFound_other": "{{count}} problèmes"
   },
   "connectedCustomers": "Clients Connectés",
   "connections": "Connexions",
@@ -1815,12 +1815,14 @@
   "fileReadErrorDetail": "Nous n'avons pas pu lire « {{1}} ». Vérifiez que le fichier est toujours disponible et réessayez.",
   "pump.relativeSpeedSetting": "Vitesse relative",
   "preSimulationChecks": {
-    "affectedCount_one": "1 affecté",
-    "affectedCount_other": "{{count}} affectés",
-    "body": "Ces vérifications ont trouvé des problèmes qui peuvent faire échouer la simulation ou produire des résultats trompeurs.",
+    "body": "Ces problèmes peuvent faire échouer la simulation ou produire des résultats trompeurs.",
     "review": "Examiner les problèmes",
     "runAnyway": "Lancer quand même",
     "running": "Vérification de votre modèle…",
-    "title": "Avant de lancer la simulation"
-  }
+    "title": "Avant de lancer la simulation",
+    "andMoreIssues_one": "et 1 problème de plus",
+    "andMoreIssues_other": "et {{count}} problèmes de plus",
+    "warning": "Nous avons trouvé des problèmes avec votre réseau"
+  },
+  "waitingForPayment": "En attente de paiement..."
 }

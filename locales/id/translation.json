@@ -751,7 +751,8 @@
       "supplySourceCount_one": "1 sumber pasokan",
       "supplySourceCount_other": "{{count}} sumber pasokan",
       "supplySourceCount_zero": "Tidak ada sumber pasokan",
-      "title": "Jejak konektivitas"
+      "title": "Jejak konektivitas",
+      "rule": "Sub-jaringan tanpa pasokan"
     },
     "crossingPipes": {
       "description": "Temukan pipa yang bersilangan tanpa titik sambungan.",
@@ -763,8 +764,6 @@
       "title": "Pipa bersilangan"
     },
     "description": "Jalankan serangkaian pemeriksaan untuk memvalidasi topologi jaringan Anda dan memastikan kualitas data.",
-    "issuesFound": "Masalah ditemukan",
-    "noIssuesFound": "Tidak ada masalah ditemukan",
     "orphanAssets": {
       "description": "Temukan aset yang terputus dari jaringan Anda",
       "emptyMessage": "Tidak ada aset terputus di jaringan Anda. Bagus sekali!",
@@ -772,7 +771,8 @@
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
       "summary_zero": "Tidak ada masalah ditemukan",
-      "title": "Aset Terputus"
+      "title": "Aset Terputus",
+      "rule": "Aset tidak terhubung"
     },
     "proximityAnomalies": {
       "description": "Menemukan sambungan yang terletak dekat dengan pipa terdekat yang mungkin perlu dihubungkan.",
@@ -845,8 +845,8 @@
         "description": "Tinjau daftar aset yang bermasalah secara detail dan akses perbaikan otomatis"
       }
     },
-    "outdated": "Tidak terbaru — segarkan untuk menjalankan pemeriksaan ini",
-    "refresh": "Segarkan pemeriksaan"
+    "issuesFound_one": "1 masalah",
+    "issuesFound_other": "{{count}} masalah"
   },
   "newBadge": "baru",
   "newFeaturesEveryDay": "Kami terus menambahkan fitur dan peningkatan baru! Tetaplah terinformasi tentang pembaruan terbaru dengan berlangganan buletin kami!",
@@ -1815,12 +1815,14 @@
   "fileReadErrorDetail": "Kami tidak dapat membaca \"{{1}}\". Periksa apakah file masih tersedia dan coba lagi.",
   "pump.relativeSpeedSetting": "Kecepatan relatif",
   "preSimulationChecks": {
-    "affectedCount_one": "1 terpengaruh",
-    "affectedCount_other": "{{count}} terpengaruh",
-    "body": "Pemeriksaan ini menemukan masalah yang dapat membuat simulasi gagal atau menghasilkan hasil yang menyesatkan.",
+    "body": "Masalah-masalah ini dapat menyebabkan simulasi gagal atau menghasilkan hasil yang menyesatkan.",
     "review": "Tinjau masalah",
     "runAnyway": "Jalankan saja",
     "running": "Memeriksa model Anda…",
-    "title": "Sebelum menjalankan simulasi"
-  }
+    "title": "Sebelum menjalankan simulasi",
+    "andMoreIssues_one": "dan 1 masalah lainnya",
+    "andMoreIssues_other": "dan {{count}} masalah lainnya",
+    "warning": "Kami menemukan masalah dengan jaringan Anda"
+  },
+  "waitingForPayment": "Menunggu pembayaran..."
 }

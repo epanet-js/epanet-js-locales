@@ -588,7 +588,8 @@
       "summary_zero": "Geen subnetwerken gevonden",
       "supplySourceCount_one": "1 toevoerbron",
       "supplySourceCount_other": "{{count}} toevoerbronnen",
-      "supplySourceCount_zero": "Geen toevoerbron"
+      "supplySourceCount_zero": "Geen toevoerbron",
+      "rule": "Subnetwerken zonder toevoer"
     },
     "description": "Voer een reeks controles uit om de topologie van uw netwerk te valideren en de gegevenskwaliteit te waarborgen.",
     "title": "Netwerkcontrole",
@@ -602,8 +603,6 @@
       "summary_other": "{{count}} kruisingen gevonden",
       "summary_zero": "Geen kruisingen gevonden"
     },
-    "issuesFound": "Problemen gevonden",
-    "noIssuesFound": "Geen problemen gevonden",
     "orphanAssets": {
       "description": "Vind onderdelen die zijn losgekoppeld van uw netwerk",
       "emptyMessage": "Er zijn geen weesonderdelen in uw netwerk. Goed gedaan!",
@@ -611,7 +610,8 @@
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
       "summary_zero": "Geen problemen gevonden",
-      "title": "Weesonderdelen"
+      "title": "Weesonderdelen",
+      "rule": "Onderdelen niet verbonden"
     },
     "proximityAnomalies": {
       "description": "Vindt knooppunten die dicht bij nabijgelegen leidingen liggen en mogelijk moeten worden verbonden.",
@@ -682,8 +682,8 @@
         "description": "Bekijk de gedetailleerde lijst van onderdelen met problemen en krijg toegang tot geautomatiseerde oplossingen"
       }
     },
-    "outdated": "Niet up-to-date — vernieuw om deze controle uit te voeren",
-    "refresh": "Controles vernieuwen"
+    "issuesFound_one": "1 probleem",
+    "issuesFound_other": "{{count}} problemen"
   },
   "connectedCustomers": "Verbonden Klanten",
   "connections": "Verbindingen",
@@ -1815,12 +1815,14 @@
   "fileReadErrorDetail": "We konden \"{{1}}\" niet lezen. Controleer of het bestand nog beschikbaar is en probeer het opnieuw.",
   "pump.relativeSpeedSetting": "Relatieve snelheid",
   "preSimulationChecks": {
-    "affectedCount_one": "1 getroffen",
-    "affectedCount_other": "{{count}} getroffen",
-    "body": "Deze controles vonden problemen die de simulatie kunnen doen mislukken of misleidende resultaten kunnen opleveren.",
+    "body": "Deze problemen kunnen de simulatie doen mislukken of misleidende resultaten opleveren.",
     "review": "Problemen bekijken",
     "runAnyway": "Toch uitvoeren",
     "running": "Uw model controleren…",
-    "title": "Voordat de simulatie wordt uitgevoerd"
-  }
+    "title": "Voordat de simulatie wordt uitgevoerd",
+    "andMoreIssues_one": "en nog 1 probleem",
+    "andMoreIssues_other": "en nog {{count}} problemen",
+    "warning": "We vonden problemen met uw netwerk"
+  },
+  "waitingForPayment": "Wachten op betaling..."
 }

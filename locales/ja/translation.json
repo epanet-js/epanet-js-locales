@@ -588,7 +588,8 @@
       "summary_zero": "サブネットワークは見つかりませんでした",
       "supplySourceCount_one": "給水源 1 つ",
       "supplySourceCount_other": "給水源 {{count}} つ",
-      "supplySourceCount_zero": "給水源なし"
+      "supplySourceCount_zero": "給水源なし",
+      "rule": "供給源のないサブネットワーク"
     },
     "description": "ネットワークのトポロジを検証し、データ品質を確保するための一連のチェックを実行します。",
     "title": "管網レビュー",
@@ -602,8 +603,6 @@
       "summary_other": "{{count}} 件の交差点が見つかりました",
       "summary_zero": "交差点は見つかりませんでした"
     },
-    "issuesFound": "問題が見つかりました",
-    "noIssuesFound": "問題は見つかりませんでした",
     "orphanAssets": {
       "description": "ネットワークから切断されているアセットを見つける",
       "emptyMessage": "ネットワークに孤立したアセットはありません。よくできました！",
@@ -611,7 +610,8 @@
       "summary_one": "1 件の問題が見つかりました",
       "summary_other": "{{count}} 件の問題が見つかりました",
       "summary_zero": "問題は見つかりませんでした",
-      "title": "孤立アセット"
+      "title": "孤立アセット",
+      "rule": "接続されていないアセット"
     },
     "proximityAnomalies": {
       "description": "近くの管に近接している可能性のある接点を見つけます。",
@@ -682,8 +682,8 @@
         "description": "問題のあるアセットの詳細リストを確認し、自動修正にアクセス"
       }
     },
-    "outdated": "最新ではありません — このチェックを実行するには更新してください",
-    "refresh": "チェックを更新"
+    "issuesFound_one": "1件の問題",
+    "issuesFound_other": "{{count}}件の問題"
   },
   "connectedCustomers": "接続済み顧客",
   "connections": "接続",
@@ -1815,12 +1815,14 @@
   "fileReadErrorDetail": "「{{1}}」を読み取れませんでした。ファイルがまだ利用可能か確認し、もう一度お試しください。",
   "pump.relativeSpeedSetting": "相対速度",
   "preSimulationChecks": {
-    "affectedCount_one": "1 件影響を受けています",
-    "affectedCount_other": "{{count}} 件影響を受けています",
-    "body": "これらのチェックにより、シミュレーションが失敗したり、誤解を招く結果を生成したりする可能性のある問題が見つかりました。",
+    "body": "これらの問題は、シミュレーションの失敗や誤解を招く結果の原因となる可能性があります。",
     "review": "問題を確認",
     "runAnyway": "とにかく実行",
     "running": "モデルを確認中…",
-    "title": "シミュレーションを実行する前に"
-  }
+    "title": "シミュレーションを実行する前に",
+    "andMoreIssues_one": "その他1件の問題",
+    "andMoreIssues_other": "その他{{count}}件の問題",
+    "warning": "ネットワークに問題が見つかりました"
+  },
+  "waitingForPayment": "支払いを待機中..."
 }

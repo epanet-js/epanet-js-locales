@@ -601,7 +601,8 @@
       "summary_zero": "No se encontraron subredes",
       "supplySourceCount_one": "1 fuente de suministro",
       "supplySourceCount_other": "{{count}} fuentes de suministro",
-      "supplySourceCount_zero": "No hay fuente de suministro"
+      "supplySourceCount_zero": "No hay fuente de suministro",
+      "rule": "Subredes sin suministro"
     },
     "description": "Realiza una serie de comprobaciones para validar la topología de tu red y asegurar la calidad de los datos.",
     "title": "Revisión de la Red",
@@ -615,8 +616,6 @@
       "summary_other": "{{count}} intersecciones encontradas",
       "summary_zero": "No se encontraron intersecciones"
     },
-    "issuesFound": "Problemas encontrados",
-    "noIssuesFound": "No se encontraron problemas",
     "orphanAssets": {
       "description": "Encuentra activos que están desconectados de tu red",
       "emptyMessage": "No hay activos huérfanos en tu red. ¡Bien hecho!",
@@ -624,7 +623,8 @@
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
-      "title": "Activos huérfanos"
+      "title": "Activos huérfanos",
+      "rule": "Activos no conectados"
     },
     "proximityAnomalies": {
       "description": "Encuentra nudos situados cerca de tuberías adyacentes que podrían necesitar ser conectados.",
@@ -695,8 +695,8 @@
         "description": "Revisa la lista detallada de activos con problemas y accede a las correcciones automatizadas"
       }
     },
-    "outdated": "No está actualizado — actualiza para ejecutar esta comprobación",
-    "refresh": "Actualizar comprobaciones"
+    "issuesFound_one": "1 problema",
+    "issuesFound_other": "{{count}} problemas"
   },
   "connectedCustomers": "Clientes conectados",
   "connections": "Conexiones",
@@ -1822,12 +1822,14 @@
   "fileReadErrorDetail": "No pudimos leer \"{{1}}\". Comprueba que el archivo siga disponible e inténtalo de nuevo.",
   "pump.relativeSpeedSetting": "Velocidad relativa",
   "preSimulationChecks": {
-    "affectedCount_one": "1 afectado",
-    "affectedCount_other": "{{count}} afectados",
-    "body": "Estas comprobaciones encontraron problemas que pueden hacer que la simulación falle o produzca resultados engañosos.",
+    "body": "Estos problemas pueden hacer que la simulación falle o produzca resultados engañosos.",
     "review": "Revisar problemas",
     "runAnyway": "Ejecutar de todos modos",
     "running": "Comprobando tu modelo…",
-    "title": "Antes de ejecutar la simulación"
-  }
+    "title": "Antes de ejecutar la simulación",
+    "andMoreIssues_one": "y 1 problema más",
+    "andMoreIssues_other": "y {{count}} problemas más",
+    "warning": "Encontramos problemas en tu red"
+  },
+  "waitingForPayment": "Esperando pago..."
 }

@@ -588,7 +588,8 @@
       "summary_zero": "Nenhuma sub-rede encontrada",
       "supplySourceCount_one": "1 fonte de abastecimento",
       "supplySourceCount_other": "{{count}} fontes de abastecimento",
-      "supplySourceCount_zero": "Nenhuma fonte de abastecimento"
+      "supplySourceCount_zero": "Nenhuma fonte de abastecimento",
+      "rule": "Sub-redes sem abastecimento"
     },
     "description": "Execute uma série de verificações para validar a topologia da sua rede e garantir a qualidade dos dados.",
     "title": "Revisão da Rede",
@@ -602,8 +603,6 @@
       "summary_other": "{{count}} intersecções encontradas",
       "summary_zero": "Nenhuma intersecção encontrada"
     },
-    "issuesFound": "Problemas encontrados",
-    "noIssuesFound": "Nenhum problema encontrado",
     "orphanAssets": {
       "description": "Encontre ativos desconectados da sua rede",
       "emptyMessage": "Não há ativos órfãos na sua rede. Muito bem!",
@@ -611,7 +610,8 @@
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "Nenhum problema encontrado",
-      "title": "Ativos órfãos"
+      "title": "Ativos órfãos",
+      "rule": "Ativos não conectados"
     },
     "proximityAnomalies": {
       "description": "Encontra nós localizados perto de tubulações próximas que podem precisar ser conectadas.",
@@ -682,8 +682,8 @@
         "description": "Revise a lista detalhada de ativos com problemas e acesse correções automatizadas"
       }
     },
-    "outdated": "Não atualizado — atualize para executar esta verificação",
-    "refresh": "Atualizar verificações"
+    "issuesFound_one": "1 problema",
+    "issuesFound_other": "{{count}} problemas"
   },
   "connectedCustomers": "Clientes Conectados",
   "connections": "Conexões",
@@ -1815,12 +1815,14 @@
   "fileReadErrorDetail": "Não foi possível ler \"{{1}}\". Verifique se o arquivo ainda está disponível e tente novamente.",
   "pump.relativeSpeedSetting": "Velocidade relativa",
   "preSimulationChecks": {
-    "affectedCount_one": "1 afetado",
-    "affectedCount_other": "{{count}} afetados",
-    "body": "Estas verificações encontraram problemas que podem fazer a simulação falhar ou produzir resultados enganosos.",
+    "body": "Esses problemas podem fazer a simulação falhar ou produzir resultados enganosos.",
     "review": "Revisar problemas",
     "runAnyway": "Executar mesmo assim",
     "running": "Verificando seu modelo…",
-    "title": "Antes de executar a simulação"
-  }
+    "title": "Antes de executar a simulação",
+    "andMoreIssues_one": "e 1 problema mais",
+    "andMoreIssues_other": "e {{count}} problemas mais",
+    "warning": "Encontramos problemas com sua rede"
+  },
+  "waitingForPayment": "Aguardando pagamento..."
 }

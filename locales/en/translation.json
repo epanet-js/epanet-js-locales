@@ -1061,6 +1061,7 @@
   "planChangesFromSupportExplain": "Please contact our support team to modify your subscription.",
   "upgradeSuccessful": "Upgrade successful!",
   "upgradeSuccessfulExplain": "Thanks for upgrading — your new features are now unlocked.",
+  "waitingForPayment": "Waiting for payment...",
   "cannotRenderMap": "Cannot render map on your browser",
   "cannotRenderMapExplain": "The map requires WebGL, which could not be initialized in your browser. This issue can sometimes occur after suspending or putting your computer to sleep. Please try closing your browser and reopening the page in a new browser window.",
   "cannotRenderMapAction": "If the problem continues after updating your browser and graphics drivers, please contact {{1}} for assistance.",
@@ -1303,22 +1304,22 @@
   "preSimulationChecks": {
     "title": "Before running the simulation",
     "running": "Checking your model…",
-    "body": "These checks found problems that can make the simulation fail or produce misleading results.",
-    "affectedCount_one": "1 affected",
-    "affectedCount_other": "{{count}} affected",
+    "warning": "We found issues with your network",
+    "body": "These issues can make the simulation fail or produce misleading results.",
     "review": "Review issues",
-    "runAnyway": "Run anyway"
+    "runAnyway": "Run anyway",
+    "andMoreIssues_one": "and 1 more issue",
+    "andMoreIssues_other": "and {{count}} more issues"
   },
   "networkReview": {
     "toggle": "Toggle Network Review",
     "title": "Network Review",
     "description": "Run a series of checks to validate your network's topology and ensure data quality.",
-    "issuesFound": "Issues found",
-    "noIssuesFound": "No issues found",
-    "refresh": "Refresh checks",
-    "outdated": "Not up to date — refresh to run this check",
+    "issuesFound_one": "1 issue",
+    "issuesFound_other": "{{count}} issues",
     "connectivityTrace": {
       "title": "Connectivity trace",
+      "rule": "Sub-networks without supply",
       "description": "Identify disconnected sub-networks and verify each has a water supply source",
       "summary_zero": "No sub-networks found",
       "summary_one": "1 sub-network found",
@@ -1334,6 +1335,7 @@
     },
     "orphanAssets": {
       "title": "Orphan assets",
+      "rule": "Assets not connected",
       "description": "Find assets that are disconnected from your network",
       "summary_zero": "No issues found",
       "summary_one": "1 issue found",
