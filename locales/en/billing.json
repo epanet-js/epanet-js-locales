@@ -1,0 +1,88 @@
+{
+  "backToApp": "Back to the app",
+  "openApp": "Open epanet-js",
+  "billingUnavailable": {
+    "title": "Billing unavailable",
+    "detail": "Checkout is not configured in this environment."
+  },
+  "signInToStart": {
+    "title": "Sign in required",
+    "detail": "You need to be signed in to start a checkout."
+  },
+  "signInToComplete": {
+    "title": "Sign in required",
+    "detail": "You need to be signed in to complete a checkout."
+  },
+  "alreadyPaid": {
+    "title": "You already have a paid plan",
+    "detail": "Contact support to change or cancel the plan on this account."
+  },
+  "noEmail": {
+    "title": "Checkout failed",
+    "detail": "This account has no email address."
+  },
+  "planUnavailable": {
+    "title": "Checkout failed",
+    "detail": "That plan is not available right now."
+  },
+  "noCheckoutPage": {
+    "title": "Checkout unavailable",
+    "detail": "The payment provider did not return a checkout page."
+  },
+  "checkoutUnavailable": {
+    "title": "Checkout unavailable",
+    "detail": "The payment provider is not responding. Please try again."
+  },
+  "checkoutFailed": {
+    "title": "Checkout failed",
+    "detail": "Something went wrong starting your checkout. Please try again."
+  },
+  "invalidLink": {
+    "title": "Invalid checkout link",
+    "missingPlan": "A plan is required.",
+    "unknownPlan": "That plan cannot be purchased.",
+    "missingPaymentType": "A payment type is required.",
+    "unknownPaymentType": "That payment type is not recognised.",
+    "unsupportedCombination": "That plan is not available with that payment type."
+  },
+  "invalidSession": {
+    "title": "Invalid checkout session",
+    "detail": "This link is missing a valid checkout session."
+  },
+  "sessionNotFound": {
+    "title": "Checkout session not found",
+    "detail": "This checkout session no longer exists."
+  },
+  "sessionNotYours": {
+    "title": "Checkout session not yours",
+    "detail": "This checkout session belongs to another account."
+  },
+  "checkoutNotApplied": {
+    "title": "Checkout could not be applied",
+    "detail": "We could not read the details of this checkout."
+  },
+  "paidButNotApplied": {
+    "title": "Your payment went through",
+    "detail": "We could not update your plan just yet. It will update shortly — contact support if it does not."
+  },
+  "checkoutReturnFailed": {
+    "title": "Checkout could not be applied",
+    "detail": "Something went wrong finishing your checkout. If you were charged, contact support."
+  },
+  "checkoutCompleted": {
+    "title": "Payment complete",
+    "detail": "Your plan is active. Go back to the epanet-js tab you started from to keep working — you can close this one, or click below to open the app here."
+  },
+  "checkoutCompletedFailed": {
+    "title": "Payment complete",
+    "detail": "Go back to the epanet-js tab you started from to keep working."
+  },
+  "checkoutCancelled": {
+    "title": "Checkout cancelled",
+    "detail": "No payment was taken. Go back to the epanet-js tab you started from — you can close this one."
+  },
+  "checkoutCancelledFailed": {
+    "title": "Checkout cancelled",
+    "detail": "No payment was taken."
+  }
+}

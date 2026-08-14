@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "このアカウントのプランを変更またはキャンセルするには、サポートにお問い合わせください。",
+    "title": "すでに有料プランをご利用中です"
+  },
+  "backToApp": "アプリに戻る",
+  "billingUnavailable": {
+    "detail": "この環境ではチェックアウトが設定されていません。",
+    "title": "請求機能を利用できません"
+  },
+  "checkoutCancelled": {
+    "detail": "支払いは行われませんでした。元のepanet-jsタブに戻ってください — このタブは閉じてもかまいません。",
+    "title": "チェックアウトはキャンセルされました"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "支払いは行われませんでした。",
+    "title": "チェックアウトはキャンセルされました"
+  },
+  "checkoutCompleted": {
+    "detail": "プランが有効になりました。作業を続けるには、元のepanet-jsタブに戻ってください — このタブは閉じてもかまいません。または、以下をクリックしてアプリをここで開いてください。",
+    "title": "支払いが完了しました"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "作業を続けるには、元のepanet-jsタブに戻ってください。",
+    "title": "支払いが完了しました"
+  },
+  "checkoutFailed": {
+    "detail": "チェックアウトを開始する際に問題が発生しました。もう一度お試しください。",
+    "title": "チェックアウトに失敗しました"
+  },
+  "checkoutNotApplied": {
+    "detail": "このチェックアウトの詳細を読み取れませんでした。",
+    "title": "チェックアウトを適用できませんでした"
+  },
+  "checkoutReturnFailed": {
+    "detail": "チェックアウトを完了する際に問題が発生しました。請求されている場合は、サポートにお問い合わせください。",
+    "title": "チェックアウトを適用できませんでした"
+  },
+  "checkoutUnavailable": {
+    "detail": "決済プロバイダーが応答していません。もう一度お試しください。",
+    "title": "チェックアウトを利用できません"
+  },
+  "invalidLink": {
+    "missingPaymentType": "支払い方法が必要です。",
+    "missingPlan": "プランが必要です。",
+    "title": "無効なチェックアウトリンク",
+    "unknownPaymentType": "その支払い方法は認識されません。",
+    "unknownPlan": "そのプランは購入できません。",
+    "unsupportedCombination": "そのプランはその支払い方法では利用できません。"
+  },
+  "invalidSession": {
+    "detail": "このリンクには有効なチェックアウトセッションがありません。",
+    "title": "無効なチェックアウトセッション"
+  },
+  "noCheckoutPage": {
+    "detail": "決済プロバイダーがチェックアウトページを返しませんでした。",
+    "title": "チェックアウトを利用できません"
+  },
+  "noEmail": {
+    "detail": "このアカウントにはメールアドレスがありません。",
+    "title": "チェックアウトに失敗しました"
+  },
+  "openApp": "epanet-jsを開く",
+  "paidButNotApplied": {
+    "detail": "まだプランを更新できませんでした。まもなく更新されます — 更新されない場合はサポートにお問い合わせください。",
+    "title": "お支払いが完了しました"
+  },
+  "planUnavailable": {
+    "detail": "そのプランは現在利用できません。",
+    "title": "チェックアウトに失敗しました"
+  },
+  "sessionNotFound": {
+    "detail": "このチェックアウトセッションはもう存在しません。",
+    "title": "チェックアウトセッションが見つかりません"
+  },
+  "sessionNotYours": {
+    "detail": "このチェックアウトセッションは別のアカウントのものです。",
+    "title": "このチェックアウトセッションはあなたのものではありません"
+  },
+  "signInToComplete": {
+    "detail": "チェックアウトを完了するにはサインインする必要があります。",
+    "title": "サインインが必要です"
+  },
+  "signInToStart": {
+    "detail": "チェックアウトを開始するにはサインインする必要があります。",
+    "title": "サインインが必要です"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "Hubungi dukungan untuk mengubah atau membatalkan paket di akun ini.",
+    "title": "Anda sudah memiliki paket berbayar"
+  },
+  "backToApp": "Kembali ke aplikasi",
+  "billingUnavailable": {
+    "detail": "Checkout tidak dikonfigurasi di lingkungan ini.",
+    "title": "Penagihan tidak tersedia"
+  },
+  "checkoutCancelled": {
+    "detail": "Tidak ada pembayaran yang diambil. Kembali ke tab epanet-js tempat Anda memulai — Anda bisa menutup tab ini.",
+    "title": "Checkout dibatalkan"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "Tidak ada pembayaran yang diambil.",
+    "title": "Checkout dibatalkan"
+  },
+  "checkoutCompleted": {
+    "detail": "Paket Anda aktif. Kembali ke tab epanet-js tempat Anda memulai untuk melanjutkan pekerjaan — Anda bisa menutup tab ini, atau klik di bawah untuk membuka aplikasi di sini.",
+    "title": "Pembayaran selesai"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "Kembali ke tab epanet-js tempat Anda memulai untuk melanjutkan pekerjaan.",
+    "title": "Pembayaran selesai"
+  },
+  "checkoutFailed": {
+    "detail": "Terjadi kesalahan saat memulai checkout Anda. Silakan coba lagi.",
+    "title": "Checkout gagal"
+  },
+  "checkoutNotApplied": {
+    "detail": "Kami tidak dapat membaca detail checkout ini.",
+    "title": "Checkout tidak dapat diterapkan"
+  },
+  "checkoutReturnFailed": {
+    "detail": "Terjadi kesalahan saat menyelesaikan checkout Anda. Jika Anda dikenakan biaya, hubungi dukungan.",
+    "title": "Checkout tidak dapat diterapkan"
+  },
+  "checkoutUnavailable": {
+    "detail": "Penyedia pembayaran tidak merespons. Silakan coba lagi.",
+    "title": "Checkout tidak tersedia"
+  },
+  "invalidLink": {
+    "missingPaymentType": "Jenis pembayaran diperlukan.",
+    "missingPlan": "Paket diperlukan.",
+    "title": "Tautan checkout tidak valid",
+    "unknownPaymentType": "Jenis pembayaran tersebut tidak dikenali.",
+    "unknownPlan": "Paket tersebut tidak dapat dibeli.",
+    "unsupportedCombination": "Paket tersebut tidak tersedia dengan jenis pembayaran tersebut."
+  },
+  "invalidSession": {
+    "detail": "Tautan ini kehilangan sesi checkout yang valid.",
+    "title": "Sesi checkout tidak valid"
+  },
+  "noCheckoutPage": {
+    "detail": "Penyedia pembayaran tidak mengembalikan halaman checkout.",
+    "title": "Checkout tidak tersedia"
+  },
+  "noEmail": {
+    "detail": "Akun ini tidak memiliki alamat email.",
+    "title": "Checkout gagal"
+  },
+  "openApp": "Buka epanet-js",
+  "paidButNotApplied": {
+    "detail": "Kami belum dapat memperbarui paket Anda. Ini akan segera diperbarui — hubungi dukungan jika tidak.",
+    "title": "Pembayaran Anda berhasil"
+  },
+  "planUnavailable": {
+    "detail": "Paket tersebut tidak tersedia saat ini.",
+    "title": "Checkout gagal"
+  },
+  "sessionNotFound": {
+    "detail": "Sesi checkout ini tidak lagi ada.",
+    "title": "Sesi checkout tidak ditemukan"
+  },
+  "sessionNotYours": {
+    "detail": "Sesi checkout ini milik akun lain.",
+    "title": "Sesi checkout bukan milik Anda"
+  },
+  "signInToComplete": {
+    "detail": "Anda harus masuk untuk menyelesaikan checkout.",
+    "title": "Login diperlukan"
+  },
+  "signInToStart": {
+    "detail": "Anda harus masuk untuk memulai checkout.",
+    "title": "Login diperlukan"
+  }
+}

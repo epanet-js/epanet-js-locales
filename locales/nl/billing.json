@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "Neem contact op met de support om het abonnement op dit account te wijzigen of te annuleren.",
+    "title": "U heeft al een betaald abonnement"
+  },
+  "backToApp": "Terug naar de app",
+  "billingUnavailable": {
+    "detail": "Afhandeling is niet geconfigureerd in deze omgeving.",
+    "title": "Facturering niet beschikbaar"
+  },
+  "checkoutCancelled": {
+    "detail": "Er is geen betaling verricht. Ga terug naar het epanet-js tabblad vanwaar u gestart bent — u kunt dit sluiten.",
+    "title": "Afhandeling geannuleerd"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "Er is geen betaling verricht.",
+    "title": "Afhandeling geannuleerd"
+  },
+  "checkoutCompleted": {
+    "detail": "Uw abonnement is actief. Ga terug naar het epanet-js tabblad vanwaar u gestart bent om verder te werken — u kunt dit sluiten, of hieronder klikken om de app hier te openen.",
+    "title": "Betaling voltooid"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "Ga terug naar het epanet-js tabblad vanwaar u gestart bent om verder te werken.",
+    "title": "Betaling voltooid"
+  },
+  "checkoutFailed": {
+    "detail": "Er is iets misgegaan bij het starten van uw afhandeling. Probeer het opnieuw.",
+    "title": "Afhandeling mislukt"
+  },
+  "checkoutNotApplied": {
+    "detail": "We konden de details van deze afhandeling niet lezen.",
+    "title": "Afhandeling kon niet worden toegepast"
+  },
+  "checkoutReturnFailed": {
+    "detail": "Er is iets misgegaan bij het voltooien van uw afhandeling. Als er kosten in rekening zijn gebracht, neem dan contact op met de support.",
+    "title": "Afhandeling kon niet worden toegepast"
+  },
+  "checkoutUnavailable": {
+    "detail": "De betalingsprovider reageert niet. Probeer het opnieuw.",
+    "title": "Afhandeling niet beschikbaar"
+  },
+  "invalidLink": {
+    "missingPaymentType": "Een betalingstype is vereist.",
+    "missingPlan": "Een abonnement is vereist.",
+    "title": "Ongeldige afhandelingslink",
+    "unknownPaymentType": "Dat betalingstype wordt niet herkend.",
+    "unknownPlan": "Dat abonnement kan niet worden aangeschaft.",
+    "unsupportedCombination": "Dat abonnement is niet beschikbaar met dat betalingstype."
+  },
+  "invalidSession": {
+    "detail": "Deze link mist een geldige afhandelingssessie.",
+    "title": "Ongeldige afhandelingssessie"
+  },
+  "noCheckoutPage": {
+    "detail": "De betalingsprovider heeft geen afhandelingspagina geretourneerd.",
+    "title": "Afhandeling niet beschikbaar"
+  },
+  "noEmail": {
+    "detail": "Dit account heeft geen e-mailadres.",
+    "title": "Afhandeling mislukt"
+  },
+  "openApp": "Open epanet-js",
+  "paidButNotApplied": {
+    "detail": "We konden uw abonnement nog niet bijwerken. Het wordt binnenkort bijgewerkt — neem contact op met de support als dit niet gebeurt.",
+    "title": "Uw betaling is gelukt"
+  },
+  "planUnavailable": {
+    "detail": "Dat abonnement is momenteel niet beschikbaar.",
+    "title": "Afhandeling mislukt"
+  },
+  "sessionNotFound": {
+    "detail": "Deze afhandelingssessie bestaat niet meer.",
+    "title": "Afhandelingssessie niet gevonden"
+  },
+  "sessionNotYours": {
+    "detail": "Deze afhandelingssessie behoort toe aan een ander account.",
+    "title": "Afhandelingssessie niet van u"
+  },
+  "signInToComplete": {
+    "detail": "U moet zijn ingelogd om een afhandeling te voltooien.",
+    "title": "Inloggen vereist"
+  },
+  "signInToStart": {
+    "detail": "U moet zijn ingelogd om een afhandeling te starten.",
+    "title": "Inloggen vereist"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "Contacta con soporte para cambiar o cancelar el plan de esta cuenta.",
+    "title": "Ya tienes un plan de pago"
+  },
+  "backToApp": "Volver a la aplicación",
+  "billingUnavailable": {
+    "detail": "La compra no está configurada en este entorno.",
+    "title": "Facturación no disponible"
+  },
+  "checkoutCancelled": {
+    "detail": "No se realizó ningún pago. Vuelve a la pestaña de epanet-js desde la que empezaste; puedes cerrar esta.",
+    "title": "Compra cancelada"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "No se realizó ningún pago.",
+    "title": "Compra cancelada"
+  },
+  "checkoutCompleted": {
+    "detail": "Tu plan está activo. Vuelve a la pestaña de epanet-js desde la que empezaste para seguir trabajando; puedes cerrar esta o hacer clic abajo para abrir la aplicación aquí.",
+    "title": "Pago completado"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "Vuelve a la pestaña de epanet-js desde la que empezaste para seguir trabajando.",
+    "title": "Pago completado"
+  },
+  "checkoutFailed": {
+    "detail": "Algo salió mal al iniciar tu compra. Por favor, inténtalo de nuevo.",
+    "title": "Error en la compra"
+  },
+  "checkoutNotApplied": {
+    "detail": "No pudimos leer los detalles de esta compra.",
+    "title": "No se pudo aplicar la compra"
+  },
+  "checkoutReturnFailed": {
+    "detail": "Algo salió mal al finalizar tu compra. Si se te cobró, contacta con soporte.",
+    "title": "No se pudo aplicar la compra"
+  },
+  "checkoutUnavailable": {
+    "detail": "El proveedor de pagos no responde. Por favor, inténtalo de nuevo.",
+    "title": "Compra no disponible"
+  },
+  "invalidLink": {
+    "missingPaymentType": "Se requiere un tipo de pago.",
+    "missingPlan": "Se requiere un plan.",
+    "title": "Enlace de compra inválido",
+    "unknownPaymentType": "Ese tipo de pago no es reconocido.",
+    "unknownPlan": "Ese plan no se puede comprar.",
+    "unsupportedCombination": "Ese plan no está disponible con ese tipo de pago."
+  },
+  "invalidSession": {
+    "detail": "A este enlace le falta una sesión de compra válida.",
+    "title": "Sesión de compra inválida"
+  },
+  "noCheckoutPage": {
+    "detail": "El proveedor de pagos no devolvió una página de compra.",
+    "title": "Compra no disponible"
+  },
+  "noEmail": {
+    "detail": "Esta cuenta no tiene dirección de correo electrónico.",
+    "title": "Error en la compra"
+  },
+  "openApp": "Abrir epanet-js",
+  "paidButNotApplied": {
+    "detail": "No pudimos actualizar tu plan todavía. Se actualizará en breve; contacta con soporte si no lo hace.",
+    "title": "Tu pago se procesó correctamente"
+  },
+  "planUnavailable": {
+    "detail": "Ese plan no está disponible en este momento.",
+    "title": "Error en la compra"
+  },
+  "sessionNotFound": {
+    "detail": "Esta sesión de compra ya no existe.",
+    "title": "Sesión de compra no encontrada"
+  },
+  "sessionNotYours": {
+    "detail": "Esta sesión de compra pertenece a otra cuenta.",
+    "title": "Esta sesión de compra no es tuya"
+  },
+  "signInToComplete": {
+    "detail": "Debes iniciar sesión para completar una compra.",
+    "title": "Inicio de sesión requerido"
+  },
+  "signInToStart": {
+    "detail": "Debes iniciar sesión para iniciar una compra.",
+    "title": "Inicio de sesión requerido"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "Contacte o suporte para mudar ou cancelar o plano desta conta.",
+    "title": "Você já tem um plano pago"
+  },
+  "backToApp": "Voltar para o aplicativo",
+  "billingUnavailable": {
+    "detail": "O checkout não está configurado neste ambiente.",
+    "title": "Cobrança indisponível"
+  },
+  "checkoutCancelled": {
+    "detail": "Nenhum pagamento foi efetuado. Volte para a aba do epanet-js de onde você começou — você pode fechar esta.",
+    "title": "Checkout cancelado"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "Nenhum pagamento foi efetuado.",
+    "title": "Checkout cancelado"
+  },
+  "checkoutCompleted": {
+    "detail": "Seu plano está ativo. Volte para a aba do epanet-js de onde você começou para continuar trabalhando — você pode fechar esta, ou clicar abaixo para abrir o aplicativo aqui.",
+    "title": "Pagamento concluído"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "Volte para a aba do epanet-js de onde você começou para continuar trabalhando.",
+    "title": "Pagamento concluído"
+  },
+  "checkoutFailed": {
+    "detail": "Algo deu errado ao iniciar seu checkout. Por favor, tente novamente.",
+    "title": "Checkout falhou"
+  },
+  "checkoutNotApplied": {
+    "detail": "Não foi possível ler os detalhes deste checkout.",
+    "title": "O checkout não pôde ser aplicado"
+  },
+  "checkoutReturnFailed": {
+    "detail": "Algo deu errado ao finalizar seu checkout. Se você foi cobrado, contacte o suporte.",
+    "title": "O checkout não pôde ser aplicado"
+  },
+  "checkoutUnavailable": {
+    "detail": "O provedor de pagamento não está respondendo. Por favor, tente novamente.",
+    "title": "Checkout indisponível"
+  },
+  "invalidLink": {
+    "missingPaymentType": "Um tipo de pagamento é obrigatório.",
+    "missingPlan": "Um plano é obrigatório.",
+    "title": "Link de checkout inválido",
+    "unknownPaymentType": "Esse tipo de pagamento não é reconhecido.",
+    "unknownPlan": "Esse plano não pode ser adquirido.",
+    "unsupportedCombination": "Esse plano não está disponível com esse tipo de pagamento."
+  },
+  "invalidSession": {
+    "detail": "Este link não possui uma sessão de checkout válida.",
+    "title": "Sessão de checkout inválida"
+  },
+  "noCheckoutPage": {
+    "detail": "O provedor de pagamento não retornou uma página de checkout.",
+    "title": "Checkout indisponível"
+  },
+  "noEmail": {
+    "detail": "Esta conta não possui um endereço de e-mail.",
+    "title": "Checkout falhou"
+  },
+  "openApp": "Abrir epanet-js",
+  "paidButNotApplied": {
+    "detail": "Não foi possível atualizar seu plano ainda. Ele será atualizado em breve — contacte o suporte se isso não acontecer.",
+    "title": "Seu pagamento foi efetuado"
+  },
+  "planUnavailable": {
+    "detail": "Esse plano não está disponível no momento.",
+    "title": "Checkout falhou"
+  },
+  "sessionNotFound": {
+    "detail": "Esta sessão de checkout não existe mais.",
+    "title": "Sessão de checkout não encontrada"
+  },
+  "sessionNotYours": {
+    "detail": "Esta sessão de checkout pertence a outra conta.",
+    "title": "Sessão de checkout não é sua"
+  },
+  "signInToComplete": {
+    "detail": "Você precisa estar conectado para concluir um checkout.",
+    "title": "Login necessário"
+  },
+  "signInToStart": {
+    "detail": "Você precisa estar conectado para iniciar um checkout.",
+    "title": "Login necessário"
+  }
+}

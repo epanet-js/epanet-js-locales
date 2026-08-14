@@ -1,0 +1,88 @@
+{
+  "alreadyPaid": {
+    "detail": "Contactez le support pour modifier ou annuler le plan sur ce compte.",
+    "title": "Vous avez déjà un plan payant"
+  },
+  "backToApp": "Retour à l'application",
+  "billingUnavailable": {
+    "detail": "Le paiement n'est pas configuré dans cet environnement.",
+    "title": "Facturation indisponible"
+  },
+  "checkoutCancelled": {
+    "detail": "Aucun paiement n'a été effectué. Retournez à l'onglet epanet-js d'où vous êtes parti — vous pouvez fermer celui-ci.",
+    "title": "Paiement annulé"
+  },
+  "checkoutCancelledFailed": {
+    "detail": "Aucun paiement n'a été effectué.",
+    "title": "Paiement annulé"
+  },
+  "checkoutCompleted": {
+    "detail": "Votre plan est actif. Retournez à l'onglet epanet-js d'où vous êtes parti pour continuer à travailler — vous pouvez fermer celui-ci, ou cliquer ci-dessous pour ouvrir l'application ici.",
+    "title": "Paiement terminé"
+  },
+  "checkoutCompletedFailed": {
+    "detail": "Retournez à l'onglet epanet-js d'où vous êtes parti pour continuer à travailler.",
+    "title": "Paiement terminé"
+  },
+  "checkoutFailed": {
+    "detail": "Un problème est survenu lors du démarrage de votre paiement. Veuillez réessayer.",
+    "title": "Échec du paiement"
+  },
+  "checkoutNotApplied": {
+    "detail": "Nous n'avons pas pu lire les détails de ce paiement.",
+    "title": "Le paiement n'a pas pu être appliqué"
+  },
+  "checkoutReturnFailed": {
+    "detail": "Un problème est survenu lors de la finalisation de votre paiement. Si vous avez été facturé, contactez le support.",
+    "title": "Le paiement n'a pas pu être appliqué"
+  },
+  "checkoutUnavailable": {
+    "detail": "Le fournisseur de paiement ne répond pas. Veuillez réessayer.",
+    "title": "Paiement indisponible"
+  },
+  "invalidLink": {
+    "missingPaymentType": "Un type de paiement est requis.",
+    "missingPlan": "Un plan est requis.",
+    "title": "Lien de paiement invalide",
+    "unknownPaymentType": "Ce type de paiement n'est pas reconnu.",
+    "unknownPlan": "Ce plan ne peut pas être acheté.",
+    "unsupportedCombination": "Ce plan n'est pas disponible avec ce type de paiement."
+  },
+  "invalidSession": {
+    "detail": "Ce lien ne contient pas de session de paiement valide.",
+    "title": "Session de paiement invalide"
+  },
+  "noCheckoutPage": {
+    "detail": "Le fournisseur de paiement n'a pas renvoyé de page de paiement.",
+    "title": "Paiement indisponible"
+  },
+  "noEmail": {
+    "detail": "Ce compte n'a pas d'adresse e-mail.",
+    "title": "Échec du paiement"
+  },
+  "openApp": "Ouvrir epanet-js",
+  "paidButNotApplied": {
+    "detail": "Nous n'avons pas encore pu mettre à jour votre plan. Il sera mis à jour sous peu — contactez le support si ce n'est pas le cas.",
+    "title": "Votre paiement a été effectué"
+  },
+  "planUnavailable": {
+    "detail": "Ce plan n'est pas disponible actuellement.",
+    "title": "Échec du paiement"
+  },
+  "sessionNotFound": {
+    "detail": "Cette session de paiement n'existe plus.",
+    "title": "Session de paiement introuvable"
+  },
+  "sessionNotYours": {
+    "detail": "Cette session de paiement appartient à un autre compte.",
+    "title": "Cette session de paiement ne vous appartient pas"
+  },
+  "signInToComplete": {
+    "detail": "Vous devez être connecté pour finaliser un paiement.",
+    "title": "Connexion requise"
+  },
+  "signInToStart": {
+    "detail": "Vous devez être connecté pour démarrer un paiement.",
+    "title": "Connexion requise"
+  }
+}
