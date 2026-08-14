@@ -13,6 +13,10 @@ export const MODEL_BUILD_ENGLISH_URL =
   process.env.MODEL_BUILD_ENGLISH_URL ??
   "https://monorepo-model-build.vercel.app/locales/en/translation.json";
 
+export const BILLING_ENGLISH_URL =
+  process.env.BILLING_ENGLISH_URL ??
+  "https://billing.epanetjs.com/locales/en/translation.json";
+
 export const LOCALES_DIR = path.join(process.cwd(), "locales");
 export const DEFAULT_NS = "translation";
 
@@ -23,14 +27,19 @@ export type TranslationSource = {
 };
 
 // Each source's English is pulled from its live deploy and translated into
-// locales/{lng}/{namespace}.json. The app and model-build are independent: a source
-// only ever reads/writes its own namespace file.
+// locales/{lng}/{namespace}.json. Sources are independent: a source only ever
+// reads/writes its own namespace file.
 export const TRANSLATION_SOURCES: TranslationSource[] = [
   { name: "App", liveUrl: LIVE_ENGLISH_URL, namespace: DEFAULT_NS },
   {
     name: "Model builder",
     liveUrl: MODEL_BUILD_ENGLISH_URL,
     namespace: "model-build",
+  },
+  {
+    name: "Billing",
+    liveUrl: BILLING_ENGLISH_URL,
+    namespace: "billing",
   },
 ];
 

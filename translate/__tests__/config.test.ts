@@ -49,7 +49,7 @@ describe("Slack Configuration", () => {
     expect(config.SLACK_TRUNCATE_SUFFIX).toBeDefined();
   });
 
-  it("should expose translation sources for the app and model-build", async () => {
+  it("should expose translation sources for the app, model-build and billing", async () => {
     const { TRANSLATION_SOURCES } = await import("../config");
 
     const byNamespace = Object.fromEntries(
@@ -57,6 +57,7 @@ describe("Slack Configuration", () => {
     );
     expect(byNamespace["translation"]).toBeDefined();
     expect(byNamespace["model-build"]).toBeDefined();
+    expect(byNamespace["billing"]).toBeDefined();
 
     for (const source of TRANSLATION_SOURCES) {
       expect(typeof source.liveUrl).toBe("string");
