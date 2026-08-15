@@ -1410,7 +1410,6 @@
   "savingProject": "Salvando projeto...",
   "dropProjectOrInp": "Arraste seu projeto ou modelo INP aqui.",
   "projectOpened": "Projeto aberto",
-  "simulateUnavailablePrivateBrowsing": "A simulação não está disponível em navegadores mais antigos ou no modo de navegação anônima. Tente atualizar seu navegador ou usar outra janela.",
   "exportAssetData": "Exportar Dados do Ativo",
   "exportSimulationResults": "Incluir resultados da simulação",
   "exportSimulationResultsForCurrentStep": "Incluir resultados no passo atual",
@@ -1766,14 +1765,10 @@
   "customAttributesItem": "Atributos personalizados",
   "cancel": "Cancelar",
   "continue": "Continuar",
-  "discardChangesAction": "Descartar Alterações",
-  "recoverChangesAction": "Recuperar Alterações",
   "recoveredModelName": "Modelo recuperado",
   "recoverUnsavedModelFailedDescription": "O modelo não salvo não pôde mais ser lido do armazenamento local.",
   "recoverUnsavedModelFailedTitle": "Não foi possível recuperar o modelo não salvo",
-  "restoreUnsavedWorkDescription": "Sua última sessão foi encerrada inesperadamente. Mantivemos uma cópia das alterações que você não havia salvo ainda.",
   "restoreUnsavedWorkLastSave": "Último salvamento",
-  "restoreUnsavedWorkProject": "Projeto",
   "restoreUnsavedWorkTitle": "Restaurar trabalho não salvo?",
   "restoreUnsavedWorkLastChange": "Última alteração",
   "restoreUnsavedWorkNeverSaved": "Não salvo",
@@ -1824,5 +1819,6 @@
     "andMoreIssues_other": "e {{count}} problemas mais",
     "warning": "Encontramos problemas com sua rede"
   },
-  "waitingForPayment": "Aguardando pagamento..."
+  "waitingForPayment": "Aguardando pagamento...",
+  "simulateUnavailableNoBrowserStorage": "A simulação não está disponível em navegadores mais antigos ou no modo de navegação anônima. Tente atualizar seu navegador ou usar outra janela."
 }

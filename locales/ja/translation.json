@@ -1410,7 +1410,6 @@
   "savingProject": "プロジェクトを保存中...",
   "dropProjectOrInp": "プロジェクトまたはINPモデルをここにドラッグしてください。",
   "projectOpened": "プロジェクトが開かれました",
-  "simulateUnavailablePrivateBrowsing": "シミュレーションは、古いブラウザやプライベートブラウジングモードでは利用できません。ブラウザを更新するか、別のウィンドウを使用してみてください。",
   "exportAssetData": "アセットデータをエクスポート",
   "exportSimulationResults": "シミュレーション結果を含める",
   "exportSimulationResultsForCurrentStep": "現在のステップの結果を含める",
@@ -1766,14 +1765,10 @@
   "customAttributesItem": "カスタム属性",
   "cancel": "キャンセル",
   "continue": "続行",
-  "discardChangesAction": "変更を破棄",
-  "recoverChangesAction": "変更を復元",
   "recoveredModelName": "復元されたモデル",
   "recoverUnsavedModelFailedDescription": "未保存のモデルをローカルストレージから読み取ることができませんでした。",
   "recoverUnsavedModelFailedTitle": "未保存のモデルを復元できませんでした",
-  "restoreUnsavedWorkDescription": "前回のセッションが予期せず終了しました。保存していなかった変更のコピーを保持しています。",
   "restoreUnsavedWorkLastSave": "最終保存",
-  "restoreUnsavedWorkProject": "プロジェクト",
   "restoreUnsavedWorkTitle": "未保存の作業を復元しますか？",
   "restoreUnsavedWorkLastChange": "最終変更",
   "restoreUnsavedWorkNeverSaved": "未保存",
@@ -1824,5 +1819,6 @@
     "andMoreIssues_other": "その他{{count}}件の問題",
     "warning": "ネットワークに問題が見つかりました"
   },
-  "waitingForPayment": "支払いを待機中..."
+  "waitingForPayment": "支払いを待機中...",
+  "simulateUnavailableNoBrowserStorage": "シミュレーションにはこのウィンドウが使用できないブラウザストレージが必要です。プライベートブラウジングはこれをブロックし、古いブラウザはサポートしていません。通常のウィンドウでお試しいただくか、ブラウザを最新バージョンに更新してください。"
 }

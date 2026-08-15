@@ -1147,7 +1147,6 @@
   "shutoffPoint": "Tutup",
   "signUpToUnlockResolution": "Daftar untuk membuka citra satelit resolusi tinggi.",
   "simulate": "Simulasikan",
-  "simulateUnavailablePrivateBrowsing": "Simulasi tidak tersedia di browser lama atau mode penjelajahan pribadi. Coba perbarui browser Anda atau gunakan jendela lain.",
   "simulation": "Simulasi",
   "simulationFailure": "Simulasi dengan kesalahan",
   "simulationFailureExplain": "Jalannya simulasi tidak berhasil. Tinjau laporan simulasi untuk detailnya.",
@@ -1766,14 +1765,10 @@
   "customAttributesItem": "Atribut kustom",
   "cancel": "Batal",
   "continue": "Lanjutkan",
-  "discardChangesAction": "Buang Perubahan",
-  "recoverChangesAction": "Pulihkan Perubahan",
   "recoveredModelName": "Model yang dipulihkan",
   "recoverUnsavedModelFailedDescription": "Model yang belum disimpan tidak dapat lagi dibaca dari penyimpanan lokal.",
   "recoverUnsavedModelFailedTitle": "Tidak dapat memulihkan model yang belum disimpan",
-  "restoreUnsavedWorkDescription": "Sesi terakhir Anda ditutup secara tidak terduga. Kami menyimpan salinan perubahan yang belum Anda simpan.",
   "restoreUnsavedWorkLastSave": "Penyimpanan terakhir",
-  "restoreUnsavedWorkProject": "Proyek",
   "restoreUnsavedWorkTitle": "Pulihkan pekerjaan yang belum disimpan?",
   "restoreUnsavedWorkLastChange": "Perubahan terakhir",
   "restoreUnsavedWorkNeverSaved": "Belum disimpan",
@@ -1824,5 +1819,6 @@
     "andMoreIssues_other": "dan {{count}} masalah lainnya",
     "warning": "Kami menemukan masalah dengan jaringan Anda"
   },
-  "waitingForPayment": "Menunggu pembayaran..."
+  "waitingForPayment": "Menunggu pembayaran...",
+  "simulateUnavailableNoBrowserStorage": "Simulasi memerlukan penyimpanan browser yang tidak dapat digunakan oleh jendela ini. Penjelajahan pribadi memblokirnya, dan browser lama tidak mendukungnya. Coba jendela normal, atau perbarui browser Anda ke versi terbaru."
 }

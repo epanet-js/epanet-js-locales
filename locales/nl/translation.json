@@ -1410,7 +1410,6 @@
   "savingProject": "Project opslaan...",
   "dropProjectOrInp": "Sleep uw project- of INP-model hierheen.",
   "projectOpened": "Project geopend",
-  "simulateUnavailablePrivateBrowsing": "Simulatie is niet beschikbaar in oudere browsers of de privémodus. Probeer uw browser bij te werken of een ander venster te gebruiken.",
   "exportAssetData": "Onderdeelgegevens exporteren",
   "exportSimulationResults": "Inclusief simulatie resultaten",
   "exportSimulationResultsForCurrentStep": "Inclusief resultaten voor huidige stap",
@@ -1766,14 +1765,10 @@
   "customAttributesItem": "Aangepaste attributen",
   "cancel": "Annuleren",
   "continue": "Doorgaan",
-  "discardChangesAction": "Wijzigingen verwerpen",
-  "recoverChangesAction": "Wijzigingen herstellen",
   "recoveredModelName": "Hersteld model",
   "recoverUnsavedModelFailedDescription": "Het niet-opgeslagen model kon niet meer worden gelezen uit de lokale opslag.",
   "recoverUnsavedModelFailedTitle": "Kon het niet-opgeslagen model niet herstellen",
-  "restoreUnsavedWorkDescription": "Uw laatste sessie is onverwachts afgesloten. We hebben een kopie bewaard van de wijzigingen die u nog niet had opgeslagen.",
   "restoreUnsavedWorkLastSave": "Laatst opgeslagen",
-  "restoreUnsavedWorkProject": "Project",
   "restoreUnsavedWorkTitle": "Niet-opgeslagen werk herstellen?",
   "restoreUnsavedWorkLastChange": "Laatste wijziging",
   "restoreUnsavedWorkNeverSaved": "Niet-opgeslagen",
@@ -1824,5 +1819,6 @@
     "andMoreIssues_other": "en nog {{count}} problemen",
     "warning": "We vonden problemen met uw netwerk"
   },
-  "waitingForPayment": "Wachten op betaling..."
+  "waitingForPayment": "Wachten op betaling...",
+  "simulateUnavailableNoBrowserStorage": "Simulatie heeft browseropslag nodig die dit venster niet kan gebruiken. Privénavigatie blokkeert dit, en oudere browsers ondersteunen het niet. Probeer een normaal venster, of update uw browser naar de nieuwste versie."
 }

@@ -1410,7 +1410,6 @@
   "savingProject": "Enregistrement du projet...",
   "dropProjectOrInp": "Faites glisser votre projet ou modèle INP ici.",
   "projectOpened": "Projet ouvert",
-  "simulateUnavailablePrivateBrowsing": "La simulation n'est pas disponible dans les navigateurs plus anciens ou en mode de navigation privée. Essayez de mettre à jour votre navigateur ou d'utiliser une autre fenêtre.",
   "exportAssetData": "Exporter les données des éléments",
   "exportSimulationResults": "Inclure les résultats de la simulation",
   "exportSimulationResultsForCurrentStep": "Inclure les résultats de l'étape actuelle",
@@ -1766,14 +1765,10 @@
   "customAttributesItem": "Attributs personnalisés",
   "cancel": "Annuler",
   "continue": "Continuer",
-  "discardChangesAction": "Ignorer les modifications",
-  "recoverChangesAction": "Récupérer les modifications",
   "recoveredModelName": "Modèle récupéré",
   "recoverUnsavedModelFailedDescription": "Le modèle non enregistré n'a plus pu être lu depuis le stockage local.",
   "recoverUnsavedModelFailedTitle": "Impossible de récupérer le modèle non enregistré",
-  "restoreUnsavedWorkDescription": "Votre dernière session s'est terminée de manière inattendue. Nous avons conservé une copie des modifications que vous n'aviez pas encore enregistrées.",
   "restoreUnsavedWorkLastSave": "Dernière sauvegarde",
-  "restoreUnsavedWorkProject": "Projet",
   "restoreUnsavedWorkTitle": "Restaurer le travail non enregistré ?",
   "restoreUnsavedWorkLastChange": "Dernière modification",
   "restoreUnsavedWorkNeverSaved": "Non enregistré",
@@ -1824,5 +1819,6 @@
     "andMoreIssues_other": "et {{count}} problèmes de plus",
     "warning": "Nous avons trouvé des problèmes avec votre réseau"
   },
-  "waitingForPayment": "En attente de paiement..."
+  "waitingForPayment": "En attente de paiement...",
+  "simulateUnavailableNoBrowserStorage": "La simulation nécessite un stockage de navigateur que cette fenêtre ne peut pas utiliser. La navigation privée le bloque, et les navigateurs plus anciens ne le supportent pas. Essayez une fenêtre normale, ou mettez à jour votre navigateur vers la dernière version."
 }

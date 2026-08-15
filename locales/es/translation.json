@@ -1423,7 +1423,6 @@
   "savingProject": "Guardando proyecto...",
   "dropProjectOrInp": "Arrastra tu proyecto o modelo INP aquí.",
   "projectOpened": "Proyecto abierto",
-  "simulateUnavailablePrivateBrowsing": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana.",
   "exportAssetData": "Exportar datos de activos",
   "exportSimulationResults": "Incluir resultados de simulación",
   "exportSimulationResultsForCurrentStep": "Incluir resultados en el paso actual",
@@ -1780,14 +1779,10 @@
   "cancel": "Cancelar",
   "continue": "Continuar",
   "done": "Aceptar",
-  "discardChangesAction": "Descartar cambios",
-  "recoverChangesAction": "Recuperar cambios",
   "recoveredModelName": "Modelo recuperado",
   "recoverUnsavedModelFailedDescription": "El modelo no guardado no pudo leerse desde el almacenamiento local.",
   "recoverUnsavedModelFailedTitle": "No se pudo recuperar el modelo no guardado",
-  "restoreUnsavedWorkDescription": "Tu última sesión se cerró inesperadamente. Conservamos una copia con los cambios que no habías guardado.",
   "restoreUnsavedWorkLastSave": "Último guardado",
-  "restoreUnsavedWorkProject": "Proyecto",
   "restoreUnsavedWorkTitle": "¿Restaurar trabajo no guardado?",
   "restoreUnsavedWorkLastChange": "Último cambio",
   "restoreUnsavedWorkNeverSaved": "Sin guardar",
@@ -1831,5 +1826,6 @@
     "andMoreIssues_other": "y {{count}} problemas más",
     "warning": "Encontramos problemas en tu red"
   },
-  "waitingForPayment": "Esperando pago..."
+  "waitingForPayment": "Esperando pago...",
+  "simulateUnavailableNoBrowserStorage": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana."
 }
