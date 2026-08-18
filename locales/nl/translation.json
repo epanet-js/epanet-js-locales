@@ -1815,9 +1815,13 @@
     "runAnyway": "Toch uitvoeren",
     "running": "Uw model controleren…",
     "title": "Voordat de simulatie wordt uitgevoerd",
-    "andMoreIssues_one": "en nog 1 probleem",
-    "andMoreIssues_other": "en nog {{count}} problemen",
-    "warning": "We vonden problemen met uw netwerk"
+    "warning": "We vonden problemen met uw netwerk",
+    "andMoreRules_one": "...en nog 1 regel",
+    "andMoreRules_other": "...en nog {{count}} regels",
+    "failed": {
+      "body": "De controles zijn niet voltooid, dus we kunnen niet zeggen of uw netwerk problemen heeft. U kunt het zelf controleren, of de simulatie toch uitvoeren.",
+      "warning": "We konden het controleren van uw netwerk niet voltooien"
+    }
   },
   "waitingForPayment": "Wachten op betaling...",
   "simulateUnavailableNoBrowserStorage": "Simulatie heeft browseropslag nodig die dit venster niet kan gebruiken. Privénavigatie blokkeert dit, en oudere browsers ondersteunen het niet. Probeer een normaal venster, of update uw browser naar de nieuwste versie."

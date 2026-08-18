@@ -1822,9 +1822,13 @@
     "runAnyway": "Ejecutar de todos modos",
     "running": "Comprobando tu modelo…",
     "title": "Antes de ejecutar la simulación",
-    "andMoreIssues_one": "y 1 problema más",
-    "andMoreIssues_other": "y {{count}} problemas más",
-    "warning": "Encontramos problemas en tu red"
+    "warning": "Encontramos problemas en tu red",
+    "andMoreRules_one": "...y 1 regla más",
+    "andMoreRules_other": "...y {{count}} reglas más",
+    "failed": {
+      "body": "Las comprobaciones no se completaron, por lo que no podemos saber si tu red tiene problemas. Puedes revisarla tú mismo o ejecutar la simulación de todos modos.",
+      "warning": "No pudimos terminar de comprobar tu red"
+    }
   },
   "waitingForPayment": "Esperando pago...",
   "simulateUnavailableNoBrowserStorage": "La simulación no está disponible en navegadores antiguos o en modo de navegación privada. Intenta actualizar tu navegador o usar otra ventana."

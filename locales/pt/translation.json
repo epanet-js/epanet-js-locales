@@ -1815,9 +1815,13 @@
     "runAnyway": "Executar mesmo assim",
     "running": "Verificando seu modelo…",
     "title": "Antes de executar a simulação",
-    "andMoreIssues_one": "e 1 problema mais",
-    "andMoreIssues_other": "e {{count}} problemas mais",
-    "warning": "Encontramos problemas com sua rede"
+    "warning": "Encontramos problemas com sua rede",
+    "andMoreRules_one": "...e 1 regra a mais",
+    "andMoreRules_other": "...e {{count}} regras a mais",
+    "failed": {
+      "body": "As verificações não foram concluídas, então não podemos dizer se sua rede tem problemas. Você pode revisar por conta própria ou executar a simulação mesmo assim.",
+      "warning": "Não foi possível concluir a verificação da sua rede"
+    }
   },
   "waitingForPayment": "Aguardando pagamento...",
   "simulateUnavailableNoBrowserStorage": "A simulação não está disponível em navegadores mais antigos ou no modo de navegação anônima. Tente atualizar seu navegador ou usar outra janela."

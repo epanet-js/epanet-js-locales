@@ -1815,9 +1815,13 @@
     "runAnyway": "Lancer quand même",
     "running": "Vérification de votre modèle…",
     "title": "Avant de lancer la simulation",
-    "andMoreIssues_one": "et 1 problème de plus",
-    "andMoreIssues_other": "et {{count}} problèmes de plus",
-    "warning": "Nous avons trouvé des problèmes avec votre réseau"
+    "warning": "Nous avons trouvé des problèmes avec votre réseau",
+    "andMoreRules_one": "...et 1 règle de plus",
+    "andMoreRules_other": "...et {{count}} règles de plus",
+    "failed": {
+      "body": "Les vérifications n'ont pas été terminées, nous ne pouvons donc pas savoir si votre réseau présente des problèmes. Vous pouvez le vérifier vous-même, ou lancer la simulation quand même.",
+      "warning": "Nous n'avons pas pu terminer la vérification de votre réseau"
+    }
   },
   "waitingForPayment": "En attente de paiement...",
   "simulateUnavailableNoBrowserStorage": "La simulation nécessite un stockage de navigateur que cette fenêtre ne peut pas utiliser. La navigation privée le bloque, et les navigateurs plus anciens ne le supportent pas. Essayez une fenêtre normale, ou mettez à jour votre navigateur vers la dernière version."

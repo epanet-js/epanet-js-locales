@@ -1815,9 +1815,13 @@
     "runAnyway": "Jalankan saja",
     "running": "Memeriksa model Anda…",
     "title": "Sebelum menjalankan simulasi",
-    "andMoreIssues_one": "dan 1 masalah lainnya",
-    "andMoreIssues_other": "dan {{count}} masalah lainnya",
-    "warning": "Kami menemukan masalah dengan jaringan Anda"
+    "warning": "Kami menemukan masalah dengan jaringan Anda",
+    "andMoreRules_one": "...dan 1 aturan lainnya",
+    "andMoreRules_other": "...dan {{count}} aturan lainnya",
+    "failed": {
+      "body": "Pemeriksaan tidak selesai, jadi kami tidak dapat mengetahui apakah jaringan Anda memiliki masalah. Anda dapat meninjaunya sendiri, atau jalankan simulasi saja.",
+      "warning": "Kami tidak dapat menyelesaikan pemeriksaan jaringan Anda"
+    }
   },
   "waitingForPayment": "Menunggu pembayaran...",
   "simulateUnavailableNoBrowserStorage": "Simulasi memerlukan penyimpanan browser yang tidak dapat digunakan oleh jendela ini. Penjelajahan pribadi memblokirnya, dan browser lama tidak mendukungnya. Coba jendela normal, atau perbarui browser Anda ke versi terbaru."
