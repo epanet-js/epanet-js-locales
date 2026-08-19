@@ -85,7 +85,10 @@
     "legendNormal": "Teks normal = data yang dipetakan,",
     "showingAll": "Menampilkan semua {{1}} fitur",
     "showingFirst": "Menampilkan 100 pertama dari {{1}} fitur",
-    "yearParseHelp": "Kami tidak dapat membaca tahun dari nilai ini. Petakan properti yang berisi tahun 4 digit. Format yang didukung meliputi: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "Kami tidak dapat membaca tahun dari nilai ini. Petakan properti yang berisi tahun 4 digit. Format yang didukung meliputi: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "Kami tidak dapat membaca status dari \"{{1}}\". Ini akan diimpor sebagai {{2}}. Nilai yang didukung: {{3}}.",
+    "valveSettingParseHelp": "Kami tidak dapat membaca angka dari \"{{1}}\". Pengaturan akan diimpor sebagai hilang. Petakan properti yang berisi angka.",
+    "valveTypeParseHelp": "Kami tidak dapat membaca jenis katup dari \"{{1}}\". Ini akan diimpor sebagai {{2}}. Nilai yang didukung: {{3}}."
   },
   "elements": {
     "nodes": "Sambungan",
@@ -100,8 +103,6 @@
     "assignedFilesCount": "File yang ditetapkan ({{1}})",
     "assignToElement": "Tetapkan ke elemen...",
     "attributesUnavailable": "Atribut tidak tersedia",
-    "clickToBrowse": "atau klik untuk menjelajah file (mendukung banyak file)",
-    "dragAndDrop": "Seret dan lepas file Shapefile, GeoJSON, atau ZIP di sini",
     "featureInfo": "{{1}} • {{2}} fitur",
     "loadAndAssign": "Muat & tetapkan file GIS",
     "noCompatibleElements": "Tidak ada elemen yang kompatibel, belum ditetapkan.",
@@ -119,7 +120,9 @@
     "hideIgnoredFiles": "Sembunyikan file yang diabaikan",
     "unsupportedFilesIgnored_one": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
     "unsupportedFilesIgnored_other": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
-    "viewIgnoredFiles": "Lihat file yang diabaikan"
+    "viewIgnoredFiles": "Lihat file yang diabaikan",
+    "supportedFiles": "Mendukung Shapefile, GeoJSON, dan arsip ZIP",
+    "titleAction": "Seret file di sini, atau jelajahi untuk mengunggah"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

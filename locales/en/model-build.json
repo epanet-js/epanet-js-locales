@@ -102,8 +102,8 @@
     "waitingForShp": "Waiting for .shp (base geometry)",
     "parsing": "Parsing...",
     "removeShapefileGroup": "Remove shapefile group",
-    "dragAndDrop": "Drag and drop Shapefiles, GeoJSON, or ZIP files here",
-    "clickToBrowse": "or click to browse files (supports multiple files)",
+    "titleAction": "Drop files here, or browse to upload",
+    "supportedFiles": "Supports Shapefiles, GeoJSON, and ZIP archives",
     "processing": "Processing...",
     "selectFiles": "Select files",
     "loadAndAssign": "Load & assign GIS files",
@@ -139,7 +139,10 @@
     "legendLabel": "Legend:",
     "legendNormal": "Normal text = mapped data,",
     "legendDefault": "italic text = default values",
-    "yearParseHelp": "We couldn't read a year from this value. Map a property that contains a 4-digit year. Supported formats include: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "We couldn't read a year from this value. Map a property that contains a 4-digit year. Supported formats include: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "We couldn't read a status from \"{{1}}\". It will be imported as {{2}}. Supported values: {{3}}.",
+    "valveTypeParseHelp": "We couldn't read a valve type from \"{{1}}\". It will be imported as {{2}}. Supported values: {{3}}.",
+    "valveSettingParseHelp": "We couldn't read a number from \"{{1}}\". The setting will be imported as missing. Map a property that contains a number."
   },
   "projection": {
     "required": "Projection required",

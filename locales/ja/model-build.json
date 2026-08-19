@@ -85,7 +85,10 @@
     "legendNormal": "通常のテキスト = マッピングされたデータ,",
     "showingAll": "すべての {{1}} フィーチャを表示",
     "showingFirst": "{{1}} 件中最初の100件のフィーチャを表示",
-    "yearParseHelp": "この値から年を読み取ることができませんでした。4桁の年を含むプロパティをマッピングしてください。サポートされている形式には以下が含まれます: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "この値から年を読み取ることができませんでした。4桁の年を含むプロパティをマッピングしてください。サポートされている形式には以下が含まれます: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "「{{1}}」からステータスを読み取れませんでした。{{2}}としてインポートされます。サポートされている値: {{3}}。",
+    "valveSettingParseHelp": "「{{1}}」から数値を読み取れませんでした。設定は欠落としてインポートされます。数値を含むプロパティをマッピングしてください。",
+    "valveTypeParseHelp": "「{{1}}」から弁タイプを読み取れませんでした。{{2}}としてインポートされます。サポートされている値: {{3}}。"
   },
   "elements": {
     "nodes": "接点",
@@ -100,8 +103,6 @@
     "assignedFilesCount": "割り当て済みファイル ({{1}})",
     "assignToElement": "要素に割り当てる...",
     "attributesUnavailable": "属性利用不可",
-    "clickToBrowse": "またはクリックしてファイルを参照 (複数ファイル対応)",
-    "dragAndDrop": "Shapefile、GeoJSON、またはZIPファイルをここにドラッグ&ドロップ",
     "featureInfo": "{{1}} • {{2}} フィーチャ",
     "loadAndAssign": "GISファイルを読み込んで割り当て",
     "noCompatibleElements": "互換性のある未割り当て要素がありません。",
@@ -119,7 +120,9 @@
     "hideIgnoredFiles": "無視されたファイルを非表示",
     "unsupportedFilesIgnored_one": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
     "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
-    "viewIgnoredFiles": "無視されたファイルを表示"
+    "viewIgnoredFiles": "無視されたファイルを表示",
+    "supportedFiles": "シェープファイル、GeoJSON、およびZIPアーカイブに対応",
+    "titleAction": "ファイルをここにドロップするか、参照してアップロード"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",

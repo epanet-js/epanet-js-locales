@@ -85,7 +85,10 @@
     "legendNormal": "Normale tekst = gekoppelde gegevens,",
     "showingAll": "Alle {{1}} objecten weergeven",
     "showingFirst": "De eerste 100 van {{1}} objecten weergeven",
-    "yearParseHelp": "We konden geen jaar uit deze waarde lezen. Koppel een eigenschap die een 4-cijferig jaar bevat. Ondersteunde formaten zijn: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "We konden geen jaar uit deze waarde lezen. Koppel een eigenschap die een 4-cijferig jaar bevat. Ondersteunde formaten zijn: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "We konden geen status lezen van \"{{1}}\". Het wordt geïmporteerd als {{2}}. Ondersteunde waarden: {{3}}.",
+    "valveSettingParseHelp": "We konden geen nummer lezen van \"{{1}}\". De instelling wordt geïmporteerd als ontbrekend. Koppel een eigenschap die een nummer bevat.",
+    "valveTypeParseHelp": "We konden geen ventieltype lezen van \"{{1}}\". Het wordt geïmporteerd als {{2}}. Ondersteunde waarden: {{3}}."
   },
   "elements": {
     "nodes": "Knooppunten",
@@ -100,8 +103,6 @@
     "assignedFilesCount": "Toegewezen bestanden ({{1}})",
     "assignToElement": "Toewijzen aan element...",
     "attributesUnavailable": "Attributen niet beschikbaar",
-    "clickToBrowse": "of klik om bestanden te bladeren (ondersteunt meerdere bestanden)",
-    "dragAndDrop": "Sleep Shapefiles, GeoJSON, of ZIP-bestanden hierheen",
     "featureInfo": "{{1}} • {{2}} objecten",
     "loadAndAssign": "GIS-bestanden laden & toewijzen",
     "noCompatibleElements": "Geen compatibele, niet-toegewezen elementen.",
@@ -119,7 +120,9 @@
     "hideIgnoredFiles": "Genegeerde bestanden verbergen",
     "unsupportedFilesIgnored_one": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteund bestand werd genegeerd.",
     "unsupportedFilesIgnored_other": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteunde bestanden werden genegeerd.",
-    "viewIgnoredFiles": "Genegeerde bestanden bekijken"
+    "viewIgnoredFiles": "Genegeerde bestanden bekijken",
+    "supportedFiles": "Ondersteunt Shapefiles, GeoJSON en ZIP-archieven",
+    "titleAction": "Sleep bestanden hierheen, of blader om te uploaden"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",

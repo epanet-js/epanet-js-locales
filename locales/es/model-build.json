@@ -85,7 +85,10 @@
     "legendNormal": "Texto normal = datos mapeados,",
     "showingAll": "Mostrando todas las {{1}} características",
     "showingFirst": "Mostrando las primeras 100 de {{1}} características",
-    "yearParseHelp": "No pudimos leer un año de este valor. Mapea una propiedad que contenga un año de 4 dígitos. Los formatos soportados incluyen: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "No pudimos leer un año de este valor. Mapea una propiedad que contenga un año de 4 dígitos. Los formatos soportados incluyen: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "No pudimos leer un estado de \"{{1}}\". Se importará como {{2}}. Valores soportados: {{3}}.",
+    "valveSettingParseHelp": "No pudimos leer un número de \"{{1}}\". El ajuste se importará como ausente. Mapea una propiedad que contenga un número.",
+    "valveTypeParseHelp": "No pudimos leer un tipo de válvula de \"{{1}}\". Se importará como {{2}}. Valores soportados: {{3}}."
   },
   "elements": {
     "nodes": "Nudos",

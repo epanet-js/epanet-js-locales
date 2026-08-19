@@ -85,7 +85,10 @@
     "legendNormal": "Texto normal = dados mapeados,",
     "showingAll": "Exibindo todas as {{1}} feições",
     "showingFirst": "Exibindo as primeiras 100 de {{1}} feições",
-    "yearParseHelp": "Não foi possível ler um ano a partir deste valor. Mapeie uma propriedade que contenha um ano de 4 dígitos. Formatos suportados incluem: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "Não foi possível ler um ano a partir deste valor. Mapeie uma propriedade que contenha um ano de 4 dígitos. Formatos suportados incluem: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "Não foi possível ler um estado de \"{{1}}\". Será importado como {{2}}. Valores suportados: {{3}}.",
+    "valveSettingParseHelp": "Não foi possível ler um número de \"{{1}}\". A configuração será importada como ausente. Mapeie uma propriedade que contenha um número.",
+    "valveTypeParseHelp": "Não foi possível ler um tipo de válvula de \"{{1}}\". Será importado como {{2}}. Valores suportados: {{3}}."
   },
   "elements": {
     "nodes": "Nós",
@@ -100,8 +103,6 @@
     "assignedFilesCount": "Arquivos atribuídos ({{1}})",
     "assignToElement": "Atribuir ao elemento...",
     "attributesUnavailable": "Atributos indisponíveis",
-    "clickToBrowse": "ou clique para procurar arquivos (suporta múltiplos arquivos)",
-    "dragAndDrop": "Arraste e solte arquivos Shapefile, GeoJSON ou ZIP aqui",
     "featureInfo": "{{1}} • {{2}} feições",
     "loadAndAssign": "Carregar e atribuir arquivos GIS",
     "noCompatibleElements": "Nenhum elemento compatível e não atribuído.",
@@ -119,7 +120,9 @@
     "hideIgnoredFiles": "Ocultar arquivos ignorados",
     "unsupportedFilesIgnored_one": "Apenas GeoJSON e Shapefiles são suportados. {{count}} arquivo não suportado foi ignorado.",
     "unsupportedFilesIgnored_other": "Apenas GeoJSON e Shapefiles são suportados. {{count}} arquivos não suportados foram ignorados.",
-    "viewIgnoredFiles": "Ver arquivos ignorados"
+    "viewIgnoredFiles": "Ver arquivos ignorados",
+    "supportedFiles": "Suporta Shapefiles, GeoJSON e arquivos ZIP",
+    "titleAction": "Solte os arquivos aqui, ou procure para carregar"
   },
   "flowUnits": {
     "afd": "AFD (acre-pés/dia)",

@@ -85,7 +85,10 @@
     "legendNormal": "Texte normal = données mappées,",
     "showingAll": "Affichage de toutes les {{1}} entités",
     "showingFirst": "Affichage des 100 premières des {{1}} entités",
-    "yearParseHelp": "Nous n'avons pas pu lire une année à partir de cette valeur. Mappez une propriété qui contient une année à 4 chiffres. Les formats pris en charge incluent : 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z"
+    "yearParseHelp": "Nous n'avons pas pu lire une année à partir de cette valeur. Mappez une propriété qui contient une année à 4 chiffres. Les formats pris en charge incluent : 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
+    "statusParseHelp": "Nous n'avons pas pu lire un état depuis \"{{1}}\". Il sera importé comme {{2}}. Valeurs prises en charge : {{3}}.",
+    "valveSettingParseHelp": "Nous n'avons pas pu lire un nombre depuis \"{{1}}\". Le réglage sera importé comme manquant. Mappez une propriété qui contient un nombre.",
+    "valveTypeParseHelp": "Nous n'avons pas pu lire un type de vanne depuis \"{{1}}\". Il sera importé comme {{2}}. Valeurs prises en charge : {{3}}."
   },
   "elements": {
     "nodes": "Nœuds",
@@ -100,8 +103,6 @@
     "assignedFilesCount": "Fichiers attribués ({{1}})",
     "assignToElement": "Attribuer à l'élément...",
     "attributesUnavailable": "Attributs indisponibles",
-    "clickToBrowse": "ou cliquez pour parcourir les fichiers (plusieurs fichiers supportés)",
-    "dragAndDrop": "Faites glisser et déposez des fichiers Shapefile, GeoJSON ou ZIP ici",
     "featureInfo": "{{1}} • {{2}} entités",
     "loadAndAssign": "Charger et attribuer des fichiers SIG",
     "noCompatibleElements": "Aucun élément compatible et non attribué.",
@@ -119,7 +120,9 @@
     "hideIgnoredFiles": "Masquer les fichiers ignorés",
     "unsupportedFilesIgnored_one": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichier non pris en charge a été ignoré.",
     "unsupportedFilesIgnored_other": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichiers non pris en charge ont été ignorés.",
-    "viewIgnoredFiles": "Afficher les fichiers ignorés"
+    "viewIgnoredFiles": "Afficher les fichiers ignorés",
+    "supportedFiles": "Supporte les Shapefiles, GeoJSON et archives ZIP",
+    "titleAction": "Déposez les fichiers ici, ou parcourez pour les charger"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",
