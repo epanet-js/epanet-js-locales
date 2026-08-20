@@ -1622,8 +1622,11 @@
       "rulesHeading": "ルール",
       "scopeHeading": "範囲",
       "selectedPipesOnly": "選択された管のみ",
-      "summaryHeading": "概要",
-      "zoneCoverage": "ゾーン {{1}} のカバレッジ"
+      "zoneCoverage": "ゾーン {{1}} のカバレッジ",
+      "excludedPipesDetail_one": "{{1}} 本の管は直径データが不足しているか非アクティブであるため、割り当てられません。",
+      "excludedPipesDetail_other": "{{1}} 本の管は直径データが不足しているか非アクティブであるため、割り当てられません。",
+      "excludedPipesTitle": "一部の管は除外されています",
+      "resultsPreview": "結果プレビュー"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1679,15 +1682,6 @@
   "source.flowpaced": "流量比例ブースター",
   "source.mass": "質量ブースター",
   "source.setpoint": "設定点ブースター",
-  "modelAttributesValidation": {
-    "dialog": {
-      "body": "モデルにシミュレーションに影響する可能性のある問題が {{1}} 件見つかりました。シミュレーションが正確に完了するように、これらの問題を修正することをお勧めします。",
-      "fixFirst": "まず問題を修正",
-      "runAnyway": "とにかく実行",
-      "title": "モデルの問題が見つかりました",
-      "upgradeHint": "詳細なリストと自動修正をアンロックするには有料プランにアップグレードするか、以下の問題カテゴリを無料で確認してください。"
-    }
-  },
   "pipeLibrary": {
     "addEntry": "エントリを追加",
     "age": "経年",

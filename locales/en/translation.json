@@ -733,15 +733,6 @@
     "saveBuildSettings": "Save build settings",
     "filterData": "Filter data"
   },
-  "modelAttributesValidation": {
-    "dialog": {
-      "title": "Model issues found",
-      "body": "We found {{1}} issue(s) in your model that may affect the simulation. We recommend fixing them to ensure the simulation is accurate and completes successfully.",
-      "upgradeHint": "Upgrade to a paid plan to unlock detailed lists and automated fixes, or review the issue categories below for free.",
-      "fixFirst": "Fix issues first",
-      "runAnyway": "Run anyway"
-    }
-  },
   "cloudStorage": "Cloud storage",
   "pointInTimeRestore": "Point in time restore - {{1}} days",
   "demandsAnalysis": "Demand analysis",
@@ -1146,8 +1137,11 @@
       "networkCoverage": "Coverage across network",
       "scopeHeading": "Scope",
       "rulesHeading": "Rules",
-      "summaryHeading": "Summary",
-      "noChanges": "No customer points to allocate in this scope"
+      "resultsPreview": "Results preview",
+      "noChanges": "No customer points to allocate in this scope",
+      "excludedPipesTitle": "Some pipes are excluded",
+      "excludedPipesDetail_one": "{{1}} pipe is missing diameter data or is inactive and won't be allocated.",
+      "excludedPipesDetail_other": "{{1}} pipes are missing diameter data or are inactive and won't be allocated."
     }
   },
   "importCustomerPoints": {
@@ -1304,8 +1298,8 @@
     "body": "These issues can make the simulation fail or produce misleading results.",
     "review": "Review issues",
     "runAnyway": "Run anyway",
-    "andMoreRules_one": "...and 1 more rule",
-    "andMoreRules_other": "...and {{count}} more rules",
+    "andMoreRules_one": "... and 1 more rule",
+    "andMoreRules_other": "... and {{count}} more rules",
     "failed": {
       "warning": "We couldn't finish checking your network",
       "body": "The checks did not complete, so we can't tell whether your network has issues. You can review it yourself, or run the simulation anyway."

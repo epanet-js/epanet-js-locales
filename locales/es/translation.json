@@ -1635,8 +1635,11 @@
       "rulesHeading": "Reglas",
       "scopeHeading": "Alcance",
       "selectedPipesOnly": "Solo tuberías seleccionadas",
-      "summaryHeading": "Resumen",
-      "zoneCoverage": "Cobertura en la zona {{1}}"
+      "zoneCoverage": "Cobertura en la zona {{1}}",
+      "excludedPipesDetail_one": "{{1}} tubería no tiene datos de diámetro o está inactiva y no será asignada.",
+      "excludedPipesDetail_other": "{{1}} tuberías no tienen datos de diámetro o están inactivas y no serán asignadas.",
+      "excludedPipesTitle": "Algunas tuberías están excluidas",
+      "resultsPreview": "Vista previa de resultados"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1692,15 +1695,6 @@
   "source.flowpaced": "Inyección de caudal",
   "source.mass": "Inyección de masa",
   "source.setpoint": "Inyección de punto de ajuste",
-  "modelAttributesValidation": {
-    "dialog": {
-      "body": "Encontramos {{1}} problema(s) en tu modelo que pueden afectar la simulación. Recomendamos solucionarlos para asegurar que la simulación sea precisa y se complete con éxito.",
-      "fixFirst": "Solucionar problemas primero",
-      "runAnyway": "Ejecutar de todos modos",
-      "title": "Problemas del modelo encontrados",
-      "upgradeHint": "Actualiza a un plan de pago para desbloquear listas detalladas y correcciones automatizadas, o revisa las categorías de problemas a continuación de forma gratuita."
-    }
-  },
   "pipeLibrary": {
     "addEntry": "Añadir entrada",
     "age": "Edad",
@@ -1823,8 +1817,8 @@
     "running": "Comprobando tu modelo…",
     "title": "Antes de ejecutar la simulación",
     "warning": "Encontramos problemas en tu red",
-    "andMoreRules_one": "...y 1 regla más",
-    "andMoreRules_other": "...y {{count}} reglas más",
+    "andMoreRules_one": "... y 1 regla más",
+    "andMoreRules_other": "... y {{count}} reglas más",
     "failed": {
       "body": "Las comprobaciones no se completaron, por lo que no podemos saber si tu red tiene problemas. Puedes revisarla tú mismo o ejecutar la simulación de todos modos.",
       "warning": "No pudimos terminar de comprobar tu red"

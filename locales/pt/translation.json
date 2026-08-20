@@ -1622,8 +1622,11 @@
       "rulesHeading": "Regras",
       "scopeHeading": "Escopo",
       "selectedPipesOnly": "Apenas tubulações selecionadas",
-      "summaryHeading": "Resumo",
-      "zoneCoverage": "Cobertura na zona {{1}}"
+      "zoneCoverage": "Cobertura na zona {{1}}",
+      "excludedPipesDetail_one": "{{1}} tubulação está com dados de diâmetro ausentes ou está inativa e não será alocada.",
+      "excludedPipesDetail_other": "{{1}} tubulações estão com dados de diâmetro ausentes ou estão inativas e não serão alocadas.",
+      "excludedPipesTitle": "Algumas tubulações estão excluídas",
+      "resultsPreview": "Pré-visualização de resultados"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1679,15 +1682,6 @@
   "source.flowpaced": "Dosador de vazão",
   "source.mass": "Dosador de massa",
   "source.setpoint": "Dosador de ponto de ajuste",
-  "modelAttributesValidation": {
-    "dialog": {
-      "body": "Encontramos {{1}} problema(s) em seu modelo que pode(m) afetar a simulação. Recomendamos corrigi-los para garantir que a simulação seja precisa e concluída com sucesso.",
-      "fixFirst": "Corrigir problemas primeiro",
-      "runAnyway": "Executar mesmo assim",
-      "title": "Problemas no modelo encontrados",
-      "upgradeHint": "Atualize para um plano pago para desbloquear listas detalhadas e correções automatizadas, ou revise as categorias de problemas abaixo gratuitamente."
-    }
-  },
   "pipeLibrary": {
     "addEntry": "Adicionar entrada",
     "age": "Idade",

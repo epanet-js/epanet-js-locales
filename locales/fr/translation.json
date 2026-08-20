@@ -1622,8 +1622,11 @@
       "rulesHeading": "Règles",
       "scopeHeading": "Portée",
       "selectedPipesOnly": "Conduites sélectionnées uniquement",
-      "summaryHeading": "Résumé",
-      "zoneCoverage": "Couverture dans la zone {{1}}"
+      "zoneCoverage": "Couverture dans la zone {{1}}",
+      "excludedPipesDetail_one": "{{1}} conduite manque de données de diamètre ou est inactive et ne sera pas allouée.",
+      "excludedPipesDetail_other": "{{1}} conduites manquent de données de diamètre ou sont inactives et ne seront pas allouées.",
+      "excludedPipesTitle": "Certaines conduites sont exclues",
+      "resultsPreview": "Aperçu des résultats"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1679,15 +1682,6 @@
   "source.flowpaced": "Booster à débit régulé",
   "source.mass": "Booster de masse",
   "source.setpoint": "Booster à point de consigne",
-  "modelAttributesValidation": {
-    "dialog": {
-      "body": "Nous avons trouvé {{1}} problème(s) dans votre modèle qui pourrait(ent) affecter la simulation. Nous vous recommandons de les corriger pour garantir que la simulation soit précise et se termine avec succès.",
-      "fixFirst": "Corriger les problèmes d'abord",
-      "runAnyway": "Lancer quand même",
-      "title": "Problèmes de modèle trouvés",
-      "upgradeHint": "Mettez à niveau vers un plan payant pour débloquer les listes détaillées et les corrections automatisées, ou consultez gratuitement les catégories de problèmes ci-dessous."
-    }
-  },
   "pipeLibrary": {
     "addEntry": "Ajouter une entrée",
     "age": "Âge",
@@ -1816,8 +1810,8 @@
     "running": "Vérification de votre modèle…",
     "title": "Avant de lancer la simulation",
     "warning": "Nous avons trouvé des problèmes avec votre réseau",
-    "andMoreRules_one": "...et 1 règle de plus",
-    "andMoreRules_other": "...et {{count}} règles de plus",
+    "andMoreRules_one": "... et 1 règle de plus",
+    "andMoreRules_other": "... et {{count}} règles de plus",
     "failed": {
       "body": "Les vérifications n'ont pas été terminées, nous ne pouvons donc pas savoir si votre réseau présente des problèmes. Vous pouvez le vérifier vous-même, ou lancer la simulation quand même.",
       "warning": "Nous n'avons pas pu terminer la vérification de votre réseau"

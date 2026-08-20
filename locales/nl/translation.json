@@ -1622,8 +1622,11 @@
       "rulesHeading": "Regels",
       "scopeHeading": "Bereik",
       "selectedPipesOnly": "Alleen geselecteerde leidingen",
-      "summaryHeading": "Samenvatting",
-      "zoneCoverage": "Dekking in zone {{1}}"
+      "zoneCoverage": "Dekking in zone {{1}}",
+      "excludedPipesDetail_one": "{{1}} leiding mist diametergegevens of is inactief en wordt niet toegewezen.",
+      "excludedPipesDetail_other": "{{1}} leidingen missen diametergegevens of zijn inactief en worden niet toegewezen.",
+      "excludedPipesTitle": "Sommige leidingen zijn uitgesloten",
+      "resultsPreview": "Resultatenvoorbeeld"
     },
     "allocationOptions": {
       "customerSelection": {
@@ -1679,15 +1682,6 @@
   "source.flowpaced": "Debietgestuurde booster",
   "source.mass": "Massa booster",
   "source.setpoint": "Setpoint booster",
-  "modelAttributesValidation": {
-    "dialog": {
-      "body": "We vonden {{1}} probleem(en) in uw model die de simulatie kunnen beïnvloeden. We raden aan deze op te lossen om ervoor te zorgen dat de simulatie nauwkeurig is en succesvol wordt voltooid.",
-      "fixFirst": "Eerst problemen oplossen",
-      "runAnyway": "Toch uitvoeren",
-      "title": "Problemen met model gevonden",
-      "upgradeHint": "Upgrade naar een betaald abonnement om gedetailleerde lijsten en geautomatiseerde oplossingen te ontgrendelen, of bekijk de probleemcategorieën hieronder gratis."
-    }
-  },
   "pipeLibrary": {
     "addEntry": "Invoer toevoegen",
     "age": "Leeftijd",
@@ -1816,8 +1810,8 @@
     "running": "Uw model controleren…",
     "title": "Voordat de simulatie wordt uitgevoerd",
     "warning": "We vonden problemen met uw netwerk",
-    "andMoreRules_one": "...en nog 1 regel",
-    "andMoreRules_other": "...en nog {{count}} regels",
+    "andMoreRules_one": "... en 1 meer regel",
+    "andMoreRules_other": "... en {{count}} meer regels",
     "failed": {
       "body": "De controles zijn niet voltooid, dus we kunnen niet zeggen of uw netwerk problemen heeft. U kunt het zelf controleren, of de simulatie toch uitvoeren.",
       "warning": "We konden het controleren van uw netwerk niet voltooien"
