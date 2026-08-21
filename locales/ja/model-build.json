@@ -122,7 +122,7 @@
     "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
     "viewIgnoredFiles": "無視されたファイルを表示",
     "supportedFiles": "シェープファイル、GeoJSON、およびZIPアーカイブに対応",
-    "titleAction": "ファイルをここにドロップするか、参照してアップロード"
+    "titleAction": "ファイルをここにドロップするか、クリックして参照"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",

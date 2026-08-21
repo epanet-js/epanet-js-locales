@@ -102,7 +102,7 @@
     "waitingForShp": "Waiting for .shp (base geometry)",
     "parsing": "Parsing...",
     "removeShapefileGroup": "Remove shapefile group",
-    "titleAction": "Drop files here, or browse to upload",
+    "titleAction": "Drop files here, or click to browse",
     "supportedFiles": "Supports Shapefiles, GeoJSON, and ZIP archives",
     "processing": "Processing...",
     "selectFiles": "Select files",

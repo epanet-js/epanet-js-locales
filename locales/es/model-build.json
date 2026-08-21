@@ -104,7 +104,7 @@
     "assignToElement": "Asignar a elemento...",
     "attributesUnavailable": "Atributos no disponibles",
     "supportedFiles": "Compatible con Shapefiles, GeoJSON y archivos ZIP",
-    "titleAction": "Arrastra tus archivos aquí o haz clic para buscar",
+    "titleAction": "Arrastra archivos aquí o haz clic para explorar",
     "featureInfo": "{{1}} • {{2}} características",
     "loadAndAssign": "Cargar y asignar archivos GIS",
     "noCompatibleElements": "No hay elementos compatibles sin asignar.",
