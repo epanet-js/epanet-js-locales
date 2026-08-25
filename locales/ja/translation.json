@@ -121,7 +121,6 @@
   "featureWithInvalidCoordSingular": "無効な座標を持つフィーチャ {{1}} 件",
   "file": "ファイル",
   "fileFormatNotRecognized": "ファイル形式が認識されません。",
-  "fixedStatus": "固定ステータス",
   "fixRangeToApply": "変更を適用するには、範囲を調整してください。",
   "floatingSharedLicenses": "フローティング共有ライセンス",
   "flow": "流量",
@@ -691,7 +690,6 @@
   "modelAttributes": "モデル属性",
   "payByInvoice": "請求書払い",
   "simulationResults": "シミュレーション結果",
-  "viewNetworkReview": "管網レビュー",
   "roadmap": "ロードマップ",
   "visible": "表示",
   "toggleSidePanel": "サイドパネルの切り替え",
@@ -756,7 +754,6 @@
     "scenarios": "シナリオ"
   },
   "simulationSettings": {
-    "calculationTimes": "計算時間",
     "demand": "需要",
     "demandMultiplier": "需要乗数",
     "epsExtended": "EPS - 拡張期間シミュレーション",
@@ -769,8 +766,6 @@
     "timeAnalysisMode": "時間解析モード",
     "title": "シミュレーション設定",
     "totalDuration": "合計継続時間",
-    "epsMissingValues": "すべての値を入力してください。",
-    "epsZeroValues": "値はゼロより大きくなければなりません。",
     "demandModel": "需要モデル",
     "demandModelDDA": "DDA - 需要駆動解析",
     "demandModelDesc": "需要駆動解析（DDA）または圧力駆動解析（PDA）のどちらを行うかを指定します。DDAでは、負圧が生じてもノードの全需要は常に満たされます。PDAでは、需要はノード圧力のべき乗関数として0からその全値まで変化すると仮定されます。",
@@ -781,7 +776,6 @@
     "emitterExponent": "エミッター指数",
     "emitterExponentDesc": "エミッターから流出する流量を計算する際に、接点での圧力を累乗する指数です。",
     "fieldMustBePositive": "ゼロより大きくなければなりません",
-    "fieldRequired": "このフィールドは必須です",
     "globalDemandMultiplier": "グローバル需要乗数",
     "globalDemandMultiplierDesc": "すべての接点とすべての需要カテゴリのベースライン需要値を調整します。例えば、2の値はすべてのベースライン需要を2倍にし、0.5の値はそれらを半分にします。",
     "hydraulicTimestepDesc": "ネットワークの新しい水理状態が計算される頻度です。パターンまたはレポートのタイムステップのいずれかより大きい場合、自動的に短縮されます。",
@@ -896,13 +890,10 @@
     "sectionHasError": "このセクションには無効な値が含まれています"
   },
   "utilities": "ユーティリティ",
-  "pumpPatterns": "時間パターンを持つポンプ（{{1}}個のポンプは一定の速度を使用）",
   "reservoirPatterns": "時間パターンを持つ貯水池（{{1}}個の貯水池は最初のパターン値のみを使用）",
-  "tankCurves": "容量曲線を持つ配水池（{{1}}個の配水池は固定直径を使用）",
   "constant": "定数",
   "demandCategories": "需要カテゴリ",
   "timePattern": "パターン",
-  "pcvCurves": "特性曲線を持つPCV弁（{{1}}個の弁は設定値のみを使用）",
   "count": "数",
   "controls": {
     "rulesEmpty": "ルールベースの制御は定義されていません",
@@ -1015,7 +1006,6 @@
   "trial.status_zero": "トライアル: 本日失効",
   "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)",
   "curveType": "曲線タイプ",
-  "mixedValues": "混在",
   "foundersPartnerDescription": "epanet-jsをサポート -",
   "foundersPartnerLearnMore": "創設パートナーになる",
   "foundersPartnerTitle": "私たちの創設パートナー",
@@ -1030,7 +1020,6 @@
   "trial.activating": "トライアルを有効にしています",
   "trial.tryWithDemo": "デモネットワークで試す",
   "valves": "弁",
-  "importAsUnprojected": "投影なしでインポート",
   "off": "オフ",
   "inpProjectionChoice": {
     "nonProjectedTitle": "シンプルなX-Yグリッド",
@@ -1097,8 +1086,7 @@
     "title": "曲線",
     "uncategorizedCurves": "未分類",
     "valveCurves": "弁",
-    "volumeCurves": "配水池容量",
-    "saveInvalid": "一部の曲線に検証の警告があります。"
+    "volumeCurves": "配水池容量"
   },
   "openCurvesLibrary": "ライブラリを開く...",
   "operationalData": "運用データ",
@@ -1463,7 +1451,6 @@
   "maxPressure": "最大圧力",
   "minPressure": "最小圧力",
   "hglProfile": {
-    "cancelSelection": "キャンセル",
     "close": "HGLプロファイルを閉じる",
     "distance": "距離",
     "elevation": "標高",
@@ -1479,10 +1466,8 @@
       "message": "選択されたノード間に接続されたパスは見つかりませんでした。",
       "title": "パスが見つかりません"
     },
-    "selectAll": "すべて選択",
     "selectEnd": "クリックして経由地を追加するか、ダブルクリックしてプロファイルを終了します",
     "selectPath": "パスを選択",
-    "selectPathHint": "複数のパスが見つかりました。強調表示されたアセットをクリックしてルートを選択してください。",
     "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
     "title": "HGLプロファイル",
     "toolbar": "HGLプロファイル"
@@ -1537,7 +1522,7 @@
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
-      "title": "データマッピング",
+      "title": "データ入力",
       "noProjectionWarning": "選択されたGeoJSONファイルには投影データが含まれていません。{{1}}をデフォルトとして仮定します。"
     },
     "dataMappingStep": {
@@ -1545,7 +1530,7 @@
       "none": "なし（ラベルを自動生成）",
       "previewHeader": "ラベル",
       "previewMore": "...その他{{1}}件",
-      "title": "データ入力"
+      "title": "データマッピング"
     },
     "errors": {
       "invalidFile": "選択されたファイルは有効なGeoJSONファイルではありません。",
@@ -1847,8 +1832,8 @@
       "pipeHeadlossFormulaUnsupported_other": "{{count}}本の管はモデルの他の部分とは異なる損失水頭計算式を使用していたため、それらの粗度はインポートされませんでした",
       "pipeParallelCountUnsupported_one": "1本の管は複数の並列管を表すため、指定された直径の単一の管としてインポートされました",
       "pipeParallelCountUnsupported_other": "{{count}}本の管は複数の並列管を表すため、指定された直径の単一の管としてインポートされました",
-      "pumpControlUnsupported_one": "1つのポンプは配水池水位ルールによって切り替えられますが、これはまだインポートされていないため、初期ステータスを維持します",
-      "pumpControlUnsupported_other": "{{count}}個のポンプは配水池水位ルールによって切り替えられますが、これはまだインポートされていないため、初期ステータスを維持します",
+      "pumpControlUnsupported_one": "1つのポンプはインポートできないルールによって切り替えられるため、初期ステータスを維持します",
+      "pumpControlUnsupported_other": "{{count}}個のポンプはインポートできないルールによって切り替えられるため、初期ステータスを維持します",
       "pumpDefinitionUnsupported_one": "1つのポンプは点のない流量・揚程曲線を指定していたため、定義なしでインポートされました",
       "pumpDefinitionUnsupported_other": "{{count}}個のポンプは点のない流量・揚程曲線を指定していたため、定義なしでインポートされました",
       "pumpPressureControlUnsupported_one": "1つのポンプは別のノードで設定圧力値を保持しますが、これはまだインポートされていないため、速度のみを維持します",

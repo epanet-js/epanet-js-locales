@@ -288,7 +288,6 @@
   "valve": "Vanne",
   "setting": "Réglage",
   "valveType": "Type de vanne",
-  "fixedStatus": "État Fixe",
   "rampShouldBeAscending": "Les valeurs d'entrée de la rampe doivent être en ordre croissant.",
   "notEnoughData": "Pas assez de données.",
   "updated": "Mis à Jour",
@@ -691,7 +690,6 @@
   "modelAttributes": "Attributs du Modèle",
   "payByInvoice": "Payer par facture",
   "simulationResults": "Résultats de Simulation",
-  "viewNetworkReview": "Examiner le réseau",
   "roadmap": "Feuille de route",
   "visible": "Visible",
   "toggleSidePanel": "Basculer le panneau latéral",
@@ -756,7 +754,6 @@
     "scenarios": "Scénarios"
   },
   "simulationSettings": {
-    "calculationTimes": "Temps de calcul",
     "demand": "Demande",
     "demandMultiplier": "Multiplicateur de demande",
     "epsExtended": "EPS - Simulation en période étendue",
@@ -769,8 +766,6 @@
     "timeAnalysisMode": "Mode d'analyse temporelle",
     "title": "Paramètres de simulation",
     "totalDuration": "Durée totale",
-    "epsMissingValues": "Veuillez remplir toutes les valeurs.",
-    "epsZeroValues": "Les valeurs doivent être supérieures à zéro.",
     "demandModel": "Modèle de demande",
     "demandModelDDA": "DDA - Analyse basée sur la demande",
     "demandModelDesc": "Spécifie si une analyse basée sur la demande (DDA) ou une analyse basée sur la pression (PDA) doit être effectuée. En mode DDA, les demandes nodales complètes sont toujours satisfaites, même si des pressions négatives en résultent. Le mode PDA suppose que la demande varie entre 0 et sa valeur totale en fonction d'une puissance de la pression nodale.",
@@ -781,7 +776,6 @@
     "emitterExponent": "Exposant de l'émetteur",
     "emitterExponentDesc": "La puissance à laquelle la pression à un nœud est élevée lors du calcul du débit s'échappant d'un émetteur.",
     "fieldMustBePositive": "Doit être supérieur à zéro",
-    "fieldRequired": "Ce champ est requis",
     "globalDemandMultiplier": "Multiplicateur global de demande",
     "globalDemandMultiplierDesc": "Ajuste les valeurs des demandes de base pour tous les nœuds et toutes les catégories de demande. Par exemple, une valeur de 2 double toutes les demandes de base, tandis qu'une valeur de 0,5 les réduit de moitié.",
     "hydraulicTimestepDesc": "La fréquence à laquelle un nouvel état hydraulique du réseau est calculé. S'il est supérieur au pas de temps du motif ou du rapport, il sera automatiquement réduit.",
@@ -896,13 +890,10 @@
     "sectionHasError": "Cette section contient des valeurs invalides"
   },
   "utilities": "Applications utilitaires",
-  "pumpPatterns": "Pompes avec motifs temporels ({{1}} pompes utilisant une vitesse constante)",
   "reservoirPatterns": "Réservoirs avec motifs temporels ({{1}} réservoirs utilisant uniquement la première valeur du motif)",
-  "tankCurves": "Châteaux d'eau avec courbes de volume ({{1}} châteaux d'eau utilisant un diamètre fixe)",
   "constant": "Constant",
   "demandCategories": "Catégories de demande",
   "timePattern": "Motif",
-  "pcvCurves": "Vannes PCV avec courbes caractéristiques ({{1}} vannes utilisant uniquement la valeur de réglage)",
   "count": "Nombre",
   "controls": {
     "rulesEmpty": "Aucun contrôle basé sur des règles défini",
@@ -1015,7 +1006,6 @@
   "trial.status_zero": "Essai : expire aujourd'hui",
   "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)",
   "curveType": "Type de courbe",
-  "mixedValues": "Mixte",
   "foundersPartnerDescription": "Soutenez epanet-js -",
   "foundersPartnerLearnMore": "Devenez un Partenaire Fondateur",
   "foundersPartnerTitle": "Nos Partenaires Fondateurs",
@@ -1030,7 +1020,6 @@
   "trial.activating": "Activation de l'essai",
   "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
   "valves": "Vannes",
-  "importAsUnprojected": "Importer comme non projeté",
   "off": "Désactivé",
   "inpProjectionChoice": {
     "nonProjectedTitle": "Grille X-Y Simple",
@@ -1097,8 +1086,7 @@
     "title": "Courbes",
     "uncategorizedCurves": "Non catégorisé",
     "valveCurves": "Vanne",
-    "volumeCurves": "Volume du château d'eau",
-    "saveInvalid": "Certaines courbes présentent des avertissements de validation."
+    "volumeCurves": "Volume du château d'eau"
   },
   "openCurvesLibrary": "Ouvrir les courbes...",
   "operationalData": "Données opérationnelles",
@@ -1463,7 +1451,6 @@
   "maxPressure": "Pression max",
   "minPressure": "Pression min",
   "hglProfile": {
-    "cancelSelection": "Annuler",
     "close": "Fermer le profil HGL",
     "distance": "Distance",
     "elevation": "Élévation",
@@ -1479,10 +1466,8 @@
       "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
       "title": "Aucun chemin trouvé"
     },
-    "selectAll": "Tout sélectionner",
     "selectEnd": "Cliquez pour ajouter un point de cheminement, ou double-cliquez pour terminer le profil",
     "selectPath": "Sélectionner le chemin",
-    "selectPathHint": "Plusieurs chemins trouvés. Cliquez sur n'importe quel élément surligné pour sélectionner un itinéraire.",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
     "title": "Profil HGL",
     "toolbar": "Profil HGL"
@@ -1537,7 +1522,7 @@
     },
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
-      "title": "Mappage des données",
+      "title": "Saisie des données",
       "noProjectionWarning": "Le fichier GeoJSON sélectionné ne contient pas de données de projection. En supposant {{1}} par défaut."
     },
     "dataMappingStep": {
@@ -1545,7 +1530,7 @@
       "none": "Aucun (génération automatique d'étiquettes)",
       "previewHeader": "Étiquette",
       "previewMore": "... et {{1}} de plus",
-      "title": "Saisie des données"
+      "title": "Mappage des données"
     },
     "errors": {
       "invalidFile": "Le fichier sélectionné n'est pas un fichier GeoJSON valide.",
@@ -1847,8 +1832,8 @@
       "pipeHeadlossFormulaUnsupported_other": "{{count}} conduites utilisent une formule de perte de charge différente du reste du modèle, donc leur rugosité n'a pas été importée",
       "pipeParallelCountUnsupported_one": "1 conduite représente plusieurs conduites parallèles, elle a donc été importée comme une seule conduite du diamètre indiqué",
       "pipeParallelCountUnsupported_other": "{{count}} conduites représentent plusieurs conduites parallèles, elles ont donc été importées comme des conduites uniques du diamètre indiqué",
-      "pumpControlUnsupported_one": "1 pompe est actionnée par une règle de niveau de château d'eau, qui n'est pas encore importée, donc elle conserve son statut initial",
-      "pumpControlUnsupported_other": "{{count}} pompes sont actionnées par des règles de niveau de château d'eau, qui ne sont pas encore importées, donc elles conservent leur statut initial",
+      "pumpControlUnsupported_one": "1 pompe est actionnée par une règle qui n'a pas pu être importée, elle conserve donc son état initial",
+      "pumpControlUnsupported_other": "{{count}} pompes sont actionnées par des règles qui n'ont pas pu être importées, elles conservent donc leur état initial",
       "pumpDefinitionUnsupported_one": "1 pompe nomme une courbe débit-charge sans points, elle a donc été importée sans définition",
       "pumpDefinitionUnsupported_other": "{{count}} pompes nomment une courbe débit-charge sans points, elles ont donc été importées sans définition",
       "pumpPressureControlUnsupported_one": "1 pompe maintient une pression définie à un autre nœud, ce qui n'est pas encore importé, donc elle ne conserve que sa vitesse",

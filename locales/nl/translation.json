@@ -288,7 +288,6 @@
   "valve": "Ventiel",
   "setting": "Instelling",
   "valveType": "Ventieltype",
-  "fixedStatus": "Vaste status",
   "rampShouldBeAscending": "Ramp-invoerwaarden moeten in oplopende volgorde staan.",
   "notEnoughData": "Onvoldoende gegevens.",
   "updated": "Bijgewerkt",
@@ -691,7 +690,6 @@
   "modelAttributes": "Modelkenmerken",
   "payByInvoice": "Betalen per factuur",
   "simulationResults": "Simulatie Resultaten",
-  "viewNetworkReview": "Netwerk controleren",
   "roadmap": "Routekaart",
   "visible": "Zichtbaar",
   "toggleSidePanel": "Zijpaneel in-/uitschakelen",
@@ -756,7 +754,6 @@
     "scenarios": "Scenario's"
   },
   "simulationSettings": {
-    "calculationTimes": "Berekeningstijden",
     "demand": "Vraag",
     "demandMultiplier": "Vraagvermenigvuldiger",
     "epsExtended": "EPS - Uitgebreide-periode simulatie",
@@ -769,8 +766,6 @@
     "timeAnalysisMode": "Tijdanalysemodus",
     "title": "Simulatie-instellingen",
     "totalDuration": "Totale duur",
-    "epsMissingValues": "Vul alstublieft alle waarden in.",
-    "epsZeroValues": "Waarden moeten groter zijn dan nul.",
     "demandModel": "Vraagmodel",
     "demandModelDDA": "DDA - Vraaggerichte Analyse",
     "demandModelDesc": "Specificeert of een vraaggerichte analyse (DDA) of een drukgestuurde analyse (PDA) moet worden uitgevoerd. Bij DDA wordt altijd aan de volledige knooppuntvragen voldaan, zelfs als dit resulteert in negatieve drukken. PDA gaat ervan uit dat de vraag varieert tussen 0 en de volledige waarde als een machtsfunctie van de knooppuntdruk.",
@@ -781,7 +776,6 @@
     "emitterExponent": "Emittorexponent",
     "emitterExponentDesc": "De macht waartoe de druk bij een knooppunt wordt verhoogd bij het berekenen van de stroming die uit een emittor komt.",
     "fieldMustBePositive": "Moet groter zijn dan nul",
-    "fieldRequired": "Dit veld is verplicht",
     "globalDemandMultiplier": "Globale vraagvermenigvuldiger",
     "globalDemandMultiplierDesc": "Pas de waarden van de basisvragen aan voor alle knooppunten en alle vraagcategorieën. Een waarde van 2 verdubbelt bijvoorbeeld alle basisvragen, terwijl een waarde van 0,5 deze zou halveren.",
     "hydraulicTimestepDesc": "Hoe vaak een nieuwe hydraulische toestand van het netwerk wordt berekend. Indien groter dan de patroon- of rapportagetijdstap, wordt deze automatisch verlaagd.",
@@ -896,13 +890,10 @@
     "sectionHasError": "Deze sectie bevat ongeldige waarden"
   },
   "utilities": "Hulpprogramma's",
-  "pumpPatterns": "Pompen met tijdpatronen ({{1}} pompen gebruiken constante snelheid)",
   "reservoirPatterns": "Reservoirs met tijdpatronen ({{1}} reservoirs gebruiken alleen de eerste patroonwaarde)",
-  "tankCurves": "Tanks met volumecurves ({{1}} tanks gebruiken vaste diameter)",
   "constant": "Constant",
   "demandCategories": "Vraagcategorieën",
   "timePattern": "Patroon",
-  "pcvCurves": "PCV-ventielen met karakteristieke curves ({{1}} ventielen gebruiken alleen instelwaarde)",
   "count": "Aantal",
   "controls": {
     "rulesEmpty": "Geen regelgebaseerde besturingen gedefinieerd",
@@ -1015,7 +1006,6 @@
   "trial.status_zero": "Proefperiode: verloopt vandaag",
   "undefinedPumpCurves": "Pompen die verwijzen naar ongedefinieerde curves ({{1}} pompen)",
   "curveType": "Curvetype",
-  "mixedValues": "Gemengd",
   "foundersPartnerDescription": "Steun epanet-js -",
   "foundersPartnerLearnMore": "Word een Founding Partner",
   "foundersPartnerTitle": "Onze Founding Partners",
@@ -1030,7 +1020,6 @@
   "trial.activating": "Proefperiode activeren",
   "trial.tryWithDemo": "Probeer met een demonetwerk",
   "valves": "Ventielen",
-  "importAsUnprojected": "Importeren als ongeprojecteerd",
   "off": "Uit",
   "inpProjectionChoice": {
     "nonProjectedTitle": "Eenvoudig X-Y-raster",
@@ -1097,8 +1086,7 @@
     "title": "Curves",
     "uncategorizedCurves": "Niet-gecategoriseerd",
     "valveCurves": "Ventiel",
-    "volumeCurves": "Tankvolume",
-    "saveInvalid": "Sommige curves hebben validatiewaarschuwingen."
+    "volumeCurves": "Tankvolume"
   },
   "openCurvesLibrary": "Bibliotheek openen...",
   "operationalData": "Operationele gegevens",
@@ -1463,7 +1451,6 @@
   "maxPressure": "Max. druk",
   "minPressure": "Min. druk",
   "hglProfile": {
-    "cancelSelection": "Annuleren",
     "close": "HGL profiel sluiten",
     "distance": "Afstand",
     "elevation": "Hoogte",
@@ -1479,10 +1466,8 @@
       "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
       "title": "Geen pad gevonden"
     },
-    "selectAll": "Alles selecteren",
     "selectEnd": "Klik om een tussenpunt toe te voegen, of dubbelklik om het profiel te voltooien",
     "selectPath": "Pad selecteren",
-    "selectPathHint": "Meerdere paden gevonden. Klik op een gemarkeerd onderdeel om een route te selecteren.",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
     "title": "HGL profiel",
     "toolbar": "HGL profiel"
@@ -1537,7 +1522,7 @@
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
-      "title": "Gegevenskoppeling",
+      "title": "Gegevensinvoer",
       "noProjectionWarning": "Het geselecteerde GeoJSON-bestand bevat geen projectiegegevens. Aangenomen wordt dat {{1}} de standaard is."
     },
     "dataMappingStep": {
@@ -1545,7 +1530,7 @@
       "none": "Geen (labels automatisch genereren)",
       "previewHeader": "Label",
       "previewMore": "... en {{1}} meer",
-      "title": "Gegevensinvoer"
+      "title": "Gegevenskoppeling"
     },
     "errors": {
       "invalidFile": "Het geselecteerde bestand is geen geldig GeoJSON-bestand.",
@@ -1847,8 +1832,8 @@
       "pipeHeadlossFormulaUnsupported_other": "{{count}} leidingen gebruiken een andere formule voor drukverlies dan de rest van het model, dus hun ruwheid is niet geïmporteerd",
       "pipeParallelCountUnsupported_one": "1 leiding staat voor meerdere parallelle leidingen, dus het is geïmporteerd als één enkele leiding met de opgegeven diameter",
       "pipeParallelCountUnsupported_other": "{{count}} leidingen staan voor meerdere parallelle leidingen, dus ze zijn geïmporteerd als enkele leidingen met de opgegeven diameter",
-      "pumpControlUnsupported_one": "1 pomp wordt geschakeld door een tankniveau-regel, die nog niet is geïmporteerd, dus deze behoudt zijn startstatus",
-      "pumpControlUnsupported_other": "{{count}} pompen worden geschakeld door tankniveau-regels, die nog niet zijn geïmporteerd, dus ze behouden hun startstatus",
+      "pumpControlUnsupported_one": "1 pomp wordt geschakeld door een regel die niet kon worden geïmporteerd, dus deze behoudt zijn startstatus",
+      "pumpControlUnsupported_other": "{{count}} pompen worden geschakeld door regels die niet konden worden geïmporteerd, dus ze behouden hun startstatus",
       "pumpDefinitionUnsupported_one": "1 pomp noemt een stromings- en opvoerhoogtecurve zonder punten, dus deze is geïmporteerd zonder definitie",
       "pumpDefinitionUnsupported_other": "{{count}} pompen noemen een stromings- en opvoerhoogtecurve zonder punten, dus ze zijn geïmporteerd zonder definitie",
       "pumpPressureControlUnsupported_one": "1 pomp houdt een ingestelde druk aan bij een ander knooppunt, die nog niet is geïmporteerd, dus deze behoudt alleen zijn snelheid",

@@ -322,7 +322,6 @@
   "valve": "Válvula",
   "setting": "Ajuste",
   "valveType": "Tipo de válvula",
-  "fixedStatus": "Estado fijado",
   "rampShouldBeAscending": "Los valores de la rampa deben estar en orden ascendente.",
   "notEnoughData": "No hay suficientes datos.",
   "updated": "Actualizado",
@@ -704,7 +703,6 @@
   "modelAttributes": "Atributos del modelo",
   "payByInvoice": "Pagar mediante factura",
   "simulationResults": "Resultados de simulación",
-  "viewNetworkReview": "Revisar red",
   "roadmap": "Hoja de ruta",
   "visible": "Visible",
   "toggleSidePanel": "Alternar panel lateral",
@@ -769,7 +767,6 @@
     "scenarios": "Escenarios"
   },
   "simulationSettings": {
-    "calculationTimes": "Tiempos de cálculo",
     "demand": "Consumo",
     "demandMultiplier": "Multiplicador de demanda",
     "epsExtended": "EPS - Simulación de período extendido",
@@ -782,8 +779,6 @@
     "timeAnalysisMode": "Modo de análisis temporal",
     "title": "Ajustes de simulación",
     "totalDuration": "Duración total",
-    "epsMissingValues": "Por favor, completa todos los valores.",
-    "epsZeroValues": "Los valores deben ser mayores que cero.",
     "demandModel": "Modelo de demanda",
     "demandModelDDA": "ADD - Análisis de Demanda Dirigida",
     "demandModelDesc": "Especifica si se debe realizar un análisis de demanda dirigida (ADD) o un análisis de demanda por presión (ADP). En un ADD, las demandas nodales completas siempre se satisfacen incluso si resultan presiones negativas. Un ADP asume que la demanda varía entre 0 y su valor total como una función de potencia de la presión nodal.",
@@ -794,7 +789,6 @@
     "emitterExponent": "Exponente del emisor",
     "emitterExponentDesc": "La potencia a la que se eleva la presión en un nudo al calcular el caudal que emite un emisor.",
     "fieldMustBePositive": "Debe ser mayor que cero",
-    "fieldRequired": "Este campo es obligatorio",
     "globalDemandMultiplier": "Multiplicador global de demanda",
     "globalDemandMultiplierDesc": "Ajusta los valores de las demandas base para todos los nudos y todas las categorías de demanda. Por ejemplo, un valor de 2 duplica todas las demandas base, mientras que un valor de 0.5 las reduciría a la mitad.",
     "hydraulicTimestepDesc": "Con qué frecuencia se calcula un nuevo estado hidráulico de la red. Si es mayor que el paso de tiempo del patrón o del informe, se reducirá automáticamente.",
@@ -909,13 +903,10 @@
     "sectionHasError": "Esta sección tiene valores inválidos"
   },
   "utilities": "Aplicaciones de utilidades",
-  "pumpPatterns": "Bombas con patrones de tiempo ({{1}} bombas usando velocidad constante)",
   "reservoirPatterns": "Embalses con patrones de tiempo ({{1}} embalses usando solo el primer valor del patrón)",
-  "tankCurves": "Tanques con curvas de volumen ({{1}} tanques usando diámetro fijo)",
   "constant": "Constante",
   "demandCategories": "Categorías de demanda",
   "timePattern": "Patrón",
-  "pcvCurves": "Válvulas PCV con curvas características ({{1}} válvulas usando solo el valor de ajuste)",
   "count": "Cantidad",
   "controls": {
     "rulesEmpty": "No hay controles basados en reglas definidos",
@@ -1028,7 +1019,6 @@
   "trial.status_zero": "Prueba: expira hoy",
   "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)",
   "curveType": "Tipo de curva",
-  "mixedValues": "Mixtos",
   "foundersPartnerDescription": "Apoya epanet-js -",
   "foundersPartnerLearnMore": "Conviértete en Socio Fundador",
   "foundersPartnerTitle": "Nuestros Socios Fundadores",
@@ -1043,7 +1033,6 @@
   "trial.activating": "Activando prueba",
   "trial.tryWithDemo": "Probar con una red de demostración",
   "valves": "Válvulas",
-  "importAsUnprojected": "Importar como sin proyectar",
   "off": "Desactivado",
   "inpProjectionChoice": {
     "nonProjectedTitle": "Cuadrícula X-Y Simple",
@@ -1110,8 +1099,7 @@
     "title": "Curvas",
     "uncategorizedCurves": "Sin categorizar",
     "valveCurves": "Válvula",
-    "volumeCurves": "Volumen de tanque",
-    "saveInvalid": "Algunas curvas tienen advertencias de validación."
+    "volumeCurves": "Volumen de tanque"
   },
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Datos operacionales",
@@ -1476,7 +1464,6 @@
   "maxPressure": "Presión máxima",
   "minPressure": "Presión mínima",
   "hglProfile": {
-    "cancelSelection": "Cancelar",
     "close": "Cerrar perfil HGL",
     "distance": "Distancia",
     "elevation": "Elevación",
@@ -1492,10 +1479,8 @@
       "message": "No se encontró un camino conectado entre los nudos seleccionados.",
       "title": "No se encontró camino"
     },
-    "selectAll": "Seleccionar todo",
     "selectEnd": "Haz clic para añadir un punto intermedio, o doble clic para finalizar el perfil",
     "selectPath": "Seleccionar ruta",
-    "selectPathHint": "Se encontraron múltiples rutas. Haz clic en cualquier activo resaltado para seleccionar una.",
     "selectStart": "Haz clic en un nudo o tubería para establecer el inicio del perfil",
     "title": "Vista de perfil",
     "toolbar": "Vista de perfil"
@@ -1550,7 +1535,7 @@
     },
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
-      "title": "Mapeo de datos",
+      "title": "Entrada de datos",
       "noProjectionWarning": "El archivo GeoJSON seleccionado no contiene datos de proyección. Asumiendo {{1}} como predeterminado."
     },
     "dataMappingStep": {
@@ -1558,7 +1543,7 @@
       "none": "Ninguno (auto-generar etiquetas)",
       "previewHeader": "Etiqueta",
       "previewMore": "... y {{1}} más",
-      "title": "Entrada de datos"
+      "title": "Mapeo de datos"
     },
     "errors": {
       "invalidFile": "El archivo seleccionado no es un archivo GeoJSON válido.",
@@ -1854,8 +1839,8 @@
       "pipeHeadlossFormulaUnsupported_other": "{{count}} tuberías utilizan una fórmula de pérdida de carga diferente al resto del modelo, por lo que su rugosidad no fue importada",
       "pipeParallelCountUnsupported_one": "1 tubería representa varias tuberías paralelas, por lo que fue importada como una sola tubería del diámetro indicado",
       "pipeParallelCountUnsupported_other": "{{count}} tuberías representan varias tuberías paralelas, por lo que fueron importadas como tuberías individuales del diámetro indicado",
-      "pumpControlUnsupported_one": "1 bomba es conmutada por una regla de nivel de tanque que aún no está importada, por lo que mantiene su estado inicial",
-      "pumpControlUnsupported_other": "{{count}} bombas son conmutadas por reglas de nivel de tanque que aún no están importadas, por lo que mantienen su estado inicial",
+      "pumpControlUnsupported_one": "1 bomba es conmutada por una regla que no pudo importarse, por lo que mantiene su estado inicial",
+      "pumpControlUnsupported_other": "{{count}} bombas son conmutadas por reglas que no pudieron importarse, por lo que mantienen su estado inicial",
       "pumpDefinitionUnsupported_one": "1 bomba especifica una curva de caudal y carga sin puntos, por lo que fue importada sin definición",
       "pumpDefinitionUnsupported_other": "{{count}} bombas especifican una curva de caudal y carga sin puntos, por lo que fueron importadas sin definición",
       "pumpPressureControlUnsupported_one": "1 bomba mantiene una presión establecida en otro nudo, que aún no está importado, por lo que solo mantiene su velocidad",
