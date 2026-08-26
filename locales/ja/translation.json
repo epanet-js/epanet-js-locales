@@ -1845,12 +1845,20 @@
       "tankVolumeCurveUnsupported_other": "{{count}}個の配水池は点のない容量曲線を指定していたため、曲線なしでインポートされました",
       "unitSystemMissing": "モデルに単位系が指定されていないため、メートル法単位（LPS）が使用されました。",
       "unitSystemUnsupported": "単位系 {{1}} はサポートされていないため、メートル法単位（LPS）が使用されました。",
-      "valveControlUnsupported_one": "1つの弁はサポートされていない時間変化制御を使用していたため、設定なしのTCVとしてインポートされました",
-      "valveControlUnsupported_other": "{{count}}個の弁はサポートされていない時間変化制御を使用していたため、設定なしのTCVとしてインポートされました",
       "valveKindUnknown_one": "1つの弁はサポートされていないタイプだったため、TCVとしてインポートされました",
       "valveKindUnknown_other": "{{count}}個の弁はサポートされていないタイプだったため、TCVとしてインポートされました",
       "valveOperatingRuleUnsupported_one": "1つの弁は配水池水位ルールによって開閉されますが、これはまだインポートされていないため、初期ステータスを維持します",
-      "valveOperatingRuleUnsupported_other": "{{count}}個の弁は配水池水位ルールによって開閉されますが、これはまだインポートされていないため、初期ステータスを維持します"
+      "valveOperatingRuleUnsupported_other": "{{count}}個の弁は配水池水位ルールによって開閉されますが、これはまだインポートされていないため、初期ステータスを維持します",
+      "flowModulatedSetpointUnsupported_one": "1つの弁は流量曲線から圧力を設定しますが、EPANETでは表現できないため、制御はインポートされませんでした",
+      "flowModulatedSetpointUnsupported_other": "{{count}}個の弁は流量曲線から圧力を設定しますが、EPANETでは表現できないため、それらの制御はインポートされませんでした",
+      "remotePressureControlUnsupported_one": "1つのリンクは別のノードで圧力を保持しますが、EPANETでは表現できないため、制御はインポートされませんでした",
+      "remotePressureControlUnsupported_other": "{{count}}個のリンクは別のノードで圧力を保持しますが、EPANETでは表現できないため、それらの制御はインポートされませんでした",
+      "tankFloatControlUnsupported_one": "配水池の入口にある1つのフロート弁はサポートされていないため、ファイルに指定された位置を維持し、配水池が満水になっても閉まりません",
+      "tankFloatControlUnsupported_other": "配水池の入口にある{{count}}個のフロート弁はサポートされていないため、ファイルに指定された位置を維持し、配水池が満水になっても閉まりません",
+      "valveFlowModulationUnsupported_one": "1つの弁は流量曲線から圧力を設定しますが、これはまだインポートされていないため、設定なしのTCVとしてインポートされました",
+      "valveFlowModulationUnsupported_other": "{{count}}個の弁は流量曲線から圧力を設定しますが、これはまだインポートされていないため、設定なしのTCVとしてインポートされました",
+      "valveScheduleUnreadable_one": "1つの弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
+      "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました"
     },
     "issuesDetail": "モデルはインポートされましたが、一部のデータを読み取れないか、まだサポートされていません。概要を展開して、スキップまたは置換された内容を確認してください。",
     "issuesSummary": "インポートできなかったもの",
@@ -1865,5 +1873,6 @@
   "rebuildStorageProgress.finalizing": "最終処理中...",
   "rebuildStorageProgress.noBackupTitle": "プロジェクトがバックアップされていません",
   "rebuildStorageProgress.storage": "準備中...",
-  "rebuildStorageProgress.writing": "モデルを構築中..."
+  "rebuildStorageProgress.writing": "モデルを構築中...",
+  "connect": "接続"
 }

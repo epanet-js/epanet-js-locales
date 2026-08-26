@@ -1845,12 +1845,20 @@
       "tankVolumeCurveUnsupported_other": "{{count}} tanks noemen een volumecurve zonder punten, dus ze zijn geïmporteerd zonder",
       "unitSystemMissing": "Het model vermeldt geen eenhedenstelsel, dus metrische eenheden (LPS) zijn gebruikt.",
       "unitSystemUnsupported": "Het eenhedenstelsel {{1}} wordt niet ondersteund, dus metrische eenheden (LPS) zijn gebruikt.",
-      "valveControlUnsupported_one": "1 ventiel gebruikt een tijdvariabele besturing die we niet ondersteunen, en is geïmporteerd als een TCV zonder instelling",
-      "valveControlUnsupported_other": "{{count}} ventielen gebruiken een tijdvariabele besturing die we niet ondersteunen, en zijn geïmporteerd als TCV's zonder instelling",
       "valveKindUnknown_one": "1 ventiel heeft een type dat we niet ondersteunen, en is geïmporteerd als een TCV",
       "valveKindUnknown_other": "{{count}} ventielen hebben een type dat we niet ondersteunen, en zijn geïmporteerd als TCV's",
       "valveOperatingRuleUnsupported_one": "1 ventiel wordt geopend en gesloten door een tankniveau-regel, die nog niet is geïmporteerd, dus deze behoudt zijn startstatus",
-      "valveOperatingRuleUnsupported_other": "{{count}} ventielen worden geopend en gesloten door tankniveau-regels, die nog niet zijn geïmporteerd, dus ze behouden hun startstatus"
+      "valveOperatingRuleUnsupported_other": "{{count}} ventielen worden geopend en gesloten door tankniveau-regels, die nog niet zijn geïmporteerd, dus ze behouden hun startstatus",
+      "flowModulatedSetpointUnsupported_one": "1 ventiel regelt zijn druk op basis van een stromingscurve, wat EPANET niet kan uitdrukken, dus de regeling is niet geïmporteerd",
+      "flowModulatedSetpointUnsupported_other": "{{count}} ventielen regelen hun druk op basis van een stromingscurve, wat EPANET niet kan uitdrukken, dus die regelingen zijn niet geïmporteerd",
+      "remotePressureControlUnsupported_one": "1 verbinding houdt een druk aan bij een ander knooppunt, wat EPANET niet kan uitdrukken, dus de regeling is niet geïmporteerd",
+      "remotePressureControlUnsupported_other": "{{count}} verbindingen houden een druk aan bij een ander knooppunt, wat EPANET niet kan uitdrukken, dus die regelingen zijn niet geïmporteerd",
+      "tankFloatControlUnsupported_one": "1 vlotterkraan op een tankinlaat wordt niet ondersteund, dus deze behoudt de positie die het bestand eraan gaf en sluit niet wanneer de tank vult",
+      "tankFloatControlUnsupported_other": "{{count}} vlotterkranen op tankinlaten worden niet ondersteund, dus deze behouden de posities die het bestand eraan gaf en sluiten niet wanneer de tanks vullen",
+      "valveFlowModulationUnsupported_one": "1 ventiel regelt zijn druk op basis van een stromingscurve, wat nog niet is geïmporteerd, dus het is geïmporteerd als een TCV zonder instelling",
+      "valveFlowModulationUnsupported_other": "{{count}} ventielen regelen hun druk op basis van een stromingscurve, wat nog niet is geïmporteerd, dus ze zijn geïmporteerd als TCV's zonder instelling",
+      "valveScheduleUnreadable_one": "1 ventiel verwijst naar een instelschema zonder punten, dus het is geïmporteerd als een TCV zonder instelling",
+      "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling"
     },
     "issuesDetail": "Het model is geïmporteerd, maar sommige gegevens konden niet worden gelezen of worden nog niet ondersteund. Vouw het overzicht uit om te zien wat is overgeslagen of vervangen.",
     "issuesSummary": "Wat we niet konden importeren",
@@ -1865,5 +1873,6 @@
   "rebuildStorageProgress.finalizing": "Voltooien...",
   "rebuildStorageProgress.noBackupTitle": "Uw project is niet geback-upt",
   "rebuildStorageProgress.storage": "Voorbereiden...",
-  "rebuildStorageProgress.writing": "Model opbouwen..."
+  "rebuildStorageProgress.writing": "Model opbouwen...",
+  "connect": "Verbinden"
 }

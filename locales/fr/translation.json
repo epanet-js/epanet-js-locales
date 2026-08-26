@@ -1845,12 +1845,20 @@
       "tankVolumeCurveUnsupported_other": "{{count}} châteaux d'eau nomment une courbe de volume sans points, ils ont donc été importés sans",
       "unitSystemMissing": "Le modèle ne spécifie pas son système d'unités, donc les unités métriques (LPS) ont été utilisées.",
       "unitSystemUnsupported": "Le système d'unités {{1}} n'est pas supporté, donc les unités métriques (LPS) ont été utilisées.",
-      "valveControlUnsupported_one": "1 vanne utilise un contrôle variable dans le temps que nous ne supportons pas, et a été importée comme une TCV sans réglage",
-      "valveControlUnsupported_other": "{{count}} vannes utilisent un contrôle variable dans le temps que nous ne supportons pas, et ont été importées comme des TCV sans réglage",
       "valveKindUnknown_one": "1 vanne a un type que nous ne supportons pas, et a été importée comme une TCV",
       "valveKindUnknown_other": "{{count}} vannes ont un type que nous ne supportons pas, et ont été importées comme des TCV",
       "valveOperatingRuleUnsupported_one": "1 vanne est ouverte et fermée par une règle de niveau de château d'eau, qui n'est pas encore importée, donc elle conserve son statut initial",
-      "valveOperatingRuleUnsupported_other": "{{count}} vannes sont ouvertes et fermées par des règles de niveau de château d'eau, qui ne sont pas encore importées, donc elles conservent leur statut initial"
+      "valveOperatingRuleUnsupported_other": "{{count}} vannes sont ouvertes et fermées par des règles de niveau de château d'eau, qui ne sont pas encore importées, donc elles conservent leur statut initial",
+      "flowModulatedSetpointUnsupported_one": "1 vanne règle sa pression à partir d'une courbe de débit, ce qu'EPANET ne peut pas exprimer, donc le contrôle n'a pas été importé",
+      "flowModulatedSetpointUnsupported_other": "{{count}} vannes règlent leur pression à partir d'une courbe de débit, ce qu'EPANET ne peut pas exprimer, donc ces contrôles n'ont pas été importés",
+      "remotePressureControlUnsupported_one": "1 liaison maintient une pression à un autre nœud, ce qu'EPANET ne peut pas exprimer, donc le contrôle n'a pas été importé",
+      "remotePressureControlUnsupported_other": "{{count}} liaisons maintiennent une pression à un autre nœud, ce qu'EPANET ne peut pas exprimer, donc ces contrôles n'ont pas été importés",
+      "tankFloatControlUnsupported_one": "1 vanne à flotteur sur l'entrée d'un château d'eau n'est pas supportée, elle conserve donc la position que le fichier lui a donnée et ne se ferme pas lorsque le château d'eau se remplit",
+      "tankFloatControlUnsupported_other": "{{count}} vannes à flotteur sur les entrées des châteaux d'eau ne sont pas supportées, elles conservent donc les positions que le fichier leur a données et ne se ferment pas lorsque les châteaux d'eau se remplissent",
+      "valveFlowModulationUnsupported_one": "1 vanne règle sa pression à partir d'une courbe de débit, ce qui n'est pas encore importé, elle a donc été importée comme une TCV sans réglage",
+      "valveFlowModulationUnsupported_other": "{{count}} vannes règlent leur pression à partir d'une courbe de débit, ce qui n'est pas encore importé, elles ont donc été importées comme des TCV sans réglage",
+      "valveScheduleUnreadable_one": "1 vanne nomme un programme de réglage sans points, elle a donc été importée comme une TCV sans réglage",
+      "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage"
     },
     "issuesDetail": "Le modèle a été importé, mais certaines données n'ont pas pu être lues ou ne sont pas encore supportées. Développez le résumé pour voir ce qui a été ignoré ou remplacé.",
     "issuesSummary": "Ce que nous n'avons pas pu importer",
@@ -1865,5 +1873,6 @@
   "rebuildStorageProgress.finalizing": "Finalisation...",
   "rebuildStorageProgress.noBackupTitle": "Votre projet n'est pas sauvegardé",
   "rebuildStorageProgress.storage": "Préparation...",
-  "rebuildStorageProgress.writing": "Construction du modèle..."
+  "rebuildStorageProgress.writing": "Construction du modèle...",
+  "connect": "Connecter"
 }

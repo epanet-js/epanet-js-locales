@@ -1845,12 +1845,20 @@
       "tankVolumeCurveUnsupported_other": "{{count}} Tanques nomeiam uma curva de volume sem pontos, então foram importados sem uma",
       "unitSystemMissing": "O modelo não especifica seu sistema de unidades, então unidades métricas (LPS) foram usadas.",
       "unitSystemUnsupported": "O sistema de unidades {{1}} não é suportado, então unidades métricas (LPS) foram usadas.",
-      "valveControlUnsupported_one": "1 Válvula usa um controle variável no tempo que não suportamos e foi importada como uma TCV sem ajuste",
-      "valveControlUnsupported_other": "{{count}} Válvulas usam um controle variável no tempo que não suportamos e foram importadas como TCVs sem ajuste",
       "valveKindUnknown_one": "1 Válvula tem um tipo que não suportamos e foi importada como uma TCV",
       "valveKindUnknown_other": "{{count}} Válvulas têm um tipo que não suportamos e foram importadas como TCVs",
       "valveOperatingRuleUnsupported_one": "1 Válvula é aberta e fechada por uma regra de nível do tanque, que ainda não foi importada, então ela mantém seu estado inicial",
-      "valveOperatingRuleUnsupported_other": "{{count}} Válvulas são abertas e fechadas por regras de nível do tanque, que ainda não foram importadas, então elas mantêm seus estados iniciais"
+      "valveOperatingRuleUnsupported_other": "{{count}} Válvulas são abertas e fechadas por regras de nível do tanque, que ainda não foram importadas, então elas mantêm seus estados iniciais",
+      "flowModulatedSetpointUnsupported_one": "1 Válvula define sua pressão a partir de uma curva de vazão, que o EPANET não consegue expressar, então o controle não foi importado",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Válvulas definem sua pressão a partir de uma curva de vazão, que o EPANET não consegue expressar, então esses controles não foram importados",
+      "remotePressureControlUnsupported_one": "1 Link mantém uma pressão em outro nó, que o EPANET não consegue expressar, então o controle não foi importado",
+      "remotePressureControlUnsupported_other": "{{count}} Links mantêm uma pressão em outro nó, que o EPANET não consegue expressar, então esses controles não foram importados",
+      "tankFloatControlUnsupported_one": "1 Válvula boia na entrada de um tanque não é suportada, então ela mantém a posição que o arquivo lhe deu e não fecha enquanto o tanque enche",
+      "tankFloatControlUnsupported_other": "{{count}} Válvulas boia nas entradas dos tanques não são suportadas, então elas mantêm as posições que o arquivo lhes deu e não fecham enquanto os tanques enchem",
+      "valveFlowModulationUnsupported_one": "1 Válvula define sua pressão a partir de uma curva de vazão, que ainda não foi importada, então foi importada como uma TCV sem ajuste",
+      "valveFlowModulationUnsupported_other": "{{count}} Válvulas definem sua pressão a partir de uma curva de vazão, que ainda não foi importada, então foram importadas como TCVs sem ajuste",
+      "valveScheduleUnreadable_one": "1 Válvula nomeia um agendamento de ajuste sem pontos, então foi importada como uma TCV sem ajuste",
+      "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste"
     },
     "issuesDetail": "O modelo foi importado, mas alguns dados não puderam ser lidos ou ainda não são suportados. Expanda o resumo para ver o que foi ignorado ou substituído.",
     "issuesSummary": "O que não pudemos importar",
@@ -1865,5 +1873,6 @@
   "rebuildStorageProgress.finalizing": "Finalizando...",
   "rebuildStorageProgress.noBackupTitle": "Seu projeto não tem backup",
   "rebuildStorageProgress.storage": "Preparando...",
-  "rebuildStorageProgress.writing": "Construindo modelo..."
+  "rebuildStorageProgress.writing": "Construindo modelo...",
+  "connect": "Conectar"
 }

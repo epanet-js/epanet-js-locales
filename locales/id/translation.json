@@ -1845,12 +1845,20 @@
       "tankVolumeCurveUnsupported_other": "{{count}} Tangki menamai kurva volume tanpa titik, jadi diimpor tanpa kurva tersebut",
       "unitSystemMissing": "Model tidak menyatakan sistem unitnya, jadi unit metrik (LPS) digunakan.",
       "unitSystemUnsupported": "Sistem unit {{1}} tidak didukung, jadi unit metrik (LPS) digunakan.",
-      "valveControlUnsupported_one": "1 Katup menggunakan kontrol bervariasi waktu yang tidak kami dukung, dan diimpor sebagai TCV tanpa pengaturan",
-      "valveControlUnsupported_other": "{{count}} Katup menggunakan kontrol bervariasi waktu yang tidak kami dukung, dan diimpor sebagai TCV tanpa pengaturan",
       "valveKindUnknown_one": "1 Katup memiliki tipe yang tidak kami dukung, dan diimpor sebagai TCV",
       "valveKindUnknown_other": "{{count}} Katup memiliki tipe yang tidak kami dukung, dan diimpor sebagai TCV",
       "valveOperatingRuleUnsupported_one": "1 Katup dibuka dan ditutup oleh aturan level tangki, yang belum diimpor, jadi tetap dalam status awal",
-      "valveOperatingRuleUnsupported_other": "{{count}} Katup dibuka dan ditutup oleh aturan level tangki, yang belum diimpor, jadi tetap dalam status awal"
+      "valveOperatingRuleUnsupported_other": "{{count}} Katup dibuka dan ditutup oleh aturan level tangki, yang belum diimpor, jadi tetap dalam status awal",
+      "flowModulatedSetpointUnsupported_one": "1 Katup mengatur tekanannya dari kurva aliran, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tidak diimpor",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Katup mengatur tekanannya dari kurva aliran, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tersebut tidak diimpor",
+      "remotePressureControlUnsupported_one": "1 Tautan menahan tekanan pada node lain, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tidak diimpor",
+      "remotePressureControlUnsupported_other": "{{count}} Tautan menahan tekanan pada node lain, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tersebut tidak diimpor",
+      "tankFloatControlUnsupported_one": "1 Katup pelampung pada saluran masuk tangki tidak didukung, jadi tetap pada posisi yang diberikan file dan tidak menutup saat tangki terisi",
+      "tankFloatControlUnsupported_other": "{{count}} Katup pelampung pada saluran masuk tangki tidak didukung, jadi mereka tetap pada posisi yang diberikan file dan tidak menutup saat tangki terisi",
+      "valveFlowModulationUnsupported_one": "1 Katup mengatur tekanannya dari kurva aliran, yang belum diimpor, jadi diimpor sebagai TCV tanpa pengaturan",
+      "valveFlowModulationUnsupported_other": "{{count}} Katup mengatur tekanannya dari kurva aliran, yang belum diimpor, jadi diimpor sebagai TCV tanpa pengaturan",
+      "valveScheduleUnreadable_one": "1 Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
+      "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan"
     },
     "issuesDetail": "Model berhasil diimpor, tetapi beberapa data tidak dapat dibaca atau belum didukung. Perluas ringkasan untuk melihat apa yang dilewati atau diganti.",
     "issuesSummary": "Apa yang tidak bisa kami impor",
@@ -1865,5 +1873,6 @@
   "rebuildStorageProgress.finalizing": "Menyelesaikan...",
   "rebuildStorageProgress.noBackupTitle": "Proyek Anda belum dicadangkan",
   "rebuildStorageProgress.storage": "Menyiapkan...",
-  "rebuildStorageProgress.writing": "Membangun model..."
+  "rebuildStorageProgress.writing": "Membangun model...",
+  "connect": "Hubungkan"
 }
