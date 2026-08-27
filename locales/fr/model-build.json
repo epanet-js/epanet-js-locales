@@ -65,7 +65,6 @@
       "findingNodes": "Recherche des nœuds",
       "finishingBuild": "Finalisation de la construction",
       "gettingElevations": "Obtention des élévations",
-      "inferringReservoirHeads": "Déduction des charges des réservoirs",
       "readingBuildConfig": "Lecture de la configuration de construction",
       "removingZeroLengthPipes": "Suppression des conduites de longueur nulle",
       "splittingLinks": "Division des liaisons",

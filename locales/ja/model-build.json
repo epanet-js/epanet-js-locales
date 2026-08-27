@@ -65,7 +65,6 @@
       "findingNodes": "接点の検索",
       "finishingBuild": "構築の完了",
       "gettingElevations": "標高の取得",
-      "inferringReservoirHeads": "貯水池水頭の推測",
       "readingBuildConfig": "構築設定の読み込み",
       "removingZeroLengthPipes": "ゼロ長管の削除",
       "splittingLinks": "リンクの分割",

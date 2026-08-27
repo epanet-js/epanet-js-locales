@@ -81,7 +81,6 @@
       "removingZeroLengthPipes": "Removing zero-length pipes",
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
-      "inferringReservoirHeads": "Inferring reservoir heads",
       "finalizingModel": "Finalizing model",
       "generatingEjsdb": "Generating project file"
     },

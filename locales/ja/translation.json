@@ -1065,7 +1065,9 @@
     "energyPricePatterns": "エネルギー価格",
     "qualitySourceStrengthPatterns": "水質源強度",
     "setAsEnergyPrice": "エネルギー価格として設定",
-    "setAsQualitySourceStrength": "水質源強度として設定"
+    "setAsQualitySourceStrength": "水質源強度として設定",
+    "interval": "間隔",
+    "multipliers": "乗数"
   },
   "curves": {
     "addCurve": "{{1}}曲線を追加",
@@ -1858,7 +1860,11 @@
       "valveFlowModulationUnsupported_one": "1つの弁は流量曲線から圧力を設定しますが、これはまだインポートされていないため、設定なしのTCVとしてインポートされました",
       "valveFlowModulationUnsupported_other": "{{count}}個の弁は流量曲線から圧力を設定しますが、これはまだインポートされていないため、設定なしのTCVとしてインポートされました",
       "valveScheduleUnreadable_one": "1つの弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
-      "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました"
+      "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
+      "customAttributeValueUnreadable_one": "カスタム属性値が1件読み取れなかったため、インポートされませんでした",
+      "customAttributeValueUnreadable_other": "{{count}}件のカスタム属性値が読み取れなかったため、インポートされませんでした",
+      "zoneGeometryUnreadable_one": "1つのゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
+      "zoneGeometryUnreadable_other": "{{count}}個のゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした"
     },
     "issuesDetail": "モデルはインポートされましたが、一部のデータを読み取れないか、まだサポートされていません。概要を展開して、スキップまたは置換された内容を確認してください。",
     "issuesSummary": "インポートできなかったもの",
@@ -1874,5 +1880,8 @@
   "rebuildStorageProgress.noBackupTitle": "プロジェクトがバックアップされていません",
   "rebuildStorageProgress.storage": "準備中...",
   "rebuildStorageProgress.writing": "モデルを構築中...",
-  "connect": "接続"
+  "connect": "接続",
+  "archive": "アーカイブ",
+  "archived": "アーカイブ済み",
+  "restore": "復元"
 }

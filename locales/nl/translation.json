@@ -1065,7 +1065,9 @@
     "energyPricePatterns": "Energieprijs",
     "qualitySourceStrengthPatterns": "Kwaliteitsbronsterkte",
     "setAsEnergyPrice": "Instellen als Energieprijs",
-    "setAsQualitySourceStrength": "Instellen als Kwaliteitsbronsterkte"
+    "setAsQualitySourceStrength": "Instellen als Kwaliteitsbronsterkte",
+    "interval": "Interval",
+    "multipliers": "Vermenigvuldigers"
   },
   "curves": {
     "addCurve": "Curve {{1}} toevoegen",
@@ -1858,7 +1860,11 @@
       "valveFlowModulationUnsupported_one": "1 ventiel regelt zijn druk op basis van een stromingscurve, wat nog niet is geïmporteerd, dus het is geïmporteerd als een TCV zonder instelling",
       "valveFlowModulationUnsupported_other": "{{count}} ventielen regelen hun druk op basis van een stromingscurve, wat nog niet is geïmporteerd, dus ze zijn geïmporteerd als TCV's zonder instelling",
       "valveScheduleUnreadable_one": "1 ventiel verwijst naar een instelschema zonder punten, dus het is geïmporteerd als een TCV zonder instelling",
-      "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling"
+      "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling",
+      "customAttributeValueUnreadable_one": "1 Aangepaste attribuutwaarde kon niet worden gelezen, dus deze is niet geïmporteerd",
+      "customAttributeValueUnreadable_other": "{{count}} Aangepaste attribuutwaarden konden niet worden gelezen, dus ze zijn niet geïmporteerd",
+      "zoneGeometryUnreadable_one": "1 Zonegrens heeft te weinig punten om een polygoon te vormen, dus deze is niet geïmporteerd",
+      "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd"
     },
     "issuesDetail": "Het model is geïmporteerd, maar sommige gegevens konden niet worden gelezen of worden nog niet ondersteund. Vouw het overzicht uit om te zien wat is overgeslagen of vervangen.",
     "issuesSummary": "Wat we niet konden importeren",
@@ -1874,5 +1880,8 @@
   "rebuildStorageProgress.noBackupTitle": "Uw project is niet geback-upt",
   "rebuildStorageProgress.storage": "Voorbereiden...",
   "rebuildStorageProgress.writing": "Model opbouwen...",
-  "connect": "Verbinden"
+  "connect": "Verbinden",
+  "archive": "Archiveren",
+  "archived": "Gearchiveerd",
+  "restore": "Herstellen"
 }

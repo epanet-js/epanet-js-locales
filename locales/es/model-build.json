@@ -65,7 +65,6 @@
       "findingNodes": "Encontrando nudos",
       "finishingBuild": "Finalizando construcción",
       "gettingElevations": "Obteniendo elevaciones",
-      "inferringReservoirHeads": "Infiriendo cargas de embalses",
       "readingBuildConfig": "Leyendo configuración de construcción",
       "removingZeroLengthPipes": "Eliminando tuberías de longitud cero",
       "splittingLinks": "Dividiendo enlaces",

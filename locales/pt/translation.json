@@ -1065,7 +1065,9 @@
     "energyPricePatterns": "Preço de energia",
     "qualitySourceStrengthPatterns": "Intensidade da fonte de qualidade",
     "setAsEnergyPrice": "Definir como Preço de energia",
-    "setAsQualitySourceStrength": "Definir como Intensidade da fonte de qualidade"
+    "setAsQualitySourceStrength": "Definir como Intensidade da fonte de qualidade",
+    "interval": "Intervalo",
+    "multipliers": "Multiplicadores"
   },
   "curves": {
     "addCurve": "Adicionar curva de {{1}}",
@@ -1858,7 +1860,11 @@
       "valveFlowModulationUnsupported_one": "1 Válvula define sua pressão a partir de uma curva de vazão, que ainda não foi importada, então foi importada como uma TCV sem ajuste",
       "valveFlowModulationUnsupported_other": "{{count}} Válvulas definem sua pressão a partir de uma curva de vazão, que ainda não foi importada, então foram importadas como TCVs sem ajuste",
       "valveScheduleUnreadable_one": "1 Válvula nomeia um agendamento de ajuste sem pontos, então foi importada como uma TCV sem ajuste",
-      "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste"
+      "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste",
+      "customAttributeValueUnreadable_one": "1 valor de atributo personalizado não pôde ser lido, então não foi importado",
+      "customAttributeValueUnreadable_other": "{{count}} valores de atributos personalizados não puderam ser lidos, então não foram importados",
+      "zoneGeometryUnreadable_one": "1 limite de zona tem poucos pontos para formar um polígono, então não foi importado",
+      "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados"
     },
     "issuesDetail": "O modelo foi importado, mas alguns dados não puderam ser lidos ou ainda não são suportados. Expanda o resumo para ver o que foi ignorado ou substituído.",
     "issuesSummary": "O que não pudemos importar",
@@ -1874,5 +1880,8 @@
   "rebuildStorageProgress.noBackupTitle": "Seu projeto não tem backup",
   "rebuildStorageProgress.storage": "Preparando...",
   "rebuildStorageProgress.writing": "Construindo modelo...",
-  "connect": "Conectar"
+  "connect": "Conectar",
+  "archive": "Arquivar",
+  "archived": "Arquivado",
+  "restore": "Restaurar"
 }

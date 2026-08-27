@@ -947,7 +947,9 @@
     "setAsQualitySourceStrength": "Atur sebagai Kekuatan sumber kualitas",
     "setAsReservoirHead": "Atur sebagai Tinggi muka reservoir",
     "title": "Pola",
-    "uncategorizedPatterns": "Tidak terkategori"
+    "uncategorizedPatterns": "Tidak terkategori",
+    "interval": "Interval",
+    "multipliers": "Pengali"
   },
   "pausePlayback": "Jeda pemutaran",
   "payByInvoice": "Bayar dengan faktur",
@@ -1858,7 +1860,11 @@
       "valveFlowModulationUnsupported_one": "1 Katup mengatur tekanannya dari kurva aliran, yang belum diimpor, jadi diimpor sebagai TCV tanpa pengaturan",
       "valveFlowModulationUnsupported_other": "{{count}} Katup mengatur tekanannya dari kurva aliran, yang belum diimpor, jadi diimpor sebagai TCV tanpa pengaturan",
       "valveScheduleUnreadable_one": "1 Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
-      "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan"
+      "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
+      "customAttributeValueUnreadable_one": "1 nilai atribut kustom tidak dapat dibaca, sehingga tidak diimpor",
+      "customAttributeValueUnreadable_other": "{{count}} nilai atribut kustom tidak dapat dibaca, sehingga tidak diimpor",
+      "zoneGeometryUnreadable_one": "1 batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
+      "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor"
     },
     "issuesDetail": "Model berhasil diimpor, tetapi beberapa data tidak dapat dibaca atau belum didukung. Perluas ringkasan untuk melihat apa yang dilewati atau diganti.",
     "issuesSummary": "Apa yang tidak bisa kami impor",
@@ -1874,5 +1880,8 @@
   "rebuildStorageProgress.noBackupTitle": "Proyek Anda belum dicadangkan",
   "rebuildStorageProgress.storage": "Menyiapkan...",
   "rebuildStorageProgress.writing": "Membangun model...",
-  "connect": "Hubungkan"
+  "connect": "Hubungkan",
+  "archive": "Arsip",
+  "archived": "Diarbipkan",
+  "restore": "Pulihkan"
 }

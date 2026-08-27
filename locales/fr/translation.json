@@ -1065,7 +1065,9 @@
     "energyPricePatterns": "Prix de l'énergie",
     "qualitySourceStrengthPatterns": "Concentration de la source de qualité",
     "setAsEnergyPrice": "Définir comme Prix de l'énergie",
-    "setAsQualitySourceStrength": "Définir comme Concentration de la source de qualité"
+    "setAsQualitySourceStrength": "Définir comme Concentration de la source de qualité",
+    "interval": "Intervalle",
+    "multipliers": "Multiplicateurs"
   },
   "curves": {
     "addCurve": "Ajouter une courbe {{1}}",
@@ -1858,7 +1860,11 @@
       "valveFlowModulationUnsupported_one": "1 vanne règle sa pression à partir d'une courbe de débit, ce qui n'est pas encore importé, elle a donc été importée comme une TCV sans réglage",
       "valveFlowModulationUnsupported_other": "{{count}} vannes règlent leur pression à partir d'une courbe de débit, ce qui n'est pas encore importé, elles ont donc été importées comme des TCV sans réglage",
       "valveScheduleUnreadable_one": "1 vanne nomme un programme de réglage sans points, elle a donc été importée comme une TCV sans réglage",
-      "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage"
+      "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage",
+      "customAttributeValueUnreadable_one": "1 valeur d'attribut personnalisé n'a pas pu être lue, donc elle n'a pas été importée",
+      "customAttributeValueUnreadable_other": "{{count}} valeurs d'attributs personnalisés n'ont pas pu être lues, donc elles n'ont pas été importées",
+      "zoneGeometryUnreadable_one": "1 limite de zone a trop peu de points pour former un polygone, donc elle n'a pas été importée",
+      "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, donc elles n'ont pas été importées"
     },
     "issuesDetail": "Le modèle a été importé, mais certaines données n'ont pas pu être lues ou ne sont pas encore supportées. Développez le résumé pour voir ce qui a été ignoré ou remplacé.",
     "issuesSummary": "Ce que nous n'avons pas pu importer",
@@ -1874,5 +1880,8 @@
   "rebuildStorageProgress.noBackupTitle": "Votre projet n'est pas sauvegardé",
   "rebuildStorageProgress.storage": "Préparation...",
   "rebuildStorageProgress.writing": "Construction du modèle...",
-  "connect": "Connecter"
+  "connect": "Connecter",
+  "archive": "Archiver",
+  "archived": "Archivé",
+  "restore": "Restaurer"
 }
