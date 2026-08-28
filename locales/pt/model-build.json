@@ -32,7 +32,10 @@
     "roughness": "Rugosidade",
     "setting": "Ajuste",
     "status": "Estado",
-    "type": "Tipo"
+    "type": "Tipo",
+    "demand": "Demanda",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
   "buildProgress": {
     "complete": "Compilação concluída",
@@ -95,7 +98,8 @@
     "pumps": "Bombas",
     "reservoirs": "Reservatórios",
     "tanks": "Tanques",
-    "valves": "Válvulas"
+    "valves": "Válvulas",
+    "customerPoints": "Pontos de Consumo"
   },
   "fileDropzone": {
     "addMoreFiles": "Adicionar mais arquivos (GeoJSON ou Shapefile)",

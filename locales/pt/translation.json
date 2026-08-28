@@ -352,7 +352,7 @@
   "cannotRenderMap": "Não é possível renderizar o mapa no seu navegador",
   "cannotRenderMapExplain": "O mapa requer WebGL, que não pôde ser inicializado no seu navegador. Este problema às vezes ocorre após suspender ou colocar seu computador em modo de suspensão. Por favor, tente fechar seu navegador e reabrir a página em uma nova janela do navegador.",
   "cannotRenderMapAction": "Se o problema continuar após atualizar seu navegador e drivers gráficos, por favor entre em contato com {{1}} para assistência.",
-  "importFailed": "Importação Falhada",
+  "importFailed": "O arquivo não pôde ser importado",
   "importCompletedWithWarnings": "Importação Completada com Avisos",
   "importSuccessful": "Importação Bem-sucedida",
   "importedCustomerPointSingular": "Importado {{1}} ponto de consumo",
@@ -1067,7 +1067,30 @@
     "setAsEnergyPrice": "Definir como Preço de energia",
     "setAsQualitySourceStrength": "Definir como Intensidade da fonte de qualidade",
     "interval": "Intervalo",
-    "multipliers": "Multiplicadores"
+    "multipliers": "Multiplicadores",
+    "import": {
+      "added": "{{1}} adicionado(s)",
+      "andMoreRows": "{{1}} e mais {{2}}",
+      "atRow": "{{1}} (linha {{2}})",
+      "atRows": "{{1}} (linhas {{2}})",
+      "duplicateLabel": "Nome de padrão duplicado. Padrão ignorado.",
+      "exception": "O arquivo não pôde ser lido",
+      "identical": "{{1}} idênticos",
+      "ignored": "{{1}} ignorado(s)",
+      "imported": "Padrões importados",
+      "intervalIgnored": "Valor do intervalo difere das configurações do projeto. Ignorado.",
+      "invalidInterval": "Intervalo inválido. Padrão ignorado.",
+      "invalidMultiplier": "Multiplicador inválido. Padrão ignorado.",
+      "issues": "Problemas",
+      "issuesFound": "Foram encontrados problemas durante a importação",
+      "missingLabel": "Nome de padrão ausente. Padrão ignorado.",
+      "missingMultiplier": "Multiplicador ausente. Padrão ignorado.",
+      "notAValidPatternsFile": "Este não parece ser um arquivo de padrões. As colunas esperadas são Nome do padrão, Tipo, Intervalo e Multiplicadores.",
+      "nothingImported": "Nada foi importado",
+      "unsupportedFormat": "Apenas arquivos .csv e .xlsx podem ser importados",
+      "untouched": "{{1}} não no arquivo",
+      "updated": "{{1}} atualizado(s)"
+    }
   },
   "curves": {
     "addCurve": "Adicionar curva de {{1}}",
@@ -1883,5 +1906,6 @@
   "connect": "Conectar",
   "archive": "Arquivar",
   "archived": "Arquivado",
-  "restore": "Restaurar"
+  "restore": "Restaurar",
+  "dismiss": "Dispensar"
 }

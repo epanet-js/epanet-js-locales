@@ -32,7 +32,10 @@
     "roughness": "流速係数",
     "setting": "設定",
     "status": "ステータス",
-    "type": "タイプ"
+    "type": "タイプ",
+    "demand": "需要",
+    "latitude": "緯度",
+    "longitude": "経度"
   },
   "buildProgress": {
     "complete": "構築完了",
@@ -95,7 +98,8 @@
     "pumps": "ポンプ",
     "reservoirs": "貯水池",
     "tanks": "配水池",
-    "valves": "弁"
+    "valves": "弁",
+    "customerPoints": "顧客ポイント"
   },
   "fileDropzone": {
     "addMoreFiles": "さらにファイルを追加 (GeoJSONまたはShapefile)",

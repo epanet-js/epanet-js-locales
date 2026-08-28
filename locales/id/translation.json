@@ -618,7 +618,7 @@
   },
   "importedCustomerPointPlural": "Diimpor {{1}} titik pelanggan",
   "importedCustomerPointSingular": "Diimpor {{1}} titik pelanggan",
-  "importFailed": "Impor gagal",
+  "importFailed": "Berkas tidak dapat diimpor",
   "importFromGIS": "Impor dari GIS",
   "importFromINP": "Impor dari berkas INP",
   "importINP": "Impor INP",
@@ -949,7 +949,30 @@
     "title": "Pola",
     "uncategorizedPatterns": "Tidak terkategori",
     "interval": "Interval",
-    "multipliers": "Pengali"
+    "multipliers": "Pengali",
+    "import": {
+      "added": "{{1}} ditambahkan",
+      "andMoreRows": "{{1}} dan {{2}} lainnya",
+      "atRow": "{{1}} (baris {{2}})",
+      "atRows": "{{1}} (baris {{2}})",
+      "duplicateLabel": "Nama pola duplikat. Pola diabaikan",
+      "exception": "Berkas tidak dapat dibaca",
+      "identical": "{{1}} identik",
+      "ignored": "{{1}} diabaikan",
+      "imported": "Pola diimpor",
+      "intervalIgnored": "Nilai interval berbeda dari pengaturan proyek. Diabaikan.",
+      "invalidInterval": "Interval tidak valid. Pola diabaikan",
+      "invalidMultiplier": "Pengali tidak valid. Pola diabaikan",
+      "issues": "Masalah",
+      "issuesFound": "Ditemukan masalah saat mengimpor",
+      "missingLabel": "Nama pola hilang. Pola diabaikan",
+      "missingMultiplier": "Pengali hilang. Pola diabaikan",
+      "notAValidPatternsFile": "Ini bukan file pola. Kolom yang diharapkan adalah Nama pola, Tipe, Interval dan Pengali.",
+      "nothingImported": "Tidak ada yang diimpor",
+      "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
+      "untouched": "{{1}} tidak ada dalam file",
+      "updated": "{{1}} diperbarui"
+    }
   },
   "pausePlayback": "Jeda pemutaran",
   "payByInvoice": "Bayar dengan faktur",
@@ -1883,5 +1906,6 @@
   "connect": "Hubungkan",
   "archive": "Arsip",
   "archived": "Diarbipkan",
-  "restore": "Pulihkan"
+  "restore": "Pulihkan",
+  "dismiss": "Tutup"
 }

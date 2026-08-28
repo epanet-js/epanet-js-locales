@@ -288,7 +288,7 @@
   },
   "importedCustomerPointPlural": "{{1}} の顧客ポイントをインポートしました",
   "importedCustomerPointSingular": "{{1}} の顧客ポイントをインポートしました",
-  "importFailed": "インポートに失敗しました",
+  "importFailed": "ファイルをインポートできませんでした",
   "importFromGIS": "GISからインポート",
   "importFromINP": "INPファイルからインポート",
   "importSuccessful": "インポート成功",
@@ -1067,7 +1067,30 @@
     "setAsEnergyPrice": "エネルギー価格として設定",
     "setAsQualitySourceStrength": "水質源強度として設定",
     "interval": "間隔",
-    "multipliers": "乗数"
+    "multipliers": "乗数",
+    "import": {
+      "added": "{{1}} 件追加されました",
+      "andMoreRows": "{{1}} とその他 {{2}} 件",
+      "atRow": "{{1}} (行 {{2}})",
+      "atRows": "{{1}} (行 {{2}})",
+      "duplicateLabel": "重複するパターン名。パターンは無視されました",
+      "exception": "ファイルを読み取れませんでした",
+      "identical": "{{1}} 件同一",
+      "ignored": "{{1}} 件無視されました",
+      "imported": "パターンがインポートされました",
+      "intervalIgnored": "間隔値がプロジェクト設定と異なります。無視されました。",
+      "invalidInterval": "無効な間隔。パターンは無視されました",
+      "invalidMultiplier": "無効な乗数。パターンは無視されました",
+      "issues": "問題",
+      "issuesFound": "インポート中に問題が見つかりました",
+      "missingLabel": "パターン名がありません。パターンは無視されました",
+      "missingMultiplier": "乗数がありません。パターンは無視されました",
+      "notAValidPatternsFile": "これはパターンファイルではないようです。期待される列は、パターン名、タイプ、間隔、乗数です。",
+      "nothingImported": "何もインポートされませんでした",
+      "unsupportedFormat": ".csv および .xlsx ファイルのみインポートできます",
+      "untouched": "ファイルに {{1}} はありません",
+      "updated": "{{1}} 件更新されました"
+    }
   },
   "curves": {
     "addCurve": "{{1}}曲線を追加",
@@ -1883,5 +1906,6 @@
   "connect": "接続",
   "archive": "アーカイブ",
   "archived": "アーカイブ済み",
-  "restore": "復元"
+  "restore": "復元",
+  "dismiss": "閉じる"
 }

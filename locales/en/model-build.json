@@ -158,7 +158,8 @@
     "valves": "Valves",
     "pumps": "Pumps",
     "tanks": "Tanks",
-    "reservoirs": "Reservoirs"
+    "reservoirs": "Reservoirs",
+    "customerPoints": "Customer points"
   },
   "flowUnits": {
     "cfs": "CFS (cu foot/sec)",
@@ -186,7 +187,10 @@
     "maxLevel": "Max level",
     "minVolume": "Min volume",
     "head": "Head",
-    "year": "Year of installation"
+    "year": "Year of installation",
+    "demand": "Demand",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
   "pipe": {
     "open": "Open",

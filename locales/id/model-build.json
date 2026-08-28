@@ -32,7 +32,10 @@
     "roughness": "Kekasaran",
     "setting": "Pengaturan",
     "status": "Status",
-    "type": "Jenis"
+    "type": "Jenis",
+    "demand": "Kebutuhan",
+    "latitude": "Lintang",
+    "longitude": "Bujur"
   },
   "buildProgress": {
     "complete": "Pembangunan selesai",
@@ -95,7 +98,8 @@
     "pumps": "Pompa",
     "reservoirs": "Reservoir",
     "tanks": "Tangki",
-    "valves": "Katup"
+    "valves": "Katup",
+    "customerPoints": "Titik pelanggan"
   },
   "fileDropzone": {
     "addMoreFiles": "Tambahkan lebih banyak file (GeoJSON atau Shapefile)",

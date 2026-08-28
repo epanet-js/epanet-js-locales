@@ -352,7 +352,7 @@
   "cannotRenderMap": "Impossible d'afficher la carte sur votre navigateur",
   "cannotRenderMapExplain": "La carte nécessite WebGL, qui n'a pas pu être initialisé dans votre navigateur. Ce problème peut parfois se produire après avoir mis votre ordinateur en veille ou en hibernation. Veuillez essayer de fermer votre navigateur et de rouvrir la page dans une nouvelle fenêtre de navigateur.",
   "cannotRenderMapAction": "Si le problème persiste après la mise à jour de votre navigateur et des pilotes graphiques, veuillez contacter {{1}} pour assistance.",
-  "importFailed": "Échec d'Importation",
+  "importFailed": "Le fichier n'a pas pu être importé",
   "importCompletedWithWarnings": "Importation Terminée avec Avertissements",
   "importSuccessful": "Importation Réussie",
   "importedCustomerPointSingular": "Importé {{1}} point de consommation",
@@ -1067,7 +1067,30 @@
     "setAsEnergyPrice": "Définir comme Prix de l'énergie",
     "setAsQualitySourceStrength": "Définir comme Concentration de la source de qualité",
     "interval": "Intervalle",
-    "multipliers": "Multiplicateurs"
+    "multipliers": "Multiplicateurs",
+    "import": {
+      "added": "{{1}} ajouté",
+      "andMoreRows": "{{1}} et {{2}} de plus",
+      "atRow": "{{1}} (ligne {{2}})",
+      "atRows": "{{1}} (lignes {{2}})",
+      "duplicateLabel": "Nom de motif en double. Motif ignoré",
+      "exception": "Le fichier n'a pas pu être lu",
+      "identical": "{{1}} identique",
+      "ignored": "{{1}} ignoré",
+      "imported": "Motifs importés",
+      "intervalIgnored": "La valeur de l'intervalle diffère des paramètres du projet. Ignorée.",
+      "invalidInterval": "Intervalle invalide. Motif ignoré",
+      "invalidMultiplier": "Multiplicateur invalide. Motif ignoré",
+      "issues": "Problèmes",
+      "issuesFound": "Problèmes trouvés lors de l'importation",
+      "missingLabel": "Nom de motif manquant. Motif ignoré",
+      "missingMultiplier": "Multiplicateur manquant. Motif ignoré",
+      "notAValidPatternsFile": "Cela ne ressemble pas à un fichier de motifs. Les colonnes attendues sont Nom du motif, Type, Intervalle et Multiplicateurs.",
+      "nothingImported": "Rien n'a été importé",
+      "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
+      "untouched": "{{1}} absent du fichier",
+      "updated": "{{1}} mis à jour"
+    }
   },
   "curves": {
     "addCurve": "Ajouter une courbe {{1}}",
@@ -1883,5 +1906,6 @@
   "connect": "Connecter",
   "archive": "Archiver",
   "archived": "Archivé",
-  "restore": "Restaurer"
+  "restore": "Restaurer",
+  "dismiss": "Ignorer"
 }

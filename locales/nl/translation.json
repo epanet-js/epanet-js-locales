@@ -352,7 +352,7 @@
   "cannotRenderMap": "Kan kaart niet weergeven in uw browser",
   "cannotRenderMapExplain": "De kaart vereist WebGL, dat niet kon worden geïnitialiseerd in uw browser. Dit probleem kan soms optreden na het onderbreken of in slaapstand zetten van uw computer. Probeer uw browser te sluiten en de pagina opnieuw te openen in een nieuw browservenster.",
   "cannotRenderMapAction": "Als het probleem blijft bestaan na het bijwerken van uw browser en grafische drivers, neem dan contact op met {{1}} voor assistentie.",
-  "importFailed": "Import Mislukt",
+  "importFailed": "Het bestand kon niet worden geïmporteerd",
   "importCompletedWithWarnings": "Import Voltooid met Waarschuwingen",
   "importSuccessful": "Import Succesvol",
   "importedCustomerPointSingular": "Geïmporteerd {{1}} klantpunt",
@@ -1067,7 +1067,30 @@
     "setAsEnergyPrice": "Instellen als Energieprijs",
     "setAsQualitySourceStrength": "Instellen als Kwaliteitsbronsterkte",
     "interval": "Interval",
-    "multipliers": "Vermenigvuldigers"
+    "multipliers": "Vermenigvuldigers",
+    "import": {
+      "added": "{{1}} toegevoegd",
+      "andMoreRows": "{{1}} en {{2}} meer",
+      "atRow": "{{1}} (rij {{2}})",
+      "atRows": "{{1}} (rijen {{2}})",
+      "duplicateLabel": "Dubbele patroonnaam. Patroon genegeerd.",
+      "exception": "Het bestand kon niet worden gelezen",
+      "identical": "{{1}} identiek",
+      "ignored": "{{1}} genegeerd",
+      "imported": "Patronen geïmporteerd",
+      "intervalIgnored": "Intervalwaarde verschilt van projectinstellingen. Genegeerd.",
+      "invalidInterval": "Ongeldig interval. Patroon genegeerd.",
+      "invalidMultiplier": "Ongeldige vermenigvuldiger. Patroon genegeerd.",
+      "issues": "Problemen",
+      "issuesFound": "Problemen gevonden tijdens importeren",
+      "missingLabel": "Ontbrekende patroonnaam. Patroon genegeerd.",
+      "missingMultiplier": "Ontbrekende vermenigvuldiger. Patroon genegeerd.",
+      "notAValidPatternsFile": "Dit lijkt geen patronenbestand. Verwachte kolommen zijn Patroonnaam, Type, Interval en Vermenigvuldigers.",
+      "nothingImported": "Niets is geïmporteerd",
+      "unsupportedFormat": "Alleen .csv en .xlsx bestanden kunnen worden geïmporteerd",
+      "untouched": "{{1}} niet in het bestand",
+      "updated": "{{1}} bijgewerkt"
+    }
   },
   "curves": {
     "addCurve": "Curve {{1}} toevoegen",
@@ -1883,5 +1906,6 @@
   "connect": "Verbinden",
   "archive": "Archiveren",
   "archived": "Gearchiveerd",
-  "restore": "Herstellen"
+  "restore": "Herstellen",
+  "dismiss": "Sluiten"
 }

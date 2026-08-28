@@ -32,7 +32,10 @@
     "roughness": "Ruwheid",
     "setting": "Instelling",
     "status": "Status",
-    "type": "Type"
+    "type": "Type",
+    "demand": "Vraag",
+    "latitude": "Breedtegraad",
+    "longitude": "Lengtegraad"
   },
   "buildProgress": {
     "complete": "Build voltooid",
@@ -95,7 +98,8 @@
     "pumps": "Pompen",
     "reservoirs": "Reservoirs",
     "tanks": "Tanks",
-    "valves": "Ventielen"
+    "valves": "Ventielen",
+    "customerPoints": "Klantpunten"
   },
   "fileDropzone": {
     "addMoreFiles": "Meer bestanden toevoegen (GeoJSON of Shapefile)",

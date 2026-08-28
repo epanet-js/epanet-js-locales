@@ -386,7 +386,7 @@
   "cannotRenderMap": "No se puede mostrar el mapa en tu navegador",
   "cannotRenderMapExplain": "El mapa requiere WebGL, que no pudo inicializarse en tu navegador. Este problema a veces ocurre después de suspender o poner tu computadora en modo de suspensión. Por favor, intenta cerrar tu navegador y volver a abrir la página en una nueva ventana del navegador.",
   "cannotRenderMapAction": "Si el problema continúa después de actualizar tu navegador y los controladores gráficos, por favor contacta a {{1}} para asistencia.",
-  "importFailed": "Importación Fallida",
+  "importFailed": "El archivo no pudo ser importado",
   "importCompletedWithWarnings": "Importación Completada con Advertencias",
   "importSuccessful": "Importación Exitosa",
   "importedCustomerPointSingular": "Importado {{1}} punto de consumo",
@@ -1080,7 +1080,30 @@
     "setAsEnergyPrice": "Establecer como precio de la energía",
     "setAsQualitySourceStrength": "Establecer como intensidad de la fuente de calidad",
     "interval": "Intervalo",
-    "multipliers": "Multiplicadores"
+    "multipliers": "Multiplicadores",
+    "import": {
+      "added": "{{1}} añadidos",
+      "andMoreRows": "{{1}} y {{2}} más",
+      "atRow": "{{1}} (fila {{2}})",
+      "atRows": "{{1}} (filas {{2}})",
+      "duplicateLabel": "Nombre de patrón duplicado. Patrón ignorado",
+      "exception": "El archivo no pudo ser leído",
+      "identical": "{{1}} idénticos",
+      "ignored": "{{1}} ignorados",
+      "imported": "Patrones importados",
+      "intervalIgnored": "El valor del intervalo difiere de la configuración del proyecto. Ignorado.",
+      "invalidInterval": "Intervalo inválido. Patrón ignorado",
+      "invalidMultiplier": "Multiplicador inválido. Patrón ignorado",
+      "issues": "Problemas",
+      "issuesFound": "Se encontraron problemas durante la importación",
+      "missingLabel": "Falta el nombre del patrón. Patrón ignorado",
+      "missingMultiplier": "Falta el multiplicador. Patrón ignorado",
+      "notAValidPatternsFile": "Esto no parece un archivo de patrones. Las columnas esperadas son Nombre del patrón, Tipo, Intervalo y Multiplicadores.",
+      "nothingImported": "Nada fue importado",
+      "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
+      "untouched": "{{1}} no están en el archivo",
+      "updated": "{{1}} actualizados"
+    }
   },
   "curves": {
     "addCurve": "Añadir curva de {{1}}",
@@ -1890,5 +1913,6 @@
   "connect": "Conectar",
   "archive": "Archivar",
   "archived": "Archivado",
-  "restore": "Restaurar"
+  "restore": "Restaurar",
+  "dismiss": "Descartar"
 }

@@ -32,7 +32,10 @@
     "roughness": "Rugosité",
     "setting": "Réglage",
     "status": "État",
-    "type": "Type"
+    "type": "Type",
+    "demand": "Demande",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
   "buildProgress": {
     "complete": "Construction terminée",
@@ -95,7 +98,8 @@
     "pumps": "Pompes",
     "reservoirs": "Réservoirs",
     "tanks": "Châteaux d'eau",
-    "valves": "Vannes"
+    "valves": "Vannes",
+    "customerPoints": "Points de Consommation"
   },
   "fileDropzone": {
     "addMoreFiles": "Ajouter plus de fichiers (GeoJSON ou Shapefile)",
