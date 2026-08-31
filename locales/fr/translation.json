@@ -352,7 +352,6 @@
   "cannotRenderMap": "Impossible d'afficher la carte sur votre navigateur",
   "cannotRenderMapExplain": "La carte nécessite WebGL, qui n'a pas pu être initialisé dans votre navigateur. Ce problème peut parfois se produire après avoir mis votre ordinateur en veille ou en hibernation. Veuillez essayer de fermer votre navigateur et de rouvrir la page dans une nouvelle fenêtre de navigateur.",
   "cannotRenderMapAction": "Si le problème persiste après la mise à jour de votre navigateur et des pilotes graphiques, veuillez contacter {{1}} pour assistance.",
-  "importFailed": "Le fichier n'a pas pu être importé",
   "importCompletedWithWarnings": "Importation Terminée avec Avertissements",
   "importSuccessful": "Importation Réussie",
   "importedCustomerPointSingular": "Importé {{1}} point de consommation",
@@ -1074,7 +1073,6 @@
       "atRow": "{{1}} (ligne {{2}})",
       "atRows": "{{1}} (lignes {{2}})",
       "duplicateLabel": "Nom de motif en double. Motif ignoré",
-      "exception": "Le fichier n'a pas pu être lu",
       "identical": "{{1}} identique",
       "ignored": "{{1}} ignoré",
       "imported": "Motifs importés",
@@ -1111,7 +1109,8 @@
     "title": "Courbes",
     "uncategorizedCurves": "Non catégorisé",
     "valveCurves": "Vanne",
-    "volumeCurves": "Volume du château d'eau"
+    "volumeCurves": "Volume du château d'eau",
+    "axis": "Axe"
   },
   "openCurvesLibrary": "Ouvrir les courbes...",
   "operationalData": "Données opérationnelles",

@@ -352,7 +352,6 @@
   "cannotRenderMap": "Kan kaart niet weergeven in uw browser",
   "cannotRenderMapExplain": "De kaart vereist WebGL, dat niet kon worden geïnitialiseerd in uw browser. Dit probleem kan soms optreden na het onderbreken of in slaapstand zetten van uw computer. Probeer uw browser te sluiten en de pagina opnieuw te openen in een nieuw browservenster.",
   "cannotRenderMapAction": "Als het probleem blijft bestaan na het bijwerken van uw browser en grafische drivers, neem dan contact op met {{1}} voor assistentie.",
-  "importFailed": "Het bestand kon niet worden geïmporteerd",
   "importCompletedWithWarnings": "Import Voltooid met Waarschuwingen",
   "importSuccessful": "Import Succesvol",
   "importedCustomerPointSingular": "Geïmporteerd {{1}} klantpunt",
@@ -1074,7 +1073,6 @@
       "atRow": "{{1}} (rij {{2}})",
       "atRows": "{{1}} (rijen {{2}})",
       "duplicateLabel": "Dubbele patroonnaam. Patroon genegeerd.",
-      "exception": "Het bestand kon niet worden gelezen",
       "identical": "{{1}} identiek",
       "ignored": "{{1}} genegeerd",
       "imported": "Patronen geïmporteerd",
@@ -1111,7 +1109,8 @@
     "title": "Curves",
     "uncategorizedCurves": "Niet-gecategoriseerd",
     "valveCurves": "Ventiel",
-    "volumeCurves": "Tankvolume"
+    "volumeCurves": "Tankvolume",
+    "axis": "As"
   },
   "openCurvesLibrary": "Bibliotheek openen...",
   "operationalData": "Operationele gegevens",

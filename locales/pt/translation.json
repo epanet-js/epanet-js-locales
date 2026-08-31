@@ -352,7 +352,6 @@
   "cannotRenderMap": "Não é possível renderizar o mapa no seu navegador",
   "cannotRenderMapExplain": "O mapa requer WebGL, que não pôde ser inicializado no seu navegador. Este problema às vezes ocorre após suspender ou colocar seu computador em modo de suspensão. Por favor, tente fechar seu navegador e reabrir a página em uma nova janela do navegador.",
   "cannotRenderMapAction": "Se o problema continuar após atualizar seu navegador e drivers gráficos, por favor entre em contato com {{1}} para assistência.",
-  "importFailed": "O arquivo não pôde ser importado",
   "importCompletedWithWarnings": "Importação Completada com Avisos",
   "importSuccessful": "Importação Bem-sucedida",
   "importedCustomerPointSingular": "Importado {{1}} ponto de consumo",
@@ -1074,7 +1073,6 @@
       "atRow": "{{1}} (linha {{2}})",
       "atRows": "{{1}} (linhas {{2}})",
       "duplicateLabel": "Nome de padrão duplicado. Padrão ignorado.",
-      "exception": "O arquivo não pôde ser lido",
       "identical": "{{1}} idênticos",
       "ignored": "{{1}} ignorado(s)",
       "imported": "Padrões importados",
@@ -1111,7 +1109,8 @@
     "title": "Curvas",
     "uncategorizedCurves": "Não categorizado",
     "valveCurves": "Válvula",
-    "volumeCurves": "Volume do tanque"
+    "volumeCurves": "Volume do tanque",
+    "axis": "Eixo"
   },
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Dados operacionais",

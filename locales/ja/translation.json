@@ -288,7 +288,6 @@
   },
   "importedCustomerPointPlural": "{{1}} の顧客ポイントをインポートしました",
   "importedCustomerPointSingular": "{{1}} の顧客ポイントをインポートしました",
-  "importFailed": "ファイルをインポートできませんでした",
   "importFromGIS": "GISからインポート",
   "importFromINP": "INPファイルからインポート",
   "importSuccessful": "インポート成功",
@@ -1074,7 +1073,6 @@
       "atRow": "{{1}} (行 {{2}})",
       "atRows": "{{1}} (行 {{2}})",
       "duplicateLabel": "重複するパターン名。パターンは無視されました",
-      "exception": "ファイルを読み取れませんでした",
       "identical": "{{1}} 件同一",
       "ignored": "{{1}} 件無視されました",
       "imported": "パターンがインポートされました",
@@ -1111,7 +1109,8 @@
     "title": "曲線",
     "uncategorizedCurves": "未分類",
     "valveCurves": "弁",
-    "volumeCurves": "配水池容量"
+    "volumeCurves": "配水池容量",
+    "axis": "軸"
   },
   "openCurvesLibrary": "ライブラリを開く...",
   "operationalData": "運用データ",

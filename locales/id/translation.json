@@ -159,7 +159,8 @@
     "title": "Kurva",
     "uncategorizedCurves": "Tidak terkategori",
     "valveCurves": "Katup",
-    "volumeCurves": "Volume tangki"
+    "volumeCurves": "Volume tangki",
+    "axis": "Sumbu"
   },
   "curveType": "Jenis kurva",
   "curveValidation": {
@@ -618,7 +619,6 @@
   },
   "importedCustomerPointPlural": "Diimpor {{1}} titik pelanggan",
   "importedCustomerPointSingular": "Diimpor {{1}} titik pelanggan",
-  "importFailed": "Berkas tidak dapat diimpor",
   "importFromGIS": "Impor dari GIS",
   "importFromINP": "Impor dari berkas INP",
   "importINP": "Impor INP",
@@ -956,7 +956,6 @@
       "atRow": "{{1}} (baris {{2}})",
       "atRows": "{{1}} (baris {{2}})",
       "duplicateLabel": "Nama pola duplikat. Pola diabaikan",
-      "exception": "Berkas tidak dapat dibaca",
       "identical": "{{1}} identik",
       "ignored": "{{1}} diabaikan",
       "imported": "Pola diimpor",
