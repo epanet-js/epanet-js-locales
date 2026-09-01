@@ -1086,8 +1086,8 @@
       "notAValidPatternsFile": "これはパターンファイルではないようです。期待される列は、パターン名、タイプ、間隔、乗数です。",
       "nothingImported": "何もインポートされませんでした",
       "unsupportedFormat": ".csv および .xlsx ファイルのみインポートできます",
-      "untouched": "ファイルに {{1}} はありません",
-      "updated": "{{1}} 件更新されました"
+      "updated": "{{1}} 件更新されました",
+      "notModified": "{{1}} 件変更されませんでした"
     }
   },
   "curves": {
@@ -1110,7 +1110,34 @@
     "uncategorizedCurves": "未分類",
     "valveCurves": "弁",
     "volumeCurves": "配水池容量",
-    "axis": "軸"
+    "axis": "軸",
+    "import": {
+      "added": "{{1}} 件追加されました",
+      "andMoreRows": "{{1}} とその他 {{2}} 件",
+      "atRow": "{{1}} (行 {{2}})",
+      "atRows": "{{1}} (行 {{2}})",
+      "axisLengthMismatch": "XとYの行の長さが異なります。余分な値は無視されました",
+      "belongsToCurveLibrary": "曲線は曲線ライブラリに属しています。無視されました",
+      "belongsToPumpLibrary": "曲線はポンプライブラリに属しています。無視されました",
+      "conflictingTypes": "XとYの行で異なるタイプが指定されています。曲線は無視されました",
+      "duplicateAxis": "同じ曲線に対して軸が2回指定されています。行は無視されました",
+      "identical": "{{1}} 件同一",
+      "ignored": "{{1}} 件無視されました",
+      "imported": "曲線がインポートされました",
+      "invalidAxis": "軸はXまたはYである必要があります。曲線は無視されました",
+      "invalidValue": "無効な値。曲線は無視されました",
+      "issues": "問題",
+      "issuesFound": "インポート中に問題が見つかりました",
+      "missingLabel": "曲線名がありません。行は無視されました",
+      "missingValue": "値がありません。曲線は無視されました",
+      "notAValidCurvesFile": "これは曲線ファイルではないようです。期待される列は、曲線名、タイプ、軸、値です。",
+      "nothingImported": "何もインポートされませんでした",
+      "notModified": "{{1}} 件変更されませんでした",
+      "unpairedAxis": "曲線には一致するXとYの行がありません。曲線は無視されました",
+      "unsupportedFormat": ".csv および .xlsx ファイルのみインポートできます",
+      "updated": "{{1}} 件更新されました",
+      "wrongDialog": "曲線は別のライブラリに属しています。無視されました"
+    }
   },
   "openCurvesLibrary": "ライブラリを開く...",
   "operationalData": "運用データ",

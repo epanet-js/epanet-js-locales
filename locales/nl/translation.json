@@ -1086,8 +1086,8 @@
       "notAValidPatternsFile": "Dit lijkt geen patronenbestand. Verwachte kolommen zijn Patroonnaam, Type, Interval en Vermenigvuldigers.",
       "nothingImported": "Niets is geïmporteerd",
       "unsupportedFormat": "Alleen .csv en .xlsx bestanden kunnen worden geïmporteerd",
-      "untouched": "{{1}} niet in het bestand",
-      "updated": "{{1}} bijgewerkt"
+      "updated": "{{1}} bijgewerkt",
+      "notModified": "{{1}} niet gewijzigd"
     }
   },
   "curves": {
@@ -1110,7 +1110,34 @@
     "uncategorizedCurves": "Niet-gecategoriseerd",
     "valveCurves": "Ventiel",
     "volumeCurves": "Tankvolume",
-    "axis": "As"
+    "axis": "As",
+    "import": {
+      "added": "{{1}} toegevoegd",
+      "andMoreRows": "{{1}} en {{2}} meer",
+      "atRow": "{{1}} (rij {{2}})",
+      "atRows": "{{1}} (rijen {{2}})",
+      "axisLengthMismatch": "X- en Y-rijen hebben verschillende lengtes. Extra waarden genegeerd",
+      "belongsToCurveLibrary": "Curve behoort tot de Curves-bibliotheek. Genegeerd",
+      "belongsToPumpLibrary": "Curve behoort tot de Pompbibliotheek. Genegeerd",
+      "conflictingTypes": "X- en Y-rijen geven verschillende typen. Curve genegeerd",
+      "duplicateAxis": "As twee keer gegeven voor dezelfde curve. Rij genegeerd",
+      "identical": "{{1}} identiek",
+      "ignored": "{{1}} genegeerd",
+      "imported": "Curves geïmporteerd",
+      "invalidAxis": "As moet X of Y zijn. Curve genegeerd",
+      "invalidValue": "Ongeldige waarde. Curve genegeerd",
+      "issues": "Problemen",
+      "issuesFound": "Problemen gevonden tijdens importeren",
+      "missingLabel": "Ontbrekende curvenaam. Rij genegeerd",
+      "missingValue": "Ontbrekende waarde. Curve genegeerd",
+      "notAValidCurvesFile": "Dit lijkt geen curves-bestand. Verwachte kolommen zijn Curvenaam, Type, As en Waarden.",
+      "nothingImported": "Niets is geïmporteerd",
+      "notModified": "{{1}} niet gewijzigd",
+      "unpairedAxis": "Curve heeft geen overeenkomende X- en Y-rijen. Curve genegeerd",
+      "unsupportedFormat": "Alleen .csv- en .xlsx-bestanden kunnen worden geïmporteerd",
+      "updated": "{{1}} bijgewerkt",
+      "wrongDialog": "Curve behoort tot een andere bibliotheek. Genegeerd"
+    }
   },
   "openCurvesLibrary": "Bibliotheek openen...",
   "operationalData": "Operationele gegevens",

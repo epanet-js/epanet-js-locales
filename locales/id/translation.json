@@ -160,7 +160,34 @@
     "uncategorizedCurves": "Tidak terkategori",
     "valveCurves": "Katup",
     "volumeCurves": "Volume tangki",
-    "axis": "Sumbu"
+    "axis": "Sumbu",
+    "import": {
+      "added": "{{1}} ditambahkan",
+      "andMoreRows": "{{1}} dan {{2}} lainnya",
+      "atRow": "{{1}} (baris {{2}})",
+      "atRows": "{{1}} (baris {{2}})",
+      "axisLengthMismatch": "Baris X dan Y memiliki panjang yang berbeda. Nilai ekstra diabaikan",
+      "belongsToCurveLibrary": "Kurva termasuk dalam pustaka Kurva. Diabaikan",
+      "belongsToPumpLibrary": "Kurva termasuk dalam pustaka Pompa. Diabaikan",
+      "conflictingTypes": "Baris X dan Y memberikan tipe yang berbeda. Kurva diabaikan",
+      "duplicateAxis": "Sumbu diberikan dua kali untuk kurva yang sama. Baris diabaikan",
+      "identical": "{{1}} identik",
+      "ignored": "{{1}} diabaikan",
+      "imported": "Kurva diimpor",
+      "invalidAxis": "Sumbu harus X atau Y. Kurva diabaikan",
+      "invalidValue": "Nilai tidak valid. Kurva diabaikan",
+      "issues": "Masalah",
+      "issuesFound": "Ditemukan masalah saat mengimpor",
+      "missingLabel": "Nama kurva hilang. Baris diabaikan",
+      "missingValue": "Nilai hilang. Kurva diabaikan",
+      "notAValidCurvesFile": "Ini bukan file kurva. Kolom yang diharapkan adalah Nama kurva, Tipe, Sumbu dan Nilai.",
+      "nothingImported": "Tidak ada yang diimpor",
+      "notModified": "{{1}} tidak dimodifikasi",
+      "unpairedAxis": "Kurva tidak memiliki baris X dan Y yang cocok. Kurva diabaikan",
+      "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
+      "updated": "{{1}} diperbarui",
+      "wrongDialog": "Kurva termasuk dalam pustaka lain. Diabaikan"
+    }
   },
   "curveType": "Jenis kurva",
   "curveValidation": {
@@ -969,8 +996,8 @@
       "notAValidPatternsFile": "Ini bukan file pola. Kolom yang diharapkan adalah Nama pola, Tipe, Interval dan Pengali.",
       "nothingImported": "Tidak ada yang diimpor",
       "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
-      "untouched": "{{1}} tidak ada dalam file",
-      "updated": "{{1}} diperbarui"
+      "updated": "{{1}} diperbarui",
+      "notModified": "{{1}} tidak dimodifikasi"
     }
   },
   "pausePlayback": "Jeda pemutaran",

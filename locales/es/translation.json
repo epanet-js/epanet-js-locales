@@ -1099,8 +1099,8 @@
       "notAValidPatternsFile": "Esto no parece un archivo de patrones. Las columnas esperadas son Nombre del patrón, Tipo, Intervalo y Multiplicadores.",
       "nothingImported": "Nada fue importado",
       "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
-      "untouched": "{{1}} no están en el archivo",
-      "updated": "{{1}} actualizados"
+      "updated": "{{1}} actualizados",
+      "notModified": "{{1}} sin modificar"
     }
   },
   "curves": {
@@ -1123,7 +1123,34 @@
     "uncategorizedCurves": "Sin categorizar",
     "valveCurves": "Válvula",
     "volumeCurves": "Volumen de tanque",
-    "axis": "Eje"
+    "axis": "Eje",
+    "import": {
+      "added": "{{1}} añadidos",
+      "andMoreRows": "{{1}} y {{2}} más",
+      "atRow": "{{1}} (fila {{2}})",
+      "atRows": "{{1}} (filas {{2}})",
+      "axisLengthMismatch": "Las filas X e Y tienen longitudes diferentes. Se ignoraron los valores extra",
+      "belongsToCurveLibrary": "La curva pertenece a la biblioteca de curvas. Ignorada",
+      "belongsToPumpLibrary": "La curva pertenece a la biblioteca de bombas. Ignorada",
+      "conflictingTypes": "Las filas X e Y dan tipos diferentes. Curva ignorada",
+      "duplicateAxis": "Eje dado dos veces para la misma curva. Fila ignorada",
+      "identical": "{{1}} idénticos",
+      "ignored": "{{1}} ignorados",
+      "imported": "Curvas importadas",
+      "invalidAxis": "El eje debe ser X o Y. Curva ignorada",
+      "invalidValue": "Valor inválido. Curva ignorada",
+      "issues": "Problemas",
+      "issuesFound": "Se encontraron problemas durante la importación",
+      "missingLabel": "Falta el nombre de la curva. Fila ignorada",
+      "missingValue": "Falta el valor. Curva ignorada",
+      "notAValidCurvesFile": "Esto no parece un archivo de curvas. Las columnas esperadas son Nombre de la curva, Tipo, Eje y Valores.",
+      "nothingImported": "Nada fue importado",
+      "notModified": "{{1}} no modificados",
+      "unpairedAxis": "La curva no tiene filas X e Y coincidentes. Curva ignorada",
+      "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
+      "updated": "{{1}} actualizados",
+      "wrongDialog": "La curva pertenece a otra biblioteca. Ignorada"
+    }
   },
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Datos operacionales",

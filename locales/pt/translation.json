@@ -1086,8 +1086,8 @@
       "notAValidPatternsFile": "Este não parece ser um arquivo de padrões. As colunas esperadas são Nome do padrão, Tipo, Intervalo e Multiplicadores.",
       "nothingImported": "Nada foi importado",
       "unsupportedFormat": "Apenas arquivos .csv e .xlsx podem ser importados",
-      "untouched": "{{1}} não no arquivo",
-      "updated": "{{1}} atualizado(s)"
+      "updated": "{{1}} atualizado(s)",
+      "notModified": "{{1}} não modificado(s)"
     }
   },
   "curves": {
@@ -1110,7 +1110,34 @@
     "uncategorizedCurves": "Não categorizado",
     "valveCurves": "Válvula",
     "volumeCurves": "Volume do tanque",
-    "axis": "Eixo"
+    "axis": "Eixo",
+    "import": {
+      "added": "{{1}} adicionado(s)",
+      "andMoreRows": "{{1}} e mais {{2}}",
+      "atRow": "{{1}} (linha {{2}})",
+      "atRows": "{{1}} (linhas {{2}})",
+      "axisLengthMismatch": "As linhas X e Y têm comprimentos diferentes. Valores extras ignorados",
+      "belongsToCurveLibrary": "A curva pertence à biblioteca de Curvas. Ignorada",
+      "belongsToPumpLibrary": "A curva pertence à biblioteca de Bombas. Ignorada",
+      "conflictingTypes": "As linhas X e Y indicam tipos diferentes. Curva ignorada",
+      "duplicateAxis": "Eixo dado duas vezes para a mesma curva. Linha ignorada",
+      "identical": "{{1}} idênticos",
+      "ignored": "{{1}} ignorado(s)",
+      "imported": "Curvas importadas",
+      "invalidAxis": "O eixo deve ser X ou Y. Curva ignorada",
+      "invalidValue": "Valor inválido. Curva ignorada",
+      "issues": "Problemas",
+      "issuesFound": "Foram encontrados problemas durante a importação",
+      "missingLabel": "Nome da curva ausente. Linha ignorada",
+      "missingValue": "Valor ausente. Curva ignorada",
+      "notAValidCurvesFile": "Este não parece ser um arquivo de curvas. As colunas esperadas são Nome da curva, Tipo, Eixo e Valores.",
+      "nothingImported": "Nada foi importado",
+      "notModified": "{{1}} não modificado(s)",
+      "unpairedAxis": "A curva não tem linhas X e Y correspondentes. Curva ignorada",
+      "unsupportedFormat": "Apenas arquivos .csv e .xlsx podem ser importados",
+      "updated": "{{1}} atualizado(s)",
+      "wrongDialog": "A curva pertence a outra biblioteca. Ignorada"
+    }
   },
   "openCurvesLibrary": "Abrir biblioteca...",
   "operationalData": "Dados operacionais",

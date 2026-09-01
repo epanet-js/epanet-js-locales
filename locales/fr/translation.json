@@ -1086,8 +1086,8 @@
       "notAValidPatternsFile": "Cela ne ressemble pas à un fichier de motifs. Les colonnes attendues sont Nom du motif, Type, Intervalle et Multiplicateurs.",
       "nothingImported": "Rien n'a été importé",
       "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
-      "untouched": "{{1}} absent du fichier",
-      "updated": "{{1}} mis à jour"
+      "updated": "{{1}} mis à jour",
+      "notModified": "{{1}} non modifié"
     }
   },
   "curves": {
@@ -1110,7 +1110,34 @@
     "uncategorizedCurves": "Non catégorisé",
     "valveCurves": "Vanne",
     "volumeCurves": "Volume du château d'eau",
-    "axis": "Axe"
+    "axis": "Axe",
+    "import": {
+      "added": "{{1}} ajouté",
+      "andMoreRows": "{{1}} et {{2}} de plus",
+      "atRow": "{{1}} (ligne {{2}})",
+      "atRows": "{{1}} (lignes {{2}})",
+      "axisLengthMismatch": "Les lignes X et Y ont des longueurs différentes. Les valeurs supplémentaires sont ignorées.",
+      "belongsToCurveLibrary": "La courbe appartient à la bibliothèque de courbes. Ignorée.",
+      "belongsToPumpLibrary": "La courbe appartient à la bibliothèque de pompes. Ignorée.",
+      "conflictingTypes": "Les lignes X et Y indiquent des types différents. La courbe est ignorée.",
+      "duplicateAxis": "L'axe est donné deux fois pour la même courbe. La ligne est ignorée.",
+      "identical": "{{1}} identique",
+      "ignored": "{{1}} ignoré",
+      "imported": "Courbes importées",
+      "invalidAxis": "L'axe doit être X ou Y. La courbe est ignorée.",
+      "invalidValue": "Valeur invalide. Courbe ignorée.",
+      "issues": "Problèmes",
+      "issuesFound": "Problèmes trouvés lors de l'importation",
+      "missingLabel": "Nom de courbe manquant. La ligne est ignorée.",
+      "missingValue": "Valeur manquante. La courbe est ignorée.",
+      "notAValidCurvesFile": "Cela ne ressemble pas à un fichier de courbes. Les colonnes attendues sont Nom de la courbe, Type, Axe et Valeurs.",
+      "nothingImported": "Rien n'a été importé",
+      "notModified": "{{1}} non modifié",
+      "unpairedAxis": "La courbe n'a pas de lignes X et Y correspondantes. La courbe est ignorée.",
+      "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
+      "updated": "{{1}} mis à jour",
+      "wrongDialog": "La courbe appartient à une autre bibliothèque. Ignorée."
+    }
   },
   "openCurvesLibrary": "Ouvrir les courbes...",
   "operationalData": "Données opérationnelles",
