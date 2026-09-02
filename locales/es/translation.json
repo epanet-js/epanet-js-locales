@@ -1741,10 +1741,10 @@
     "noSelection": "Selecciona un material para ver sus entradas de rugosidad",
     "roughness": "Rugosidad",
     "validation": {
-      "agePositive": "El valor \"{{1}}\" no puede ser negativo",
+      "agePositive": "La edad no puede ser negativa",
       "ageRequired": "La edad es obligatoria",
       "invalidMaterial": "El material {{1}} contiene valores inválidos",
-      "roughnessPositive": "El valor \"{{1}}\" no puede ser negativo",
+      "roughnessPositive": "La rugosidad no puede ser negativa",
       "roughnessRequired": "La rugosidad es obligatoria",
       "duplicateAge": "Los valores de edad deben ser únicos",
       "emptyEntries": "No se permiten entradas vacías",
@@ -1769,16 +1769,21 @@
       "errorDescription": "El archivo seleccionado contiene entradas inválidas. Consulta los detalles para ver la lista completa de errores.",
       "errorTitle": "Error al importar la biblioteca de tuberías",
       "success": "Importados {{count}} materiales desde el archivo",
-      "exception": "Ocurrió un error inesperado al importar el archivo",
+      "exception": "Error al leer archivo",
       "importedWithErrors": "El archivo contiene entradas inválidas. Por favor, corrígelas antes de poder guardar.",
-      "invalidFile": "El archivo seleccionado no es válido",
       "noMaterialsImported": "No se importaron materiales",
       "partialTitle": "La biblioteca contenía entradas inválidas. Se importaron {{count}} materiales válidos",
-      "unsupportedFormat": "El formato de archivo seleccionado no es compatible",
-      "duplicateMaterial": "El material ya está definido con una capitalización diferente"
+      "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
+      "duplicateMaterial": "Nombre de material duplicado. Fila ignorada",
+      "missingLabel": "Falta el nombre del material. Fila ignorada",
+      "notAValidPipeLibraryFile": "Esto no parece un archivo de biblioteca de tuberías. Las columnas esperadas son Nombre del material, Edad y Rugosidad."
     },
     "importFromFile": "Importar desde archivo...",
-    "importMenu": "Importar"
+    "importMenu": "Importar",
+    "andMoreRows": "{{1}} y {{2}} más",
+    "atRow": "{{1}} (fila {{2}})",
+    "atRows": "{{1}} (filas {{2}})",
+    "issues": "Problemas"
   },
   "customAttributes": {
     "addAttribute": "Añadir atributo",

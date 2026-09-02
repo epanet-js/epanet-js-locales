@@ -1728,10 +1728,10 @@
     "noSelection": "Sélectionnez un matériau pour voir ses entrées de rugosité",
     "roughness": "Rugosité",
     "validation": {
-      "agePositive": "La valeur « {{1}} » ne peut pas être négative",
+      "agePositive": "L'âge ne peut pas être négatif",
       "ageRequired": "L'âge est requis",
       "invalidMaterial": "Le matériau {{1}} contient des valeurs invalides",
-      "roughnessPositive": "La valeur « {{1}} » ne peut pas être négative",
+      "roughnessPositive": "La rugosité ne peut pas être négative",
       "roughnessRequired": "La rugosité est requise",
       "duplicateAge": "Les valeurs d'âge doivent être uniques",
       "emptyEntries": "Les entrées vides ne sont pas autorisées",
@@ -1756,16 +1756,21 @@
       "errorDescription": "Le fichier sélectionné contient des entrées invalides. Voir les détails pour la liste complète des erreurs.",
       "errorTitle": "Échec de l'importation de la bibliothèque de conduites",
       "success": "Importé {{count}} matériaux depuis le fichier",
-      "exception": "Une erreur inattendue est survenue lors de l'importation du fichier",
+      "exception": "Échec de lecture du fichier",
       "importedWithErrors": "Le fichier contient des entrées invalides. Veuillez les corriger avant de pouvoir enregistrer.",
-      "invalidFile": "Le fichier sélectionné n'est pas valide",
       "noMaterialsImported": "Aucun matériau n'a été importé",
       "partialTitle": "La bibliothèque contenait des entrées invalides. Importé {{count}} matériaux valides",
-      "unsupportedFormat": "Le format de fichier sélectionné n'est pas supporté",
-      "duplicateMaterial": "Le matériau est déjà défini avec une capitalisation différente"
+      "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
+      "duplicateMaterial": "Nom de matériau en double. Ligne ignorée.",
+      "missingLabel": "Nom de matériau manquant. Ligne ignorée.",
+      "notAValidPipeLibraryFile": "Cela ne ressemble pas à un fichier de bibliothèque de conduites. Les colonnes attendues sont Nom du matériau, Âge et Rugosité."
     },
     "importFromFile": "Importer depuis un fichier...",
-    "importMenu": "Importer"
+    "importMenu": "Importer",
+    "andMoreRows": "{{1}} et {{2}} de plus",
+    "atRow": "{{1}} (ligne {{2}})",
+    "atRows": "{{1}} (lignes {{2}})",
+    "issues": "Problèmes"
   },
   "customAttributes": {
     "addAttribute": "Ajouter un attribut",

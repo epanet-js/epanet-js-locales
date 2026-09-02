@@ -1728,10 +1728,10 @@
     "noSelection": "Pilih material untuk melihat entri kekasarannya",
     "roughness": "Kekasaran",
     "validation": {
-      "agePositive": "Nilai \"{{1}}\" tidak boleh negatif",
+      "agePositive": "Usia tidak boleh negatif",
       "ageRequired": "Usia harus ditetapkan",
       "invalidMaterial": "Material {{1}} mengandung nilai tidak valid",
-      "roughnessPositive": "Nilai \"{{1}}\" tidak boleh negatif",
+      "roughnessPositive": "Kekasaran tidak boleh negatif",
       "roughnessRequired": "Kekasaran harus ditetapkan",
       "duplicateAge": "Semua nilai usia harus unik",
       "emptyEntries": "Entri kosong tidak valid",
@@ -1756,16 +1756,21 @@
       "errorDescription": "File yang dipilih mengandung entri tidak valid. Periksa daftar kesalahan lengkap di detail.",
       "errorTitle": "Gagal mengimpor pustaka pipa",
       "success": "Diimpor {{count}} material dari file",
-      "exception": "Terjadi kesalahan tak terduga saat mengimpor file",
+      "exception": "Gagal membaca file",
       "importedWithErrors": "File mengandung entri tidak valid. Harap perbaiki sebelum dapat menyimpan.",
-      "invalidFile": "File yang dipilih tidak valid",
       "noMaterialsImported": "Tidak ada material yang diimpor",
       "partialTitle": "Pustaka mengandung entri tidak valid. Diimpor {{count}} material yang valid",
-      "unsupportedFormat": "Format file yang dipilih tidak didukung",
-      "duplicateMaterial": "Material sudah didefinisikan dengan kapitalisasi yang berbeda"
+      "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
+      "duplicateMaterial": "Nama material duplikat. Baris diabaikan",
+      "missingLabel": "Nama material hilang. Baris diabaikan",
+      "notAValidPipeLibraryFile": "Ini bukan file pustaka pipa. Kolom yang diharapkan adalah Nama Material, Usia, dan Kekasaran."
     },
     "importFromFile": "Impor dari file...",
-    "importMenu": "Impor"
+    "importMenu": "Impor",
+    "andMoreRows": "{{1}} dan {{2}} lainnya",
+    "atRow": "{{1}} (baris {{2}})",
+    "atRows": "{{1}} (baris {{2}})",
+    "issues": "Masalah"
   },
   "customAttributes": {
     "addAttribute": "Tambah atribut",

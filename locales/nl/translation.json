@@ -1728,10 +1728,10 @@
     "noSelection": "Selecteer een materiaal om de ruwheidsinvoeren te bekijken",
     "roughness": "Ruwheid",
     "validation": {
-      "agePositive": "Waarde \"{{1}}\" kan niet negatief zijn",
+      "agePositive": "Leeftijd kan niet negatief zijn",
       "ageRequired": "Leeftijd is vereist",
       "invalidMaterial": "Materiaal {{1}} bevat ongeldige waarden",
-      "roughnessPositive": "Waarde \"{{1}}\" kan niet negatief zijn",
+      "roughnessPositive": "Ruwheid kan niet negatief zijn",
       "roughnessRequired": "Ruwheid is vereist",
       "duplicateAge": "Leeftijdswaarden moeten uniek zijn",
       "emptyEntries": "Lege invoeren zijn niet toegestaan",
@@ -1756,16 +1756,21 @@
       "errorDescription": "Het geselecteerde bestand bevat ongeldige invoeren. Zie de details voor de volledige lijst met fouten.",
       "errorTitle": "Importeren van leidingbibliotheek mislukt",
       "success": "{{count}} materialen uit bestand geïmporteerd",
-      "exception": "Er is een onverwachte fout opgetreden tijdens het importeren van het bestand",
+      "exception": "Bestand lezen mislukt",
       "importedWithErrors": "Bestand bevat ongeldige invoeren. Los deze op voordat u kunt opslaan.",
-      "invalidFile": "Geselecteerd bestand is niet geldig",
       "noMaterialsImported": "Geen materialen geïmporteerd",
       "partialTitle": "Bibliotheek bevatte ongeldige invoeren. Geïmporteerd {{count}} geldige materialen",
-      "unsupportedFormat": "Geselecteerd bestandsformaat wordt niet ondersteund",
-      "duplicateMaterial": "Materiaal is al gedefinieerd met een andere hoofdletter/kleine letter"
+      "unsupportedFormat": "Alleen .csv- en .xlsx-bestanden kunnen worden geïmporteerd",
+      "duplicateMaterial": "Dubbele materiaalnaam. Rij genegeerd.",
+      "missingLabel": "Ontbrekende materiaalnaam. Rij genegeerd.",
+      "notAValidPipeLibraryFile": "Dit lijkt geen bibliotheekbestand voor leidingen. Verwachte kolommen zijn Materiaalnaam, Leeftijd en Ruwheid."
     },
     "importFromFile": "Importeren vanuit bestand...",
-    "importMenu": "Importeren"
+    "importMenu": "Importeren",
+    "andMoreRows": "{{1}} en {{2}} meer",
+    "atRow": "{{1}} (rij {{2}})",
+    "atRows": "{{1}} (rijen {{2}})",
+    "issues": "Problemen"
   },
   "customAttributes": {
     "addAttribute": "Attribuut toevoegen",

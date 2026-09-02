@@ -1728,10 +1728,10 @@
     "noSelection": "粗度エントリを表示するには、材質を選択してください",
     "roughness": "流速係数",
     "validation": {
-      "agePositive": "値「{{1}}」は負であってはなりません",
+      "agePositive": "経年は負の値にできません",
       "ageRequired": "経年を設定する必要があります",
       "invalidMaterial": "材質 {{1}} に無効な値が含まれています",
-      "roughnessPositive": "値「{{1}}」は負であってはなりません",
+      "roughnessPositive": "粗度は負の値にできません",
       "roughnessRequired": "粗度を設定する必要があります",
       "duplicateAge": "経年値は一意である必要があります",
       "emptyEntries": "空のエントリは許可されていません",
@@ -1756,16 +1756,21 @@
       "errorDescription": "選択したファイルに無効なエントリが含まれています。詳細で完全なエラーリストを確認してください。",
       "errorTitle": "管ライブラリのインポートに失敗しました",
       "success": "ファイルから {{count}} 件の材質をインポートしました",
-      "exception": "ファイルのインポート中に予期せぬエラーが発生しました",
+      "exception": "ファイルの読み込みに失敗しました",
       "importedWithErrors": "インポートされた材質の一部にエラーが含まれています。ライブラリを保存する前に修正してください。",
-      "invalidFile": "選択したファイルは無効です",
       "noMaterialsImported": "材質はインポートされませんでした",
       "partialTitle": "ライブラリに無効なエントリが含まれていました。有効な材質が {{count}} 件インポートされました",
-      "unsupportedFormat": "選択したファイル形式はサポートされていません",
-      "duplicateMaterial": "材質はすでに異なる大文字小文字で定義されています"
+      "unsupportedFormat": ".csv および .xlsx ファイルのみインポートできます",
+      "duplicateMaterial": "重複する材質名。行は無視されました",
+      "missingLabel": "材質名がありません。行は無視されました",
+      "notAValidPipeLibraryFile": "これは管ライブラリファイルではないようです。期待される列は、材質名、経年、粗度です。"
     },
     "importFromFile": "ファイルからインポート...",
-    "importMenu": "インポート"
+    "importMenu": "インポート",
+    "andMoreRows": "{{1}} とその他 {{2}} 件",
+    "atRow": "{{1}} (行 {{2}})",
+    "atRows": "{{1}} (行 {{2}})",
+    "issues": "問題"
   },
   "customAttributes": {
     "addAttribute": "属性を追加",

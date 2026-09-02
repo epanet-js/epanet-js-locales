@@ -1728,10 +1728,10 @@
     "noSelection": "Selecione um material para ver suas entradas de rugosidade",
     "roughness": "Rugosidade",
     "validation": {
-      "agePositive": "O valor \"{{1}}\" não pode ser negativo",
+      "agePositive": "A idade não pode ser negativa",
       "ageRequired": "A idade é obrigatória",
       "invalidMaterial": "O material {{1}} contém valores inválidos",
-      "roughnessPositive": "O valor \"{{1}}\" não pode ser negativo",
+      "roughnessPositive": "A rugosidade não pode ser negativa",
       "roughnessRequired": "A rugosidade é obrigatória",
       "duplicateAge": "Os valores de idade devem ser únicos",
       "emptyEntries": "Entradas vazias não são permitidas",
@@ -1756,16 +1756,21 @@
       "errorDescription": "O arquivo selecionado contém entradas inválidas. Veja os detalhes para a lista completa de erros.",
       "errorTitle": "Falha ao importar biblioteca de tubulações",
       "success": "Importados {{count}} materiais do arquivo",
-      "exception": "Houve um erro inesperado ao importar o arquivo",
+      "exception": "Falha ao ler arquivo",
       "importedWithErrors": "O arquivo contém entradas inválidas. Por favor, corrija-as antes de poder salvar.",
-      "invalidFile": "O arquivo selecionado não é válido",
       "noMaterialsImported": "Nenhum material foi importado",
       "partialTitle": "A biblioteca continha entradas inválidas. Importados {{count}} materiais válidos",
-      "unsupportedFormat": "Formato de arquivo selecionado não suportado",
-      "duplicateMaterial": "O material já está definido com uma capitalização diferente"
+      "unsupportedFormat": "Apenas arquivos .csv e .xlsx podem ser importados",
+      "duplicateMaterial": "Nome de material duplicado. Linha ignorada.",
+      "missingLabel": "Nome de material ausente. Linha ignorada.",
+      "notAValidPipeLibraryFile": "Este não parece ser um arquivo de biblioteca de tubulações. As colunas esperadas são Nome do Material, Idade e Rugosidade."
     },
     "importFromFile": "Importar do arquivo...",
-    "importMenu": "Importar"
+    "importMenu": "Importar",
+    "andMoreRows": "{{1}} e mais {{2}}",
+    "atRow": "{{1}} (linha {{2}})",
+    "atRows": "{{1}} (linhas {{2}})",
+    "issues": "Problemas"
   },
   "customAttributes": {
     "addAttribute": "Adicionar atributo",
