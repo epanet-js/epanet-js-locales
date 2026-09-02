@@ -72,11 +72,13 @@
       "removingZeroLengthPipes": "Leidingen met nul-lengte verwijderen",
       "splittingLinks": "Verbindingen splitsen",
       "finalizingModel": "Model voltooien",
-      "generatingEjsdb": "Projectbestand genereren"
+      "generatingEjsdb": "Projectbestand genereren",
+      "importingCustomerPoints": "Klantpunten importeren"
     },
     "continueToApp": "Model openen",
     "elevationsUncovered": "De terreindienst heeft daar geen gegevens.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
-    "elevationsUnreachable": "Kon de terreindienst niet bereiken.\n{{1}} van de {{2}} knooppunten hebben geen hoogte."
+    "elevationsUnreachable": "Kon de terreindienst niet bereiken.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
+    "customerPointsSkipped": "{{1}} van de {{2}} klantpunten zijn overgeslagen. Controleer of ze puntgeometrie en een geldige projectie hebben."
   },
   "dataAssignment": {
     "projectionRequired": "Projectie vereist om door te gaan"

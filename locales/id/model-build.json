@@ -72,11 +72,13 @@
       "removingZeroLengthPipes": "Menghapus pipa panjang nol",
       "splittingLinks": "Memisahkan tautan",
       "finalizingModel": "Menyelesaikan model",
-      "generatingEjsdb": "Membuat file proyek"
+      "generatingEjsdb": "Membuat file proyek",
+      "importingCustomerPoints": "Mengimpor titik pelanggan"
     },
     "continueToApp": "Buka model",
     "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
-    "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi."
+    "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
+    "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid."
   },
   "dataAssignment": {
     "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"

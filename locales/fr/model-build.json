@@ -72,11 +72,13 @@
       "removingZeroLengthPipes": "Suppression des conduites de longueur nulle",
       "splittingLinks": "Division des liaisons",
       "finalizingModel": "Finalisation du modèle",
-      "generatingEjsdb": "Génération du fichier projet"
+      "generatingEjsdb": "Génération du fichier projet",
+      "importingCustomerPoints": "Importation des points de consommation"
     },
     "continueToApp": "Ouvrir le modèle",
     "elevationsUncovered": "Le service de terrain n'a pas de données à cet endroit.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
-    "elevationsUnreachable": "Impossible d'atteindre le service de terrain.\n{{1}} des {{2}} nœuds n'ont pas d'élévation."
+    "elevationsUnreachable": "Impossible d'atteindre le service de terrain.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
+    "customerPointsSkipped": "{{1}} des {{2}} points de consommation ont été ignorés. Vérifiez qu'ils ont une géométrie de point et une projection valide."
   },
   "dataAssignment": {
     "projectionRequired": "Projection requise pour continuer"

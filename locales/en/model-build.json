@@ -81,12 +81,14 @@
       "removingZeroLengthPipes": "Removing zero-length pipes",
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
+      "importingCustomerPoints": "Importing customer points",
       "finalizingModel": "Finalizing model",
       "generatingEjsdb": "Generating project file"
     },
     "elevationsUnreachable": "Could not reach the terrain service.\n{{1}} of {{2}} nodes have no elevation.",
     "elevationsUncovered": "The terrain service has no data there.\n{{1}} of {{2}} nodes have no elevation.",
-    "continueToApp": "Open model"
+    "continueToApp": "Open model",
+    "customerPointsSkipped": "{{1}} of {{2}} customer points were skipped. Check they have point geometry and a valid projection."
   },
   "fileDropzone": {
     "attributesUnavailable": "Attributes unavailable",

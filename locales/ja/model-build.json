@@ -72,11 +72,13 @@
       "removingZeroLengthPipes": "ゼロ長管の削除",
       "splittingLinks": "リンクの分割",
       "finalizingModel": "モデルを最終処理中",
-      "generatingEjsdb": "プロジェクトファイルを生成中"
+      "generatingEjsdb": "プロジェクトファイルを生成中",
+      "importingCustomerPoints": "顧客ポイントをインポート中"
     },
     "continueToApp": "モデルを開く",
     "elevationsUncovered": "地形サービスにはデータがありません。\n{{2}}個のノードのうち{{1}}個には標高がありません。",
-    "elevationsUnreachable": "地形サービスに接続できませんでした。\n{{2}}個のノードのうち{{1}}個には標高がありません。"
+    "elevationsUnreachable": "地形サービスに接続できませんでした。\n{{2}}個のノードのうち{{1}}個には標高がありません。",
+    "customerPointsSkipped": "{{2}}個の顧客ポイントのうち{{1}}個がスキップされました。ポイントジオメトリと有効な投影法を持っているか確認してください。"
   },
   "dataAssignment": {
     "projectionRequired": "続行するには投影が必要です"
