@@ -104,7 +104,7 @@
   "opening": "Ouverture...",
   "export": "Exporter",
   "failedToOpenModel": "Échec d'ouverture du modèle",
-  "failedToOpenModelDetail": "Assurez-vous de fournir un fichier INP valide.",
+  "failedToOpenModelDetail": "Assurez-vous de fournir un fichier {{1}} valide.",
   "understood": "Compris",
   "error": "Erreur",
   "save": "Enregistrer",
@@ -1865,13 +1865,13 @@
     "failedTitle": "Le modèle n'a pas pu être importé",
     "issuesDetail": "Le modèle a été importé, mais certaines données n'ont pas pu être lues ou ne sont pas encore supportées. Développez le résumé pour voir ce qui a été ignoré ou remplacé.",
     "issuesSummary": "Ce que nous n'avons pas pu importer",
-    "issuesTitle": "Modèle partiellement importé"
+    "issuesTitle": "Modèle partiellement importé",
+    "menuTitle": "Convertir le modèle"
   },
   "dbUnavailable.description": "Quelque chose s'est mal passé et ce projet ne peut plus être enregistré. Réessayez, ou rechargez la page pour continuer — toutes les modifications non enregistrées seront perdues.",
   "dbUnavailable.reload": "Recharger",
   "dbUnavailable.title": "Nous ne pouvons pas enregistrer votre projet",
   "dbUnavailable.tryAgain": "Réessayer",
-  "newProject.fromConverter": "Depuis {{1}}",
   "noCrashRecoveryHint": "Si cet onglet se ferme de manière inattendue, vos modifications ne pourront pas être récupérées. Enregistrez votre projet dans un fichier pour les conserver.",
   "rebuildStorageProgress.finalizing": "Finalisation...",
   "rebuildStorageProgress.noBackupTitle": "Votre projet n'est pas sauvegardé",
@@ -1950,5 +1950,6 @@
     "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage",
     "zoneGeometryUnreadable_one": "1 limite de zone a trop peu de points pour former un polygone, elle n'a donc pas été importée",
     "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées"
-  }
+  },
+  "dropProjectInpOrModel": "Faites glisser votre projet, INP ou modèle ici."
 }

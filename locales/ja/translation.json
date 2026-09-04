@@ -116,7 +116,7 @@
   "failedToLoad": "読み込みに失敗しました",
   "failedToLoadTileJSON": "TileJSONレイヤーの読み込みに失敗しました。タイルサーバーがダウンしている可能性があります",
   "failedToOpenModel": "モデルを開けませんでした",
-  "failedToOpenModelDetail": "有効なINPファイルを指定してください。",
+  "failedToOpenModelDetail": "有効な {{1}} ファイルが提供されていることを確認してください。",
   "featureWithInvalidCoordPlural": "無効な座標を持つフィーチャ {{1}} 件",
   "featureWithInvalidCoordSingular": "無効な座標を持つフィーチャ {{1}} 件",
   "file": "ファイル",
@@ -1865,13 +1865,13 @@
     "failedTitle": "モデルをインポートできませんでした",
     "issuesDetail": "モデルはインポートされましたが、一部のデータを読み取れないか、まだサポートされていません。概要を展開して、スキップまたは置換された内容を確認してください。",
     "issuesSummary": "インポートできなかったもの",
-    "issuesTitle": "部分的にインポートされたモデル"
+    "issuesTitle": "部分的にインポートされたモデル",
+    "menuTitle": "モデル変換"
   },
   "dbUnavailable.description": "問題が発生し、このプロジェクトは保存できなくなりました。もう一度お試しいただくか、ページをリロードして続行してください — 未保存の変更はすべて失われます。",
   "dbUnavailable.reload": "リロード",
   "dbUnavailable.title": "プロジェクトを保存できません",
   "dbUnavailable.tryAgain": "もう一度試す",
-  "newProject.fromConverter": "{{1}}から",
   "noCrashRecoveryHint": "このタブが予期せず閉じられた場合、変更は回復できません。プロジェクトをファイルに保存して、変更を保持してください。",
   "rebuildStorageProgress.finalizing": "最終処理中...",
   "rebuildStorageProgress.noBackupTitle": "プロジェクトがバックアップされていません",
@@ -1950,5 +1950,6 @@
     "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
     "zoneGeometryUnreadable_one": "1つのゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
     "zoneGeometryUnreadable_other": "{{count}}個のゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした"
-  }
+  },
+  "dropProjectInpOrModel": "プロジェクト、INP、またはモデルをここにドラッグしてください。"
 }

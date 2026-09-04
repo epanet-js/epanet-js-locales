@@ -450,7 +450,7 @@
   "failedToLoad": "Gagal memuat",
   "failedToLoadTileJSON": "Lapisan TileJSON gagal dimuat. Server tile mungkin sedang tidak aktif",
   "failedToOpenModel": "Gagal membuka model",
-  "failedToOpenModelDetail": "Pastikan untuk menyediakan file INP yang valid.",
+  "failedToOpenModelDetail": "Pastikan untuk menyediakan file {{1}} yang valid.",
   "featureWithInvalidCoordPlural": "{{1}} fitur dengan koordinat tidak valid",
   "featureWithInvalidCoordSingular": "{{1}} fitur dengan koordinat tidak valid",
   "file": "File",
@@ -1865,13 +1865,13 @@
     "failedTitle": "Model tidak dapat diimpor",
     "issuesDetail": "Model berhasil diimpor, tetapi beberapa data tidak dapat dibaca atau belum didukung. Perluas ringkasan untuk melihat apa yang dilewati atau diganti.",
     "issuesSummary": "Apa yang tidak bisa kami impor",
-    "issuesTitle": "Model diimpor sebagian"
+    "issuesTitle": "Model diimpor sebagian",
+    "menuTitle": "Konversi model"
   },
   "dbUnavailable.description": "Terjadi kesalahan dan proyek ini tidak dapat disimpan lagi. Coba lagi, atau muat ulang halaman untuk melanjutkan — perubahan yang belum disimpan akan hilang.",
   "dbUnavailable.reload": "Muat ulang",
   "dbUnavailable.title": "Kami tidak dapat menyimpan proyek Anda",
   "dbUnavailable.tryAgain": "Coba lagi",
-  "newProject.fromConverter": "Dari {{1}}",
   "noCrashRecoveryHint": "Jika tab ini tertutup secara tak terduga, perubahan Anda tidak dapat dipulihkan. Simpan proyek Anda ke file untuk menyimpannya.",
   "rebuildStorageProgress.finalizing": "Menyelesaikan...",
   "rebuildStorageProgress.noBackupTitle": "Proyek Anda belum dicadangkan",
@@ -1950,5 +1950,6 @@
     "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
     "zoneGeometryUnreadable_one": "1 batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
     "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor"
-  }
+  },
+  "dropProjectInpOrModel": "Seret proyek, INP atau model Anda di sini."
 }

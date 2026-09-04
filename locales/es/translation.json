@@ -127,7 +127,7 @@
   "opening": "Abriendo...",
   "export": "Exportar",
   "failedToOpenModel": "Error al abrir el modelo",
-  "failedToOpenModelDetail": "Asegúrate de abrir un archivo INP válido.",
+  "failedToOpenModelDetail": "Asegúrate de proporcionar un archivo {{1}} válido.",
   "understood": "Entendido",
   "error": "Error",
   "save": "Guardar",
@@ -1872,13 +1872,13 @@
     "failedTitle": "No se pudo importar el modelo",
     "issuesDetail": "El modelo fue importado, pero algunos datos no pudieron leerse o aún no son compatibles. Expande el resumen para ver lo que se omitió o reemplazó.",
     "issuesSummary": "Lo que no pudimos importar",
-    "issuesTitle": "Modelo importado parcialmente"
+    "issuesTitle": "Modelo importado parcialmente",
+    "menuTitle": "Convertir modelo"
   },
   "dbUnavailable.description": "Algo salió mal y este proyecto ya no se puede guardar. Intenta de nuevo, o recarga la página para continuar — cualquier cambio sin guardar se perderá.",
   "dbUnavailable.reload": "Recargar",
   "dbUnavailable.title": "No podemos guardar tu proyecto",
   "dbUnavailable.tryAgain": "Intentar de nuevo",
-  "newProject.fromConverter": "Desde {{1}}",
   "noCrashRecoveryHint": "Si esta pestaña se cierra inesperadamente, tus cambios no podrán recuperarse. Guarda tu proyecto en un archivo para conservarlos.",
   "rebuildStorageProgress.finalizing": "Finalizando...",
   "rebuildStorageProgress.noBackupTitle": "Tu proyecto no tiene una copia de seguridad",
@@ -1957,5 +1957,6 @@
     "valveScheduleUnreadable_other": "{{count}} Válvulas especifican programas de ajuste sin puntos, por lo que fueron importadas como TCVs sin ajuste",
     "zoneGeometryUnreadable_one": "1 límite de zona tiene muy pocos puntos para formar un polígono, por lo que no fue importado",
     "zoneGeometryUnreadable_other": "{{count}} límites de zona tienen muy pocos puntos para formar polígonos, por lo que no fueron importados"
-  }
+  },
+  "dropProjectInpOrModel": "Arrastra tu proyecto, INP o modelo aquí."
 }

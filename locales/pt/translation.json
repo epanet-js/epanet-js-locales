@@ -104,7 +104,7 @@
   "opening": "Abrindo...",
   "export": "Exportar",
   "failedToOpenModel": "Erro ao abrir o modelo",
-  "failedToOpenModelDetail": "Certifique-se de abrir um arquivo INP válido.",
+  "failedToOpenModelDetail": "Certifique-se de fornecer um arquivo {{1}} válido.",
   "understood": "Entendido",
   "error": "Erro",
   "save": "Salvar",
@@ -1865,13 +1865,13 @@
     "failedTitle": "Não foi possível importar o modelo",
     "issuesDetail": "O modelo foi importado, mas alguns dados não puderam ser lidos ou ainda não são suportados. Expanda o resumo para ver o que foi ignorado ou substituído.",
     "issuesSummary": "O que não pudemos importar",
-    "issuesTitle": "Modelo parcialmente importado"
+    "issuesTitle": "Modelo parcialmente importado",
+    "menuTitle": "Converter modelo"
   },
   "dbUnavailable.description": "Algo deu errado e este projeto não pode mais ser salvo. Tente novamente, ou recarregue a página para continuar — quaisquer alterações não salvas serão perdidas.",
   "dbUnavailable.reload": "Recarregar",
   "dbUnavailable.title": "Não podemos salvar seu projeto",
   "dbUnavailable.tryAgain": "Tentar novamente",
-  "newProject.fromConverter": "De {{1}}",
   "noCrashRecoveryHint": "Se esta aba fechar inesperadamente, suas alterações não poderão ser recuperadas. Salve seu projeto em um arquivo para mantê-las.",
   "rebuildStorageProgress.finalizing": "Finalizando...",
   "rebuildStorageProgress.noBackupTitle": "Seu projeto não tem backup",
@@ -1950,5 +1950,6 @@
     "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste",
     "zoneGeometryUnreadable_one": "1 limite de zona tem poucos pontos para formar um polígono, então não foi importado",
     "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados"
-  }
+  },
+  "dropProjectInpOrModel": "Arraste seu projeto, INP ou modelo aqui."
 }

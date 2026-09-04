@@ -104,7 +104,7 @@
   "opening": "Openen...",
   "export": "Exporteren",
   "failedToOpenModel": "Openen van model mislukt",
-  "failedToOpenModelDetail": "Zorg ervoor dat u een geldig INP-bestand aanlevert.",
+  "failedToOpenModelDetail": "Zorg ervoor dat u een geldig {{1}} bestand aanlevert.",
   "understood": "Begrepen",
   "error": "Fout",
   "save": "Opslaan",
@@ -1865,13 +1865,13 @@
     "failedTitle": "Model kon niet worden geïmporteerd",
     "issuesDetail": "Het model is geïmporteerd, maar sommige gegevens konden niet worden gelezen of worden nog niet ondersteund. Vouw het overzicht uit om te zien wat is overgeslagen of vervangen.",
     "issuesSummary": "Wat we niet konden importeren",
-    "issuesTitle": "Gedeeltelijk geïmporteerd model"
+    "issuesTitle": "Gedeeltelijk geïmporteerd model",
+    "menuTitle": "Model converteren"
   },
   "dbUnavailable.description": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen. Probeer het opnieuw, of herlaad de pagina om door te gaan — niet-opgeslagen wijzigingen gaan verloren.",
   "dbUnavailable.reload": "Herladen",
   "dbUnavailable.title": "We kunnen uw project niet opslaan",
   "dbUnavailable.tryAgain": "Opnieuw proberen",
-  "newProject.fromConverter": "Vanuit {{1}}",
   "noCrashRecoveryHint": "Als dit tabblad onverwachts sluit, kunnen uw wijzigingen niet worden hersteld. Sla uw project op in een bestand om ze te bewaren.",
   "rebuildStorageProgress.finalizing": "Voltooien...",
   "rebuildStorageProgress.noBackupTitle": "Uw project is niet geback-upt",
@@ -1950,5 +1950,6 @@
     "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling",
     "zoneGeometryUnreadable_one": "1 Zonegrens heeft te weinig punten om een polygoon te vormen, dus deze is niet geïmporteerd",
     "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd"
-  }
+  },
+  "dropProjectInpOrModel": "Sleep uw project, INP of model hierheen."
 }
