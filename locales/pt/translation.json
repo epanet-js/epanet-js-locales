@@ -1477,6 +1477,13 @@
     "paste": {
       "cappedDescription": "A colagem era muito grande para ser aplicada na totalidade. Use Importar para adicionar dados em massa.",
       "cappedTitle": "Colado nas primeiras {{1}} linhas"
+    },
+    "picker": {
+      "alreadyOpen": "(já aberto)",
+      "open": "Abrir",
+      "prompt": "Escolha quais tabelas abrir.",
+      "selectedAssetsOnly": "Somente ativos selecionados",
+      "title": "Abrir tabelas de dados"
     }
   },
   "fileFormatUpdated": "Formato de arquivo atualizado",
@@ -1937,6 +1944,18 @@
       "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste",
       "zoneGeometryUnreadable_one": "1 limite de zona tem poucos pontos para formar um polígono, então não foi importado",
       "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados"
+    },
+    "paywall": {
+      "captions": {
+        "1": "Converter um modelo de outro formato",
+        "2": "Tubulações, bombas, válvulas e zonas vêm com seus dados",
+        "3": "Continue de onde seu modelo existente parou"
+      },
+      "description1": "Traga modelos criados em outros softwares para o epanet-js sem reconstruí-los manualmente.",
+      "description2": "Tubulações, bombas, válvulas, zonas e atributos personalizados são importados com os dados que o arquivo de origem declara.",
+      "plans": "A conversão de modelos está disponível em planos pagos.",
+      "title": "Atualize para converter modelos",
+      "trial": "A conversão de modelos é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
     }
   },
   "dbUnavailable.description": "Algo deu errado e este projeto não pode mais ser salvo. Tente novamente, ou recarregue a página para continuar — quaisquer alterações não salvas serão perdidas.",

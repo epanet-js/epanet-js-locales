@@ -1477,6 +1477,13 @@
     "paste": {
       "cappedDescription": "Deze plakbewerking was te groot om volledig toe te passen. Gebruik Importeren om gegevens in bulk toe te voegen.",
       "cappedTitle": "Geplakt in de eerste {{1}} rijen"
+    },
+    "picker": {
+      "alreadyOpen": "(al geopend)",
+      "open": "Openen",
+      "prompt": "Kies welke tabellen u wilt openen.",
+      "selectedAssetsOnly": "Alleen geselecteerde onderdelen",
+      "title": "Gegevenstabellen openen"
     }
   },
   "fileFormatUpdated": "Bestandsformaat bijgewerkt",
@@ -1937,6 +1944,18 @@
       "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling",
       "zoneGeometryUnreadable_one": "1 Zonegrens heeft te weinig punten om een polygoon te vormen, dus deze is niet geïmporteerd",
       "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd"
+    },
+    "paywall": {
+      "captions": {
+        "1": "Converteer een model van een ander formaat",
+        "2": "Leidingen, pompen, ventielen en zones worden overgenomen met uw gegevens",
+        "3": "Ga verder waar uw bestaande model gebleven is"
+      },
+      "description1": "Breng modellen die in andere software zijn gemaakt naar epanet-js zonder ze handmatig opnieuw op te bouwen.",
+      "description2": "Leidingen, pompen, ventielen, zones en aangepaste attributen worden overgenomen met de gegevens die het bronbestand aangeeft.",
+      "plans": "Modelconversie is beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om modellen te converteren",
+      "trial": "Modelconversie is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard vereist."
     }
   },
   "dbUnavailable.description": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen. Probeer het opnieuw, of herlaad de pagina om door te gaan — niet-opgeslagen wijzigingen gaan verloren.",

@@ -264,6 +264,13 @@
     "paste": {
       "cappedDescription": "Penempelan ini terlalu besar untuk diterapkan sepenuhnya. Gunakan Impor untuk menambahkan data secara massal.",
       "cappedTitle": "Ditempelkan ke {{1}} baris pertama"
+    },
+    "picker": {
+      "alreadyOpen": "(sudah terbuka)",
+      "open": "Buka",
+      "prompt": "Pilih tabel mana yang akan dibuka.",
+      "selectedAssetsOnly": "Hanya aset yang dipilih",
+      "title": "Buka tabel data"
     }
   },
   "deactivateAssets": "Nonaktifkan",
@@ -1937,6 +1944,18 @@
       "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
       "zoneGeometryUnreadable_one": "1 batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
       "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor"
+    },
+    "paywall": {
+      "captions": {
+        "1": "Konversi model dari format lain",
+        "2": "Pipa, pompa, katup, dan zona ikut serta dengan data Anda",
+        "3": "Lanjutkan dari model yang sudah ada"
+      },
+      "description1": "Bawa model yang dibuat di perangkat lunak lain ke epanet-js tanpa membangunnya kembali secara manual.",
+      "description2": "Pipa, pompa, katup, zona, dan atribut kustom ikut serta dengan data yang dinyatakan file sumber.",
+      "plans": "Konversi model tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk mengonversi model",
+      "trial": "Konversi model adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     }
   },
   "dbUnavailable.description": "Terjadi kesalahan dan proyek ini tidak dapat disimpan lagi. Coba lagi, atau muat ulang halaman untuk melanjutkan — perubahan yang belum disimpan akan hilang.",

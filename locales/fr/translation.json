@@ -1477,6 +1477,13 @@
     "paste": {
       "cappedDescription": "Ce collage était trop volumineux pour être appliqué en entier. Utilisez l'importation pour ajouter des données en masse.",
       "cappedTitle": "Collé dans les {{1}} premières lignes"
+    },
+    "picker": {
+      "alreadyOpen": "(déjà ouvert)",
+      "open": "Ouvrir",
+      "prompt": "Choisissez les tables à ouvrir.",
+      "selectedAssetsOnly": "Éléments sélectionnés uniquement",
+      "title": "Ouvrir les tables de données"
     }
   },
   "fileFormatUpdated": "Format de fichier mis à jour",
@@ -1937,6 +1944,18 @@
       "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage",
       "zoneGeometryUnreadable_one": "1 limite de zone a trop peu de points pour former un polygone, elle n'a donc pas été importée",
       "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées"
+    },
+    "paywall": {
+      "captions": {
+        "1": "Convertir un modèle d'un autre format",
+        "2": "Les conduites, pompes, vannes et zones sont transférées avec vos données",
+        "3": "Reprenez là où votre modèle existant s'était arrêté"
+      },
+      "description1": "Intégrez des modèles créés avec d'autres logiciels dans epanet-js sans les reconstruire manuellement.",
+      "description2": "Les conduites, pompes, vannes, zones et attributs personnalisés sont transférés avec les données spécifiées dans le fichier source.",
+      "plans": "La conversion de modèles est disponible avec les plans payants.",
+      "title": "Mettre à niveau pour convertir des modèles",
+      "trial": "La conversion de modèles est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     }
   },
   "dbUnavailable.description": "Quelque chose s'est mal passé et ce projet ne peut plus être enregistré. Réessayez, ou rechargez la page pour continuer — toutes les modifications non enregistrées seront perdues.",
