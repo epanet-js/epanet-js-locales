@@ -84,5 +84,25 @@
   "signInToStart": {
     "detail": "Anda harus masuk untuk memulai checkout.",
     "title": "Login diperlukan"
+  },
+  "noBillingAccount": {
+    "detail": "Akun ini tidak memiliki detail penagihan untuk diperbarui. Mulai paket atau uji coba dari aplikasi terlebih dahulu.",
+    "title": "Belum ada yang bisa dikelola"
+  },
+  "noPortalPage": {
+    "detail": "Kami tidak dapat membuka detail penagihan Anda saat ini. Silakan coba lagi dalam beberapa menit.",
+    "title": "Detail penagihan tidak tersedia"
+  },
+  "portalFailed": {
+    "detail": "Terjadi kesalahan saat membuka detail penagihan Anda. Silakan coba lagi.",
+    "title": "Detail penagihan tidak tersedia"
+  },
+  "portalUnavailable": {
+    "detail": "Kami tidak dapat membuka detail penagihan Anda saat ini. Silakan coba lagi dalam beberapa menit.",
+    "title": "Detail penagihan tidak tersedia"
+  },
+  "signInToManageBilling": {
+    "detail": "Anda harus masuk untuk mengelola detail penagihan Anda.",
+    "title": "Login diperlukan"
   }
 }

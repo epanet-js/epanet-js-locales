@@ -1479,9 +1479,8 @@
       "cappedTitle": "Collé dans les {{1}} premières lignes"
     },
     "picker": {
-      "alreadyOpen": "(déjà ouvert)",
       "open": "Ouvrir",
-      "prompt": "Choisissez les tables à ouvrir.",
+      "prompt": "Sélectionner les tables à ajouter",
       "selectedAssetsOnly": "Éléments sélectionnés uniquement",
       "title": "Ouvrir les tables de données"
     }
@@ -1976,8 +1975,20 @@
   "panels": {
     "closePanel": "Fermer {{1}}",
     "empty": {
-      "description": "Utilisez Tables de données ou Profil HGL dans la barre d'outils pour ouvrir un panneau ici.",
-      "title": "Rien d'ouvert"
+      "title": "Rien ici pour l'instant",
+      "dataTables": "Visualisez et modifiez les éléments de votre modèle dans une feuille de calcul.",
+      "hglProfile": "Tracez l'élévation et la ligne piézométrique le long d'un chemin de conduites."
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "Faire défiler les onglets vers la gauche",
+    "scrollRight": "Faire défiler les onglets vers la droite"
+  },
+  "valve.fcv.name": "Vanne de Contrôle de Débit",
+  "valve.gpv.name": "Vanne à Usage Général",
+  "valve.pbv.name": "Vanne Briseuse de Pression",
+  "valve.pcv.name": "Vanne de Contrôle de Position",
+  "valve.prv.name": "Vanne Réductrice de Pression",
+  "valve.psv.name": "Vanne de Maintien de Pression",
+  "valve.tcv.name": "Vanne de Contrôle par Étranglement"
 }

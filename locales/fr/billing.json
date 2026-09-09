@@ -84,5 +84,25 @@
   "signInToStart": {
     "detail": "Vous devez être connecté pour démarrer un paiement.",
     "title": "Connexion requise"
+  },
+  "noBillingAccount": {
+    "detail": "Ce compte n'a pas de détails de facturation à mettre à jour. Commencez d'abord un plan ou un essai depuis l'application.",
+    "title": "Rien à gérer pour l'instant"
+  },
+  "noPortalPage": {
+    "detail": "Nous n'avons pas pu ouvrir vos détails de facturation pour l'instant. Veuillez réessayer dans quelques minutes.",
+    "title": "Détails de facturation indisponibles"
+  },
+  "portalFailed": {
+    "detail": "Un problème est survenu lors de l'ouverture de vos détails de facturation. Veuillez réessayer.",
+    "title": "Détails de facturation indisponibles"
+  },
+  "portalUnavailable": {
+    "detail": "Nous n'avons pas pu ouvrir vos détails de facturation pour l'instant. Veuillez réessayer dans quelques minutes.",
+    "title": "Détails de facturation indisponibles"
+  },
+  "signInToManageBilling": {
+    "detail": "Vous devez être connecté pour gérer vos détails de facturation.",
+    "title": "Connexion requise"
   }
 }

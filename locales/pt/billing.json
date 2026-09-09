@@ -84,5 +84,25 @@
   "signInToStart": {
     "detail": "Você precisa estar conectado para iniciar um checkout.",
     "title": "Login necessário"
+  },
+  "noBillingAccount": {
+    "detail": "Esta conta não possui detalhes de cobrança para atualizar. Inicie um plano ou um teste do aplicativo primeiro.",
+    "title": "Nada para gerenciar ainda"
+  },
+  "noPortalPage": {
+    "detail": "Não foi possível abrir seus detalhes de cobrança agora. Por favor, tente novamente em alguns minutos.",
+    "title": "Detalhes de cobrança indisponíveis"
+  },
+  "portalFailed": {
+    "detail": "Algo deu errado ao abrir seus detalhes de cobrança. Por favor, tente novamente.",
+    "title": "Detalhes de cobrança indisponíveis"
+  },
+  "portalUnavailable": {
+    "detail": "Não foi possível abrir seus detalhes de cobrança agora. Por favor, tente novamente em alguns minutos.",
+    "title": "Detalhes de cobrança indisponíveis"
+  },
+  "signInToManageBilling": {
+    "detail": "Você precisa estar conectado para gerenciar seus detalhes de cobrança.",
+    "title": "Login necessário"
   }
 }

@@ -1492,9 +1492,8 @@
       "cappedTitle": "Pegado en las primeras {{1}} filas"
     },
     "picker": {
-      "alreadyOpen": "(ya abierto)",
       "open": "Abrir",
-      "prompt": "Elige qué tablas abrir.",
+      "prompt": "Seleccionar tablas para añadir",
       "selectedAssetsOnly": "Solo activos seleccionados",
       "title": "Abrir tablas de datos"
     }
@@ -1983,8 +1982,20 @@
   "panels": {
     "closePanel": "Cerrar {{1}}",
     "empty": {
-      "description": "Usa las tablas de datos o el perfil HGL en la barra de herramientas para abrir un panel aquí.",
-      "title": "Nada abierto"
+      "title": "Nada aquí todavía",
+      "dataTables": "Ver y editar los activos de tu modelo en una hoja de cálculo.",
+      "hglProfile": "Graficar la elevación y la línea de carga hidráulica a lo largo de una trayectoria de tuberías."
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "Desplazar pestañas a la izquierda",
+    "scrollRight": "Desplazar pestañas a la derecha"
+  },
+  "valve.fcv.name": "Válvula de Control de Caudal",
+  "valve.gpv.name": "Válvula de Propósito General",
+  "valve.pbv.name": "Válvula Rompedora de Presión",
+  "valve.pcv.name": "Válvula de Control Posicional",
+  "valve.prv.name": "Válvula Reductora de Presión",
+  "valve.psv.name": "Válvula de Mantenimiento de Presión",
+  "valve.tcv.name": "Válvula de Regulación por Estrangulamiento"
 }

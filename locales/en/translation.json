@@ -338,6 +338,13 @@
   "valve.tcv.detailed": "TCV: Throttle Control Valve",
   "valve.gpv.detailed": "GPV: General Purpose Valve",
   "valve.pcv.detailed": "PCV: Positional Control Valve",
+  "valve.prv.name": "Pressure Reducing Valve",
+  "valve.psv.name": "Pressure Sustaining Valve",
+  "valve.fcv.name": "Flow Control Valve",
+  "valve.pbv.name": "Pressure Breaker Valve",
+  "valve.tcv.name": "Throttle Control Valve",
+  "valve.gpv.name": "General Purpose Valve",
+  "valve.pcv.name": "Positional Control Valve",
   "valveStatus": "Valve status",
   "initialStatus": "Initial status",
   "initialLevel": "Initial level",
@@ -1839,8 +1846,7 @@
     "title": "Data tables",
     "picker": {
       "title": "Open data tables",
-      "prompt": "Choose which tables to open.",
-      "alreadyOpen": "(already open)",
+      "prompt": "Select tables to add",
       "selectedAssetsOnly": "Selected assets only",
       "open": "Open"
     },
@@ -1859,8 +1865,9 @@
   "panels": {
     "closePanel": "Close {{1}}",
     "empty": {
-      "title": "Nothing open",
-      "description": "Use Data tables or HGL profile in the toolbar to open a panel here."
+      "title": "Nothing here yet",
+      "dataTables": "View and edit your model's assets in a spreadsheet.",
+      "hglProfile": "Plot elevation and hydraulic grade along a path of pipes."
     }
   },
   "hglProfile": {
@@ -1979,5 +1986,9 @@
       "plans": "The pipe library is available on paid plans.",
       "trial": "The pipe library is a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
     }
+  },
+  "tabs": {
+    "scrollLeft": "Scroll tabs left",
+    "scrollRight": "Scroll tabs right"
   }
 }

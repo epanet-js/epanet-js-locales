@@ -1479,9 +1479,8 @@
       "cappedTitle": "最初の {{1}} 行に貼り付けられました"
     },
     "picker": {
-      "alreadyOpen": "(既に開いています)",
       "open": "開く",
-      "prompt": "開くテーブルを選択してください。",
+      "prompt": "追加するテーブルを選択",
       "selectedAssetsOnly": "選択したアセットのみ",
       "title": "データテーブルを開く"
     }
@@ -1976,8 +1975,20 @@
   "panels": {
     "closePanel": "{{1}}を閉じる",
     "empty": {
-      "description": "ツールバーのデータテーブルまたはHGLプロファイルを使用して、ここにパネルを開きます。",
-      "title": "何も開いていません"
+      "title": "まだ何もありません",
+      "dataTables": "モデルのアセットをスプレッドシートで表示および編集します。",
+      "hglProfile": "管の経路に沿って標高と動水勾配をプロットします。"
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "タブを左にスクロール",
+    "scrollRight": "タブを右にスクロール"
+  },
+  "valve.fcv.name": "流量制御弁",
+  "valve.gpv.name": "一般用途弁",
+  "valve.pbv.name": "減圧弁",
+  "valve.pcv.name": "位置制御弁",
+  "valve.prv.name": "減圧弁",
+  "valve.psv.name": "圧力維持弁",
+  "valve.tcv.name": "スロットル制御弁"
 }

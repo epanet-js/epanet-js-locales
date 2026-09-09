@@ -1479,9 +1479,8 @@
       "cappedTitle": "Geplakt in de eerste {{1}} rijen"
     },
     "picker": {
-      "alreadyOpen": "(al geopend)",
       "open": "Openen",
-      "prompt": "Kies welke tabellen u wilt openen.",
+      "prompt": "Selecteer tabellen om toe te voegen",
       "selectedAssetsOnly": "Alleen geselecteerde onderdelen",
       "title": "Gegevenstabellen openen"
     }
@@ -1976,8 +1975,20 @@
   "panels": {
     "closePanel": "Sluit {{1}}",
     "empty": {
-      "description": "Gebruik Gegevenstabellen of HGL-profiel in de werkbalk om hier een paneel te openen.",
-      "title": "Niets open"
+      "title": "Nog niets hier",
+      "dataTables": "Bekijk en bewerk de onderdelen van uw model in een spreadsheet.",
+      "hglProfile": "Plot hoogte en hydraulische gradiënt langs een pad van leidingen."
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "Scrol tabs naar links",
+    "scrollRight": "Scrol tabs naar rechts"
+  },
+  "valve.fcv.name": "Volumeregelventiel",
+  "valve.gpv.name": "Algemeen Doel Ventiel",
+  "valve.pbv.name": "Overdrukventiel",
+  "valve.pcv.name": "Positieregelventiel",
+  "valve.prv.name": "Drukreduceerventiel",
+  "valve.psv.name": "Drukhoudventiel",
+  "valve.tcv.name": "Smoorventiel"
 }

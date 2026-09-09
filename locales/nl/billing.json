@@ -84,5 +84,25 @@
   "signInToStart": {
     "detail": "U moet zijn ingelogd om een afhandeling te starten.",
     "title": "Inloggen vereist"
+  },
+  "noBillingAccount": {
+    "detail": "Dit account heeft geen factureringsgegevens om bij te werken. Start eerst een abonnement of een proefperiode vanuit de app.",
+    "title": "Nog niets te beheren"
+  },
+  "noPortalPage": {
+    "detail": "We konden uw factureringsgegevens nu niet openen. Probeer het over een paar minuten opnieuw.",
+    "title": "Factureringsgegevens niet beschikbaar"
+  },
+  "portalFailed": {
+    "detail": "Er is iets misgegaan bij het openen van uw factureringsgegevens. Probeer het opnieuw.",
+    "title": "Factureringsgegevens niet beschikbaar"
+  },
+  "portalUnavailable": {
+    "detail": "We konden uw factureringsgegevens nu niet openen. Probeer het over een paar minuten opnieuw.",
+    "title": "Factureringsgegevens niet beschikbaar"
+  },
+  "signInToManageBilling": {
+    "detail": "U moet zijn ingelogd om uw factureringsgegevens te beheren.",
+    "title": "Inloggen vereist"
   }
 }

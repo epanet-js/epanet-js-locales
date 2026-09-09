@@ -84,5 +84,25 @@
   "checkoutCancelledFailed": {
     "title": "Checkout cancelled",
     "detail": "No payment was taken."
+  },
+  "signInToManageBilling": {
+    "title": "Sign in required",
+    "detail": "You need to be signed in to manage your billing details."
+  },
+  "noBillingAccount": {
+    "title": "Nothing to manage yet",
+    "detail": "This account has no billing details to update. Start a plan or a trial from the app first."
+  },
+  "portalUnavailable": {
+    "title": "Billing details unavailable",
+    "detail": "We could not open your billing details just now. Please try again in a few minutes."
+  },
+  "noPortalPage": {
+    "title": "Billing details unavailable",
+    "detail": "We could not open your billing details just now. Please try again in a few minutes."
+  },
+  "portalFailed": {
+    "title": "Billing details unavailable",
+    "detail": "Something went wrong opening your billing details. Please try again."
   }
 }

@@ -84,5 +84,25 @@
   "signInToStart": {
     "detail": "Debes iniciar sesión para iniciar una compra.",
     "title": "Inicio de sesión requerido"
+  },
+  "noBillingAccount": {
+    "detail": "Esta cuenta no tiene detalles de facturación para actualizar. Inicia un plan o una prueba desde la aplicación primero.",
+    "title": "Nada que gestionar aún"
+  },
+  "noPortalPage": {
+    "detail": "No pudimos abrir tus detalles de facturación ahora mismo. Por favor, inténtalo de nuevo en unos minutos.",
+    "title": "Detalles de facturación no disponibles"
+  },
+  "portalFailed": {
+    "detail": "Algo salió mal al abrir tus detalles de facturación. Por favor, inténtalo de nuevo.",
+    "title": "Detalles de facturación no disponibles"
+  },
+  "portalUnavailable": {
+    "detail": "No pudimos abrir tus detalles de facturación ahora mismo. Por favor, inténtalo de nuevo en unos minutos.",
+    "title": "Detalles de facturación no disponibles"
+  },
+  "signInToManageBilling": {
+    "detail": "Debes iniciar sesión para gestionar tus detalles de facturación.",
+    "title": "Inicio de sesión requerido"
   }
 }

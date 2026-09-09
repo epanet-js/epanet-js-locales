@@ -266,9 +266,8 @@
       "cappedTitle": "Ditempelkan ke {{1}} baris pertama"
     },
     "picker": {
-      "alreadyOpen": "(sudah terbuka)",
       "open": "Buka",
-      "prompt": "Pilih tabel mana yang akan dibuka.",
+      "prompt": "Pilih tabel untuk ditambahkan",
       "selectedAssetsOnly": "Hanya aset yang dipilih",
       "title": "Buka tabel data"
     }
@@ -1976,8 +1975,20 @@
   "panels": {
     "closePanel": "Tutup {{1}}",
     "empty": {
-      "description": "Gunakan Tabel data atau profil HGL di bilah alat untuk membuka panel di sini.",
-      "title": "Tidak ada yang terbuka"
+      "title": "Belum ada apa-apa di sini",
+      "dataTables": "Lihat dan edit aset model Anda dalam spreadsheet.",
+      "hglProfile": "Plot elevasi dan gradien hidrolik di sepanjang jalur pipa."
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "Gulir tab ke kiri",
+    "scrollRight": "Gulir tab ke kanan"
+  },
+  "valve.fcv.name": "Katup Kontrol Aliran",
+  "valve.gpv.name": "Katup Serbaguna",
+  "valve.pbv.name": "Katup Pemutus Tekanan",
+  "valve.pcv.name": "Katup Kontrol Posisi",
+  "valve.prv.name": "Katup Pengurang Tekanan",
+  "valve.psv.name": "Katup Penjaga Tekanan",
+  "valve.tcv.name": "Katup Kontrol Throttle"
 }

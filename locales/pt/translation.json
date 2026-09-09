@@ -1479,9 +1479,8 @@
       "cappedTitle": "Colado nas primeiras {{1}} linhas"
     },
     "picker": {
-      "alreadyOpen": "(já aberto)",
       "open": "Abrir",
-      "prompt": "Escolha quais tabelas abrir.",
+      "prompt": "Selecionar tabelas para adicionar",
       "selectedAssetsOnly": "Somente ativos selecionados",
       "title": "Abrir tabelas de dados"
     }
@@ -1976,8 +1975,20 @@
   "panels": {
     "closePanel": "Fechar {{1}}",
     "empty": {
-      "description": "Use Tabelas de dados ou Perfil HGL na barra de ferramentas para abrir um painel aqui.",
-      "title": "Nada aberto"
+      "title": "Nada aqui ainda",
+      "dataTables": "Visualize e edite os ativos do seu modelo em uma planilha.",
+      "hglProfile": "Plote a elevação e a linha piezométrica ao longo de um caminho de tubulações."
     }
-  }
+  },
+  "tabs": {
+    "scrollLeft": "Rolar abas para a esquerda",
+    "scrollRight": "Rolar abas para a direita"
+  },
+  "valve.fcv.name": "Válvula de Controle de Vazão",
+  "valve.gpv.name": "Válvula de Uso Geral",
+  "valve.pbv.name": "Válvula Quebra-Pressão",
+  "valve.pcv.name": "Válvula de Controle Posicional",
+  "valve.prv.name": "Válvula Redutora de Pressão",
+  "valve.psv.name": "Válvula Sustentadora de Pressão",
+  "valve.tcv.name": "Válvula de Controle por Estrangulamento"
 }
