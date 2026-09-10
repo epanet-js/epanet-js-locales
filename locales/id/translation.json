@@ -1990,5 +1990,9 @@
   "valve.pcv.name": "Katup Kontrol Posisi",
   "valve.prv.name": "Katup Pengurang Tekanan",
   "valve.psv.name": "Katup Penjaga Tekanan",
-  "valve.tcv.name": "Katup Kontrol Throttle"
+  "valve.tcv.name": "Katup Kontrol Throttle",
+  "billing": "Penagihan",
+  "trial.emailNotEligible": "Uji coba gratis tidak tersedia untuk email ini",
+  "trial.emailNotEligibleDetail": "Uji coba gratis hanya tersedia untuk alamat email organisasi. Hubungi dukungan dan kami akan membantu Anda menemukan paket yang cocok untuk Anda.",
+  "trial.startPlan": "Mulai uji coba {{1}}"
 }

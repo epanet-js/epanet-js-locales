@@ -73,12 +73,14 @@
       "splittingLinks": "Division des liaisons",
       "finalizingModel": "Finalisation du modèle",
       "generatingEjsdb": "Génération du fichier projet",
-      "importingCustomerPoints": "Importation des points de consommation"
+      "importingCustomerPoints": "Importation des points de consommation",
+      "importingZones": "Importation des zones"
     },
     "continueToApp": "Ouvrir le modèle",
     "elevationsUncovered": "Le service de terrain n'a pas de données à cet endroit.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
     "elevationsUnreachable": "Impossible d'atteindre le service de terrain.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
-    "customerPointsSkipped": "{{1}} des {{2}} points de consommation ont été ignorés. Vérifiez qu'ils ont une géométrie de point et une projection valide."
+    "customerPointsSkipped": "{{1}} des {{2}} points de consommation ont été ignorés. Vérifiez qu'ils ont une géométrie de point et une projection valide.",
+    "zonesSkipped": "{{1}} des {{2}} entités de zone ont été ignorées. Vérifiez qu'elles ont une géométrie de polygone et une projection valide."
   },
   "dataAssignment": {
     "projectionRequired": "Projection requise pour continuer"
@@ -101,7 +103,8 @@
     "reservoirs": "Réservoirs",
     "tanks": "Châteaux d'eau",
     "valves": "Vannes",
-    "customerPoints": "Points de Consommation"
+    "customerPoints": "Points de Consommation",
+    "zones": "Zones"
   },
   "fileDropzone": {
     "addMoreFiles": "Ajouter plus de fichiers (GeoJSON ou Shapefile)",
@@ -207,5 +210,10 @@
   },
   "addNewValue": "Ajouter \"{{1}}\"",
   "noResults": "Aucun résultat",
-  "search": "Rechercher…"
+  "search": "Rechercher…",
+  "zonesPreview": {
+    "mergedFeatures": "Entités fusionnées",
+    "polygons": "Polygones",
+    "zonesFrom": "Affichage de {{1}} zones à partir de {{2}} entités"
+  }
 }

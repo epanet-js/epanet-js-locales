@@ -73,12 +73,14 @@
       "splittingLinks": "Memisahkan tautan",
       "finalizingModel": "Menyelesaikan model",
       "generatingEjsdb": "Membuat file proyek",
-      "importingCustomerPoints": "Mengimpor titik pelanggan"
+      "importingCustomerPoints": "Mengimpor titik pelanggan",
+      "importingZones": "Mengimpor zona"
     },
     "continueToApp": "Buka model",
     "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
     "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
-    "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid."
+    "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid.",
+    "zonesSkipped": "{{1}} dari {{2}} fitur zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid."
   },
   "dataAssignment": {
     "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"
@@ -101,7 +103,8 @@
     "reservoirs": "Reservoir",
     "tanks": "Tangki",
     "valves": "Katup",
-    "customerPoints": "Titik pelanggan"
+    "customerPoints": "Titik pelanggan",
+    "zones": "Zona"
   },
   "fileDropzone": {
     "addMoreFiles": "Tambahkan lebih banyak file (GeoJSON atau Shapefile)",
@@ -207,5 +210,10 @@
   },
   "addNewValue": "Tambah \"{{1}}\"",
   "noResults": "Tidak ada hasil",
-  "search": "Cari…"
+  "search": "Cari…",
+  "zonesPreview": {
+    "mergedFeatures": "Fitur yang digabungkan",
+    "polygons": "Poligon",
+    "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur"
+  }
 }

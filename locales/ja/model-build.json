@@ -73,12 +73,14 @@
       "splittingLinks": "リンクの分割",
       "finalizingModel": "モデルを最終処理中",
       "generatingEjsdb": "プロジェクトファイルを生成中",
-      "importingCustomerPoints": "顧客ポイントをインポート中"
+      "importingCustomerPoints": "顧客ポイントをインポート中",
+      "importingZones": "ゾーンをインポート中"
     },
     "continueToApp": "モデルを開く",
     "elevationsUncovered": "地形サービスにはデータがありません。\n{{2}}個のノードのうち{{1}}個には標高がありません。",
     "elevationsUnreachable": "地形サービスに接続できませんでした。\n{{2}}個のノードのうち{{1}}個には標高がありません。",
-    "customerPointsSkipped": "{{2}}個の顧客ポイントのうち{{1}}個がスキップされました。ポイントジオメトリと有効な投影法を持っているか確認してください。"
+    "customerPointsSkipped": "{{2}}個の顧客ポイントのうち{{1}}個がスキップされました。ポイントジオメトリと有効な投影法を持っているか確認してください。",
+    "zonesSkipped": "{{2}}個のゾーンフィーチャのうち{{1}}個がスキップされました。ポリゴンジオメトリと有効な投影法を持っているか確認してください。"
   },
   "dataAssignment": {
     "projectionRequired": "続行するには投影が必要です"
@@ -101,7 +103,8 @@
     "reservoirs": "貯水池",
     "tanks": "配水池",
     "valves": "弁",
-    "customerPoints": "顧客ポイント"
+    "customerPoints": "顧客ポイント",
+    "zones": "ゾーン"
   },
   "fileDropzone": {
     "addMoreFiles": "さらにファイルを追加 (GeoJSONまたはShapefile)",
@@ -207,5 +210,10 @@
   },
   "addNewValue": "「{{1}}」を追加",
   "noResults": "結果なし",
-  "search": "検索…"
+  "search": "検索…",
+  "zonesPreview": {
+    "mergedFeatures": "結合されたフィーチャ",
+    "polygons": "ポリゴン",
+    "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中"
+  }
 }

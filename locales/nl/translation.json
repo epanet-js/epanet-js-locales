@@ -1990,5 +1990,9 @@
   "valve.pcv.name": "Positieregelventiel",
   "valve.prv.name": "Drukreduceerventiel",
   "valve.psv.name": "Drukhoudventiel",
-  "valve.tcv.name": "Smoorventiel"
+  "valve.tcv.name": "Smoorventiel",
+  "billing": "Facturering",
+  "trial.emailNotEligible": "Gratis proefperiode niet beschikbaar voor dit e-mailadres",
+  "trial.emailNotEligibleDetail": "Gratis proefperiodes zijn alleen beschikbaar voor e-mailadressen van organisaties. Neem contact op met de support en wij helpen u het plan te vinden dat bij u past.",
+  "trial.startPlan": "Start {{1}} proefperiode"
 }

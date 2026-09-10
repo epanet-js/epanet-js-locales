@@ -1990,5 +1990,9 @@
   "valve.pcv.name": "位置制御弁",
   "valve.prv.name": "減圧弁",
   "valve.psv.name": "圧力維持弁",
-  "valve.tcv.name": "スロットル制御弁"
+  "valve.tcv.name": "スロットル制御弁",
+  "billing": "請求",
+  "trial.emailNotEligible": "このメールアドレスでは無料トライアルはご利用いただけません",
+  "trial.emailNotEligibleDetail": "無料トライアルは組織のメールアドレスのみでご利用いただけます。サポートにお問い合わせいただければ、お客様に合ったプランを見つけるお手伝いをいたします。",
+  "trial.startPlan": "{{1}} のトライアルを開始"
 }

@@ -738,6 +738,7 @@
   "label": "Label",
   "login": "Log in",
   "signOut": "Sign out",
+  "billing": "Billing",
   "register": "Register",
   "openSource": "Open source",
   "nodes": "Nodes",
@@ -769,6 +770,9 @@
   "trial.activated": "Your trial is now active!",
   "trial.activating": "Activating trial",
   "trial.activateFree": "Activate free trial",
+  "trial.startPlan": "Start {{1}} trial",
+  "trial.emailNotEligible": "Free trial not available for this email",
+  "trial.emailNotEligibleDetail": "Free trials are only available for organisation email addresses. Contact support and we will help you find the plan that fits you.",
   "trial.tryWithDemo": "Try with a demo network",
   "paywall": {
     "tooltip": "Paid feature",

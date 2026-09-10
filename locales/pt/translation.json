@@ -1990,5 +1990,9 @@
   "valve.pcv.name": "Válvula de Controle Posicional",
   "valve.prv.name": "Válvula Redutora de Pressão",
   "valve.psv.name": "Válvula Sustentadora de Pressão",
-  "valve.tcv.name": "Válvula de Controle por Estrangulamento"
+  "valve.tcv.name": "Válvula de Controle por Estrangulamento",
+  "billing": "Faturamento",
+  "trial.emailNotEligible": "Teste gratuito não disponível para este e-mail",
+  "trial.emailNotEligibleDetail": "Testes gratuitos estão disponíveis apenas para endereços de e-mail de organizações. Entre em contato com o suporte e o ajudaremos a encontrar o plano que melhor se adapta a você.",
+  "trial.startPlan": "Iniciar teste de {{1}}"
 }

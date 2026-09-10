@@ -82,13 +82,15 @@
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
       "importingCustomerPoints": "Importing customer points",
+      "importingZones": "Importing zones",
       "finalizingModel": "Finalizing model",
       "generatingEjsdb": "Generating project file"
     },
     "elevationsUnreachable": "Could not reach the terrain service.\n{{1}} of {{2}} nodes have no elevation.",
     "elevationsUncovered": "The terrain service has no data there.\n{{1}} of {{2}} nodes have no elevation.",
     "continueToApp": "Open model",
-    "customerPointsSkipped": "{{1}} of {{2}} customer points were skipped. Check they have point geometry and a valid projection."
+    "customerPointsSkipped": "{{1}} of {{2}} customer points were skipped. Check they have point geometry and a valid projection.",
+    "zonesSkipped": "{{1}} of {{2}} zone features were skipped. Check they have polygon geometry and a valid projection."
   },
   "fileDropzone": {
     "attributesUnavailable": "Attributes unavailable",
@@ -161,7 +163,8 @@
     "pumps": "Pumps",
     "tanks": "Tanks",
     "reservoirs": "Reservoirs",
-    "customerPoints": "Customer points"
+    "customerPoints": "Customer points",
+    "zones": "Zones"
   },
   "flowUnits": {
     "cfs": "CFS (cu foot/sec)",
@@ -207,5 +210,10 @@
   "pump": {
     "on": "On",
     "off": "Off"
+  },
+  "zonesPreview": {
+    "mergedFeatures": "Merged features",
+    "polygons": "Polygons",
+    "zonesFrom": "Showing {{1}} zones from {{2}} features"
   }
 }

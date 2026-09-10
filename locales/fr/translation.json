@@ -1990,5 +1990,9 @@
   "valve.pcv.name": "Vanne de Contrôle de Position",
   "valve.prv.name": "Vanne Réductrice de Pression",
   "valve.psv.name": "Vanne de Maintien de Pression",
-  "valve.tcv.name": "Vanne de Contrôle par Étranglement"
+  "valve.tcv.name": "Vanne de Contrôle par Étranglement",
+  "billing": "Facturation",
+  "trial.emailNotEligible": "Essai gratuit non disponible pour cet e-mail",
+  "trial.emailNotEligibleDetail": "Les essais gratuits sont uniquement disponibles pour les adresses e-mail d'organisations. Contactez le support et nous vous aiderons à trouver le plan qui vous convient.",
+  "trial.startPlan": "Démarrer l'essai {{1}}"
 }

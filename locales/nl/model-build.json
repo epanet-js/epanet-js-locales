@@ -73,12 +73,14 @@
       "splittingLinks": "Verbindingen splitsen",
       "finalizingModel": "Model voltooien",
       "generatingEjsdb": "Projectbestand genereren",
-      "importingCustomerPoints": "Klantpunten importeren"
+      "importingCustomerPoints": "Klantpunten importeren",
+      "importingZones": "Zones importeren"
     },
     "continueToApp": "Model openen",
     "elevationsUncovered": "De terreindienst heeft daar geen gegevens.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
     "elevationsUnreachable": "Kon de terreindienst niet bereiken.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
-    "customerPointsSkipped": "{{1}} van de {{2}} klantpunten zijn overgeslagen. Controleer of ze puntgeometrie en een geldige projectie hebben."
+    "customerPointsSkipped": "{{1}} van de {{2}} klantpunten zijn overgeslagen. Controleer of ze puntgeometrie en een geldige projectie hebben.",
+    "zonesSkipped": "{{1}} van de {{2}} zone objecten zijn overgeslagen. Controleer of ze polygoongeometrie en een geldige projectie hebben."
   },
   "dataAssignment": {
     "projectionRequired": "Projectie vereist om door te gaan"
@@ -101,7 +103,8 @@
     "reservoirs": "Reservoirs",
     "tanks": "Tanks",
     "valves": "Ventielen",
-    "customerPoints": "Klantpunten"
+    "customerPoints": "Klantpunten",
+    "zones": "Zones"
   },
   "fileDropzone": {
     "addMoreFiles": "Meer bestanden toevoegen (GeoJSON of Shapefile)",
@@ -207,5 +210,10 @@
   },
   "addNewValue": "Toevoegen \"{{1}}\"",
   "noResults": "Geen resultaten",
-  "search": "Zoeken…"
+  "search": "Zoeken…",
+  "zonesPreview": {
+    "mergedFeatures": "Samengevoegde objecten",
+    "polygons": "Polygonen",
+    "zonesFrom": "Toont {{1}} zones van {{2}} objecten"
+  }
 }
