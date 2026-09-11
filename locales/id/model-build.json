@@ -150,7 +150,8 @@
     "elementsAssigned_other": "{{count}} elemen ditetapkan",
     "mapboxHint": "Tambahkan token Mapbox Anda untuk melihat peta sebenarnya",
     "mapboxPlaceholder": "Placeholder peta - Token Mapbox diperlukan",
-    "networkPreview": "Pratinjau jaringan"
+    "networkPreview": "Pratinjau jaringan",
+    "previewSampled": "Pratinjau menampilkan sampel fitur. Setiap catatan tetap diimpor."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -212,8 +213,6 @@
   "noResults": "Tidak ada hasil",
   "search": "Cari…",
   "zonesPreview": {
-    "mergedFeatures": "Fitur yang digabungkan",
-    "polygons": "Poligon",
     "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur"
   }
 }

@@ -150,7 +150,8 @@
     "elementsAssigned_other": "{{count}} elementos atribuídos",
     "mapboxHint": "Adicione seu token Mapbox para ver o mapa real",
     "mapboxPlaceholder": "Espaço reservado do mapa - Token Mapbox necessário",
-    "networkPreview": "Pré-visualização da rede"
+    "networkPreview": "Pré-visualização da rede",
+    "previewSampled": "A pré-visualização exibe uma amostra das feições. Cada registro ainda é importado."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -212,8 +213,6 @@
   "noResults": "Sem resultados",
   "search": "Buscar…",
   "zonesPreview": {
-    "mergedFeatures": "Feições mescladas",
-    "polygons": "Polígonos",
     "zonesFrom": "Exibindo {{1}} zonas de {{2}} feições"
   }
 }

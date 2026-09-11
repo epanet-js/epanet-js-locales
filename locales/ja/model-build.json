@@ -150,7 +150,8 @@
     "elementsAssigned_other": "{{count}} 要素割り当て済み",
     "mapboxHint": "Mapboxトークンを追加して実際のマップを表示します",
     "mapboxPlaceholder": "マッププレースホルダー - Mapboxトークンが必要です",
-    "networkPreview": "管網プレビュー"
+    "networkPreview": "管網プレビュー",
+    "previewSampled": "プレビューでは、フィーチャのサンプルが描画されます。すべてのレコードは引き続きインポートされます。"
   },
   "modelSettings": {
     "chezyManning": "チェジー・マニング",
@@ -212,8 +213,6 @@
   "noResults": "結果なし",
   "search": "検索…",
   "zonesPreview": {
-    "mergedFeatures": "結合されたフィーチャ",
-    "polygons": "ポリゴン",
     "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中"
   }
 }

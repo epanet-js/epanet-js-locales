@@ -150,7 +150,8 @@
     "elementsAssigned_other": "{{count}} éléments attribués",
     "mapboxHint": "Ajoutez votre jeton Mapbox pour voir la carte réelle",
     "mapboxPlaceholder": "Espace réservé pour la carte - Jeton Mapbox requis",
-    "networkPreview": "Aperçu du réseau"
+    "networkPreview": "Aperçu du réseau",
+    "previewSampled": "L'aperçu dessine un échantillon des entités. Chaque enregistrement est toujours importé."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -212,8 +213,6 @@
   "noResults": "Aucun résultat",
   "search": "Rechercher…",
   "zonesPreview": {
-    "mergedFeatures": "Entités fusionnées",
-    "polygons": "Polygones",
     "zonesFrom": "Affichage de {{1}} zones à partir de {{2}} entités"
   }
 }

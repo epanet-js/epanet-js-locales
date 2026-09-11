@@ -150,7 +150,8 @@
     "elementsAssigned_other": "{{count}} elementen toegewezen",
     "mapboxHint": "Voeg uw Mapbox-token toe om de daadwerkelijke kaart te zien",
     "mapboxPlaceholder": "Kaart placeholder - Mapbox-token vereist",
-    "networkPreview": "Netwerkvoorbeeld"
+    "networkPreview": "Netwerkvoorbeeld",
+    "previewSampled": "Het voorbeeld toont een selectie van de objecten. Elke record wordt nog steeds geïmporteerd."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -212,8 +213,6 @@
   "noResults": "Geen resultaten",
   "search": "Zoeken…",
   "zonesPreview": {
-    "mergedFeatures": "Samengevoegde objecten",
-    "polygons": "Polygonen",
     "zonesFrom": "Toont {{1}} zones van {{2}} objecten"
   }
 }

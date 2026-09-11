@@ -134,7 +134,8 @@
     "elementsAssigned_other": "{{count}} elements assigned",
     "clearProjection": "Clear projection",
     "mapboxPlaceholder": "Map placeholder - Mapbox token required",
-    "mapboxHint": "Add your Mapbox token to see the actual map"
+    "mapboxHint": "Add your Mapbox token to see the actual map",
+    "previewSampled": "The preview draws a sample of the features. Every record is still imported."
   },
   "dataTable": {
     "showingFirst": "Showing first 100 of {{1}} features",
@@ -212,8 +213,6 @@
     "off": "Off"
   },
   "zonesPreview": {
-    "mergedFeatures": "Merged features",
-    "polygons": "Polygons",
     "zonesFrom": "Showing {{1}} zones from {{2}} features"
   }
 }
