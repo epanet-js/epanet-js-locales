@@ -960,7 +960,6 @@
         "4": "Comparer les résultats",
         "5": "Garder les modifications isolées au scénario"
       },
-      "demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants.",
       "plans": "Les scénarios sont disponibles avec les plans payants.",
       "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     },
@@ -1015,9 +1014,7 @@
   "reservoirs": "Réservoirs",
   "tanks": "Châteaux d'Eau",
   "trial.activated": "Votre essai est maintenant actif !",
-  "trial.activateFree": "Activer l'essai gratuit",
   "trial.activating": "Activation de l'essai",
-  "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
   "valves": "Vannes",
   "off": "Désactivé",
   "inpProjectionChoice": {
@@ -1922,7 +1919,7 @@
       "remotePressureControlUnsupported_one": "1 Liaison maintient une pression à un autre nœud, ce qu'EPANET ne peut pas exprimer, donc le contrôle n'a pas été importé",
       "remotePressureControlUnsupported_other": "{{count}} Liaisons maintiennent une pression à un autre nœud, ce qu'EPANET ne peut pas exprimer, donc ces contrôles n'ont pas été importés",
       "sourceEmpty": "Le fichier ne contient rien que nous puissions importer.",
-      "sourceFilesIncomplete": "Certaines parties du shapefile sont manquantes. Un shapefile nécessite ses fichiers SHP, DBF et PRJ ensemble.",
+      "sourceFilesIncomplete": "Certains des fichiers dont cette source a besoin sont manquants. Ajoutez-les et réessayez.",
       "sourceUnreadable": "Le fichier n'a pas pu être lu. Il peut être corrompu, ou dans un format que nous ne lisons pas encore.",
       "tableMissing": "Le modèle n'a pas de table {{1}}, donc le réseau n'a pas pu être lu.",
       "tankFloatControlUnsupported_one": "1 vanne à flotteur sur l'entrée d'un réservoir n'est pas supportée, elle conserve donc la position que le fichier lui a donnée et ne se ferme pas lorsque le réservoir se remplit",
@@ -1993,6 +1990,12 @@
   "valve.tcv.name": "Vanne de Contrôle par Étranglement",
   "billing": "Facturation",
   "trial.emailNotEligible": "Essai gratuit non disponible pour cet e-mail",
-  "trial.emailNotEligibleDetail": "Les essais gratuits sont uniquement disponibles pour les adresses e-mail d'organisations. Contactez le support et nous vous aiderons à trouver le plan qui vous convient.",
-  "trial.startPlan": "Démarrer l'essai {{1}}"
+  "trial.emailNotEligibleDetail": "Les essais ne peuvent pas être activés avec des fournisseurs de messagerie gratuits. Veuillez vous inscrire avec votre e-mail professionnel pour commencer votre essai.",
+  "trial.startPlan": "Démarrer l'essai {{1}}",
+  "alertExportInpLsxLinkLabel": "EPANET-LSX",
+  "alertExportInpLsxTextAfter": ", car il contient des fonctionnalités avancées qui ne sont pas compatibles avec l'EPANET standard.",
+  "alertExportInpLsxTextBefore": "Le fichier INP exporté nécessitera d'être exécuté sur",
+  "alertExportInpLsxTitle": "LSX Requis",
+  "targetNode": "Nœud cible",
+  "toggleLeftPanel": "Basculer le panneau gauche"
 }

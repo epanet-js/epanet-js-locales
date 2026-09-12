@@ -960,7 +960,6 @@
         "4": "Resultaten vergelijken",
         "5": "Wijzigingen isoleren naar het scenario"
       },
-      "demo": "Probeer scenario's gratis met een demonetwerk, of verken onze betaalde abonnementen.",
       "plans": "Scenario's zijn beschikbaar op betaalde abonnementen.",
       "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
@@ -1015,9 +1014,7 @@
   "reservoirs": "Reservoirs",
   "tanks": "Tanks",
   "trial.activated": "Uw proefperiode is nu actief!",
-  "trial.activateFree": "Activeer gratis proefperiode",
   "trial.activating": "Proefperiode activeren",
-  "trial.tryWithDemo": "Probeer met een demonetwerk",
   "valves": "Ventielen",
   "off": "Uit",
   "inpProjectionChoice": {
@@ -1994,5 +1991,11 @@
   "billing": "Facturering",
   "trial.emailNotEligible": "Gratis proefperiode niet beschikbaar voor dit e-mailadres",
   "trial.emailNotEligibleDetail": "Gratis proefperiodes zijn alleen beschikbaar voor e-mailadressen van organisaties. Neem contact op met de support en wij helpen u het plan te vinden dat bij u past.",
-  "trial.startPlan": "Start {{1}} proefperiode"
+  "trial.startPlan": "Start {{1}} proefperiode",
+  "alertExportInpLsxLinkLabel": "EPANET-LSX",
+  "alertExportInpLsxTextAfter": ", aangezien het geavanceerde functionaliteiten bevat die niet compatibel zijn met standaard EPANET.",
+  "alertExportInpLsxTextBefore": "Het geëxporteerde INP-bestand vereist het uitvoeren op",
+  "alertExportInpLsxTitle": "LSX Vereist",
+  "targetNode": "Doelknooppunt",
+  "toggleLeftPanel": "Linkerpaneel in-/uitschakelen"
 }

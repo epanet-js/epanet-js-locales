@@ -973,7 +973,6 @@
         "4": "Comparar resultados",
         "5": "Mantener los cambios aislados al escenario"
       },
-      "demo": "Prueba escenarios gratis con una red de demostración, o explora nuestros planes de pago.",
       "plans": "Los escenarios están disponibles en planes de pago.",
       "trial": "Los escenarios son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     },
@@ -1028,9 +1027,7 @@
   "reservoirs": "Embalses",
   "tanks": "Tanques",
   "trial.activated": "¡Tu prueba ya está activa!",
-  "trial.activateFree": "Activar prueba gratuita",
   "trial.activating": "Activando prueba",
-  "trial.tryWithDemo": "Probar con una red de demostración",
   "valves": "Válvulas",
   "off": "Desactivado",
   "inpProjectionChoice": {
@@ -1929,7 +1926,7 @@
       "remotePressureControlUnsupported_one": "1 Enlace mantiene una presión en otro nudo, que EPANET no puede expresar, por lo que el control no fue importado",
       "remotePressureControlUnsupported_other": "{{count}} Enlaces mantienen una presión en otro nudo, que EPANET no puede expresar, por lo que esos controles no fueron importados",
       "sourceEmpty": "El archivo no contiene nada que podamos importar.",
-      "sourceFilesIncomplete": "Faltan algunas partes del shapefile. Un shapefile necesita sus archivos SHP, DBF y PRJ juntos.",
+      "sourceFilesIncomplete": "Faltan algunos de los archivos que esta fuente necesita. Añádelos e inténtalo de nuevo.",
       "sourceUnreadable": "El archivo no pudo leerse. Puede estar corrupto, o en un formato que aún no leemos.",
       "tableMissing": "El modelo no tiene tabla {{1}}, por lo que no se pudo leer la red.",
       "tankFloatControlUnsupported_one": "1 Válvula de flotador en una entrada de tanque no es compatible, por lo que mantiene la posición que le dio el archivo y no se cierra a medida que el tanque se llena",
@@ -2000,6 +1997,12 @@
   "valve.tcv.name": "Válvula de Regulación por Estrangulamiento",
   "billing": "Facturación",
   "trial.emailNotEligible": "Prueba gratuita no disponible para este correo electrónico",
-  "trial.emailNotEligibleDetail": "Las pruebas gratuitas solo están disponibles para direcciones de correo electrónico de organizaciones. Contacta con soporte y te ayudaremos a encontrar el plan que mejor se adapte a ti.",
-  "trial.startPlan": "Iniciar prueba de {{1}}"
+  "trial.emailNotEligibleDetail": "Las pruebas no pueden activarse utilizando proveedores de correo electrónico gratuitos. Regístrate con tu correo electrónico de trabajo para iniciar tu prueba.",
+  "trial.startPlan": "Iniciar prueba de {{1}}",
+  "alertExportInpLsxLinkLabel": "EPANET-LSX",
+  "alertExportInpLsxTextAfter": ", ya que contiene funcionalidades avanzadas que no son compatibles con EPANET estándar.",
+  "alertExportInpLsxTextBefore": "El archivo INP exportado requerirá ser ejecutado en",
+  "alertExportInpLsxTitle": "LSX Requerido",
+  "targetNode": "Nudo objetivo",
+  "toggleLeftPanel": "Alternar panel izquierdo"
 }

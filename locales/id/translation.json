@@ -1164,7 +1164,6 @@
         "4": "Bandingkan hasil",
         "5": "Jaga perubahan tetap terisolasi dalam skenario"
       },
-      "demo": "Coba skenario secara gratis dengan jaringan demo, atau jelajahi paket berbayar kami.",
       "description1": "Skenario memungkinkan Anda menjelajahi perubahan \"bagaimana jika\" tanpa menduplikasi model Anda.",
       "description2": "Buat versi alternatif jaringan Anda dan bandingkan hasilnya dengan garis dasar Anda.",
       "plans": "Skenario tersedia pada paket berbayar.",
@@ -1402,13 +1401,11 @@
     "upstreamHint": "Klik pada aset untuk melacak pasokan hulu."
   },
   "trial.activated": "Uji coba Anda sekarang aktif!",
-  "trial.activateFree": "Aktifkan uji coba gratis",
   "trial.activating": "Mengaktifkan uji coba",
   "trial.expired": "Uji coba berakhir",
   "trial.status_one": "Uji coba: {{count}} hari tersisa",
   "trial.status_other": "Uji coba: {{count}} hari tersisa",
   "trial.status_zero": "Uji coba: kedaluwarsa hari ini",
-  "trial.tryWithDemo": "Coba dengan jaringan demo",
   "tryAgain": "Coba lagi",
   "tryAgainOrSupport": "Silakan coba lagi, dan jika kesalahan berlanjut, hubungi dukungan.",
   "tryItYourself": "Coba sendiri",
@@ -1922,7 +1919,7 @@
       "remotePressureControlUnsupported_one": "1 Tautan menahan tekanan pada node lain, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tidak diimpor",
       "remotePressureControlUnsupported_other": "{{count}} Tautan menahan tekanan pada node lain, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tersebut tidak diimpor",
       "sourceEmpty": "File tidak memiliki apa pun yang dapat kami impor.",
-      "sourceFilesIncomplete": "Beberapa bagian shapefile hilang. Shapefile membutuhkan file SHP, DBF, dan PRJ-nya bersama-sama.",
+      "sourceFilesIncomplete": "Beberapa file yang dibutuhkan sumber ini hilang. Tambahkan dan coba lagi.",
       "sourceUnreadable": "File tidak dapat dibaca. Mungkin rusak, atau dalam format yang belum kami baca.",
       "tableMissing": "Model tidak memiliki tabel {{1}}, jadi jaringan tidak dapat dibaca.",
       "tankFloatControlUnsupported_one": "1 Katup pelampung pada saluran masuk tangki tidak didukung, jadi tetap pada posisi yang diberikan file dan tidak menutup saat tangki terisi",
@@ -1993,6 +1990,12 @@
   "valve.tcv.name": "Katup Kontrol Throttle",
   "billing": "Penagihan",
   "trial.emailNotEligible": "Uji coba gratis tidak tersedia untuk email ini",
-  "trial.emailNotEligibleDetail": "Uji coba gratis hanya tersedia untuk alamat email organisasi. Hubungi dukungan dan kami akan membantu Anda menemukan paket yang cocok untuk Anda.",
-  "trial.startPlan": "Mulai uji coba {{1}}"
+  "trial.emailNotEligibleDetail": "Uji coba tidak dapat diaktifkan menggunakan penyedia email gratis. Harap daftar dengan email kantor Anda untuk memulai uji coba Anda.",
+  "trial.startPlan": "Mulai uji coba {{1}}",
+  "alertExportInpLsxLinkLabel": "EPANET-LSX",
+  "alertExportInpLsxTextAfter": ", karena mengandung fungsionalitas lanjutan yang tidak kompatibel dengan EPANET standar.",
+  "alertExportInpLsxTextBefore": "File INP yang diekspor akan memerlukan dijalankan di",
+  "alertExportInpLsxTitle": "LSX Diperlukan",
+  "targetNode": "Node target",
+  "toggleLeftPanel": "Alihkan panel kiri"
 }
