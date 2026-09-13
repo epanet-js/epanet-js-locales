@@ -1168,7 +1168,8 @@
       "description2": "Buat versi alternatif jaringan Anda dan bandingkan hasilnya dengan garis dasar Anda.",
       "plans": "Skenario tersedia pada paket berbayar.",
       "title": "Tingkatkan untuk mengakses skenario",
-      "trial": "Skenario adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tidak memerlukan kartu kredit."
+      "trial": "Skenario adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tidak memerlukan kartu kredit.",
+      "demo": "Coba skenario gratis dengan jaringan demo, atau jelajahi paket berbayar kami."
     },
     "rename": "Ubah nama",
     "renameDialog": {
@@ -1989,13 +1990,15 @@
   "valve.psv.name": "Katup Penjaga Tekanan",
   "valve.tcv.name": "Katup Kontrol Throttle",
   "billing": "Penagihan",
-  "trial.emailNotEligible": "Uji coba gratis tidak tersedia untuk email ini",
+  "trial.emailNotEligible": "Email kantor diperlukan untuk uji coba",
   "trial.emailNotEligibleDetail": "Uji coba tidak dapat diaktifkan menggunakan penyedia email gratis. Harap daftar dengan email kantor Anda untuk memulai uji coba Anda.",
-  "trial.startPlan": "Mulai uji coba {{1}}",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", karena mengandung fungsionalitas lanjutan yang tidak kompatibel dengan EPANET standar.",
   "alertExportInpLsxTextBefore": "File INP yang diekspor akan memerlukan dijalankan di",
   "alertExportInpLsxTitle": "LSX Diperlukan",
   "targetNode": "Node target",
-  "toggleLeftPanel": "Alihkan panel kiri"
+  "toggleLeftPanel": "Alihkan panel kiri",
+  "requestQuote": "Minta penawaran",
+  "trial.startFree": "Mulai uji coba gratis",
+  "trial.tryWithDemo": "Coba dengan jaringan demo"
 }

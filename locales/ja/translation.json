@@ -961,7 +961,8 @@
         "5": "シナリオに分離して変更を維持する"
       },
       "plans": "シナリオは有料プランでご利用いただけます。",
-      "trial": "シナリオは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+      "trial": "シナリオは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。",
+      "demo": "デモネットワークでシナリオを無料で試すか、有料プランをご覧ください。"
     },
     "firstScenario": {
       "bullet1": "シナリオが存在する間、メインモデルは<bold>読み取り専用</bold>になります。",
@@ -1989,13 +1990,15 @@
   "valve.psv.name": "圧力維持弁",
   "valve.tcv.name": "スロットル制御弁",
   "billing": "請求",
-  "trial.emailNotEligible": "このメールアドレスでは無料トライアルはご利用いただけません",
+  "trial.emailNotEligible": "無料トライアルには職場のメールアドレスが必要です",
   "trial.emailNotEligibleDetail": "無料のメールプロバイダーではトライアルを有効にできません。職場のメールアドレスで登録してトライアルを開始してください。",
-  "trial.startPlan": "{{1}} のトライアルを開始",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": "、標準のEPANETと互換性のない高度な機能が含まれているためです。",
   "alertExportInpLsxTextBefore": "エクスポートされたINPファイルは、以下で実行する必要があります",
   "alertExportInpLsxTitle": "LSXが必要です",
   "targetNode": "ターゲットノード",
-  "toggleLeftPanel": "左パネルの切り替え"
+  "toggleLeftPanel": "左パネルの切り替え",
+  "requestQuote": "見積もりを依頼",
+  "trial.startFree": "無料トライアルを開始",
+  "trial.tryWithDemo": "デモネットワークでお試しください"
 }

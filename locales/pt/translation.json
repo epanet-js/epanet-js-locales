@@ -961,7 +961,8 @@
         "5": "Manter as alterações isoladas no cenário"
       },
       "plans": "Cenários estão disponíveis em planos pagos.",
-      "trial": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+      "trial": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
+      "demo": "Experimente cenários gratuitamente com uma rede de demonstração, ou explore nossos planos pagos."
     },
     "firstScenario": {
       "bullet1": "O modelo principal se torna <bold>somente leitura</bold> enquanto os cenários existirem.",
@@ -1989,13 +1990,15 @@
   "valve.psv.name": "Válvula Sustentadora de Pressão",
   "valve.tcv.name": "Válvula de Controle por Estrangulamento",
   "billing": "Faturamento",
-  "trial.emailNotEligible": "Teste gratuito não disponível para este e-mail",
+  "trial.emailNotEligible": "E-mail de trabalho necessário para testes",
   "trial.emailNotEligibleDetail": "Testes não podem ser ativados usando provedores de e-mail gratuitos. Por favor, registre-se com seu e-mail de trabalho para iniciar seu teste.",
-  "trial.startPlan": "Iniciar teste de {{1}}",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", pois contém funcionalidades avançadas que não são compatíveis com o EPANET padrão.",
   "alertExportInpLsxTextBefore": "O arquivo INP exportado exigirá execução em",
   "alertExportInpLsxTitle": "LSX Necessário",
   "targetNode": "Nó de destino",
-  "toggleLeftPanel": "Alternar painel esquerdo"
+  "toggleLeftPanel": "Alternar painel esquerdo",
+  "requestQuote": "Solicitar orçamento",
+  "trial.startFree": "Iniciar teste gratuito",
+  "trial.tryWithDemo": "Experimente com uma rede de demonstração"
 }

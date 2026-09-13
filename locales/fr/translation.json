@@ -961,7 +961,8 @@
         "5": "Garder les modifications isolées au scénario"
       },
       "plans": "Les scénarios sont disponibles avec les plans payants.",
-      "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
+      "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise.",
+      "demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants."
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
@@ -1989,13 +1990,15 @@
   "valve.psv.name": "Vanne de Maintien de Pression",
   "valve.tcv.name": "Vanne de Contrôle par Étranglement",
   "billing": "Facturation",
-  "trial.emailNotEligible": "Essai gratuit non disponible pour cet e-mail",
+  "trial.emailNotEligible": "E-mail professionnel requis pour les essais",
   "trial.emailNotEligibleDetail": "Les essais ne peuvent pas être activés avec des fournisseurs de messagerie gratuits. Veuillez vous inscrire avec votre e-mail professionnel pour commencer votre essai.",
-  "trial.startPlan": "Démarrer l'essai {{1}}",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", car il contient des fonctionnalités avancées qui ne sont pas compatibles avec l'EPANET standard.",
   "alertExportInpLsxTextBefore": "Le fichier INP exporté nécessitera d'être exécuté sur",
   "alertExportInpLsxTitle": "LSX Requis",
   "targetNode": "Nœud cible",
-  "toggleLeftPanel": "Basculer le panneau gauche"
+  "toggleLeftPanel": "Basculer le panneau gauche",
+  "requestQuote": "Demander un devis",
+  "trial.startFree": "Commencer l'essai gratuit",
+  "trial.tryWithDemo": "Essayer avec un réseau de démonstration"
 }

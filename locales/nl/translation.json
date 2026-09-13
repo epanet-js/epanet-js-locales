@@ -961,7 +961,8 @@
         "5": "Wijzigingen isoleren naar het scenario"
       },
       "plans": "Scenario's zijn beschikbaar op betaalde abonnementen.",
-      "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+      "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig.",
+      "demo": "Probeer scenario's gratis met een demo netwerk, of verken onze betaalde abonnementen."
     },
     "firstScenario": {
       "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",
@@ -1989,13 +1990,15 @@
   "valve.psv.name": "Drukhoudventiel",
   "valve.tcv.name": "Smoorventiel",
   "billing": "Facturering",
-  "trial.emailNotEligible": "Gratis proefperiode niet beschikbaar voor dit e-mailadres",
+  "trial.emailNotEligible": "Zakelijk e-mailadres vereist voor proefperiodes",
   "trial.emailNotEligibleDetail": "Gratis proefperiodes zijn alleen beschikbaar voor e-mailadressen van organisaties. Neem contact op met de support en wij helpen u het plan te vinden dat bij u past.",
-  "trial.startPlan": "Start {{1}} proefperiode",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", aangezien het geavanceerde functionaliteiten bevat die niet compatibel zijn met standaard EPANET.",
   "alertExportInpLsxTextBefore": "Het geëxporteerde INP-bestand vereist het uitvoeren op",
   "alertExportInpLsxTitle": "LSX Vereist",
   "targetNode": "Doelknooppunt",
-  "toggleLeftPanel": "Linkerpaneel in-/uitschakelen"
+  "toggleLeftPanel": "Linkerpaneel in-/uitschakelen",
+  "requestQuote": "Offerte aanvragen",
+  "trial.startFree": "Start gratis proefperiode",
+  "trial.tryWithDemo": "Probeer met een demonstratienetwerk"
 }

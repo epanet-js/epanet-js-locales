@@ -774,9 +774,10 @@
   "trial.expired": "Trial expired",
   "trial.activated": "Your trial is now active!",
   "trial.activating": "Activating trial",
-  "trial.startPlan": "Start {{1}} trial",
-  "trial.emailNotEligible": "Free trial not available for this email",
+  "trial.startFree": "Start free trial",
+  "trial.emailNotEligible": "Work email required for trials",
   "trial.emailNotEligibleDetail": "Trials cannot be activated using free email providers. Please register with your work email to start your trial.",
+  "trial.tryWithDemo": "Try with a demo network",
   "paywall": {
     "tooltip": "Paid feature",
     "explorePlans": "Explore plans",
@@ -855,6 +856,7 @@
   "year": "year",
   "yearShort": "yr",
   "upgradeTo": "Upgrade to {{1}}",
+  "requestQuote": "Request quote",
   "comingSoon": "Coming soon",
   "individualNamedLicense": "Individual named license",
   "floatingSharedLicenses": "Floating shared licenses",
@@ -1604,6 +1606,7 @@
       "description2": "Create alternative versions of your network and compare results against your baseline.",
       "trial": "Scenarios are a paid feature. Activate your free trial to get full access for 14 days—no credit card required.",
       "plans": "Scenarios are available on paid plans.",
+      "demo": "Try scenarios for free with a demo network, or explore our paid plans.",
       "captions": {
         "1": "Ask “what-if” questions with scenarios",
         "2": "Modify asset parameters",
