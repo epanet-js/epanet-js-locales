@@ -1991,7 +1991,7 @@
   "valve.tcv.name": "スロットル制御弁",
   "billing": "請求",
   "trial.emailNotEligible": "無料トライアルには職場のメールアドレスが必要です",
-  "trial.emailNotEligibleDetail": "無料のメールプロバイダーではトライアルを有効にできません。職場のメールアドレスで登録してトライアルを開始してください。",
+  "trial.emailNotEligibleDetail": "無料のメールプロバイダーではトライアルを有効にできません。トライアルを開始するには、職場のメールアドレスで登録してください。\n\nこのメールアドレスで引き続きProにアップグレードできます。",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": "、標準のEPANETと互換性のない高度な機能が含まれているためです。",
   "alertExportInpLsxTextBefore": "エクスポートされたINPファイルは、以下で実行する必要があります",

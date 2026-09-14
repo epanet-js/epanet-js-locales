@@ -1991,7 +1991,7 @@
   "valve.tcv.name": "Vanne de Contrôle par Étranglement",
   "billing": "Facturation",
   "trial.emailNotEligible": "E-mail professionnel requis pour les essais",
-  "trial.emailNotEligibleDetail": "Les essais ne peuvent pas être activés avec des fournisseurs de messagerie gratuits. Veuillez vous inscrire avec votre e-mail professionnel pour commencer votre essai.",
+  "trial.emailNotEligibleDetail": "Les essais ne peuvent pas être activés avec des fournisseurs de messagerie gratuits. Veuillez vous inscrire avec votre e-mail professionnel pour commencer votre essai.\n\nVous pouvez toujours passer à Pro avec cette adresse e-mail.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", car il contient des fonctionnalités avancées qui ne sont pas compatibles avec l'EPANET standard.",
   "alertExportInpLsxTextBefore": "Le fichier INP exporté nécessitera d'être exécuté sur",

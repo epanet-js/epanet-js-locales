@@ -1998,7 +1998,7 @@
   "valve.tcv.name": "Válvula de Regulación por Estrangulamiento",
   "billing": "Facturación",
   "trial.emailNotEligible": "Se requiere correo electrónico de trabajo para las pruebas",
-  "trial.emailNotEligibleDetail": "Las pruebas no pueden activarse utilizando proveedores de correo electrónico gratuitos. Regístrate con tu correo electrónico de trabajo para iniciar tu prueba.",
+  "trial.emailNotEligibleDetail": "Las pruebas no pueden activarse utilizando proveedores de correo electrónico gratuitos. Regístrate con tu correo electrónico de trabajo para iniciar tu prueba.\n\nTodavía puedes actualizar a Pro con este correo electrónico.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", ya que contiene funcionalidades avanzadas que no son compatibles con EPANET estándar.",
   "alertExportInpLsxTextBefore": "El archivo INP exportado requerirá ser ejecutado en",

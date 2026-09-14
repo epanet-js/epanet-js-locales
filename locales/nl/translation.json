@@ -1991,7 +1991,7 @@
   "valve.tcv.name": "Smoorventiel",
   "billing": "Facturering",
   "trial.emailNotEligible": "Zakelijk e-mailadres vereist voor proefperiodes",
-  "trial.emailNotEligibleDetail": "Gratis proefperiodes zijn alleen beschikbaar voor e-mailadressen van organisaties. Neem contact op met de support en wij helpen u het plan te vinden dat bij u past.",
+  "trial.emailNotEligibleDetail": "Proefperiodes kunnen niet worden geactiveerd met gratis e-mailproviders. Registreer met uw zakelijke e-mailadres om uw proefperiode te starten.\n\nU kunt nog steeds upgraden naar Pro met dit e-mailadres.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
   "alertExportInpLsxTextAfter": ", aangezien het geavanceerde functionaliteiten bevat die niet compatibel zijn met standaard EPANET.",
   "alertExportInpLsxTextBefore": "Het geëxporteerde INP-bestand vereist het uitvoeren op",
