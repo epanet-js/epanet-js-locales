@@ -2000,5 +2000,23 @@
   "toggleLeftPanel": "左パネルの切り替え",
   "requestQuote": "見積もりを依頼",
   "trial.startFree": "無料トライアルを開始",
-  "trial.tryWithDemo": "デモネットワークでお試しください"
+  "trial.tryWithDemo": "デモネットワークでお試しください",
+  "collections": {
+    "bookmarks": {
+      "add": "ブックマークを追加",
+      "empty": "+を押して、見ている領域に名前を付けます。",
+      "namePlaceholder": "ブックマーク名",
+      "newName": "新しいブックマーク名",
+      "title": "ブックマーク"
+    },
+    "selectionSets": {
+      "empty": "マップ上で2つ以上のアセットを選択し、+を押して選択を保存します。",
+      "namePlaceholder": "選択セット名",
+      "newName": "新しい選択セット名",
+      "save": "選択セットを保存",
+      "saveDisabled": "選択セットを保存 — まず2つ以上の項目を選択してください",
+      "title": "選択セット"
+    },
+    "title": "コレクション"
+  }
 }

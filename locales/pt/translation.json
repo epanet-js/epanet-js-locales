@@ -2000,5 +2000,23 @@
   "toggleLeftPanel": "Alternar painel esquerdo",
   "requestQuote": "Solicitar orçamento",
   "trial.startFree": "Iniciar teste gratuito",
-  "trial.tryWithDemo": "Experimente com uma rede de demonstração"
+  "trial.tryWithDemo": "Experimente com uma rede de demonstração",
+  "collections": {
+    "bookmarks": {
+      "add": "Adicionar marcador",
+      "empty": "Pressione + para nomear a área que você está visualizando.",
+      "namePlaceholder": "Nome do marcador",
+      "newName": "Novo nome do marcador",
+      "title": "Marcadores"
+    },
+    "selectionSets": {
+      "empty": "Selecione dois ou mais ativos no mapa e, em seguida, pressione + para salvar a seleção.",
+      "namePlaceholder": "Nome do conjunto de seleção",
+      "newName": "Novo nome do conjunto de seleção",
+      "save": "Salvar conjunto de seleção",
+      "saveDisabled": "Salvar conjunto de seleção — selecione dois ou mais itens primeiro",
+      "title": "Conjuntos de seleção"
+    },
+    "title": "Coleções"
+  }
 }

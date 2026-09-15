@@ -2000,5 +2000,23 @@
   "toggleLeftPanel": "Linkerpaneel in-/uitschakelen",
   "requestQuote": "Offerte aanvragen",
   "trial.startFree": "Start gratis proefperiode",
-  "trial.tryWithDemo": "Probeer met een demonstratienetwerk"
+  "trial.tryWithDemo": "Probeer met een demonstratienetwerk",
+  "collections": {
+    "bookmarks": {
+      "add": "Bladwijzer toevoegen",
+      "empty": "Druk op + om het gebied dat u bekijkt een naam te geven.",
+      "namePlaceholder": "Bladwijzernaam",
+      "newName": "Nieuwe bladwijzernaam",
+      "title": "Bladwijzers"
+    },
+    "selectionSets": {
+      "empty": "Selecteer twee of meer onderdelen op de kaart en druk vervolgens op + om de selectie op te slaan.",
+      "namePlaceholder": "Selectiesetnaam",
+      "newName": "Nieuwe selectiesetnaam",
+      "save": "Selectieset opslaan",
+      "saveDisabled": "Selectieset opslaan — selecteer eerst twee of meer items",
+      "title": "Selectiesets"
+    },
+    "title": "Collecties"
+  }
 }

@@ -2000,5 +2000,23 @@
   "toggleLeftPanel": "Alihkan panel kiri",
   "requestQuote": "Minta penawaran",
   "trial.startFree": "Mulai uji coba gratis",
-  "trial.tryWithDemo": "Coba dengan jaringan demo"
+  "trial.tryWithDemo": "Coba dengan jaringan demo",
+  "collections": {
+    "bookmarks": {
+      "add": "Tambah bookmark",
+      "empty": "Tekan + untuk menamai area yang Anda lihat.",
+      "namePlaceholder": "Nama bookmark",
+      "newName": "Nama bookmark baru",
+      "title": "Bookmark"
+    },
+    "selectionSets": {
+      "empty": "Pilih dua atau lebih aset di peta, lalu tekan + untuk menyimpan pilihan.",
+      "namePlaceholder": "Nama set pilihan",
+      "newName": "Nama set pilihan baru",
+      "save": "Simpan set pilihan",
+      "saveDisabled": "Simpan set pilihan — pilih dua atau lebih item terlebih dahulu",
+      "title": "Set pilihan"
+    },
+    "title": "Koleksi"
+  }
 }

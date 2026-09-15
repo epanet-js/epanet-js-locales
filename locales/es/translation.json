@@ -2007,5 +2007,23 @@
   "toggleLeftPanel": "Alternar panel izquierdo",
   "requestQuote": "Solicitar presupuesto",
   "trial.startFree": "Iniciar prueba gratuita",
-  "trial.tryWithDemo": "Probar con una red de demostración"
+  "trial.tryWithDemo": "Probar con una red de demostración",
+  "collections": {
+    "bookmarks": {
+      "add": "Añadir marcador",
+      "empty": "Pulsa + para nombrar el área que estás viendo.",
+      "namePlaceholder": "Nombre del marcador",
+      "newName": "Nuevo nombre de marcador",
+      "title": "Marcadores"
+    },
+    "selectionSets": {
+      "empty": "Selecciona dos o más activos en el mapa, luego pulsa + para guardar la selección.",
+      "namePlaceholder": "Nombre del conjunto de selección",
+      "newName": "Nuevo nombre de conjunto de selección",
+      "save": "Guardar conjunto de selección",
+      "saveDisabled": "Guardar conjunto de selección — selecciona dos o más elementos primero",
+      "title": "Conjuntos de selección"
+    },
+    "title": "Colecciones"
+  }
 }

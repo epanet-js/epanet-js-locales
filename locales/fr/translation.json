@@ -2000,5 +2000,23 @@
   "toggleLeftPanel": "Basculer le panneau gauche",
   "requestQuote": "Demander un devis",
   "trial.startFree": "Commencer l'essai gratuit",
-  "trial.tryWithDemo": "Essayer avec un réseau de démonstration"
+  "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
+  "collections": {
+    "bookmarks": {
+      "add": "Ajouter un signet",
+      "empty": "Appuyez sur + pour nommer la zone que vous regardez.",
+      "namePlaceholder": "Nom du signet",
+      "newName": "Nouveau nom de signet",
+      "title": "Signets"
+    },
+    "selectionSets": {
+      "empty": "Sélectionnez deux éléments ou plus sur la carte, puis appuyez sur + pour enregistrer la sélection.",
+      "namePlaceholder": "Nom de l'ensemble de sélection",
+      "newName": "Nouveau nom d'ensemble de sélection",
+      "save": "Enregistrer l'ensemble de sélection",
+      "saveDisabled": "Enregistrer l'ensemble de sélection — sélectionnez d'abord deux éléments ou plus",
+      "title": "Ensembles de sélection"
+    },
+    "title": "Collections"
+  }
 }
