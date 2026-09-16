@@ -961,8 +961,7 @@
         "5": "Wijzigingen isoleren naar het scenario"
       },
       "plans": "Scenario's zijn beschikbaar op betaalde abonnementen.",
-      "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig.",
-      "demo": "Probeer scenario's gratis met een demo netwerk, of verken onze betaalde abonnementen."
+      "trial": "Scenario's zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
     "firstScenario": {
       "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",
@@ -2000,22 +1999,22 @@
   "toggleLeftPanel": "Linkerpaneel in-/uitschakelen",
   "requestQuote": "Offerte aanvragen",
   "trial.startFree": "Start gratis proefperiode",
-  "trial.tryWithDemo": "Probeer met een demonstratienetwerk",
   "collections": {
     "bookmarks": {
       "add": "Bladwijzer toevoegen",
-      "empty": "Druk op + om het gebied dat u bekijkt een naam te geven.",
       "namePlaceholder": "Bladwijzernaam",
       "newName": "Nieuwe bladwijzernaam",
-      "title": "Bladwijzers"
+      "title": "Bladwijzers",
+      "current": "Huidige kaartgebied"
     },
     "selectionSets": {
-      "empty": "Selecteer twee of meer onderdelen op de kaart en druk vervolgens op + om de selectie op te slaan.",
       "namePlaceholder": "Selectiesetnaam",
       "newName": "Nieuwe selectiesetnaam",
       "save": "Selectieset opslaan",
-      "saveDisabled": "Selectieset opslaan — selecteer eerst twee of meer items",
-      "title": "Selectiesets"
+      "title": "Selectiesets",
+      "current": "Huidige selectie",
+      "nothingSelected": "Niets geselecteerd",
+      "selectOnly": "Alleen selecteren"
     },
     "title": "Collecties"
   }

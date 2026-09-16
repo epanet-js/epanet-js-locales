@@ -777,7 +777,6 @@
   "trial.startFree": "Start free trial",
   "trial.emailNotEligible": "Work email required for trials",
   "trial.emailNotEligibleDetail": "Trials cannot be activated using free email providers. Register with your work email to start your trial.\n\nYou can still upgrade to Pro with this email.",
-  "trial.tryWithDemo": "Try with a demo network",
   "paywall": {
     "tooltip": "Paid feature",
     "explorePlans": "Explore plans",
@@ -1606,7 +1605,6 @@
       "description2": "Create alternative versions of your network and compare results against your baseline.",
       "trial": "Scenarios are a paid feature. Activate your free trial to get full access for 14 days—no credit card required.",
       "plans": "Scenarios are available on paid plans.",
-      "demo": "Try scenarios for free with a demo network, or explore our paid plans.",
       "captions": {
         "1": "Ask “what-if” questions with scenarios",
         "2": "Modify asset parameters",
@@ -2001,18 +1999,19 @@
     "title": "Collections",
     "selectionSets": {
       "title": "Selection sets",
+      "current": "Current selection",
+      "nothingSelected": "Nothing selected",
       "save": "Save selection set",
-      "saveDisabled": "Save selection set — select two or more items first",
+      "selectOnly": "Select only",
       "newName": "New selection set name",
-      "namePlaceholder": "Selection set name",
-      "empty": "Select two or more assets on the map, then press + to save the selection."
+      "namePlaceholder": "Selection set name"
     },
     "bookmarks": {
       "title": "Bookmarks",
+      "current": "Current map area",
       "add": "Add bookmark",
       "newName": "New bookmark name",
-      "namePlaceholder": "Bookmark name",
-      "empty": "Press + to name the area you are looking at."
+      "namePlaceholder": "Bookmark name"
     }
   },
   "tabs": {

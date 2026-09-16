@@ -961,8 +961,7 @@
         "5": "Garder les modifications isolées au scénario"
       },
       "plans": "Les scénarios sont disponibles avec les plans payants.",
-      "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise.",
-      "demo": "Essayez les scénarios gratuitement avec un réseau de démonstration, ou explorez nos plans payants."
+      "trial": "Les scénarios sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
@@ -2000,22 +1999,22 @@
   "toggleLeftPanel": "Basculer le panneau gauche",
   "requestQuote": "Demander un devis",
   "trial.startFree": "Commencer l'essai gratuit",
-  "trial.tryWithDemo": "Essayer avec un réseau de démonstration",
   "collections": {
     "bookmarks": {
       "add": "Ajouter un signet",
-      "empty": "Appuyez sur + pour nommer la zone que vous regardez.",
       "namePlaceholder": "Nom du signet",
       "newName": "Nouveau nom de signet",
-      "title": "Signets"
+      "title": "Signets",
+      "current": "Zone de carte actuelle"
     },
     "selectionSets": {
-      "empty": "Sélectionnez deux éléments ou plus sur la carte, puis appuyez sur + pour enregistrer la sélection.",
       "namePlaceholder": "Nom de l'ensemble de sélection",
       "newName": "Nouveau nom d'ensemble de sélection",
       "save": "Enregistrer l'ensemble de sélection",
-      "saveDisabled": "Enregistrer l'ensemble de sélection — sélectionnez d'abord deux éléments ou plus",
-      "title": "Ensembles de sélection"
+      "title": "Ensembles de sélection",
+      "current": "Sélection actuelle",
+      "nothingSelected": "Rien sélectionné",
+      "selectOnly": "Sélectionner uniquement"
     },
     "title": "Collections"
   }

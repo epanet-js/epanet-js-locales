@@ -961,8 +961,7 @@
         "5": "Manter as alterações isoladas no cenário"
       },
       "plans": "Cenários estão disponíveis em planos pagos.",
-      "trial": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
-      "demo": "Experimente cenários gratuitamente com uma rede de demonstração, ou explore nossos planos pagos."
+      "trial": "Cenários são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
     },
     "firstScenario": {
       "bullet1": "O modelo principal se torna <bold>somente leitura</bold> enquanto os cenários existirem.",
@@ -2000,22 +1999,22 @@
   "toggleLeftPanel": "Alternar painel esquerdo",
   "requestQuote": "Solicitar orçamento",
   "trial.startFree": "Iniciar teste gratuito",
-  "trial.tryWithDemo": "Experimente com uma rede de demonstração",
   "collections": {
     "bookmarks": {
       "add": "Adicionar marcador",
-      "empty": "Pressione + para nomear a área que você está visualizando.",
       "namePlaceholder": "Nome do marcador",
       "newName": "Novo nome do marcador",
-      "title": "Marcadores"
+      "title": "Marcadores",
+      "current": "Área atual do mapa"
     },
     "selectionSets": {
-      "empty": "Selecione dois ou mais ativos no mapa e, em seguida, pressione + para salvar a seleção.",
       "namePlaceholder": "Nome do conjunto de seleção",
       "newName": "Novo nome do conjunto de seleção",
       "save": "Salvar conjunto de seleção",
-      "saveDisabled": "Salvar conjunto de seleção — selecione dois ou mais itens primeiro",
-      "title": "Conjuntos de seleção"
+      "title": "Conjuntos de seleção",
+      "current": "Seleção atual",
+      "nothingSelected": "Nada selecionado",
+      "selectOnly": "Selecionar apenas"
     },
     "title": "Coleções"
   }

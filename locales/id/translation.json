@@ -1168,8 +1168,7 @@
       "description2": "Buat versi alternatif jaringan Anda dan bandingkan hasilnya dengan garis dasar Anda.",
       "plans": "Skenario tersedia pada paket berbayar.",
       "title": "Tingkatkan untuk mengakses skenario",
-      "trial": "Skenario adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tidak memerlukan kartu kredit.",
-      "demo": "Coba skenario gratis dengan jaringan demo, atau jelajahi paket berbayar kami."
+      "trial": "Skenario adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tidak memerlukan kartu kredit."
     },
     "rename": "Ubah nama",
     "renameDialog": {
@@ -2000,22 +1999,22 @@
   "toggleLeftPanel": "Alihkan panel kiri",
   "requestQuote": "Minta penawaran",
   "trial.startFree": "Mulai uji coba gratis",
-  "trial.tryWithDemo": "Coba dengan jaringan demo",
   "collections": {
     "bookmarks": {
       "add": "Tambah bookmark",
-      "empty": "Tekan + untuk menamai area yang Anda lihat.",
       "namePlaceholder": "Nama bookmark",
       "newName": "Nama bookmark baru",
-      "title": "Bookmark"
+      "title": "Bookmark",
+      "current": "Area peta saat ini"
     },
     "selectionSets": {
-      "empty": "Pilih dua atau lebih aset di peta, lalu tekan + untuk menyimpan pilihan.",
       "namePlaceholder": "Nama set pilihan",
       "newName": "Nama set pilihan baru",
       "save": "Simpan set pilihan",
-      "saveDisabled": "Simpan set pilihan — pilih dua atau lebih item terlebih dahulu",
-      "title": "Set pilihan"
+      "title": "Set pilihan",
+      "current": "Pilihan saat ini",
+      "nothingSelected": "Tidak ada yang dipilih",
+      "selectOnly": "Pilih saja"
     },
     "title": "Koleksi"
   }
