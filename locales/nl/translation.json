@@ -525,7 +525,8 @@
       "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem"
     },
     "label": "Klantpunten importeren",
-    "menuEntry": "Klantpunten"
+    "menuEntry": "Klantpunten",
+    "blockedByScenarios": "Klantpunten kunnen niet worden geïmporteerd zolang er scenario's bestaan. Verwijder eerst uw scenario's."
   },
   "startBlankProject": "Project starten",
   "startFromExample": "Start vanuit voorbeeld",

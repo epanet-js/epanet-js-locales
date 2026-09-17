@@ -525,7 +525,8 @@
       "unsupportedCrsError": "Système de référence de coordonnées non pris en charge"
     },
     "label": "Importer des points de consommation",
-    "menuEntry": "Points de consommation"
+    "menuEntry": "Points de consommation",
+    "blockedByScenarios": "Les points de consommation ne peuvent pas être importés tant que des scénarios existent. Supprimez d'abord vos scénarios."
   },
   "startBlankProject": "Démarrer un projet",
   "startFromExample": "Démarrer à partir d'un exemple",
@@ -2010,7 +2011,7 @@
     "selectionSets": {
       "namePlaceholder": "Nom de l'ensemble de sélection",
       "newName": "Nouveau nom d'ensemble de sélection",
-      "save": "Enregistrer l'ensemble de sélection",
+      "save": "Enregistrer la sélection",
       "title": "Ensembles de sélection",
       "current": "Sélection actuelle",
       "nothingSelected": "Rien sélectionné",

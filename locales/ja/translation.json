@@ -284,7 +284,8 @@
       }
     },
     "label": "顧客ポイントをインポート",
-    "menuEntry": "顧客ポイント"
+    "menuEntry": "顧客ポイント",
+    "blockedByScenarios": "シナリオが存在する間は顧客ポイントをインポートできません。まずシナリオを削除してください。"
   },
   "importedCustomerPointPlural": "{{1}} の顧客ポイントをインポートしました",
   "importedCustomerPointSingular": "{{1}} の顧客ポイントをインポートしました",
@@ -2010,7 +2011,7 @@
     "selectionSets": {
       "namePlaceholder": "選択セット名",
       "newName": "新しい選択セット名",
-      "save": "選択セットを保存",
+      "save": "選択を保存",
       "title": "選択セット",
       "current": "現在の選択範囲",
       "nothingSelected": "何も選択されていません",

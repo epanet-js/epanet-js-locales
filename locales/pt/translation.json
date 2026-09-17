@@ -525,7 +525,8 @@
       "unsupportedCrsError": "Sistema de referência de coordenadas não suportado"
     },
     "label": "Importar Pontos de Consumo",
-    "menuEntry": "Pontos de consumo"
+    "menuEntry": "Pontos de consumo",
+    "blockedByScenarios": "Pontos de consumo não podem ser importados enquanto cenários existirem. Exclua seus cenários primeiro."
   },
   "startBlankProject": "Iniciar Projeto",
   "startFromExample": "Iniciar de Exemplo",
@@ -2010,7 +2011,7 @@
     "selectionSets": {
       "namePlaceholder": "Nome do conjunto de seleção",
       "newName": "Novo nome do conjunto de seleção",
-      "save": "Salvar conjunto de seleção",
+      "save": "Salvar seleção",
       "title": "Conjuntos de seleção",
       "current": "Seleção atual",
       "nothingSelected": "Nada selecionado",

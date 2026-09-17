@@ -116,7 +116,43 @@
     "unsupportedFilesIgnored_one": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported file was ignored.",
     "unsupportedFilesIgnored_other": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported files were ignored.",
     "viewIgnoredFiles": "View ignored files",
-    "hideIgnoredFiles": "Hide ignored files"
+    "hideIgnoredFiles": "Hide ignored files",
+    "changeProjection": "Change projection",
+    "unassign": "Unassign",
+    "removeSource": "Remove source",
+    "dataSources": "Data sources",
+    "addSource": "Add data source",
+    "fileOptions": "File options",
+    "assignTo": "Assign to",
+    "applyProjection": "Apply projection",
+    "dismiss": "Dismiss",
+    "sourceInfo": "{{1}} – {{2}} features",
+    "attributesRecommended": "Add a .dbf for attributes",
+    "projectionSearchPlaceholder": "Projection name or EPSG...",
+    "statusReady": "Ready",
+    "statusAttention": "Needs attention",
+    "statusError": "Error",
+    "statusLoading": "Loading",
+    "ignoredFilesTitle": "Files not supported",
+    "unsupportedFilesCount_one": "{{count}} unsupported file",
+    "unsupportedFilesCount_other": "{{count}} unsupported files",
+    "supportedFormats": "Supported formats: GeoJSON and Shapefile",
+    "failedFilesTitle_one": "Couldn't load {{count}} file",
+    "failedFilesTitle_other": "Couldn't load {{count}} files",
+    "placement": {
+      "addPrjOrSearch": "Add a .prj or select a projection",
+      "searchProjection": "Select its projection",
+      "unsupported": "Unsupported projection. Select another",
+      "mismatch": "Projection doesn't match. Select another",
+      "confirm": "Check the map, then confirm the projection"
+    },
+    "sourceError": {
+      "sourceUnreadable": "Unreadable or corrupted file",
+      "sourceEmpty": "No features with a location",
+      "sourceFilesIncomplete": "Missing its .shp file"
+    },
+    "addShp": "Add the .shp file",
+    "noCompatibleElementsLeft": "No compatible elements left"
   },
   "modal": {
     "close": "Close"

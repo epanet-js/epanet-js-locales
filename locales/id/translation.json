@@ -643,7 +643,8 @@
         "title": "Tutorial impor titik pelanggan"
       }
     },
-    "menuEntry": "Titik pelanggan"
+    "menuEntry": "Titik pelanggan",
+    "blockedByScenarios": "Titik pelanggan tidak dapat diimpor saat skenario ada. Hapus skenario Anda terlebih dahulu."
   },
   "importCustomerPointsWarning": {
     "deleteAndImport": "Hapus dan impor",
@@ -2010,7 +2011,7 @@
     "selectionSets": {
       "namePlaceholder": "Nama set pilihan",
       "newName": "Nama set pilihan baru",
-      "save": "Simpan set pilihan",
+      "save": "Simpan pilihan",
       "title": "Set pilihan",
       "current": "Pilihan saat ini",
       "nothingSelected": "Tidak ada yang dipilih",
