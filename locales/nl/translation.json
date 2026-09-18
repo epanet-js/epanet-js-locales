@@ -2006,16 +2006,16 @@
       "namePlaceholder": "Bladwijzernaam",
       "newName": "Nieuwe bladwijzernaam",
       "title": "Bladwijzers",
-      "current": "Huidige kaartgebied"
+      "saveCurrent": "Huidige kaartgebied"
     },
     "selectionSets": {
       "namePlaceholder": "Selectiesetnaam",
       "newName": "Nieuwe selectiesetnaam",
       "save": "Selectieset opslaan",
       "title": "Selectiesets",
-      "current": "Huidige selectie",
       "nothingSelected": "Niets geselecteerd",
-      "selectOnly": "Alleen selecteren"
+      "selectOnly": "Alleen selecteren",
+      "saveCurrent": "Huidige selectie"
     },
     "title": "Collecties"
   }

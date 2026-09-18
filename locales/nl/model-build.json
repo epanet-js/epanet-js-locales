@@ -82,9 +82,6 @@
     "customerPointsSkipped": "{{1}} van de {{2}} klantpunten zijn overgeslagen. Controleer of ze puntgeometrie en een geldige projectie hebben.",
     "zonesSkipped": "{{1}} van de {{2}} zone objecten zijn overgeslagen. Controleer of ze polygoongeometrie en een geldige projectie hebben."
   },
-  "dataAssignment": {
-    "projectionRequired": "Projectie vereist om door te gaan"
-  },
   "dataTable": {
     "legendDefault": "cursieve tekst = standaardwaarden",
     "legendLabel": "Legenda:",
@@ -107,28 +104,11 @@
     "zones": "Zones"
   },
   "fileDropzone": {
-    "addMoreFiles": "Meer bestanden toevoegen (GeoJSON of Shapefile)",
-    "assignedFilesCount": "Toegewezen bestanden ({{1}})",
     "assignToElement": "Toewijzen aan element...",
-    "attributesUnavailable": "Attributen niet beschikbaar",
-    "featureInfo": "{{1}} • {{2}} objecten",
-    "loadAndAssign": "GIS-bestanden laden & toewijzen",
-    "noCompatibleElements": "Geen compatibele, niet-toegewezen elementen.",
     "parsing": "Parsen...",
     "processing": "Verwerken...",
-    "projectionUnknown": "Projectie onbekend (mogelijk moet u er een selecteren)",
-    "removeFile": "Bestand verwijderen",
-    "removeShapefileGroup": "Shapefile-groep verwijderen",
     "selectFiles": "Bestanden selecteren",
-    "selectProjectionToMap": "Selecteer een projectie om door te gaan met het toewijzen van bestanden",
-    "unassignAria": "Toewijzing van {{1}} ongedaan maken",
-    "unassignedFilesCount": "Niet-toegewezen bestanden ({{1}})",
     "unknownFilename": "(onbekende bestandsnaam)",
-    "waitingForShp": "Wachten op .shp (basisgeometrie)",
-    "hideIgnoredFiles": "Genegeerde bestanden verbergen",
-    "unsupportedFilesIgnored_one": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteund bestand werd genegeerd.",
-    "unsupportedFilesIgnored_other": "Alleen GeoJSON en Shapefiles worden ondersteund. {{count}} niet-ondersteunde bestanden werden genegeerd.",
-    "viewIgnoredFiles": "Genegeerde bestanden bekijken",
     "supportedFiles": "Ondersteunt Shapefiles, GeoJSON en ZIP-archieven",
     "titleAction": "Sleep bestanden hierheen, of blader om te uploaden",
     "addShp": "Voeg het .shp-bestand toe",
@@ -166,7 +146,8 @@
     "supportedFormats": "Ondersteunde formaten: GeoJSON en Shapefile",
     "unassign": "Toewijzing ongedaan maken",
     "unsupportedFilesCount_one": "{{count}} niet-ondersteund bestand",
-    "unsupportedFilesCount_other": "{{count}} niet-ondersteunde bestanden"
+    "unsupportedFilesCount_other": "{{count}} niet-ondersteunde bestanden",
+    "showIgnoredFiles": "Genegeerde bestanden bekijken"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",
@@ -181,7 +162,6 @@
     "mld": "MLD (Megaliter/dag)"
   },
   "map": {
-    "clearProjection": "Projectie wissen",
     "elementsAssigned_one": "{{count}} element toegewezen",
     "elementsAssigned_other": "{{count}} elementen toegewezen",
     "mapboxHint": "Voeg uw Mapbox-token toe om de daadwerkelijke kaart te zien",
@@ -207,9 +187,7 @@
     "unitSystemUs": "VS gebruikelijk"
   },
   "projection": {
-    "required": "Projectie vereist",
     "searchPlaceholder": "Zoeken naar projectie...",
-    "selectToContinue": "Selecteer een projectie om door te gaan met het toewijzen van bestanden.",
     "loading": "Projecties laden...",
     "noResults": "Geen projectie gevonden.",
     "searchHint": "Begin te typen om naar uw projectie te zoeken, bijvoorbeeld `27700` of \"British National Grid\".",

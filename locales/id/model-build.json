@@ -82,9 +82,6 @@
     "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid.",
     "zonesSkipped": "{{1}} dari {{2}} fitur zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid."
   },
-  "dataAssignment": {
-    "projectionRequired": "⚠️ Proyeksi diperlukan untuk melanjutkan"
-  },
   "dataTable": {
     "legendDefault": "teks miring = nilai default",
     "legendLabel": "Legenda:",
@@ -107,28 +104,11 @@
     "zones": "Zona"
   },
   "fileDropzone": {
-    "addMoreFiles": "Tambahkan lebih banyak file (GeoJSON atau Shapefile)",
-    "assignedFilesCount": "File yang ditetapkan ({{1}})",
     "assignToElement": "Tetapkan ke elemen...",
-    "attributesUnavailable": "Atribut tidak tersedia",
-    "featureInfo": "{{1}} • {{2}} fitur",
-    "loadAndAssign": "Muat & tetapkan file GIS",
-    "noCompatibleElements": "Tidak ada elemen yang kompatibel, belum ditetapkan.",
     "parsing": "Mengurai...",
     "processing": "Memproses...",
-    "projectionUnknown": "Proyeksi tidak dikenal (Anda mungkin perlu memilih satu)",
-    "removeFile": "Hapus file",
-    "removeShapefileGroup": "Hapus grup shapefile",
     "selectFiles": "Pilih file",
-    "selectProjectionToMap": "Pilih proyeksi untuk melanjutkan pemetaan file",
-    "unassignAria": "Batalkan penetapan {{1}}",
-    "unassignedFilesCount": "File yang belum ditetapkan ({{1}})",
     "unknownFilename": "(nama file tidak dikenal)",
-    "waitingForShp": "Menunggu .shp (geometri dasar)",
-    "hideIgnoredFiles": "Sembunyikan file yang diabaikan",
-    "unsupportedFilesIgnored_one": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
-    "unsupportedFilesIgnored_other": "Hanya GeoJSON dan Shapefile yang didukung. {{count}} file yang tidak didukung diabaikan.",
-    "viewIgnoredFiles": "Lihat file yang diabaikan",
     "supportedFiles": "Mendukung Shapefile, GeoJSON, dan arsip ZIP",
     "titleAction": "Seret file di sini, atau jelajahi untuk mengunggah",
     "addShp": "Tambah file .shp",
@@ -166,7 +146,8 @@
     "supportedFormats": "Format yang didukung: GeoJSON dan Shapefile",
     "unassign": "Batalkan penetapan",
     "unsupportedFilesCount_one": "{{count}} file tidak didukung",
-    "unsupportedFilesCount_other": "{{count}} file tidak didukung"
+    "unsupportedFilesCount_other": "{{count}} file tidak didukung",
+    "showIgnoredFiles": "Tampilkan file yang diabaikan"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",
@@ -181,7 +162,6 @@
     "mld": "MLD (Megaliter/hari)"
   },
   "map": {
-    "clearProjection": "Hapus proyeksi",
     "elementsAssigned_one": "{{count}} elemen ditetapkan",
     "elementsAssigned_other": "{{count}} elemen ditetapkan",
     "mapboxHint": "Tambahkan token Mapbox Anda untuk melihat peta sebenarnya",
@@ -207,9 +187,7 @@
     "unitSystemUs": "Adat AS"
   },
   "projection": {
-    "required": "Proyeksi diperlukan",
     "searchPlaceholder": "Cari proyeksi...",
-    "selectToContinue": "Pilih proyeksi untuk melanjutkan pemetaan file.",
     "loading": "Memuat proyeksi...",
     "noResults": "Tidak ada proyeksi ditemukan.",
     "searchHint": "Mulai mengetik untuk mencari proyeksi Anda, misalnya `27700` atau \"British National Grid\".",

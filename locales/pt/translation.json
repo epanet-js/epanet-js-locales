@@ -2006,16 +2006,16 @@
       "namePlaceholder": "Nome do marcador",
       "newName": "Novo nome do marcador",
       "title": "Marcadores",
-      "current": "Área atual do mapa"
+      "saveCurrent": "Salvar área atual do mapa"
     },
     "selectionSets": {
       "namePlaceholder": "Nome do conjunto de seleção",
       "newName": "Novo nome do conjunto de seleção",
       "save": "Salvar seleção",
       "title": "Conjuntos de seleção",
-      "current": "Seleção atual",
       "nothingSelected": "Nada selecionado",
-      "selectOnly": "Selecionar apenas"
+      "selectOnly": "Selecionar apenas",
+      "saveCurrent": "Salvar seleção atual"
     },
     "title": "Coleções"
   }

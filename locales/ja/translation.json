@@ -2006,16 +2006,16 @@
       "namePlaceholder": "ブックマーク名",
       "newName": "新しいブックマーク名",
       "title": "ブックマーク",
-      "current": "現在のマップエリア"
+      "saveCurrent": "現在のマップエリアを保存"
     },
     "selectionSets": {
       "namePlaceholder": "選択セット名",
       "newName": "新しい選択セット名",
       "save": "選択を保存",
       "title": "選択セット",
-      "current": "現在の選択範囲",
       "nothingSelected": "何も選択されていません",
-      "selectOnly": "これのみ選択"
+      "selectOnly": "これのみ選択",
+      "saveCurrent": "現在の選択範囲を保存"
     },
     "title": "コレクション"
   }

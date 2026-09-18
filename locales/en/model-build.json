@@ -25,9 +25,7 @@
     "tutorialDescription": "Learn how to build an EPANET model by watching the tutorial above or ",
     "tutorialGuideLink": "reading the step-by-step guide."
   },
-  "dataAssignment": {
-    "projectionRequired": "Projection required to continue"
-  },
+  "dataAssignment": {},
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
     "title": "Map attributes",
@@ -93,30 +91,13 @@
     "zonesSkipped": "{{1}} of {{2}} zone features were skipped. Check they have polygon geometry and a valid projection."
   },
   "fileDropzone": {
-    "attributesUnavailable": "Attributes unavailable",
-    "projectionUnknown": "Projection unknown (you may need to select one)",
     "unknownFilename": "(unknown filename)",
-    "featureInfo": "{{1}} • {{2}} features",
-    "unassignAria": "Unassign {{1}}",
-    "selectProjectionToMap": "Select a projection to continue mapping files",
     "assignToElement": "Assign to element...",
-    "noCompatibleElements": "No compatible, unassigned elements.",
-    "removeFile": "Remove file",
-    "waitingForShp": "Waiting for .shp (base geometry)",
     "parsing": "Parsing...",
-    "removeShapefileGroup": "Remove shapefile group",
     "titleAction": "Drop files here, or click to browse",
     "supportedFiles": "Supports Shapefiles, GeoJSON, and ZIP archives",
     "processing": "Processing...",
     "selectFiles": "Select files",
-    "loadAndAssign": "Load & assign GIS files",
-    "addMoreFiles": "Add more files (GeoJSON or Shapefile)",
-    "assignedFilesCount": "Assigned files ({{1}})",
-    "unassignedFilesCount": "Unassigned files ({{1}})",
-    "unsupportedFilesIgnored_one": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported file was ignored.",
-    "unsupportedFilesIgnored_other": "Only GeoJSON and Shapefiles are supported. {{count}} unsupported files were ignored.",
-    "viewIgnoredFiles": "View ignored files",
-    "hideIgnoredFiles": "Hide ignored files",
     "changeProjection": "Change projection",
     "unassign": "Unassign",
     "removeSource": "Remove source",
@@ -134,6 +115,7 @@
     "statusError": "Error",
     "statusLoading": "Loading",
     "ignoredFilesTitle": "Files not supported",
+    "showIgnoredFiles": "Show ignored files",
     "unsupportedFilesCount_one": "{{count}} unsupported file",
     "unsupportedFilesCount_other": "{{count}} unsupported files",
     "supportedFormats": "Supported formats: GeoJSON and Shapefile",
@@ -168,7 +150,6 @@
     "networkPreview": "Network preview",
     "elementsAssigned_one": "{{count}} element assigned",
     "elementsAssigned_other": "{{count}} elements assigned",
-    "clearProjection": "Clear projection",
     "mapboxPlaceholder": "Map placeholder - Mapbox token required",
     "mapboxHint": "Add your Mapbox token to see the actual map",
     "previewSampled": "The preview draws a sample of the features. Every record is still imported."
@@ -185,8 +166,6 @@
     "valveSettingParseHelp": "We couldn't read a number from \"{{1}}\". The setting will be imported as missing. Map a property that contains a number."
   },
   "projection": {
-    "required": "Projection required",
-    "selectToContinue": "Select a projection to continue mapping files.",
     "searchPlaceholder": "Search for projection...",
     "selectPlaceholder": "Select projection...",
     "loading": "Loading projections...",

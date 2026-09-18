@@ -2006,16 +2006,16 @@
       "namePlaceholder": "Nama bookmark",
       "newName": "Nama bookmark baru",
       "title": "Bookmark",
-      "current": "Area peta saat ini"
+      "saveCurrent": "Simpan area peta saat ini"
     },
     "selectionSets": {
       "namePlaceholder": "Nama set pilihan",
       "newName": "Nama set pilihan baru",
       "save": "Simpan pilihan",
       "title": "Set pilihan",
-      "current": "Pilihan saat ini",
       "nothingSelected": "Tidak ada yang dipilih",
-      "selectOnly": "Pilih saja"
+      "selectOnly": "Pilih saja",
+      "saveCurrent": "Simpan pilihan saat ini"
     },
     "title": "Koleksi"
   }

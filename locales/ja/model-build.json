@@ -82,9 +82,6 @@
     "customerPointsSkipped": "{{2}}個の顧客ポイントのうち{{1}}個がスキップされました。ポイントジオメトリと有効な投影法を持っているか確認してください。",
     "zonesSkipped": "{{2}}個のゾーンフィーチャのうち{{1}}個がスキップされました。ポリゴンジオメトリと有効な投影法を持っているか確認してください。"
   },
-  "dataAssignment": {
-    "projectionRequired": "続行するには投影が必要です"
-  },
   "dataTable": {
     "legendDefault": "イタリック体のテキスト = デフォルト値",
     "legendLabel": "凡例:",
@@ -107,28 +104,11 @@
     "zones": "ゾーン"
   },
   "fileDropzone": {
-    "addMoreFiles": "さらにファイルを追加 (GeoJSONまたはShapefile)",
-    "assignedFilesCount": "割り当て済みファイル ({{1}})",
     "assignToElement": "要素に割り当てる...",
-    "attributesUnavailable": "属性利用不可",
-    "featureInfo": "{{1}} • {{2}} フィーチャ",
-    "loadAndAssign": "GISファイルを読み込んで割り当て",
-    "noCompatibleElements": "互換性のある未割り当て要素がありません。",
     "parsing": "解析中...",
     "processing": "処理中...",
-    "projectionUnknown": "投影不明 (選択する必要があるかもしれません)",
-    "removeFile": "ファイルを削除",
-    "removeShapefileGroup": "シェープファイルグループを削除",
     "selectFiles": "ファイルを選択",
-    "selectProjectionToMap": "ファイルをマッピングし続けるには、投影を選択してください",
-    "unassignAria": "{{1}} の割り当てを解除",
-    "unassignedFilesCount": "未割り当てファイル ({{1}})",
     "unknownFilename": "(不明なファイル名)",
-    "waitingForShp": ".shp (ベースジオメトリ) を待機中",
-    "hideIgnoredFiles": "無視されたファイルを非表示",
-    "unsupportedFilesIgnored_one": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
-    "unsupportedFilesIgnored_other": "GeoJSONとShapefileのみがサポートされています。{{count}}件のサポートされていないファイルは無視されました。",
-    "viewIgnoredFiles": "無視されたファイルを表示",
     "supportedFiles": "シェープファイル、GeoJSON、およびZIPアーカイブに対応",
     "titleAction": "ファイルをここにドロップするか、クリックして参照",
     "addShp": "「.shpファイルを追加",
@@ -166,7 +146,8 @@
     "supportedFormats": "対応形式: GeoJSONおよびShapefile",
     "unassign": "割り当てを解除",
     "unsupportedFilesCount_one": "{{count}} 件のサポートされていないファイル",
-    "unsupportedFilesCount_other": "{{count}} 件のサポートされていないファイル"
+    "unsupportedFilesCount_other": "{{count}} 件のサポートされていないファイル",
+    "showIgnoredFiles": "無視されたファイルを表示"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",
@@ -181,7 +162,6 @@
     "mld": "MLD (メガリットル/日)"
   },
   "map": {
-    "clearProjection": "投影をクリア",
     "elementsAssigned_one": "{{count}} 要素割り当て済み",
     "elementsAssigned_other": "{{count}} 要素割り当て済み",
     "mapboxHint": "Mapboxトークンを追加して実際のマップを表示します",
@@ -207,9 +187,7 @@
     "unitSystemUs": "米国慣用"
   },
   "projection": {
-    "required": "投影が必要です",
     "searchPlaceholder": "投影を検索...",
-    "selectToContinue": "続行するには、ファイルをマッピングするための投影を選択してください。",
     "loading": "投影を読み込み中...",
     "noResults": "投影が見つかりません。",
     "searchHint": "投影を検索するには入力してください。例えば「27700」や「British National Grid」と入力してください。",

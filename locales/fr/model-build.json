@@ -82,9 +82,6 @@
     "customerPointsSkipped": "{{1}} des {{2}} points de consommation ont été ignorés. Vérifiez qu'ils ont une géométrie de point et une projection valide.",
     "zonesSkipped": "{{1}} des {{2}} entités de zone ont été ignorées. Vérifiez qu'elles ont une géométrie de polygone et une projection valide."
   },
-  "dataAssignment": {
-    "projectionRequired": "Projection requise pour continuer"
-  },
   "dataTable": {
     "legendDefault": "texte en italique = valeurs par défaut",
     "legendLabel": "Légende :",
@@ -107,28 +104,11 @@
     "zones": "Zones"
   },
   "fileDropzone": {
-    "addMoreFiles": "Ajouter plus de fichiers (GeoJSON ou Shapefile)",
-    "assignedFilesCount": "Fichiers attribués ({{1}})",
     "assignToElement": "Attribuer à l'élément...",
-    "attributesUnavailable": "Attributs indisponibles",
-    "featureInfo": "{{1}} • {{2}} entités",
-    "loadAndAssign": "Charger et attribuer des fichiers SIG",
-    "noCompatibleElements": "Aucun élément compatible et non attribué.",
     "parsing": "Analyse...",
     "processing": "Traitement...",
-    "projectionUnknown": "Projection inconnue (vous devrez peut-être en sélectionner une)",
-    "removeFile": "Supprimer le fichier",
-    "removeShapefileGroup": "Supprimer le groupe de fichiers Shapefile",
     "selectFiles": "Sélectionner les fichiers",
-    "selectProjectionToMap": "Sélectionnez une projection pour continuer le mappage des fichiers",
-    "unassignAria": "Désaffecter {{1}}",
-    "unassignedFilesCount": "Fichiers non attribués ({{1}})",
     "unknownFilename": "(nom de fichier inconnu)",
-    "waitingForShp": "En attente du .shp (géométrie de base)",
-    "hideIgnoredFiles": "Masquer les fichiers ignorés",
-    "unsupportedFilesIgnored_one": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichier non pris en charge a été ignoré.",
-    "unsupportedFilesIgnored_other": "Seuls les fichiers GeoJSON et Shapefile sont pris en charge. {{count}} fichiers non pris en charge ont été ignorés.",
-    "viewIgnoredFiles": "Afficher les fichiers ignorés",
     "supportedFiles": "Supporte les Shapefiles, GeoJSON et archives ZIP",
     "titleAction": "Déposez les fichiers ici, ou parcourez pour les charger",
     "addShp": "Ajouter le fichier .shp",
@@ -166,7 +146,8 @@
     "supportedFormats": "Formats pris en charge : GeoJSON et Shapefile",
     "unassign": "Désaffecter",
     "unsupportedFilesCount_one": "{{count}} fichier non supporté",
-    "unsupportedFilesCount_other": "{{count}} fichiers non supportés"
+    "unsupportedFilesCount_other": "{{count}} fichiers non supportés",
+    "showIgnoredFiles": "Afficher les fichiers ignorés"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",
@@ -181,7 +162,6 @@
     "mld": "MLD (Mégalitre/jour)"
   },
   "map": {
-    "clearProjection": "Effacer la projection",
     "elementsAssigned_one": "{{count}} élément attribué",
     "elementsAssigned_other": "{{count}} éléments attribués",
     "mapboxHint": "Ajoutez votre jeton Mapbox pour voir la carte réelle",
@@ -207,9 +187,7 @@
     "unitSystemUs": "Impérial américain"
   },
   "projection": {
-    "required": "Projection requise",
     "searchPlaceholder": "Rechercher une projection...",
-    "selectToContinue": "Sélectionnez une projection pour continuer le mappage des fichiers.",
     "loading": "Chargement des projections...",
     "noResults": "Aucune projection trouvée.",
     "searchHint": "Commencez à taper pour rechercher votre projection, par exemple `27700` ou « British National Grid ».",

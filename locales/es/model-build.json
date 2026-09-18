@@ -82,9 +82,6 @@
     "customerPointsSkipped": "{{1}} de {{2}} puntos de consumo fueron omitidos. Verifica que tengan geometría de punto y una proyección válida.",
     "zonesSkipped": "{{1}} de {{2}} características de zona fueron omitidas. Verifica que tengan geometría de polígono y una proyección válida."
   },
-  "dataAssignment": {
-    "projectionRequired": "Proyección requerida para continuar"
-  },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
     "legendLabel": "Leyenda:",
@@ -107,30 +104,13 @@
     "zones": "Zonas"
   },
   "fileDropzone": {
-    "addMoreFiles": "Añadir más archivos (GeoJSON o Shapefile)",
-    "assignedFilesCount": "Archivos asignados ({{1}})",
     "assignToElement": "Asignar a elemento...",
-    "attributesUnavailable": "Atributos no disponibles",
     "supportedFiles": "Compatible con Shapefiles, GeoJSON y archivos ZIP",
     "titleAction": "Arrastra archivos aquí o haz clic para explorar",
-    "featureInfo": "{{1}} • {{2}} características",
-    "loadAndAssign": "Cargar y asignar archivos GIS",
-    "noCompatibleElements": "No hay elementos compatibles sin asignar.",
     "parsing": "Analizando...",
     "processing": "Procesando...",
-    "projectionUnknown": "Proyección desconocida (puede que necesites seleccionar una)",
-    "removeFile": "Eliminar archivo",
-    "removeShapefileGroup": "Eliminar grupo de shapefiles",
     "selectFiles": "Seleccionar archivos",
-    "selectProjectionToMap": "Selecciona una proyección para continuar mapeando archivos",
-    "unassignAria": "Desasignar {{1}}",
-    "unassignedFilesCount": "Archivos sin asignar ({{1}})",
     "unknownFilename": "(nombre de archivo desconocido)",
-    "waitingForShp": "Esperando .shp (geometría base)",
-    "hideIgnoredFiles": "Ocultar archivos ignorados",
-    "unsupportedFilesIgnored_one": "Solo se admiten archivos GeoJSON y Shapefile. Se ignoró {{count}} archivo no compatible.",
-    "unsupportedFilesIgnored_other": "Solo se admiten archivos GeoJSON y Shapefile. Se ignoraron {{count}} archivos no compatibles.",
-    "viewIgnoredFiles": "Ver archivos ignorados",
     "addShp": "Añade el archivo .shp",
     "addSource": "Añadir fuente de datos",
     "applyProjection": "Aplicar proyección",
@@ -166,7 +146,8 @@
     "supportedFormats": "Formatos soportados: GeoJSON y Shapefile",
     "unassign": "Desasignar",
     "unsupportedFilesCount_one": "{{count}} archivo no compatible",
-    "unsupportedFilesCount_other": "{{count}} archivos no compatibles"
+    "unsupportedFilesCount_other": "{{count}} archivos no compatibles",
+    "showIgnoredFiles": "Ver archivos ignorados"
   },
   "flowUnits": {
     "afd": "AFD (acre-pie/día)",
@@ -181,7 +162,6 @@
     "mld": "MLD (Megalitro/día)"
   },
   "map": {
-    "clearProjection": "Borrar proyección",
     "elementsAssigned_one": "{{count}} elemento asignado",
     "elementsAssigned_other": "{{count}} elementos asignados",
     "mapboxHint": "Añade tu token de Mapbox para ver el mapa real",
@@ -207,9 +187,7 @@
     "unitSystemUs": "Sistema de unidades de EE. UU."
   },
   "projection": {
-    "required": "Proyección requerida",
     "searchPlaceholder": "Buscar proyección...",
-    "selectToContinue": "Selecciona una proyección para continuar mapeando archivos.",
     "loading": "Cargando proyecciones...",
     "noResults": "No se encontró proyección.",
     "searchHint": "Empieza a escribir para buscar tu proyección, por ejemplo `27700` o \"British National Grid\".",
