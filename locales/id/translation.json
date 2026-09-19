@@ -1993,8 +1993,6 @@
   "trial.emailNotEligible": "Email kantor diperlukan untuk uji coba",
   "trial.emailNotEligibleDetail": "Uji coba tidak dapat diaktifkan menggunakan penyedia email gratis. Daftar dengan email kantor Anda untuk memulai uji coba Anda.\n\nAnda masih dapat meningkatkan ke Pro dengan email ini.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
-  "alertExportInpLsxTextAfter": ", karena mengandung fungsionalitas lanjutan yang tidak kompatibel dengan EPANET standar.",
-  "alertExportInpLsxTextBefore": "File INP yang diekspor akan memerlukan dijalankan di",
   "alertExportInpLsxTitle": "LSX Diperlukan",
   "targetNode": "Node target",
   "toggleLeftPanel": "Alihkan panel kiri",
@@ -2018,5 +2016,10 @@
       "saveCurrent": "Simpan pilihan saat ini"
     },
     "title": "Koleksi"
-  }
+  },
+  "alertExportInpLsxDownloadAfter": " untuk menjalankan file ini.",
+  "alertExportInpLsxDownloadBefore": "Unduh",
+  "alertExportInpLsxIncompatible": "File ini menggunakan fitur-fitur canggih yang tidak kompatibel dengan EPANET standar.",
+  "alertExportInpLsxKnowMore": "Ketahui lebih lanjut",
+  "alertExportInpLsxRemoteSetpointPrvs": "PRV set-point jarak jauh"
 }

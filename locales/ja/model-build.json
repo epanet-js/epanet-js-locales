@@ -147,7 +147,17 @@
     "unassign": "割り当てを解除",
     "unsupportedFilesCount_one": "{{count}} 件のサポートされていないファイル",
     "unsupportedFilesCount_other": "{{count}} 件のサポートされていないファイル",
-    "showIgnoredFiles": "無視されたファイルを表示"
+    "showIgnoredFiles": "無視されたファイルを表示",
+    "geometry": {
+      "line": "ライン",
+      "point": "ポイント",
+      "polygon": "ポリゴン",
+      "unknown": "不明なジオメトリ"
+    },
+    "geometryUnsupported": "サポートされていないジオメトリ",
+    "mixedGeometryUnsupported": "混合ジオメトリはまだサポートされていません",
+    "supportedFilesWithDxf": "Shapefile、GeoJSON、DXF、およびZIPアーカイブに対応",
+    "supportedFormatsWithDxf": "対応形式: GeoJSON、DXF、およびShapefile"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",

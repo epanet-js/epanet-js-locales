@@ -1993,8 +1993,6 @@
   "trial.emailNotEligible": "Zakelijk e-mailadres vereist voor proefperiodes",
   "trial.emailNotEligibleDetail": "Proefperiodes kunnen niet worden geactiveerd met gratis e-mailproviders. Registreer met uw zakelijke e-mailadres om uw proefperiode te starten.\n\nU kunt nog steeds upgraden naar Pro met dit e-mailadres.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
-  "alertExportInpLsxTextAfter": ", aangezien het geavanceerde functionaliteiten bevat die niet compatibel zijn met standaard EPANET.",
-  "alertExportInpLsxTextBefore": "Het geëxporteerde INP-bestand vereist het uitvoeren op",
   "alertExportInpLsxTitle": "LSX Vereist",
   "targetNode": "Doelknooppunt",
   "toggleLeftPanel": "Linkerpaneel in-/uitschakelen",
@@ -2018,5 +2016,10 @@
       "saveCurrent": "Huidige selectie"
     },
     "title": "Collecties"
-  }
+  },
+  "alertExportInpLsxDownloadAfter": " om dit bestand uit te voeren.",
+  "alertExportInpLsxDownloadBefore": "Downloaden",
+  "alertExportInpLsxIncompatible": "Dit bestand gebruikt geavanceerde functies die niet compatibel zijn met standaard EPANET.",
+  "alertExportInpLsxKnowMore": "Meer informatie",
+  "alertExportInpLsxRemoteSetpointPrvs": "PRV's met afstandsingesteld setpoint"
 }

@@ -147,7 +147,17 @@
     "unassign": "Desasignar",
     "unsupportedFilesCount_one": "{{count}} archivo no compatible",
     "unsupportedFilesCount_other": "{{count}} archivos no compatibles",
-    "showIgnoredFiles": "Ver archivos ignorados"
+    "showIgnoredFiles": "Ver archivos ignorados",
+    "geometry": {
+      "line": "Líneas",
+      "point": "Puntos",
+      "polygon": "Polígonos",
+      "unknown": "Geometría desconocida"
+    },
+    "geometryUnsupported": "Geometría no soportada",
+    "mixedGeometryUnsupported": "La geometría mixta aún no es compatible",
+    "supportedFilesWithDxf": "Compatible con Shapefiles, GeoJSON, DXF y archivos ZIP",
+    "supportedFormatsWithDxf": "Formatos soportados: GeoJSON, DXF y Shapefile"
   },
   "flowUnits": {
     "afd": "AFD (acre-pie/día)",

@@ -147,7 +147,17 @@
     "unassign": "Batalkan penetapan",
     "unsupportedFilesCount_one": "{{count}} file tidak didukung",
     "unsupportedFilesCount_other": "{{count}} file tidak didukung",
-    "showIgnoredFiles": "Tampilkan file yang diabaikan"
+    "showIgnoredFiles": "Tampilkan file yang diabaikan",
+    "geometry": {
+      "line": "Garis",
+      "point": "Titik",
+      "polygon": "Poligon",
+      "unknown": "Geometri tidak dikenal"
+    },
+    "geometryUnsupported": "Geometri tidak didukung",
+    "mixedGeometryUnsupported": "Geometri campuran belum didukung",
+    "supportedFilesWithDxf": "Mendukung Shapefile, GeoJSON, DXF, dan arsip ZIP",
+    "supportedFormatsWithDxf": "Format yang didukung: GeoJSON, DXF, dan Shapefile"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

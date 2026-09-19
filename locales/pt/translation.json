@@ -1993,8 +1993,6 @@
   "trial.emailNotEligible": "E-mail de trabalho necessário para testes",
   "trial.emailNotEligibleDetail": "Testes não podem ser ativados usando provedores de e-mail gratuitos. Registre-se com seu e-mail de trabalho para iniciar seu teste.\n\nVocê ainda pode atualizar para o Pro com este e-mail.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
-  "alertExportInpLsxTextAfter": ", pois contém funcionalidades avançadas que não são compatíveis com o EPANET padrão.",
-  "alertExportInpLsxTextBefore": "O arquivo INP exportado exigirá execução em",
   "alertExportInpLsxTitle": "LSX Necessário",
   "targetNode": "Nó de destino",
   "toggleLeftPanel": "Alternar painel esquerdo",
@@ -2018,5 +2016,10 @@
       "saveCurrent": "Salvar seleção atual"
     },
     "title": "Coleções"
-  }
+  },
+  "alertExportInpLsxDownloadAfter": " para executar este arquivo.",
+  "alertExportInpLsxDownloadBefore": "Download",
+  "alertExportInpLsxIncompatible": "Este arquivo usa funcionalidades avançadas incompatíveis com o EPANET padrão.",
+  "alertExportInpLsxKnowMore": "Saber mais",
+  "alertExportInpLsxRemoteSetpointPrvs": "Válvulas PRV com ponto de ajuste remoto"
 }

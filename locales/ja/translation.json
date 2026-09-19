@@ -1993,8 +1993,6 @@
   "trial.emailNotEligible": "無料トライアルには職場のメールアドレスが必要です",
   "trial.emailNotEligibleDetail": "無料のメールプロバイダーではトライアルを有効にできません。トライアルを開始するには、職場のメールアドレスで登録してください。\n\nこのメールアドレスで引き続きProにアップグレードできます。",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
-  "alertExportInpLsxTextAfter": "、標準のEPANETと互換性のない高度な機能が含まれているためです。",
-  "alertExportInpLsxTextBefore": "エクスポートされたINPファイルは、以下で実行する必要があります",
   "alertExportInpLsxTitle": "LSXが必要です",
   "targetNode": "ターゲットノード",
   "toggleLeftPanel": "左パネルの切り替え",
@@ -2018,5 +2016,10 @@
       "saveCurrent": "現在の選択範囲を保存"
     },
     "title": "コレクション"
-  }
+  },
+  "alertExportInpLsxDownloadAfter": " このファイルを実行するには。",
+  "alertExportInpLsxDownloadBefore": "ダウンロード",
+  "alertExportInpLsxIncompatible": "このファイルは、標準のEPANETと互換性のない高度な機能を使用しています。",
+  "alertExportInpLsxKnowMore": "詳細はこちら",
+  "alertExportInpLsxRemoteSetpointPrvs": "リモート設定点PRV"
 }

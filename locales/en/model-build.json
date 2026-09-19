@@ -96,6 +96,7 @@
     "parsing": "Parsing...",
     "titleAction": "Drop files here, or click to browse",
     "supportedFiles": "Supports Shapefiles, GeoJSON, and ZIP archives",
+    "supportedFilesWithDxf": "Supports Shapefiles, GeoJSON, DXF, and ZIP archives",
     "processing": "Processing...",
     "selectFiles": "Select files",
     "changeProjection": "Change projection",
@@ -108,6 +109,12 @@
     "applyProjection": "Apply projection",
     "dismiss": "Dismiss",
     "sourceInfo": "{{1}} – {{2}} features",
+    "geometry": {
+      "point": "Points",
+      "line": "Lines",
+      "polygon": "Polygons",
+      "unknown": "Unknown geometry"
+    },
     "attributesRecommended": "Add a .dbf for attributes",
     "projectionSearchPlaceholder": "Projection name or EPSG...",
     "statusReady": "Ready",
@@ -119,6 +126,7 @@
     "unsupportedFilesCount_one": "{{count}} unsupported file",
     "unsupportedFilesCount_other": "{{count}} unsupported files",
     "supportedFormats": "Supported formats: GeoJSON and Shapefile",
+    "supportedFormatsWithDxf": "Supported formats: GeoJSON, DXF, and Shapefile",
     "failedFilesTitle_one": "Couldn't load {{count}} file",
     "failedFilesTitle_other": "Couldn't load {{count}} files",
     "placement": {
@@ -134,7 +142,9 @@
       "sourceFilesIncomplete": "Missing its .shp file"
     },
     "addShp": "Add the .shp file",
-    "noCompatibleElementsLeft": "No compatible elements left"
+    "noCompatibleElementsLeft": "No compatible elements left",
+    "mixedGeometryUnsupported": "Mixed geometry isn't supported yet",
+    "geometryUnsupported": "Unsupported geometry"
   },
   "modal": {
     "close": "Close"

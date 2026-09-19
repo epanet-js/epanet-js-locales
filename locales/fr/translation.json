@@ -1993,8 +1993,6 @@
   "trial.emailNotEligible": "E-mail professionnel requis pour les essais",
   "trial.emailNotEligibleDetail": "Les essais ne peuvent pas être activés avec des fournisseurs de messagerie gratuits. Veuillez vous inscrire avec votre e-mail professionnel pour commencer votre essai.\n\nVous pouvez toujours passer à Pro avec cette adresse e-mail.",
   "alertExportInpLsxLinkLabel": "EPANET-LSX",
-  "alertExportInpLsxTextAfter": ", car il contient des fonctionnalités avancées qui ne sont pas compatibles avec l'EPANET standard.",
-  "alertExportInpLsxTextBefore": "Le fichier INP exporté nécessitera d'être exécuté sur",
   "alertExportInpLsxTitle": "LSX Requis",
   "targetNode": "Nœud cible",
   "toggleLeftPanel": "Basculer le panneau gauche",
@@ -2018,5 +2016,10 @@
       "saveCurrent": "Enregistrer la sélection actuelle"
     },
     "title": "Collections"
-  }
+  },
+  "alertExportInpLsxDownloadAfter": " pour exécuter ce fichier.",
+  "alertExportInpLsxDownloadBefore": "Télécharger",
+  "alertExportInpLsxIncompatible": "Ce fichier utilise des fonctionnalités avancées incompatibles avec l'EPANET standard.",
+  "alertExportInpLsxKnowMore": "En savoir plus",
+  "alertExportInpLsxRemoteSetpointPrvs": "Vannes PRV à point de consigne distant"
 }
