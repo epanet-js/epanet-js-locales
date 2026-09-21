@@ -2001,19 +2001,19 @@
   "collections": {
     "bookmarks": {
       "add": "Bladwijzer toevoegen",
-      "namePlaceholder": "Bladwijzernaam",
-      "newName": "Nieuwe bladwijzernaam",
       "title": "Bladwijzers",
-      "saveCurrent": "Huidige kaartgebied"
+      "saveCurrent": "Huidige kaartgebied",
+      "labelPlaceholder": "Bladwijzernaam",
+      "newLabel": "Nieuwe bladwijzernaam"
     },
     "selectionSets": {
-      "namePlaceholder": "Selectiesetnaam",
-      "newName": "Nieuwe selectiesetnaam",
       "save": "Selectieset opslaan",
       "title": "Selectiesets",
       "nothingSelected": "Niets geselecteerd",
       "selectOnly": "Alleen selecteren",
-      "saveCurrent": "Huidige selectie"
+      "saveCurrent": "Huidige selectie",
+      "labelPlaceholder": "Selectiesetnaam",
+      "newLabel": "Nieuwe selectiesetnaam"
     },
     "title": "Collecties"
   },

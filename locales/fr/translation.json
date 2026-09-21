@@ -2001,19 +2001,19 @@
   "collections": {
     "bookmarks": {
       "add": "Ajouter un signet",
-      "namePlaceholder": "Nom du signet",
-      "newName": "Nouveau nom de signet",
       "title": "Signets",
-      "saveCurrent": "Enregistrer la zone de carte actuelle"
+      "saveCurrent": "Enregistrer la zone de carte actuelle",
+      "labelPlaceholder": "Nom du signet",
+      "newLabel": "Nouveau nom de signet"
     },
     "selectionSets": {
-      "namePlaceholder": "Nom de l'ensemble de sélection",
-      "newName": "Nouveau nom d'ensemble de sélection",
       "save": "Enregistrer la sélection",
       "title": "Ensembles de sélection",
       "nothingSelected": "Rien sélectionné",
       "selectOnly": "Sélectionner uniquement",
-      "saveCurrent": "Enregistrer la sélection actuelle"
+      "saveCurrent": "Enregistrer la sélection actuelle",
+      "labelPlaceholder": "Nom de l'ensemble de sélection",
+      "newLabel": "Nouveau nom d'ensemble de sélection"
     },
     "title": "Collections"
   },

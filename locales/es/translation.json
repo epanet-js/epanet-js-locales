@@ -2008,19 +2008,19 @@
   "collections": {
     "bookmarks": {
       "add": "Añadir marcador",
-      "namePlaceholder": "Nombre del marcador",
-      "newName": "Nuevo nombre de marcador",
       "title": "Marcadores",
-      "saveCurrent": "Guardar área de mapa actual"
+      "saveCurrent": "Guardar área de mapa actual",
+      "labelPlaceholder": "Nombre del marcador",
+      "newLabel": "Nuevo nombre de marcador"
     },
     "selectionSets": {
-      "namePlaceholder": "Nombre del conjunto de selección",
-      "newName": "Nuevo nombre de conjunto de selección",
       "save": "Guardar selección",
       "title": "Conjuntos de selección",
       "nothingSelected": "Nada seleccionado",
       "selectOnly": "Seleccionar solo",
-      "saveCurrent": "Guardar selección actual"
+      "saveCurrent": "Guardar selección actual",
+      "labelPlaceholder": "Nombre del conjunto de selección",
+      "newLabel": "Nuevo nombre de conjunto de selección"
     },
     "title": "Colecciones"
   },

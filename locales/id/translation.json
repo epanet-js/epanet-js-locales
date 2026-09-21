@@ -2001,19 +2001,19 @@
   "collections": {
     "bookmarks": {
       "add": "Tambah bookmark",
-      "namePlaceholder": "Nama bookmark",
-      "newName": "Nama bookmark baru",
       "title": "Bookmark",
-      "saveCurrent": "Simpan area peta saat ini"
+      "saveCurrent": "Simpan area peta saat ini",
+      "labelPlaceholder": "Nama bookmark",
+      "newLabel": "Nama bookmark baru"
     },
     "selectionSets": {
-      "namePlaceholder": "Nama set pilihan",
-      "newName": "Nama set pilihan baru",
       "save": "Simpan pilihan",
       "title": "Set pilihan",
       "nothingSelected": "Tidak ada yang dipilih",
       "selectOnly": "Pilih saja",
-      "saveCurrent": "Simpan pilihan saat ini"
+      "saveCurrent": "Simpan pilihan saat ini",
+      "labelPlaceholder": "Nama set pilihan",
+      "newLabel": "Nama set pilihan baru"
     },
     "title": "Koleksi"
   },

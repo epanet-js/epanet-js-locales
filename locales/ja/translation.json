@@ -2001,19 +2001,19 @@
   "collections": {
     "bookmarks": {
       "add": "ブックマークを追加",
-      "namePlaceholder": "ブックマーク名",
-      "newName": "新しいブックマーク名",
       "title": "ブックマーク",
-      "saveCurrent": "現在のマップエリアを保存"
+      "saveCurrent": "現在のマップエリアを保存",
+      "labelPlaceholder": "ブックマーク名",
+      "newLabel": "新しいブックマーク名"
     },
     "selectionSets": {
-      "namePlaceholder": "選択セット名",
-      "newName": "新しい選択セット名",
       "save": "選択を保存",
       "title": "選択セット",
       "nothingSelected": "何も選択されていません",
       "selectOnly": "これのみ選択",
-      "saveCurrent": "現在の選択範囲を保存"
+      "saveCurrent": "現在の選択範囲を保存",
+      "labelPlaceholder": "選択セット名",
+      "newLabel": "新しい選択セット名"
     },
     "title": "コレクション"
   },

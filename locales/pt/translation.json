@@ -2001,19 +2001,19 @@
   "collections": {
     "bookmarks": {
       "add": "Adicionar marcador",
-      "namePlaceholder": "Nome do marcador",
-      "newName": "Novo nome do marcador",
       "title": "Marcadores",
-      "saveCurrent": "Salvar área atual do mapa"
+      "saveCurrent": "Salvar área atual do mapa",
+      "labelPlaceholder": "Nome do marcador",
+      "newLabel": "Novo nome do marcador"
     },
     "selectionSets": {
-      "namePlaceholder": "Nome do conjunto de seleção",
-      "newName": "Novo nome do conjunto de seleção",
       "save": "Salvar seleção",
       "title": "Conjuntos de seleção",
       "nothingSelected": "Nada selecionado",
       "selectOnly": "Selecionar apenas",
-      "saveCurrent": "Salvar seleção atual"
+      "saveCurrent": "Salvar seleção atual",
+      "labelPlaceholder": "Nome do conjunto de seleção",
+      "newLabel": "Novo nome do conjunto de seleção"
     },
     "title": "Coleções"
   },
