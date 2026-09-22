@@ -1577,7 +1577,7 @@
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
       "title": "Saisie des données",
-      "noProjectionWarning": "Le fichier GeoJSON sélectionné ne contient pas de données de projection. En supposant {{1}} par défaut."
+      "noProjectionWarning": "Le fichier sélectionné ne spécifie pas de système de coordonnées, donc ses coordonnées ont été lues comme longitude et latitude (WGS84)."
     },
     "dataMappingStep": {
       "description": "Choisissez une propriété à utiliser comme étiquette de zone, ou générez automatiquement les étiquettes.",

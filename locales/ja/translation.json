@@ -1577,7 +1577,7 @@
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
       "title": "データ入力",
-      "noProjectionWarning": "選択されたGeoJSONファイルには投影データが含まれていません。{{1}}をデフォルトとして仮定します。"
+      "noProjectionWarning": "選択されたファイルには座標系が指定されていないため、その座標は経度と緯度（WGS84）として読み込まれました。"
     },
     "dataMappingStep": {
       "description": "ゾーンラベルとして使用する属性を選択するか、ラベルを自動生成します。",

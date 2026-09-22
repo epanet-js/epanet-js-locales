@@ -1577,7 +1577,7 @@
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
       "title": "Gegevensinvoer",
-      "noProjectionWarning": "Het geselecteerde GeoJSON-bestand bevat geen projectiegegevens. Aangenomen wordt dat {{1}} de standaard is."
+      "noProjectionWarning": "Het geselecteerde bestand vermeldt geen coördinatensysteem, dus de coördinaten werden gelezen als lengte- en breedtegraad (WGS84)."
     },
     "dataMappingStep": {
       "description": "Kies een eigenschap om te gebruiken als zone-label, of genereer labels automatisch.",

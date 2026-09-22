@@ -1577,7 +1577,7 @@
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
       "title": "Input data",
-      "noProjectionWarning": "File GeoJSON yang dipilih tidak mengandung data proyeksi. Mengasumsikan {{1}} sebagai default."
+      "noProjectionWarning": "File yang dipilih tidak menyatakan sistem koordinat, sehingga koordinatnya dibaca sebagai garis bujur dan garis lintang (WGS84)."
     },
     "dataMappingStep": {
       "description": "Pilih properti untuk digunakan sebagai label zona, atau buat label otomatis.",

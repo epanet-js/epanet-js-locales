@@ -1590,7 +1590,7 @@
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
       "title": "Entrada de datos",
-      "noProjectionWarning": "El archivo GeoJSON seleccionado no contiene datos de proyección. Asumiendo {{1}} como predeterminado."
+      "noProjectionWarning": "El archivo seleccionado no especifica un sistema de coordenadas, por lo que sus coordenadas se leyeron como longitud y latitud (WGS84)."
     },
     "dataMappingStep": {
       "description": "Elige una propiedad para usar como etiqueta de zona, o genera etiquetas automáticamente.",
