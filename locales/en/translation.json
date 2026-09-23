@@ -76,7 +76,8 @@
       "attributeValueUnreadable_other": "{{count}} Records have values we could not read, so those values were skipped",
       "coordinateSystemUnknown": "The file does not state a coordinate system and its coordinates are not longitude and latitude, so nothing was imported.",
       "coordinateSystemUnsupported": "The file names a coordinate system we cannot apply, so nothing was imported.",
-      "coordinateSystemMismatch": "The coordinate system does not match the coordinates in the file, so nothing was imported."
+      "coordinateSystemMismatch": "The coordinate system does not match the coordinates in the file, so nothing was imported.",
+      "coordinateAttributesUnknown": "We could not tell which attributes hold the coordinates, so nothing was imported."
     },
     "paywall": {
       "title": "Upgrade to convert models",
@@ -105,6 +106,7 @@
     "fileDescriptions": {
       "geojson": "GeoJSON file",
       "geojsonl": "GeoJSONL file",
+      "dxf": "DXF drawing",
       "shp": "Shapefile geometry file",
       "shx": "Shapefile index file",
       "dbf": "Shapefile property database",
@@ -416,6 +418,14 @@
   "openProjectProgress.readingSettings": "Reading settings...",
   "openProjectProgress.building": "Building model...",
   "openProjectProgress.finalizing": "Finalizing...",
+  "openProjectFailure.tooNew": "Project file is too new",
+  "openProjectFailure.tooNewDetail": "This file was created by a newer version of the app. Please update to open it.",
+  "openProjectFailure.corrupt": "Project file is invalid",
+  "openProjectFailure.corruptDetail": "The file couldn't be read as a project. It may be corrupt or saved in a different format.",
+  "openProjectFailure.migrationFailedDetail": "The project file couldn't be upgraded to this version of the app.",
+  "openProjectFailure.scenariosDetail": "The scenarios saved in this file couldn't be restored. Opening the project without them would overwrite the work they hold.",
+  "openProjectFailure.unexpectedDetail": "Something went wrong while opening the file.",
+  "openProjectFailure.versions": "File version {{1}}, app version {{2}}.",
   "rebuildStorageProgress.storage": "Preparing...",
   "rebuildStorageProgress.writing": "Building model...",
   "rebuildStorageProgress.finalizing": "Finalizing...",
@@ -1382,7 +1392,7 @@
       "title": "Add from file",
       "noValidPointsError": "No valid customer points found in the selected file.",
       "parseFileError": "Failed to parse file",
-      "coordinateValidationError": "All coordinates must be expressed in WGS84 (EPSG:4326) projection, or include a CRS definition in the GeoJSON",
+      "coordinateValidationError": "All coordinates must be expressed in WGS84 (EPSG:4326) projection, or the file must state the coordinate system it uses",
       "unsupportedCrsError": "Unsupported coordinate reference system",
       "projectionConversionError": "Failed to convert coordinate system",
       "fileFormatNotSupported": "File format not supported",
@@ -1909,7 +1919,8 @@
     "dataInputStep": {
       "title": "Data input",
       "addFromFile": "Add from file",
-      "noProjectionWarning": "The selected file does not state a coordinate system, so its coordinates were read as longitude and latitude (WGS84)."
+      "noProjectionWarning": "The selected file does not state a coordinate system, so its coordinates were read as longitude and latitude (WGS84).",
+      "skippedRecordsWarning": "{{1}} records are not polygons and will not be imported as zones."
     },
     "dataMappingStep": {
       "title": "Data mapping",
@@ -1920,14 +1931,13 @@
     },
     "completeStep": {
       "title": "Complete",
-      "summary": "Imported {{1}} zones from GeoJSON.",
-      "summaryShapefile": "Imported {{1}} zones from Shapefile.",
+      "summary": "Imported {{1}} zones.",
       "mergedSummary": "Merged {{1}} zones from multiple features:",
       "mergedLabelHeader": "Zone",
       "mergedFeaturesHeader": "Number of merged features"
     },
     "errors": {
-      "invalidFile": "The selected file is not a valid GeoJSON file.",
+      "invalidFile": "The selected file could not be read.",
       "noPolygons": "The file does not contain any Polygon or MultiPolygon geometries.",
       "unsupportedProjection": "The file contains an unsupported coordinate projection.",
       "invalidProjection": "The file contains coordinates that are not in a recognized projection."

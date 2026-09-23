@@ -384,7 +384,8 @@
       "geojsonl": "Fichier GeoJSONL",
       "prj": "Fichier de projection WKT Shapefile",
       "shp": "Fichier de géométrie Shapefile",
-      "shx": "Fichier d'index Shapefile"
+      "shx": "Fichier d'index Shapefile",
+      "dxf": "Dessin DXF"
     },
     "addMoreFiles": "Ajouter plus de fichiers ({{1}})",
     "shapefileReady": "Fichiers Shapefile requis prêts",
@@ -520,7 +521,7 @@
       "parsingFile": "Lecture du fichier...",
       "chooseFile": "Choisir un fichier",
       "fileFormatNotSupported": "Format de fichier non supporté",
-      "coordinateValidationError": "Toutes les coordonnées doivent être exprimées en projection WGS84 (EPSG:4326), ou inclure une définition CRS dans le GeoJSON",
+      "coordinateValidationError": "Toutes les coordonnées doivent être exprimées en projection WGS84 (EPSG:4326), ou le fichier doit spécifier le système de coordonnées qu'il utilise",
       "projectionConversionError": "Échec de la conversion du système de coordonnées",
       "unsupportedCrsError": "Système de référence de coordonnées non pris en charge"
     },
@@ -1567,17 +1568,17 @@
   "yearOfInstallation": "Année d'installation",
   "importZones": {
     "completeStep": {
-      "summary": "Importé {{1}} zones depuis GeoJSON.",
+      "summary": "Importé {{1}} zones.",
       "title": "Terminé",
       "mergedFeaturesHeader": "Nombre de caractéristiques fusionnées",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :",
-      "summaryShapefile": "Importé {{1}} zones depuis Shapefile."
+      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :"
     },
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
       "title": "Saisie des données",
-      "noProjectionWarning": "Le fichier sélectionné ne spécifie pas de système de coordonnées, donc ses coordonnées ont été lues comme longitude et latitude (WGS84)."
+      "noProjectionWarning": "Le fichier sélectionné ne spécifie pas de système de coordonnées, donc ses coordonnées ont été lues comme longitude et latitude (WGS84).",
+      "skippedRecordsWarning": "{{1}} enregistrements ne sont pas des polygones et ne seront pas importés en tant que zones."
     },
     "dataMappingStep": {
       "description": "Choisissez une propriété à utiliser comme étiquette de zone, ou générez automatiquement les étiquettes.",
@@ -1587,7 +1588,7 @@
       "title": "Mappage des données"
     },
     "errors": {
-      "invalidFile": "Le fichier sélectionné n'est pas un fichier GeoJSON valide.",
+      "invalidFile": "Le fichier sélectionné n'a pas pu être lu.",
       "noPolygons": "Le fichier ne contient aucune géométrie de type Polygone ou MultiPolygone.",
       "invalidProjection": "Le fichier contient des coordonnées qui ne sont pas dans une projection reconnue.",
       "unsupportedProjection": "Le fichier contient une projection de coordonnées non supportée."
@@ -1940,7 +1941,8 @@
       "valveScheduleUnreadable_one": "1 vanne nomme un programme de réglage sans points, elle a donc été importée comme une TCV sans réglage",
       "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage",
       "zoneGeometryUnreadable_one": "1 limite de zone a trop peu de points pour former un polygone, elle n'a donc pas été importée",
-      "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées"
+      "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées",
+      "coordinateAttributesUnknown": "Nous n'avons pas pu déterminer quels attributs contiennent les coordonnées, donc rien n'a été importé."
     },
     "paywall": {
       "captions": {
@@ -2021,5 +2023,13 @@
   "alertExportInpLsxDownloadBefore": "Télécharger",
   "alertExportInpLsxIncompatible": "Ce fichier utilise des fonctionnalités avancées incompatibles avec l'EPANET standard.",
   "alertExportInpLsxKnowMore": "En savoir plus",
-  "alertExportInpLsxRemoteSetpointPrvs": "Vannes PRV à point de consigne distant"
+  "alertExportInpLsxRemoteSetpointPrvs": "Vannes PRV à point de consigne distant",
+  "openProjectFailure.corrupt": "Le fichier projet est invalide",
+  "openProjectFailure.corruptDetail": "Le fichier n'a pas pu être lu comme un projet. Il peut être corrompu ou enregistré dans un format différent.",
+  "openProjectFailure.migrationFailedDetail": "Le fichier projet n'a pas pu être mis à niveau vers cette version de l'application.",
+  "openProjectFailure.scenariosDetail": "Les scénarios enregistrés dans ce fichier n'ont pas pu être restaurés. L'ouverture du projet sans eux écraserait le travail qu'ils contiennent.",
+  "openProjectFailure.tooNew": "Le fichier projet est trop récent",
+  "openProjectFailure.tooNewDetail": "Ce fichier a été créé par une version plus récente de l'application. Veuillez mettre à jour pour l'ouvrir.",
+  "openProjectFailure.unexpectedDetail": "Quelque chose s'est mal passé lors de l'ouverture du fichier.",
+  "openProjectFailure.versions": "Version du fichier {{1}}, version de l'application {{2}}."
 }

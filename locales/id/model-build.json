@@ -157,7 +157,12 @@
     "geometryUnsupported": "Geometri tidak didukung",
     "mixedGeometryUnsupported": "Geometri campuran belum didukung",
     "supportedFilesWithDxf": "Mendukung Shapefile, GeoJSON, DXF, dan arsip ZIP",
-    "supportedFormatsWithDxf": "Format yang didukung: GeoJSON, DXF, dan Shapefile"
+    "supportedFormatsWithDxf": "Format yang didukung: GeoJSON, DXF, dan Shapefile",
+    "assignGeometry": {
+      "line": "Tetapkan garis ke",
+      "point": "Tetapkan titik ke",
+      "polygon": "Tetapkan poligon ke"
+    }
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",

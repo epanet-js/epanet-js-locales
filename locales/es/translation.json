@@ -11,7 +11,8 @@
       "geojsonl": "Archivo GeoJSONL",
       "prj": "Archivo de proyección WKT de Shapefile",
       "shp": "Archivo de geometría de Shapefile",
-      "shx": "Archivo de índices de Shapefile"
+      "shx": "Archivo de índices de Shapefile",
+      "dxf": "Dibujo DXF"
     },
     "addMoreFiles": "Añadir más archivos ({{1}})",
     "shapefileReady": "Archivos Shapefile requeridos listos",
@@ -539,7 +540,7 @@
       "parsingFile": "Leyendo archivo...",
       "chooseFile": "Elegir Archivo",
       "fileFormatNotSupported": "Formato de archivo no soportado",
-      "coordinateValidationError": "Todas las coordenadas deben expresarse en proyección WGS84 (EPSG:4326), o incluir una definición CRS en el GeoJSON",
+      "coordinateValidationError": "Todas las coordenadas deben expresarse en proyección WGS84 (EPSG:4326), o el archivo debe indicar el sistema de coordenadas que utiliza",
       "projectionConversionError": "Fallo al convertir el sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referencia de coordenadas no soportado"
     },
@@ -1580,17 +1581,17 @@
   "yearOfInstallation": "Año de instalación",
   "importZones": {
     "completeStep": {
-      "summary": "Importadas {{1}} zonas desde GeoJSON.",
+      "summary": "Importadas {{1}} zonas.",
       "title": "Completado",
       "mergedFeaturesHeader": "Número de características fusionadas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:",
-      "summaryShapefile": "Importadas {{1}} zonas desde Shapefile."
+      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:"
     },
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
       "title": "Entrada de datos",
-      "noProjectionWarning": "El archivo seleccionado no especifica un sistema de coordenadas, por lo que sus coordenadas se leyeron como longitud y latitud (WGS84)."
+      "noProjectionWarning": "El archivo seleccionado no especifica un sistema de coordenadas, por lo que sus coordenadas se leyeron como longitud y latitud (WGS84).",
+      "skippedRecordsWarning": "{{1}} registros no son polígonos y no se importarán como zonas."
     },
     "dataMappingStep": {
       "description": "Elige una propiedad para usar como etiqueta de zona, o genera etiquetas automáticamente.",
@@ -1600,7 +1601,7 @@
       "title": "Mapeo de datos"
     },
     "errors": {
-      "invalidFile": "El archivo seleccionado no es un archivo GeoJSON válido.",
+      "invalidFile": "No se pudo leer el archivo seleccionado.",
       "noPolygons": "El archivo no contiene ninguna geometría de tipo Polygon o MultiPolygon.",
       "invalidProjection": "El archivo contiene una proyección de coordenadas inválida.",
       "unsupportedProjection": "El archivo contiene una proyección de coordenadas no soportada."
@@ -1947,7 +1948,8 @@
       "valveScheduleUnreadable_one": "1 Válvula especifica un programa de ajuste sin puntos, por lo que fue importada como una TCV sin ajuste",
       "valveScheduleUnreadable_other": "{{count}} Válvulas especifican programas de ajuste sin puntos, por lo que fueron importadas como TCVs sin ajuste",
       "zoneGeometryUnreadable_one": "1 límite de zona tiene muy pocos puntos para formar un polígono, por lo que no fue importado",
-      "zoneGeometryUnreadable_other": "{{count}} límites de zona tienen muy pocos puntos para formar polígonos, por lo que no fueron importados"
+      "zoneGeometryUnreadable_other": "{{count}} límites de zona tienen muy pocos puntos para formar polígonos, por lo que no fueron importados",
+      "coordinateAttributesUnknown": "No pudimos determinar qué atributos contienen las coordenadas, por lo que no se importó nada."
     },
     "paywall": {
       "captions": {
@@ -2028,5 +2030,13 @@
   "alertExportInpLsxDownloadBefore": "Descargar",
   "alertExportInpLsxIncompatible": "Este archivo utiliza funciones avanzadas incompatibles con EPANET estándar.",
   "alertExportInpLsxKnowMore": "Saber más",
-  "alertExportInpLsxRemoteSetpointPrvs": "PRVs de punto de ajuste remoto"
+  "alertExportInpLsxRemoteSetpointPrvs": "PRVs de punto de ajuste remoto",
+  "openProjectFailure.corrupt": "El archivo de proyecto es inválido",
+  "openProjectFailure.corruptDetail": "El archivo no pudo leerse como un proyecto. Puede estar corrupto o guardado en un formato diferente.",
+  "openProjectFailure.migrationFailedDetail": "El archivo de proyecto no pudo actualizarse a esta versión de la aplicación.",
+  "openProjectFailure.scenariosDetail": "Los escenarios guardados en este archivo no pudieron restaurarse. Abrir el proyecto sin ellos sobrescribiría el trabajo que contienen.",
+  "openProjectFailure.tooNew": "El archivo de proyecto es demasiado nuevo",
+  "openProjectFailure.tooNewDetail": "Este archivo fue creado con una versión más reciente de la aplicación. Actualiza para abrirlo.",
+  "openProjectFailure.unexpectedDetail": "Algo salió mal al abrir el archivo.",
+  "openProjectFailure.versions": "Versión del archivo {{1}}, versión de la aplicación {{2}}."
 }

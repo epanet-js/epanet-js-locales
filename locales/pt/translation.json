@@ -384,7 +384,8 @@
       "geojsonl": "Arquivo GeoJSONL",
       "prj": "Arquivo de projeção WKT Shapefile",
       "shp": "Arquivo de geometria Shapefile",
-      "shx": "Arquivo de índice Shapefile"
+      "shx": "Arquivo de índice Shapefile",
+      "dxf": "Desenho DXF"
     },
     "addMoreFiles": "Adicionar mais arquivos ({{1}})",
     "shapefileReady": "Shapefiles necessários prontos",
@@ -520,7 +521,7 @@
       "parsingFile": "Lendo arquivo...",
       "chooseFile": "Escolher Arquivo",
       "fileFormatNotSupported": "Formato de arquivo não suportado",
-      "coordinateValidationError": "Todas as coordenadas devem ser expressas na projeção WGS84 (EPSG:4326), ou incluir uma definição CRS no GeoJSON",
+      "coordinateValidationError": "Todas as coordenadas devem ser expressas na projeção WGS84 (EPSG:4326), ou o arquivo deve especificar o sistema de coordenadas que utiliza",
       "projectionConversionError": "Falha ao converter sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referência de coordenadas não suportado"
     },
@@ -1567,17 +1568,17 @@
   "yearOfInstallation": "Ano de instalação",
   "importZones": {
     "completeStep": {
-      "summary": "Importadas {{1}} zonas do GeoJSON.",
+      "summary": "Zonas importadas: {{1}}.",
       "title": "Concluído",
       "mergedFeaturesHeader": "Número de características mescladas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:",
-      "summaryShapefile": "Importadas {{1}} zonas de Shapefile."
+      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:"
     },
     "dataInputStep": {
       "addFromFile": "Adicionar de arquivo",
       "title": "Entrada de Dados",
-      "noProjectionWarning": "O arquivo selecionado não especifica um sistema de coordenadas, então suas coordenadas foram lidas como longitude e latitude (WGS84)."
+      "noProjectionWarning": "O arquivo selecionado não especifica um sistema de coordenadas, então suas coordenadas foram lidas como longitude e latitude (WGS84).",
+      "skippedRecordsWarning": "{{1}} registros não são polígonos e não serão importados como zonas."
     },
     "dataMappingStep": {
       "description": "Escolha uma propriedade para usar como rótulo de zona, ou gere rótulos automaticamente.",
@@ -1587,7 +1588,7 @@
       "title": "Mapeamento de Dados"
     },
     "errors": {
-      "invalidFile": "O arquivo selecionado não é um arquivo GeoJSON válido.",
+      "invalidFile": "O arquivo selecionado não pôde ser lido.",
       "noPolygons": "O arquivo não contém nenhuma geometria de Polygon ou MultiPolygon.",
       "invalidProjection": "O arquivo contém coordenadas que não estão em uma projeção reconhecida.",
       "unsupportedProjection": "O arquivo contém uma projeção de coordenadas não suportada."
@@ -1940,7 +1941,8 @@
       "valveScheduleUnreadable_one": "1 Válvula nomeia um agendamento de ajuste sem pontos, então foi importada como uma TCV sem ajuste",
       "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste",
       "zoneGeometryUnreadable_one": "1 limite de zona tem poucos pontos para formar um polígono, então não foi importado",
-      "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados"
+      "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados",
+      "coordinateAttributesUnknown": "Não foi possível determinar quais atributos contêm as coordenadas, então nada foi importado."
     },
     "paywall": {
       "captions": {
@@ -2021,5 +2023,13 @@
   "alertExportInpLsxDownloadBefore": "Download",
   "alertExportInpLsxIncompatible": "Este arquivo usa funcionalidades avançadas incompatíveis com o EPANET padrão.",
   "alertExportInpLsxKnowMore": "Saber mais",
-  "alertExportInpLsxRemoteSetpointPrvs": "Válvulas PRV com ponto de ajuste remoto"
+  "alertExportInpLsxRemoteSetpointPrvs": "Válvulas PRV com ponto de ajuste remoto",
+  "openProjectFailure.corrupt": "O arquivo do projeto é inválido",
+  "openProjectFailure.corruptDetail": "O arquivo não pôde ser lido como um projeto. Pode estar corrompido ou salvo em um formato diferente.",
+  "openProjectFailure.migrationFailedDetail": "O arquivo do projeto não pôde ser atualizado para esta versão do aplicativo.",
+  "openProjectFailure.scenariosDetail": "Os cenários salvos neste arquivo não puderam ser restaurados. Abrir o projeto sem eles sobrescreveria o trabalho que eles contêm.",
+  "openProjectFailure.tooNew": "O arquivo do projeto é muito novo",
+  "openProjectFailure.tooNewDetail": "Este arquivo foi criado por uma versão mais recente do aplicativo. Por favor, atualize para abri-lo.",
+  "openProjectFailure.unexpectedDetail": "Algo deu errado ao abrir o arquivo.",
+  "openProjectFailure.versions": "Versão do arquivo {{1}}, versão do aplicativo {{2}}."
 }

@@ -157,7 +157,12 @@
     "geometryUnsupported": "Niet-ondersteunde geometrie",
     "mixedGeometryUnsupported": "Gemengde geometrie wordt nog niet ondersteund",
     "supportedFilesWithDxf": "Ondersteunt Shapefiles, GeoJSON, DXF en ZIP-archieven",
-    "supportedFormatsWithDxf": "Ondersteunde formaten: GeoJSON, DXF en Shapefile"
+    "supportedFormatsWithDxf": "Ondersteunde formaten: GeoJSON, DXF en Shapefile",
+    "assignGeometry": {
+      "line": "Lijnen toewijzen aan",
+      "point": "Punten toewijzen aan",
+      "polygon": "Polygonen toewijzen aan"
+    }
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",

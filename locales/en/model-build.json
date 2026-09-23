@@ -109,6 +109,11 @@
     "applyProjection": "Apply projection",
     "dismiss": "Dismiss",
     "sourceInfo": "{{1}} – {{2}} features",
+    "assignGeometry": {
+      "point": "Assign points to",
+      "line": "Assign lines to",
+      "polygon": "Assign polygons to"
+    },
     "geometry": {
       "point": "Points",
       "line": "Lines",

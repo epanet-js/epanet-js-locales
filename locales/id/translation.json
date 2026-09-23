@@ -319,7 +319,8 @@
       "geojsonl": "File GeoJSONL",
       "prj": "File proyeksi WKT Shapefile",
       "shp": "File geometri Shapefile",
-      "shx": "File indeks Shapefile"
+      "shx": "File indeks Shapefile",
+      "dxf": "Gambar DXF"
     },
     "addMoreFiles": "Tambahkan lebih banyak file ({{1}})",
     "shapefileReady": "Shapefile yang diperlukan siap",
@@ -515,7 +516,7 @@
   "importCustomerPoints": {
     "dataSource": {
       "chooseFile": "Pilih file",
-      "coordinateValidationError": "Semua koordinat harus dinyatakan dalam proyeksi WGS84 (EPSG:4326), atau menyertakan definisi CRS dalam GeoJSON",
+      "coordinateValidationError": "Semua koordinat harus dinyatakan dalam proyeksi WGS84 (EPSG:4326), atau file harus menyatakan sistem koordinat yang digunakannya",
       "fileFormatNotSupported": "Format file tidak didukung",
       "noValidPointsError": "Tidak ada titik pelanggan valid yang ditemukan dalam file yang dipilih.",
       "parseFileError": "Gagal mengurai file",
@@ -1567,17 +1568,17 @@
   "yearOfInstallation": "Tahun pemasangan",
   "importZones": {
     "completeStep": {
-      "summary": "Diimpor {{1}} zona dari GeoJSON.",
+      "summary": "Diimpor {{1}} zona.",
       "title": "Selesai",
       "mergedFeaturesHeader": "Jumlah fitur yang digabungkan",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:",
-      "summaryShapefile": "Diimpor {{1}} zona dari Shapefile."
+      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:"
     },
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
       "title": "Input data",
-      "noProjectionWarning": "File yang dipilih tidak menyatakan sistem koordinat, sehingga koordinatnya dibaca sebagai garis bujur dan garis lintang (WGS84)."
+      "noProjectionWarning": "File yang dipilih tidak menyatakan sistem koordinat, sehingga koordinatnya dibaca sebagai garis bujur dan garis lintang (WGS84).",
+      "skippedRecordsWarning": "{{1}} catatan bukan poligon dan tidak akan diimpor sebagai zona."
     },
     "dataMappingStep": {
       "description": "Pilih properti untuk digunakan sebagai label zona, atau buat label otomatis.",
@@ -1587,7 +1588,7 @@
       "title": "Pemetaan data"
     },
     "errors": {
-      "invalidFile": "File yang dipilih bukan file GeoJSON yang valid.",
+      "invalidFile": "File yang dipilih tidak dapat dibaca.",
       "noPolygons": "File tersebut tidak mengandung geometri Polygon atau MultiPolygon.",
       "invalidProjection": "File tersebut mengandung koordinat yang tidak dalam proyeksi yang dikenali.",
       "unsupportedProjection": "File tersebut mengandung proyeksi koordinat yang tidak didukung."
@@ -1940,7 +1941,8 @@
       "valveScheduleUnreadable_one": "1 Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
       "valveScheduleUnreadable_other": "{{count}} Katup menamai jadwal pengaturan tanpa titik, jadi diimpor sebagai TCV tanpa pengaturan",
       "zoneGeometryUnreadable_one": "1 batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
-      "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor"
+      "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
+      "coordinateAttributesUnknown": "Kami tidak dapat mengetahui atribut mana yang menyimpan koordinat, jadi tidak ada yang diimpor."
     },
     "paywall": {
       "captions": {
@@ -2021,5 +2023,13 @@
   "alertExportInpLsxDownloadBefore": "Unduh",
   "alertExportInpLsxIncompatible": "File ini menggunakan fitur-fitur canggih yang tidak kompatibel dengan EPANET standar.",
   "alertExportInpLsxKnowMore": "Ketahui lebih lanjut",
-  "alertExportInpLsxRemoteSetpointPrvs": "PRV set-point jarak jauh"
+  "alertExportInpLsxRemoteSetpointPrvs": "PRV set-point jarak jauh",
+  "openProjectFailure.corrupt": "File proyek tidak valid",
+  "openProjectFailure.corruptDetail": "File tidak dapat dibaca sebagai proyek. Mungkin rusak atau disimpan dalam format yang berbeda.",
+  "openProjectFailure.migrationFailedDetail": "File proyek tidak dapat ditingkatkan ke versi aplikasi ini.",
+  "openProjectFailure.scenariosDetail": "Skenario yang disimpan dalam file ini tidak dapat dipulihkan. Membuka proyek tanpa mereka akan menimpa pekerjaan yang mereka pegang.",
+  "openProjectFailure.tooNew": "File proyek terlalu baru",
+  "openProjectFailure.tooNewDetail": "File ini dibuat oleh versi aplikasi yang lebih baru. Harap perbarui untuk membukanya.",
+  "openProjectFailure.unexpectedDetail": "Terjadi kesalahan saat membuka file.",
+  "openProjectFailure.versions": "Versi file {{1}}, versi aplikasi {{2}}."
 }

@@ -88,7 +88,8 @@
       "geojsonl": "GeoJSONLファイル",
       "prj": "Shapefile WKT投影ファイル",
       "shp": "Shapefileジオメトリファイル",
-      "shx": "Shapefileインデックスファイル"
+      "shx": "Shapefileインデックスファイル",
+      "dxf": "DXF図面"
     },
     "addMoreFiles": "さらにファイルを追加 ({{1}})",
     "shapefileReady": "必要なシェープファイルが準備完了",
@@ -162,7 +163,7 @@
       "supportedFormats": "対応形式:",
       "title": "ファイルから追加",
       "fileFormatNotSupported": "ファイル形式がサポートされていません",
-      "coordinateValidationError": "すべての座標はWGS84（EPSG:4326）投影法で表現するか、GeoJSONにCRS定義を含める必要があります",
+      "coordinateValidationError": "すべての座標はWGS84（EPSG:4326）投影法で表現するか、ファイルに使用する座標系を記述する必要があります",
       "projectionConversionError": "座標系の変換に失敗しました",
       "unsupportedCrsError": "サポートされていない座標参照系"
     },
@@ -1567,17 +1568,17 @@
   "yearOfInstallation": "設置年",
   "importZones": {
     "completeStep": {
-      "summary": "GeoJSONから{{1}}ゾーンをインポートしました。",
+      "summary": "{{1}}ゾーンをインポートしました。",
       "title": "完了",
       "mergedFeaturesHeader": "結合されたフィーチャの数",
       "mergedLabelHeader": "ゾーン",
-      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:",
-      "summaryShapefile": "シェープファイルから {{1}} 個のゾーンをインポートしました。"
+      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:"
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
       "title": "データ入力",
-      "noProjectionWarning": "選択されたファイルには座標系が指定されていないため、その座標は経度と緯度（WGS84）として読み込まれました。"
+      "noProjectionWarning": "選択されたファイルには座標系が指定されていないため、その座標は経度と緯度（WGS84）として読み込まれました。",
+      "skippedRecordsWarning": "{{1}}個のレコードはポリゴンではないため、ゾーンとしてインポートされません。"
     },
     "dataMappingStep": {
       "description": "ゾーンラベルとして使用する属性を選択するか、ラベルを自動生成します。",
@@ -1587,7 +1588,7 @@
       "title": "データマッピング"
     },
     "errors": {
-      "invalidFile": "選択されたファイルは有効なGeoJSONファイルではありません。",
+      "invalidFile": "選択されたファイルを読み取れませんでした。",
       "noPolygons": "ファイルにPolygonまたはMultiPolygonジオメトリが含まれていません。",
       "invalidProjection": "ファイルには、認識されている投影法ではない座標が含まれています。",
       "unsupportedProjection": "ファイルには、サポートされていない座標投影が含まれています。"
@@ -1940,7 +1941,8 @@
       "valveScheduleUnreadable_one": "1つの弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
       "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
       "zoneGeometryUnreadable_one": "1つのゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
-      "zoneGeometryUnreadable_other": "{{count}}個のゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした"
+      "zoneGeometryUnreadable_other": "{{count}}個のゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
+      "coordinateAttributesUnknown": "どの属性が座標を保持しているか判断できなかったため、何もインポートされませんでした。"
     },
     "paywall": {
       "captions": {
@@ -2021,5 +2023,13 @@
   "alertExportInpLsxDownloadBefore": "ダウンロード",
   "alertExportInpLsxIncompatible": "このファイルは、標準のEPANETと互換性のない高度な機能を使用しています。",
   "alertExportInpLsxKnowMore": "詳細はこちら",
-  "alertExportInpLsxRemoteSetpointPrvs": "リモート設定点PRV"
+  "alertExportInpLsxRemoteSetpointPrvs": "リモート設定点PRV",
+  "openProjectFailure.corrupt": "プロジェクトファイルが無効です",
+  "openProjectFailure.corruptDetail": "ファイルをプロジェクトとして読み取れませんでした。破損しているか、異なる形式で保存されている可能性があります。",
+  "openProjectFailure.migrationFailedDetail": "プロジェクトファイルをこのバージョンのアプリにアップグレードできませんでした。",
+  "openProjectFailure.scenariosDetail": "このファイルに保存されたシナリオは復元できませんでした。それらなしでプロジェクトを開くと、保持している作業が上書きされます。",
+  "openProjectFailure.tooNew": "プロジェクトファイルが新しすぎます",
+  "openProjectFailure.tooNewDetail": "このファイルは、新しいバージョンのアプリで作成されました。開くには更新してください。",
+  "openProjectFailure.unexpectedDetail": "ファイルを開く際に問題が発生しました。",
+  "openProjectFailure.versions": "ファイルバージョン{{1}}、アプリバージョン{{2}}。"
 }

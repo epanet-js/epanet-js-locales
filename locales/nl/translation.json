@@ -384,7 +384,8 @@
       "geojsonl": "GeoJSONL bestand",
       "prj": "Shapefile WKT projectiebestand",
       "shp": "Shapefile geometriebestand",
-      "shx": "Shapefile indexbestand"
+      "shx": "Shapefile indexbestand",
+      "dxf": "DXF tekening"
     },
     "addMoreFiles": "Meer bestanden toevoegen ({{1}})",
     "shapefileReady": "Shapefile klaar voor import",
@@ -520,7 +521,7 @@
       "parsingFile": "Bestand lezen...",
       "chooseFile": "Bestand kiezen",
       "fileFormatNotSupported": "Bestandsformaat niet ondersteund",
-      "coordinateValidationError": "Alle coördinaten moeten worden uitgedrukt in WGS84 (EPSG:4326) projectie, of een CRS-definitie bevatten in de GeoJSON",
+      "coordinateValidationError": "Alle coördinaten moeten worden uitgedrukt in WGS84 (EPSG:4326) projectie, of het bestand moet het coördinatensysteem vermelden dat het gebruikt",
       "projectionConversionError": "Conversie van coördinatensysteem mislukt",
       "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem"
     },
@@ -1567,17 +1568,17 @@
   "yearOfInstallation": "Installatiejaar",
   "importZones": {
     "completeStep": {
-      "summary": "Geïmporteerd {{1}} zones uit GeoJSON.",
+      "summary": "Geïmporteerd {{1}} zones.",
       "title": "Voltooid",
       "mergedFeaturesHeader": "Aantal samengevoegde objecten",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:",
-      "summaryShapefile": "Geïmporteerd {{1}} zones uit Shapefile."
+      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:"
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
       "title": "Gegevensinvoer",
-      "noProjectionWarning": "Het geselecteerde bestand vermeldt geen coördinatensysteem, dus de coördinaten werden gelezen als lengte- en breedtegraad (WGS84)."
+      "noProjectionWarning": "Het geselecteerde bestand vermeldt geen coördinatensysteem, dus de coördinaten werden gelezen als lengte- en breedtegraad (WGS84).",
+      "skippedRecordsWarning": "{{1}} records zijn geen polygonen en worden niet geïmporteerd als zones."
     },
     "dataMappingStep": {
       "description": "Kies een eigenschap om te gebruiken als zone-label, of genereer labels automatisch.",
@@ -1587,7 +1588,7 @@
       "title": "Gegevenskoppeling"
     },
     "errors": {
-      "invalidFile": "Het geselecteerde bestand is geen geldig GeoJSON-bestand.",
+      "invalidFile": "Het geselecteerde bestand kon niet worden gelezen.",
       "noPolygons": "Het bestand bevat geen Polygon- of MultiPolygon-geometrieën.",
       "invalidProjection": "Het bestand bevat coördinaten die niet in een herkende projectie staan.",
       "unsupportedProjection": "Het bestand bevat een niet-ondersteunde coördinatenprojectie."
@@ -1940,7 +1941,8 @@
       "valveScheduleUnreadable_one": "1 ventiel verwijst naar een instelschema zonder punten, dus het is geïmporteerd als een TCV zonder instelling",
       "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling",
       "zoneGeometryUnreadable_one": "1 Zonegrens heeft te weinig punten om een polygoon te vormen, dus deze is niet geïmporteerd",
-      "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd"
+      "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd",
+      "coordinateAttributesUnknown": "We konden niet bepalen welke attributen de coördinaten bevatten, dus er is niets geïmporteerd."
     },
     "paywall": {
       "captions": {
@@ -2021,5 +2023,13 @@
   "alertExportInpLsxDownloadBefore": "Downloaden",
   "alertExportInpLsxIncompatible": "Dit bestand gebruikt geavanceerde functies die niet compatibel zijn met standaard EPANET.",
   "alertExportInpLsxKnowMore": "Meer informatie",
-  "alertExportInpLsxRemoteSetpointPrvs": "PRV's met afstandsingesteld setpoint"
+  "alertExportInpLsxRemoteSetpointPrvs": "PRV's met afstandsingesteld setpoint",
+  "openProjectFailure.corrupt": "Projectbestand is ongeldig",
+  "openProjectFailure.corruptDetail": "Het bestand kon niet worden gelezen als een project. Het is mogelijk beschadigd of opgeslagen in een ander formaat.",
+  "openProjectFailure.migrationFailedDetail": "Het projectbestand kon niet worden geüpgraded naar deze versie van de app.",
+  "openProjectFailure.scenariosDetail": "De scenario's die in dit bestand zijn opgeslagen, konden niet worden hersteld. Het openen van het project zonder deze zou het werk dat ze bevatten overschrijven.",
+  "openProjectFailure.tooNew": "Projectbestand is te nieuw",
+  "openProjectFailure.tooNewDetail": "Dit bestand is gemaakt met een nieuwere versie van de app. Werk de app bij om het te openen.",
+  "openProjectFailure.unexpectedDetail": "Er is iets misgegaan tijdens het openen van het bestand.",
+  "openProjectFailure.versions": "Bestandsversie {{1}}, appversie {{2}}."
 }

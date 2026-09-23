@@ -157,7 +157,12 @@
     "geometryUnsupported": "Géométrie non supportée",
     "mixedGeometryUnsupported": "La géométrie mixte n'est pas encore supportée",
     "supportedFilesWithDxf": "Supporte les Shapefiles, GeoJSON, DXF et archives ZIP",
-    "supportedFormatsWithDxf": "Formats pris en charge : GeoJSON, DXF et Shapefile"
+    "supportedFormatsWithDxf": "Formats pris en charge : GeoJSON, DXF et Shapefile",
+    "assignGeometry": {
+      "line": "Attribuer les lignes à",
+      "point": "Attribuer les points à",
+      "polygon": "Attribuer les polygones à"
+    }
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",

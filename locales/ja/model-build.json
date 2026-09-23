@@ -157,7 +157,12 @@
     "geometryUnsupported": "サポートされていないジオメトリ",
     "mixedGeometryUnsupported": "混合ジオメトリはまだサポートされていません",
     "supportedFilesWithDxf": "Shapefile、GeoJSON、DXF、およびZIPアーカイブに対応",
-    "supportedFormatsWithDxf": "対応形式: GeoJSON、DXF、およびShapefile"
+    "supportedFormatsWithDxf": "対応形式: GeoJSON、DXF、およびShapefile",
+    "assignGeometry": {
+      "line": "ラインを割り当て先",
+      "point": "ポイントを割り当て先",
+      "polygon": "ポリゴンを割り当て先"
+    }
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",
