@@ -2017,7 +2017,18 @@
       "labelPlaceholder": "Nome do conjunto de seleção",
       "newLabel": "Novo nome do conjunto de seleção"
     },
-    "title": "Coleções"
+    "title": "Coleções",
+    "paywall": {
+      "description1": "Salve qualquer grupo de ativos como um conjunto de seleção reutilizável, e qualquer visualização de mapa como um marcador.",
+      "description2": "Volte para o mesmo grupo de ativos ou para a mesma área com um clique, sem precisar selecionar novamente ou navegar.",
+      "plans": "Coleções estão disponíveis em planos pagos.",
+      "title": "Atualize para usar coleções",
+      "trial": "Coleções são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+    },
+    "upgrade": {
+      "description": "Mantenha qualquer grupo de ativos ou área de mapa para retornar a ele com um clique",
+      "title": "Salve suas próprias coleções"
+    }
   },
   "alertExportInpLsxDownloadAfter": " para executar este arquivo.",
   "alertExportInpLsxDownloadBefore": "Download",
@@ -2031,5 +2042,6 @@
   "openProjectFailure.tooNew": "O arquivo do projeto é muito novo",
   "openProjectFailure.tooNewDetail": "Este arquivo foi criado por uma versão mais recente do aplicativo. Por favor, atualize para abri-lo.",
   "openProjectFailure.unexpectedDetail": "Algo deu errado ao abrir o arquivo.",
-  "openProjectFailure.versions": "Versão do arquivo {{1}}, versão do aplicativo {{2}}."
+  "openProjectFailure.versions": "Versão do arquivo {{1}}, versão do aplicativo {{2}}.",
+  "alertExportInpDetailWithScenarios": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como cenários, pontos de consumo, campos de ativos personalizados e controles nativos."
 }

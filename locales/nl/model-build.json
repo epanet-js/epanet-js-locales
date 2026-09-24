@@ -109,7 +109,7 @@
     "processing": "Verwerken...",
     "selectFiles": "Bestanden selecteren",
     "unknownFilename": "(onbekende bestandsnaam)",
-    "supportedFiles": "Ondersteunt Shapefiles, GeoJSON en ZIP-archieven",
+    "supportedFiles": "Ondersteunt {{1}}",
     "titleAction": "Sleep bestanden hierheen, of blader om te uploaden",
     "addShp": "Voeg het .shp-bestand toe",
     "addSource": "Gegevensbron toevoegen",
@@ -129,7 +129,9 @@
       "confirm": "Controleer de kaart en bevestig daarna de projectie",
       "mismatch": "Projectie komt niet overeen. Selecteer een andere",
       "searchProjection": "Selecteer de projectie",
-      "unsupported": "Niet-ondersteunde projectie. Selecteer een andere"
+      "unsupported": "Niet-ondersteunde projectie. Selecteer een andere",
+      "confirmCoordinateAttributes": "Controleer de kaart en bevestig daarna de attributen",
+      "nameCoordinateAttributes": "Selecteer de attributen die de coördinaten bevatten"
     },
     "projectionSearchPlaceholder": "Projectienaam of EPSG...",
     "removeSource": "Bron verwijderen",
@@ -143,7 +145,7 @@
     "statusError": "Fout",
     "statusLoading": "Laden",
     "statusReady": "Klaar",
-    "supportedFormats": "Ondersteunde formaten: GeoJSON en Shapefile",
+    "supportedFormats": "Ondersteunde formaten: {{1}}",
     "unassign": "Toewijzing ongedaan maken",
     "unsupportedFilesCount_one": "{{count}} niet-ondersteund bestand",
     "unsupportedFilesCount_other": "{{count}} niet-ondersteunde bestanden",
@@ -156,12 +158,23 @@
     },
     "geometryUnsupported": "Niet-ondersteunde geometrie",
     "mixedGeometryUnsupported": "Gemengde geometrie wordt nog niet ondersteund",
-    "supportedFilesWithDxf": "Ondersteunt Shapefiles, GeoJSON, DXF en ZIP-archieven",
-    "supportedFormatsWithDxf": "Ondersteunde formaten: GeoJSON, DXF en Shapefile",
     "assignGeometry": {
       "line": "Lijnen toewijzen aan",
       "point": "Punten toewijzen aan",
       "polygon": "Polygonen toewijzen aan"
+    },
+    "applyCoordinateAttributes": "Attributen toepassen",
+    "changeCoordinateAttributes": "Coördinaatattributen wijzigen",
+    "coordinateAttribute": {
+      "x": "X / lengtegraad",
+      "y": "Y / breedtegraad"
+    },
+    "format": {
+      "csv": "CSV",
+      "dxf": "DXF",
+      "geojson": "GeoJSON",
+      "shapefile": "Shapefiles",
+      "zip": "ZIP-archieven"
     }
   },
   "flowUnits": {

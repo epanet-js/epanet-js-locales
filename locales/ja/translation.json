@@ -2017,7 +2017,18 @@
       "labelPlaceholder": "選択セット名",
       "newLabel": "新しい選択セット名"
     },
-    "title": "コレクション"
+    "title": "コレクション",
+    "paywall": {
+      "description1": "任意のアセットグループを再利用可能な選択セットとして、任意のマップビューをブックマークとして保存します。",
+      "description2": "再選択や再ナビゲーションなしで、ワンクリックで同じアセットグループや同じエリアに戻ることができます。",
+      "plans": "コレクションは有料プランでご利用いただけます。",
+      "title": "コレクションを使用するにはアップグレードしてください",
+      "trial": "コレクションは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+    },
+    "upgrade": {
+      "description": "任意のアセットグループやマップエリアを保存して、ワンクリックでそこに戻ることができます",
+      "title": "独自のコレクションを保存"
+    }
   },
   "alertExportInpLsxDownloadAfter": " このファイルを実行するには。",
   "alertExportInpLsxDownloadBefore": "ダウンロード",
@@ -2031,5 +2042,6 @@
   "openProjectFailure.tooNew": "プロジェクトファイルが新しすぎます",
   "openProjectFailure.tooNewDetail": "このファイルは、新しいバージョンのアプリで作成されました。開くには更新してください。",
   "openProjectFailure.unexpectedDetail": "ファイルを開く際に問題が発生しました。",
-  "openProjectFailure.versions": "ファイルバージョン{{1}}、アプリバージョン{{2}}。"
+  "openProjectFailure.versions": "ファイルバージョン{{1}}、アプリバージョン{{2}}。",
+  "alertExportInpDetailWithScenarios": "EPANET INP形式は、シナリオ、顧客ポイント、カスタム資産フィールド、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。"
 }

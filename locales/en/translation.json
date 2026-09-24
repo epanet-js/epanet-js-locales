@@ -727,6 +727,7 @@
   "alertInpOutputDetail": "Please note that some sections and settings may be formatted differently or omitted. We encourage you to save a copy instead of overriding the original content.",
   "alertExportInp": "Some data may be lost",
   "alertExportInpDetail": "The EPANET INP format doesn't support all epanet-js features, such as customer points, custom asset fields and native controls.",
+  "alertExportInpDetailWithScenarios": "The EPANET INP format doesn't support all epanet-js features, such as scenarios, customer points, custom asset fields and native controls.",
   "alertExportInpLabels": "Long labels may be shortened and some characters removed to meet EPANET's naming restrictions.",
   "alertExportInpRecommendation": "We recommend using the epanet-js Project (.ejsdb) as your primary save and only exporting to EPANET INP for external compatibility.",
   "alertExportInpLsxTitle": "LSX Required",
@@ -2026,6 +2027,17 @@
       "add": "Add bookmark",
       "newLabel": "New bookmark name",
       "labelPlaceholder": "Bookmark name"
+    },
+    "paywall": {
+      "title": "Upgrade to use collections",
+      "description1": "Save any group of assets as a reusable selection set, and any map view as a bookmark.",
+      "description2": "Come back to the same group of assets or the same area in one click, without reselecting or navigating again.",
+      "plans": "Collections are available on paid plans.",
+      "trial": "Collections are a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
+    },
+    "upgrade": {
+      "title": "Save your own collections",
+      "description": "Keep any group of assets or map area to come back to it in one click"
     }
   },
   "tabs": {

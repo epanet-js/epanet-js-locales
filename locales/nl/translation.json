@@ -2017,7 +2017,18 @@
       "labelPlaceholder": "Selectiesetnaam",
       "newLabel": "Nieuwe selectiesetnaam"
     },
-    "title": "Collecties"
+    "title": "Collecties",
+    "paywall": {
+      "description1": "Sla elke groep onderdelen op als een herbruikbare selectieset, en elke kaartweergave als een bladwijzer.",
+      "description2": "Keer met één klik terug naar dezelfde groep onderdelen of hetzelfde gebied, zonder opnieuw te selecteren of opnieuw te navigeren.",
+      "plans": "Collecties zijn beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om collecties te gebruiken",
+      "trial": "Collecties zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    },
+    "upgrade": {
+      "description": "Bewaar elke groep onderdelen of elk kaartgebied om er met één klik naar terug te keren",
+      "title": "Sla uw eigen collecties op"
+    }
   },
   "alertExportInpLsxDownloadAfter": " om dit bestand uit te voeren.",
   "alertExportInpLsxDownloadBefore": "Downloaden",
@@ -2031,5 +2042,6 @@
   "openProjectFailure.tooNew": "Projectbestand is te nieuw",
   "openProjectFailure.tooNewDetail": "Dit bestand is gemaakt met een nieuwere versie van de app. Werk de app bij om het te openen.",
   "openProjectFailure.unexpectedDetail": "Er is iets misgegaan tijdens het openen van het bestand.",
-  "openProjectFailure.versions": "Bestandsversie {{1}}, appversie {{2}}."
+  "openProjectFailure.versions": "Bestandsversie {{1}}, appversie {{2}}.",
+  "alertExportInpDetailWithScenarios": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals scenario's, klantpunten, aangepaste onderdeelvelden en native besturingen."
 }

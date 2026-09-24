@@ -2017,7 +2017,18 @@
       "labelPlaceholder": "Nama set pilihan",
       "newLabel": "Nama set pilihan baru"
     },
-    "title": "Koleksi"
+    "title": "Koleksi",
+    "paywall": {
+      "description1": "Simpan setiap kelompok aset sebagai set pilihan yang dapat digunakan kembali, dan tampilan peta apa pun sebagai bookmark.",
+      "description2": "Kembali ke kelompok aset yang sama atau area yang sama dalam satu klik, tanpa memilih ulang atau menavigasi lagi.",
+      "plans": "Koleksi tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk menggunakan koleksi",
+      "trial": "Koleksi adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+    },
+    "upgrade": {
+      "description": "Simpan setiap kelompok aset atau area peta untuk kembali ke sana dalam satu klik",
+      "title": "Simpan koleksi Anda sendiri"
+    }
   },
   "alertExportInpLsxDownloadAfter": " untuk menjalankan file ini.",
   "alertExportInpLsxDownloadBefore": "Unduh",
@@ -2031,5 +2042,6 @@
   "openProjectFailure.tooNew": "File proyek terlalu baru",
   "openProjectFailure.tooNewDetail": "File ini dibuat oleh versi aplikasi yang lebih baru. Harap perbarui untuk membukanya.",
   "openProjectFailure.unexpectedDetail": "Terjadi kesalahan saat membuka file.",
-  "openProjectFailure.versions": "Versi file {{1}}, versi aplikasi {{2}}."
+  "openProjectFailure.versions": "Versi file {{1}}, versi aplikasi {{2}}.",
+  "alertExportInpDetailWithScenarios": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti skenario, titik pelanggan, bidang aset kustom, dan kontrol asli."
 }

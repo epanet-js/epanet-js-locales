@@ -2017,7 +2017,18 @@
       "labelPlaceholder": "Nom de l'ensemble de sélection",
       "newLabel": "Nouveau nom d'ensemble de sélection"
     },
-    "title": "Collections"
+    "title": "Collections",
+    "paywall": {
+      "description1": "Enregistrez n'importe quel groupe d'éléments en tant qu'ensemble de sélection réutilisable, et n'importe quelle vue de carte en tant que signet.",
+      "description2": "Revenez au même groupe d'éléments ou à la même zone en un clic, sans resélectionner ni naviguer à nouveau.",
+      "plans": "Les collections sont disponibles avec les plans payants.",
+      "title": "Mettre à niveau pour utiliser les collections",
+      "trial": "Les collections sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+    },
+    "upgrade": {
+      "description": "Conservez n'importe quel groupe d'éléments ou zone de carte pour y revenir en un clic",
+      "title": "Enregistrez vos propres collections"
+    }
   },
   "alertExportInpLsxDownloadAfter": " pour exécuter ce fichier.",
   "alertExportInpLsxDownloadBefore": "Télécharger",
@@ -2031,5 +2042,6 @@
   "openProjectFailure.tooNew": "Le fichier projet est trop récent",
   "openProjectFailure.tooNewDetail": "Ce fichier a été créé par une version plus récente de l'application. Veuillez mettre à jour pour l'ouvrir.",
   "openProjectFailure.unexpectedDetail": "Quelque chose s'est mal passé lors de l'ouverture du fichier.",
-  "openProjectFailure.versions": "Version du fichier {{1}}, version de l'application {{2}}."
+  "openProjectFailure.versions": "Version du fichier {{1}}, version de l'application {{2}}.",
+  "alertExportInpDetailWithScenarios": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les scénarios, les points de consommation, les champs d'éléments personnalisés et les contrôles natifs."
 }

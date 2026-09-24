@@ -95,8 +95,7 @@
     "assignToElement": "Assign to element...",
     "parsing": "Parsing...",
     "titleAction": "Drop files here, or click to browse",
-    "supportedFiles": "Supports Shapefiles, GeoJSON, and ZIP archives",
-    "supportedFilesWithDxf": "Supports Shapefiles, GeoJSON, DXF, and ZIP archives",
+    "supportedFiles": "Supports {{1}}",
     "processing": "Processing...",
     "selectFiles": "Select files",
     "changeProjection": "Change projection",
@@ -130,8 +129,7 @@
     "showIgnoredFiles": "Show ignored files",
     "unsupportedFilesCount_one": "{{count}} unsupported file",
     "unsupportedFilesCount_other": "{{count}} unsupported files",
-    "supportedFormats": "Supported formats: GeoJSON and Shapefile",
-    "supportedFormatsWithDxf": "Supported formats: GeoJSON, DXF, and Shapefile",
+    "supportedFormats": "Supported formats: {{1}}",
     "failedFilesTitle_one": "Couldn't load {{count}} file",
     "failedFilesTitle_other": "Couldn't load {{count}} files",
     "placement": {
@@ -139,7 +137,9 @@
       "searchProjection": "Select its projection",
       "unsupported": "Unsupported projection. Select another",
       "mismatch": "Projection doesn't match. Select another",
-      "confirm": "Check the map, then confirm the projection"
+      "confirm": "Check the map, then confirm the projection",
+      "nameCoordinateAttributes": "Select the attributes holding the coordinates",
+      "confirmCoordinateAttributes": "Check the map, then confirm the attributes"
     },
     "sourceError": {
       "sourceUnreadable": "Unreadable or corrupted file",
@@ -149,7 +149,20 @@
     "addShp": "Add the .shp file",
     "noCompatibleElementsLeft": "No compatible elements left",
     "mixedGeometryUnsupported": "Mixed geometry isn't supported yet",
-    "geometryUnsupported": "Unsupported geometry"
+    "geometryUnsupported": "Unsupported geometry",
+    "format": {
+      "geojson": "GeoJSON",
+      "dxf": "DXF",
+      "csv": "CSV",
+      "shapefile": "Shapefiles",
+      "zip": "ZIP archives"
+    },
+    "coordinateAttribute": {
+      "x": "X / longitude",
+      "y": "Y / latitude"
+    },
+    "applyCoordinateAttributes": "Apply attributes",
+    "changeCoordinateAttributes": "Change coordinate attributes"
   },
   "modal": {
     "close": "Close"

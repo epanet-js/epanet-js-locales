@@ -109,7 +109,7 @@
     "processing": "Processando...",
     "selectFiles": "Selecionar arquivos",
     "unknownFilename": "(nome de arquivo desconhecido)",
-    "supportedFiles": "Suporta Shapefiles, GeoJSON e arquivos ZIP",
+    "supportedFiles": "Suporta {{1}}",
     "titleAction": "Solte os arquivos aqui, ou procure para carregar",
     "addShp": "Adicionar o arquivo .shp",
     "addSource": "Adicionar fonte de dados",
@@ -129,7 +129,9 @@
       "confirm": "Verifique o mapa e confirme a projeção",
       "mismatch": "A projeção não corresponde. Selecione outra",
       "searchProjection": "Selecione sua projeção",
-      "unsupported": "Projeção não suportada. Selecione outra"
+      "unsupported": "Projeção não suportada. Selecione outra",
+      "confirmCoordinateAttributes": "Verifique o mapa e confirme os atributos",
+      "nameCoordinateAttributes": "Selecione os atributos que contêm as coordenadas"
     },
     "projectionSearchPlaceholder": "Nome da projeção ou EPSG...",
     "removeSource": "Remover fonte",
@@ -143,7 +145,7 @@
     "statusError": "Erro",
     "statusLoading": "Carregando",
     "statusReady": "Pronto",
-    "supportedFormats": "Formatos suportados: GeoJSON e Shapefile",
+    "supportedFormats": "Formatos suportados: {{1}}",
     "unassign": "Desatribuir",
     "unsupportedFilesCount_one": "{{count}} arquivo não suportado",
     "unsupportedFilesCount_other": "{{count}} arquivos não suportados",
@@ -156,12 +158,23 @@
     },
     "geometryUnsupported": "Geometria não suportada",
     "mixedGeometryUnsupported": "Geometria mista ainda não é suportada",
-    "supportedFilesWithDxf": "Suporta Shapefiles, GeoJSON, DXF e arquivos ZIP",
-    "supportedFormatsWithDxf": "Formatos suportados: GeoJSON, DXF e Shapefile",
     "assignGeometry": {
       "line": "Atribuir linhas a",
       "point": "Atribuir pontos a",
       "polygon": "Atribuir polígonos a"
+    },
+    "applyCoordinateAttributes": "Aplicar atributos",
+    "changeCoordinateAttributes": "Alterar atributos de coordenadas",
+    "coordinateAttribute": {
+      "x": "X / longitude",
+      "y": "Y / latitude"
+    },
+    "format": {
+      "csv": "CSV",
+      "dxf": "DXF",
+      "geojson": "GeoJSON",
+      "shapefile": "Shapefiles",
+      "zip": "Arquivos ZIP"
     }
   },
   "flowUnits": {

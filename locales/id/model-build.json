@@ -109,7 +109,7 @@
     "processing": "Memproses...",
     "selectFiles": "Pilih file",
     "unknownFilename": "(nama file tidak dikenal)",
-    "supportedFiles": "Mendukung Shapefile, GeoJSON, dan arsip ZIP",
+    "supportedFiles": "Mendukung {{1}}",
     "titleAction": "Seret file di sini, atau jelajahi untuk mengunggah",
     "addShp": "Tambah file .shp",
     "addSource": "Tambah sumber data",
@@ -129,7 +129,9 @@
       "confirm": "Periksa peta, lalu konfirmasi proyeksi",
       "mismatch": "Proyeksi tidak cocok. Pilih yang lain",
       "searchProjection": "Pilih proyeksinya",
-      "unsupported": "Proyeksi tidak didukung. Pilih yang lain"
+      "unsupported": "Proyeksi tidak didukung. Pilih yang lain",
+      "confirmCoordinateAttributes": "Periksa peta, lalu konfirmasi atributnya",
+      "nameCoordinateAttributes": "Pilih atribut yang menyimpan koordinat"
     },
     "projectionSearchPlaceholder": "Nama proyeksi atau EPSG...",
     "removeSource": "Hapus sumber",
@@ -143,7 +145,7 @@
     "statusError": "Kesalahan",
     "statusLoading": "Memuat",
     "statusReady": "Siap",
-    "supportedFormats": "Format yang didukung: GeoJSON dan Shapefile",
+    "supportedFormats": "Format yang didukung: {{1}}",
     "unassign": "Batalkan penetapan",
     "unsupportedFilesCount_one": "{{count}} file tidak didukung",
     "unsupportedFilesCount_other": "{{count}} file tidak didukung",
@@ -156,12 +158,23 @@
     },
     "geometryUnsupported": "Geometri tidak didukung",
     "mixedGeometryUnsupported": "Geometri campuran belum didukung",
-    "supportedFilesWithDxf": "Mendukung Shapefile, GeoJSON, DXF, dan arsip ZIP",
-    "supportedFormatsWithDxf": "Format yang didukung: GeoJSON, DXF, dan Shapefile",
     "assignGeometry": {
       "line": "Tetapkan garis ke",
       "point": "Tetapkan titik ke",
       "polygon": "Tetapkan poligon ke"
+    },
+    "applyCoordinateAttributes": "Terapkan atribut",
+    "changeCoordinateAttributes": "Ubah atribut koordinat",
+    "coordinateAttribute": {
+      "x": "X / bujur",
+      "y": "Y / lintang"
+    },
+    "format": {
+      "csv": "CSV",
+      "dxf": "DXF",
+      "geojson": "GeoJSON",
+      "shapefile": "Shapefile",
+      "zip": "arsip ZIP"
     }
   },
   "flowUnits": {

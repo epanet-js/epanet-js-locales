@@ -109,7 +109,7 @@
     "processing": "処理中...",
     "selectFiles": "ファイルを選択",
     "unknownFilename": "(不明なファイル名)",
-    "supportedFiles": "シェープファイル、GeoJSON、およびZIPアーカイブに対応",
+    "supportedFiles": "{{1}}に対応",
     "titleAction": "ファイルをここにドロップするか、クリックして参照",
     "addShp": "「.shpファイルを追加",
     "addSource": "データソースを追加",
@@ -129,7 +129,9 @@
       "confirm": "マップを確認してから、投影を確定",
       "mismatch": "投影が一致しません。別のものを選択",
       "searchProjection": "その投影を選択",
-      "unsupported": "サポートされていない投影。別のものを選択"
+      "unsupported": "サポートされていない投影。別のものを選択",
+      "confirmCoordinateAttributes": "マップを確認してから、属性を確定",
+      "nameCoordinateAttributes": "座標を保持する属性を選択してください"
     },
     "projectionSearchPlaceholder": "投影名またはEPSG...",
     "removeSource": "ソースを削除",
@@ -143,7 +145,7 @@
     "statusError": "エラー",
     "statusLoading": "読み込み中",
     "statusReady": "準備完了",
-    "supportedFormats": "対応形式: GeoJSONおよびShapefile",
+    "supportedFormats": "対応形式: {{1}}",
     "unassign": "割り当てを解除",
     "unsupportedFilesCount_one": "{{count}} 件のサポートされていないファイル",
     "unsupportedFilesCount_other": "{{count}} 件のサポートされていないファイル",
@@ -156,12 +158,23 @@
     },
     "geometryUnsupported": "サポートされていないジオメトリ",
     "mixedGeometryUnsupported": "混合ジオメトリはまだサポートされていません",
-    "supportedFilesWithDxf": "Shapefile、GeoJSON、DXF、およびZIPアーカイブに対応",
-    "supportedFormatsWithDxf": "対応形式: GeoJSON、DXF、およびShapefile",
     "assignGeometry": {
       "line": "ラインを割り当て先",
       "point": "ポイントを割り当て先",
       "polygon": "ポリゴンを割り当て先"
+    },
+    "applyCoordinateAttributes": "属性を適用",
+    "changeCoordinateAttributes": "座標属性を変更",
+    "coordinateAttribute": {
+      "x": "X / 経度",
+      "y": "Y / 緯度"
+    },
+    "format": {
+      "csv": "CSV",
+      "dxf": "DXF",
+      "geojson": "GeoJSON",
+      "shapefile": "シェープファイル",
+      "zip": "ZIPアーカイブ"
     }
   },
   "flowUnits": {
