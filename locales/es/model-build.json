@@ -80,14 +80,14 @@
     "elevationsUncovered": "El servicio de terreno no tiene datos allí.\n{{1}} de {{2}} nudos no tienen elevación.",
     "elevationsUnreachable": "No se pudo alcanzar el servicio de terreno.\n{{1}} de {{2}} nudos no tienen elevación.",
     "customerPointsSkipped": "{{1}} de {{2}} puntos de consumo fueron omitidos. Verifica que tengan geometría de punto y una proyección válida.",
-    "zonesSkipped": "{{1}} de {{2}} características de zona fueron omitidas. Verifica que tengan geometría de polígono y una proyección válida."
+    "zonesSkipped": "{{1}} de {{2}} registros de zona fueron omitidos. Verifica que tengan geometría de polígono y una proyección válida."
   },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
     "legendLabel": "Leyenda:",
     "legendNormal": "Texto normal = datos mapeados,",
-    "showingAll": "Mostrando todas las {{1}} características",
-    "showingFirst": "Mostrando las primeras 100 de {{1}} características",
+    "showingAll": "Mostrando todos los {{1}} registros",
+    "showingFirst": "Mostrando las primeras 100 de {{1}} registros",
     "yearParseHelp": "No pudimos leer un año de este valor. Mapea una propiedad que contenga un año de 4 dígitos. Los formatos soportados incluyen: 2004, 1960-10-29, 29/10/1960, 1960-01-01T00:00:00Z",
     "statusParseHelp": "No pudimos leer un estado de \"{{1}}\". Se importará como {{2}}. Valores soportados: {{3}}.",
     "valveSettingParseHelp": "No pudimos leer un número de \"{{1}}\". El ajuste se importará como ausente. Mapea una propiedad que contenga un número.",
@@ -136,11 +136,11 @@
     "projectionSearchPlaceholder": "Nombre de proyección o EPSG...",
     "removeSource": "Eliminar fuente",
     "sourceError": {
-      "sourceEmpty": "No hay características con una ubicación",
+      "sourceEmpty": "No hay registros con una ubicación",
       "sourceFilesIncomplete": "Falta su archivo .shp",
       "sourceUnreadable": "Archivo ilegible o corrupto"
     },
-    "sourceInfo": "{{1}} – {{2}} características",
+    "sourceInfo": "{{1}} – {{2}} registros",
     "statusAttention": "Requiere atención",
     "statusError": "Error",
     "statusLoading": "Cargando",
@@ -157,7 +157,6 @@
       "unknown": "Geometría desconocida"
     },
     "geometryUnsupported": "Geometría no soportada",
-    "mixedGeometryUnsupported": "La geometría mixta aún no es compatible",
     "assignGeometry": {
       "line": "Asignar líneas a",
       "point": "Asignar puntos a",
@@ -195,7 +194,7 @@
     "mapboxHint": "Añade tu token de Mapbox para ver el mapa real",
     "mapboxPlaceholder": "Marcador de posición del mapa - Se requiere token de Mapbox",
     "networkPreview": "Vista previa de la red",
-    "previewSampled": "La vista previa dibuja una muestra de las características. Cada registro sigue siendo importado."
+    "previewSampled": "La vista previa dibuja una muestra de los registros. Cada uno sigue siendo importado."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -255,6 +254,6 @@
   "noResults": "No hay resultados",
   "search": "Buscar…",
   "zonesPreview": {
-    "zonesFrom": "Mostrando {{1}} zonas desde {{2}} características"
+    "zonesFrom": "Mostrando {{1}} zonas desde {{2}} registros"
   }
 }

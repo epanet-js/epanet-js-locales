@@ -503,6 +503,11 @@
         "defaultDemand": {
           "description": "Utilisé lorsqu'aucun attribut de demande n'est sélectionné.",
           "label": "Demande par défaut"
+        },
+        "coordinateSelector": {
+          "choose": "Sélectionner un attribut...",
+          "x": "Longitude / X",
+          "y": "Latitude / Y"
         }
       },
       "loading": "Chargement...",
@@ -523,7 +528,8 @@
       "fileFormatNotSupported": "Format de fichier non supporté",
       "coordinateValidationError": "Toutes les coordonnées doivent être exprimées en projection WGS84 (EPSG:4326), ou le fichier doit spécifier le système de coordonnées qu'il utilise",
       "projectionConversionError": "Échec de la conversion du système de coordonnées",
-      "unsupportedCrsError": "Système de référence de coordonnées non pris en charge"
+      "unsupportedCrsError": "Système de référence de coordonnées non pris en charge",
+      "coordinateAttributesError": "Aucune coordonnée n'a pu être lue à partir des attributs sélectionnés. Sélectionnez ceux qui contiennent les coordonnées"
     },
     "label": "Importer des points de consommation",
     "menuEntry": "Points de consommation",
@@ -976,7 +982,12 @@
       "title": "Créer un scénario",
       "bullet4": "Les scénarios sont une <bold>fonctionnalité payante</bold> — vous pouvez les explorer librement en utilisant nos modèles de démonstration."
     },
-    "ignoreAndCreate": "Ignorer et créer un scénario"
+    "ignoreAndCreate": "Ignorer et créer un scénario",
+    "signIn": {
+      "action": "Se connecter",
+      "description": "Ce projet contient des scénarios. Connectez-vous pour les afficher.",
+      "title": "Connectez-vous pour afficher les scénarios"
+    }
   },
   "addTimestep": "Ajouter un pas de temps",
   "createScenario": "Créer un nouveau scénario",
@@ -2018,13 +2029,6 @@
       "newLabel": "Nouveau nom d'ensemble de sélection"
     },
     "title": "Collections",
-    "paywall": {
-      "description1": "Enregistrez n'importe quel groupe d'éléments en tant qu'ensemble de sélection réutilisable, et n'importe quelle vue de carte en tant que signet.",
-      "description2": "Revenez au même groupe d'éléments ou à la même zone en un clic, sans resélectionner ni naviguer à nouveau.",
-      "plans": "Les collections sont disponibles avec les plans payants.",
-      "title": "Mettre à niveau pour utiliser les collections",
-      "trial": "Les collections sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
-    },
     "upgrade": {
       "description": "Conservez n'importe quel groupe d'éléments ou zone de carte pour y revenir en un clic",
       "title": "Enregistrez vos propres collections"

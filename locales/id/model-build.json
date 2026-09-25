@@ -80,7 +80,7 @@
     "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
     "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
     "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid.",
-    "zonesSkipped": "{{1}} dari {{2}} fitur zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid."
+    "zonesSkipped": "{{1}} dari {{2}} catatan zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid."
   },
   "dataTable": {
     "legendDefault": "teks miring = nilai default",
@@ -157,7 +157,6 @@
       "unknown": "Geometri tidak dikenal"
     },
     "geometryUnsupported": "Geometri tidak didukung",
-    "mixedGeometryUnsupported": "Geometri campuran belum didukung",
     "assignGeometry": {
       "line": "Tetapkan garis ke",
       "point": "Tetapkan titik ke",

@@ -165,7 +165,8 @@
       "fileFormatNotSupported": "ファイル形式がサポートされていません",
       "coordinateValidationError": "すべての座標はWGS84（EPSG:4326）投影法で表現するか、ファイルに使用する座標系を記述する必要があります",
       "projectionConversionError": "座標系の変換に失敗しました",
-      "unsupportedCrsError": "サポートされていない座標参照系"
+      "unsupportedCrsError": "サポートされていない座標参照系",
+      "coordinateAttributesError": "選択された属性から座標を読み取れませんでした。座標を保持している属性を選択してください。"
     },
     "wizard": {
       "allocationStep": {
@@ -274,6 +275,11 @@
         "defaultDemand": {
           "description": "需要属性が選択されていない場合に使用されます。",
           "label": "デフォルト需要"
+        },
+        "coordinateSelector": {
+          "choose": "属性を選択...",
+          "x": "経度 / X",
+          "y": "緯度 / Y"
         }
       },
       "loading": "読み込み中...",
@@ -976,7 +982,12 @@
       "title": "シナリオを作成",
       "bullet4": "シナリオは<bold>有料機能</bold>です — デモモデルを使用して自由に探索できます。"
     },
-    "ignoreAndCreate": "無視してシナリオを作成"
+    "ignoreAndCreate": "無視してシナリオを作成",
+    "signIn": {
+      "action": "サインイン",
+      "description": "このプロジェクトにはシナリオがあります。表示するにはサインインしてください。",
+      "title": "シナリオを表示するにはサインインしてください"
+    }
   },
   "addTimestep": "タイムステップを追加",
   "createScenario": "新しいシナリオを作成",
@@ -2018,13 +2029,6 @@
       "newLabel": "新しい選択セット名"
     },
     "title": "コレクション",
-    "paywall": {
-      "description1": "任意のアセットグループを再利用可能な選択セットとして、任意のマップビューをブックマークとして保存します。",
-      "description2": "再選択や再ナビゲーションなしで、ワンクリックで同じアセットグループや同じエリアに戻ることができます。",
-      "plans": "コレクションは有料プランでご利用いただけます。",
-      "title": "コレクションを使用するにはアップグレードしてください",
-      "trial": "コレクションは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
-    },
     "upgrade": {
       "description": "任意のアセットグループやマップエリアを保存して、ワンクリックでそこに戻ることができます",
       "title": "独自のコレクションを保存"

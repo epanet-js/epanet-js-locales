@@ -524,7 +524,8 @@
       "projectionConversionError": "Gagal mengonversi sistem koordinat",
       "supportedFormats": "Format yang didukung:",
       "title": "Tambahkan dari file",
-      "unsupportedCrsError": "Sistem referensi koordinat tidak didukung"
+      "unsupportedCrsError": "Sistem referensi koordinat tidak didukung",
+      "coordinateAttributesError": "Tidak ada koordinat yang dapat dibaca dari atribut yang dipilih. Pilih yang memegang koordinat"
     },
     "label": "Impor titik pelanggan",
     "wizard": {
@@ -614,6 +615,11 @@
         "defaultDemand": {
           "description": "Digunakan ketika tidak ada atribut kebutuhan yang dipilih.",
           "label": "Kebutuhan default"
+        },
+        "coordinateSelector": {
+          "choose": "Pilih atribut...",
+          "x": "Bujur / X",
+          "y": "Lintang / Y"
         }
       },
       "dataPreviewStep": "Pemetaan data",
@@ -1181,7 +1187,12 @@
       "placeholder": "Masukkan nama skenario",
       "title": "Ubah Nama Skenario"
     },
-    "switcherTooltip": "Ganti skenario"
+    "switcherTooltip": "Ganti skenario",
+    "signIn": {
+      "action": "Masuk",
+      "description": "Proyek ini memiliki skenario. Masuk untuk melihatnya.",
+      "title": "Masuk untuk melihat skenario"
+    }
   },
   "scenariosItem": "Skenario",
   "searchLocation": "Cari lokasi...",
@@ -2018,13 +2029,6 @@
       "newLabel": "Nama set pilihan baru"
     },
     "title": "Koleksi",
-    "paywall": {
-      "description1": "Simpan setiap kelompok aset sebagai set pilihan yang dapat digunakan kembali, dan tampilan peta apa pun sebagai bookmark.",
-      "description2": "Kembali ke kelompok aset yang sama atau area yang sama dalam satu klik, tanpa memilih ulang atau menavigasi lagi.",
-      "plans": "Koleksi tersedia pada paket berbayar.",
-      "title": "Tingkatkan untuk menggunakan koleksi",
-      "trial": "Koleksi adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
-    },
     "upgrade": {
       "description": "Simpan setiap kelompok aset atau area peta untuk kembali ke sana dalam satu klik",
       "title": "Simpan koleksi Anda sendiri"

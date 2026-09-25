@@ -157,7 +157,6 @@
       "unknown": "Onbekende geometrie"
     },
     "geometryUnsupported": "Niet-ondersteunde geometrie",
-    "mixedGeometryUnsupported": "Gemengde geometrie wordt nog niet ondersteund",
     "assignGeometry": {
       "line": "Lijnen toewijzen aan",
       "point": "Punten toewijzen aan",

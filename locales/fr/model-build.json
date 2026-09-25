@@ -157,7 +157,6 @@
       "unknown": "Géométrie inconnue"
     },
     "geometryUnsupported": "Géométrie non supportée",
-    "mixedGeometryUnsupported": "La géométrie mixte n'est pas encore supportée",
     "assignGeometry": {
       "line": "Attribuer les lignes à",
       "point": "Attribuer les points à",

@@ -503,6 +503,11 @@
         "defaultDemand": {
           "description": "Gebruikt wanneer geen vraagattribuut is geselecteerd.",
           "label": "Standaard vraagwaarde"
+        },
+        "coordinateSelector": {
+          "choose": "Selecteer een attribuut...",
+          "x": "Lengtegraad / X",
+          "y": "Breedtegraad / Y"
         }
       },
       "loading": "Laden...",
@@ -523,7 +528,8 @@
       "fileFormatNotSupported": "Bestandsformaat niet ondersteund",
       "coordinateValidationError": "Alle coördinaten moeten worden uitgedrukt in WGS84 (EPSG:4326) projectie, of het bestand moet het coördinatensysteem vermelden dat het gebruikt",
       "projectionConversionError": "Conversie van coördinatensysteem mislukt",
-      "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem"
+      "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem",
+      "coordinateAttributesError": "Geen coördinaten konden worden gelezen uit de geselecteerde attributen. Selecteer de attributen die de coördinaten bevatten"
     },
     "label": "Klantpunten importeren",
     "menuEntry": "Klantpunten",
@@ -976,7 +982,12 @@
       "title": "Scenario aanmaken",
       "bullet4": "Scenario's zijn een <bold>betaalde functie</bold> — u kunt ze gratis verkennen met onze demonstratiemodellen."
     },
-    "ignoreAndCreate": "Negeren en scenario aanmaken"
+    "ignoreAndCreate": "Negeren en scenario aanmaken",
+    "signIn": {
+      "action": "Inloggen",
+      "description": "Dit project heeft scenario's. Log in om ze te bekijken.",
+      "title": "Meld u aan om scenario's te bekijken"
+    }
   },
   "addTimestep": "Tijdstap toevoegen",
   "createScenario": "Nieuw scenario aanmaken",
@@ -2018,13 +2029,6 @@
       "newLabel": "Nieuwe selectiesetnaam"
     },
     "title": "Collecties",
-    "paywall": {
-      "description1": "Sla elke groep onderdelen op als een herbruikbare selectieset, en elke kaartweergave als een bladwijzer.",
-      "description2": "Keer met één klik terug naar dezelfde groep onderdelen of hetzelfde gebied, zonder opnieuw te selecteren of opnieuw te navigeren.",
-      "plans": "Collecties zijn beschikbaar op betaalde abonnementen.",
-      "title": "Upgrade om collecties te gebruiken",
-      "trial": "Collecties zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
-    },
     "upgrade": {
       "description": "Bewaar elke groep onderdelen of elk kaartgebied om er met één klik naar terug te keren",
       "title": "Sla uw eigen collecties op"

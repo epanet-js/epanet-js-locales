@@ -88,7 +88,7 @@
     "elevationsUncovered": "The terrain service has no data there.\n{{1}} of {{2}} nodes have no elevation.",
     "continueToApp": "Open model",
     "customerPointsSkipped": "{{1}} of {{2}} customer points were skipped. Check they have point geometry and a valid projection.",
-    "zonesSkipped": "{{1}} of {{2}} zone features were skipped. Check they have polygon geometry and a valid projection."
+    "zonesSkipped": "{{1}} of {{2}} zone records were skipped. Check they have polygon geometry and a valid projection."
   },
   "fileDropzone": {
     "unknownFilename": "(unknown filename)",
@@ -107,7 +107,7 @@
     "assignTo": "Assign to",
     "applyProjection": "Apply projection",
     "dismiss": "Dismiss",
-    "sourceInfo": "{{1}} – {{2}} features",
+    "sourceInfo": "{{1}} – {{2}} records",
     "assignGeometry": {
       "point": "Assign points to",
       "line": "Assign lines to",
@@ -143,12 +143,11 @@
     },
     "sourceError": {
       "sourceUnreadable": "Unreadable or corrupted file",
-      "sourceEmpty": "No features with a location",
+      "sourceEmpty": "No records with a location",
       "sourceFilesIncomplete": "Missing its .shp file"
     },
     "addShp": "Add the .shp file",
     "noCompatibleElementsLeft": "No compatible elements left",
-    "mixedGeometryUnsupported": "Mixed geometry isn't supported yet",
     "geometryUnsupported": "Unsupported geometry",
     "format": {
       "geojson": "GeoJSON",
@@ -180,11 +179,11 @@
     "elementsAssigned_other": "{{count}} elements assigned",
     "mapboxPlaceholder": "Map placeholder - Mapbox token required",
     "mapboxHint": "Add your Mapbox token to see the actual map",
-    "previewSampled": "The preview draws a sample of the features. Every record is still imported."
+    "previewSampled": "The preview draws a sample of the records. Every one is still imported."
   },
   "dataTable": {
-    "showingFirst": "Showing first 100 of {{1}} features",
-    "showingAll": "Showing all {{1}} features",
+    "showingFirst": "Showing first 100 of {{1}} records",
+    "showingAll": "Showing all {{1}} records",
     "legendLabel": "Legend:",
     "legendNormal": "Normal text = mapped data,",
     "legendDefault": "italic text = default values",
@@ -256,6 +255,6 @@
     "off": "Off"
   },
   "zonesPreview": {
-    "zonesFrom": "Showing {{1}} zones from {{2}} features"
+    "zonesFrom": "Showing {{1}} zones from {{2}} records"
   }
 }

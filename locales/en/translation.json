@@ -1305,6 +1305,11 @@
           "label": "Default demand",
           "description": "Used when no demand attribute is selected."
         },
+        "coordinateSelector": {
+          "x": "Longitude / X",
+          "y": "Latitude / Y",
+          "choose": "Select an attribute..."
+        },
         "labelSelector": {
           "label": "Label",
           "placeholder": "Select label property...",
@@ -1394,6 +1399,7 @@
       "noValidPointsError": "No valid customer points found in the selected file.",
       "parseFileError": "Failed to parse file",
       "coordinateValidationError": "All coordinates must be expressed in WGS84 (EPSG:4326) projection, or the file must state the coordinate system it uses",
+      "coordinateAttributesError": "No coordinates could be read from the selected attributes. Select the ones holding the coordinates",
       "unsupportedCrsError": "Unsupported coordinate reference system",
       "projectionConversionError": "Failed to convert coordinate system",
       "fileFormatNotSupported": "File format not supported",
@@ -1608,6 +1614,11 @@
       "errorEmpty": "Scenario name cannot be empty",
       "errorDuplicate": "This name is already in use",
       "errorReserved": "This name is reserved"
+    },
+    "signIn": {
+      "title": "Sign in to view scenarios",
+      "description": "This project has scenarios. Sign in to view them.",
+      "action": "Sign in"
     },
     "deleteConfirmation": {
       "title": "Delete Scenario",
@@ -2027,13 +2038,6 @@
       "add": "Add bookmark",
       "newLabel": "New bookmark name",
       "labelPlaceholder": "Bookmark name"
-    },
-    "paywall": {
-      "title": "Upgrade to use collections",
-      "description1": "Save any group of assets as a reusable selection set, and any map view as a bookmark.",
-      "description2": "Come back to the same group of assets or the same area in one click, without reselecting or navigating again.",
-      "plans": "Collections are available on paid plans.",
-      "trial": "Collections are a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
     },
     "upgrade": {
       "title": "Save your own collections",

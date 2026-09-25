@@ -503,6 +503,11 @@
         "defaultDemand": {
           "description": "Usado quando nenhum atributo de demanda é selecionado.",
           "label": "Demanda padrão"
+        },
+        "coordinateSelector": {
+          "choose": "Selecionar um atributo...",
+          "x": "Longitude / X",
+          "y": "Latitude / Y"
         }
       },
       "loading": "Carregando...",
@@ -523,7 +528,8 @@
       "fileFormatNotSupported": "Formato de arquivo não suportado",
       "coordinateValidationError": "Todas as coordenadas devem ser expressas na projeção WGS84 (EPSG:4326), ou o arquivo deve especificar o sistema de coordenadas que utiliza",
       "projectionConversionError": "Falha ao converter sistema de coordenadas",
-      "unsupportedCrsError": "Sistema de referência de coordenadas não suportado"
+      "unsupportedCrsError": "Sistema de referência de coordenadas não suportado",
+      "coordinateAttributesError": "Não foi possível ler as coordenadas dos atributos selecionados. Selecione os atributos que contêm as coordenadas"
     },
     "label": "Importar Pontos de Consumo",
     "menuEntry": "Pontos de consumo",
@@ -976,7 +982,12 @@
       "title": "Criar cenário",
       "bullet4": "Cenários são um recurso <bold>pago</bold> — você pode explorá-los gratuitamente usando nossos modelos de demonstração."
     },
-    "ignoreAndCreate": "Ignorar e criar cenário"
+    "ignoreAndCreate": "Ignorar e criar cenário",
+    "signIn": {
+      "action": "Entrar",
+      "description": "Este projeto tem cenários. Entre para vê-los.",
+      "title": "Entre para ver os cenários"
+    }
   },
   "addTimestep": "Adicionar passo de tempo",
   "createScenario": "Criar novo cenário",
@@ -2018,13 +2029,6 @@
       "newLabel": "Novo nome do conjunto de seleção"
     },
     "title": "Coleções",
-    "paywall": {
-      "description1": "Salve qualquer grupo de ativos como um conjunto de seleção reutilizável, e qualquer visualização de mapa como um marcador.",
-      "description2": "Volte para o mesmo grupo de ativos ou para a mesma área com um clique, sem precisar selecionar novamente ou navegar.",
-      "plans": "Coleções estão disponíveis em planos pagos.",
-      "title": "Atualize para usar coleções",
-      "trial": "Coleções são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
-    },
     "upgrade": {
       "description": "Mantenha qualquer grupo de ativos ou área de mapa para retornar a ele com um clique",
       "title": "Salve suas próprias coleções"

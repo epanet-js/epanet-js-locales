@@ -157,7 +157,6 @@
       "unknown": "Geometria desconhecida"
     },
     "geometryUnsupported": "Geometria não suportada",
-    "mixedGeometryUnsupported": "Geometria mista ainda não é suportada",
     "assignGeometry": {
       "line": "Atribuir linhas a",
       "point": "Atribuir pontos a",
@@ -195,7 +194,7 @@
     "mapboxHint": "Adicione seu token Mapbox para ver o mapa real",
     "mapboxPlaceholder": "Espaço reservado do mapa - Token Mapbox necessário",
     "networkPreview": "Pré-visualização da rede",
-    "previewSampled": "A pré-visualização exibe uma amostra das feições. Cada registro ainda é importado."
+    "previewSampled": "A pré-visualização exibe uma amostra das feições. Cada uma ainda é importada."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",

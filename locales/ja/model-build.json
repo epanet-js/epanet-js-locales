@@ -157,7 +157,6 @@
       "unknown": "不明なジオメトリ"
     },
     "geometryUnsupported": "サポートされていないジオメトリ",
-    "mixedGeometryUnsupported": "混合ジオメトリはまだサポートされていません",
     "assignGeometry": {
       "line": "ラインを割り当て先",
       "point": "ポイントを割り当て先",
