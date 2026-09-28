@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "Nenhuma feição com localização",
       "sourceFilesIncomplete": "Faltando seu arquivo .shp",
-      "sourceUnreadable": "Arquivo ilegível ou corrompido"
+      "sourceUnreadable": "Arquivo ilegível ou corrompido",
+      "coordinateAttributesMissing": "Nenhum atributo no arquivo contém coordenadas",
+      "sourceHeaderMissing": "A primeira linha não nomeia as colunas"
     },
     "sourceInfo": "{{1}} – {{2}} feições",
     "statusAttention": "Precisa de atenção",

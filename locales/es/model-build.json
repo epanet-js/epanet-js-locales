@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "No hay registros con una ubicación",
       "sourceFilesIncomplete": "Falta su archivo .shp",
-      "sourceUnreadable": "Archivo ilegible o corrupto"
+      "sourceUnreadable": "Archivo ilegible o corrupto",
+      "coordinateAttributesMissing": "Ningún atributo en el archivo contiene coordenadas",
+      "sourceHeaderMissing": "La primera fila no nombra las columnas"
     },
     "sourceInfo": "{{1}} – {{2}} registros",
     "statusAttention": "Requiere atención",

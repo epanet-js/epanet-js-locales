@@ -529,7 +529,9 @@
       "coordinateValidationError": "Toutes les coordonnées doivent être exprimées en projection WGS84 (EPSG:4326), ou le fichier doit spécifier le système de coordonnées qu'il utilise",
       "projectionConversionError": "Échec de la conversion du système de coordonnées",
       "unsupportedCrsError": "Système de référence de coordonnées non pris en charge",
-      "coordinateAttributesError": "Aucune coordonnée n'a pu être lue à partir des attributs sélectionnés. Sélectionnez ceux qui contiennent les coordonnées"
+      "coordinateAttributesError": "Aucune coordonnée n'a pu être lue à partir des attributs sélectionnés. Sélectionnez ceux qui contiennent les coordonnées",
+      "headerMissingError": "La première ligne ne nomme pas les colonnes. Un fichier CSV nécessite une ligne d'en-tête nommant chaque colonne.",
+      "noCoordinateAttributesError": "Aucun attribut dans le fichier ne contient de coordonnées, donc rien n'a pu être importé."
     },
     "label": "Importer des points de consommation",
     "menuEntry": "Points de consommation",
@@ -973,21 +975,19 @@
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
-      "bullet2": "Les scénarios <bold>ne peuvent pas encore être enregistrés</bold> et sont temporaires.",
       "bullet3": "Vous pouvez supprimer vos scénarios à tout moment pour déverrouiller le modèle principal.",
       "createButton": "Créer un scénario",
       "dontShowAgain": "Ne plus afficher ceci",
-      "earlyAccess": "Cette fonctionnalité est en accès anticipé et est toujours en cours de développement actif, donc certaines fonctionnalités sont limitées dans cette première version.",
       "pleaseNote": "Veuillez noter :",
-      "title": "Créer un scénario",
-      "bullet4": "Les scénarios sont une <bold>fonctionnalité payante</bold> — vous pouvez les explorer librement en utilisant nos modèles de démonstration."
+      "title": "Créer un scénario"
     },
     "ignoreAndCreate": "Ignorer et créer un scénario",
     "signIn": {
       "action": "Se connecter",
       "description": "Ce projet contient des scénarios. Connectez-vous pour les afficher.",
       "title": "Connectez-vous pour afficher les scénarios"
-    }
+    },
+    "loadingScenario": "Chargement de {{1}}..."
   },
   "addTimestep": "Ajouter un pas de temps",
   "createScenario": "Créer un nouveau scénario",
@@ -1000,8 +1000,6 @@
   "scenariosItem": "Scénarios",
   "customerPattern": "Motif de demande client",
   "goToMain": "Aller au principal",
-  "alertScenariosNotSaved": "Les scénarios ne seront pas enregistrés",
-  "alertScenariosNotSavedDetail": "Seul le modèle principal sera enregistré. Vos scénarios resteront disponibles dans cette session mais seront perdus lorsque vous fermerez l'application. La persistance complète des scénarios sera bientôt disponible.",
   "directDemand": "Demande directe",
   "addDirectDemand": "Ajouter une demande directe",
   "alertNetworkRequired": "Réseau requis",
@@ -1411,7 +1409,6 @@
   "recent": "Récent",
   "toggleBranch": "Basculer vers la dernière version",
   "alertExportInp": "Certaines données peuvent être perdues",
-  "alertExportInpDetail": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les points de consommation, les champs d'éléments personnalisés et les contrôles natifs.",
   "drawingTools": "Outils de dessin",
   "gotIt": "Compris",
   "newBadge": "nouveau",
@@ -1953,7 +1950,9 @@
       "valveScheduleUnreadable_other": "{{count}} vannes nomment des programmes de réglage sans points, elles ont donc été importées comme des TCV sans réglage",
       "zoneGeometryUnreadable_one": "1 limite de zone a trop peu de points pour former un polygone, elle n'a donc pas été importée",
       "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées",
-      "coordinateAttributesUnknown": "Nous n'avons pas pu déterminer quels attributs contiennent les coordonnées, donc rien n'a été importé."
+      "coordinateAttributesUnknown": "Nous n'avons pas pu déterminer quels attributs contiennent les coordonnées, donc rien n'a été importé.",
+      "coordinateAttributesMissing": "Aucun attribut dans le fichier ne contient de coordonnées, donc rien n'a été importé.",
+      "sourceHeaderMissing": "La première ligne ne nomme pas les colonnes, donc rien n'a été importé."
     },
     "paywall": {
       "captions": {

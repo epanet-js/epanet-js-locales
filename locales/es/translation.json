@@ -548,7 +548,9 @@
       "coordinateValidationError": "Todas las coordenadas deben expresarse en proyección WGS84 (EPSG:4326), o el archivo debe indicar el sistema de coordenadas que utiliza",
       "projectionConversionError": "Fallo al convertir el sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referencia de coordenadas no soportado",
-      "coordinateAttributesError": "No se pudieron leer las coordenadas de los atributos seleccionados. Selecciona los que contengan las coordenadas"
+      "coordinateAttributesError": "No se pudieron leer las coordenadas de los atributos seleccionados. Selecciona los que contengan las coordenadas",
+      "headerMissingError": "La primera fila no nombra las columnas. Un CSV necesita una fila de encabezado que nombre cada columna.",
+      "noCoordinateAttributesError": "Ningún atributo en el archivo contiene coordenadas, por lo que no se pudo importar nada."
     },
     "label": "Importar Puntos de Consumo",
     "menuEntry": "Puntos de consumo",
@@ -986,21 +988,19 @@
     },
     "firstScenario": {
       "bullet1": "El modelo principal se vuelve <bold>de solo lectura</bold> mientras existan escenarios.",
-      "bullet2": "Los escenarios <bold>no se pueden guardar</bold> aún y son temporales.",
       "bullet3": "Puedes eliminar tus escenarios en cualquier momento para desbloquear el modelo principal.",
       "createButton": "Crear escenario",
       "dontShowAgain": "No mostrar esto de nuevo",
-      "earlyAccess": "Esta función está en acceso anticipado y aún en desarrollo activo, por lo que algunas funcionalidades están limitadas en esta primera versión.",
       "pleaseNote": "Ten en cuenta:",
-      "title": "Crear escenario",
-      "bullet4": "Los escenarios son una <bold>función de pago</bold> — puedes explorarlos libremente usando nuestros modelos de demostración."
+      "title": "Crear escenario"
     },
     "ignoreAndCreate": "Ignorar y crear escenario",
     "signIn": {
       "action": "Iniciar sesión",
       "description": "Este proyecto tiene escenarios. Inicia sesión para verlos.",
       "title": "Inicia sesión para ver los escenarios"
-    }
+    },
+    "loadingScenario": "Cargando {{1}}..."
   },
   "addTimestep": "Añadir paso de tiempo",
   "createScenario": "Crear nuevo escenario",
@@ -1013,8 +1013,6 @@
   "scenariosItem": "Escenarios",
   "customerPattern": "Patrón de demanda de clientes",
   "goToMain": "Ir a principal",
-  "alertScenariosNotSaved": "Los escenarios no se guardarán",
-  "alertScenariosNotSavedDetail": "Solo se guardará el modelo principal. Tus escenarios permanecerán disponibles en esta sesión, pero se perderán cuando cierres la aplicación. La persistencia completa de escenarios estará disponible pronto.",
   "directDemand": "Demanda directa",
   "addDirectDemand": "Añadir demanda directa",
   "alertNetworkRequired": "Red requerida",
@@ -1424,7 +1422,6 @@
   "recent": "Reciente",
   "toggleBranch": "Cambiar a la última versión",
   "alertExportInp": "Algunos datos pueden perderse",
-  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de activos personalizados y los controles nativos.",
   "drawingTools": "Herramientas de dibujo",
   "gotIt": "Entendido",
   "newBadge": "nuevo",
@@ -1960,7 +1957,9 @@
       "valveScheduleUnreadable_other": "{{count}} Válvulas especifican programas de ajuste sin puntos, por lo que fueron importadas como TCVs sin ajuste",
       "zoneGeometryUnreadable_one": "1 límite de zona tiene muy pocos puntos para formar un polígono, por lo que no fue importado",
       "zoneGeometryUnreadable_other": "{{count}} límites de zona tienen muy pocos puntos para formar polígonos, por lo que no fueron importados",
-      "coordinateAttributesUnknown": "No pudimos determinar qué atributos contienen las coordenadas, por lo que no se importó nada."
+      "coordinateAttributesUnknown": "No pudimos determinar qué atributos contienen las coordenadas, por lo que no se importó nada.",
+      "coordinateAttributesMissing": "Ningún atributo en el archivo contiene coordenadas, por lo que no se importó nada.",
+      "sourceHeaderMissing": "La primera fila no nombra las columnas, por lo que no se importó nada."
     },
     "paywall": {
       "captions": {

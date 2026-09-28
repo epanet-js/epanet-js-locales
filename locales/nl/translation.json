@@ -529,7 +529,9 @@
       "coordinateValidationError": "Alle coördinaten moeten worden uitgedrukt in WGS84 (EPSG:4326) projectie, of het bestand moet het coördinatensysteem vermelden dat het gebruikt",
       "projectionConversionError": "Conversie van coördinatensysteem mislukt",
       "unsupportedCrsError": "Niet-ondersteund coördinatenreferentiesysteem",
-      "coordinateAttributesError": "Geen coördinaten konden worden gelezen uit de geselecteerde attributen. Selecteer de attributen die de coördinaten bevatten"
+      "coordinateAttributesError": "Geen coördinaten konden worden gelezen uit de geselecteerde attributen. Selecteer de attributen die de coördinaten bevatten",
+      "headerMissingError": "De eerste rij benoemt de kolommen niet. Een CSV heeft een headerrij nodig die elke kolom benoemt.",
+      "noCoordinateAttributesError": "Geen attribuut in het bestand bevat coördinaten, dus niets kon worden geïmporteerd."
     },
     "label": "Klantpunten importeren",
     "menuEntry": "Klantpunten",
@@ -973,21 +975,19 @@
     },
     "firstScenario": {
       "bullet1": "Het hoofdmodel wordt <bold>alleen-lezen</bold> zolang er scenario's bestaan.",
-      "bullet2": "Scenario's <bold>kunnen nog niet worden opgeslagen</bold> en zijn tijdelijk.",
       "bullet3": "U kunt uw scenario's op elk moment verwijderen om het hoofdmodel te ontgrendelen.",
       "createButton": "Scenario aanmaken",
       "dontShowAgain": "Dit niet opnieuw tonen",
-      "earlyAccess": "Deze functie is in vroege toegang en nog in actieve ontwikkeling, dus sommige functionaliteit is beperkt in deze eerste versie.",
       "pleaseNote": "Let op:",
-      "title": "Scenario aanmaken",
-      "bullet4": "Scenario's zijn een <bold>betaalde functie</bold> — u kunt ze gratis verkennen met onze demonstratiemodellen."
+      "title": "Scenario aanmaken"
     },
     "ignoreAndCreate": "Negeren en scenario aanmaken",
     "signIn": {
       "action": "Inloggen",
       "description": "Dit project heeft scenario's. Log in om ze te bekijken.",
       "title": "Meld u aan om scenario's te bekijken"
-    }
+    },
+    "loadingScenario": "Laden {{1}}..."
   },
   "addTimestep": "Tijdstap toevoegen",
   "createScenario": "Nieuw scenario aanmaken",
@@ -1000,8 +1000,6 @@
   "scenariosItem": "Scenario's",
   "customerPattern": "Klantvraagpatroon",
   "goToMain": "Ga naar hoofdmodel",
-  "alertScenariosNotSaved": "Scenario's worden niet opgeslagen",
-  "alertScenariosNotSavedDetail": "Alleen het hoofdmodel wordt opgeslagen. Uw scenario's blijven beschikbaar in deze sessie, maar gaan verloren wanneer u de app sluit. Volledige scenario-persistentie is binnenkort beschikbaar.",
   "directDemand": "Directe vraag",
   "addDirectDemand": "Directe vraag toevoegen",
   "alertNetworkRequired": "Netwerk vereist",
@@ -1411,7 +1409,6 @@
   "recent": "Recent",
   "toggleBranch": "Overschakelen naar laatste versie",
   "alertExportInp": "Sommige gegevens kunnen verloren gaan",
-  "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals klantpunten, aangepaste onderdeelvelden en native besturingen.",
   "drawingTools": "Tekentools",
   "gotIt": "Begrepen",
   "newBadge": "nieuw",
@@ -1953,7 +1950,9 @@
       "valveScheduleUnreadable_other": "{{count}} ventielen verwijzen naar instelschema's zonder punten, dus ze zijn geïmporteerd als TCV's zonder instelling",
       "zoneGeometryUnreadable_one": "1 Zonegrens heeft te weinig punten om een polygoon te vormen, dus deze is niet geïmporteerd",
       "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd",
-      "coordinateAttributesUnknown": "We konden niet bepalen welke attributen de coördinaten bevatten, dus er is niets geïmporteerd."
+      "coordinateAttributesUnknown": "We konden niet bepalen welke attributen de coördinaten bevatten, dus er is niets geïmporteerd.",
+      "coordinateAttributesMissing": "Geen attribuut in het bestand bevat coördinaten, dus er is niets geïmporteerd.",
+      "sourceHeaderMissing": "De eerste rij benoemt de kolommen niet, dus er is niets geïmporteerd."
     },
     "paywall": {
       "captions": {

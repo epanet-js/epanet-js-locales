@@ -143,8 +143,10 @@
     },
     "sourceError": {
       "sourceUnreadable": "Unreadable or corrupted file",
+      "sourceHeaderMissing": "No header row naming the columns",
       "sourceEmpty": "No records with a location",
-      "sourceFilesIncomplete": "Missing its .shp file"
+      "sourceFilesIncomplete": "Missing its .shp file",
+      "coordinateAttributesMissing": "No attribute holds coordinates"
     },
     "addShp": "Add the .shp file",
     "noCompatibleElementsLeft": "No compatible elements left",

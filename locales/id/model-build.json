@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "Tidak ada fitur dengan lokasi",
       "sourceFilesIncomplete": "File .shp-nya hilang",
-      "sourceUnreadable": "File tidak terbaca atau rusak"
+      "sourceUnreadable": "File tidak terbaca atau rusak",
+      "coordinateAttributesMissing": "Tidak ada atribut yang menyimpan koordinat",
+      "sourceHeaderMissing": "Tidak ada baris header yang menyebutkan nama kolom"
     },
     "sourceInfo": "{{1}} – {{2}} fitur",
     "statusAttention": "Perlu perhatian",

@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "位置情報を持つフィーチャがありません",
       "sourceFilesIncomplete": "「.shpファイルがありません",
-      "sourceUnreadable": "読み取り不能または破損したファイル"
+      "sourceUnreadable": "読み取り不能または破損したファイル",
+      "coordinateAttributesMissing": "ファイルに座標を保持する属性がないため、何もインポートできませんでした。",
+      "sourceHeaderMissing": "最初の行が列の名前を定義していません"
     },
     "sourceInfo": "{{1}} – {{2}} フィーチャ",
     "statusAttention": "注意が必要です",

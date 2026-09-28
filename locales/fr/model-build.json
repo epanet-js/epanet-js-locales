@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "Aucune entité avec une localisation",
       "sourceFilesIncomplete": "Manque son fichier .shp",
-      "sourceUnreadable": "Fichier illisible ou corrompu"
+      "sourceUnreadable": "Fichier illisible ou corrompu",
+      "coordinateAttributesMissing": "Aucun attribut ne contient de coordonnées",
+      "sourceHeaderMissing": "Pas de ligne d'en-tête nommant les colonnes"
     },
     "sourceInfo": "{{1}} – {{2}} entités",
     "statusAttention": "Nécessite une attention",

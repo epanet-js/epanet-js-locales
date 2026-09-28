@@ -166,7 +166,9 @@
       "coordinateValidationError": "すべての座標はWGS84（EPSG:4326）投影法で表現するか、ファイルに使用する座標系を記述する必要があります",
       "projectionConversionError": "座標系の変換に失敗しました",
       "unsupportedCrsError": "サポートされていない座標参照系",
-      "coordinateAttributesError": "選択された属性から座標を読み取れませんでした。座標を保持している属性を選択してください。"
+      "coordinateAttributesError": "選択された属性から座標を読み取れませんでした。座標を保持している属性を選択してください。",
+      "headerMissingError": "最初の行が列の名前を定義していません。CSVには各列の名前を定義するヘッダー行が必要です。",
+      "noCoordinateAttributesError": "ファイルに座標を保持する属性がないため、何もインポートできませんでした。"
     },
     "wizard": {
       "allocationStep": {
@@ -973,21 +975,19 @@
     },
     "firstScenario": {
       "bullet1": "シナリオが存在する間、メインモデルは<bold>読み取り専用</bold>になります。",
-      "bullet2": "シナリオはまだ<bold>保存できません</bold>が、一時的なものです。",
       "bullet3": "いつでもシナリオを削除して、メインモデルのロックを解除できます。",
       "createButton": "シナリオを作成",
       "dontShowAgain": "次回から表示しない",
-      "earlyAccess": "この機能は早期アクセス版であり、現在も積極的に開発中のため、この最初のバージョンでは一部の機能が制限されています。",
       "pleaseNote": "ご注意ください：",
-      "title": "シナリオを作成",
-      "bullet4": "シナリオは<bold>有料機能</bold>です — デモモデルを使用して自由に探索できます。"
+      "title": "シナリオを作成"
     },
     "ignoreAndCreate": "無視してシナリオを作成",
     "signIn": {
       "action": "サインイン",
       "description": "このプロジェクトにはシナリオがあります。表示するにはサインインしてください。",
       "title": "シナリオを表示するにはサインインしてください"
-    }
+    },
+    "loadingScenario": "{{1}} を読み込み中..."
   },
   "addTimestep": "タイムステップを追加",
   "createScenario": "新しいシナリオを作成",
@@ -1000,8 +1000,6 @@
   "scenariosItem": "シナリオ",
   "customerPattern": "顧客需要パターン",
   "goToMain": "メインへ移動",
-  "alertScenariosNotSaved": "シナリオは保存されません",
-  "alertScenariosNotSavedDetail": "メインモデルのみが保存されます。作成したシナリオはこのセッション中利用可能ですが、アプリを閉じると失われます。完全なシナリオの永続化は近日中に提供される予定です。",
   "directDemand": "直接需要",
   "addDirectDemand": "直接需要を追加",
   "alertNetworkRequired": "ネットワークが必要です",
@@ -1411,7 +1409,6 @@
   "recent": "最近",
   "toggleBranch": "最終バージョンに切り替える",
   "alertExportInp": "一部のデータが失われる可能性があります",
-  "alertExportInpDetail": "EPANET INP形式は、顧客ポイント、カスタム資産フィールド、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
   "drawingTools": "描画ツール",
   "gotIt": "了解",
   "newBadge": "new",
@@ -1953,7 +1950,9 @@
       "valveScheduleUnreadable_other": "{{count}}個の弁は点のない設定スケジュールを指定していたため、設定なしのTCVとしてインポートされました",
       "zoneGeometryUnreadable_one": "1つのゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
       "zoneGeometryUnreadable_other": "{{count}}個のゾーン境界はポリゴンを作成するには点が少なすぎたため、インポートされませんでした",
-      "coordinateAttributesUnknown": "どの属性が座標を保持しているか判断できなかったため、何もインポートされませんでした。"
+      "coordinateAttributesUnknown": "どの属性が座標を保持しているか判断できなかったため、何もインポートされませんでした。",
+      "coordinateAttributesMissing": "ファイルに座標を保持する属性がないため、何もインポートされませんでした。",
+      "sourceHeaderMissing": "最初の行が列の名前を定義していないため、何もインポートされませんでした。"
     },
     "paywall": {
       "captions": {

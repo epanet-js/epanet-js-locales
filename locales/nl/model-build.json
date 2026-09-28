@@ -138,7 +138,9 @@
     "sourceError": {
       "sourceEmpty": "Geen objecten met een locatie",
       "sourceFilesIncomplete": "Mist het .shp-bestand",
-      "sourceUnreadable": "Onleesbaar of beschadigd bestand"
+      "sourceUnreadable": "Onleesbaar of beschadigd bestand",
+      "coordinateAttributesMissing": "Geen attribuut bevat coördinaten",
+      "sourceHeaderMissing": "Geen headerrij die de kolommen benoemt"
     },
     "sourceInfo": "{{1}} – {{2}} objecten",
     "statusAttention": "Vereist aandacht",

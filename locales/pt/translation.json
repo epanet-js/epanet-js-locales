@@ -529,7 +529,9 @@
       "coordinateValidationError": "Todas as coordenadas devem ser expressas na projeção WGS84 (EPSG:4326), ou o arquivo deve especificar o sistema de coordenadas que utiliza",
       "projectionConversionError": "Falha ao converter sistema de coordenadas",
       "unsupportedCrsError": "Sistema de referência de coordenadas não suportado",
-      "coordinateAttributesError": "Não foi possível ler as coordenadas dos atributos selecionados. Selecione os atributos que contêm as coordenadas"
+      "coordinateAttributesError": "Não foi possível ler as coordenadas dos atributos selecionados. Selecione os atributos que contêm as coordenadas",
+      "headerMissingError": "A primeira linha não nomeia as colunas. Um CSV precisa de uma linha de cabeçalho nomeando cada coluna.",
+      "noCoordinateAttributesError": "Nenhum atributo no arquivo contém coordenadas, então nada pôde ser importado."
     },
     "label": "Importar Pontos de Consumo",
     "menuEntry": "Pontos de consumo",
@@ -973,21 +975,19 @@
     },
     "firstScenario": {
       "bullet1": "O modelo principal se torna <bold>somente leitura</bold> enquanto os cenários existirem.",
-      "bullet2": "Os cenários <bold>não podem ser salvos</bold> ainda e são temporários.",
       "bullet3": "Você pode excluir seus cenários a qualquer momento para desbloquear o modelo principal.",
       "createButton": "Criar cenário",
       "dontShowAgain": "Não mostrar novamente",
-      "earlyAccess": "Este recurso é de acesso antecipado e ainda está em desenvolvimento ativo, então algumas funcionalidades são limitadas nesta primeira versão.",
       "pleaseNote": "Por favor, note:",
-      "title": "Criar cenário",
-      "bullet4": "Cenários são um recurso <bold>pago</bold> — você pode explorá-los gratuitamente usando nossos modelos de demonstração."
+      "title": "Criar cenário"
     },
     "ignoreAndCreate": "Ignorar e criar cenário",
     "signIn": {
       "action": "Entrar",
       "description": "Este projeto tem cenários. Entre para vê-los.",
       "title": "Entre para ver os cenários"
-    }
+    },
+    "loadingScenario": "Carregando {{1}}..."
   },
   "addTimestep": "Adicionar passo de tempo",
   "createScenario": "Criar novo cenário",
@@ -1000,8 +1000,6 @@
   "scenariosItem": "Cenários",
   "customerPattern": "Padrão de demanda de clientes",
   "goToMain": "Ir para o principal",
-  "alertScenariosNotSaved": "Cenários não serão salvos",
-  "alertScenariosNotSavedDetail": "Apenas o modelo principal será salvo. Seus cenários permanecerão disponíveis nesta sessão, mas serão perdidos ao fechar o aplicativo. A persistência completa de cenários estará disponível em breve.",
   "directDemand": "Demanda direta",
   "addDirectDemand": "Adicionar demanda direta",
   "alertNetworkRequired": "Rede necessária",
@@ -1411,7 +1409,6 @@
   "recent": "Recente",
   "toggleBranch": "Mudar para a última versão",
   "alertExportInp": "Alguns dados podem ser perdidos",
-  "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo, campos de ativos personalizados e controles nativos.",
   "drawingTools": "Ferramentas de desenho",
   "gotIt": "Entendi",
   "newBadge": "novo",
@@ -1953,7 +1950,9 @@
       "valveScheduleUnreadable_other": "{{count}} Válvulas nomeiam agendamentos de ajuste sem pontos, então foram importadas como TCVs sem ajuste",
       "zoneGeometryUnreadable_one": "1 limite de zona tem poucos pontos para formar um polígono, então não foi importado",
       "zoneGeometryUnreadable_other": "{{count}} limites de zona têm poucos pontos para formar polígonos, então não foram importados",
-      "coordinateAttributesUnknown": "Não foi possível determinar quais atributos contêm as coordenadas, então nada foi importado."
+      "coordinateAttributesUnknown": "Não foi possível determinar quais atributos contêm as coordenadas, então nada foi importado.",
+      "coordinateAttributesMissing": "Nenhum atributo no arquivo contém coordenadas, então nada foi importado.",
+      "sourceHeaderMissing": "A primeira linha não nomeia as colunas, então nada foi importado."
     },
     "paywall": {
       "captions": {
