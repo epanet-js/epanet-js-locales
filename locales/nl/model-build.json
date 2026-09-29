@@ -19,7 +19,8 @@
       "placeholderLegacy": "Selecteer aangepaste attributen..."
     },
     "backToFileUpload": "Bestand uploaden",
-    "layers": "Lagen"
+    "layers": "Lagen",
+    "mappingColumnTitle": "Attribuutkoppeling"
   },
   "attributes": {
     "year": "Installatiejaar",
@@ -260,7 +261,8 @@
   "noResults": "Geen resultaten",
   "search": "Zoeken…",
   "zonesPreview": {
-    "zonesFrom": "Toont {{1}} zones van {{2}} objecten"
+    "zonesFrom": "Toont {{1}} zones van {{2}} objecten",
+    "polygons": "Polygonen"
   },
   "dataAssignment": {
     "backToIntro": "Intro",

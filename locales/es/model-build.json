@@ -19,7 +19,8 @@
       "placeholderLegacy": "Seleccionar atributos personalizados..."
     },
     "backToFileUpload": "Carga de archivo",
-    "layers": "Capas"
+    "layers": "Capas",
+    "mappingColumnTitle": "Mapeo de atributos"
   },
   "attributes": {
     "year": "Año de instalación",
@@ -260,7 +261,8 @@
   "noResults": "No hay resultados",
   "search": "Buscar…",
   "zonesPreview": {
-    "zonesFrom": "Mostrando {{1}} zonas desde {{2}} registros"
+    "zonesFrom": "Mostrando {{1}} zonas desde {{2}} registros",
+    "polygons": "Polígonos"
   },
   "dataAssignment": {
     "backToIntro": "Introducción",

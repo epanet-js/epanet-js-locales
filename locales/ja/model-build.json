@@ -19,7 +19,8 @@
       "placeholderLegacy": "カスタム属性を選択..."
     },
     "backToFileUpload": "ファイルアップロード",
-    "layers": "レイヤー"
+    "layers": "レイヤー",
+    "mappingColumnTitle": "属性マッピング"
   },
   "attributes": {
     "year": "設置年",
@@ -260,7 +261,8 @@
   "noResults": "結果なし",
   "search": "検索…",
   "zonesPreview": {
-    "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中"
+    "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中",
+    "polygons": "ポリゴン"
   },
   "dataAssignment": {
     "backToIntro": "イントロ",

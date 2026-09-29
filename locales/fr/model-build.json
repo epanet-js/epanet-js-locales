@@ -19,7 +19,8 @@
       "placeholderLegacy": "Sélectionner des attributs personnalisés..."
     },
     "backToFileUpload": "Chargement de fichier",
-    "layers": "Couches"
+    "layers": "Couches",
+    "mappingColumnTitle": "Mappage des attributs"
   },
   "attributes": {
     "year": "Année d'installation",
@@ -260,7 +261,8 @@
   "noResults": "Aucun résultat",
   "search": "Rechercher…",
   "zonesPreview": {
-    "zonesFrom": "Affichage de {{1}} zones à partir de {{2}} entités"
+    "zonesFrom": "Affichage de {{1}} zones à partir de {{2}} entités",
+    "polygons": "Polygones"
   },
   "dataAssignment": {
     "backToIntro": "Introduction",

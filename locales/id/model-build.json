@@ -19,7 +19,8 @@
       "placeholderLegacy": "Pilih atribut kustom..."
     },
     "backToFileUpload": "Pengunggahan file",
-    "layers": "Lapisan"
+    "layers": "Lapisan",
+    "mappingColumnTitle": "Pemetaan atribut"
   },
   "attributes": {
     "year": "Tahun pemasangan",
@@ -260,7 +261,8 @@
   "noResults": "Tidak ada hasil",
   "search": "Cari…",
   "zonesPreview": {
-    "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur"
+    "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur",
+    "polygons": "Poligon"
   },
   "dataAssignment": {
     "backToIntro": "Pendahuluan",

@@ -19,7 +19,8 @@
       "placeholderLegacy": "Selecionar atributos personalizados..."
     },
     "backToFileUpload": "Upload de arquivos",
-    "layers": "Camadas"
+    "layers": "Camadas",
+    "mappingColumnTitle": "Mapeamento de atributos"
   },
   "attributes": {
     "year": "Ano de instalação",
@@ -260,7 +261,8 @@
   "noResults": "Sem resultados",
   "search": "Buscar…",
   "zonesPreview": {
-    "zonesFrom": "Exibindo {{1}} zonas de {{2}} feições"
+    "zonesFrom": "Exibindo {{1}} zonas de {{2}} feições",
+    "polygons": "Polígonos"
   },
   "dataAssignment": {
     "backToIntro": "Introdução",

@@ -43,6 +43,7 @@
     "dataPreview": "Data preview",
     "buildModel": "Build model",
     "layers": "Layers",
+    "mappingColumnTitle": "Attribute mapping",
     "backToFileUpload": "File upload",
     "customAttributes": {
       "label": "Custom attributes",
@@ -264,6 +265,7 @@
     "off": "Off"
   },
   "zonesPreview": {
-    "zonesFrom": "Showing {{1}} zones from {{2}} records"
+    "zonesFrom": "Showing {{1}} zones from {{2}} records",
+    "polygons": "Polygons"
   }
 }
