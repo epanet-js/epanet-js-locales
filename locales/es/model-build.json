@@ -20,7 +20,10 @@
     },
     "backToFileUpload": "Carga de archivo",
     "layers": "Capas",
-    "mappingColumnTitle": "Mapeo de atributos"
+    "mappingColumnTitle": "Mapeo de atributos",
+    "buildAnyway": "Construir de todos modos",
+    "keepEditing": "Mantener edición",
+    "unmappedLayersWarning": "No se han mapeado atributos para {{1}}, por lo que se construirán con valores predeterminados."
   },
   "attributes": {
     "year": "Año de instalación",
@@ -240,9 +243,6 @@
     "loading": "Cargando...",
     "next": "Siguiente"
   },
-  "modal": {
-    "close": "Cerrar"
-  },
   "pipe": {
     "closed": "Cerrada",
     "cv": "Válvula de retención",
@@ -266,6 +266,9 @@
   },
   "dataAssignment": {
     "backToIntro": "Introducción",
-    "nextToAttributeMapping": "Mapeo de atributos"
+    "nextToAttributeMapping": "Mapeo de atributos",
+    "continueAnyway": "Continuar de todos modos",
+    "keepEditing": "Mantener edición",
+    "unassignedWarning": "No se ha asignado ningún tipo de elemento a {{1}}, por lo que no se incluirán en el modelo."
   }
 }

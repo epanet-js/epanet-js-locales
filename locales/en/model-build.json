@@ -28,7 +28,10 @@
   },
   "dataAssignment": {
     "backToIntro": "Intro",
-    "nextToAttributeMapping": "Attribute mapping"
+    "nextToAttributeMapping": "Attribute mapping",
+    "unassignedWarning": "No element type is assigned to {{1}}, so they won't be included in the model.",
+    "continueAnyway": "Continue anyway",
+    "keepEditing": "Keep editing"
   },
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
@@ -45,6 +48,9 @@
     "layers": "Layers",
     "mappingColumnTitle": "Attribute mapping",
     "backToFileUpload": "File upload",
+    "unmappedLayersWarning": "No attributes are mapped for {{1}}, so they will be built with default values.",
+    "buildAnyway": "Build anyway",
+    "keepEditing": "Keep editing",
     "customAttributes": {
       "label": "Custom attributes",
       "placeholder": "Select...",
@@ -172,9 +178,6 @@
     },
     "applyCoordinateAttributes": "Apply attributes",
     "changeCoordinateAttributes": "Change coordinate attributes"
-  },
-  "modal": {
-    "close": "Close"
   },
   "wizardActions": {
     "cancel": "Cancel",

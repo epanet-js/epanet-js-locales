@@ -20,7 +20,10 @@
     },
     "backToFileUpload": "Chargement de fichier",
     "layers": "Couches",
-    "mappingColumnTitle": "Mappage des attributs"
+    "mappingColumnTitle": "Mappage des attributs",
+    "buildAnyway": "Construire quand même",
+    "keepEditing": "Continuer l'édition",
+    "unmappedLayersWarning": "Aucun attribut n'est mappé pour {{1}}, donc ils seront construits avec des valeurs par défaut."
   },
   "attributes": {
     "year": "Année d'installation",
@@ -240,9 +243,6 @@
     "loading": "Chargement...",
     "next": "Suivant"
   },
-  "modal": {
-    "close": "Fermer"
-  },
   "pipe": {
     "closed": "Fermé",
     "cv": "Clapet Anti-Retour",
@@ -266,6 +266,9 @@
   },
   "dataAssignment": {
     "backToIntro": "Introduction",
-    "nextToAttributeMapping": "Mappage des attributs"
+    "nextToAttributeMapping": "Mappage des attributs",
+    "continueAnyway": "Continuer quand même",
+    "keepEditing": "Continuer l'édition",
+    "unassignedWarning": "Aucun type d'élément n'est attribué à {{1}}, donc ils ne seront pas inclus dans le modèle."
   }
 }

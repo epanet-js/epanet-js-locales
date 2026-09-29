@@ -20,7 +20,10 @@
     },
     "backToFileUpload": "ファイルアップロード",
     "layers": "レイヤー",
-    "mappingColumnTitle": "属性マッピング"
+    "mappingColumnTitle": "属性マッピング",
+    "buildAnyway": "とにかく構築",
+    "keepEditing": "編集を続ける",
+    "unmappedLayersWarning": "{{1}}に属性がマッピングされていないため、デフォルト値で構築されます。"
   },
   "attributes": {
     "year": "設置年",
@@ -240,9 +243,6 @@
     "loading": "読み込み中...",
     "next": "次へ"
   },
-  "modal": {
-    "close": "閉じる"
-  },
   "pipe": {
     "closed": "閉",
     "cv": "逆止弁",
@@ -266,6 +266,9 @@
   },
   "dataAssignment": {
     "backToIntro": "イントロ",
-    "nextToAttributeMapping": "属性マッピング"
+    "nextToAttributeMapping": "属性マッピング",
+    "continueAnyway": "とにかく続行",
+    "keepEditing": "編集を続ける",
+    "unassignedWarning": "{{1}}に要素タイプが割り当てられていないため、モデルには含まれません。"
   }
 }

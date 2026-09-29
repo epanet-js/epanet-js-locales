@@ -20,7 +20,10 @@
     },
     "backToFileUpload": "Bestand uploaden",
     "layers": "Lagen",
-    "mappingColumnTitle": "Attribuutkoppeling"
+    "mappingColumnTitle": "Attribuutkoppeling",
+    "buildAnyway": "Toch bouwen",
+    "keepEditing": "Blijven bewerken",
+    "unmappedLayersWarning": "Er zijn geen attributen gekoppeld voor {{1}}, dus worden ze gebouwd met standaardwaarden."
   },
   "attributes": {
     "year": "Installatiejaar",
@@ -240,9 +243,6 @@
     "loading": "Laden...",
     "next": "Volgende"
   },
-  "modal": {
-    "close": "Sluiten"
-  },
   "pipe": {
     "closed": "Gesloten",
     "cv": "Terugslagklep",
@@ -266,6 +266,9 @@
   },
   "dataAssignment": {
     "backToIntro": "Intro",
-    "nextToAttributeMapping": "Attribuutkoppeling"
+    "nextToAttributeMapping": "Attribuutkoppeling",
+    "continueAnyway": "Toch doorgaan",
+    "keepEditing": "Blijven bewerken",
+    "unassignedWarning": "Er is geen elementtype toegewezen aan {{1}}, dus worden ze niet opgenomen in het model."
   }
 }

@@ -20,7 +20,10 @@
     },
     "backToFileUpload": "Pengunggahan file",
     "layers": "Lapisan",
-    "mappingColumnTitle": "Pemetaan atribut"
+    "mappingColumnTitle": "Pemetaan atribut",
+    "buildAnyway": "Bangun saja",
+    "keepEditing": "Lanjutkan mengedit",
+    "unmappedLayersWarning": "Tidak ada atribut yang dipetakan untuk {{1}}, jadi mereka akan dibangun dengan nilai default."
   },
   "attributes": {
     "year": "Tahun pemasangan",
@@ -240,9 +243,6 @@
     "loading": "Memuat...",
     "next": "Berikutnya"
   },
-  "modal": {
-    "close": "Tutup"
-  },
   "pipe": {
     "closed": "Tertutup",
     "cv": "Katup satu arah",
@@ -266,6 +266,9 @@
   },
   "dataAssignment": {
     "backToIntro": "Pendahuluan",
-    "nextToAttributeMapping": "Pemetaan atribut"
+    "nextToAttributeMapping": "Pemetaan atribut",
+    "continueAnyway": "Lanjutkan saja",
+    "keepEditing": "Lanjutkan mengedit",
+    "unassignedWarning": "Tidak ada tipe elemen yang ditetapkan untuk {{1}}, jadi mereka tidak akan disertakan dalam model."
   }
 }
