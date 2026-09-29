@@ -13,10 +13,13 @@
     "useDefault": "Usar valor predeterminado",
     "customAttributes": {
       "label": "Atributos personalizados",
-      "placeholder": "Seleccionar atributos personalizados...",
+      "placeholder": "Seleccionar...",
       "selectedCount_one": "{{count}} seleccionado",
-      "selectedCount_other": "{{count}} seleccionados"
-    }
+      "selectedCount_other": "{{count}} seleccionados",
+      "placeholderLegacy": "Seleccionar atributos personalizados..."
+    },
+    "backToFileUpload": "Carga de archivo",
+    "layers": "Capas"
   },
   "attributes": {
     "year": "Año de instalación",
@@ -213,7 +216,8 @@
     "tutorialVideoTitle": "Tutorial de importación de datos GIS en epanet-js",
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
-    "unitSystemUs": "Sistema de unidades de EE. UU."
+    "unitSystemUs": "Sistema de unidades de EE. UU.",
+    "nextToFileUpload": "Carga de archivo"
   },
   "projection": {
     "searchPlaceholder": "Buscar proyección...",
@@ -257,5 +261,9 @@
   "search": "Buscar…",
   "zonesPreview": {
     "zonesFrom": "Mostrando {{1}} zonas desde {{2}} registros"
+  },
+  "dataAssignment": {
+    "backToIntro": "Introducción",
+    "nextToAttributeMapping": "Mapeo de atributos"
   }
 }

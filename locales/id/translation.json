@@ -821,7 +821,6 @@
       "title": "Pemeriksaan kedekatan"
     },
     "title": "Tinjauan Jaringan",
-    "toggle": "Alihkan Tinjauan Jaringan",
     "modelAttributesValidation": {
       "affectedCount_one": "1 aset terpengaruh",
       "affectedCount_other": "{{count}} aset terpengaruh",
@@ -1554,8 +1553,6 @@
     "flowAbsolute": "Aliran (absolut)",
     "legendHidden": "Terlalu banyak aset yang dipilih untuk menampilkan legenda.",
     "savingFiles": "Menyimpan file",
-    "statusClosed": "Tertutup",
-    "statusOpen": "Buka",
     "exportSucceeded": "Ekspor berhasil",
     "epsOnly": "Grafik hanya tersedia dalam simulasi periode diperpanjang (EPS).",
     "titlePlural": "grafik kustom"
@@ -2046,5 +2043,9 @@
   "openProjectFailure.tooNewDetail": "File ini dibuat oleh versi aplikasi yang lebih baru. Harap perbarui untuk membukanya.",
   "openProjectFailure.unexpectedDetail": "Terjadi kesalahan saat membuka file.",
   "openProjectFailure.versions": "Versi file {{1}}, versi aplikasi {{2}}.",
-  "alertExportInpDetailWithScenarios": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti skenario, titik pelanggan, bidang aset kustom, dan kontrol asli."
+  "alertExportInpDetailWithScenarios": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti skenario, titik pelanggan, bidang aset kustom, set pilihan, bookmark, dan kontrol asli.",
+  "alertExportInpDetail": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti titik pelanggan, bidang aset kustom, set pilihan, bookmark, dan kontrol asli.",
+  "openProjectProgress.readingScenarios": "Membaca skenario...",
+  "statusClosed": "Tertutup",
+  "statusOpen": "Buka"
 }

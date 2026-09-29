@@ -13,10 +13,13 @@
     "useDefault": "Utiliser la valeur par défaut",
     "customAttributes": {
       "label": "Attributs personnalisés",
-      "placeholder": "Sélectionner des attributs personnalisés...",
+      "placeholder": "Sélectionner...",
       "selectedCount_one": "{{count}} sélectionné",
-      "selectedCount_other": "{{count}} sélectionnés"
-    }
+      "selectedCount_other": "{{count}} sélectionnés",
+      "placeholderLegacy": "Sélectionner des attributs personnalisés..."
+    },
+    "backToFileUpload": "Chargement de fichier",
+    "layers": "Couches"
   },
   "attributes": {
     "year": "Année d'installation",
@@ -213,7 +216,8 @@
     "tutorialVideoTitle": "Tutoriel d'importation de données SIG dans epanet-js",
     "unitSystem": "Système d'unités",
     "unitSystemMetric": "Métriques SI",
-    "unitSystemUs": "Impérial américain"
+    "unitSystemUs": "Impérial américain",
+    "nextToFileUpload": "Chargement de fichier"
   },
   "projection": {
     "searchPlaceholder": "Rechercher une projection...",
@@ -257,5 +261,9 @@
   "search": "Rechercher…",
   "zonesPreview": {
     "zonesFrom": "Affichage de {{1}} zones à partir de {{2}} entités"
+  },
+  "dataAssignment": {
+    "backToIntro": "Introduction",
+    "nextToAttributeMapping": "Mappage des attributs"
   }
 }

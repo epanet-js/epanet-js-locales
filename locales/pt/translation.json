@@ -601,7 +601,6 @@
     },
     "description": "Execute uma série de verificações para validar a topologia da sua rede e garantir a qualidade dos dados.",
     "title": "Revisão da Rede",
-    "toggle": "Revisar Rede",
     "crossingPipes": {
       "title": "Tubulações cruzadas",
       "description": "Encontra tubulações que se cruzam sem um nó de conexão.",
@@ -1554,8 +1553,6 @@
     "flowAbsolute": "Vazão (absoluta)",
     "legendHidden": "Muitos ativos selecionados para exibir a legenda.",
     "savingFiles": "Salvando arquivos",
-    "statusClosed": "Fechado",
-    "statusOpen": "Aberto",
     "exportSucceeded": "Exportado com sucesso",
     "epsOnly": "Gráficos estão disponíveis apenas em simulações de período estendido (EPS).",
     "titlePlural": "gráficos personalizados"
@@ -2046,5 +2043,9 @@
   "openProjectFailure.tooNewDetail": "Este arquivo foi criado por uma versão mais recente do aplicativo. Por favor, atualize para abri-lo.",
   "openProjectFailure.unexpectedDetail": "Algo deu errado ao abrir o arquivo.",
   "openProjectFailure.versions": "Versão do arquivo {{1}}, versão do aplicativo {{2}}.",
-  "alertExportInpDetailWithScenarios": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como cenários, pontos de consumo, campos de ativos personalizados e controles nativos."
+  "alertExportInpDetailWithScenarios": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como cenários, pontos de consumo, campos de ativos personalizados, conjuntos de seleção, marcadores e controles nativos.",
+  "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo, campos de ativos personalizados, conjuntos de seleção, marcadores e controles nativos.",
+  "openProjectProgress.readingScenarios": "Lendo cenários...",
+  "statusClosed": "Fechado",
+  "statusOpen": "Aberto"
 }

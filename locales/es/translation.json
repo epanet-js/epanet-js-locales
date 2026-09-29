@@ -614,7 +614,6 @@
     },
     "description": "Realiza una serie de comprobaciones para validar la topología de tu red y asegurar la calidad de los datos.",
     "title": "Revisión de la Red",
-    "toggle": "Alternar Revisión de la Red",
     "crossingPipes": {
       "title": "Cruces de tuberías",
       "description": "Encuentra tuberías que se cruzan sin un nudo de conexión.",
@@ -1567,8 +1566,6 @@
     "flowAbsolute": "Caudal (absoluto)",
     "legendHidden": "Demasiados activos seleccionados para mostrar la leyenda.",
     "savingFiles": "Guardando archivos",
-    "statusClosed": "Cerrada",
-    "statusOpen": "Abierta",
     "exportSucceeded": "Exportación exitosa",
     "epsOnly": "Los gráficos solo están disponibles en simulaciones de período extendido (EPS).",
     "titlePlural": "gráficos personalizados"
@@ -2053,5 +2050,9 @@
   "openProjectFailure.tooNewDetail": "Este archivo fue creado con una versión más reciente de la aplicación. Actualiza para abrirlo.",
   "openProjectFailure.unexpectedDetail": "Algo salió mal al abrir el archivo.",
   "openProjectFailure.versions": "Versión del archivo {{1}}, versión de la aplicación {{2}}.",
-  "alertExportInpDetailWithScenarios": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los escenarios, los puntos de consumo, los campos de activos personalizados y los controles nativos."
+  "alertExportInpDetailWithScenarios": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los escenarios, los puntos de consumo, los campos de activos personalizados, los conjuntos de selección, los marcadores y los controles nativos.",
+  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de activos personalizados, los conjuntos de selección, los marcadores y los controles nativos.",
+  "openProjectProgress.readingScenarios": "Leyendo escenarios...",
+  "statusClosed": "Cerrada",
+  "statusOpen": "Abierta"
 }

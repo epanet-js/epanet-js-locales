@@ -13,10 +13,13 @@
     "useDefault": "Gunakan nilai default",
     "customAttributes": {
       "label": "Atribut kustom",
-      "placeholder": "Pilih atribut kustom...",
+      "placeholder": "Pilih...",
       "selectedCount_one": "{{count}} terpilih",
-      "selectedCount_other": "{{count}} terpilih"
-    }
+      "selectedCount_other": "{{count}} terpilih",
+      "placeholderLegacy": "Pilih atribut kustom..."
+    },
+    "backToFileUpload": "Pengunggahan file",
+    "layers": "Lapisan"
   },
   "attributes": {
     "year": "Tahun pemasangan",
@@ -136,7 +139,7 @@
     "projectionSearchPlaceholder": "Nama proyeksi atau EPSG...",
     "removeSource": "Hapus sumber",
     "sourceError": {
-      "sourceEmpty": "Tidak ada fitur dengan lokasi",
+      "sourceEmpty": "Tidak ada catatan dengan geometri yang valid ditemukan",
       "sourceFilesIncomplete": "File .shp-nya hilang",
       "sourceUnreadable": "File tidak terbaca atau rusak",
       "coordinateAttributesMissing": "Tidak ada atribut yang menyimpan koordinat",
@@ -213,7 +216,8 @@
     "tutorialVideoTitle": "tutorial impor epanet-js dari data GIS",
     "unitSystem": "Sistem satuan",
     "unitSystemMetric": "Metrik SI",
-    "unitSystemUs": "Adat AS"
+    "unitSystemUs": "Adat AS",
+    "nextToFileUpload": "Pengunggahan file"
   },
   "projection": {
     "searchPlaceholder": "Cari proyeksi...",
@@ -257,5 +261,9 @@
   "search": "Cari…",
   "zonesPreview": {
     "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur"
+  },
+  "dataAssignment": {
+    "backToIntro": "Pendahuluan",
+    "nextToAttributeMapping": "Pemetaan atribut"
   }
 }

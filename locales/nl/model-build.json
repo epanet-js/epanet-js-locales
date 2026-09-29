@@ -13,10 +13,13 @@
     "useDefault": "Standaardwaarde gebruiken",
     "customAttributes": {
       "label": "Aangepaste attributen",
-      "placeholder": "Selecteer aangepaste attributen...",
+      "placeholder": "Selecteer...",
       "selectedCount_one": "{{count}} geselecteerd",
-      "selectedCount_other": "{{count}} geselecteerd"
-    }
+      "selectedCount_other": "{{count}} geselecteerd",
+      "placeholderLegacy": "Selecteer aangepaste attributen..."
+    },
+    "backToFileUpload": "Bestand uploaden",
+    "layers": "Lagen"
   },
   "attributes": {
     "year": "Installatiejaar",
@@ -213,7 +216,8 @@
     "tutorialVideoTitle": "epanet-js import vanuit GIS-gegevens handleiding",
     "unitSystem": "Eenhedenstelsel",
     "unitSystemMetric": "SI metrisch",
-    "unitSystemUs": "VS gebruikelijk"
+    "unitSystemUs": "VS gebruikelijk",
+    "nextToFileUpload": "Bestand uploaden"
   },
   "projection": {
     "searchPlaceholder": "Zoeken naar projectie...",
@@ -257,5 +261,9 @@
   "search": "Zoeken…",
   "zonesPreview": {
     "zonesFrom": "Toont {{1}} zones van {{2}} objecten"
+  },
+  "dataAssignment": {
+    "backToIntro": "Intro",
+    "nextToAttributeMapping": "Attribuutkoppeling"
   }
 }

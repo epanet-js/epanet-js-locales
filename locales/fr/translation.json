@@ -601,7 +601,6 @@
     },
     "description": "Effectuer une série de vérifications pour valider la topologie de votre réseau et assurer la qualité des données.",
     "title": "Examen du réseau",
-    "toggle": "Examiner le réseau",
     "crossingPipes": {
       "title": "Conduites croisées",
       "description": "Trouve les conduites qui se croisent sans nœud de connexion.",
@@ -1554,8 +1553,6 @@
     "flowAbsolute": "Débit (absolu)",
     "legendHidden": "Trop d'éléments sélectionnés pour afficher la légende.",
     "savingFiles": "Enregistrement des fichiers",
-    "statusClosed": "Fermé",
-    "statusOpen": "Ouvert",
     "exportSucceeded": "Exportation réussie",
     "epsOnly": "Les graphiques sont uniquement disponibles dans les simulations en période étendue (EPS).",
     "titlePlural": "graphiques personnalisés"
@@ -2046,5 +2043,9 @@
   "openProjectFailure.tooNewDetail": "Ce fichier a été créé par une version plus récente de l'application. Veuillez mettre à jour pour l'ouvrir.",
   "openProjectFailure.unexpectedDetail": "Quelque chose s'est mal passé lors de l'ouverture du fichier.",
   "openProjectFailure.versions": "Version du fichier {{1}}, version de l'application {{2}}.",
-  "alertExportInpDetailWithScenarios": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les scénarios, les points de consommation, les champs d'éléments personnalisés et les contrôles natifs."
+  "alertExportInpDetailWithScenarios": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les scénarios, les points de consommation, les champs d'éléments personnalisés, les ensembles de sélection, les signets et les contrôles natifs.",
+  "alertExportInpDetail": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les points de consommation, les champs d'éléments personnalisés, les ensembles de sélection, les signets et les contrôles natifs.",
+  "openProjectProgress.readingScenarios": "Lecture des scénarios...",
+  "statusClosed": "Fermé",
+  "statusOpen": "Ouvert"
 }

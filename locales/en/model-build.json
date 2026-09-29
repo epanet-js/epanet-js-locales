@@ -10,6 +10,7 @@
   },
   "modelSettings": {
     "title": "Model settings",
+    "nextToFileUpload": "File upload",
     "unitSystem": "Unit system",
     "unitSystemUs": "US customary",
     "unitSystemMetric": "SI metric",
@@ -25,7 +26,10 @@
     "tutorialDescription": "Learn how to build an EPANET model by watching the tutorial above or ",
     "tutorialGuideLink": "reading the step-by-step guide."
   },
-  "dataAssignment": {},
+  "dataAssignment": {
+    "backToIntro": "Intro",
+    "nextToAttributeMapping": "Attribute mapping"
+  },
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
     "title": "Map attributes",
@@ -38,9 +42,12 @@
     "empty": "Empty",
     "dataPreview": "Data preview",
     "buildModel": "Build model",
+    "layers": "Layers",
+    "backToFileUpload": "File upload",
     "customAttributes": {
       "label": "Custom attributes",
-      "placeholder": "Select custom attributes...",
+      "placeholder": "Select...",
+      "placeholderLegacy": "Select custom attributes...",
       "selectedCount_one": "{{count}} selected",
       "selectedCount_other": "{{count}} selected"
     }
@@ -144,7 +151,7 @@
     "sourceError": {
       "sourceUnreadable": "Unreadable or corrupted file",
       "sourceHeaderMissing": "No header row naming the columns",
-      "sourceEmpty": "No records with a location",
+      "sourceEmpty": "No records with valid geometries found",
       "sourceFilesIncomplete": "Missing its .shp file",
       "coordinateAttributesMissing": "No attribute holds coordinates"
     },

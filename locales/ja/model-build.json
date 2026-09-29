@@ -13,10 +13,13 @@
     "useDefault": "デフォルト値を使用",
     "customAttributes": {
       "label": "カスタム属性",
-      "placeholder": "カスタム属性を選択...",
+      "placeholder": "選択...",
       "selectedCount_one": "{{count}} 選択済み",
-      "selectedCount_other": "{{count}} 選択済み"
-    }
+      "selectedCount_other": "{{count}} 選択済み",
+      "placeholderLegacy": "カスタム属性を選択..."
+    },
+    "backToFileUpload": "ファイルアップロード",
+    "layers": "レイヤー"
   },
   "attributes": {
     "year": "設置年",
@@ -213,7 +216,8 @@
     "tutorialVideoTitle": "epanet-js GISデータインポートチュートリアル",
     "unitSystem": "単位系",
     "unitSystemMetric": "SIメートル法",
-    "unitSystemUs": "米国慣用"
+    "unitSystemUs": "米国慣用",
+    "nextToFileUpload": "ファイルアップロード"
   },
   "projection": {
     "searchPlaceholder": "投影を検索...",
@@ -257,5 +261,9 @@
   "search": "検索…",
   "zonesPreview": {
     "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中"
+  },
+  "dataAssignment": {
+    "backToIntro": "イントロ",
+    "nextToAttributeMapping": "属性マッピング"
   }
 }

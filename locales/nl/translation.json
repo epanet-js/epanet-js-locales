@@ -601,7 +601,6 @@
     },
     "description": "Voer een reeks controles uit om de topologie van uw netwerk te valideren en de gegevenskwaliteit te waarborgen.",
     "title": "Netwerkcontrole",
-    "toggle": "Netwerkcontrole in-/uitschakelen",
     "crossingPipes": {
       "title": "Kruisende leidingen",
       "description": "Vind leidingen die elkaar kruisen zonder een verbindend knooppunt.",
@@ -1554,8 +1553,6 @@
     "flowAbsolute": "Stroming (absoluut)",
     "legendHidden": "Te veel onderdelen geselecteerd om de legenda weer te geven.",
     "savingFiles": "Bestanden opslaan",
-    "statusClosed": "Gesloten",
-    "statusOpen": "Open",
     "exportSucceeded": "Export is gelukt",
     "epsOnly": "Grafieken zijn alleen beschikbaar in uitgebreide-periode simulaties (EPS).",
     "titlePlural": "aangepaste grafieken"
@@ -2046,5 +2043,9 @@
   "openProjectFailure.tooNewDetail": "Dit bestand is gemaakt met een nieuwere versie van de app. Werk de app bij om het te openen.",
   "openProjectFailure.unexpectedDetail": "Er is iets misgegaan tijdens het openen van het bestand.",
   "openProjectFailure.versions": "Bestandsversie {{1}}, appversie {{2}}.",
-  "alertExportInpDetailWithScenarios": "Het EPANET INP-formaat ondersteunt niet alle epanet-js functies, zoals scenario's, klantpunten, aangepaste onderdeelvelden en native besturingen."
+  "alertExportInpDetailWithScenarios": "Het EPANET INP-formaat ondersteunt niet alle epanet-js-functies, zoals scenario's, klantpunten, aangepaste onderdeelvelden, selectiesets, bladwijzers en native besturingen.",
+  "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js-functies, zoals klantpunten, aangepaste onderdeelvelden, selectiesets, bladwijzers en native besturingen.",
+  "openProjectProgress.readingScenarios": "Scenario's lezen...",
+  "statusClosed": "Gesloten",
+  "statusOpen": "Open"
 }

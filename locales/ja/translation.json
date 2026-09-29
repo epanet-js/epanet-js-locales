@@ -601,7 +601,6 @@
     },
     "description": "ネットワークのトポロジを検証し、データ品質を確保するための一連のチェックを実行します。",
     "title": "管網レビュー",
-    "toggle": "管網レビューの切り替え",
     "crossingPipes": {
       "title": "交差する管",
       "description": "接続ノードなしで交差する管を見つけます。",
@@ -1554,8 +1553,6 @@
     "flowAbsolute": "流量（絶対値）",
     "legendHidden": "凡例を表示するには、選択されたアセットが多すぎます。",
     "savingFiles": "ファイルを保存中",
-    "statusClosed": "閉",
-    "statusOpen": "開",
     "exportSucceeded": "エクスポートに成功しました",
     "epsOnly": "グラフは拡張期間シミュレーション（EPS）でのみ利用可能です。",
     "titlePlural": "カスタムグラフ"
@@ -2046,5 +2043,9 @@
   "openProjectFailure.tooNewDetail": "このファイルは、新しいバージョンのアプリで作成されました。開くには更新してください。",
   "openProjectFailure.unexpectedDetail": "ファイルを開く際に問題が発生しました。",
   "openProjectFailure.versions": "ファイルバージョン{{1}}、アプリバージョン{{2}}。",
-  "alertExportInpDetailWithScenarios": "EPANET INP形式は、シナリオ、顧客ポイント、カスタム資産フィールド、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。"
+  "alertExportInpDetailWithScenarios": "EPANET INP形式は、シナリオ、顧客ポイント、カスタム資産フィールド、選択セット、ブックマーク、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
+  "alertExportInpDetail": "EPANET INP形式は、顧客ポイント、カスタム資産フィールド、選択セット、ブックマーク、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
+  "openProjectProgress.readingScenarios": "シナリオを読み込み中...",
+  "statusClosed": "閉",
+  "statusOpen": "開"
 }
