@@ -1,13 +1,7 @@
 {
   "attributeMapping": {
     "buildModel": "Construir modelo",
-    "dataPreview": "Vista previa de datos",
-    "description": "Mapea las propiedades de tus datos GIS a los atributos de EPANET. Las elevaciones y la conectividad se calcularán automáticamente.",
     "noElementsAssigned": "No se han asignado elementos. Por favor, regresa y asigna archivos a los elementos.",
-    "optionalAttributes": "Atributos opcionales",
-    "recommendedAttributes": "Atributos recomendados",
-    "selectProperty": "Seleccionar propiedad...",
-    "title": "Mapear atributos",
     "autoGenerate": "Auto-generar",
     "empty": "Vacío",
     "useDefault": "Usar valor predeterminado",
@@ -15,8 +9,7 @@
       "label": "Atributos personalizados",
       "placeholder": "Seleccionar...",
       "selectedCount_one": "{{count}} seleccionado",
-      "selectedCount_other": "{{count}} seleccionados",
-      "placeholderLegacy": "Seleccionar atributos personalizados..."
+      "selectedCount_other": "{{count}} seleccionados"
     },
     "backToFileUpload": "Carga de archivo",
     "layers": "Capas",
@@ -54,14 +47,10 @@
     "ejsdbFailed": "Fallo al generar archivo .ejsdb",
     "errorTitle": "Error de construcción",
     "preparing": "Preparando construcción...",
-    "progressTitle": "Progreso de construcción",
     "readyToBuild": "Listo para construir",
     "showLess": "Mostrar menos",
     "showMore": "Mostrar más",
     "statusBuilding": "Procesando tus datos y generando el modelo EPANET...",
-    "statusComplete": "¡Construcción del modelo completada con éxito!",
-    "statusError": "Ocurrió un error durante el proceso de construcción",
-    "statusReady": "Listo para construir tu modelo",
     "successDescription": "Tu modelo EPANET ha sido generado exitosamente. Ahora puedes descargar el archivo .ejsdb.",
     "title": "Construyendo modelo EPANET",
     "steps": {
@@ -155,7 +144,6 @@
     "statusLoading": "Cargando",
     "statusReady": "Listo",
     "supportedFormats": "Formatos soportados: {{1}}",
-    "unassign": "Desasignar",
     "unsupportedFilesCount_one": "{{count}} archivo no compatible",
     "unsupportedFilesCount_other": "{{count}} archivos no compatibles",
     "showIgnoredFiles": "Ver archivos ignorados",
@@ -230,12 +218,6 @@
     "searchHint": "Empieza a escribir para buscar tu proyección, por ejemplo `27700` o \"British National Grid\".",
     "selectPlaceholder": "Seleccionar proyección..."
   },
-  "stepProgress": {
-    "attributeMapping": "Mapeo de atributos",
-    "buildProgress": "Construcción del modelo",
-    "dataAssignment": "Asignación de datos",
-    "modelSettings": "Configuración del modelo"
-  },
   "wizardActions": {
     "back": "Atrás",
     "cancel": "Cancelar",
@@ -261,7 +243,6 @@
   "noResults": "No hay resultados",
   "search": "Buscar…",
   "zonesPreview": {
-    "zonesFrom": "Mostrando {{1}} zonas desde {{2}} registros",
     "polygons": "Polígonos"
   },
   "dataAssignment": {

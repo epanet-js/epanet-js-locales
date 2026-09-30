@@ -1,13 +1,7 @@
 {
   "attributeMapping": {
     "buildModel": "Model bouwen",
-    "dataPreview": "Gegevensvoorbeeld",
-    "description": "Koppel de eigenschappen van uw GIS-gegevens aan EPANET-attributen. Hoogtes en connectiviteit worden automatisch berekend.",
     "noElementsAssigned": "Er zijn geen elementen toegewezen. Ga terug en wijs bestanden toe aan elementen.",
-    "optionalAttributes": "Optionele attributen",
-    "recommendedAttributes": "Aanbevolen attributen",
-    "selectProperty": "Selecteer eigenschap...",
-    "title": "Attributen koppelen",
     "autoGenerate": "Automatisch genereren",
     "empty": "Leeg",
     "useDefault": "Standaardwaarde gebruiken",
@@ -15,8 +9,7 @@
       "label": "Aangepaste attributen",
       "placeholder": "Selecteer...",
       "selectedCount_one": "{{count}} geselecteerd",
-      "selectedCount_other": "{{count}} geselecteerd",
-      "placeholderLegacy": "Selecteer aangepaste attributen..."
+      "selectedCount_other": "{{count}} geselecteerd"
     },
     "backToFileUpload": "Bestand uploaden",
     "layers": "Lagen",
@@ -54,14 +47,10 @@
     "ejsdbFailed": "Genereren van .ejsdb bestand mislukt",
     "errorTitle": "Build fout",
     "preparing": "Build voorbereiden...",
-    "progressTitle": "Build voortgang",
     "readyToBuild": "Klaar om te bouwen",
     "showLess": "Minder tonen",
     "showMore": "Meer tonen",
     "statusBuilding": "Uw gegevens verwerken en het EPANET-model genereren...",
-    "statusComplete": "Modelbouw succesvol voltooid!",
-    "statusError": "Er is een fout opgetreden tijdens het buildproces",
-    "statusReady": "Klaar om uw model te bouwen",
     "successDescription": "Uw EPANET-model is succesvol gegenereerd. U kunt nu het .ejsdb-bestand downloaden.",
     "title": "EPANET-model bouwen",
     "steps": {
@@ -155,7 +144,6 @@
     "statusLoading": "Laden",
     "statusReady": "Klaar",
     "supportedFormats": "Ondersteunde formaten: {{1}}",
-    "unassign": "Toewijzing ongedaan maken",
     "unsupportedFilesCount_one": "{{count}} niet-ondersteund bestand",
     "unsupportedFilesCount_other": "{{count}} niet-ondersteunde bestanden",
     "showIgnoredFiles": "Genegeerde bestanden bekijken",
@@ -230,12 +218,6 @@
     "searchHint": "Begin te typen om naar uw projectie te zoeken, bijvoorbeeld `27700` of \"British National Grid\".",
     "selectPlaceholder": "Selecteer projectie..."
   },
-  "stepProgress": {
-    "attributeMapping": "Attribuutkoppeling",
-    "buildProgress": "Modelbouw",
-    "dataAssignment": "Gegevens toewijzing",
-    "modelSettings": "Modelinstellingen"
-  },
   "wizardActions": {
     "back": "Terug",
     "cancel": "Annuleren",
@@ -261,7 +243,6 @@
   "noResults": "Geen resultaten",
   "search": "Zoeken…",
   "zonesPreview": {
-    "zonesFrom": "Toont {{1}} zones van {{2}} objecten",
     "polygons": "Polygonen"
   },
   "dataAssignment": {

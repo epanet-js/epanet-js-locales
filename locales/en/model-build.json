@@ -2,12 +2,6 @@
   "search": "Search…",
   "addNewValue": "Add \"{{1}}\"",
   "noResults": "No results",
-  "stepProgress": {
-    "modelSettings": "Model settings",
-    "dataAssignment": "Data assignment",
-    "attributeMapping": "Attribute mapping",
-    "buildProgress": "Model build"
-  },
   "modelSettings": {
     "title": "Model settings",
     "nextToFileUpload": "File upload",
@@ -35,15 +29,9 @@
   },
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
-    "title": "Map attributes",
-    "description": "Map the properties from your GIS data to EPANET attributes. Elevations and connectivity will be calculated automatically.",
-    "recommendedAttributes": "Recommended attributes",
-    "optionalAttributes": "Optional attributes",
-    "selectProperty": "Select property...",
     "autoGenerate": "Auto-generate",
     "useDefault": "Use default value",
     "empty": "Empty",
-    "dataPreview": "Data preview",
     "buildModel": "Build model",
     "layers": "Layers",
     "mappingColumnTitle": "Attribute mapping",
@@ -54,7 +42,6 @@
     "customAttributes": {
       "label": "Custom attributes",
       "placeholder": "Select...",
-      "placeholderLegacy": "Select custom attributes...",
       "selectedCount_one": "{{count}} selected",
       "selectedCount_other": "{{count}} selected"
     }
@@ -62,10 +49,6 @@
   "buildProgress": {
     "title": "Building EPANET model",
     "statusBuilding": "Processing your data and generating the EPANET model...",
-    "statusComplete": "Model build completed successfully!",
-    "statusError": "An error occurred during the build process",
-    "statusReady": "Ready to build your model",
-    "progressTitle": "Build progress",
     "preparing": "Preparing build...",
     "readyToBuild": "Ready to build",
     "completeEmbedded": "Model build complete!",
@@ -113,7 +96,6 @@
     "processing": "Processing...",
     "selectFiles": "Select files",
     "changeProjection": "Change projection",
-    "unassign": "Unassign",
     "removeSource": "Remove source",
     "dataSources": "Data sources",
     "addSource": "Add data source",
@@ -268,7 +250,6 @@
     "off": "Off"
   },
   "zonesPreview": {
-    "zonesFrom": "Showing {{1}} zones from {{2}} records",
     "polygons": "Polygons"
   }
 }

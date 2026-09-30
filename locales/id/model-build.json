@@ -1,13 +1,7 @@
 {
   "attributeMapping": {
     "buildModel": "Bangun model",
-    "dataPreview": "Pratinjau data",
-    "description": "Petakan properti dari data GIS Anda ke atribut EPANET. Elevasi dan konektivitas akan dihitung secara otomatis.",
     "noElementsAssigned": "Tidak ada elemen yang ditetapkan. Harap kembali dan tetapkan file ke elemen.",
-    "optionalAttributes": "Atribut opsional",
-    "recommendedAttributes": "Atribut direkomendasikan",
-    "selectProperty": "Pilih properti...",
-    "title": "Petakan atribut",
     "autoGenerate": "Buat otomatis",
     "empty": "Kosong",
     "useDefault": "Gunakan nilai default",
@@ -15,8 +9,7 @@
       "label": "Atribut kustom",
       "placeholder": "Pilih...",
       "selectedCount_one": "{{count}} terpilih",
-      "selectedCount_other": "{{count}} terpilih",
-      "placeholderLegacy": "Pilih atribut kustom..."
+      "selectedCount_other": "{{count}} terpilih"
     },
     "backToFileUpload": "Pengunggahan file",
     "layers": "Lapisan",
@@ -54,14 +47,10 @@
     "ejsdbFailed": "Gagal membuat file .ejsdb",
     "errorTitle": "Kesalahan pembangunan",
     "preparing": "Mempersiapkan pembangunan...",
-    "progressTitle": "Progres pembangunan",
     "readyToBuild": "Siap untuk dibangun",
     "showLess": "Tampilkan lebih sedikit",
     "showMore": "Tampilkan lebih banyak",
     "statusBuilding": "Memproses data Anda dan membuat model EPANET...",
-    "statusComplete": "Pembangunan model berhasil diselesaikan!",
-    "statusError": "Terjadi kesalahan selama proses pembangunan",
-    "statusReady": "Siap membangun model Anda",
     "successDescription": "Model EPANET Anda telah berhasil dibuat. Anda sekarang dapat mengunduh file .ejsdb.",
     "title": "Membangun model EPANET",
     "steps": {
@@ -155,7 +144,6 @@
     "statusLoading": "Memuat",
     "statusReady": "Siap",
     "supportedFormats": "Format yang didukung: {{1}}",
-    "unassign": "Batalkan penetapan",
     "unsupportedFilesCount_one": "{{count}} file tidak didukung",
     "unsupportedFilesCount_other": "{{count}} file tidak didukung",
     "showIgnoredFiles": "Tampilkan file yang diabaikan",
@@ -230,12 +218,6 @@
     "searchHint": "Mulai mengetik untuk mencari proyeksi Anda, misalnya `27700` atau \"British National Grid\".",
     "selectPlaceholder": "Pilih proyeksi..."
   },
-  "stepProgress": {
-    "attributeMapping": "Pemetaan atribut",
-    "buildProgress": "Pembangunan model",
-    "dataAssignment": "Penetapan data",
-    "modelSettings": "Pengaturan model"
-  },
   "wizardActions": {
     "back": "Kembali",
     "cancel": "Batal",
@@ -261,7 +243,6 @@
   "noResults": "Tidak ada hasil",
   "search": "Cari…",
   "zonesPreview": {
-    "zonesFrom": "Menampilkan {{1}} zona dari {{2}} fitur",
     "polygons": "Poligon"
   },
   "dataAssignment": {

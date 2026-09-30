@@ -1,13 +1,7 @@
 {
   "attributeMapping": {
     "buildModel": "モデルを構築",
-    "dataPreview": "データプレビュー",
-    "description": "GISデータからのプロパティをEPANET属性にマッピングします。標高と接続性は自動的に計算されます。",
     "noElementsAssigned": "要素は割り当てられていません。戻ってファイルを要素に割り当ててください。",
-    "optionalAttributes": "オプション属性",
-    "recommendedAttributes": "推奨属性",
-    "selectProperty": "プロパティを選択...",
-    "title": "属性マッピング",
     "autoGenerate": "自動生成",
     "empty": "空",
     "useDefault": "デフォルト値を使用",
@@ -15,8 +9,7 @@
       "label": "カスタム属性",
       "placeholder": "選択...",
       "selectedCount_one": "{{count}} 選択済み",
-      "selectedCount_other": "{{count}} 選択済み",
-      "placeholderLegacy": "カスタム属性を選択..."
+      "selectedCount_other": "{{count}} 選択済み"
     },
     "backToFileUpload": "ファイルアップロード",
     "layers": "レイヤー",
@@ -54,14 +47,10 @@
     "ejsdbFailed": ".ejsdb ファイルの生成に失敗しました",
     "errorTitle": "構築エラー",
     "preparing": "構築を準備中...",
-    "progressTitle": "構築の進捗",
     "readyToBuild": "構築準備完了",
     "showLess": "少なく表示",
     "showMore": "さらに表示",
     "statusBuilding": "データを処理し、EPANETモデルを生成中...",
-    "statusComplete": "モデル構築が正常に完了しました！",
-    "statusError": "構築プロセス中にエラーが発生しました",
-    "statusReady": "モデルを構築する準備ができました",
     "successDescription": "EPANETモデルが正常に生成されました。これで.ejsdbファイルをダウンロードできます。",
     "title": "EPANETモデルを構築中",
     "steps": {
@@ -155,7 +144,6 @@
     "statusLoading": "読み込み中",
     "statusReady": "準備完了",
     "supportedFormats": "対応形式: {{1}}",
-    "unassign": "割り当てを解除",
     "unsupportedFilesCount_one": "{{count}} 件のサポートされていないファイル",
     "unsupportedFilesCount_other": "{{count}} 件のサポートされていないファイル",
     "showIgnoredFiles": "無視されたファイルを表示",
@@ -230,12 +218,6 @@
     "searchHint": "投影を検索するには入力してください。例えば「27700」や「British National Grid」と入力してください。",
     "selectPlaceholder": "投影を選択..."
   },
-  "stepProgress": {
-    "attributeMapping": "属性マッピング",
-    "buildProgress": "モデル構築",
-    "dataAssignment": "データ割り当て",
-    "modelSettings": "モデル設定"
-  },
   "wizardActions": {
     "back": "戻る",
     "cancel": "キャンセル",
@@ -261,7 +243,6 @@
   "noResults": "結果なし",
   "search": "検索…",
   "zonesPreview": {
-    "zonesFrom": "{{2}}フィーチャから{{1}}ゾーンを表示中",
     "polygons": "ポリゴン"
   },
   "dataAssignment": {
