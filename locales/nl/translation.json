@@ -986,7 +986,13 @@
       "description": "Dit project heeft scenario's. Log in om ze te bekijken.",
       "title": "Meld u aan om scenario's te bekijken"
     },
-    "loadingScenario": "Laden {{1}}..."
+    "loadingScenario": "Laden {{1}}...",
+    "export": {
+      "exported": "Scenario geëxporteerd",
+      "exporting": "Scenario exporteren...",
+      "failed": "Kon scenario niet exporteren",
+      "permissionDenied": "Toestemming om het bestand te schrijven werd geweigerd. Het scenario is niet geëxporteerd."
+    }
   },
   "addTimestep": "Tijdstap toevoegen",
   "createScenario": "Nieuw scenario aanmaken",
@@ -1001,9 +1007,9 @@
   "goToMain": "Ga naar hoofdmodel",
   "directDemand": "Directe vraag",
   "addDirectDemand": "Directe vraag toevoegen",
-  "alertNetworkRequired": "Netwerk vereist",
+  "alertNetworkRequired": "Uw model is leeg",
   "alertNetworkRequiredDetail": "U moet een netwerk selecteren of aanmaken voordat u kunt beginnen met het bouwen van een scenario.",
-  "chooseANetwork": "Kies een netwerk",
+  "chooseANetwork": "Kies een model",
   "addPoint": "Punt toevoegen",
   "designPointCurve": "1-puntscurve (ontwerppunt)",
   "multiPointCurve": "Meerpuntscurve",
@@ -2047,5 +2053,6 @@
   "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js-functies, zoals klantpunten, aangepaste onderdeelvelden, selectiesets, bladwijzers en native besturingen.",
   "openProjectProgress.readingScenarios": "Scenario's lezen...",
   "statusClosed": "Gesloten",
-  "statusOpen": "Open"
+  "statusOpen": "Open",
+  "export.currentScenarioAsProject": "Huidig scenario als project"
 }

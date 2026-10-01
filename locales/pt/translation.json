@@ -938,7 +938,7 @@
   "insertRowBelow": "Inserir linha abaixo",
   "scenarios": {
     "createNew": "Criar novo cenário",
-    "enableScenarios": "Habilitar Cenários",
+    "enableScenarios": "Habilitar cenários",
     "main": "Principal",
     "newScenario": "Novo",
     "switcherTooltip": "Trocar cenário",
@@ -946,7 +946,7 @@
     "deleteConfirmation": {
       "confirm": "Excluir cenário",
       "message": "Tem certeza de que deseja excluir o cenário \"{{1}}\"?",
-      "title": "Excluir Cenário"
+      "title": "Excluir cenário"
     },
     "created": "Cenário criado",
     "rename": "Renomear",
@@ -956,12 +956,12 @@
       "errorReserved": "Este nome é reservado",
       "label": "Nome do cenário",
       "placeholder": "Insira o nome do cenário",
-      "title": "Renomear Cenário"
+      "title": "Renomear cenário"
     },
     "paywall": {
       "title": "Atualize para acessar cenários",
       "description1": "Os cenários permitem explorar alterações de \"e se\" sem duplicar seu modelo.",
-      "description2": "Crie versões alternativas de sua rede e compare os resultados com sua linha de base.",
+      "description2": "Crie versões alternativas e compare seus resultados com o modelo base (Principal).",
       "captions": {
         "1": "Faça perguntas \"e se\" com cenários",
         "2": "Modificar parâmetros de ativos",
@@ -974,7 +974,7 @@
     },
     "firstScenario": {
       "bullet1": "O modelo principal se torna <bold>somente leitura</bold> enquanto os cenários existirem.",
-      "bullet3": "Você pode excluir seus cenários a qualquer momento para desbloquear o modelo principal.",
+      "bullet3": "Exclua seus cenários a qualquer momento para desbloquear o Principal.",
       "createButton": "Criar cenário",
       "dontShowAgain": "Não mostrar novamente",
       "pleaseNote": "Por favor, note:",
@@ -986,7 +986,13 @@
       "description": "Este projeto tem cenários. Entre para vê-los.",
       "title": "Entre para ver os cenários"
     },
-    "loadingScenario": "Carregando {{1}}..."
+    "loadingScenario": "Carregando {{1}}...",
+    "export": {
+      "exported": "Cenário exportado",
+      "exporting": "Exportando cenário...",
+      "failed": "Não foi possível exportar o cenário",
+      "permissionDenied": "A permissão para gravar o arquivo foi negada. O cenário não foi exportado."
+    }
   },
   "addTimestep": "Adicionar passo de tempo",
   "createScenario": "Criar novo cenário",
@@ -1001,9 +1007,9 @@
   "goToMain": "Ir para o principal",
   "directDemand": "Demanda direta",
   "addDirectDemand": "Adicionar demanda direta",
-  "alertNetworkRequired": "Rede necessária",
-  "alertNetworkRequiredDetail": "Você precisa selecionar ou criar uma rede antes de poder começar a construir um cenário.",
-  "chooseANetwork": "Escolha uma rede",
+  "alertNetworkRequired": "Seu modelo está vazio",
+  "alertNetworkRequiredDetail": "Adicione ativos ao seu modelo, ou abra um existente, antes de criar um cenário.",
+  "chooseANetwork": "Escolher modelo",
   "addPoint": "Adicionar ponto",
   "designPointCurve": "Curva de 1 ponto (ponto de projeto)",
   "multiPointCurve": "Curva multiponto",
@@ -2047,5 +2053,6 @@
   "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo, campos de ativos personalizados, conjuntos de seleção, marcadores e controles nativos.",
   "openProjectProgress.readingScenarios": "Lendo cenários...",
   "statusClosed": "Fechado",
-  "statusOpen": "Aberto"
+  "statusOpen": "Aberto",
+  "export.currentScenarioAsProject": "Cenário atual como projeto"
 }

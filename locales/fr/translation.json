@@ -946,7 +946,7 @@
     "deleteConfirmation": {
       "confirm": "Supprimer le scénario",
       "message": "Êtes-vous sûr de vouloir supprimer le scénario « {{1}} » ?",
-      "title": "Supprimer le Scénario"
+      "title": "Supprimer le scénario"
     },
     "created": "Scénario créé",
     "rename": "Renommer",
@@ -961,7 +961,7 @@
     "paywall": {
       "title": "Mettre à niveau pour accéder aux scénarios",
       "description1": "Avec les scénarios, vous pouvez explorer des modifications « et si » sans dupliquer votre modèle.",
-      "description2": "Créez des versions alternatives de votre réseau et comparez les résultats par rapport à votre base de référence.",
+      "description2": "Créez des versions alternatives et comparez leurs résultats par rapport au modèle de base (Principal).",
       "captions": {
         "1": "Poser des questions « et si » avec des scénarios",
         "2": "Modifier les paramètres des éléments",
@@ -974,7 +974,7 @@
     },
     "firstScenario": {
       "bullet1": "Le modèle principal devient <bold>en lecture seule</bold> tant que des scénarios existent.",
-      "bullet3": "Vous pouvez supprimer vos scénarios à tout moment pour déverrouiller le modèle principal.",
+      "bullet3": "Supprimez vos scénarios à tout moment pour déverrouiller le modèle principal.",
       "createButton": "Créer un scénario",
       "dontShowAgain": "Ne plus afficher ceci",
       "pleaseNote": "Veuillez noter :",
@@ -986,7 +986,13 @@
       "description": "Ce projet contient des scénarios. Connectez-vous pour les afficher.",
       "title": "Connectez-vous pour afficher les scénarios"
     },
-    "loadingScenario": "Chargement de {{1}}..."
+    "loadingScenario": "Chargement de {{1}}...",
+    "export": {
+      "exported": "Scénario exporté",
+      "exporting": "Exportation du scénario...",
+      "failed": "Impossible d'exporter le scénario",
+      "permissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le scénario n'a pas été exporté."
+    }
   },
   "addTimestep": "Ajouter un pas de temps",
   "createScenario": "Créer un nouveau scénario",
@@ -1001,9 +1007,9 @@
   "goToMain": "Aller au principal",
   "directDemand": "Demande directe",
   "addDirectDemand": "Ajouter une demande directe",
-  "alertNetworkRequired": "Réseau requis",
-  "alertNetworkRequiredDetail": "Vous devez sélectionner ou créer un réseau avant de pouvoir commencer à créer un scénario.",
-  "chooseANetwork": "Choisir un réseau",
+  "alertNetworkRequired": "Votre modèle est vide",
+  "alertNetworkRequiredDetail": "Ajoutez des éléments à votre modèle, ou ouvrez-en un existant, avant de créer un scénario.",
+  "chooseANetwork": "Choisir un modèle",
   "addPoint": "Ajouter un point",
   "designPointCurve": "Courbe à 1 point (point de conception)",
   "multiPointCurve": "Courbe multipoints",
@@ -2047,5 +2053,6 @@
   "alertExportInpDetail": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les points de consommation, les champs d'éléments personnalisés, les ensembles de sélection, les signets et les contrôles natifs.",
   "openProjectProgress.readingScenarios": "Lecture des scénarios...",
   "statusClosed": "Fermé",
-  "statusOpen": "Ouvert"
+  "statusOpen": "Ouvert",
+  "export.currentScenarioAsProject": "Scénario actuel en tant que projet"
 }

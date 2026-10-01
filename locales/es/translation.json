@@ -959,7 +959,7 @@
     "deleteConfirmation": {
       "confirm": "Eliminar escenario",
       "message": "¿Estás seguro de que quieres eliminar el escenario \"{{1}}\"?",
-      "title": "Eliminar Escenario"
+      "title": "Eliminar escenario"
     },
     "created": "Escenario creado",
     "rename": "Renombrar",
@@ -969,12 +969,12 @@
       "errorReserved": "Este nombre está reservado",
       "label": "Nombre del escenario",
       "placeholder": "Introduce el nombre del escenario",
-      "title": "Renombrar Escenario"
+      "title": "Renombrar escenario"
     },
     "paywall": {
       "title": "Mejorar para acceder a escenarios",
       "description1": "Los escenarios te permiten explorar cambios de \"qué pasaría si\" sin duplicar tu modelo.",
-      "description2": "Crea versiones alternativas de tu red y compara los resultados con tu línea base.",
+      "description2": "Crea versiones alternativas y compara sus resultados con el modelo base (Principal).",
       "captions": {
         "1": "Haz preguntas de \"qué pasaría si\" con escenarios",
         "2": "Modificar parámetros de activos",
@@ -987,7 +987,7 @@
     },
     "firstScenario": {
       "bullet1": "El modelo principal se vuelve <bold>de solo lectura</bold> mientras existan escenarios.",
-      "bullet3": "Puedes eliminar tus escenarios en cualquier momento para desbloquear el modelo principal.",
+      "bullet3": "Elimina tus escenarios en cualquier momento para desbloquear el modelo principal.",
       "createButton": "Crear escenario",
       "dontShowAgain": "No mostrar esto de nuevo",
       "pleaseNote": "Ten en cuenta:",
@@ -999,7 +999,13 @@
       "description": "Este proyecto tiene escenarios. Inicia sesión para verlos.",
       "title": "Inicia sesión para ver los escenarios"
     },
-    "loadingScenario": "Cargando {{1}}..."
+    "loadingScenario": "Cargando {{1}}...",
+    "export": {
+      "exported": "Escenario exportado",
+      "exporting": "Exportando escenario...",
+      "failed": "No se pudo exportar el escenario",
+      "permissionDenied": "Se denegó el permiso para escribir el archivo. El escenario no se exportó."
+    }
   },
   "addTimestep": "Añadir paso de tiempo",
   "createScenario": "Crear nuevo escenario",
@@ -1014,9 +1020,9 @@
   "goToMain": "Ir a principal",
   "directDemand": "Demanda directa",
   "addDirectDemand": "Añadir demanda directa",
-  "alertNetworkRequired": "Red requerida",
-  "alertNetworkRequiredDetail": "Necesitas seleccionar o crear una red antes de poder empezar a construir un escenario.",
-  "chooseANetwork": "Elegir una red",
+  "alertNetworkRequired": "Tu modelo está vacío",
+  "alertNetworkRequiredDetail": "Añade activos a tu modelo, o abre uno existente, antes de crear un escenario.",
+  "chooseANetwork": "Elegir modelo",
   "addPoint": "Añadir punto",
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
   "multiPointCurve": "Curva multipunto",
@@ -2054,5 +2060,6 @@
   "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de activos personalizados, los conjuntos de selección, los marcadores y los controles nativos.",
   "openProjectProgress.readingScenarios": "Leyendo escenarios...",
   "statusClosed": "Cerrada",
-  "statusOpen": "Abierta"
+  "statusOpen": "Abierta",
+  "export.currentScenarioAsProject": "Escenario actual como proyecto"
 }

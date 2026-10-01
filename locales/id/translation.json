@@ -18,8 +18,8 @@
   "alertInpOutput": "Beberapa data mungkin hilang",
   "alertInpOutputDetail": "Harap diperhatikan bahwa beberapa bagian dan pengaturan mungkin diformat berbeda atau dihilangkan. Kami menyarankan Anda untuk menyimpan salinan alih-alih menimpa konten asli.",
   "alertInpOutputSubtitle": "File INP Anda dibuat dengan aplikasi lain.",
-  "alertNetworkRequired": "Jaringan diperlukan",
-  "alertNetworkRequiredDetail": "Anda perlu memilih atau membuat jaringan sebelum dapat mulai membangun skenario.",
+  "alertNetworkRequired": "Model Anda kosong",
+  "alertNetworkRequiredDetail": "Tambahkan aset ke model Anda, atau buka yang sudah ada, sebelum membuat skenario.",
   "alwaysShowAtStart": "Selalu tampilkan saat startup",
   "analysisTools": "Alat analisis",
   "andXMore": "dan {{1}} lainnya...",
@@ -68,7 +68,7 @@
   "chemicalSourcePattern": "Pola sumber",
   "chemicalSourceStrength": "Kekuatan sumber",
   "chemicalSourceType": "Jenis sumber bahan kimia",
-  "chooseANetwork": "Pilih jaringan",
+  "chooseANetwork": "Pilih model",
   "ckmeans": "Ckmeans",
   "classes": "Kelas",
   "clearSelection": "Hapus seleksi",
@@ -1145,12 +1145,12 @@
     "deleteConfirmation": {
       "confirm": "Hapus skenario",
       "message": "Apakah Anda yakin ingin menghapus skenario \"{{1}}\"?",
-      "title": "Hapus Skenario"
+      "title": "Hapus skenario"
     },
-    "enableScenarios": "Aktifkan Skenario",
+    "enableScenarios": "Aktifkan skenario",
     "firstScenario": {
       "bullet1": "Model utama menjadi <bold>hanya-baca</bold> saat skenario ada.",
-      "bullet3": "Anda dapat menghapus skenario Anda kapan saja untuk membuka kunci model utama.",
+      "bullet3": "Hapus skenario Anda kapan saja untuk membuka kunci Model utama.",
       "createButton": "Buat skenario",
       "dontShowAgain": "Jangan tampilkan ini lagi",
       "pleaseNote": "Mohon perhatian:",
@@ -1168,7 +1168,7 @@
         "5": "Jaga perubahan tetap terisolasi dalam skenario"
       },
       "description1": "Skenario memungkinkan Anda menjelajahi perubahan \"bagaimana jika\" tanpa menduplikasi model Anda.",
-      "description2": "Buat versi alternatif jaringan Anda dan bandingkan hasilnya dengan garis dasar Anda.",
+      "description2": "Buat versi alternatif dan bandingkan hasilnya dengan model dasar (Utama).",
       "plans": "Skenario tersedia pada paket berbayar.",
       "title": "Tingkatkan untuk mengakses skenario",
       "trial": "Skenario adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tidak memerlukan kartu kredit."
@@ -1180,7 +1180,7 @@
       "errorReserved": "Nama ini dicadangkan",
       "label": "Nama skenario",
       "placeholder": "Masukkan nama skenario",
-      "title": "Ubah Nama Skenario"
+      "title": "Ubah nama skenario"
     },
     "switcherTooltip": "Ganti skenario",
     "signIn": {
@@ -1188,7 +1188,13 @@
       "description": "Proyek ini memiliki skenario. Masuk untuk melihatnya.",
       "title": "Masuk untuk melihat skenario"
     },
-    "loadingScenario": "Memuat {{1}}..."
+    "loadingScenario": "Memuat {{1}}...",
+    "export": {
+      "exported": "Skenario diekspor",
+      "exporting": "Mengekspor skenario...",
+      "failed": "Tidak dapat mengekspor skenario",
+      "permissionDenied": "Izin untuk menulis file ditolak. Skenario tidak diekspor."
+    }
   },
   "scenariosItem": "Skenario",
   "searchLocation": "Cari lokasi...",
@@ -2047,5 +2053,6 @@
   "alertExportInpDetail": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti titik pelanggan, bidang aset kustom, set pilihan, bookmark, dan kontrol asli.",
   "openProjectProgress.readingScenarios": "Membaca skenario...",
   "statusClosed": "Tertutup",
-  "statusOpen": "Buka"
+  "statusOpen": "Buka",
+  "export.currentScenarioAsProject": "Skenario saat ini sebagai proyek"
 }
