@@ -1194,7 +1194,9 @@
       "exporting": "Mengekspor skenario...",
       "failed": "Tidak dapat mengekspor skenario",
       "permissionDenied": "Izin untuk menulis file ditolak. Skenario tidak diekspor."
-    }
+    },
+    "duplicate": "Duplikat",
+    "duplicated": "Skenario digandakan"
   },
   "scenariosItem": "Skenario",
   "searchLocation": "Cari lokasi...",
@@ -1955,7 +1957,9 @@
       "zoneGeometryUnreadable_other": "{{count}} batas Zona memiliki terlalu sedikit titik untuk membuat poligon, sehingga tidak diimpor",
       "coordinateAttributesUnknown": "Kami tidak dapat mengetahui atribut mana yang menyimpan koordinat, jadi tidak ada yang diimpor.",
       "coordinateAttributesMissing": "Tidak ada atribut dalam file yang menyimpan koordinat, jadi tidak ada yang diimpor.",
-      "sourceHeaderMissing": "Baris pertama tidak menyebutkan nama kolom, jadi tidak ada yang diimpor."
+      "sourceHeaderMissing": "Baris pertama tidak menyebutkan nama kolom, jadi tidak ada yang diimpor.",
+      "nodeElevationUnresolved_one": "1 node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuknya",
+      "nodeElevationUnresolved_other": "{{count}} node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuk mereka"
     },
     "paywall": {
       "captions": {

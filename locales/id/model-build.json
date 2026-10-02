@@ -69,8 +69,8 @@
       "splittingLinks": "Memisahkan tautan",
       "finalizingModel": "Menyelesaikan model",
       "generatingEjsdb": "Membuat file proyek",
-      "importingCustomerPoints": "Mengimpor titik pelanggan",
-      "importingZones": "Mengimpor zona"
+      "buildingCustomerPoints": "Membangun titik pelanggan",
+      "buildingZones": "Membangun zona"
     },
     "continueToApp": "Buka model",
     "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",

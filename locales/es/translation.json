@@ -1005,7 +1005,9 @@
       "exporting": "Exportando escenario...",
       "failed": "No se pudo exportar el escenario",
       "permissionDenied": "Se denegó el permiso para escribir el archivo. El escenario no se exportó."
-    }
+    },
+    "duplicate": "Duplicar",
+    "duplicated": "Escenario duplicado"
   },
   "addTimestep": "Añadir paso de tiempo",
   "createScenario": "Crear nuevo escenario",
@@ -1962,7 +1964,9 @@
       "zoneGeometryUnreadable_other": "{{count}} límites de zona tienen muy pocos puntos para formar polígonos, por lo que no fueron importados",
       "coordinateAttributesUnknown": "No pudimos determinar qué atributos contienen las coordenadas, por lo que no se importó nada.",
       "coordinateAttributesMissing": "Ningún atributo en el archivo contiene coordenadas, por lo que no se importó nada.",
-      "sourceHeaderMissing": "La primera fila no nombra las columnas, por lo que no se importó nada."
+      "sourceHeaderMissing": "La primera fila no nombra las columnas, por lo que no se importó nada.",
+      "nodeElevationUnresolved_one": "1 nudo no tiene elevación, porque el servicio de terreno no tenía datos para él",
+      "nodeElevationUnresolved_other": "{{count}} nudos no tienen elevación, porque el servicio de terreno no tenía datos para ellos"
     },
     "paywall": {
       "captions": {

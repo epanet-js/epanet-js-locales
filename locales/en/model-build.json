@@ -76,8 +76,8 @@
       "removingZeroLengthPipes": "Removing zero-length pipes",
       "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
-      "importingCustomerPoints": "Importing customer points",
-      "importingZones": "Importing zones",
+      "buildingCustomerPoints": "Building customer points",
+      "buildingZones": "Building zones",
       "finalizingModel": "Finalizing model",
       "generatingEjsdb": "Generating project file"
     },

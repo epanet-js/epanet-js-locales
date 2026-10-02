@@ -992,7 +992,9 @@
       "exporting": "Scenario exporteren...",
       "failed": "Kon scenario niet exporteren",
       "permissionDenied": "Toestemming om het bestand te schrijven werd geweigerd. Het scenario is niet geëxporteerd."
-    }
+    },
+    "duplicate": "Dupliceren",
+    "duplicated": "Scenario gedupliceerd"
   },
   "addTimestep": "Tijdstap toevoegen",
   "createScenario": "Nieuw scenario aanmaken",
@@ -1955,7 +1957,9 @@
       "zoneGeometryUnreadable_other": "{{count}} Zonegrenzen hebben te weinig punten om polygonen te vormen, dus ze zijn niet geïmporteerd",
       "coordinateAttributesUnknown": "We konden niet bepalen welke attributen de coördinaten bevatten, dus er is niets geïmporteerd.",
       "coordinateAttributesMissing": "Geen attribuut in het bestand bevat coördinaten, dus er is niets geïmporteerd.",
-      "sourceHeaderMissing": "De eerste rij benoemt de kolommen niet, dus er is niets geïmporteerd."
+      "sourceHeaderMissing": "De eerste rij benoemt de kolommen niet, dus er is niets geïmporteerd.",
+      "nodeElevationUnresolved_one": "1 knooppunt heeft geen hoogte, omdat de terreindienst er geen had",
+      "nodeElevationUnresolved_other": "{{count}} knooppunten hebben geen hoogte, omdat de terreindienst er geen had"
     },
     "paywall": {
       "captions": {

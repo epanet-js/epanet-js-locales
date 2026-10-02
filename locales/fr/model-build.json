@@ -69,8 +69,8 @@
       "splittingLinks": "Division des liaisons",
       "finalizingModel": "Finalisation du modèle",
       "generatingEjsdb": "Génération du fichier projet",
-      "importingCustomerPoints": "Importation des points de consommation",
-      "importingZones": "Importation des zones"
+      "buildingCustomerPoints": "Construction des points de consommation",
+      "buildingZones": "Construction des zones"
     },
     "continueToApp": "Ouvrir le modèle",
     "elevationsUncovered": "Le service de terrain n'a pas de données à cet endroit.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",

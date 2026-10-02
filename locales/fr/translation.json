@@ -992,7 +992,9 @@
       "exporting": "Exportation du scénario...",
       "failed": "Impossible d'exporter le scénario",
       "permissionDenied": "L'autorisation d'écrire le fichier a été refusée. Le scénario n'a pas été exporté."
-    }
+    },
+    "duplicate": "Dupliquer",
+    "duplicated": "Scénario dupliqué"
   },
   "addTimestep": "Ajouter un pas de temps",
   "createScenario": "Créer un nouveau scénario",
@@ -1955,7 +1957,9 @@
       "zoneGeometryUnreadable_other": "{{count}} limites de zone ont trop peu de points pour former des polygones, elles n'ont donc pas été importées",
       "coordinateAttributesUnknown": "Nous n'avons pas pu déterminer quels attributs contiennent les coordonnées, donc rien n'a été importé.",
       "coordinateAttributesMissing": "Aucun attribut dans le fichier ne contient de coordonnées, donc rien n'a été importé.",
-      "sourceHeaderMissing": "La première ligne ne nomme pas les colonnes, donc rien n'a été importé."
+      "sourceHeaderMissing": "La première ligne ne nomme pas les colonnes, donc rien n'a été importé.",
+      "nodeElevationUnresolved_one": "1 nœud n'a pas d'élévation, car le service de terrain n'en avait pas pour lui",
+      "nodeElevationUnresolved_other": "{{count}} nœuds n'ont pas d'élévation, car le service de terrain n'en avait pas pour eux"
     },
     "paywall": {
       "captions": {

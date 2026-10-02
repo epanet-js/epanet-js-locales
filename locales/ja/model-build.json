@@ -69,8 +69,8 @@
       "splittingLinks": "リンクの分割",
       "finalizingModel": "モデルを最終処理中",
       "generatingEjsdb": "プロジェクトファイルを生成中",
-      "importingCustomerPoints": "顧客ポイントをインポート中",
-      "importingZones": "ゾーンをインポート中"
+      "buildingCustomerPoints": "顧客ポイントを構築中",
+      "buildingZones": "ゾーンを構築中"
     },
     "continueToApp": "モデルを開く",
     "elevationsUncovered": "地形サービスにはデータがありません。\n{{2}}個のノードのうち{{1}}個には標高がありません。",

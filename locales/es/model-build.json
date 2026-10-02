@@ -69,8 +69,8 @@
       "splittingLinks": "Dividiendo enlaces",
       "finalizingModel": "Finalizando modelo",
       "generatingEjsdb": "Generando archivo de proyecto",
-      "importingCustomerPoints": "Importando puntos de consumo",
-      "importingZones": "Importando zonas"
+      "buildingCustomerPoints": "Construyendo puntos de consumo",
+      "buildingZones": "Construyendo zonas"
     },
     "continueToApp": "Abrir modelo",
     "elevationsUncovered": "El servicio de terreno no tiene datos allí.\n{{1}} de {{2}} nudos no tienen elevación.",
