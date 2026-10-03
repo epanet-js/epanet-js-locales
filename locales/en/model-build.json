@@ -59,6 +59,9 @@
     "showMore": "Show more",
     "downloadModel": "Download model (.ejsdb)",
     "ejsdbFailed": "Failed to generate .ejsdb file",
+    "workerFailed": "The build could not start. Try again.",
+    "workerOffline": "The build could not start while offline. Reconnect and try again.",
+    "retry": "Try again",
     "durationLessThanSecond": "<1 second",
     "durationSeconds_one": "{{count}} second",
     "durationSeconds_other": "{{count}} seconds",
@@ -251,5 +254,9 @@
   },
   "zonesPreview": {
     "polygons": "Polygons"
+  },
+  "unsupportedBrowser": {
+    "title": "This browser cannot build models",
+    "description": "Model builder needs Web Workers, which this browser does not support or has turned off. Use a recent version of Chrome, Edge, Firefox or Safari."
   }
 }

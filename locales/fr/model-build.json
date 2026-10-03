@@ -76,7 +76,10 @@
     "elevationsUncovered": "Le service de terrain n'a pas de données à cet endroit.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
     "elevationsUnreachable": "Impossible d'atteindre le service de terrain.\n{{1}} des {{2}} nœuds n'ont pas d'élévation.",
     "customerPointsSkipped": "{{1}} des {{2}} points de consommation ont été ignorés. Vérifiez qu'ils ont une géométrie de point et une projection valide.",
-    "zonesSkipped": "{{1}} des {{2}} entités de zone ont été ignorées. Vérifiez qu'elles ont une géométrie de polygone et une projection valide."
+    "zonesSkipped": "{{1}} des {{2}} entités de zone ont été ignorées. Vérifiez qu'elles ont une géométrie de polygone et une projection valide.",
+    "retry": "Réessayer",
+    "workerFailed": "La construction n'a pas pu démarrer. Réessayez.",
+    "workerOffline": "La construction n'a pas pu démarrer hors ligne. Reconnectez-vous et réessayez."
   },
   "dataTable": {
     "legendDefault": "texte en italique = valeurs par défaut",
@@ -251,5 +254,9 @@
     "continueAnyway": "Continuer quand même",
     "keepEditing": "Continuer l'édition",
     "unassignedWarning": "Aucun type d'élément n'est attribué à {{1}}, donc ils ne seront pas inclus dans le modèle."
+  },
+  "unsupportedBrowser": {
+    "description": "Le constructeur de modèle nécessite des Web Workers, ce que ce navigateur ne prend pas en charge ou a désactivé. Utilisez une version récente de Chrome, Edge, Firefox ou Safari.",
+    "title": "Ce navigateur ne peut pas construire de modèles"
   }
 }

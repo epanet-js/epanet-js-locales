@@ -76,7 +76,10 @@
     "elevationsUncovered": "Layanan medan tidak memiliki data di sana.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
     "elevationsUnreachable": "Tidak dapat mencapai layanan medan.\n{{1}} dari {{2}} node tidak memiliki elevasi.",
     "customerPointsSkipped": "{{1}} dari {{2}} titik pelanggan dilewati. Pastikan mereka memiliki geometri titik dan proyeksi yang valid.",
-    "zonesSkipped": "{{1}} dari {{2}} catatan zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid."
+    "zonesSkipped": "{{1}} dari {{2}} catatan zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid.",
+    "retry": "Coba lagi",
+    "workerFailed": "Pembangunan tidak dapat dimulai. Coba lagi.",
+    "workerOffline": "Pembangunan tidak dapat dimulai saat offline. Sambungkan kembali dan coba lagi."
   },
   "dataTable": {
     "legendDefault": "teks miring = nilai default",
@@ -251,5 +254,9 @@
     "continueAnyway": "Lanjutkan saja",
     "keepEditing": "Lanjutkan mengedit",
     "unassignedWarning": "Tidak ada tipe elemen yang ditetapkan untuk {{1}}, jadi mereka tidak akan disertakan dalam model."
+  },
+  "unsupportedBrowser": {
+    "description": "Pembangun model memerlukan Web Worker, yang tidak didukung atau dimatikan oleh browser ini. Gunakan Chrome, Edge, Firefox atau Safari versi terbaru.",
+    "title": "Browser ini tidak dapat membangun model"
   }
 }

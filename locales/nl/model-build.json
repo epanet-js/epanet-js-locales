@@ -76,7 +76,10 @@
     "elevationsUncovered": "De terreindienst heeft daar geen gegevens.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
     "elevationsUnreachable": "Kon de terreindienst niet bereiken.\n{{1}} van de {{2}} knooppunten hebben geen hoogte.",
     "customerPointsSkipped": "{{1}} van de {{2}} klantpunten zijn overgeslagen. Controleer of ze puntgeometrie en een geldige projectie hebben.",
-    "zonesSkipped": "{{1}} van de {{2}} zone objecten zijn overgeslagen. Controleer of ze polygoongeometrie en een geldige projectie hebben."
+    "zonesSkipped": "{{1}} van de {{2}} zone objecten zijn overgeslagen. Controleer of ze polygoongeometrie en een geldige projectie hebben.",
+    "retry": "Opnieuw proberen",
+    "workerFailed": "De build kon niet starten. Probeer het opnieuw.",
+    "workerOffline": "De build kon niet starten terwijl u offline was. Maak opnieuw verbinding en probeer het opnieuw."
   },
   "dataTable": {
     "legendDefault": "cursieve tekst = standaardwaarden",
@@ -251,5 +254,9 @@
     "continueAnyway": "Toch doorgaan",
     "keepEditing": "Blijven bewerken",
     "unassignedWarning": "Er is geen elementtype toegewezen aan {{1}}, dus worden ze niet opgenomen in het model."
+  },
+  "unsupportedBrowser": {
+    "description": "De modelbouwer heeft Web Workers nodig, die deze browser niet ondersteunt of heeft uitgeschakeld. Gebruik een recente versie van Chrome, Edge, Firefox of Safari.",
+    "title": "Deze browser kan geen modellen bouwen"
   }
 }

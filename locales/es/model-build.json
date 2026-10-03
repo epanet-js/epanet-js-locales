@@ -76,7 +76,10 @@
     "elevationsUncovered": "El servicio de terreno no tiene datos allí.\n{{1}} de {{2}} nudos no tienen elevación.",
     "elevationsUnreachable": "No se pudo alcanzar el servicio de terreno.\n{{1}} de {{2}} nudos no tienen elevación.",
     "customerPointsSkipped": "{{1}} de {{2}} puntos de consumo fueron omitidos. Verifica que tengan geometría de punto y una proyección válida.",
-    "zonesSkipped": "{{1}} de {{2}} registros de zona fueron omitidos. Verifica que tengan geometría de polígono y una proyección válida."
+    "zonesSkipped": "{{1}} de {{2}} registros de zona fueron omitidos. Verifica que tengan geometría de polígono y una proyección válida.",
+    "retry": "Intentar de nuevo",
+    "workerFailed": "La construcción no pudo iniciarse. Inténtalo de nuevo.",
+    "workerOffline": "La construcción no pudo iniciarse sin conexión. Vuelve a conectarte e inténtalo de nuevo."
   },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
@@ -251,5 +254,9 @@
     "continueAnyway": "Continuar de todos modos",
     "keepEditing": "Mantener edición",
     "unassignedWarning": "No se ha asignado ningún tipo de elemento a {{1}}, por lo que no se incluirán en el modelo."
+  },
+  "unsupportedBrowser": {
+    "description": "El constructor de modelos necesita Web Workers, que este navegador no soporta o ha desactivado. Usa una versión reciente de Chrome, Edge, Firefox o Safari.",
+    "title": "Este navegador no puede construir modelos"
   }
 }

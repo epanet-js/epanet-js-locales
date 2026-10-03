@@ -76,7 +76,10 @@
     "elevationsUncovered": "O serviço de terreno não possui dados lá.\n{{1}} de {{2}} nós não têm elevação.",
     "elevationsUnreachable": "Não foi possível alcançar o serviço de terreno.\n{{1}} de {{2}} nós não têm elevação.",
     "customerPointsSkipped": "{{1}} de {{2}} pontos de consumo foram ignorados. Verifique se eles têm geometria de ponto e uma projeção válida.",
-    "zonesSkipped": "{{1}} de {{2}} feições de zona foram ignoradas. Verifique se elas têm geometria de polígono e uma projeção válida."
+    "zonesSkipped": "{{1}} de {{2}} feições de zona foram ignoradas. Verifique se elas têm geometria de polígono e uma projeção válida.",
+    "retry": "Tentar novamente",
+    "workerFailed": "A compilação não pôde iniciar. Tentar novamente.",
+    "workerOffline": "A compilação não pôde iniciar enquanto offline. Reconecte e tente novamente."
   },
   "dataTable": {
     "legendDefault": "texto itálico = valores padrão",
@@ -251,5 +254,9 @@
     "continueAnyway": "Continuar mesmo assim",
     "keepEditing": "Continuar editando",
     "unassignedWarning": "Nenhum tipo de elemento é atribuído a {{1}}, então eles não serão incluídos no modelo."
+  },
+  "unsupportedBrowser": {
+    "description": "O construtor de modelos precisa de Web Workers, que este navegador não suporta ou desativou. Use uma versão recente do Chrome, Edge, Firefox ou Safari.",
+    "title": "Este navegador não pode construir modelos"
   }
 }
