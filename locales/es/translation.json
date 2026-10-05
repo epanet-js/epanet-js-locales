@@ -925,7 +925,6 @@
     "addTimeStep": "Añadir paso de tiempo",
     "time": "Tiempo",
     "timeBased": "Basado en el tiempo",
-    "level": "Nivel (m)",
     "levelBased": "Basado en el nivel",
     "levelValidation": {
       "onBelowOff": "El nivel de encendido debe ser inferior al nivel de apagado.",

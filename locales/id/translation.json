@@ -110,7 +110,6 @@
     "addTimeStep": "Tambah langkah waktu",
     "time": "Waktu",
     "timeBased": "Berbasis waktu",
-    "level": "Level (m)",
     "levelBased": "Berbasis level",
     "levelValidation": {
       "onBelowOff": "Level aktif harus di bawah level nonaktif.",

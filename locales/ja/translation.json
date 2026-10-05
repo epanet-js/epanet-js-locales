@@ -912,7 +912,6 @@
     "addTimeStep": "タイムステップを追加",
     "time": "時間",
     "timeBased": "時間ベース",
-    "level": "レベル (m)",
     "levelBased": "レベルベース",
     "levelValidation": {
       "onBelowOff": "オンレベルはオフレベルより低くなければなりません。",

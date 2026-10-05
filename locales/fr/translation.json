@@ -912,7 +912,6 @@
     "addTimeStep": "Ajouter un pas de temps",
     "time": "Temps",
     "timeBased": "Basé sur l'heure",
-    "level": "Niveau (m)",
     "levelBased": "Basé sur le niveau",
     "levelValidation": {
       "onBelowOff": "Le niveau d'activation doit être inférieur au niveau de désactivation.",
