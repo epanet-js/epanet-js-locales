@@ -120,7 +120,27 @@
     "nativeControlsInfoDescription": "Anda sekarang dapat mengonfigurasi kontrol pompa berbasis waktu dan berbasis level langsung dari panel aset!",
     "nativeControlsInfoNote": "Meskipun Anda masih dapat menggunakan editor mentah, harap hindari mengonfigurasi aset yang sama di kedua tempat untuk mencegah konflik kontrol.",
     "nativeControlsInfoTitle": "Kontrol pompa yang lebih mudah tersedia",
-    "rawControlsDetected": "Kontrol mentah EPANET terdeteksi"
+    "rawControlsDetected": "Kontrol mentah EPANET terdeteksi",
+    "variableSpeed": {
+      "addPump": "Tambah pompa",
+      "atNode": "Pada node",
+      "controlledByPump": "Dikendalikan oleh pompa {{1}}",
+      "flowTarget": "Target aliran",
+      "flowThrough": "Aliran melalui",
+      "lagPumps": "Pompa tertinggal",
+      "maxSpeed": "Kecepatan maks",
+      "minSpeed": "Kecepatan min",
+      "offAbove": "Mati di atas",
+      "onBelow": "Nyala di bawah",
+      "outletOfThisPump": "{{1}} (outlet dari pompa ini)",
+      "pressureTarget": "Target tekanan",
+      "setBySchedule": "Ditetapkan oleh jadwal",
+      "speedRangeError": "Kecepatan min tidak boleh di atas kecepatan maks.",
+      "tankLevels": "Mulai/berhenti pada level tangki",
+      "tankNode": "{{1}} (tangki)",
+      "thisPump": "Pompa ini",
+      "varyByTimeOfDay": "Bervariasi berdasarkan waktu hari"
+    }
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -337,7 +357,7 @@
   "efficiencyCurve": "Kurva efisiensi",
   "elevation": "Elevasi",
   "elevationNotAvailable": "Elevasi tidak tersedia",
-  "elevationNotAvailableExplain": "Tidak mungkin mengambil elevasi untuk titik ini. Menggunakan 0 sebagai gantinya.",
+  "elevationNotAvailableExplain": "Tidak mungkin mengambil elevasi untuk titik ini. Masukkan secara manual jika diperlukan.",
   "elevations": {
     "addMoreTiles": "Tambahkan lebih banyak ubin",
     "addNewData": "Tambahkan data elevasi baru",
@@ -449,7 +469,7 @@
   "exportToInp": "Ekspor ke INP",
   "exportXlsx": "Lembar Kerja Excel (XLSX)",
   "failedToFetchElevation": "Gagal mengambil elevasi",
-  "failedToFetchElevationExplain": "Data elevasi tidak dapat diambil, sehingga akan ditetapkan 0.",
+  "failedToFetchElevationExplain": "Data elevasi tidak dapat diambil. Masukkan secara manual jika diperlukan.",
   "failedToLoad": "Gagal memuat",
   "failedToLoadTileJSON": "Lapisan TileJSON gagal dimuat. Server tile mungkin sedang tidak aktif",
   "failedToOpenModel": "Gagal membuka model",
@@ -1531,10 +1551,6 @@
     },
     "estimated": "Diperkirakan",
     "hgl": "HGL",
-    "noPath": {
-      "message": "Tidak ada jalur terhubung yang ditemukan di antara node yang dipilih.",
-      "title": "Tidak ada jalur ditemukan"
-    },
     "selectEnd": "Klik untuk menambahkan titik jalan, atau klik dua kali untuk menyelesaikan profil",
     "selectPath": "Pilih jalur",
     "selectStart": "Klik node atau pipa untuk mengatur awal profil",
@@ -2057,5 +2073,7 @@
   "openProjectProgress.readingScenarios": "Membaca skenario...",
   "statusClosed": "Tertutup",
   "statusOpen": "Buka",
-  "export.currentScenarioAsProject": "Skenario saat ini sebagai proyek"
+  "export.currentScenarioAsProject": "Skenario saat ini sebagai proyek",
+  "alertExportInpLsxVariableSpeedPumps": "Pompa kecepatan variabel",
+  "dbUnavailable.scenariosDescription": "Terjadi kesalahan dan proyek ini tidak dapat disimpan lagi, termasuk skenarionya. Muat ulang halaman dan buka kembali file proyek terakhir Anda yang disimpan untuk melanjutkan — perubahan apa pun sejak terakhir Anda menyimpan akan hilang."
 }

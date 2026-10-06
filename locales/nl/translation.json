@@ -321,9 +321,9 @@
   "demandMultiplier": "Vraagvermenigvuldiger",
   "saveAndRun": "Opslaan & uitvoeren",
   "failedToFetchElevation": "Ophalen van hoogte mislukt",
-  "failedToFetchElevationExplain": "Hoogtegegevens kunnen niet worden opgehaald, dus 0 zal worden toegewezen.",
+  "failedToFetchElevationExplain": "Hoogtegegevens kunnen niet worden opgehaald. Voer deze handmatig in indien nodig.",
   "elevationNotAvailable": "Hoogte niet beschikbaar",
-  "elevationNotAvailableExplain": "Het was niet mogelijk om de hoogte voor dit punt op te halen. Gebruikt 0 in plaats daarvan.",
+  "elevationNotAvailableExplain": "Het was niet mogelijk om de hoogte voor dit punt op te halen. Voer deze handmatig in indien nodig.",
   "noInternet": "Geen internetverbinding",
   "noInternetExplain": "Sommige functies zijn mogelijk niet beschikbaar.",
   "connectionRestored": "Verbinding hersteld!",
@@ -922,7 +922,27 @@
     "nativeControlsInfoDescription": "U kunt nu tijdgebaseerde en niveaugebaseerde pompbesturingen rechtstreeks vanuit het onderdelenpaneel configureren!",
     "nativeControlsInfoNote": "Hoewel u de ruwe editor nog steeds kunt gebruiken, vermijd alstublieft het configureren van hetzelfde onderdeel op beide plaatsen om besturingsconflicten te voorkomen.",
     "nativeControlsInfoTitle": "Gemakkelijkere pompbesturingen beschikbaar",
-    "rawControlsDetected": "EPANET ruwe besturingen gedetecteerd"
+    "rawControlsDetected": "EPANET ruwe besturingen gedetecteerd",
+    "variableSpeed": {
+      "addPump": "Pomp toevoegen",
+      "atNode": "Bij knooppunt",
+      "controlledByPump": "Geregeld door pomp {{1}}",
+      "flowTarget": "Stromingsdoel",
+      "flowThrough": "Stroming door",
+      "lagPumps": "Vertraagde pompen",
+      "maxSpeed": "Max. snelheid",
+      "minSpeed": "Min. snelheid",
+      "offAbove": "Uit boven",
+      "onBelow": "Aan onder",
+      "outletOfThisPump": "{{1}} (uitlaat van deze pomp)",
+      "pressureTarget": "Drukdoel",
+      "setBySchedule": "Instellen per schema",
+      "speedRangeError": "Min. snelheid mag niet boven max. snelheid liggen.",
+      "tankLevels": "Start/stop bij tankniveau",
+      "tankNode": "{{1}} (tank)",
+      "thisPump": "Deze pomp",
+      "varyByTimeOfDay": "Variëren per tijdstip van de dag"
+    }
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -1531,10 +1551,6 @@
     },
     "estimated": "Geschat",
     "hgl": "HGL",
-    "noPath": {
-      "message": "Geen verbonden pad gevonden tussen de geselecteerde knooppunten.",
-      "title": "Geen pad gevonden"
-    },
     "selectEnd": "Klik om een tussenpunt toe te voegen, of dubbelklik om het profiel te voltooien",
     "selectPath": "Pad selecteren",
     "selectStart": "Klik op een knooppunt of leiding om het begin van het profiel in te stellen",
@@ -2057,5 +2073,7 @@
   "openProjectProgress.readingScenarios": "Scenario's lezen...",
   "statusClosed": "Gesloten",
   "statusOpen": "Open",
-  "export.currentScenarioAsProject": "Huidig scenario als project"
+  "export.currentScenarioAsProject": "Huidig scenario als project",
+  "alertExportInpLsxVariableSpeedPumps": "Variabele snelheid pompen",
+  "dbUnavailable.scenariosDescription": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen, inclusief de scenario's. Herlaad de pagina en open uw laatst opgeslagen projectbestand opnieuw om door te gaan — alle wijzigingen sinds de laatste keer opslaan gaan verloren."
 }

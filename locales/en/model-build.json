@@ -66,7 +66,6 @@
     "durationSeconds_one": "{{count}} second",
     "durationSeconds_other": "{{count}} seconds",
     "steps": {
-      "readingBuildConfig": "Reading build config",
       "convertingGeometry": "Converting multistring geometry",
       "findingNodes": "Finding nodes",
       "connectingLinks": "Connecting links",
@@ -75,9 +74,7 @@
       "convertingNodesToLinks": "Converting nodes to links",
       "expandingShortLinks": "Expanding short links",
       "assigningAttributes": "Assigning attributes",
-      "assigningIds": "Assigning IDs",
       "removingZeroLengthPipes": "Removing zero-length pipes",
-      "finishingBuild": "Finishing build",
       "gettingElevations": "Getting elevations",
       "buildingCustomerPoints": "Building customer points",
       "buildingZones": "Building zones",
@@ -148,7 +145,6 @@
       "coordinateAttributesMissing": "No attribute holds coordinates"
     },
     "addShp": "Add the .shp file",
-    "noCompatibleElementsLeft": "No compatible elements left",
     "geometryUnsupported": "Unsupported geometry",
     "format": {
       "geojson": "GeoJSON",

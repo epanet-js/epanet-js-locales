@@ -321,9 +321,9 @@
   "demandMultiplier": "Multiplicateur de Demande",
   "saveAndRun": "Enregistrer et lancer",
   "failedToFetchElevation": "Échec de Récupération de l'Élévation",
-  "failedToFetchElevationExplain": "Les données d'élévation ne peuvent pas être récupérées, donc 0 sera assigné.",
+  "failedToFetchElevationExplain": "Les données d'élévation ne peuvent pas être récupérées. Saisissez-la manuellement si nécessaire.",
   "elevationNotAvailable": "Élévation Non Disponible",
-  "elevationNotAvailableExplain": "Il n'a pas été possible de récupérer l'élévation pour ce point. Utilisation de 0 à la place.",
+  "elevationNotAvailableExplain": "Il n'a pas été possible de récupérer l'élévation pour ce point. Saisissez-la manuellement si nécessaire.",
   "noInternet": "Aucune Connexion Internet",
   "noInternetExplain": "Certaines fonctionnalités peuvent ne pas être disponibles.",
   "connectionRestored": "Connexion Rétablie !",
@@ -922,7 +922,27 @@
     "nativeControlsInfoDescription": "Vous pouvez désormais configurer les contrôles de pompe basés sur le temps et sur le niveau directement depuis le panneau d'éléments !",
     "nativeControlsInfoNote": "Bien que vous puissiez toujours utiliser l'éditeur brut, veuillez éviter de configurer le même élément aux deux endroits pour éviter les conflits de contrôle.",
     "nativeControlsInfoTitle": "Contrôles de pompe plus faciles disponibles",
-    "rawControlsDetected": "Contrôles bruts EPANET détectés"
+    "rawControlsDetected": "Contrôles bruts EPANET détectés",
+    "variableSpeed": {
+      "addPump": "Ajouter une pompe",
+      "atNode": "Au nœud",
+      "controlledByPump": "Contrôlé par la pompe {{1}}",
+      "flowTarget": "Débit cible",
+      "flowThrough": "Débit traversant",
+      "lagPumps": "Pompes en cascade",
+      "maxSpeed": "Vitesse Max.",
+      "minSpeed": "Vitesse Min.",
+      "offAbove": "Arrêt au-dessus de",
+      "onBelow": "Activation en dessous de",
+      "outletOfThisPump": "{{1}} (sortie de cette pompe)",
+      "pressureTarget": "Pression cible",
+      "setBySchedule": "Défini par programme",
+      "speedRangeError": "La vitesse min. ne doit pas être supérieure à la vitesse max.",
+      "tankLevels": "Démarrer/arrêter au niveau du château d'eau",
+      "tankNode": "{{1}} (château d'eau)",
+      "thisPump": "Cette pompe",
+      "varyByTimeOfDay": "Varier en fonction de l'heure de la journée"
+    }
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
@@ -1531,10 +1551,6 @@
     },
     "estimated": "Estimé",
     "hgl": "Ligne Piézométrique",
-    "noPath": {
-      "message": "Aucun chemin connecté n'a été trouvé entre les nœuds sélectionnés.",
-      "title": "Aucun chemin trouvé"
-    },
     "selectEnd": "Cliquez pour ajouter un point de cheminement, ou double-cliquez pour terminer le profil",
     "selectPath": "Sélectionner le chemin",
     "selectStart": "Cliquez sur un nœud ou une conduite pour définir le début du profil",
@@ -2057,5 +2073,7 @@
   "openProjectProgress.readingScenarios": "Lecture des scénarios...",
   "statusClosed": "Fermé",
   "statusOpen": "Ouvert",
-  "export.currentScenarioAsProject": "Scénario actuel en tant que projet"
+  "export.currentScenarioAsProject": "Scénario actuel en tant que projet",
+  "alertExportInpLsxVariableSpeedPumps": "Pompes à vitesse variable",
+  "dbUnavailable.scenariosDescription": "Quelque chose s'est mal passé et ce projet ne peut plus être enregistré, y compris ses scénarios. Rechargez la page et rouvrez votre dernier fichier de projet enregistré pour continuer — toutes les modifications depuis votre dernière sauvegarde seront perdues."
 }

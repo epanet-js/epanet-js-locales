@@ -102,7 +102,7 @@
   "earlyAccess": "早期アクセス",
   "elevation": "標高",
   "elevationNotAvailable": "標高利用不可",
-  "elevationNotAvailableExplain": "この地点の標高を取得できませんでした。代わりに0を使用します。",
+  "elevationNotAvailableExplain": "この地点の標高を取得できませんでした。必要に応じて手動で入力してください。",
   "endNode": "終点ノード",
   "equalIntervals": "等間隔",
   "equalQuantiles": "等分位",
@@ -113,7 +113,7 @@
   "experimentalLanguage": "この言語はベータ版です。お試しいただき、不正確な点がありましたらサポートにご連絡ください。",
   "export": "エクスポート",
   "failedToFetchElevation": "標高の取得に失敗しました",
-  "failedToFetchElevationExplain": "標高データを取得できないため、0が割り当てられます。",
+  "failedToFetchElevationExplain": "標高データを取得できません。必要に応じて手動で入力してください。",
   "failedToLoad": "読み込みに失敗しました",
   "failedToLoadTileJSON": "TileJSONレイヤーの読み込みに失敗しました。タイルサーバーがダウンしている可能性があります",
   "failedToOpenModel": "モデルを開けませんでした",
@@ -922,7 +922,27 @@
     "nativeControlsInfoDescription": "時間ベースおよびレベルベースのポンプ制御をアセットパネルから直接設定できるようになりました！",
     "nativeControlsInfoNote": "引き続き生エディターを使用できますが、制御の競合を防ぐため、同じアセットを両方の場所で設定することは避けてください。",
     "nativeControlsInfoTitle": "より簡単なポンプ制御が利用可能になりました",
-    "rawControlsDetected": "EPANET生制御を検出しました"
+    "rawControlsDetected": "EPANET生制御を検出しました",
+    "variableSpeed": {
+      "addPump": "ポンプを追加",
+      "atNode": "ノードで",
+      "controlledByPump": "ポンプ {{1}} によって制御",
+      "flowTarget": "流量目標",
+      "flowThrough": "通過流量",
+      "lagPumps": "ラグポンプ",
+      "maxSpeed": "最大速度",
+      "minSpeed": "最小速度",
+      "offAbove": "以上でオフ",
+      "onBelow": "以下でオン",
+      "outletOfThisPump": "{{1}} (このポンプの出口)",
+      "pressureTarget": "圧力目標",
+      "setBySchedule": "スケジュールで設定",
+      "speedRangeError": "最小速度は最大速度を超えることはできません。",
+      "tankLevels": "配水池レベルで開始/停止",
+      "tankNode": "{{1}} (配水池)",
+      "thisPump": "このポンプ",
+      "varyByTimeOfDay": "時間帯によって変化する"
+    }
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -1531,10 +1551,6 @@
     },
     "estimated": "推定",
     "hgl": "HGL",
-    "noPath": {
-      "message": "選択されたノード間に接続されたパスは見つかりませんでした。",
-      "title": "パスが見つかりません"
-    },
     "selectEnd": "クリックして経由地を追加するか、ダブルクリックしてプロファイルを終了します",
     "selectPath": "パスを選択",
     "selectStart": "ノードまたは管をクリックしてプロファイルの始点を設定します",
@@ -2057,5 +2073,7 @@
   "openProjectProgress.readingScenarios": "シナリオを読み込み中...",
   "statusClosed": "閉",
   "statusOpen": "開",
-  "export.currentScenarioAsProject": "現在のシナリオをプロジェクトとして"
+  "export.currentScenarioAsProject": "現在のシナリオをプロジェクトとして",
+  "alertExportInpLsxVariableSpeedPumps": "可変速ポンプ",
+  "dbUnavailable.scenariosDescription": "問題が発生し、このプロジェクト（シナリオを含む）は保存できなくなりました。ページをリロードして、最後に保存したプロジェクトファイルを再度開いて続行してください — 最後に保存してからの変更はすべて失われます。"
 }

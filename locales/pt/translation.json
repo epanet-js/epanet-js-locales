@@ -321,9 +321,9 @@
   "demandMultiplier": "Multiplicador de Demanda",
   "saveAndRun": "Salvar e Executar",
   "failedToFetchElevation": "Falha ao buscar elevação",
-  "failedToFetchElevationExplain": "Não foi possível recuperar os dados de elevação, então 0 será atribuído.",
+  "failedToFetchElevationExplain": "Os dados de elevação não podem ser recuperados. Insira-os manualmente, se necessário.",
   "elevationNotAvailable": "Elevação Não Disponível",
-  "elevationNotAvailableExplain": "Não foi possível recuperar a elevação para este ponto. 0 será usado em seu lugar.",
+  "elevationNotAvailableExplain": "Não foi possível recuperar a elevação para este ponto. Insira-a manualmente, se necessário.",
   "noInternet": "Sem Conexão com a Internet",
   "noInternetExplain": "Algumas funcionalidades podem estar comprometidas.",
   "connectionRestored": "Conexão Restaurada!",
@@ -922,7 +922,27 @@
     "nativeControlsInfoDescription": "Agora você pode configurar controles de bomba baseados em tempo e nível diretamente do painel de ativos!",
     "nativeControlsInfoNote": "Embora você ainda possa usar o editor bruto, evite configurar o mesmo ativo em ambos os lugares para evitar conflitos de controle.",
     "nativeControlsInfoTitle": "Controles de bomba mais fáceis disponíveis",
-    "rawControlsDetected": "Controles brutos EPANET detectados"
+    "rawControlsDetected": "Controles brutos EPANET detectados",
+    "variableSpeed": {
+      "addPump": "Adicionar bomba",
+      "atNode": "No nó",
+      "controlledByPump": "Controlado pela bomba {{1}}",
+      "flowTarget": "Meta de vazão",
+      "flowThrough": "Vazão através de",
+      "lagPumps": "Bombas de atraso",
+      "maxSpeed": "Velocidade máxima",
+      "minSpeed": "Velocidade mínima",
+      "offAbove": "Desligar acima de",
+      "onBelow": "Ligar abaixo de",
+      "outletOfThisPump": "{{1}} (saída desta bomba)",
+      "pressureTarget": "Meta de pressão",
+      "setBySchedule": "Definido por agendamento",
+      "speedRangeError": "A velocidade mínima não deve ser superior à velocidade máxima.",
+      "tankLevels": "Ligar/desligar ao nível do tanque",
+      "tankNode": "{{1}} (tanque)",
+      "thisPump": "Esta bomba",
+      "varyByTimeOfDay": "Variar por hora do dia"
+    }
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
@@ -1531,10 +1551,6 @@
     },
     "estimated": "Estimado",
     "hgl": "HGL",
-    "noPath": {
-      "message": "Nenhum caminho conectado foi encontrado entre os nós selecionados.",
-      "title": "Nenhum caminho encontrado"
-    },
     "selectEnd": "Clique para adicionar um ponto de passagem, ou duplo-clique para finalizar o perfil",
     "selectPath": "Selecionar caminho",
     "selectStart": "Clique em um nó ou tubulação para definir o início do perfil",
@@ -2057,5 +2073,7 @@
   "openProjectProgress.readingScenarios": "Lendo cenários...",
   "statusClosed": "Fechado",
   "statusOpen": "Aberto",
-  "export.currentScenarioAsProject": "Cenário atual como projeto"
+  "export.currentScenarioAsProject": "Cenário atual como projeto",
+  "alertExportInpLsxVariableSpeedPumps": "Bombas de velocidade variável",
+  "dbUnavailable.scenariosDescription": "Algo deu errado e este projeto não pode mais ser salvo, incluindo seus cenários. Recarregue a página e reabra o último arquivo de projeto salvo para continuar — quaisquer alterações feitas desde a última vez que você salvou serão perdidas."
 }
