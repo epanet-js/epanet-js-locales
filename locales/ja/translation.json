@@ -942,7 +942,8 @@
       "tankNode": "{{1}} (配水池)",
       "thisPump": "このポンプ",
       "varyByTimeOfDay": "時間帯によって変化する"
-    }
+    },
+    "patternBased": "パターンベース"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",

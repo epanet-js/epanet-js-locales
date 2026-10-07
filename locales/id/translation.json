@@ -140,7 +140,8 @@
       "tankNode": "{{1}} (tangki)",
       "thisPump": "Pompa ini",
       "varyByTimeOfDay": "Bervariasi berdasarkan waktu hari"
-    }
+    },
+    "patternBased": "Berbasis pola"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",

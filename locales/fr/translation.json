@@ -942,7 +942,8 @@
       "tankNode": "{{1}} (château d'eau)",
       "thisPump": "Cette pompe",
       "varyByTimeOfDay": "Varier en fonction de l'heure de la journée"
-    }
+    },
+    "patternBased": "Basé sur un motif"
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",

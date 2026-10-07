@@ -942,7 +942,8 @@
       "tankNode": "{{1}} (tank)",
       "thisPump": "Deze pomp",
       "varyByTimeOfDay": "Variëren per tijdstip van de dag"
-    }
+    },
+    "patternBased": "Patroon-gebaseerd"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",

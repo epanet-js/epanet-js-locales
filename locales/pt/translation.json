@@ -942,7 +942,8 @@
       "tankNode": "{{1}} (tanque)",
       "thisPump": "Esta bomba",
       "varyByTimeOfDay": "Variar por hora do dia"
-    }
+    },
+    "patternBased": "Baseado em padrão"
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
