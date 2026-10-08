@@ -176,7 +176,8 @@
     "showUpdatedFiles": "Tampilkan file yang diperbarui",
     "updatedSourcesCount_one": "{{count}} sumber diperbarui dengan file baru",
     "updatedSourcesCount_other": "{{count}} sumber diperbarui dengan file baru",
-    "updatedSourcesTitle": "File sudah ditambahkan"
+    "updatedSourcesTitle": "File sudah ditambahkan",
+    "sourcesList": "Sumber data"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Tambahkan token Mapbox Anda untuk melihat peta sebenarnya",
     "mapboxPlaceholder": "Placeholder peta - Token Mapbox diperlukan",
     "networkPreview": "Pratinjau jaringan",
-    "previewSampled": "Pratinjau menampilkan sampel fitur. Setiap catatan tetap diimpor."
+    "previewSampled": "Pratinjau menampilkan sampel fitur. Setiap catatan tetap diimpor.",
+    "allSources": "Semua sumber",
+    "legend": "Legenda peta",
+    "notAssigned": "Tidak ditetapkan",
+    "otherSources": "Sumber lain",
+    "sampled": "Disampel di peta",
+    "sampledNote": "Disampel di peta. Setiap catatan masih diimpor."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -294,7 +301,6 @@
     "continueAnyway": "Lanjutkan saja",
     "customRules": "Aturan kustom",
     "customRulesOption": "Aturan kustom…",
-    "done": "Selesai",
     "editCondition": "Edit kondisi",
     "emptyValue": "Kosong",
     "filter": "Filter",
@@ -307,8 +313,6 @@
     "keepRules": "Pertahankan aturan",
     "layer": "Lapisan",
     "layerFor": "Lapisan untuk {{1}}",
-    "matchingRecords_one": "{{count}} catatan cocok",
-    "matchingRecords_other": "{{count}} catatan cocok",
     "maximum": "Maksimum",
     "minimum": "Minimum",
     "moveRuleDown": "Pindahkan aturan {{1}} ke bawah",
@@ -341,6 +345,20 @@
     "value": "Nilai",
     "valuesFor": "Nilai {{1}}",
     "valuesUnplaced_one": "Beberapa nilai belum ditetapkan ke lapisan, jadi {{count}} catatan tidak diimpor.",
-    "valuesUnplaced_other": "Beberapa nilai belum ditetapkan ke lapisan, jadi {{count}} catatan tidak diimpor."
-  }
+    "valuesUnplaced_other": "Beberapa nilai belum ditetapkan ke lapisan, jadi {{count}} catatan tidak diimpor.",
+    "changeCondition": "Ubah kondisi",
+    "countingRecords": "Menghitung catatan…",
+    "editRule": "Edit aturan {{1}}",
+    "editRuleTooltip": "Edit aturan",
+    "keepTyping": "Lanjutkan mengetik untuk mempersempit nilai",
+    "moveDown": "Pindah ke bawah",
+    "moveUp": "Pindah ke atas",
+    "newRule": "Aturan baru",
+    "removeRuleTooltip": "Hapus aturan",
+    "saveCondition": "Simpan kondisi",
+    "saveRule": "Simpan aturan",
+    "searchValues": "Cari nilai",
+    "selectGroup": "Pilih grup dari daftar untuk memilih lapisannya."
+  },
+  "searching": "Mencari…"
 }

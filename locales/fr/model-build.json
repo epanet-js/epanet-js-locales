@@ -176,7 +176,8 @@
     "showUpdatedFiles": "Afficher les fichiers mis à jour",
     "updatedSourcesCount_one": "{{count}} source mise à jour avec le nouveau fichier",
     "updatedSourcesCount_other": "{{count}} sources mises à jour avec les nouveaux fichiers",
-    "updatedSourcesTitle": "Fichiers déjà ajoutés"
+    "updatedSourcesTitle": "Fichiers déjà ajoutés",
+    "sourcesList": "Sources de données"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Ajoutez votre jeton Mapbox pour voir la carte réelle",
     "mapboxPlaceholder": "Espace réservé pour la carte - Jeton Mapbox requis",
     "networkPreview": "Aperçu du réseau",
-    "previewSampled": "L'aperçu dessine un échantillon des entités. Chaque enregistrement est toujours importé."
+    "previewSampled": "L'aperçu dessine un échantillon des entités. Chaque enregistrement est toujours importé.",
+    "allSources": "Toutes les sources",
+    "legend": "Légende de la carte",
+    "notAssigned": "Non attribué",
+    "otherSources": "Autres sources",
+    "sampled": "Échantillonné sur la carte",
+    "sampledNote": "Échantillonné sur la carte. Chaque enregistrement est toujours importé."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -294,7 +301,6 @@
     "continueAnyway": "Continuer quand même",
     "customRules": "Règles personnalisées",
     "customRulesOption": "Règles personnalisées…",
-    "done": "Terminé",
     "editCondition": "Modifier la condition",
     "emptyValue": "Vide",
     "filter": "Filtre",
@@ -307,8 +313,6 @@
     "keepRules": "Conserver les règles",
     "layer": "Couche",
     "layerFor": "Couche pour {{1}}",
-    "matchingRecords_one": "{{count}} enregistrement correspond",
-    "matchingRecords_other": "{{count}} enregistrements correspondent",
     "maximum": "Maximum",
     "minimum": "Minimum",
     "moveRuleDown": "Descendre la règle {{1}}",
@@ -341,6 +345,20 @@
     "value": "Valeur",
     "valuesFor": "Valeurs de {{1}}",
     "valuesUnplaced_one": "Certaines valeurs ne sont pas encore définies sur une couche, donc {{count}} enregistrement n'est pas importé.",
-    "valuesUnplaced_other": "Certaines valeurs ne sont pas encore définies sur une couche, donc {{count}} enregistrements ne sont pas importés."
-  }
+    "valuesUnplaced_other": "Certaines valeurs ne sont pas encore définies sur une couche, donc {{count}} enregistrements ne sont pas importés.",
+    "changeCondition": "Modifier la condition",
+    "countingRecords": "Comptage des enregistrements…",
+    "editRule": "Modifier la règle {{1}}",
+    "editRuleTooltip": "Modifier la règle",
+    "keepTyping": "Continuez à taper pour affiner les valeurs",
+    "moveDown": "Descendre",
+    "moveUp": "Monter",
+    "newRule": "Nouvelle règle",
+    "removeRuleTooltip": "Supprimer la règle",
+    "saveCondition": "Enregistrer la condition",
+    "saveRule": "Enregistrer la règle",
+    "searchValues": "Rechercher des valeurs",
+    "selectGroup": "Sélectionnez un groupe dans la liste pour choisir sa couche."
+  },
+  "searching": "Recherche…"
 }

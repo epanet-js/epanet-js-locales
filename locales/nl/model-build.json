@@ -176,7 +176,8 @@
     "showUpdatedFiles": "Bijgewerkte bestanden bekijken",
     "updatedSourcesCount_one": "{{count}} bron bijgewerkt met het nieuwe bestand",
     "updatedSourcesCount_other": "{{count}} bronnen bijgewerkt met de nieuwe bestanden",
-    "updatedSourcesTitle": "Bestanden al toegevoegd"
+    "updatedSourcesTitle": "Bestanden al toegevoegd",
+    "sourcesList": "Gegevensbronnen"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Voeg uw Mapbox-token toe om de daadwerkelijke kaart te zien",
     "mapboxPlaceholder": "Kaart placeholder - Mapbox-token vereist",
     "networkPreview": "Netwerkvoorbeeld",
-    "previewSampled": "Het voorbeeld toont een selectie van de objecten. Elke record wordt nog steeds geïmporteerd."
+    "previewSampled": "Het voorbeeld toont een selectie van de objecten. Elke record wordt nog steeds geïmporteerd.",
+    "allSources": "Alle bronnen",
+    "legend": "Kaartlegenda",
+    "notAssigned": "Niet toegewezen",
+    "otherSources": "Andere bronnen",
+    "sampled": "Bemonsterd op de kaart",
+    "sampledNote": "Bemonsterd op de kaart. Elke record wordt nog steeds geïmporteerd."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -294,7 +301,6 @@
     "continueAnyway": "Toch doorgaan",
     "customRules": "Aangepaste regels",
     "customRulesOption": "Aangepaste regels…",
-    "done": "Klaar",
     "editCondition": "Conditie bewerken",
     "emptyValue": "Leeg",
     "filter": "Filter",
@@ -307,8 +313,6 @@
     "keepRules": "Behoud regels",
     "layer": "Laag",
     "layerFor": "Laag voor {{1}}",
-    "matchingRecords_one": "{{count}} record komt overeen",
-    "matchingRecords_other": "{{count}} records komen overeen",
     "maximum": "Max",
     "minimum": "Min",
     "moveRuleDown": "Verplaats regel {{1}} omlaag",
@@ -341,6 +345,20 @@
     "value": "Waarde",
     "valuesFor": "Waarden van {{1}}",
     "valuesUnplaced_one": "Sommige waarden zijn nog niet aan een laag toegewezen, dus {{count}} record wordt niet geïmporteerd.",
-    "valuesUnplaced_other": "Sommige waarden zijn nog niet aan een laag toegewezen, dus {{count}} records worden niet geïmporteerd."
-  }
+    "valuesUnplaced_other": "Sommige waarden zijn nog niet aan een laag toegewezen, dus {{count}} records worden niet geïmporteerd.",
+    "changeCondition": "Conditie wijzigen",
+    "countingRecords": "Records tellen…",
+    "editRule": "Regel {{1}} bewerken",
+    "editRuleTooltip": "Regel bewerken",
+    "keepTyping": "Blijf typen om de waarden te verfijnen",
+    "moveDown": "Omlaag verplaatsen",
+    "moveUp": "Omhoog verplaatsen",
+    "newRule": "Nieuwe regel",
+    "removeRuleTooltip": "Regel verwijderen",
+    "saveCondition": "Conditie opslaan",
+    "saveRule": "Regel opslaan",
+    "searchValues": "Waarden zoeken",
+    "selectGroup": "Selecteer een groep uit de lijst om de laag ervan te kiezen."
+  },
+  "searching": "Zoeken…"
 }

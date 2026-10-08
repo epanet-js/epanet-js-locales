@@ -176,7 +176,8 @@
     "showUpdatedFiles": "更新されたファイルを表示",
     "updatedSourcesCount_one": "{{count}}件のソースが新しいファイルで更新されました",
     "updatedSourcesCount_other": "{{count}}件のソースが新しいファイルで更新されました",
-    "updatedSourcesTitle": "ファイルはすでに追加されています"
+    "updatedSourcesTitle": "ファイルはすでに追加されています",
+    "sourcesList": "データソース"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Mapboxトークンを追加して実際のマップを表示します",
     "mapboxPlaceholder": "マッププレースホルダー - Mapboxトークンが必要です",
     "networkPreview": "管網プレビュー",
-    "previewSampled": "プレビューでは、フィーチャのサンプルが描画されます。すべてのレコードは引き続きインポートされます。"
+    "previewSampled": "プレビューでは、フィーチャのサンプルが描画されます。すべてのレコードは引き続きインポートされます。",
+    "allSources": "すべてのソース",
+    "legend": "マップ凡例",
+    "notAssigned": "未割り当て",
+    "otherSources": "その他のソース",
+    "sampled": "マップでサンプリング済み",
+    "sampledNote": "マップでサンプリング済みです。すべてのレコードは引き続きインポートされます。"
   },
   "modelSettings": {
     "chezyManning": "チェジー・マニング",
@@ -294,7 +301,6 @@
     "continueAnyway": "とにかく続行",
     "customRules": "カスタムルール",
     "customRulesOption": "カスタムルール…",
-    "done": "完了",
     "editCondition": "条件を編集",
     "emptyValue": "空",
     "filter": "フィルター",
@@ -307,8 +313,6 @@
     "keepRules": "ルールを保持",
     "layer": "レイヤー",
     "layerFor": "{{1}}のレイヤー",
-    "matchingRecords_one": "{{count}}件のレコードが一致",
-    "matchingRecords_other": "{{count}}件のレコードが一致",
     "maximum": "最大",
     "minimum": "最小",
     "moveRuleDown": "ルール{{1}}を下に移動",
@@ -341,6 +345,20 @@
     "value": "値",
     "valuesFor": "{{1}}の値",
     "valuesUnplaced_one": "一部の値がまだレイヤーに設定されていないため、{{count}}件のレコードはインポートされません。",
-    "valuesUnplaced_other": "一部の値がまだレイヤーに設定されていないため、{{count}}件のレコードはインポートされません。"
-  }
+    "valuesUnplaced_other": "一部の値がまだレイヤーに設定されていないため、{{count}}件のレコードはインポートされません。",
+    "changeCondition": "条件を変更",
+    "countingRecords": "レコードをカウント中…",
+    "editRule": "ルール{{1}}を編集",
+    "editRuleTooltip": "ルールを編集",
+    "keepTyping": "値を絞り込むために入力し続ける",
+    "moveDown": "下へ移動",
+    "moveUp": "上へ移動",
+    "newRule": "新規ルール",
+    "removeRuleTooltip": "ルールを削除",
+    "saveCondition": "条件を保存",
+    "saveRule": "ルールを保存",
+    "searchValues": "値を検索",
+    "selectGroup": "リストからグループを選択してレイヤーを選択してください。"
+  },
+  "searching": "検索中…"
 }

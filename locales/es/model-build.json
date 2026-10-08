@@ -176,7 +176,8 @@
     "showUpdatedFiles": "Mostrar archivos actualizados",
     "updatedSourcesCount_one": "{{count}} fuente actualizada con el nuevo archivo",
     "updatedSourcesCount_other": "{{count}} fuentes actualizadas con los nuevos archivos",
-    "updatedSourcesTitle": "Archivos ya añadidos"
+    "updatedSourcesTitle": "Archivos ya añadidos",
+    "sourcesList": "Fuentes de datos"
   },
   "flowUnits": {
     "afd": "AFD (acre-pie/día)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Añade tu token de Mapbox para ver el mapa real",
     "mapboxPlaceholder": "Marcador de posición del mapa - Se requiere token de Mapbox",
     "networkPreview": "Vista previa de la red",
-    "previewSampled": "La vista previa dibuja una muestra de los registros. Cada uno sigue siendo importado."
+    "previewSampled": "La vista previa dibuja una muestra de los registros. Cada uno sigue siendo importado.",
+    "allSources": "Todas las fuentes",
+    "legend": "Leyenda del mapa",
+    "notAssigned": "No asignado",
+    "otherSources": "Otras fuentes",
+    "sampled": "Muestreado en el mapa",
+    "sampledNote": "Muestreado en el mapa. Todos los registros se siguen importando."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -294,7 +301,6 @@
     "continueAnyway": "Continuar de todos modos",
     "customRules": "Reglas personalizadas",
     "customRulesOption": "Reglas personalizadas…",
-    "done": "Aceptar",
     "editCondition": "Editar condición",
     "emptyValue": "Vacío",
     "filter": "Filtrar",
@@ -307,8 +313,6 @@
     "keepRules": "Mantener reglas",
     "layer": "Capa",
     "layerFor": "Capa para {{1}}",
-    "matchingRecords_one": "{{count}} registro coincide",
-    "matchingRecords_other": "{{count}} registros coinciden",
     "maximum": "Máximo",
     "minimum": "Mínimo",
     "moveRuleDown": "Bajar regla {{1}}",
@@ -341,6 +345,20 @@
     "value": "Valor",
     "valuesFor": "Valores de {{1}}",
     "valuesUnplaced_one": "Algunos valores aún no están asignados a una capa, por lo que {{count}} registro no se importa.",
-    "valuesUnplaced_other": "Algunos valores aún no están asignados a una capa, por lo que {{count}} registros no se importan."
-  }
+    "valuesUnplaced_other": "Algunos valores aún no están asignados a una capa, por lo que {{count}} registros no se importan.",
+    "changeCondition": "Cambiar condición",
+    "countingRecords": "Contando registros…",
+    "editRule": "Editar regla {{1}}",
+    "editRuleTooltip": "Editar regla",
+    "keepTyping": "Sigue escribiendo para acotar los valores",
+    "moveDown": "Bajar",
+    "moveUp": "Subir",
+    "newRule": "Nueva regla",
+    "removeRuleTooltip": "Eliminar regla",
+    "saveCondition": "Guardar condición",
+    "saveRule": "Guardar regla",
+    "searchValues": "Buscar valores",
+    "selectGroup": "Selecciona un grupo de la lista para elegir su capa."
+  },
+  "searching": "Buscando…"
 }

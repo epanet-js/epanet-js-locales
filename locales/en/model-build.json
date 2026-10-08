@@ -2,6 +2,7 @@
   "search": "Search…",
   "addNewValue": "Add \"{{1}}\"",
   "noResults": "No results",
+  "searching": "Searching…",
   "modelSettings": {
     "title": "Model settings",
     "nextToFileUpload": "File upload",
@@ -35,6 +36,7 @@
     "records_one": "{{count}} record",
     "records_other": "{{count}} records",
     "noPlacedSources": "No source is placed yet. Go back to place one.",
+    "selectGroup": "Select a group from the list to choose its layer.",
     "unassignedWarning": "No element type is assigned to {{1}}, so they won't be included in the model.",
     "continueAnyway": "Continue anyway",
     "keepEditing": "Keep editing",
@@ -72,9 +74,16 @@
     "rule": "Rule {{1}}",
     "otherwise": "Otherwise",
     "addRule": "Add rule",
+    "newRule": "New rule",
+    "saveRule": "Save rule",
     "removeRule": "Remove rule {{1}}",
+    "editRule": "Edit rule {{1}}",
+    "editRuleTooltip": "Edit rule",
+    "removeRuleTooltip": "Remove rule",
     "moveRuleUp": "Move rule {{1}} up",
     "moveRuleDown": "Move rule {{1}} down",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
     "noConditions": "Add a condition to choose which records this rule takes.",
     "and": "and",
     "addCondition": "Add condition",
@@ -84,6 +93,7 @@
     "chooseAttribute": "Choose an attribute",
     "searchAttributes": "Search attributes",
     "condition": "Condition",
+    "changeCondition": "Change condition",
     "is": "is",
     "isNot": "is not",
     "between": "is between",
@@ -97,10 +107,11 @@
     "rangeInvalid": "The minimum is greater than the maximum.",
     "valuesFor": "Values of {{1}}",
     "chooseValues": "Choose values",
-    "matchingRecords_one": "{{count}} record matches",
-    "matchingRecords_other": "{{count}} records match",
+    "searchValues": "Search values",
+    "keepTyping": "Keep typing to narrow down the values",
+    "countingRecords": "Counting records…",
     "cancel": "Cancel",
-    "done": "Done"
+    "saveCondition": "Save condition"
   },
   "dataAssignment": {
     "backToIntro": "Intro",
@@ -171,6 +182,7 @@
     "zonesSkipped": "{{1}} of {{2}} zone records were skipped. Check they have polygon geometry and a valid projection."
   },
   "fileDropzone": {
+    "sourcesList": "Data sources",
     "unknownFilename": "(unknown filename)",
     "assignToElement": "Assign to element...",
     "parsing": "Parsing...",
@@ -261,7 +273,13 @@
     "elementsAssigned_other": "{{count}} elements assigned",
     "mapboxPlaceholder": "Map placeholder - Mapbox token required",
     "mapboxHint": "Add your Mapbox token to see the actual map",
-    "previewSampled": "The preview draws a sample of the records. Every one is still imported."
+    "previewSampled": "The preview draws a sample of the records. Every one is still imported.",
+    "legend": "Map legend",
+    "allSources": "All sources",
+    "otherSources": "Other sources",
+    "notAssigned": "Not assigned",
+    "sampled": "Sampled on the map",
+    "sampledNote": "Sampled on the map. Every record is still imported."
   },
   "dataTable": {
     "showingFirst": "Showing first 100 of {{1}} records",

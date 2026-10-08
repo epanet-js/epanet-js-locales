@@ -176,7 +176,8 @@
     "showUpdatedFiles": "Mostrar arquivos atualizados",
     "updatedSourcesCount_one": "{{count}} fonte atualizada com o novo arquivo",
     "updatedSourcesCount_other": "{{count}} fontes atualizadas com os novos arquivos",
-    "updatedSourcesTitle": "Arquivos já adicionados"
+    "updatedSourcesTitle": "Arquivos já adicionados",
+    "sourcesList": "Fontes de dados"
   },
   "flowUnits": {
     "afd": "AFD (acre-pés/dia)",
@@ -196,7 +197,13 @@
     "mapboxHint": "Adicione seu token Mapbox para ver o mapa real",
     "mapboxPlaceholder": "Espaço reservado do mapa - Token Mapbox necessário",
     "networkPreview": "Pré-visualização da rede",
-    "previewSampled": "A pré-visualização exibe uma amostra das feições. Cada uma ainda é importada."
+    "previewSampled": "A pré-visualização exibe uma amostra das feições. Cada uma ainda é importada.",
+    "allSources": "Todas as fontes",
+    "legend": "Legenda do mapa",
+    "notAssigned": "Não atribuído",
+    "otherSources": "Outras fontes",
+    "sampled": "Amostrado no mapa",
+    "sampledNote": "Amostrado no mapa. Cada registro ainda é importado."
   },
   "modelSettings": {
     "chezyManning": "Chezy-Manning",
@@ -294,7 +301,6 @@
     "continueAnyway": "Continuar mesmo assim",
     "customRules": "Regras personalizadas",
     "customRulesOption": "Regras personalizadas…",
-    "done": "Concluído",
     "editCondition": "Editar condição",
     "emptyValue": "Vazio",
     "filter": "Filtro",
@@ -307,8 +313,6 @@
     "keepRules": "Manter regras",
     "layer": "Camada",
     "layerFor": "Camada para {{1}}",
-    "matchingRecords_one": "{{count}} registro corresponde",
-    "matchingRecords_other": "{{count}} registros correspondem",
     "maximum": "Máximo",
     "minimum": "Mínimo",
     "moveRuleDown": "Mover regra {{1}} para baixo",
@@ -341,6 +345,20 @@
     "value": "Valor",
     "valuesFor": "Valores de {{1}}",
     "valuesUnplaced_one": "Alguns valores ainda não estão definidos para uma camada, então {{count}} registro não é importado.",
-    "valuesUnplaced_other": "Alguns valores ainda não estão definidos para uma camada, então {{count}} registros não são importados."
-  }
+    "valuesUnplaced_other": "Alguns valores ainda não estão definidos para uma camada, então {{count}} registros não são importados.",
+    "changeCondition": "Alterar condição",
+    "countingRecords": "Contando registros…",
+    "editRule": "Editar regra {{1}}",
+    "editRuleTooltip": "Editar regra",
+    "keepTyping": "Continue digitando para refinar os valores",
+    "moveDown": "Mover para baixo",
+    "moveUp": "Mover para cima",
+    "newRule": "Nova regra",
+    "removeRuleTooltip": "Remover regra",
+    "saveCondition": "Salvar condição",
+    "saveRule": "Salvar regra",
+    "searchValues": "Buscar valores",
+    "selectGroup": "Selecione um grupo da lista para escolher sua camada."
+  },
+  "searching": "Buscando…"
 }
