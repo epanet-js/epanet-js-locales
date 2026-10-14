@@ -1078,8 +1078,6 @@
   "empty": "Vazio",
   "headAverage": "Carga (média)",
   "initialSpeed": "Velocidade inicial",
-  "patternBased": "Baseado em padrão",
-  "variableSpeed": "Velocidade variável",
   "multipliersDiffer": "Multiplicadores diferem",
   "patterns": {
     "addPattern": "Adicionar padrão de {{1}}",

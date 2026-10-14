@@ -1078,8 +1078,6 @@
   "empty": "Leeg",
   "headAverage": "Opvoerhoogte (gemiddeld)",
   "initialSpeed": "Initiële snelheid",
-  "patternBased": "Patroon gebaseerd",
-  "variableSpeed": "Variabele snelheid",
   "multipliersDiffer": "Vermenigvuldigers verschillen",
   "patterns": {
     "addPattern": "Patroon {{1}} toevoegen",

@@ -1078,8 +1078,6 @@
   "empty": "空",
   "headAverage": "水頭 (平均)",
   "initialSpeed": "初期速度",
-  "patternBased": "パターンベース",
-  "variableSpeed": "可変速度",
   "multipliersDiffer": "乗数が異なります",
   "patterns": {
     "addPattern": "{{1}} パターンを追加",

@@ -987,7 +987,6 @@
   "operationalData": "Data operasional",
   "optional": "opsional",
   "paste": "Tempel",
-  "patternBased": "Berbasis pola",
   "patterns": {
     "addPattern": "Tambah pola {{1}}",
     "deletePatternInUse": "Tidak dapat menghapus pola yang sedang digunakan",
@@ -1498,7 +1497,6 @@
   "valves": "Katup",
   "valveStatus": "Status katup",
   "valveType": "Jenis katup",
-  "variableSpeed": "Kecepatan variabel",
   "velocities": "Kecepatan",
   "velocity": "Kecepatan",
   "viewReport": "Lihat laporan",
