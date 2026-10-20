@@ -1973,7 +1973,9 @@
       "coordinateAttributesMissing": "Geen attribuut in het bestand bevat coördinaten, dus er is niets geïmporteerd.",
       "sourceHeaderMissing": "De eerste rij benoemt de kolommen niet, dus er is niets geïmporteerd.",
       "nodeElevationUnresolved_one": "1 knooppunt heeft geen hoogte, omdat de terreindienst er geen had",
-      "nodeElevationUnresolved_other": "{{count}} knooppunten hebben geen hoogte, omdat de terreindienst er geen had"
+      "nodeElevationUnresolved_other": "{{count}} knooppunten hebben geen hoogte, omdat de terreindienst er geen had",
+      "selectionSetMembersUnreadable_one": "1 selectieset verwijst naar een niet gevonden onderdeel in het model, dus deze is niet geïmporteerd",
+      "selectionSetMembersUnreadable_other": "{{count}} selectiesets verwijzen naar niet gevonden onderdelen in het model, dus deze zijn niet geïmporteerd"
     },
     "paywall": {
       "captions": {

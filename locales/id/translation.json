@@ -1973,7 +1973,9 @@
       "coordinateAttributesMissing": "Tidak ada atribut dalam file yang menyimpan koordinat, jadi tidak ada yang diimpor.",
       "sourceHeaderMissing": "Baris pertama tidak menyebutkan nama kolom, jadi tidak ada yang diimpor.",
       "nodeElevationUnresolved_one": "1 node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuknya",
-      "nodeElevationUnresolved_other": "{{count}} node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuk mereka"
+      "nodeElevationUnresolved_other": "{{count}} node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuk mereka",
+      "selectionSetMembersUnreadable_one": "1 Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor",
+      "selectionSetMembersUnreadable_other": "{{count}} Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor"
     },
     "paywall": {
       "captions": {

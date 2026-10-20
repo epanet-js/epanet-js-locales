@@ -1973,7 +1973,9 @@
       "coordinateAttributesMissing": "Nenhum atributo no arquivo contém coordenadas, então nada foi importado.",
       "sourceHeaderMissing": "A primeira linha não nomeia as colunas, então nada foi importado.",
       "nodeElevationUnresolved_one": "1 nó não tem elevação, porque o serviço de terreno não tinha nenhum para ele",
-      "nodeElevationUnresolved_other": "{{count}} nós não têm elevação, porque o serviço de terreno não tinha nenhum para eles"
+      "nodeElevationUnresolved_other": "{{count}} nós não têm elevação, porque o serviço de terreno não tinha nenhum para eles",
+      "selectionSetMembersUnreadable_one": "1 Conjunto de seleção faz referência a um ativo não encontrado no modelo, então não foi importado",
+      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de seleção fazem referência a ativos não encontrados no modelo, então não foram importados"
     },
     "paywall": {
       "captions": {
