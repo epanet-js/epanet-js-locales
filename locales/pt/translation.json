@@ -2076,5 +2076,8 @@
   "statusOpen": "Aberto",
   "export.currentScenarioAsProject": "Cenário atual como projeto",
   "alertExportInpLsxVariableSpeedPumps": "Bombas de velocidade variável",
-  "dbUnavailable.scenariosDescription": "Algo deu errado e este projeto não pode mais ser salvo, incluindo seus cenários. Recarregue a página e reabra o último arquivo de projeto salvo para continuar — quaisquer alterações feitas desde a última vez que você salvou serão perdidas."
+  "dbUnavailable.scenariosDescription": "Algo deu errado e este projeto não pode mais ser salvo, incluindo seus cenários. Recarregue a página e reabra o último arquivo de projeto salvo para continuar — quaisquer alterações feitas desde a última vez que você salvou serão perdidas.",
+  "alertExportInpScenarioDetail": "O formato EPANET INP não suporta cenários. O cenário ativo \"{{1}}\" não será exportado; o ramo Principal será exportado em vez disso.",
+  "alertExportInpScenarioHint": "Para exportar este cenário como um novo projeto, use Arquivo > Exportar > Cenário Atual como Projeto.",
+  "alertExportInpScenarioTitle": "O cenário não será exportado"
 }

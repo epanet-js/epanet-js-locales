@@ -2076,5 +2076,8 @@
   "statusOpen": "Open",
   "export.currentScenarioAsProject": "Huidig scenario als project",
   "alertExportInpLsxVariableSpeedPumps": "Variabele snelheid pompen",
-  "dbUnavailable.scenariosDescription": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen, inclusief de scenario's. Herlaad de pagina en open uw laatst opgeslagen projectbestand opnieuw om door te gaan — alle wijzigingen sinds de laatste keer opslaan gaan verloren."
+  "dbUnavailable.scenariosDescription": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen, inclusief de scenario's. Herlaad de pagina en open uw laatst opgeslagen projectbestand opnieuw om door te gaan — alle wijzigingen sinds de laatste keer opslaan gaan verloren.",
+  "alertExportInpScenarioDetail": "Het EPANET INP-formaat ondersteunt geen scenario's. Het actieve scenario \"{{1}}\" wordt niet geëxporteerd; de Hoofdtak wordt in plaats daarvan geëxporteerd.",
+  "alertExportInpScenarioHint": "Om dit scenario als een nieuw project te exporteren, gebruikt u Bestand > Exporteren > Huidig scenario als project.",
+  "alertExportInpScenarioTitle": "Scenario wordt niet geëxporteerd"
 }
