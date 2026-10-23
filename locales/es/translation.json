@@ -2081,11 +2081,12 @@
   "openProjectProgress.readingScenarios": "Leyendo escenarios...",
   "statusClosed": "Cerrada",
   "statusOpen": "Abierta",
-  "export.currentScenarioAsProject": "Escenario actual como proyecto",
+  "export.currentScenarioAsProject": "Escenario como proyecto",
   "alertExportInpLsxVariableSpeedPumps": "Bombas de velocidad variable",
   "dbUnavailable.scenariosDescription": "Algo salió mal y este proyecto ya no se puede guardar, incluyendo sus escenarios. Recarga la página y vuelve a abrir tu último archivo de proyecto guardado para continuar — cualquier cambio desde el último guardado se perderá.",
   "alertExportInpScenarioDetail": "El formato INP de EPANET no es compatible con los escenarios. El escenario activo \"{{1}}\" no se exportará; se exportará la rama Principal en su lugar.",
   "alertExportInpScenarioHint": "Para exportar este escenario como un nuevo proyecto, usa Archivo > Exportar > Escenario actual como proyecto.",
   "alertExportInpScenarioTitle": "El escenario no se exportará",
-  "exportTimeSeries.simulationFailed": "La última simulación no se ejecutó con éxito, por lo que no hay resultados para exportar. Revisa el informe de la simulación, corrige los problemas y ejecútala de nuevo."
+  "exportTimeSeries.simulationFailed": "La última simulación no se ejecutó con éxito, por lo que no hay resultados para exportar. Revisa el informe de la simulación, corrige los problemas y ejecútala de nuevo.",
+  "export.currentScenarioAsEpanetInp": "Escenario como EPANET INP"
 }

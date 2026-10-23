@@ -2074,11 +2074,12 @@
   "openProjectProgress.readingScenarios": "シナリオを読み込み中...",
   "statusClosed": "閉",
   "statusOpen": "開",
-  "export.currentScenarioAsProject": "現在のシナリオをプロジェクトとして",
+  "export.currentScenarioAsProject": "シナリオをプロジェクトとして",
   "alertExportInpLsxVariableSpeedPumps": "可変速ポンプ",
   "dbUnavailable.scenariosDescription": "問題が発生し、このプロジェクト（シナリオを含む）は保存できなくなりました。ページをリロードして、最後に保存したプロジェクトファイルを再度開いて続行してください — 最後に保存してからの変更はすべて失われます。",
   "alertExportInpScenarioDetail": "EPANET INP形式はシナリオをサポートしていません。アクティブなシナリオ「{{1}}」はエクスポートされず、代わりにメインブランチがエクスポートされます。",
   "alertExportInpScenarioHint": "このシナリオを新しいプロジェクトとしてエクスポートするには、「ファイル」>「エクスポート」>「現在のシナリオをプロジェクトとして」を使用します。",
   "alertExportInpScenarioTitle": "シナリオはエクスポートされません",
-  "exportTimeSeries.simulationFailed": "前回のシミュレーション実行は失敗しました。そのため、エクスポートする結果はありません。シミュレーションレポートを確認し、問題を修正してもう一度実行してください。"
+  "exportTimeSeries.simulationFailed": "前回のシミュレーション実行は失敗しました。そのため、エクスポートする結果はありません。シミュレーションレポートを確認し、問題を修正してもう一度実行してください。",
+  "export.currentScenarioAsEpanetInp": "シナリオをEPANET INPとして"
 }

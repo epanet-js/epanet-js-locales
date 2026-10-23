@@ -2074,11 +2074,12 @@
   "openProjectProgress.readingScenarios": "Lecture des scénarios...",
   "statusClosed": "Fermé",
   "statusOpen": "Ouvert",
-  "export.currentScenarioAsProject": "Scénario actuel en tant que projet",
+  "export.currentScenarioAsProject": "Scénario en tant que projet",
   "alertExportInpLsxVariableSpeedPumps": "Pompes à vitesse variable",
   "dbUnavailable.scenariosDescription": "Quelque chose s'est mal passé et ce projet ne peut plus être enregistré, y compris ses scénarios. Rechargez la page et rouvrez votre dernier fichier de projet enregistré pour continuer — toutes les modifications depuis votre dernière sauvegarde seront perdues.",
   "alertExportInpScenarioDetail": "Le format EPANET INP ne prend pas en charge les scénarios. Le scénario actif « {{1}} » ne sera pas exporté ; la branche Principale sera exportée à la place.",
   "alertExportInpScenarioHint": "Pour exporter ce scénario en tant que nouveau projet, utilisez Fichier > Exporter > Scénario actuel en tant que projet.",
   "alertExportInpScenarioTitle": "Le scénario ne sera pas exporté",
-  "exportTimeSeries.simulationFailed": "La dernière exécution de la simulation a échoué, il n'y a donc aucun résultat à exporter. Révisez le rapport de simulation, corrigez les problèmes et relancez-la."
+  "exportTimeSeries.simulationFailed": "La dernière exécution de la simulation a échoué, il n'y a donc aucun résultat à exporter. Révisez le rapport de simulation, corrigez les problèmes et relancez-la.",
+  "export.currentScenarioAsEpanetInp": "Scénario en tant qu'EPANET INP"
 }
