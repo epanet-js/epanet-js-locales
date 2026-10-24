@@ -2081,5 +2081,42 @@
   "alertExportInpScenarioHint": "このシナリオを新しいプロジェクトとしてエクスポートするには、「ファイル」>「エクスポート」>「現在のシナリオをプロジェクトとして」を使用します。",
   "alertExportInpScenarioTitle": "シナリオはエクスポートされません",
   "exportTimeSeries.simulationFailed": "前回のシミュレーション実行は失敗しました。そのため、エクスポートする結果はありません。シミュレーションレポートを確認し、問題を修正してもう一度実行してください。",
-  "export.currentScenarioAsEpanetInp": "シナリオをEPANET INPとして"
+  "export.currentScenarioAsEpanetInp": "シナリオをEPANET INPとして",
+  "scripting": {
+    "apiReference": "スクリプトAPI",
+    "cancelling": "キャンセル中...",
+    "collectionsNotSaved": "保存されていません。お客様のプランにはコレクションは含まれません。",
+    "copyName": "{{1}} (コピー)",
+    "createScript": "スクリプトを作成",
+    "deleteScript": "スクリプトを削除",
+    "deleteScriptConfirmation": "スクリプト「{{1}}」を削除してもよろしいですか？",
+    "description": "ネットワーク上での作業を自動化し、不足しているツールを構築します。",
+    "download": "ダウンロード",
+    "edit": "編集",
+    "errorAtLine": "{{1}} (行 {{2}})",
+    "exampleCopyHint": "これは例です。「マイスクリプト」にコピーが保存されます。",
+    "examples": "例",
+    "files": "ファイル",
+    "finished": "スクリプトが完了しました",
+    "moreActionsFor": "{{1}} のその他のアクション",
+    "myScripts": "マイスクリプト",
+    "newScript": "新しいスクリプト",
+    "noConsoleOutput": "コンソール出力なし",
+    "panelTitle": "スクリプト",
+    "paywall": {
+      "description1": "epanet-js内で直接実行されるスクリプトを使用して、ネットワーク上の反復作業を自動化し、不足しているツールを構築します。",
+      "description2": "スクリプトAPIリファレンスを使用して、自分で記述するか、AIアシスタントに記述を依頼できます。",
+      "plans": "スクリプトは有料プランで利用できます。",
+      "title": "スクリプトを使用するにはアップグレードしてください",
+      "trial": "スクリプトは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+    },
+    "run": "実行",
+    "runCancelled": "実行がキャンセルされました",
+    "running": "実行中",
+    "runScript": "{{1}} を実行",
+    "scriptName": "スクリプト名",
+    "unsavedChanges": "未保存の変更があります。破棄してもよろしいですか？",
+    "untitled": "無題のスクリプト"
+  },
+  "scriptingItem": "スクリプト"
 }

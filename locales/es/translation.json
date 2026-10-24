@@ -2088,5 +2088,42 @@
   "alertExportInpScenarioHint": "Para exportar este escenario como un nuevo proyecto, usa Archivo > Exportar > Escenario actual como proyecto.",
   "alertExportInpScenarioTitle": "El escenario no se exportará",
   "exportTimeSeries.simulationFailed": "La última simulación no se ejecutó con éxito, por lo que no hay resultados para exportar. Revisa el informe de la simulación, corrige los problemas y ejecútala de nuevo.",
-  "export.currentScenarioAsEpanetInp": "Escenario como EPANET INP"
+  "export.currentScenarioAsEpanetInp": "Escenario como EPANET INP",
+  "scripting": {
+    "apiReference": "API de scripting",
+    "cancelling": "Cancelando…",
+    "collectionsNotSaved": "No guardado. Tu plan no incluye colecciones.",
+    "copyName": "{{1}} (copia)",
+    "createScript": "Crear un script",
+    "deleteScript": "Eliminar script",
+    "deleteScriptConfirmation": "¿Estás seguro de que quieres eliminar el script \"{{1}}\"?",
+    "description": "Automatiza el trabajo en tu red y crea las herramientas que te faltan.",
+    "download": "Descargar",
+    "edit": "Editar",
+    "errorAtLine": "{{1}} (línea {{2}})",
+    "exampleCopyHint": "Esto es un ejemplo. Guardar mantiene una copia en Mis scripts.",
+    "examples": "Ejemplos",
+    "files": "Archivos",
+    "finished": "Script finalizado",
+    "moreActionsFor": "Más acciones para {{1}}",
+    "myScripts": "Mis scripts",
+    "newScript": "Nuevo script",
+    "noConsoleOutput": "Sin salida de consola",
+    "panelTitle": "Scripts",
+    "paywall": {
+      "description1": "Automatiza el trabajo repetitivo en tu red y crea las herramientas que te faltan, con scripts que se ejecutan directamente dentro de epanet-js.",
+      "description2": "Escribe los tuyos o pide a un asistente de IA que los escriba por ti usando la referencia de la API de scripting.",
+      "plans": "El scripting está disponible en planes de pago.",
+      "title": "Mejora para usar scripts",
+      "trial": "El scripting es una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+    },
+    "run": "Ejecutar",
+    "runCancelled": "Ejecución cancelada",
+    "running": "Ejecutando",
+    "runScript": "Ejecutar {{1}}",
+    "scriptName": "Nombre del script",
+    "unsavedChanges": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
+    "untitled": "Script sin título"
+  },
+  "scriptingItem": "Scripting"
 }

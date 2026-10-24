@@ -2081,5 +2081,42 @@
   "alertExportInpScenarioHint": "Untuk mengekspor skenario ini sebagai proyek baru, gunakan Berkas > Ekspor > Skenario Saat Ini sebagai Proyek.",
   "alertExportInpScenarioTitle": "Skenario tidak akan diekspor",
   "exportTimeSeries.simulationFailed": "Jalannya simulasi terakhir tidak berhasil, jadi tidak ada hasil yang dapat diekspor. Tinjau laporan simulasi, perbaiki masalahnya, dan jalankan lagi.",
-  "export.currentScenarioAsEpanetInp": "Skenario sebagai EPANET INP"
+  "export.currentScenarioAsEpanetInp": "Skenario sebagai EPANET INP",
+  "scripting": {
+    "apiReference": "API Skrip",
+    "cancelling": "Membatalkan…",
+    "collectionsNotSaved": "Tidak disimpan. Paket Anda tidak menyertakan koleksi.",
+    "copyName": "{{1}} (salin)",
+    "createScript": "Buat skrip",
+    "deleteScript": "Hapus skrip",
+    "deleteScriptConfirmation": "Apakah Anda yakin ingin menghapus skrip \"{{1}}\"?",
+    "description": "Otomatiskan pekerjaan di jaringan Anda dan bangun alat yang Anda lewatkan.",
+    "download": "Unduh",
+    "edit": "Edit",
+    "errorAtLine": "{{1}} (baris {{2}})",
+    "exampleCopyHint": "Ini adalah contoh. Menyimpan akan menyimpan salinan di bawah Skrip saya.",
+    "examples": "Contoh",
+    "files": "File",
+    "finished": "Skrip selesai",
+    "moreActionsFor": "Tindakan lebih lanjut untuk {{1}}",
+    "myScripts": "Skrip saya",
+    "newScript": "Skrip baru",
+    "noConsoleOutput": "Tidak ada keluaran konsol",
+    "panelTitle": "Skrip",
+    "paywall": {
+      "description1": "Otomatiskan pekerjaan berulang di jaringan Anda dan bangun alat yang Anda lewatkan, dengan skrip yang berjalan langsung di dalam epanet-js.",
+      "description2": "Tulis sendiri atau minta asisten AI untuk menuliskannya untuk Anda menggunakan referensi API skrip.",
+      "plans": "Skrip tersedia di paket berbayar.",
+      "title": "Tingkatkan untuk menggunakan skrip",
+      "trial": "Skrip adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+    },
+    "run": "Jalankan",
+    "runCancelled": "Jalankan dibatalkan",
+    "running": "Sedang berjalan",
+    "runScript": "Jalankan {{1}}",
+    "scriptName": "Nama skrip",
+    "unsavedChanges": "Anda memiliki perubahan yang belum disimpan. Apakah Anda yakin ingin membuangnya?",
+    "untitled": "Skrip tanpa judul"
+  },
+  "scriptingItem": "Skrip"
 }

@@ -2081,5 +2081,42 @@
   "alertExportInpScenarioHint": "Om dit scenario als een nieuw project te exporteren, gebruikt u Bestand > Exporteren > Huidig scenario als project.",
   "alertExportInpScenarioTitle": "Scenario wordt niet geëxporteerd",
   "exportTimeSeries.simulationFailed": "De laatste simulatie was niet succesvol, dus er zijn geen resultaten om te exporteren. Bekijk het simulatierapport, los de problemen op en voer het opnieuw uit.",
-  "export.currentScenarioAsEpanetInp": "Scenario als EPANET INP"
+  "export.currentScenarioAsEpanetInp": "Scenario als EPANET INP",
+  "scripting": {
+    "apiReference": "Scripting API",
+    "cancelling": "Annuleren…",
+    "collectionsNotSaved": "Niet opgeslagen. Uw abonnement omvat geen collecties.",
+    "copyName": "{{1}} (kopie)",
+    "createScript": "Een script aanmaken",
+    "deleteScript": "Script verwijderen",
+    "deleteScriptConfirmation": "Weet u zeker dat u script \"{{1}}\" wilt verwijderen?",
+    "description": "Automatiseer werk aan uw netwerk en bouw de hulpmiddelen die u mist.",
+    "download": "Downloaden",
+    "edit": "Bewerken",
+    "errorAtLine": "{{1}} (regel {{2}})",
+    "exampleCopyHint": "Dit is een voorbeeld. Opslaan bewaart een kopie onder Mijn scripts.",
+    "examples": "Voorbeelden",
+    "files": "Bestanden",
+    "finished": "Script voltooid",
+    "moreActionsFor": "Meer acties voor {{1}}",
+    "myScripts": "Mijn scripts",
+    "newScript": "Nieuw script",
+    "noConsoleOutput": "Geen console-uitvoer",
+    "panelTitle": "Scripts",
+    "paywall": {
+      "description1": "Automatiseer repetitief werk aan uw netwerk en bouw de hulpmiddelen die u mist, met scripts die direct in epanet-js draaien.",
+      "description2": "Schrijf uw eigen scripts of vraag een AI-assistent om ze voor u te schrijven met behulp van de scripting API-referentie.",
+      "plans": "Scripting is beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om scripts te gebruiken",
+      "trial": "Scripting is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    },
+    "run": "Uitvoeren",
+    "runCancelled": "Uitvoering geannuleerd",
+    "running": "Bezig",
+    "runScript": "{{1}} uitvoeren",
+    "scriptName": "Scriptnaam",
+    "unsavedChanges": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
+    "untitled": "Naamloos script"
+  },
+  "scriptingItem": "Scripting"
 }
