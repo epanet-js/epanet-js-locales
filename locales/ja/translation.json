@@ -2120,5 +2120,57 @@
     "unsavedChanges": "未保存の変更があります。破棄してもよろしいですか？",
     "untitled": "無題のスクリプト"
   },
-  "scriptingItem": "スクリプト"
+  "scriptingItem": "スクリプト",
+  "pricingPlans": {
+    "backToCommercial": "商用プランに戻る",
+    "billingPeriod": "請求期間",
+    "bookCall": "電話を予約する",
+    "enterprise": {
+      "centralizedUserManagement": "一元的なユーザー管理と利用状況分析",
+      "contactUs": "お問い合わせ",
+      "corporateSso": "企業SSO (SAML / Azure AD)",
+      "dedicatedSupport": "専任サポートとカスタムトレーニング",
+      "networkPermissions": "ネットワークレベルの権限",
+      "per": "組織向けにカスタマイズ",
+      "price": "カスタム",
+      "regionalHosting": "地域別データホスティング",
+      "securityReview": "セキュリティレビューと調達サポート"
+    },
+    "haveQuestions": "ご質問がありますか？",
+    "nonCommercial": {
+      "description": "課題、研究、個人プロジェクト向け。",
+      "educationDescription": "非営利目的での使用、課題や研究向け。",
+      "educationPer": "学校のメールアドレスで",
+      "educationPrice": "無料",
+      "personalDescription": "非営利目的での使用、個人的なプロジェクト向け。"
+    },
+    "nonCommercialLicenses": "非営利ライセンス",
+    "or": "または",
+    "perMonth": "/月",
+    "perYear": "/年",
+    "pro": {
+      "andMore": "その他…",
+      "customMapLayers": "カスタムマップレイヤーと標高ソース",
+      "modelBuilderInfo": "新しいProモデルビルダーは、管の製造年と材質、投影の保持、複数の言語、カスタム属性、およびnull値を追加します。レガシービルダーはメンテナンス専用です。",
+      "per": "指名ライセンスあたり"
+    },
+    "requestQuote": "見積もりを依頼",
+    "sendEmail": "メールを送信",
+    "studentOrPersonal": "学生または個人でのご利用ですか？",
+    "trialDescription": "カードは不要で、職場のメールアドレスのみ必要です。",
+    "trialTitle": "Proを14日間無料で試す。",
+    "ultimate": {
+      "advancedWorkflows": "高度なワークフロー:",
+      "aiAssistedModeling": "AI支援モデリング",
+      "automatedModelBuild": "自動モデル構築とメンテナンス",
+      "calibrationTools": "キャリブレーションツール",
+      "per": "{{1}}席を含む",
+      "rolesAndPermissions": "ロールと権限",
+      "sharedCloudModels": "バージョン履歴付き共有クラウドモデル",
+      "shutdownsAndInquiries": "シャットダウンと圧力/流量照会",
+      "teamBranching": "チームの分岐とマージ",
+      "teamOnboarding": "チームオンボーディングセッション",
+      "unlimitedConversions": "無制限のモデル変換"
+    }
+  }
 }

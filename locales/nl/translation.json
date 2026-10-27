@@ -2120,5 +2120,57 @@
     "unsavedChanges": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
     "untitled": "Naamloos script"
   },
-  "scriptingItem": "Scripting"
+  "scriptingItem": "Scripting",
+  "pricingPlans": {
+    "backToCommercial": "Terug naar commerciële abonnementen",
+    "billingPeriod": "Facturatieperiode",
+    "bookCall": "een gesprek inplannen",
+    "enterprise": {
+      "centralizedUserManagement": "Gecentraliseerd gebruikersbeheer & gebruiksstatistieken",
+      "contactUs": "Contact opnemen",
+      "corporateSso": "Bedrijfs-SSO (SAML / Azure AD)",
+      "dedicatedSupport": "Toegewijde support & aangepaste training",
+      "networkPermissions": "Netwerkniveau-permissies",
+      "per": "Afgestemd op uw organisatie",
+      "price": "Aangepast",
+      "regionalHosting": "Regionale datahosting",
+      "securityReview": "Beveiligingsreview & inkoopondersteuning"
+    },
+    "haveQuestions": "Heeft u vragen?",
+    "nonCommercial": {
+      "description": "Voor cursuswerk, onderzoek en persoonlijke projecten.",
+      "educationDescription": "Niet-commercieel gebruik, voor cursuswerk en onderzoek.",
+      "educationPer": "met een school e-mailadres",
+      "educationPrice": "Gratis",
+      "personalDescription": "Niet-commercieel gebruik, voor uw eigen projecten."
+    },
+    "nonCommercialLicenses": "Niet-commerciële licenties",
+    "or": "of",
+    "perMonth": "/maand",
+    "perYear": "/jaar",
+    "pro": {
+      "andMore": "En meer…",
+      "customMapLayers": "Aangepaste kaartlagen & hoogtebronnen",
+      "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud, meerdere talen, aangepaste attributen en null-waarden toe. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
+      "per": "Per benoemde licentie"
+    },
+    "requestQuote": "Offerte aanvragen",
+    "sendEmail": "Stuur ons een e-mail",
+    "studentOrPersonal": "Studenten- of persoonlijk gebruik?",
+    "trialDescription": "Geen kaart nodig, alleen een zakelijk e-mailadres.",
+    "trialTitle": "Pro gratis 14 dagen proberen.",
+    "ultimate": {
+      "advancedWorkflows": "Geavanceerde workflows:",
+      "aiAssistedModeling": "AI-ondersteunde modellering",
+      "automatedModelBuild": "Geautomatiseerd model opbouwen & onderhoud",
+      "calibrationTools": "Kalibratiehulpmiddelen",
+      "per": "Inclusief {{1}} plaatsen",
+      "rolesAndPermissions": "Rollen & permissies",
+      "sharedCloudModels": "Gedeelde cloudmodellen met versiegeschiedenis",
+      "shutdownsAndInquiries": "Afsluitingen & druk-/stroomvragen",
+      "teamBranching": "Team branching & merging",
+      "teamOnboarding": "Team onboarding sessie",
+      "unlimitedConversions": "Onbeperkte modelconversies"
+    }
+  }
 }

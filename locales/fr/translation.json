@@ -2120,5 +2120,57 @@
     "unsavedChanges": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
     "untitled": "Script sans titre"
   },
-  "scriptingItem": "Scriptage"
+  "scriptingItem": "Scriptage",
+  "pricingPlans": {
+    "backToCommercial": "Retour aux plans commerciaux",
+    "billingPeriod": "Période de facturation",
+    "bookCall": "prendre un appel",
+    "enterprise": {
+      "centralizedUserManagement": "Gestion centralisée des utilisateurs et analyse d'utilisation",
+      "contactUs": "Contactez-nous",
+      "corporateSso": "SSO d'entreprise (SAML / Azure AD)",
+      "dedicatedSupport": "Support dédié et formation personnalisée",
+      "networkPermissions": "Permissions au niveau du réseau",
+      "per": "Adapté à votre organisation",
+      "price": "Personnalisé",
+      "regionalHosting": "Hébergement de données régional",
+      "securityReview": "Audit de sécurité et support aux achats"
+    },
+    "haveQuestions": "Des questions ?",
+    "nonCommercial": {
+      "description": "Pour les travaux universitaires, la recherche et les projets personnels.",
+      "educationDescription": "Usage non commercial, pour les travaux universitaires et la recherche.",
+      "educationPer": "avec un e-mail scolaire",
+      "educationPrice": "Gratuit",
+      "personalDescription": "Usage non commercial, pour vos propres projets."
+    },
+    "nonCommercialLicenses": "Licences non commerciales",
+    "or": "ou",
+    "perMonth": "/mois",
+    "perYear": "/an",
+    "pro": {
+      "andMore": "Et plus encore…",
+      "customMapLayers": "Couches de carte personnalisées et sources d'élévation",
+      "modelBuilderInfo": "Le nouveau générateur de modèle Pro ajoute l'année d'installation et les matériaux des conduites, la préservation de la projection, plusieurs langues, des attributs personnalisés et des valeurs nulles. Le générateur Hérité est conservé uniquement pour la maintenance.",
+      "per": "Par licence nominative"
+    },
+    "requestQuote": "Demander un devis",
+    "sendEmail": "Envoyez-nous un e-mail",
+    "studentOrPersonal": "Utilisation étudiante ou personnelle ?",
+    "trialDescription": "Pas de carte requise, juste un e-mail professionnel.",
+    "trialTitle": "Essayez Pro gratuitement pendant 14 jours.",
+    "ultimate": {
+      "advancedWorkflows": "Workflows avancés :",
+      "aiAssistedModeling": "Modélisation assistée par IA",
+      "automatedModelBuild": "Construction et maintenance automatisées du modèle",
+      "calibrationTools": "Outils de calibration",
+      "per": "Inclut {{1}} licences",
+      "rolesAndPermissions": "Rôles et permissions",
+      "sharedCloudModels": "Modèles cloud partagés avec historique des versions",
+      "shutdownsAndInquiries": "Arrêts et demandes de pression/débit",
+      "teamBranching": "Branching et fusion d'équipe",
+      "teamOnboarding": "Session d'intégration d'équipe",
+      "unlimitedConversions": "Conversions de modèles illimitées"
+    }
+  }
 }

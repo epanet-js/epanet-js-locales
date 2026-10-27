@@ -2120,5 +2120,57 @@
     "unsavedChanges": "Anda memiliki perubahan yang belum disimpan. Apakah Anda yakin ingin membuangnya?",
     "untitled": "Skrip tanpa judul"
   },
-  "scriptingItem": "Skrip"
+  "scriptingItem": "Skrip",
+  "pricingPlans": {
+    "backToCommercial": "Kembali ke paket komersial",
+    "billingPeriod": "Periode penagihan",
+    "bookCall": "buat panggilan",
+    "enterprise": {
+      "centralizedUserManagement": "Manajemen pengguna terpusat & analitik penggunaan",
+      "contactUs": "Hubungi kami",
+      "corporateSso": "SSO Perusahaan (SAML / Azure AD)",
+      "dedicatedSupport": "Dukungan khusus & pelatihan kustom",
+      "networkPermissions": "Izin tingkat jaringan",
+      "per": "Disesuaikan untuk organisasi Anda",
+      "price": "Kustom",
+      "regionalHosting": "Hosting data regional",
+      "securityReview": "Tinjauan keamanan & dukungan pengadaan"
+    },
+    "haveQuestions": "Ada pertanyaan?",
+    "nonCommercial": {
+      "description": "Untuk tugas kuliah, penelitian, dan proyek pribadi.",
+      "educationDescription": "Penggunaan non-komersial, untuk tugas kuliah dan penelitian.",
+      "educationPer": "dengan email sekolah",
+      "educationPrice": "Gratis",
+      "personalDescription": "Penggunaan non-komersial, untuk proyek Anda sendiri."
+    },
+    "nonCommercialLicenses": "Lisensi non-komersial",
+    "or": "atau",
+    "perMonth": "/bulan",
+    "perYear": "/tahun",
+    "pro": {
+      "andMore": "Dan lainnya…",
+      "customMapLayers": "Lapisan peta kustom & sumber elevasi",
+      "modelBuilderInfo": "Pembangun model Pro yang baru menambahkan tahun & material pipa, pelestarian proyeksi, berbagai bahasa, atribut kustom, dan nilai null. Pembangun Legacy hanya dipertahankan untuk pemeliharaan.",
+      "per": "Per lisensi bernama"
+    },
+    "requestQuote": "Minta penawaran",
+    "sendEmail": "Kirim email kepada kami",
+    "studentOrPersonal": "Penggunaan siswa atau pribadi?",
+    "trialDescription": "Tidak perlu kartu, cukup email kantor.",
+    "trialTitle": "Coba Pro gratis selama 14 hari.",
+    "ultimate": {
+      "advancedWorkflows": "Alur kerja lanjutan:",
+      "aiAssistedModeling": "Pemodelan berbantuan AI",
+      "automatedModelBuild": "Pembangunan & pemeliharaan model otomatis",
+      "calibrationTools": "Alat kalibrasi",
+      "per": "Termasuk {{1}} kursi",
+      "rolesAndPermissions": "Peran & izin",
+      "sharedCloudModels": "Model cloud bersama dengan riwayat versi",
+      "shutdownsAndInquiries": "Pemutusan & pertanyaan tekanan/aliran",
+      "teamBranching": "Percabangan & penggabungan tim",
+      "teamOnboarding": "Sesi orientasi tim",
+      "unlimitedConversions": "Konversi model tanpa batas"
+    }
+  }
 }

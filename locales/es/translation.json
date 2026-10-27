@@ -2127,5 +2127,57 @@
     "unsavedChanges": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
     "untitled": "Script sin título"
   },
-  "scriptingItem": "Scripting"
+  "scriptingItem": "Scripting",
+  "pricingPlans": {
+    "backToCommercial": "Volver a planes comerciales",
+    "billingPeriod": "Período de facturación",
+    "bookCall": "programar una llamada",
+    "enterprise": {
+      "centralizedUserManagement": "Gestión centralizada de usuarios y análisis de uso",
+      "contactUs": "Contáctanos",
+      "corporateSso": "SSO corporativo (SAML / Azure AD)",
+      "dedicatedSupport": "Soporte dedicado y formación personalizada",
+      "networkPermissions": "Permisos a nivel de red",
+      "per": "Adaptado a tu organización",
+      "price": "Personalizado",
+      "regionalHosting": "Alojamiento de datos regional",
+      "securityReview": "Revisión de seguridad y soporte de adquisiciones"
+    },
+    "haveQuestions": "¿Tienes preguntas?",
+    "nonCommercial": {
+      "description": "Para cursos, investigación y proyectos personales.",
+      "educationDescription": "Uso no comercial, para cursos e investigación.",
+      "educationPer": "con un email escolar",
+      "educationPrice": "Gratis",
+      "personalDescription": "Uso no comercial, para tus propios proyectos."
+    },
+    "nonCommercialLicenses": "Licencias no comerciales",
+    "or": "o",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "pro": {
+      "andMore": "Y más…",
+      "customMapLayers": "Capas de mapa y fuentes de elevación personalizadas",
+      "modelBuilderInfo": "El nuevo constructor de modelos Pro añade año y materiales de tubería, preservación de proyección, múltiples idiomas, atributos personalizados y valores nulos. El constructor básico se mantiene solo para mantenimiento.",
+      "per": "Por licencia nominativa"
+    },
+    "requestQuote": "Solicitar un presupuesto",
+    "sendEmail": "Envíanos un email",
+    "studentOrPersonal": "¿Uso estudiantil o personal?",
+    "trialDescription": "No se necesita tarjeta, solo un email de trabajo.",
+    "trialTitle": "Prueba Pro gratis durante 14 días.",
+    "ultimate": {
+      "advancedWorkflows": "Flujos de trabajo avanzados:",
+      "aiAssistedModeling": "Modelado asistido por IA",
+      "automatedModelBuild": "Construcción y mantenimiento automatizado de modelos",
+      "calibrationTools": "Herramientas de calibración",
+      "per": "Incluye {{1}} puestos",
+      "rolesAndPermissions": "Roles y permisos",
+      "sharedCloudModels": "Modelos en la nube compartidos con historial de versiones",
+      "shutdownsAndInquiries": "Cierres y consultas de presión/caudal",
+      "teamBranching": "Ramificación y fusión de equipos",
+      "teamOnboarding": "Sesión de incorporación de equipo",
+      "unlimitedConversions": "Conversiones de modelo ilimitadas"
+    }
+  }
 }
