@@ -11,7 +11,6 @@
       "selectedCount_one": "{{count}} seleccionado",
       "selectedCount_other": "{{count}} seleccionados"
     },
-    "backToFileUpload": "Carga de archivo",
     "layers": "Capas",
     "mappingColumnTitle": "Mapeo de atributos",
     "buildAnyway": "Construir de todos modos",
@@ -101,17 +100,14 @@
     "zones": "Zonas"
   },
   "fileDropzone": {
-    "assignToElement": "Asignar a elemento...",
     "supportedFiles": "Soporta {{1}}",
     "titleAction": "Arrastra archivos aquí o haz clic para explorar",
     "parsing": "Analizando...",
     "processing": "Procesando...",
     "selectFiles": "Seleccionar archivos",
-    "unknownFilename": "(nombre de archivo desconocido)",
     "addShp": "Añade el archivo .shp",
     "addSource": "Añadir fuente de datos",
     "applyProjection": "Aplicar proyección",
-    "assignTo": "Asignar a",
     "attributesRecommended": "Añade un .dbf para atributos",
     "changeProjection": "Cambiar proyección",
     "dataSources": "Fuentes de datos",
@@ -154,11 +150,6 @@
       "unknown": "Geometría desconocida"
     },
     "geometryUnsupported": "Geometría no soportada",
-    "assignGeometry": {
-      "line": "Asignar líneas a",
-      "point": "Asignar puntos a",
-      "polygon": "Asignar polígonos a"
-    },
     "applyCoordinateAttributes": "Aplicar atributos",
     "changeCoordinateAttributes": "Cambiar atributos de coordenadas",
     "coordinateAttribute": {
@@ -172,7 +163,6 @@
       "shapefile": "Shapefiles",
       "zip": "Archivos ZIP"
     },
-    "geometryCount": "{{1}} {{2}}",
     "showUpdatedFiles": "Mostrar archivos actualizados",
     "updatedSourcesCount_one": "{{count}} fuente actualizada con el nuevo archivo",
     "updatedSourcesCount_other": "{{count}} fuentes actualizadas con los nuevos archivos",
@@ -192,12 +182,8 @@
     "mld": "MLD (Megalitro/día)"
   },
   "map": {
-    "elementsAssigned_one": "{{count}} elemento asignado",
-    "elementsAssigned_other": "{{count}} elementos asignados",
     "mapboxHint": "Añade tu token de Mapbox para ver el mapa real",
     "mapboxPlaceholder": "Marcador de posición del mapa - Se requiere token de Mapbox",
-    "networkPreview": "Vista previa de la red",
-    "previewSampled": "La vista previa dibuja una muestra de los registros. Cada uno sigue siendo importado.",
     "allSources": "Todas las fuentes",
     "legend": "Leyenda del mapa",
     "notAssigned": "No asignado",
@@ -221,14 +207,16 @@
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
     "unitSystemUs": "Sistema de unidades de EE. UU.",
-    "nextToFileUpload": "Carga de archivo"
+    "nextToFileUpload": "Carga de archivo",
+    "create": "Crear",
+    "name": "Nombre",
+    "needHelp": "¿Necesitas ayuda?",
+    "newBuild": "Nuevo modelo",
+    "readGuide": "Leer la guía",
+    "watchTutorial": "Ver el tutorial"
   },
   "projection": {
-    "searchPlaceholder": "Buscar proyección...",
-    "loading": "Cargando proyecciones...",
-    "noResults": "No se encontró proyección.",
-    "searchHint": "Empieza a escribir para buscar tu proyección, por ejemplo `27700` o \"British National Grid\".",
-    "selectPlaceholder": "Seleccionar proyección..."
+    "searchPlaceholder": "Buscar proyección..."
   },
   "wizardActions": {
     "back": "Atrás",
@@ -256,13 +244,6 @@
   "search": "Buscar…",
   "zonesPreview": {
     "polygons": "Polígonos"
-  },
-  "dataAssignment": {
-    "backToIntro": "Introducción",
-    "nextToAttributeMapping": "Mapeo de atributos",
-    "continueAnyway": "Continuar de todos modos",
-    "keepEditing": "Mantener edición",
-    "unassignedWarning": "No se ha asignado ningún tipo de elemento a {{1}}, por lo que no se incluirán en el modelo."
   },
   "unsupportedBrowser": {
     "description": "El constructor de modelos necesita Web Workers, que este navegador no soporta o ha desactivado. Usa una versión reciente de Chrome, Edge, Firefox o Safari.",

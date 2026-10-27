@@ -1190,7 +1190,8 @@
     "discardWithunsavedChangesHint": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
     "keepEditing": "Blijven bewerken",
     "save": "Opslaan",
-    "saveWithWarningsHint": "Er zijn enkele validatiewaarschuwingen."
+    "saveWithWarningsHint": "Er zijn enkele validatiewaarschuwingen.",
+    "saveChanges": "Wijzigingen opslaan"
   },
   "headlossCurve": "Drukverliescurve",
   "valveCurve": "Curve",
@@ -2069,7 +2070,6 @@
   "openProjectFailure.tooNewDetail": "Dit bestand is gemaakt met een nieuwere versie van de app. Werk de app bij om het te openen.",
   "openProjectFailure.unexpectedDetail": "Er is iets misgegaan tijdens het openen van het bestand.",
   "openProjectFailure.versions": "Bestandsversie {{1}}, appversie {{2}}.",
-  "alertExportInpDetailWithScenarios": "Het EPANET INP-formaat ondersteunt niet alle epanet-js-functies, zoals scenario's, klantpunten, aangepaste onderdeelvelden, selectiesets, bladwijzers en native besturingen.",
   "alertExportInpDetail": "Het EPANET INP-formaat ondersteunt niet alle epanet-js-functies, zoals klantpunten, aangepaste onderdeelvelden, selectiesets, bladwijzers en native besturingen.",
   "openProjectProgress.readingScenarios": "Scenario's lezen...",
   "statusClosed": "Gesloten",
@@ -2077,9 +2077,6 @@
   "export.currentScenarioAsProject": "Scenario als project",
   "alertExportInpLsxVariableSpeedPumps": "Variabele snelheid pompen",
   "dbUnavailable.scenariosDescription": "Er is iets misgegaan en dit project kan niet langer worden opgeslagen, inclusief de scenario's. Herlaad de pagina en open uw laatst opgeslagen projectbestand opnieuw om door te gaan — alle wijzigingen sinds de laatste keer opslaan gaan verloren.",
-  "alertExportInpScenarioDetail": "Het EPANET INP-formaat ondersteunt geen scenario's. Het actieve scenario \"{{1}}\" wordt niet geëxporteerd; de Hoofdtak wordt in plaats daarvan geëxporteerd.",
-  "alertExportInpScenarioHint": "Om dit scenario als een nieuw project te exporteren, gebruikt u Bestand > Exporteren > Huidig scenario als project.",
-  "alertExportInpScenarioTitle": "Scenario wordt niet geëxporteerd",
   "exportTimeSeries.simulationFailed": "De laatste simulatie was niet succesvol, dus er zijn geen resultaten om te exporteren. Bekijk het simulatierapport, los de problemen op en voer het opnieuw uit.",
   "export.currentScenarioAsEpanetInp": "Scenario als EPANET INP",
   "scripting": {
@@ -2108,7 +2105,12 @@
       "description2": "Schrijf uw eigen scripts of vraag een AI-assistent om ze voor u te schrijven met behulp van de scripting API-referentie.",
       "plans": "Scripting is beschikbaar op betaalde abonnementen.",
       "title": "Upgrade om scripts te gebruiken",
-      "trial": "Scripting is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+      "trial": "Scripting is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig.",
+      "captions": {
+        "1": "Bouw de tools die u mist",
+        "2": "Exporteer gegevens als tabellen of bestanden",
+        "3": "Bekijk de resultaten direct op de kaart"
+      }
     },
     "run": "Uitvoeren",
     "runCancelled": "Uitvoering geannuleerd",

@@ -19,7 +19,13 @@
     "tutorialDuration": "5:23",
     "tutorialVideoTitle": "epanet-js import from GIS data tutorial",
     "tutorialDescription": "Learn how to build an EPANET model by watching the tutorial above or ",
-    "tutorialGuideLink": "reading the step-by-step guide."
+    "tutorialGuideLink": "reading the step-by-step guide.",
+    "name": "Name",
+    "create": "Create",
+    "newBuild": "New build",
+    "needHelp": "Need help?",
+    "watchTutorial": "Watch the tutorial",
+    "readGuide": "Read the guide"
   },
   "dataSources": {
     "backToIntro": "Intro",
@@ -113,13 +119,6 @@
     "cancel": "Cancel",
     "saveCondition": "Save condition"
   },
-  "dataAssignment": {
-    "backToIntro": "Intro",
-    "nextToAttributeMapping": "Attribute mapping",
-    "unassignedWarning": "No element type is assigned to {{1}}, so they won't be included in the model.",
-    "continueAnyway": "Continue anyway",
-    "keepEditing": "Keep editing"
-  },
   "attributeMapping": {
     "noElementsAssigned": "No elements have been assigned. Please go back and assign files to elements.",
     "autoGenerate": "Auto-generate",
@@ -128,7 +127,6 @@
     "buildModel": "Build model",
     "layers": "Layers",
     "mappingColumnTitle": "Attribute mapping",
-    "backToFileUpload": "File upload",
     "unmappedLayersWarning": "No attributes are mapped for {{1}}, so they will be built with default values.",
     "buildAnyway": "Build anyway",
     "keepEditing": "Keep editing",
@@ -183,8 +181,6 @@
   },
   "fileDropzone": {
     "sourcesList": "Data sources",
-    "unknownFilename": "(unknown filename)",
-    "assignToElement": "Assign to element...",
     "parsing": "Parsing...",
     "titleAction": "Drop files here, or click to browse",
     "supportedFiles": "Supports {{1}}",
@@ -195,16 +191,9 @@
     "dataSources": "Data sources",
     "addSource": "Add data source",
     "fileOptions": "File options",
-    "assignTo": "Assign to",
     "applyProjection": "Apply projection",
     "dismiss": "Dismiss",
-    "geometryCount": "{{1}} {{2}}",
     "sourceInfo": "{{1}} – {{2}} records",
-    "assignGeometry": {
-      "point": "Assign points to",
-      "line": "Assign lines to",
-      "polygon": "Assign polygons to"
-    },
     "geometry": {
       "point": "Points",
       "line": "Lines",
@@ -268,12 +257,8 @@
     "loading": "Loading..."
   },
   "map": {
-    "networkPreview": "Network preview",
-    "elementsAssigned_one": "{{count}} element assigned",
-    "elementsAssigned_other": "{{count}} elements assigned",
     "mapboxPlaceholder": "Map placeholder - Mapbox token required",
     "mapboxHint": "Add your Mapbox token to see the actual map",
-    "previewSampled": "The preview draws a sample of the records. Every one is still imported.",
     "legend": "Map legend",
     "allSources": "All sources",
     "otherSources": "Other sources",
@@ -293,11 +278,7 @@
     "valveSettingParseHelp": "We couldn't read a number from \"{{1}}\". The setting will be imported as missing. Map a property that contains a number."
   },
   "projection": {
-    "searchPlaceholder": "Search for projection...",
-    "selectPlaceholder": "Select projection...",
-    "loading": "Loading projections...",
-    "noResults": "No projection found.",
-    "searchHint": "Start typing to search for your projection, for example `27700` or \"British National Grid\"."
+    "searchPlaceholder": "Search for projection..."
   },
   "elements": {
     "pipes": "Pipes",

@@ -11,7 +11,6 @@
       "selectedCount_one": "{{count}} geselecteerd",
       "selectedCount_other": "{{count}} geselecteerd"
     },
-    "backToFileUpload": "Bestand uploaden",
     "layers": "Lagen",
     "mappingColumnTitle": "Attribuutkoppeling",
     "buildAnyway": "Toch bouwen",
@@ -101,17 +100,14 @@
     "zones": "Zones"
   },
   "fileDropzone": {
-    "assignToElement": "Toewijzen aan element...",
     "parsing": "Parsen...",
     "processing": "Verwerken...",
     "selectFiles": "Bestanden selecteren",
-    "unknownFilename": "(onbekende bestandsnaam)",
     "supportedFiles": "Ondersteunt {{1}}",
     "titleAction": "Sleep bestanden hierheen, of blader om te uploaden",
     "addShp": "Voeg het .shp-bestand toe",
     "addSource": "Gegevensbron toevoegen",
     "applyProjection": "Projectie toepassen",
-    "assignTo": "Toewijzen aan",
     "attributesRecommended": "Voeg een .dbf toe voor attributen",
     "changeProjection": "Projectie wijzigen",
     "dataSources": "Gegevensbronnen",
@@ -154,11 +150,6 @@
       "unknown": "Onbekende geometrie"
     },
     "geometryUnsupported": "Niet-ondersteunde geometrie",
-    "assignGeometry": {
-      "line": "Lijnen toewijzen aan",
-      "point": "Punten toewijzen aan",
-      "polygon": "Polygonen toewijzen aan"
-    },
     "applyCoordinateAttributes": "Attributen toepassen",
     "changeCoordinateAttributes": "Coördinaatattributen wijzigen",
     "coordinateAttribute": {
@@ -172,7 +163,6 @@
       "shapefile": "Shapefiles",
       "zip": "ZIP-archieven"
     },
-    "geometryCount": "{{1}} {{2}}",
     "showUpdatedFiles": "Bijgewerkte bestanden bekijken",
     "updatedSourcesCount_one": "{{count}} bron bijgewerkt met het nieuwe bestand",
     "updatedSourcesCount_other": "{{count}} bronnen bijgewerkt met de nieuwe bestanden",
@@ -192,12 +182,8 @@
     "mld": "MLD (Megaliter/dag)"
   },
   "map": {
-    "elementsAssigned_one": "{{count}} element toegewezen",
-    "elementsAssigned_other": "{{count}} elementen toegewezen",
     "mapboxHint": "Voeg uw Mapbox-token toe om de daadwerkelijke kaart te zien",
     "mapboxPlaceholder": "Kaart placeholder - Mapbox-token vereist",
-    "networkPreview": "Netwerkvoorbeeld",
-    "previewSampled": "Het voorbeeld toont een selectie van de objecten. Elke record wordt nog steeds geïmporteerd.",
     "allSources": "Alle bronnen",
     "legend": "Kaartlegenda",
     "notAssigned": "Niet toegewezen",
@@ -221,14 +207,16 @@
     "unitSystem": "Eenhedenstelsel",
     "unitSystemMetric": "SI metrisch",
     "unitSystemUs": "VS gebruikelijk",
-    "nextToFileUpload": "Bestand uploaden"
+    "nextToFileUpload": "Bestand uploaden",
+    "create": "Aanmaken",
+    "name": "Naam",
+    "needHelp": "Hulp nodig?",
+    "newBuild": "Nieuwe build",
+    "readGuide": "Lees de handleiding",
+    "watchTutorial": "Bekijk de handleiding"
   },
   "projection": {
-    "searchPlaceholder": "Zoeken naar projectie...",
-    "loading": "Projecties laden...",
-    "noResults": "Geen projectie gevonden.",
-    "searchHint": "Begin te typen om naar uw projectie te zoeken, bijvoorbeeld `27700` of \"British National Grid\".",
-    "selectPlaceholder": "Selecteer projectie..."
+    "searchPlaceholder": "Zoeken naar projectie..."
   },
   "wizardActions": {
     "back": "Terug",
@@ -256,13 +244,6 @@
   "search": "Zoeken…",
   "zonesPreview": {
     "polygons": "Polygonen"
-  },
-  "dataAssignment": {
-    "backToIntro": "Intro",
-    "nextToAttributeMapping": "Attribuutkoppeling",
-    "continueAnyway": "Toch doorgaan",
-    "keepEditing": "Blijven bewerken",
-    "unassignedWarning": "Er is geen elementtype toegewezen aan {{1}}, dus worden ze niet opgenomen in het model."
   },
   "unsupportedBrowser": {
     "description": "De modelbouwer heeft Web Workers nodig, die deze browser niet ondersteunt of heeft uitgeschakeld. Gebruik een recente versie van Chrome, Edge, Firefox of Safari.",

@@ -1190,7 +1190,8 @@
     "discardWithunsavedChangesHint": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
     "keepEditing": "Continuer l'édition",
     "save": "Enregistrer",
-    "saveWithWarningsHint": "Il y a des avertissements de validation."
+    "saveWithWarningsHint": "Il y a des avertissements de validation.",
+    "saveChanges": "Enregistrer les modifications"
   },
   "headlossCurve": "Courbe de perte de charge",
   "valveCurve": "Courbe",
@@ -2069,7 +2070,6 @@
   "openProjectFailure.tooNewDetail": "Ce fichier a été créé par une version plus récente de l'application. Veuillez mettre à jour pour l'ouvrir.",
   "openProjectFailure.unexpectedDetail": "Quelque chose s'est mal passé lors de l'ouverture du fichier.",
   "openProjectFailure.versions": "Version du fichier {{1}}, version de l'application {{2}}.",
-  "alertExportInpDetailWithScenarios": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les scénarios, les points de consommation, les champs d'éléments personnalisés, les ensembles de sélection, les signets et les contrôles natifs.",
   "alertExportInpDetail": "Le format EPANET INP ne prend pas en charge toutes les fonctionnalités d'epanet-js, telles que les points de consommation, les champs d'éléments personnalisés, les ensembles de sélection, les signets et les contrôles natifs.",
   "openProjectProgress.readingScenarios": "Lecture des scénarios...",
   "statusClosed": "Fermé",
@@ -2077,9 +2077,6 @@
   "export.currentScenarioAsProject": "Scénario en tant que projet",
   "alertExportInpLsxVariableSpeedPumps": "Pompes à vitesse variable",
   "dbUnavailable.scenariosDescription": "Quelque chose s'est mal passé et ce projet ne peut plus être enregistré, y compris ses scénarios. Rechargez la page et rouvrez votre dernier fichier de projet enregistré pour continuer — toutes les modifications depuis votre dernière sauvegarde seront perdues.",
-  "alertExportInpScenarioDetail": "Le format EPANET INP ne prend pas en charge les scénarios. Le scénario actif « {{1}} » ne sera pas exporté ; la branche Principale sera exportée à la place.",
-  "alertExportInpScenarioHint": "Pour exporter ce scénario en tant que nouveau projet, utilisez Fichier > Exporter > Scénario actuel en tant que projet.",
-  "alertExportInpScenarioTitle": "Le scénario ne sera pas exporté",
   "exportTimeSeries.simulationFailed": "La dernière exécution de la simulation a échoué, il n'y a donc aucun résultat à exporter. Révisez le rapport de simulation, corrigez les problèmes et relancez-la.",
   "export.currentScenarioAsEpanetInp": "Scénario en tant qu'EPANET INP",
   "scripting": {
@@ -2108,7 +2105,12 @@
       "description2": "Écrivez les vôtres ou demandez à un assistant IA de les écrire pour vous en utilisant la référence de l'API de scriptage.",
       "plans": "Le scriptage est disponible avec les plans payants.",
       "title": "Mettre à niveau pour utiliser les scripts",
-      "trial": "Le scriptage est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+      "trial": "Le scriptage est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise.",
+      "captions": {
+        "1": "Construisez les outils qui vous manquent",
+        "2": "Extraire les données sous forme de tables ou de fichiers",
+        "3": "Voir les résultats directement sur la carte"
+      }
     },
     "run": "Exécuter",
     "runCancelled": "Exécution annulée",

@@ -1190,7 +1190,8 @@
     "discardWithunsavedChangesHint": "Você tem alterações não salvas. Tem certeza de que deseja descartá-las?",
     "keepEditing": "Continuar editando",
     "save": "Salvar",
-    "saveWithWarningsHint": "Há alguns avisos de validação."
+    "saveWithWarningsHint": "Há alguns avisos de validação.",
+    "saveChanges": "Salvar alterações"
   },
   "headlossCurve": "Curva",
   "valveCurve": "Curva",
@@ -2069,7 +2070,6 @@
   "openProjectFailure.tooNewDetail": "Este arquivo foi criado por uma versão mais recente do aplicativo. Por favor, atualize para abri-lo.",
   "openProjectFailure.unexpectedDetail": "Algo deu errado ao abrir o arquivo.",
   "openProjectFailure.versions": "Versão do arquivo {{1}}, versão do aplicativo {{2}}.",
-  "alertExportInpDetailWithScenarios": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como cenários, pontos de consumo, campos de ativos personalizados, conjuntos de seleção, marcadores e controles nativos.",
   "alertExportInpDetail": "O formato EPANET INP não suporta todas as funcionalidades do epanet-js, como pontos de consumo, campos de ativos personalizados, conjuntos de seleção, marcadores e controles nativos.",
   "openProjectProgress.readingScenarios": "Lendo cenários...",
   "statusClosed": "Fechado",
@@ -2077,9 +2077,6 @@
   "export.currentScenarioAsProject": "Cenário atual como projeto",
   "alertExportInpLsxVariableSpeedPumps": "Bombas de velocidade variável",
   "dbUnavailable.scenariosDescription": "Algo deu errado e este projeto não pode mais ser salvo, incluindo seus cenários. Recarregue a página e reabra o último arquivo de projeto salvo para continuar — quaisquer alterações feitas desde a última vez que você salvou serão perdidas.",
-  "alertExportInpScenarioDetail": "O formato EPANET INP não suporta cenários. O cenário ativo \"{{1}}\" não será exportado; o ramo Principal será exportado em vez disso.",
-  "alertExportInpScenarioHint": "Para exportar este cenário como um novo projeto, use Arquivo > Exportar > Cenário Atual como Projeto.",
-  "alertExportInpScenarioTitle": "O cenário não será exportado",
   "exportTimeSeries.simulationFailed": "A última execução da simulação não foi bem-sucedida, então não há resultados para exportar. Revise o relatório da simulação, corrija os problemas e execute-a novamente.",
   "export.currentScenarioAsEpanetInp": "Cenário como EPANET INP",
   "scripting": {
@@ -2108,7 +2105,12 @@
       "description2": "Escreva seus próprios scripts ou peça a um assistente de IA para escrevê-los para você usando a referência da API de scripting.",
       "plans": "A funcionalidade de scripting está disponível em planos pagos.",
       "title": "Atualize para usar scripts",
-      "trial": "A funcionalidade de scripting é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+      "trial": "A funcionalidade de scripting é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito.",
+      "captions": {
+        "1": "Crie as ferramentas que você precisa",
+        "2": "Extraia dados como tabelas ou arquivos",
+        "3": "Veja os resultados diretamente no mapa"
+      }
     },
     "run": "Executar",
     "runCancelled": "Execução cancelada",

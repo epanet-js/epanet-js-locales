@@ -314,7 +314,8 @@
     "discardWithunsavedChangesHint": "Anda memiliki perubahan yang belum disimpan. Yakin ingin membuangnya?",
     "keepEditing": "Lanjutkan mengedit",
     "save": "Simpan",
-    "saveWithWarningsHint": "Ada beberapa peringatan validasi."
+    "saveWithWarningsHint": "Ada beberapa peringatan validasi.",
+    "saveChanges": "Simpan perubahan"
   },
   "diameter": "Diameter",
   "diameterBased": "Melingkar",
@@ -2069,7 +2070,6 @@
   "openProjectFailure.tooNewDetail": "File ini dibuat oleh versi aplikasi yang lebih baru. Harap perbarui untuk membukanya.",
   "openProjectFailure.unexpectedDetail": "Terjadi kesalahan saat membuka file.",
   "openProjectFailure.versions": "Versi file {{1}}, versi aplikasi {{2}}.",
-  "alertExportInpDetailWithScenarios": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti skenario, titik pelanggan, bidang aset kustom, set pilihan, bookmark, dan kontrol asli.",
   "alertExportInpDetail": "Format EPANET INP tidak mendukung semua fitur epanet-js, seperti titik pelanggan, bidang aset kustom, set pilihan, bookmark, dan kontrol asli.",
   "openProjectProgress.readingScenarios": "Membaca skenario...",
   "statusClosed": "Tertutup",
@@ -2077,9 +2077,6 @@
   "export.currentScenarioAsProject": "Skenario sebagai proyek",
   "alertExportInpLsxVariableSpeedPumps": "Pompa kecepatan variabel",
   "dbUnavailable.scenariosDescription": "Terjadi kesalahan dan proyek ini tidak dapat disimpan lagi, termasuk skenarionya. Muat ulang halaman dan buka kembali file proyek terakhir Anda yang disimpan untuk melanjutkan — perubahan apa pun sejak terakhir Anda menyimpan akan hilang.",
-  "alertExportInpScenarioDetail": "Format EPANET INP tidak mendukung skenario. Skenario aktif \"{{1}}\" tidak akan diekspor; cabang Utama akan diekspor sebagai gantinya.",
-  "alertExportInpScenarioHint": "Untuk mengekspor skenario ini sebagai proyek baru, gunakan Berkas > Ekspor > Skenario Saat Ini sebagai Proyek.",
-  "alertExportInpScenarioTitle": "Skenario tidak akan diekspor",
   "exportTimeSeries.simulationFailed": "Jalannya simulasi terakhir tidak berhasil, jadi tidak ada hasil yang dapat diekspor. Tinjau laporan simulasi, perbaiki masalahnya, dan jalankan lagi.",
   "export.currentScenarioAsEpanetInp": "Skenario sebagai EPANET INP",
   "scripting": {
@@ -2108,7 +2105,12 @@
       "description2": "Tulis sendiri atau minta asisten AI untuk menuliskannya untuk Anda menggunakan referensi API skrip.",
       "plans": "Skrip tersedia di paket berbayar.",
       "title": "Tingkatkan untuk menggunakan skrip",
-      "trial": "Skrip adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+      "trial": "Skrip adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan.",
+      "captions": {
+        "1": "Buat alat yang Anda lewatkan",
+        "2": "Ekstrak data sebagai tabel atau file",
+        "3": "Lihat hasil langsung di peta"
+      }
     },
     "run": "Jalankan",
     "runCancelled": "Jalankan dibatalkan",

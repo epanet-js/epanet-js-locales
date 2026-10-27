@@ -11,7 +11,6 @@
       "selectedCount_one": "{{count}} terpilih",
       "selectedCount_other": "{{count}} terpilih"
     },
-    "backToFileUpload": "Pengunggahan file",
     "layers": "Lapisan",
     "mappingColumnTitle": "Pemetaan atribut",
     "buildAnyway": "Bangun saja",
@@ -101,17 +100,14 @@
     "zones": "Zona"
   },
   "fileDropzone": {
-    "assignToElement": "Tetapkan ke elemen...",
     "parsing": "Mengurai...",
     "processing": "Memproses...",
     "selectFiles": "Pilih file",
-    "unknownFilename": "(nama file tidak dikenal)",
     "supportedFiles": "Mendukung {{1}}",
     "titleAction": "Seret file di sini, atau jelajahi untuk mengunggah",
     "addShp": "Tambah file .shp",
     "addSource": "Tambah sumber data",
     "applyProjection": "Terapkan proyeksi",
-    "assignTo": "Tetapkan ke",
     "attributesRecommended": "Tambahkan .dbf untuk atribut",
     "changeProjection": "Ubah proyeksi",
     "dataSources": "Sumber data",
@@ -154,11 +150,6 @@
       "unknown": "Geometri tidak dikenal"
     },
     "geometryUnsupported": "Geometri tidak didukung",
-    "assignGeometry": {
-      "line": "Tetapkan garis ke",
-      "point": "Tetapkan titik ke",
-      "polygon": "Tetapkan poligon ke"
-    },
     "applyCoordinateAttributes": "Terapkan atribut",
     "changeCoordinateAttributes": "Ubah atribut koordinat",
     "coordinateAttribute": {
@@ -172,7 +163,6 @@
       "shapefile": "Shapefile",
       "zip": "arsip ZIP"
     },
-    "geometryCount": "{{1}} {{2}}",
     "showUpdatedFiles": "Tampilkan file yang diperbarui",
     "updatedSourcesCount_one": "{{count}} sumber diperbarui dengan file baru",
     "updatedSourcesCount_other": "{{count}} sumber diperbarui dengan file baru",
@@ -192,12 +182,8 @@
     "mld": "MLD (Megaliter/hari)"
   },
   "map": {
-    "elementsAssigned_one": "{{count}} elemen ditetapkan",
-    "elementsAssigned_other": "{{count}} elemen ditetapkan",
     "mapboxHint": "Tambahkan token Mapbox Anda untuk melihat peta sebenarnya",
     "mapboxPlaceholder": "Placeholder peta - Token Mapbox diperlukan",
-    "networkPreview": "Pratinjau jaringan",
-    "previewSampled": "Pratinjau menampilkan sampel fitur. Setiap catatan tetap diimpor.",
     "allSources": "Semua sumber",
     "legend": "Legenda peta",
     "notAssigned": "Tidak ditetapkan",
@@ -221,14 +207,16 @@
     "unitSystem": "Sistem satuan",
     "unitSystemMetric": "Metrik SI",
     "unitSystemUs": "Adat AS",
-    "nextToFileUpload": "Pengunggahan file"
+    "nextToFileUpload": "Pengunggahan file",
+    "create": "Buat",
+    "name": "Nama",
+    "needHelp": "Butuh bantuan?",
+    "newBuild": "Pembangunan baru",
+    "readGuide": "Baca panduan",
+    "watchTutorial": "Tonton tutorial"
   },
   "projection": {
-    "searchPlaceholder": "Cari proyeksi...",
-    "loading": "Memuat proyeksi...",
-    "noResults": "Tidak ada proyeksi ditemukan.",
-    "searchHint": "Mulai mengetik untuk mencari proyeksi Anda, misalnya `27700` atau \"British National Grid\".",
-    "selectPlaceholder": "Pilih proyeksi..."
+    "searchPlaceholder": "Cari proyeksi..."
   },
   "wizardActions": {
     "back": "Kembali",
@@ -256,13 +244,6 @@
   "search": "Cari…",
   "zonesPreview": {
     "polygons": "Poligon"
-  },
-  "dataAssignment": {
-    "backToIntro": "Pendahuluan",
-    "nextToAttributeMapping": "Pemetaan atribut",
-    "continueAnyway": "Lanjutkan saja",
-    "keepEditing": "Lanjutkan mengedit",
-    "unassignedWarning": "Tidak ada tipe elemen yang ditetapkan untuk {{1}}, jadi mereka tidak akan disertakan dalam model."
   },
   "unsupportedBrowser": {
     "description": "Pembangun model memerlukan Web Worker, yang tidak didukung atau dimatikan oleh browser ini. Gunakan Chrome, Edge, Firefox atau Safari versi terbaru.",

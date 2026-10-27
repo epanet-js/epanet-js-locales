@@ -1190,7 +1190,8 @@
     "discardWithunsavedChangesHint": "未保存の変更があります。破棄してもよろしいですか？",
     "keepEditing": "編集を続ける",
     "save": "保存",
-    "saveWithWarningsHint": "検証の警告がいくつかあります。"
+    "saveWithWarningsHint": "検証の警告がいくつかあります。",
+    "saveChanges": "変更を保存"
   },
   "headlossCurve": "損失水頭曲線",
   "valveCurve": "曲線",
@@ -2069,7 +2070,6 @@
   "openProjectFailure.tooNewDetail": "このファイルは、新しいバージョンのアプリで作成されました。開くには更新してください。",
   "openProjectFailure.unexpectedDetail": "ファイルを開く際に問題が発生しました。",
   "openProjectFailure.versions": "ファイルバージョン{{1}}、アプリバージョン{{2}}。",
-  "alertExportInpDetailWithScenarios": "EPANET INP形式は、シナリオ、顧客ポイント、カスタム資産フィールド、選択セット、ブックマーク、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
   "alertExportInpDetail": "EPANET INP形式は、顧客ポイント、カスタム資産フィールド、選択セット、ブックマーク、ネイティブコントロールなど、epanet-jsのすべての機能をサポートしていません。",
   "openProjectProgress.readingScenarios": "シナリオを読み込み中...",
   "statusClosed": "閉",
@@ -2077,9 +2077,6 @@
   "export.currentScenarioAsProject": "シナリオをプロジェクトとして",
   "alertExportInpLsxVariableSpeedPumps": "可変速ポンプ",
   "dbUnavailable.scenariosDescription": "問題が発生し、このプロジェクト（シナリオを含む）は保存できなくなりました。ページをリロードして、最後に保存したプロジェクトファイルを再度開いて続行してください — 最後に保存してからの変更はすべて失われます。",
-  "alertExportInpScenarioDetail": "EPANET INP形式はシナリオをサポートしていません。アクティブなシナリオ「{{1}}」はエクスポートされず、代わりにメインブランチがエクスポートされます。",
-  "alertExportInpScenarioHint": "このシナリオを新しいプロジェクトとしてエクスポートするには、「ファイル」>「エクスポート」>「現在のシナリオをプロジェクトとして」を使用します。",
-  "alertExportInpScenarioTitle": "シナリオはエクスポートされません",
   "exportTimeSeries.simulationFailed": "前回のシミュレーション実行は失敗しました。そのため、エクスポートする結果はありません。シミュレーションレポートを確認し、問題を修正してもう一度実行してください。",
   "export.currentScenarioAsEpanetInp": "シナリオをEPANET INPとして",
   "scripting": {
@@ -2108,7 +2105,12 @@
       "description2": "スクリプトAPIリファレンスを使用して、自分で記述するか、AIアシスタントに記述を依頼できます。",
       "plans": "スクリプトは有料プランで利用できます。",
       "title": "スクリプトを使用するにはアップグレードしてください",
-      "trial": "スクリプトは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+      "trial": "スクリプトは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。",
+      "captions": {
+        "1": "不足しているツールを構築する",
+        "2": "データをテーブルまたはファイルとして抽出",
+        "3": "結果をマップ上で直接確認する"
+      }
     },
     "run": "実行",
     "runCancelled": "実行がキャンセルされました",
