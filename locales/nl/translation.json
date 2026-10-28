@@ -1976,7 +1976,9 @@
       "nodeElevationUnresolved_one": "1 knooppunt heeft geen hoogte, omdat de terreindienst er geen had",
       "nodeElevationUnresolved_other": "{{count}} knooppunten hebben geen hoogte, omdat de terreindienst er geen had",
       "selectionSetMembersUnreadable_one": "1 selectieset verwijst naar een niet gevonden onderdeel in het model, dus deze is niet geïmporteerd",
-      "selectionSetMembersUnreadable_other": "{{count}} selectiesets verwijzen naar niet gevonden onderdelen in het model, dus deze zijn niet geïmporteerd"
+      "selectionSetMembersUnreadable_other": "{{count}} selectiesets verwijzen naar niet gevonden onderdelen in het model, dus deze zijn niet geïmporteerd",
+      "pumpSpeedControlUnsupported_one": "1 pomp varieert zijn snelheid om een doel te behouden dat niet kon worden geïmporteerd, dus behoudt het zijn opgegeven snelheid",
+      "pumpSpeedControlUnsupported_other": "{{count}} pompen variëren hun snelheid om doelen te behouden die niet konden worden geïmporteerd, dus behouden ze hun opgegeven snelheid"
     },
     "paywall": {
       "captions": {

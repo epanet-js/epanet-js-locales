@@ -167,7 +167,8 @@
     "updatedSourcesCount_one": "{{count}} sumber diperbarui dengan file baru",
     "updatedSourcesCount_other": "{{count}} sumber diperbarui dengan file baru",
     "updatedSourcesTitle": "File sudah ditambahkan",
-    "sourcesList": "Sumber data"
+    "sourcesList": "Sumber data",
+    "notAddedYet": "Belum ditambahkan"
   },
   "flowUnits": {
     "afd": "AFD (kaki-are/hari)",
@@ -213,7 +214,12 @@
     "needHelp": "Butuh bantuan?",
     "newBuild": "Pembangunan baru",
     "readGuide": "Baca panduan",
-    "watchTutorial": "Tonton tutorial"
+    "watchTutorial": "Tonton tutorial",
+    "files": "File",
+    "recentBuilds": "Pembangunan terbaru",
+    "removeBuild": "Hapus pembangunan",
+    "unfinished": "Belum selesai",
+    "untitledBuild": "Pembangunan tanpa judul"
   },
   "projection": {
     "searchPlaceholder": "Cari proyeksi..."
@@ -255,7 +261,9 @@
     "keepEditing": "Lanjutkan mengedit",
     "nextToLayerAssignment": "Penugasan lapisan",
     "unplacedWarning_one": "{{1}} belum ditempatkan, jadi tidak akan disertakan dalam model.",
-    "unplacedWarning_other": "{{1}} belum ditempatkan, jadi tidak akan disertakan dalam model."
+    "unplacedWarning_other": "{{1}} belum ditempatkan, jadi tidak akan disertakan dalam model.",
+    "missingWarning_one": "File hilang: {{1}}",
+    "missingWarning_other": "File-file hilang: {{1}}"
   },
   "layerAssignment": {
     "addCondition": "Tambah kondisi",

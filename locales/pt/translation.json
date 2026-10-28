@@ -1976,7 +1976,9 @@
       "nodeElevationUnresolved_one": "1 nó não tem elevação, porque o serviço de terreno não tinha nenhum para ele",
       "nodeElevationUnresolved_other": "{{count}} nós não têm elevação, porque o serviço de terreno não tinha nenhum para eles",
       "selectionSetMembersUnreadable_one": "1 Conjunto de seleção faz referência a um ativo não encontrado no modelo, então não foi importado",
-      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de seleção fazem referência a ativos não encontrados no modelo, então não foram importados"
+      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de seleção fazem referência a ativos não encontrados no modelo, então não foram importados",
+      "pumpSpeedControlUnsupported_one": "1 Bomba varia sua velocidade para manter um alvo que não pôde ser importado, então ela mantém sua velocidade declarada",
+      "pumpSpeedControlUnsupported_other": "{{count}} Bombas variam sua velocidade para manter alvos que não puderam ser importados, então elas mantêm suas velocidades declaradas"
     },
     "paywall": {
       "captions": {

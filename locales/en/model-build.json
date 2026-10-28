@@ -23,6 +23,11 @@
     "name": "Name",
     "create": "Create",
     "newBuild": "New build",
+    "recentBuilds": "Recent builds",
+    "untitledBuild": "Untitled build",
+    "unfinished": "Unfinished",
+    "removeBuild": "Remove build",
+    "files": "Files",
     "needHelp": "Need help?",
     "watchTutorial": "Watch the tutorial",
     "readGuide": "Read the guide"
@@ -32,6 +37,8 @@
     "nextToLayerAssignment": "Layer assignment",
     "unplacedWarning_one": "{{1}} isn't placed yet, so it won't be included in the model.",
     "unplacedWarning_other": "{{1}} aren't placed yet, so they won't be included in the model.",
+    "missingWarning_one": "Missing file: {{1}}",
+    "missingWarning_other": "Missing files: {{1}}",
     "continueAnyway": "Continue anyway",
     "keepEditing": "Keep editing"
   },
@@ -188,6 +195,7 @@
     "selectFiles": "Select files",
     "changeProjection": "Change projection",
     "removeSource": "Remove source",
+    "notAddedYet": "Not added yet",
     "dataSources": "Data sources",
     "addSource": "Add data source",
     "fileOptions": "File options",

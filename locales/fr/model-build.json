@@ -167,7 +167,8 @@
     "updatedSourcesCount_one": "{{count}} source mise à jour avec le nouveau fichier",
     "updatedSourcesCount_other": "{{count}} sources mises à jour avec les nouveaux fichiers",
     "updatedSourcesTitle": "Fichiers déjà ajoutés",
-    "sourcesList": "Sources de données"
+    "sourcesList": "Sources de données",
+    "notAddedYet": "Pas encore ajouté"
   },
   "flowUnits": {
     "afd": "AFD (pied-acre/jour)",
@@ -213,7 +214,12 @@
     "needHelp": "Besoin d'aide ?",
     "newBuild": "Nouvelle construction",
     "readGuide": "Lire le guide",
-    "watchTutorial": "Regarder le tutoriel"
+    "watchTutorial": "Regarder le tutoriel",
+    "files": "Fichiers",
+    "recentBuilds": "Constructions récentes",
+    "removeBuild": "Supprimer la construction",
+    "unfinished": "Inachevé",
+    "untitledBuild": "Construction sans titre"
   },
   "projection": {
     "searchPlaceholder": "Rechercher une projection..."
@@ -255,7 +261,9 @@
     "keepEditing": "Continuer l'édition",
     "nextToLayerAssignment": "Attribution des couches",
     "unplacedWarning_one": "{{1}} n'est pas encore placé, il ne sera donc pas inclus dans le modèle.",
-    "unplacedWarning_other": "{{1}} ne sont pas encore placés, ils ne seront donc pas inclus dans le modèle."
+    "unplacedWarning_other": "{{1}} ne sont pas encore placés, ils ne seront donc pas inclus dans le modèle.",
+    "missingWarning_one": "Fichier manquant : {{1}}",
+    "missingWarning_other": "Fichiers manquants : {{1}}"
   },
   "layerAssignment": {
     "addCondition": "Ajouter une condition",

@@ -1976,7 +1976,9 @@
       "nodeElevationUnresolved_one": "1 つのノードには標高がなかったため、地形サービスから取得できませんでした",
       "nodeElevationUnresolved_other": "{{count}} 個のノードには標高がなかったため、地形サービスから取得できませんでした",
       "selectionSetMembersUnreadable_one": "選択セット 1 件がモデル内に見つからないアセットを参照していたため、インポートされませんでした",
-      "selectionSetMembersUnreadable_other": "選択セット {{count}} 件がモデル内に見つからないアセットを参照していたため、インポートされませんでした"
+      "selectionSetMembersUnreadable_other": "選択セット {{count}} 件がモデル内に見つからないアセットを参照していたため、インポートされませんでした",
+      "pumpSpeedControlUnsupported_one": "1つのポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します",
+      "pumpSpeedControlUnsupported_other": "{{count}}個のポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します"
     },
     "paywall": {
       "captions": {

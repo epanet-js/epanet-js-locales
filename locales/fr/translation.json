@@ -1976,7 +1976,9 @@
       "nodeElevationUnresolved_one": "1 nœud n'a pas d'élévation, car le service de terrain n'en avait pas pour lui",
       "nodeElevationUnresolved_other": "{{count}} nœuds n'ont pas d'élévation, car le service de terrain n'en avait pas pour eux",
       "selectionSetMembersUnreadable_one": "1 ensemble de sélection référence un élément introuvable dans le modèle, il n'a donc pas été importé",
-      "selectionSetMembersUnreadable_other": "{{count}} ensembles de sélection référencent des éléments introuvables dans le modèle, ils n'ont donc pas été importés"
+      "selectionSetMembersUnreadable_other": "{{count}} ensembles de sélection référencent des éléments introuvables dans le modèle, ils n'ont donc pas été importés",
+      "pumpSpeedControlUnsupported_one": "1 Pompe varie sa vitesse pour maintenir une cible qui n'a pas pu être importée, elle conserve donc sa vitesse déclarée",
+      "pumpSpeedControlUnsupported_other": "{{count}} Pompes varient leur vitesse pour maintenir des cibles qui n'ont pas pu être importées, elles conservent donc leur vitesse déclarée"
     },
     "paywall": {
       "captions": {

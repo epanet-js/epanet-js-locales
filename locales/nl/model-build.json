@@ -167,7 +167,8 @@
     "updatedSourcesCount_one": "{{count}} bron bijgewerkt met het nieuwe bestand",
     "updatedSourcesCount_other": "{{count}} bronnen bijgewerkt met de nieuwe bestanden",
     "updatedSourcesTitle": "Bestanden al toegevoegd",
-    "sourcesList": "Gegevensbronnen"
+    "sourcesList": "Gegevensbronnen",
+    "notAddedYet": "Nog niet toegevoegd"
   },
   "flowUnits": {
     "afd": "AFD (acre-voet/dag)",
@@ -213,7 +214,12 @@
     "needHelp": "Hulp nodig?",
     "newBuild": "Nieuwe build",
     "readGuide": "Lees de handleiding",
-    "watchTutorial": "Bekijk de handleiding"
+    "watchTutorial": "Bekijk de handleiding",
+    "files": "Bestanden",
+    "recentBuilds": "Recente projecten",
+    "removeBuild": "Project verwijderen",
+    "unfinished": "Niet voltooid",
+    "untitledBuild": "Naamloos project"
   },
   "projection": {
     "searchPlaceholder": "Zoeken naar projectie..."
@@ -255,7 +261,9 @@
     "keepEditing": "Blijven bewerken",
     "nextToLayerAssignment": "Laagtoewijzing",
     "unplacedWarning_one": "{{1}} is nog niet geplaatst, dus het wordt niet opgenomen in het model.",
-    "unplacedWarning_other": "{{1}} zijn nog niet geplaatst, dus ze worden niet opgenomen in het model."
+    "unplacedWarning_other": "{{1}} zijn nog niet geplaatst, dus ze worden niet opgenomen in het model.",
+    "missingWarning_one": "Ontbrekend bestand: {{1}}",
+    "missingWarning_other": "Ontbrekende bestanden: {{1}}"
   },
   "layerAssignment": {
     "addCondition": "Conditie toevoegen",

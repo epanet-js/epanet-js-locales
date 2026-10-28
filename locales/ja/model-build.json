@@ -167,7 +167,8 @@
     "updatedSourcesCount_one": "{{count}}件のソースが新しいファイルで更新されました",
     "updatedSourcesCount_other": "{{count}}件のソースが新しいファイルで更新されました",
     "updatedSourcesTitle": "ファイルはすでに追加されています",
-    "sourcesList": "データソース"
+    "sourcesList": "データソース",
+    "notAddedYet": "まだ追加されていません"
   },
   "flowUnits": {
     "afd": "AFD (ac-foot/日)",
@@ -213,7 +214,12 @@
     "needHelp": "ヘルプが必要ですか？",
     "newBuild": "新規構築",
     "readGuide": "ガイドを読む",
-    "watchTutorial": "チュートリアルを見る"
+    "watchTutorial": "チュートリアルを見る",
+    "files": "ファイル",
+    "recentBuilds": "最近のビルド",
+    "removeBuild": "ビルドを削除",
+    "unfinished": "未完了",
+    "untitledBuild": "無題のビルド"
   },
   "projection": {
     "searchPlaceholder": "投影を検索..."
@@ -255,7 +261,9 @@
     "keepEditing": "編集を続ける",
     "nextToLayerAssignment": "レイヤー割り当て",
     "unplacedWarning_one": "{{1}}はまだ配置されていないため、モデルには含まれません。",
-    "unplacedWarning_other": "{{1}}はまだ配置されていないため、モデルには含まれません。"
+    "unplacedWarning_other": "{{1}}はまだ配置されていないため、モデルには含まれません。",
+    "missingWarning_one": "ファイルが見つかりません: {{1}}",
+    "missingWarning_other": "ファイルが見つかりません: {{1}}"
   },
   "layerAssignment": {
     "addCondition": "条件を追加",

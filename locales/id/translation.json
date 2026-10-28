@@ -1976,7 +1976,9 @@
       "nodeElevationUnresolved_one": "1 node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuknya",
       "nodeElevationUnresolved_other": "{{count}} node tidak memiliki elevasi, karena layanan medan tidak memiliki elevasi untuk mereka",
       "selectionSetMembersUnreadable_one": "1 Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor",
-      "selectionSetMembersUnreadable_other": "{{count}} Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor"
+      "selectionSetMembersUnreadable_other": "{{count}} Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor",
+      "pumpSpeedControlUnsupported_one": "1 Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan",
+      "pumpSpeedControlUnsupported_other": "{{count}} Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan"
     },
     "paywall": {
       "captions": {

@@ -1983,7 +1983,9 @@
       "nodeElevationUnresolved_one": "1 nudo no tiene elevación, porque el servicio de terreno no tenía datos para él",
       "nodeElevationUnresolved_other": "{{count}} nudos no tienen elevación, porque el servicio de terreno no tenía datos para ellos",
       "selectionSetMembersUnreadable_one": "1 Conjunto de selección hace referencia a un activo no encontrado en el modelo, por lo que no fue importado",
-      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de selección hacen referencia a activos no encontrados en el modelo, por lo que no fueron importados"
+      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de selección hacen referencia a activos no encontrados en el modelo, por lo que no fueron importados",
+      "pumpSpeedControlUnsupported_one": "1 Bomba varía su velocidad para mantener un objetivo que no pudo importarse, por lo que mantiene su velocidad indicada",
+      "pumpSpeedControlUnsupported_other": "{{count}} Bombas varían su velocidad para mantener objetivos que no pudieron importarse, por lo que mantienen su velocidad indicada"
     },
     "paywall": {
       "captions": {
