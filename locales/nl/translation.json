@@ -2120,7 +2120,19 @@
     "runScript": "{{1}} uitvoeren",
     "scriptName": "Scriptnaam",
     "unsavedChanges": "U heeft niet-opgeslagen wijzigingen. Weet u zeker dat u deze wilt verwijderen?",
-    "untitled": "Naamloos script"
+    "untitled": "Naamloos script",
+    "exampleNames": {
+      "count-by-custom-attribute": "Tellen per aangepast attribuut",
+      "expand-selection": "Selectie uitbreiden met één stap",
+      "export-pipes-csv": "Leidingen exporteren naar CSV",
+      "network-review": "Netwerkcontrole rapport",
+      "pattern-and-curve-usage": "Patroon- en curvegebruik",
+      "pipe-length-by-diameter": "Leidinglengte per diameter",
+      "select-small-pipes": "Kleine leidingen selecteren",
+      "trace-zone": "Traceer de zone rond de selectie",
+      "water-source": "Waar krijgt dit knooppunt zijn water vandaan?",
+      "zone-summary": "Elke zone samenvatten"
+    }
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

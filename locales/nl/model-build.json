@@ -106,7 +106,7 @@
     "supportedFiles": "Ondersteunt {{1}}",
     "titleAction": "Sleep bestanden hierheen, of blader om te uploaden",
     "addShp": "Voeg het .shp-bestand toe",
-    "addSource": "Gegevensbron toevoegen",
+    "addSource": "Toevoegen",
     "applyProjection": "Projectie toepassen",
     "attributesRecommended": "Voeg een .dbf toe voor attributen",
     "changeProjection": "Projectie wijzigen",
@@ -215,11 +215,11 @@
     "newBuild": "Nieuwe build",
     "readGuide": "Lees de handleiding",
     "watchTutorial": "Bekijk de handleiding",
-    "files": "Bestanden",
     "recentBuilds": "Recente projecten",
     "removeBuild": "Project verwijderen",
     "unfinished": "Niet voltooid",
-    "untitledBuild": "Naamloos project"
+    "untitledBuild": "Naamloos project",
+    "expectedFiles": "Verwachte bestanden"
   },
   "projection": {
     "searchPlaceholder": "Zoeken naar projectie..."
@@ -349,5 +349,11 @@
     "searchValues": "Waarden zoeken",
     "selectGroup": "Selecteer een groep uit de lijst om de laag ervan te kiezen."
   },
-  "searching": "Zoeken…"
+  "searching": "Zoeken…",
+  "header": {
+    "close": "Sluiten",
+    "finishLater": "Later voltooien",
+    "title": "Modelbouw"
+  },
+  "resizeColumn": "Kolomgrootte wijzigen"
 }

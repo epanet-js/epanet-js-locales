@@ -2120,7 +2120,19 @@
     "runScript": "{{1}} を実行",
     "scriptName": "スクリプト名",
     "unsavedChanges": "未保存の変更があります。破棄してもよろしいですか？",
-    "untitled": "無題のスクリプト"
+    "untitled": "無題のスクリプト",
+    "exampleNames": {
+      "count-by-custom-attribute": "カスタム属性でカウント",
+      "expand-selection": "1ホップで選択範囲を拡大",
+      "export-pipes-csv": "管をCSVにエクスポート",
+      "network-review": "管網レビューレポート",
+      "pattern-and-curve-usage": "パターンと曲線の使用状況",
+      "pipe-length-by-diameter": "直径別の管の長さ",
+      "select-small-pipes": "小径管を選択",
+      "trace-zone": "選択範囲の周囲のゾーンをトレース",
+      "water-source": "このノードはどこから水を得ていますか？",
+      "zone-summary": "各ゾーンを要約"
+    }
   },
   "scriptingItem": "スクリプト",
   "pricingPlans": {

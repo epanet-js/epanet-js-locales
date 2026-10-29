@@ -2120,7 +2120,19 @@
     "runScript": "Exécuter {{1}}",
     "scriptName": "Nom du script",
     "unsavedChanges": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les ignorer ?",
-    "untitled": "Script sans titre"
+    "untitled": "Script sans titre",
+    "exampleNames": {
+      "count-by-custom-attribute": "Compter par attribut personnalisé",
+      "expand-selection": "Étendre la sélection d'un saut",
+      "export-pipes-csv": "Exporter les conduites en CSV",
+      "network-review": "Rapport d'examen du réseau",
+      "pattern-and-curve-usage": "Utilisation des motifs et des courbes",
+      "pipe-length-by-diameter": "Longueur des conduites par diamètre",
+      "select-small-pipes": "Sélectionner les petites conduites",
+      "trace-zone": "Tracer la zone autour de la sélection",
+      "water-source": "D'où ce nœud tire-t-il son eau ?",
+      "zone-summary": "Récapituler chaque zone"
+    }
   },
   "scriptingItem": "Scriptage",
   "pricingPlans": {

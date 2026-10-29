@@ -3,6 +3,12 @@
   "addNewValue": "Add \"{{1}}\"",
   "noResults": "No results",
   "searching": "Searching…",
+  "header": {
+    "title": "Model build",
+    "close": "Close",
+    "finishLater": "Finish later"
+  },
+  "resizeColumn": "Resize column",
   "modelSettings": {
     "title": "Model settings",
     "nextToFileUpload": "File upload",
@@ -27,7 +33,7 @@
     "untitledBuild": "Untitled build",
     "unfinished": "Unfinished",
     "removeBuild": "Remove build",
-    "files": "Files",
+    "expectedFiles": "Expected files",
     "needHelp": "Need help?",
     "watchTutorial": "Watch the tutorial",
     "readGuide": "Read the guide"
@@ -197,7 +203,7 @@
     "removeSource": "Remove source",
     "notAddedYet": "Not added yet",
     "dataSources": "Data sources",
-    "addSource": "Add data source",
+    "addSource": "Add",
     "fileOptions": "File options",
     "applyProjection": "Apply projection",
     "dismiss": "Dismiss",

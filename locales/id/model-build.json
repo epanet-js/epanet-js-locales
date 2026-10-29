@@ -106,7 +106,7 @@
     "supportedFiles": "Mendukung {{1}}",
     "titleAction": "Seret file di sini, atau jelajahi untuk mengunggah",
     "addShp": "Tambah file .shp",
-    "addSource": "Tambah sumber data",
+    "addSource": "Tambah",
     "applyProjection": "Terapkan proyeksi",
     "attributesRecommended": "Tambahkan .dbf untuk atribut",
     "changeProjection": "Ubah proyeksi",
@@ -215,11 +215,11 @@
     "newBuild": "Pembangunan baru",
     "readGuide": "Baca panduan",
     "watchTutorial": "Tonton tutorial",
-    "files": "File",
     "recentBuilds": "Pembangunan terbaru",
     "removeBuild": "Hapus pembangunan",
     "unfinished": "Belum selesai",
-    "untitledBuild": "Pembangunan tanpa judul"
+    "untitledBuild": "Pembangunan tanpa judul",
+    "expectedFiles": "File yang diharapkan"
   },
   "projection": {
     "searchPlaceholder": "Cari proyeksi..."
@@ -349,5 +349,11 @@
     "searchValues": "Cari nilai",
     "selectGroup": "Pilih grup dari daftar untuk memilih lapisannya."
   },
-  "searching": "Mencari…"
+  "searching": "Mencari…",
+  "header": {
+    "close": "Tutup",
+    "finishLater": "Selesaikan nanti",
+    "title": "Pembangunan model"
+  },
+  "resizeColumn": "Ubah ukuran kolom"
 }

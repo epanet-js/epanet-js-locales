@@ -106,7 +106,7 @@
     "supportedFiles": "Supporte {{1}}",
     "titleAction": "Déposez les fichiers ici, ou parcourez pour les charger",
     "addShp": "Ajouter le fichier .shp",
-    "addSource": "Ajouter une source de données",
+    "addSource": "Ajouter",
     "applyProjection": "Appliquer la projection",
     "attributesRecommended": "Ajouter un .dbf pour les attributs",
     "changeProjection": "Changer la projection",
@@ -215,11 +215,11 @@
     "newBuild": "Nouvelle construction",
     "readGuide": "Lire le guide",
     "watchTutorial": "Regarder le tutoriel",
-    "files": "Fichiers",
     "recentBuilds": "Constructions récentes",
     "removeBuild": "Supprimer la construction",
     "unfinished": "Inachevé",
-    "untitledBuild": "Construction sans titre"
+    "untitledBuild": "Construction sans titre",
+    "expectedFiles": "Fichiers attendus"
   },
   "projection": {
     "searchPlaceholder": "Rechercher une projection..."
@@ -349,5 +349,11 @@
     "searchValues": "Rechercher des valeurs",
     "selectGroup": "Sélectionnez un groupe dans la liste pour choisir sa couche."
   },
-  "searching": "Recherche…"
+  "searching": "Recherche…",
+  "header": {
+    "close": "Fermer",
+    "finishLater": "Terminer plus tard",
+    "title": "Construction du modèle"
+  },
+  "resizeColumn": "Redimensionner la colonne"
 }

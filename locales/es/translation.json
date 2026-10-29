@@ -2127,7 +2127,19 @@
     "runScript": "Ejecutar {{1}}",
     "scriptName": "Nombre del script",
     "unsavedChanges": "Tienes cambios sin guardar. ¿Estás seguro de que quieres descartarlos?",
-    "untitled": "Script sin título"
+    "untitled": "Script sin título",
+    "exampleNames": {
+      "count-by-custom-attribute": "Contar por atributo personalizado",
+      "expand-selection": "Expandir selección por un salto",
+      "export-pipes-csv": "Exportar tuberías a CSV",
+      "network-review": "Informe de revisión de red",
+      "pattern-and-curve-usage": "Uso de patrones y curvas",
+      "pipe-length-by-diameter": "Longitud de tubería por diámetro",
+      "select-small-pipes": "Seleccionar tuberías pequeñas",
+      "trace-zone": "Rastrear la zona alrededor de la selección",
+      "water-source": "¿De dónde obtiene este nudo su agua?",
+      "zone-summary": "Resumir cada zona"
+    }
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

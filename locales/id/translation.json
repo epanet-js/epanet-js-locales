@@ -2120,7 +2120,19 @@
     "runScript": "Jalankan {{1}}",
     "scriptName": "Nama skrip",
     "unsavedChanges": "Anda memiliki perubahan yang belum disimpan. Apakah Anda yakin ingin membuangnya?",
-    "untitled": "Skrip tanpa judul"
+    "untitled": "Skrip tanpa judul",
+    "exampleNames": {
+      "count-by-custom-attribute": "Jumlah berdasarkan atribut kustom",
+      "expand-selection": "Perluas seleksi dengan satu hop",
+      "export-pipes-csv": "Ekspor pipa ke CSV",
+      "network-review": "Laporan tinjauan jaringan",
+      "pattern-and-curve-usage": "Penggunaan pola dan kurva",
+      "pipe-length-by-diameter": "Panjang pipa berdasarkan diameter",
+      "select-small-pipes": "Pilih pipa kecil",
+      "trace-zone": "Lacak zona di sekitar seleksi",
+      "water-source": "Dari mana node ini mendapatkan airnya?",
+      "zone-summary": "Ringkas setiap zona"
+    }
   },
   "scriptingItem": "Skrip",
   "pricingPlans": {

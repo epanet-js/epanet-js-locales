@@ -106,7 +106,7 @@
     "supportedFiles": "{{1}}に対応",
     "titleAction": "ファイルをここにドロップするか、クリックして参照",
     "addShp": "「.shpファイルを追加",
-    "addSource": "データソースを追加",
+    "addSource": "追加",
     "applyProjection": "投影を適用",
     "attributesRecommended": "属性用の.dbfを追加",
     "changeProjection": "投影を変更",
@@ -215,11 +215,11 @@
     "newBuild": "新規構築",
     "readGuide": "ガイドを読む",
     "watchTutorial": "チュートリアルを見る",
-    "files": "ファイル",
     "recentBuilds": "最近のビルド",
     "removeBuild": "ビルドを削除",
     "unfinished": "未完了",
-    "untitledBuild": "無題のビルド"
+    "untitledBuild": "無題のビルド",
+    "expectedFiles": "必要なファイル"
   },
   "projection": {
     "searchPlaceholder": "投影を検索..."
@@ -349,5 +349,11 @@
     "searchValues": "値を検索",
     "selectGroup": "リストからグループを選択してレイヤーを選択してください。"
   },
-  "searching": "検索中…"
+  "searching": "検索中…",
+  "header": {
+    "close": "閉じる",
+    "finishLater": "後で完了",
+    "title": "モデル構築"
+  },
+  "resizeColumn": "列のサイズを変更"
 }
