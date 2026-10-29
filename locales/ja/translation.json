@@ -2185,6 +2185,15 @@
       "teamBranching": "チームの分岐とマージ",
       "teamOnboarding": "チームオンボーディングセッション",
       "unlimitedConversions": "無制限のモデル変換"
-    }
+    },
+    "free": {
+      "claim": "永久無料",
+      "engine": "WebベースのEPANET 2.3エンジン",
+      "includes": "含まれるもの",
+      "noLimits": "モデルサイズに制限なし",
+      "runsLocally": "ローカルで実行され、データはマシンに保存されます"
+    },
+    "nonCommercialPlans": "非商用プラン",
+    "seeAllPlans": "すべてのプランと機能を見る"
   }
 }

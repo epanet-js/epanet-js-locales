@@ -2192,6 +2192,15 @@
       "teamBranching": "Ramificación y fusión de equipos",
       "teamOnboarding": "Sesión de incorporación de equipo",
       "unlimitedConversions": "Conversiones de modelo ilimitadas"
-    }
+    },
+    "free": {
+      "claim": "Gratis para siempre",
+      "engine": "Motor EPANET 2.3 basado en web",
+      "includes": "Incluye",
+      "noLimits": "Sin límites en el tamaño del modelo",
+      "runsLocally": "Se ejecuta localmente, tus datos permanecen en tu máquina"
+    },
+    "nonCommercialPlans": "Planes no comerciales",
+    "seeAllPlans": "Ver todos los planes y características"
   }
 }

@@ -2185,6 +2185,15 @@
       "teamBranching": "Percabangan & penggabungan tim",
       "teamOnboarding": "Sesi orientasi tim",
       "unlimitedConversions": "Konversi model tanpa batas"
-    }
+    },
+    "free": {
+      "claim": "Gratis selamanya",
+      "engine": "Mesin EPANET 2.3 berbasis web",
+      "includes": "Termasuk",
+      "noLimits": "Tidak ada batasan ukuran model",
+      "runsLocally": "Berjalan secara lokal, data Anda tetap di mesin Anda"
+    },
+    "nonCommercialPlans": "Paket non-komersial",
+    "seeAllPlans": "Lihat semua paket dan fitur"
   }
 }

@@ -2185,6 +2185,15 @@
       "teamBranching": "Team branching & merging",
       "teamOnboarding": "Team onboarding sessie",
       "unlimitedConversions": "Onbeperkte modelconversies"
-    }
+    },
+    "free": {
+      "claim": "Altijd gratis",
+      "engine": "Webgebaseerde EPANET 2.3 engine",
+      "includes": "Inclusief",
+      "noLimits": "Geen beperkingen op modelgrootte",
+      "runsLocally": "Draait lokaal, uw gegevens blijven op uw machine"
+    },
+    "nonCommercialPlans": "Niet-commerciële abonnementen",
+    "seeAllPlans": "Bekijk alle abonnementen en functies"
   }
 }
