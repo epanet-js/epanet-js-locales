@@ -2158,5 +2158,13 @@
     },
     "nonCommercialPlans": "Plans non commerciaux",
     "seeAllPlans": "Voir tous les plans et fonctionnalités"
+  },
+  "modelBuildAdvanced": {
+    "paywall": {
+      "description": "Transformez des données SIG complexes en modèles complets, et reconstruisez-les chaque fois que vos données changent.",
+      "plans": "Le générateur de modèle avancé est disponible avec les plans Pro ou supérieurs.",
+      "title": "Construire des modèles complets à partir de vos données SIG",
+      "trial": "Le générateur de modèle avancé est disponible avec les plans Pro ou supérieurs. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
+    }
   }
 }

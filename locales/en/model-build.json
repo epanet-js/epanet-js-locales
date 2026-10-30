@@ -4,9 +4,8 @@
   "noResults": "No results",
   "searching": "Searching…",
   "header": {
-    "title": "Model build",
-    "close": "Close",
-    "finishLater": "Finish later"
+    "title": "Model builder",
+    "close": "Close"
   },
   "resizeColumn": "Resize column",
   "modelSettings": {
@@ -50,6 +49,7 @@
     "continueAnyway": "Continue anyway",
     "keepEditing": "Keep editing"
   },
+  "paidFeature": "Paid feature",
   "layerAssignment": {
     "title": "Layer assignment",
     "assignTo": "Assign to",

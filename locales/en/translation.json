@@ -884,6 +884,14 @@
   "scenariosItem": "Scenarios",
   "proModelBuilder": "Pro model builder",
   "modelBuilderInfo": "The new Pro model builder adds pipe year & materials, projection preservation and multiple languages, with custom attributes and null values coming soon. The Legacy builder is kept for maintenance only.",
+  "modelBuildAdvanced": {
+    "paywall": {
+      "title": "Build complete models from your GIS data",
+      "description": "Turn complex GIS data into complete models, and rebuild them whenever your data changes.",
+      "plans": "The advanced model builder is available on Pro plans or higher.",
+      "trial": "The advanced model builder is available on Pro plans or higher. Activate your free trial to get full access for 14 days—no credit card required."
+    }
+  },
   "modelBuilderPaywall": {
     "title": "Choose your model builder",
     "subtitle": "Unlock advanced capabilities for building models in epanet-js from your GIS data.",

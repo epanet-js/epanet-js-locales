@@ -2158,5 +2158,13 @@
     },
     "nonCommercialPlans": "Niet-commerciële abonnementen",
     "seeAllPlans": "Bekijk alle abonnementen en functies"
+  },
+  "modelBuildAdvanced": {
+    "paywall": {
+      "description": "Zet complexe GIS-gegevens om in complete modellen en herbouw ze wanneer uw gegevens veranderen.",
+      "plans": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger.",
+      "title": "Bouw complete modellen met uw GIS-gegevens",
+      "trial": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    }
   }
 }

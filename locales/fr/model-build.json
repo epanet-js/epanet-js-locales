@@ -354,8 +354,8 @@
   "searching": "Recherche…",
   "header": {
     "close": "Fermer",
-    "finishLater": "Terminer plus tard",
     "title": "Construction du modèle"
   },
-  "resizeColumn": "Redimensionner la colonne"
+  "resizeColumn": "Redimensionner la colonne",
+  "paidFeature": "Fonctionnalité payante"
 }

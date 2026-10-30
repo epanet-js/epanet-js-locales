@@ -354,8 +354,8 @@
   "searching": "Mencari…",
   "header": {
     "close": "Tutup",
-    "finishLater": "Selesaikan nanti",
     "title": "Pembangunan model"
   },
-  "resizeColumn": "Ubah ukuran kolom"
+  "resizeColumn": "Ubah ukuran kolom",
+  "paidFeature": "Fitur berbayar"
 }

@@ -354,8 +354,8 @@
   "searching": "Zoeken…",
   "header": {
     "close": "Sluiten",
-    "finishLater": "Later voltooien",
     "title": "Modelbouw"
   },
-  "resizeColumn": "Kolomgrootte wijzigen"
+  "resizeColumn": "Kolomgrootte wijzigen",
+  "paidFeature": "Betaalde functie"
 }

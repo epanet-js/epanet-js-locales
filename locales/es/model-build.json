@@ -354,8 +354,8 @@
   "searching": "Buscando…",
   "header": {
     "close": "Cerrar",
-    "finishLater": "Terminar más tarde",
-    "title": "Construcción de modelo"
+    "title": "Constructor de modelos"
   },
-  "resizeColumn": "Redimensionar columna"
+  "resizeColumn": "Redimensionar columna",
+  "paidFeature": "Función de pago"
 }

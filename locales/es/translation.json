@@ -2165,5 +2165,13 @@
     },
     "nonCommercialPlans": "Planes no comerciales",
     "seeAllPlans": "Ver todos los planes y características"
+  },
+  "modelBuildAdvanced": {
+    "paywall": {
+      "description": "Convierte datos GIS complejos en modelos completos y reconstrúyelos cada vez que tus datos cambien.",
+      "plans": "El constructor de modelos avanzado está disponible en planes Pro o superiores.",
+      "title": "Crea modelos completos a partir de tus datos GIS",
+      "trial": "El constructor de modelos avanzado está disponible en planes Pro o superiores. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+    }
   }
 }

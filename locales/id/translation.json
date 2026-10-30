@@ -2158,5 +2158,13 @@
     },
     "nonCommercialPlans": "Paket non-komersial",
     "seeAllPlans": "Lihat semua paket dan fitur"
+  },
+  "modelBuildAdvanced": {
+    "paywall": {
+      "description": "Ubah data GIS yang kompleks menjadi model lengkap, dan bangun kembali kapan pun data Anda berubah.",
+      "plans": "Pembangun model lanjutan tersedia di paket Pro atau lebih tinggi.",
+      "title": "Bangun model lengkap dari data GIS Anda",
+      "trial": "Pembangun model lanjutan tersedia di paket Pro atau lebih tinggi. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+    }
   }
 }

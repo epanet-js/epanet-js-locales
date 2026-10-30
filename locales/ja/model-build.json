@@ -354,8 +354,8 @@
   "searching": "検索中…",
   "header": {
     "close": "閉じる",
-    "finishLater": "後で完了",
     "title": "モデル構築"
   },
-  "resizeColumn": "列のサイズを変更"
+  "resizeColumn": "列のサイズを変更",
+  "paidFeature": "有料機能"
 }
