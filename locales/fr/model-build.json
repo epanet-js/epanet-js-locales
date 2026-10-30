@@ -219,7 +219,9 @@
     "removeBuild": "Supprimer la construction",
     "unfinished": "Inachevé",
     "untitledBuild": "Construction sans titre",
-    "expectedFiles": "Fichiers attendus"
+    "expectedFiles": "Fichiers attendus",
+    "illustrationDescription": "Les points, lignes et polygones de vos fichiers deviennent des conduites, des nœuds, des zones et plus encore.",
+    "illustrationTitle": "Transformez les fichiers SIG en un modèle EPANET"
   },
   "projection": {
     "searchPlaceholder": "Rechercher une projection..."

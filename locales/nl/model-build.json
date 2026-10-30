@@ -219,7 +219,9 @@
     "removeBuild": "Project verwijderen",
     "unfinished": "Niet voltooid",
     "untitledBuild": "Naamloos project",
-    "expectedFiles": "Verwachte bestanden"
+    "expectedFiles": "Verwachte bestanden",
+    "illustrationDescription": "Punten, lijnen en polygonen uit uw bestanden worden leidingen, knooppunten, zones en meer.",
+    "illustrationTitle": "GIS-bestanden omzetten in een EPANET-model"
   },
   "projection": {
     "searchPlaceholder": "Zoeken naar projectie..."

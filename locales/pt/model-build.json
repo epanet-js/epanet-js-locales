@@ -219,7 +219,9 @@
     "removeBuild": "Remover compilação",
     "unfinished": "Inacabado",
     "untitledBuild": "Compilação sem título",
-    "expectedFiles": "Arquivos esperados"
+    "expectedFiles": "Arquivos esperados",
+    "illustrationDescription": "Pontos, linhas e polígonos dos seus arquivos se tornam tubulações, nós, zonas e muito mais.",
+    "illustrationTitle": "Transforme arquivos GIS em um modelo EPANET"
   },
   "projection": {
     "searchPlaceholder": "Buscar projeção..."

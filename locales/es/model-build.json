@@ -219,7 +219,9 @@
     "removeBuild": "Eliminar modelo",
     "unfinished": "Incompleto",
     "untitledBuild": "Modelo sin título",
-    "expectedFiles": "Archivos esperados"
+    "expectedFiles": "Archivos esperados",
+    "illustrationDescription": "Puntos, líneas y polígonos de tus archivos se convierten en tuberías, nudos, zonas y más.",
+    "illustrationTitle": "Convierte archivos GIS en un modelo EPANET"
   },
   "projection": {
     "searchPlaceholder": "Buscar proyección..."

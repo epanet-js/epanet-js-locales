@@ -219,7 +219,9 @@
     "removeBuild": "ビルドを削除",
     "unfinished": "未完了",
     "untitledBuild": "無題のビルド",
-    "expectedFiles": "必要なファイル"
+    "expectedFiles": "必要なファイル",
+    "illustrationDescription": "ファイル内のポイント、ライン、ポリゴンが管、接点、ゾーンなどに変換されます。",
+    "illustrationTitle": "GISファイルをEPANETモデルに変換"
   },
   "projection": {
     "searchPlaceholder": "投影を検索..."

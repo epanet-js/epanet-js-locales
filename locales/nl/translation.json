@@ -232,37 +232,18 @@
   "plan.free": "Gratis abonnement",
   "plan.education": "Onderwijs",
   "plan.personal": "Persoonlijk",
-  "for": "Voor",
-  "commercialUse": "Commercieel gebruik",
-  "nonCommercialUse": "Niet-commercieel gebruik",
   "monthly": "Maandelijks",
-  "yearlyWithDiscount": "Jaarlijks - bespaar tot {{1}}%",
-  "studentOrPersonal": "Student of persoonlijk gebruik? Schakel hier!",
   "free.forBetterModelling": "Voor een betere modelervaring",
-  "free.webBasedEpanet": "Webgebaseerd EPANET model",
-  "free.backgroundMap": "Achtergrondkaarten en satelliet",
-  "free.elevations": "Geautomatiseerde hoogtes",
-  "free.noLimits": "Geen beperkingen op grootte",
-  "free.communitySupport": "Community ondersteuning",
   "currentPlan": "Huidig abonnement",
   "everythingAnd": "Alles in {{1}}, en",
   "everythingInForFree": "Alles in {{1}} gratis!",
   "professionalSupport": "Professionele ondersteuning",
-  "customMapLayers": "Aangepaste kaartlagen",
-  "cloudStorage": "Cloud opslag",
-  "pointInTimeRestore": "Point-in-time herstel - {{1}} dagen",
-  "demandsAnalysis": "Vraaganalyse",
   "monthShort": "mnd",
   "year": "jaar",
   "upgradeTo": "Upgraden naar {{1}}",
-  "comingSoon": "Binnenkort beschikbaar",
   "individualNamedLicense": "Individuele benoemde licentie",
   "floatingSharedLicenses": "Zwevende gedeelde licenties",
   "mostPopular": "Meest populair",
-  "minimumTwoLicenses": "Minimaal 2 licenties",
-  "teamStorage": "Team opslag",
-  "prioritySupport": "Prioriteitsondersteuning",
-  "sharingModels": "Modellen delen",
   "volumeDiscounts": "Volumekortingen",
   "tryItYourself": "Probeer het zelf",
   "learnWithEpanetJS": "Leer met epanet-js",
@@ -1267,9 +1248,7 @@
     "setMapProjection": "Kaartprojectie instellen",
     "searchUnavailable": "Zoeken op locatieservice is niet beschikbaar. Probeer het later opnieuw of gebruik een EPSG-code of projectienaam"
   },
-  "baseCost": "Basiskosten",
   "customElevations": "Aangepaste hoogtes",
-  "perUser": "Gebruiker",
   "selfServiceSeatManagement": "Selfservice stoelbeheer",
   "elevations": {
     "addMoreTiles": "Meer tegels toevoegen",
@@ -1338,23 +1317,9 @@
     }
   },
   "paywall": {
-    "commercial": {
-      "cta": "Kies abonnement",
-      "description": "Voor gebruik door consultants en nutsbedrijven in echte projecten.",
-      "title": "Commercieel gebruik"
-    },
     "explorePlans": "Verken abonnementen",
-    "nonCommercial": {
-      "cta": "Persoonlijke licentie - $100/jaar",
-      "description": "Voor leren, het verkennen van de app, of het ondersteunen van het project.",
-      "title": "Niet-commercieel gebruik"
-    },
-    "or": "of",
     "tooltip": "Betaalde functie"
   },
-  "namedLicence": "Individuele benoemde licentie",
-  "upgradeToProFor": "Geavanceerde modellering & scenario's",
-  "upgradeToTeamsFor": "Centrale regie & samenwerking",
   "yearShort": "jr",
   "customLayers": {
     "addCustom": "Aangepast toevoegen",
@@ -1397,7 +1362,6 @@
     "vectorFile": "Vectorbestand",
     "webServices": "Webservices"
   },
-  "free.forEveryone": "Voor iedereen",
   "initialWaterAge": "Initiële waterleeftijd",
   "waterAge": "Waterleeftijd",
   "mixingFraction": "Mengfractie",
@@ -1723,7 +1687,6 @@
   "import": "Importeren",
   "connected": "Verbonden",
   "noResults": "Geen resultaten",
-  "legacyModelBuilder": "Legacy modelbouwer",
   "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud en meerdere talen toe, met aangepaste attributen en null-waarden binnenkort beschikbaar. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
   "proModelBuilder": "Pro modelbouwer",
   "modelBuilderPaywall": {

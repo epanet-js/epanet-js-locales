@@ -232,37 +232,18 @@
   "plan.free": "Plan Gratuit",
   "plan.education": "Éducation",
   "plan.personal": "Personnel",
-  "for": "Pour",
-  "commercialUse": "Usage Commercial",
-  "nonCommercialUse": "Usage Non Commercial",
   "monthly": "Mensuel",
-  "yearlyWithDiscount": "Annuel - économisez jusqu'à {{1}}%",
-  "studentOrPersonal": "Étudiant ou usage personnel ? Basculez ici !",
   "free.forBetterModelling": "Pour une meilleure expérience de modélisation",
-  "free.webBasedEpanet": "Modèle EPANET basé sur le web",
-  "free.backgroundMap": "Cartes de fond et satellite",
-  "free.elevations": "Élévations automatisées",
-  "free.noLimits": "Aucune limite de taille",
-  "free.communitySupport": "Support communautaire",
   "currentPlan": "Plan Actuel",
   "everythingAnd": "Tout ce qui est dans {{1}}, et",
   "everythingInForFree": "Tout ce qui est dans {{1}} gratuitement !",
   "professionalSupport": "Support professionnel",
-  "customMapLayers": "Couches de carte personnalisées",
-  "cloudStorage": "Stockage cloud",
-  "pointInTimeRestore": "Restauration à un moment donné - {{1}} jours",
-  "demandsAnalysis": "Analyse des demandes",
   "monthShort": "mois",
   "year": "année",
   "upgradeTo": "Passer à {{1}}",
-  "comingSoon": "Bientôt Disponible",
   "individualNamedLicense": "Licence nominative individuelle",
   "floatingSharedLicenses": "Licences partagées flottantes",
   "mostPopular": "Le plus populaire",
-  "minimumTwoLicenses": "Minimum 2 licences",
-  "teamStorage": "Stockage d'équipe",
-  "prioritySupport": "Support prioritaire",
-  "sharingModels": "Partage de modèles",
   "volumeDiscounts": "Remises sur volume",
   "tryItYourself": "Essayez-le vous-même",
   "learnWithEpanetJS": "Apprendre avec epanet-js",
@@ -1267,9 +1248,7 @@
     "setMapProjection": "Définir la projection de la carte",
     "searchUnavailable": "Le service de recherche par lieu n'est pas disponible. Réessayez plus tard ou utilisez un code EPSG ou un nom de projection"
   },
-  "baseCost": "Coût de base",
   "customElevations": "Sources d'élévations personnalisées",
-  "perUser": "Utilisateur",
   "selfServiceSeatManagement": "Gestion des licences en libre-service",
   "elevations": {
     "addMoreTiles": "Ajouter plus de tuiles",
@@ -1338,23 +1317,9 @@
     }
   },
   "paywall": {
-    "commercial": {
-      "cta": "Choisir un plan",
-      "description": "Pour une utilisation par des consultants et des services publics dans des projets réels.",
-      "title": "Usage Commercial"
-    },
     "explorePlans": "Explorer les plans",
-    "nonCommercial": {
-      "cta": "Licence personnelle - 100 $/an",
-      "description": "Pour apprendre, explorer l'application ou soutenir le projet.",
-      "title": "Usage Non Commercial"
-    },
-    "or": "ou",
     "tooltip": "Fonctionnalité payante"
   },
-  "namedLicence": "Licence nominative individuelle",
-  "upgradeToProFor": "Modélisation avancée et scénarios",
-  "upgradeToTeamsFor": "Contrôle centralisé et collaboration",
   "yearShort": "an",
   "customLayers": {
     "addCustom": "Ajouter Personnalisé",
@@ -1397,7 +1362,6 @@
     "vectorFile": "Fichier vectoriel",
     "webServices": "Services web"
   },
-  "free.forEveryone": "Pour tout le monde",
   "initialWaterAge": "Âge initial de l'eau",
   "waterAge": "Âge de l'eau",
   "mixingFraction": "Fraction de mélange",
@@ -1723,7 +1687,6 @@
   "import": "Importer",
   "connected": "Connecté",
   "noResults": "Aucun résultat",
-  "legacyModelBuilder": "Générateur de modèle hérité",
   "modelBuilderInfo": "Le nouveau générateur de modèle Pro ajoute l'année d'installation et les matériaux des conduites, la préservation de la projection et plusieurs langues, avec des attributs personnalisés et des valeurs nulles à venir. Le générateur Hérité est conservé uniquement pour la maintenance.",
   "proModelBuilder": "Générateur de modèle Pro",
   "modelBuilderPaywall": {

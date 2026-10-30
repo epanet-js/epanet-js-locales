@@ -34,6 +34,8 @@
     "unfinished": "Unfinished",
     "removeBuild": "Remove build",
     "expectedFiles": "Expected files",
+    "illustrationTitle": "Turn GIS files into an EPANET model",
+    "illustrationDescription": "Points, lines and polygons from your files become pipes, junctions, zones and more.",
     "needHelp": "Need help?",
     "watchTutorial": "Watch the tutorial",
     "readGuide": "Read the guide"

@@ -267,37 +267,18 @@
   "plan.free": "Plan gratuito",
   "plan.education": "Educación",
   "plan.personal": "Personal",
-  "for": "Para",
-  "commercialUse": "Uso comercial",
-  "nonCommercialUse": "Uso no comercial",
   "monthly": "Mensual",
-  "yearlyWithDiscount": "Anual - ahorra hasta un {{1}}%",
-  "studentOrPersonal": "¿Para estudiante o uso personal? ¡Por aquí!",
   "free.forBetterModelling": "Para una mejor experiencia modelando",
-  "free.webBasedEpanet": "Modelo EPANET en web",
-  "free.backgroundMap": "Vista de mapa y satelital",
-  "free.elevations": "Elevaciones automáticas",
-  "free.noLimits": "Sin límite de tamaño",
-  "free.communitySupport": "Soporte de la comunidad",
   "currentPlan": "Plan actual",
   "everythingAnd": "Todo lo de {{1}}, y",
   "everythingInForFree": "¡Todo lo de {{1}} gratis!",
   "professionalSupport": "Soporte profesional",
-  "customMapLayers": "Mapas personalizados",
-  "cloudStorage": "Almacenamiento en la nube",
-  "pointInTimeRestore": "Recuperación a un estado anterior - {{1}} días",
-  "demandsAnalysis": "Análisis de demandas",
   "monthShort": "mes",
   "year": "año",
   "upgradeTo": "Mejorar a {{1}}",
-  "comingSoon": "Pronto disponible",
   "individualNamedLicense": "Licencia individual",
   "floatingSharedLicenses": "Licencias compartidas flotantes",
   "mostPopular": "Más popular",
-  "minimumTwoLicenses": "Mínimo 2 licencias",
-  "teamStorage": "Almacenamiento de equipo",
-  "prioritySupport": "Soporte prioritario",
-  "sharingModels": "Compartir modelos",
   "volumeDiscounts": "Descuentos por volumen",
   "tryItYourself": "Pruébalo tú mismo",
   "learnWithEpanetJS": "Aprende con epanet-js",
@@ -1280,9 +1261,7 @@
     "setMapProjection": "Establecer proyección del mapa",
     "searchUnavailable": "El servicio de búsqueda por ubicación no está disponible. Intenta de nuevo más tarde o usa un código EPSG o un nombre de proyección"
   },
-  "baseCost": "Costo base",
   "customElevations": "Fuentes de elevación personalizadas",
-  "perUser": "Usuario",
   "selfServiceSeatManagement": "Gestión de licencias de usuario",
   "elevations": {
     "addMoreTiles": "Añadir más teselas",
@@ -1351,23 +1330,9 @@
     }
   },
   "paywall": {
-    "commercial": {
-      "cta": "Elegir plan",
-      "description": "Para uso por consultores y servicios públicos en proyectos reales.",
-      "title": "Uso comercial"
-    },
     "explorePlans": "Explorar planes",
-    "nonCommercial": {
-      "cta": "Licencia personal - $100/año",
-      "description": "Para aprender, explorar la aplicación o apoyar el proyecto.",
-      "title": "Uso no comercial"
-    },
-    "or": "o",
     "tooltip": "Función de pago"
   },
-  "namedLicence": "Licencia individual",
-  "upgradeToProFor": "Modelado avanzado y escenarios",
-  "upgradeToTeamsFor": "Control centralizado y colaboración",
   "yearShort": "año",
   "customLayers": {
     "addCustom": "Añadir personalizada",
@@ -1410,7 +1375,6 @@
     "vectorFile": "Archivo vectorial",
     "webServices": "Servicios web"
   },
-  "free.forEveryone": "Para todos",
   "initialWaterAge": "Edad inicial del agua",
   "waterAge": "Edad del agua",
   "mixingFraction": "Fracción de mezcla",
@@ -1736,7 +1700,6 @@
   "import": "Importar",
   "connected": "Conectado",
   "noResults": "No hay resultados",
-  "legacyModelBuilder": "Constructor de modelos básico",
   "modelBuilderInfo": "El nuevo constructor de modelos Pro añade año y materiales de tubería, preservación de proyección y múltiples idiomas, con atributos personalizados y valores nulos próximamente. El constructor básico se mantiene solo para mantenimiento.",
   "proModelBuilder": "Constructor de modelos Pro",
   "modelBuilderPaywall": {

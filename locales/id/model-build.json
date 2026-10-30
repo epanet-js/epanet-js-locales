@@ -219,7 +219,9 @@
     "removeBuild": "Hapus pembangunan",
     "unfinished": "Belum selesai",
     "untitledBuild": "Pembangunan tanpa judul",
-    "expectedFiles": "File yang diharapkan"
+    "expectedFiles": "File yang diharapkan",
+    "illustrationDescription": "Titik, garis, dan poligon dari file Anda menjadi pipa, sambungan, zona, dan lainnya.",
+    "illustrationTitle": "Ubah file GIS menjadi model EPANET"
   },
   "projection": {
     "searchPlaceholder": "Cari proyeksi..."
