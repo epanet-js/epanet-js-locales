@@ -76,7 +76,8 @@
     "zonesSkipped": "{{1}} dari {{2}} catatan zona dilewati. Pastikan mereka memiliki geometri poligon dan proyeksi yang valid.",
     "retry": "Coba lagi",
     "workerFailed": "Pembangunan tidak dapat dimulai. Coba lagi.",
-    "workerOffline": "Pembangunan tidak dapat dimulai saat offline. Sambungkan kembali dan coba lagi."
+    "workerOffline": "Pembangunan tidak dapat dimulai saat offline. Sambungkan kembali dan coba lagi.",
+    "overAssetLimit": "Model ini memiliki {{1}} aset. Model dengan lebih dari {{2}} aset memerlukan Pro atau lebih tinggi."
   },
   "dataTable": {
     "legendDefault": "teks miring = nilai default",
@@ -199,12 +200,6 @@
     "hazenWilliams": "Hazen-Williams",
     "headlossFormula": "Rumus kehilangan head",
     "title": "Pengaturan model",
-    "tutorialAlt": "Tutorial pembangun model",
-    "tutorialDescription": "Pelajari cara membangun model EPANET dengan menonton tutorial di atas atau ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "membaca panduan langkah demi langkah.",
-    "tutorialTitle": "Tutorial pembangun model",
-    "tutorialVideoTitle": "tutorial impor epanet-js dari data GIS",
     "unitSystem": "Sistem satuan",
     "unitSystemMetric": "Metrik SI",
     "unitSystemUs": "Adat AS",
@@ -349,7 +344,11 @@
     "saveCondition": "Simpan kondisi",
     "saveRule": "Simpan aturan",
     "searchValues": "Cari nilai",
-    "selectGroup": "Pilih grup dari daftar untuk memilih lapisannya."
+    "selectGroup": "Pilih grup dari daftar untuk memilih lapisannya.",
+    "assetLimit": {
+      "description": "Lapisan jaringan Anda memiliki {{1}} catatan. Model dengan lebih dari {{2}} aset memerlukan Pro atau lebih tinggi.",
+      "title": "Lebih dari {{1}} aset"
+    }
   },
   "searching": "Mencari…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "Pembangunan model"
   },
   "resizeColumn": "Ubah ukuran kolom",
-  "paidFeature": "Fitur berbayar"
+  "paidFeature": "Fitur berbayar",
+  "upgrade": "Tingkatkan"
 }

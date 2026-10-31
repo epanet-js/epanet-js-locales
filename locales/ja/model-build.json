@@ -76,7 +76,8 @@
     "zonesSkipped": "{{2}}個のゾーンフィーチャのうち{{1}}個がスキップされました。ポリゴンジオメトリと有効な投影法を持っているか確認してください。",
     "retry": "もう一度試す",
     "workerFailed": "構築を開始できませんでした。もう一度試す。",
-    "workerOffline": "オフライン中に構築を開始できませんでした。再接続してもう一度試す。"
+    "workerOffline": "オフライン中に構築を開始できませんでした。再接続してもう一度試す。",
+    "overAssetLimit": "このモデルには{{1}}個のアセットがあります。{{2}}個以上のアセットを持つモデルには、Pro以上が必要です。"
   },
   "dataTable": {
     "legendDefault": "イタリック体のテキスト = デフォルト値",
@@ -199,12 +200,6 @@
     "hazenWilliams": "ヘイゼン・ウィリアムズ",
     "headlossFormula": "損失水頭計算式",
     "title": "モデル設定",
-    "tutorialAlt": "モデルビルダーチュートリアル",
-    "tutorialDescription": "上記のチュートリアルを視聴するか、EPANETモデルの構築方法を学ぶ ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "ステップバイステップガイドを読む。",
-    "tutorialTitle": "モデルビルダーチュートリアル",
-    "tutorialVideoTitle": "epanet-js GISデータインポートチュートリアル",
     "unitSystem": "単位系",
     "unitSystemMetric": "SIメートル法",
     "unitSystemUs": "米国慣用",
@@ -349,7 +344,11 @@
     "saveCondition": "条件を保存",
     "saveRule": "ルールを保存",
     "searchValues": "値を検索",
-    "selectGroup": "リストからグループを選択してレイヤーを選択してください。"
+    "selectGroup": "リストからグループを選択してレイヤーを選択してください。",
+    "assetLimit": {
+      "description": "お客様のネットワークレイヤーには{{1}}個のレコードがあります。{{2}}個以上のアセットを持つモデルには、Pro以上が必要です。",
+      "title": "{{1}}以上のアセット"
+    }
   },
   "searching": "検索中…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "モデル構築"
   },
   "resizeColumn": "列のサイズを変更",
-  "paidFeature": "有料機能"
+  "paidFeature": "有料機能",
+  "upgrade": "アップグレード"
 }

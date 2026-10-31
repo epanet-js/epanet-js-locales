@@ -76,7 +76,8 @@
     "zonesSkipped": "{{1}} van de {{2}} zone objecten zijn overgeslagen. Controleer of ze polygoongeometrie en een geldige projectie hebben.",
     "retry": "Opnieuw proberen",
     "workerFailed": "De build kon niet starten. Probeer het opnieuw.",
-    "workerOffline": "De build kon niet starten terwijl u offline was. Maak opnieuw verbinding en probeer het opnieuw."
+    "workerOffline": "De build kon niet starten terwijl u offline was. Maak opnieuw verbinding en probeer het opnieuw.",
+    "overAssetLimit": "Dit model heeft {{1}} onderdelen. Modellen met meer dan {{2}} onderdelen vereisen Pro of hoger."
   },
   "dataTable": {
     "legendDefault": "cursieve tekst = standaardwaarden",
@@ -199,12 +200,6 @@
     "hazenWilliams": "Hazen-Williams",
     "headlossFormula": "Formule voor drukverlies",
     "title": "Modelinstellingen",
-    "tutorialAlt": "Handleiding modelbouwer",
-    "tutorialDescription": "Leer hoe u een EPANET-model bouwt door de bovenstaande handleiding te bekijken of ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "de stap-voor-stap handleiding te lezen.",
-    "tutorialTitle": "Handleiding modelbouwer",
-    "tutorialVideoTitle": "epanet-js import vanuit GIS-gegevens handleiding",
     "unitSystem": "Eenhedenstelsel",
     "unitSystemMetric": "SI metrisch",
     "unitSystemUs": "VS gebruikelijk",
@@ -349,7 +344,11 @@
     "saveCondition": "Conditie opslaan",
     "saveRule": "Regel opslaan",
     "searchValues": "Waarden zoeken",
-    "selectGroup": "Selecteer een groep uit de lijst om de laag ervan te kiezen."
+    "selectGroup": "Selecteer een groep uit de lijst om de laag ervan te kiezen.",
+    "assetLimit": {
+      "description": "Uw netwerklagen hebben {{1}} records. Modellen met meer dan {{2}} onderdelen vereisen Pro of hoger.",
+      "title": "Meer dan {{1}} onderdelen"
+    }
   },
   "searching": "Zoeken…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "Modelbouw"
   },
   "resizeColumn": "Kolomgrootte wijzigen",
-  "paidFeature": "Betaalde functie"
+  "paidFeature": "Betaalde functie",
+  "upgrade": "Upgraden"
 }

@@ -76,7 +76,8 @@
     "zonesSkipped": "{{1}} de {{2}} registros de zona fueron omitidos. Verifica que tengan geometría de polígono y una proyección válida.",
     "retry": "Intentar de nuevo",
     "workerFailed": "La construcción no pudo iniciarse. Inténtalo de nuevo.",
-    "workerOffline": "La construcción no pudo iniciarse sin conexión. Vuelve a conectarte e inténtalo de nuevo."
+    "workerOffline": "La construcción no pudo iniciarse sin conexión. Vuelve a conectarte e inténtalo de nuevo.",
+    "overAssetLimit": "Este modelo tiene {{1}} activos. Los modelos con más de {{2}} activos necesitan Pro o superior."
   },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
@@ -199,12 +200,6 @@
     "hazenWilliams": "Hazen-Williams",
     "headlossFormula": "Fórmula de pérdida de carga",
     "title": "Configuración del modelo",
-    "tutorialAlt": "Tutorial del constructor de modelos",
-    "tutorialDescription": "Aprende a construir un modelo EPANET viendo el tutorial de arriba o ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "leyendo la guía paso a paso.",
-    "tutorialTitle": "Tutorial del constructor de modelos",
-    "tutorialVideoTitle": "Tutorial de importación de datos GIS en epanet-js",
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
     "unitSystemUs": "Sistema de unidades de EE. UU.",
@@ -349,7 +344,11 @@
     "saveCondition": "Guardar condición",
     "saveRule": "Guardar regla",
     "searchValues": "Buscar valores",
-    "selectGroup": "Selecciona un grupo de la lista para elegir su capa."
+    "selectGroup": "Selecciona un grupo de la lista para elegir su capa.",
+    "assetLimit": {
+      "description": "Tus capas de red tienen {{1}} registros. Los modelos con más de {{2}} activos necesitan Pro o superior.",
+      "title": "Más de {{1}} activos"
+    }
   },
   "searching": "Buscando…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "Constructor de modelos"
   },
   "resizeColumn": "Redimensionar columna",
-  "paidFeature": "Función de pago"
+  "paidFeature": "Función de pago",
+  "upgrade": "Mejorar cuenta"
 }

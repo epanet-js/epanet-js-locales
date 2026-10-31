@@ -76,7 +76,8 @@
     "zonesSkipped": "{{1}} des {{2}} entités de zone ont été ignorées. Vérifiez qu'elles ont une géométrie de polygone et une projection valide.",
     "retry": "Réessayer",
     "workerFailed": "La construction n'a pas pu démarrer. Réessayez.",
-    "workerOffline": "La construction n'a pas pu démarrer hors ligne. Reconnectez-vous et réessayez."
+    "workerOffline": "La construction n'a pas pu démarrer hors ligne. Reconnectez-vous et réessayez.",
+    "overAssetLimit": "Ce modèle a {{1}} éléments. Les modèles avec plus de {{2}} éléments nécessitent un abonnement Pro ou supérieur."
   },
   "dataTable": {
     "legendDefault": "texte en italique = valeurs par défaut",
@@ -199,12 +200,6 @@
     "hazenWilliams": "Hazen-Williams",
     "headlossFormula": "Formule de perte de charge",
     "title": "Paramètres du modèle",
-    "tutorialAlt": "Tutoriel de construction de modèle",
-    "tutorialDescription": "Apprenez à construire un modèle EPANET en regardant le tutoriel ci-dessus ou ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "en lisant le guide étape par étape.",
-    "tutorialTitle": "Tutoriel de construction de modèle",
-    "tutorialVideoTitle": "Tutoriel d'importation de données SIG dans epanet-js",
     "unitSystem": "Système d'unités",
     "unitSystemMetric": "Métriques SI",
     "unitSystemUs": "Impérial américain",
@@ -349,7 +344,11 @@
     "saveCondition": "Enregistrer la condition",
     "saveRule": "Enregistrer la règle",
     "searchValues": "Rechercher des valeurs",
-    "selectGroup": "Sélectionnez un groupe dans la liste pour choisir sa couche."
+    "selectGroup": "Sélectionnez un groupe dans la liste pour choisir sa couche.",
+    "assetLimit": {
+      "description": "Vos couches de réseau ont {{1}} enregistrements. Les modèles avec plus de {{2}} éléments nécessitent un abonnement Pro ou supérieur.",
+      "title": "Plus de {{1}} éléments"
+    }
   },
   "searching": "Recherche…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "Construction du modèle"
   },
   "resizeColumn": "Redimensionner la colonne",
-  "paidFeature": "Fonctionnalité payante"
+  "paidFeature": "Fonctionnalité payante",
+  "upgrade": "Upgrade"
 }

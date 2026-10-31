@@ -19,12 +19,6 @@
     "hazenWilliams": "Hazen-Williams",
     "darcyWeisbach": "Darcy-Weisbach",
     "chezyManning": "Chezy-Manning",
-    "tutorialTitle": "Model builder tutorial",
-    "tutorialAlt": "Model builder tutorial",
-    "tutorialDuration": "5:23",
-    "tutorialVideoTitle": "epanet-js import from GIS data tutorial",
-    "tutorialDescription": "Learn how to build an EPANET model by watching the tutorial above or ",
-    "tutorialGuideLink": "reading the step-by-step guide.",
     "name": "Name",
     "create": "Create",
     "newBuild": "New build",
@@ -50,7 +44,12 @@
     "keepEditing": "Keep editing"
   },
   "paidFeature": "Paid feature",
+  "upgrade": "Upgrade",
   "layerAssignment": {
+    "assetLimit": {
+      "title": "More than {{1}} assets",
+      "description": "Your network layers have {{1}} records. Models with more than {{2}} assets need Pro or higher."
+    },
     "title": "Layer assignment",
     "assignTo": "Assign to",
     "notAssigned": "Not assigned",
@@ -154,6 +153,7 @@
     "backToLayerAssignment": "Layer assignment"
   },
   "buildProgress": {
+    "overAssetLimit": "This model has {{1}} assets. Models with more than {{2}} assets need Pro or higher.",
     "title": "Building EPANET model",
     "statusBuilding": "Processing your data and generating the EPANET model...",
     "preparing": "Preparing build...",

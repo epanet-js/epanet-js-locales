@@ -76,7 +76,8 @@
     "zonesSkipped": "{{1}} de {{2}} feições de zona foram ignoradas. Verifique se elas têm geometria de polígono e uma projeção válida.",
     "retry": "Tentar novamente",
     "workerFailed": "A compilação não pôde iniciar. Tentar novamente.",
-    "workerOffline": "A compilação não pôde iniciar enquanto offline. Reconecte e tente novamente."
+    "workerOffline": "A compilação não pôde iniciar enquanto offline. Reconecte e tente novamente.",
+    "overAssetLimit": "Este modelo tem {{1}} ativos. Modelos com mais de {{2}} ativos precisam do plano Pro ou superior."
   },
   "dataTable": {
     "legendDefault": "texto itálico = valores padrão",
@@ -199,12 +200,6 @@
     "hazenWilliams": "Hazen-Williams",
     "headlossFormula": "Fórmula de perda de carga",
     "title": "Configurações do modelo",
-    "tutorialAlt": "Tutorial do construtor de modelos",
-    "tutorialDescription": "Aprenda a construir um modelo EPANET assistindo ao tutorial acima ou ",
-    "tutorialDuration": "5:23",
-    "tutorialGuideLink": "lendo o guia passo a passo.",
-    "tutorialTitle": "Tutorial do construtor de modelos",
-    "tutorialVideoTitle": "Tutorial de importação de dados GIS no epanet-js",
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
     "unitSystemUs": "US consuetudinário",
@@ -349,7 +344,11 @@
     "saveCondition": "Salvar condição",
     "saveRule": "Salvar regra",
     "searchValues": "Buscar valores",
-    "selectGroup": "Selecione um grupo da lista para escolher sua camada."
+    "selectGroup": "Selecione um grupo da lista para escolher sua camada.",
+    "assetLimit": {
+      "description": "Suas camadas de rede têm {{1}} registros. Modelos com mais de {{2}} ativos precisam do plano Pro ou superior.",
+      "title": "Mais de {{1}} ativos"
+    }
   },
   "searching": "Buscando…",
   "header": {
@@ -357,5 +356,6 @@
     "title": "Construção do modelo"
   },
   "resizeColumn": "Redimensionar coluna",
-  "paidFeature": "Recurso pago"
+  "paidFeature": "Recurso pago",
+  "upgrade": "Atualizar"
 }
