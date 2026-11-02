@@ -1687,32 +1687,13 @@
   "import": "Importer",
   "connected": "Connecté",
   "noResults": "Aucun résultat",
-  "modelBuilderInfo": "Le nouveau générateur de modèle Pro ajoute l'année d'installation et les matériaux des conduites, la préservation de la projection et plusieurs langues, avec des attributs personnalisés et des valeurs nulles à venir. Le générateur Hérité est conservé uniquement pour la maintenance.",
-  "proModelBuilder": "Générateur de modèle Pro",
   "modelBuilderPaywall": {
-    "activeUpdates": "Mises à jour actives & nouvelles fonctionnalités",
-    "comingSoon": "Bientôt disponible :",
-    "continueWithLegacy": "Continuer avec l'hérité",
     "customAttributes": "Attributs personnalisés",
-    "legacy": "Hérité",
-    "legacyLanguages": "Plusieurs langues (Anglais uniquement)",
-    "legacyProjection": "Préservation de la projection (WGS84 uniquement)",
-    "maintenanceOnly": "Maintenance uniquement",
     "pipeYearAndMaterials": "Année d'installation et matériaux des conduites",
-    "pro": "Pro",
-    "proLanguages": "Plusieurs langues",
-    "proProjection": "Préserver la projection originale",
     "saveBuildSettings": "Enregistrer les paramètres de construction",
-    "subtitle": "Débloquez des capacités avancées pour la construction de modèles dans epanet-js à partir de vos données SIG.",
-    "title": "Choisissez votre générateur de modèle",
-    "upgrade": "Mettre à niveau",
-    "customerPoints": "Points de consommation",
-    "dxfAndCsvFiles": "Fichiers DXF et CSV",
     "filterSplitAndRules": "Filtrer, diviser par valeur et règles personnalisées",
-    "freeAndPersonalPlans": "Plans Gratuit et Personnel",
     "largeModels": "Modèles de plus de 100K éléments",
     "multipleFilesPerLayer": "Plusieurs fichiers par couche",
-    "proPlansAndAbove": "Plans Pro et supérieurs",
     "zones": "Zones"
   },
   "source.concen": "Concentration",
@@ -2136,7 +2117,6 @@
     "pro": {
       "andMore": "Et plus encore…",
       "customMapLayers": "Couches de carte personnalisées et sources d'élévation",
-      "modelBuilderInfo": "Le nouveau générateur de modèle Pro ajoute l'année d'installation et les matériaux des conduites, la préservation de la projection, plusieurs langues, des attributs personnalisés et des valeurs nulles. Le générateur Hérité est conservé uniquement pour la maintenance.",
       "per": "Par licence nominative"
     },
     "requestQuote": "Demander un devis",
@@ -2167,12 +2147,14 @@
     "nonCommercialPlans": "Plans non commerciaux",
     "seeAllPlans": "Voir tous les plans et fonctionnalités"
   },
-  "modelBuildAdvanced": {
+  "limitedModelBuilderItem": "Générateur de modèle (basique)",
+  "modelBuilder": {
     "paywall": {
       "description": "Transformez des données SIG complexes en modèles complets, et reconstruisez-les chaque fois que vos données changent.",
       "plans": "Le générateur de modèle avancé est disponible avec les plans Pro ou supérieurs.",
       "title": "Construire des modèles complets à partir de vos données SIG",
       "trial": "Le générateur de modèle avancé est disponible avec les plans Pro ou supérieurs. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     }
-  }
+  },
+  "modelBuilderItem": "Générateur de modèle"
 }

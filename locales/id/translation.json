@@ -1687,32 +1687,13 @@
   "import": "Impor",
   "connected": "Terhubung",
   "noResults": "Tidak ada hasil",
-  "modelBuilderInfo": "Pembangun model Pro yang baru menambahkan tahun & bahan pipa, pelestarian proyeksi, dan beberapa bahasa, dengan atribut khusus dan nilai null yang akan segera hadir. Pembangun model lama hanya disimpan untuk pemeliharaan.",
-  "proModelBuilder": "Pembangun model Pro",
   "modelBuilderPaywall": {
-    "activeUpdates": "Pembaruan aktif & fitur baru",
-    "comingSoon": "Segera hadir:",
-    "continueWithLegacy": "Lanjutkan dengan Legacy",
     "customAttributes": "Atribut kustom",
-    "legacy": "Legacy",
-    "legacyLanguages": "Beberapa bahasa (hanya bahasa Inggris)",
-    "legacyProjection": "Pelestarian proyeksi (khusus WGS84)",
-    "maintenanceOnly": "Hanya pemeliharaan",
     "pipeYearAndMaterials": "Tahun & material pipa",
-    "pro": "Pro",
-    "proLanguages": "Beberapa bahasa",
-    "proProjection": "Pertahankan proyeksi asli",
     "saveBuildSettings": "Simpan pengaturan build",
-    "subtitle": "Buka kemampuan canggih untuk membangun model di epanet-js dari data GIS Anda.",
-    "title": "Pilih pembangun model Anda",
-    "upgrade": "Tingkatkan",
-    "customerPoints": "Titik pelanggan",
-    "dxfAndCsvFiles": "File DXF dan CSV",
     "filterSplitAndRules": "Saring, bagi berdasarkan nilai dan aturan kustom",
-    "freeAndPersonalPlans": "Paket Gratis dan Pribadi",
     "largeModels": "Model lebih dari 100 ribu aset",
     "multipleFilesPerLayer": "Beberapa file per lapisan",
-    "proPlansAndAbove": "Paket Pro dan di atasnya",
     "zones": "Zona"
   },
   "source.concen": "Konsentrasi",
@@ -2136,7 +2117,6 @@
     "pro": {
       "andMore": "Dan lainnya…",
       "customMapLayers": "Lapisan peta kustom & sumber elevasi",
-      "modelBuilderInfo": "Pembangun model Pro yang baru menambahkan tahun & material pipa, pelestarian proyeksi, berbagai bahasa, atribut kustom, dan nilai null. Pembangun Legacy hanya dipertahankan untuk pemeliharaan.",
       "per": "Per lisensi bernama"
     },
     "requestQuote": "Minta penawaran",
@@ -2167,12 +2147,14 @@
     "nonCommercialPlans": "Paket non-komersial",
     "seeAllPlans": "Lihat semua paket dan fitur"
   },
-  "modelBuildAdvanced": {
+  "limitedModelBuilderItem": "Pembangun model (dasar)",
+  "modelBuilder": {
     "paywall": {
       "description": "Ubah data GIS yang kompleks menjadi model lengkap, dan bangun kembali kapan pun data Anda berubah.",
       "plans": "Pembangun model lanjutan tersedia di paket Pro atau lebih tinggi.",
       "title": "Bangun model lengkap dari data GIS Anda",
       "trial": "Pembangun model lanjutan tersedia di paket Pro atau lebih tinggi. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     }
-  }
+  },
+  "modelBuilderItem": "Pembangun model"
 }

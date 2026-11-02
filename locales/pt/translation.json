@@ -1687,32 +1687,13 @@
   "import": "Importar",
   "connected": "Conectado",
   "noResults": "Sem resultados",
-  "modelBuilderInfo": "O novo construtor de modelo Pro adiciona ano e materiais de tubulação, preservação de projeção e múltiplos idiomas, com atributos personalizados e valores nulos em breve. O construtor legado é mantido apenas para manutenção.",
-  "proModelBuilder": "Construtor de modelo Pro",
   "modelBuilderPaywall": {
-    "activeUpdates": "Atualizações ativas e novas funcionalidades",
-    "comingSoon": "Em breve:",
-    "continueWithLegacy": "Continuar com Legado",
     "customAttributes": "Atributos personalizados",
-    "legacy": "Legado",
-    "legacyLanguages": "Múltiplos idiomas (somente inglês)",
-    "legacyProjection": "Preservação de projeção (somente WGS84)",
-    "maintenanceOnly": "Apenas manutenção",
     "pipeYearAndMaterials": "Ano e materiais de tubulação",
-    "pro": "Pro",
-    "proLanguages": "Múltiplos idiomas",
-    "proProjection": "Preservar projeção original",
     "saveBuildSettings": "Salvar configurações de construção",
-    "subtitle": "Desbloqueie capacidades avançadas para construir modelos no epanet-js a partir dos seus dados GIS.",
-    "title": "Escolha seu construtor de modelo",
-    "upgrade": "Atualizar",
-    "customerPoints": "Pontos de consumo",
-    "dxfAndCsvFiles": "Arquivos DXF e CSV",
     "filterSplitAndRules": "Filtrar, dividir por valor e regras personalizadas",
-    "freeAndPersonalPlans": "Planos Gratuito e Pessoal",
     "largeModels": "Modelos com mais de 100 mil ativos",
     "multipleFilesPerLayer": "Múltiplos arquivos por camada",
-    "proPlansAndAbove": "Planos Pro e superiores",
     "zones": "Zonas"
   },
   "source.concen": "Concentração",
@@ -2136,7 +2117,6 @@
     "pro": {
       "andMore": "E mais…",
       "customMapLayers": "Camadas de mapa personalizadas e fontes de elevação",
-      "modelBuilderInfo": "O novo construtor de modelos Pro adiciona ano e materiais de tubulação, preservação de projeção, múltiplos idiomas, atributos personalizados e valores nulos. O construtor legado é mantido apenas para manutenção.",
       "per": "Por licença nomeada"
     },
     "requestQuote": "Solicitar orçamento",
@@ -2167,12 +2147,14 @@
     "nonCommercialPlans": "Planos não comerciais",
     "seeAllPlans": "Ver todos os planos e recursos"
   },
-  "modelBuildAdvanced": {
+  "limitedModelBuilderItem": "Construtor de modelo (básico)",
+  "modelBuilder": {
     "paywall": {
       "description": "Transforme dados GIS complexos em modelos completos e reconstrua-os sempre que seus dados mudarem.",
       "plans": "O construtor de modelo avançado está disponível em planos Pro ou superiores.",
       "title": "Construa modelos completos a partir dos seus dados GIS",
       "trial": "O construtor de modelo avançado está disponível em planos Pro ou superiores. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
     }
-  }
+  },
+  "modelBuilderItem": "Construtor de modelo"
 }

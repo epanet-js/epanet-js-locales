@@ -1687,32 +1687,13 @@
   "import": "Importeren",
   "connected": "Verbonden",
   "noResults": "Geen resultaten",
-  "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud en meerdere talen toe, met aangepaste attributen en null-waarden binnenkort beschikbaar. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
-  "proModelBuilder": "Pro modelbouwer",
   "modelBuilderPaywall": {
-    "activeUpdates": "Actieve updates & nieuwe functies",
-    "comingSoon": "Binnenkort beschikbaar:",
-    "continueWithLegacy": "Doorgaan met Legacy",
     "customAttributes": "Aangepaste attributen",
-    "legacy": "Legacy",
-    "legacyLanguages": "Meerdere talen (alleen Engels)",
-    "legacyProjection": "Projectiebehoud (alleen WGS84)",
-    "maintenanceOnly": "Alleen onderhoud",
     "pipeYearAndMaterials": "Leidingjaar en materialen",
-    "pro": "Pro",
-    "proLanguages": "Meerdere talen",
-    "proProjection": "Originele projectie behouden",
     "saveBuildSettings": "Build-instellingen opslaan",
-    "subtitle": "Ontgrendel geavanceerde mogelijkheden voor het bouwen van modellen in epanet-js met uw GIS-gegevens.",
-    "title": "Kies uw modelbouwer",
-    "upgrade": "Upgraden",
-    "customerPoints": "Klantpunten",
-    "dxfAndCsvFiles": "DXF- en CSV-bestanden",
     "filterSplitAndRules": "Filteren, splitsen op waarde en aangepaste regels",
-    "freeAndPersonalPlans": "Gratis en Persoonlijke abonnementen",
     "largeModels": "Modellen met meer dan 100K onderdelen",
     "multipleFilesPerLayer": "Meerdere bestanden per laag",
-    "proPlansAndAbove": "Pro-abonnementen en hoger",
     "zones": "Zones"
   },
   "source.concen": "Concentratie",
@@ -2136,7 +2117,6 @@
     "pro": {
       "andMore": "En meer…",
       "customMapLayers": "Aangepaste kaartlagen & hoogtebronnen",
-      "modelBuilderInfo": "De nieuwe Pro modelbouwer voegt leidingjaar & -materialen, projectiebehoud, meerdere talen, aangepaste attributen en null-waarden toe. De Legacy-bouwer wordt alleen voor onderhoud gebruikt.",
       "per": "Per benoemde licentie"
     },
     "requestQuote": "Offerte aanvragen",
@@ -2167,12 +2147,14 @@
     "nonCommercialPlans": "Niet-commerciële abonnementen",
     "seeAllPlans": "Bekijk alle abonnementen en functies"
   },
-  "modelBuildAdvanced": {
+  "limitedModelBuilderItem": "Modelbouwer (basis)",
+  "modelBuilder": {
     "paywall": {
-      "description": "Zet complexe GIS-gegevens om in complete modellen en herbouw ze wanneer uw gegevens veranderen.",
+      "description": "Zet complexe GIS-gegevens om in complete modellen, en herbouw ze wanneer uw gegevens veranderen.",
       "plans": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger.",
       "title": "Bouw complete modellen met uw GIS-gegevens",
-      "trial": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+      "trial": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen—geen creditcard vereist."
     }
-  }
+  },
+  "modelBuilderItem": "Modelbouwer"
 }

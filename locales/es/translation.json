@@ -1700,32 +1700,13 @@
   "import": "Importar",
   "connected": "Conectado",
   "noResults": "No hay resultados",
-  "modelBuilderInfo": "El nuevo constructor de modelos Pro añade año y materiales de tubería, preservación de proyección y múltiples idiomas, con atributos personalizados y valores nulos próximamente. El constructor básico se mantiene solo para mantenimiento.",
-  "proModelBuilder": "Constructor de modelos Pro",
   "modelBuilderPaywall": {
-    "activeUpdates": "Actualizaciones activas y nuevas funciones",
-    "comingSoon": "Próximamente:",
-    "continueWithLegacy": "Continuar con Básico",
     "customAttributes": "Atributos personalizados",
-    "legacy": "Básico",
-    "legacyLanguages": "Múltiples idiomas (solo inglés)",
-    "legacyProjection": "Preservación de proyección (solo WGS84)",
-    "maintenanceOnly": "Solo mantenimiento",
     "pipeYearAndMaterials": "Año y materiales de tubería",
-    "pro": "Pro",
-    "proLanguages": "Múltiples idiomas",
-    "proProjection": "Conservar proyección original",
     "saveBuildSettings": "Guardar ajustes de construcción",
-    "subtitle": "Desbloquea capacidades avanzadas para construir modelos en epanet-js a partir de tus datos GIS.",
-    "title": "Elige tu constructor de modelos",
-    "upgrade": "Actualizar",
-    "customerPoints": "Puntos de consumo",
-    "dxfAndCsvFiles": "Archivos DXF y CSV",
     "filterSplitAndRules": "Filtrar, dividir por valor y reglas personalizadas",
-    "freeAndPersonalPlans": "Planes Gratuitos y Personales",
     "largeModels": "Modelos con más de 100K activos",
     "multipleFilesPerLayer": "Múltiples archivos por capa",
-    "proPlansAndAbove": "Planes Pro y superiores",
     "zones": "Zonas"
   },
   "source.concen": "Concentración",
@@ -2143,7 +2124,6 @@
     "pro": {
       "andMore": "Y más…",
       "customMapLayers": "Capas de mapa y fuentes de elevación personalizadas",
-      "modelBuilderInfo": "El nuevo constructor de modelos Pro añade año y materiales de tubería, preservación de proyección, múltiples idiomas, atributos personalizados y valores nulos. El constructor básico se mantiene solo para mantenimiento.",
       "per": "Por licencia nominativa"
     },
     "requestQuote": "Solicitar un presupuesto",
@@ -2174,12 +2154,14 @@
     "nonCommercialPlans": "Planes no comerciales",
     "seeAllPlans": "Ver todos los planes y características"
   },
-  "modelBuildAdvanced": {
+  "limitedModelBuilderItem": "Constructor de modelos (básico)",
+  "modelBuilder": {
     "paywall": {
       "description": "Convierte datos GIS complejos en modelos completos y reconstrúyelos cada vez que tus datos cambien.",
       "plans": "El constructor de modelos avanzado está disponible en planes Pro o superiores.",
       "title": "Crea modelos completos a partir de tus datos GIS",
       "trial": "El constructor de modelos avanzado está disponible en planes Pro o superiores. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     }
-  }
+  },
+  "modelBuilderItem": "Constructor de modelos"
 }
