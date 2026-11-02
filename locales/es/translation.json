@@ -2108,7 +2108,9 @@
       "trace-zone": "Rastrear la zona alrededor de la selección",
       "water-source": "¿De dónde obtiene este nudo su agua?",
       "zone-summary": "Resumir cada zona"
-    }
+    },
+    "downloadAllAsZip": "Descargar todo como zip",
+    "saveAll": "Guardar todo"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

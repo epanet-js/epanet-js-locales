@@ -2101,7 +2101,9 @@
       "trace-zone": "Rastrear a zona em torno da seleção",
       "water-source": "De onde este nó obtém sua água?",
       "zone-summary": "Resumir cada zona"
-    }
+    },
+    "downloadAllAsZip": "Baixar tudo como zip",
+    "saveAll": "Salvar tudo"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

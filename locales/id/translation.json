@@ -2101,7 +2101,9 @@
       "trace-zone": "Lacak zona di sekitar seleksi",
       "water-source": "Dari mana node ini mendapatkan airnya?",
       "zone-summary": "Ringkas setiap zona"
-    }
+    },
+    "downloadAllAsZip": "Unduh semua sebagai zip",
+    "saveAll": "Simpan semua"
   },
   "scriptingItem": "Skrip",
   "pricingPlans": {

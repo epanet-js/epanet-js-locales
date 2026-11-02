@@ -2101,7 +2101,9 @@
       "trace-zone": "選択範囲の周囲のゾーンをトレース",
       "water-source": "このノードはどこから水を得ていますか？",
       "zone-summary": "各ゾーンを要約"
-    }
+    },
+    "downloadAllAsZip": "すべてをzipでダウンロード",
+    "saveAll": "すべて保存"
   },
   "scriptingItem": "スクリプト",
   "pricingPlans": {

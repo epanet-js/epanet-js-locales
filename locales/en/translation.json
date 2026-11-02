@@ -139,7 +139,9 @@
     "finished": "Script finished",
     "files": "Files",
     "download": "Download",
+    "downloadAllAsZip": "Download all as zip",
     "collectionsNotSaved": "Not saved. Your plan does not include collections.",
+    "saveAll": "Save all",
     "paywall": {
       "title": "Upgrade to use scripts",
       "description1": "Automate repetitive work on your network and build the tools you're missing, with scripts that run right inside epanet-js.",

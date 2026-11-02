@@ -2101,7 +2101,9 @@
       "trace-zone": "Traceer de zone rond de selectie",
       "water-source": "Waar krijgt dit knooppunt zijn water vandaan?",
       "zone-summary": "Elke zone samenvatten"
-    }
+    },
+    "downloadAllAsZip": "Alles downloaden als zip",
+    "saveAll": "Alles opslaan"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

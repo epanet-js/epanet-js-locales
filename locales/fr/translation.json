@@ -2101,7 +2101,9 @@
       "trace-zone": "Tracer la zone autour de la sélection",
       "water-source": "D'où ce nœud tire-t-il son eau ?",
       "zone-summary": "Récapituler chaque zone"
-    }
+    },
+    "downloadAllAsZip": "Télécharger tout en zip",
+    "saveAll": "Tout enregistrer"
   },
   "scriptingItem": "Scriptage",
   "pricingPlans": {
