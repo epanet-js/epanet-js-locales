@@ -659,7 +659,19 @@
         "pumpPowerPresent": "Potência da bomba ausente",
         "nodeElevationPresent": "Elevação ausente",
         "pipeMaterialInLibrary": "Material da tubulação não está na biblioteca de tubulações",
-        "pipeMaterialProvidesRoughness": "Nenhuma rugosidade na biblioteca de tubulações para este material e ano"
+        "pipeMaterialProvidesRoughness": "Nenhuma rugosidade na biblioteca de tubulações para este material e ano",
+        "pumpVariableSpeedFlowTargetActive": "O link de destino de vazão da bomba de velocidade variável deve estar ativo",
+        "pumpVariableSpeedLaggedPumpsActive": "As bombas de atraso da bomba de velocidade variável devem estar ativas",
+        "pumpVariableSpeedLevelTargetActive": "O tanque de destino de nível da bomba de velocidade variável deve estar ativo",
+        "pumpVariableSpeedPressureTargetActive": "O nó de destino de pressão da bomba de velocidade variável deve estar ativo",
+        "pumpVariableSpeedTankLevelsActive": "O tanque de partida/parada da bomba de velocidade variável deve estar ativo",
+        "valveFlowModulatingControlEnoughPoints": "O controle de modulação de vazão precisa de pelo menos dois pontos",
+        "valveFlowModulatingControlFlowsIncreasing": "As vazões do controle de modulação de vazão devem ser estritamente crescentes",
+        "valveFlowModulatingControlFlowsNonNegative": "As vazões do controle de modulação de vazão devem ser zero ou maiores",
+        "valveFlowModulatingControlNodeActive": "O nó de controle de modulação de vazão deve estar ativo",
+        "valveFlowModulatingControlPressuresIncreasing": "As pressões do controle de modulação de vazão devem ser estritamente crescentes",
+        "valveFlowModulatingControlPressuresPositive": "As pressões do controle de modulação de vazão devem ser positivas",
+        "valveFlowModulatingSensorLinkActive": "O link de vazão passante do controle de modulação de vazão deve estar ativo"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -924,7 +936,17 @@
       "thisPump": "Esta bomba",
       "varyByTimeOfDay": "Variar por hora do dia"
     },
-    "patternBased": "Baseado em padrão"
+    "patternBased": "Baseado em padrão",
+    "flowModulating": {
+      "addPoint": "Adicionar ponto",
+      "controlNode": "Nó de controle",
+      "flowThrough": "Vazão através de",
+      "linearInterpolation": "Interpolação linear",
+      "outletOfThisValve": "{{1}} (saída desta válvula)",
+      "setByControl": "Definido por controle",
+      "thisValve": "Esta válvula",
+      "type": "Vazão modulada"
+    }
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",
@@ -2084,7 +2106,10 @@
       "zone-summary": "Resumir cada zona"
     },
     "downloadAllAsZip": "Baixar tudo como zip",
-    "saveAll": "Salvar tudo"
+    "saveAll": "Salvar tudo",
+    "atLine": "na linha {{1}}",
+    "copyLog": "Copiar log",
+    "finishedWithErrors": "Finalizado com erros"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
@@ -2156,5 +2181,9 @@
       "trial": "O construtor de modelo avançado está disponível em planos Pro ou superiores. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
     }
   },
-  "modelBuilderItem": "Construtor de modelo"
+  "modelBuilderItem": "Construtor de modelo",
+  "alertExportInpLsxFlowModulatingValves": "Válvulas moduladoras de vazão",
+  "selectZoneContents": "Selecionar conteúdo",
+  "zone": "Zona",
+  "zones": "Zonas"
 }

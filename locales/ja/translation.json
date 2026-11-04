@@ -659,7 +659,19 @@
         "pumpPowerPresent": "ポンプ動力がありません",
         "nodeElevationPresent": "標高がありません",
         "pipeMaterialInLibrary": "管の材質が管ライブラリにありません",
-        "pipeMaterialProvidesRoughness": "この材質と経年では、管ライブラリに粗度が設定されていません"
+        "pipeMaterialProvidesRoughness": "この材質と経年では、管ライブラリに粗度が設定されていません",
+        "pumpVariableSpeedFlowTargetActive": "可変速ポンプの流量目標リンクはアクティブでなければなりません",
+        "pumpVariableSpeedLaggedPumpsActive": "可変速ポンプのラグポンプはアクティブでなければなりません",
+        "pumpVariableSpeedLevelTargetActive": "可変速ポンプの水位目標配水池はアクティブでなければなりません",
+        "pumpVariableSpeedPressureTargetActive": "可変速ポンプの圧力目標ノードはアクティブでなければなりません",
+        "pumpVariableSpeedTankLevelsActive": "可変速ポンプの開始/停止配水池はアクティブでなければなりません",
+        "valveFlowModulatingControlEnoughPoints": "流量変調制御には少なくとも2つの点が必要です",
+        "valveFlowModulatingControlFlowsIncreasing": "流量変調制御の流量は厳密に増加していなければなりません",
+        "valveFlowModulatingControlFlowsNonNegative": "流量変調制御の流量はゼロ以上でなければなりません",
+        "valveFlowModulatingControlNodeActive": "流量変調制御ノードはアクティブでなければなりません",
+        "valveFlowModulatingControlPressuresIncreasing": "流量変調制御の圧力は厳密に増加していなければなりません",
+        "valveFlowModulatingControlPressuresPositive": "流量変調制御の圧力は正の値でなければなりません",
+        "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -924,7 +936,17 @@
       "thisPump": "このポンプ",
       "varyByTimeOfDay": "時間帯によって変化する"
     },
-    "patternBased": "パターンベース"
+    "patternBased": "パターンベース",
+    "flowModulating": {
+      "addPoint": "点を追加",
+      "controlNode": "制御ノード",
+      "flowThrough": "通過流量",
+      "linearInterpolation": "線形補間",
+      "outletOfThisValve": "{{1}} (この弁の出口)",
+      "setByControl": "制御によって設定",
+      "thisValve": "この弁",
+      "type": "流量変調"
+    }
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -2084,7 +2106,10 @@
       "zone-summary": "各ゾーンを要約"
     },
     "downloadAllAsZip": "すべてをzipでダウンロード",
-    "saveAll": "すべて保存"
+    "saveAll": "すべて保存",
+    "atLine": "行 {{1}} で",
+    "copyLog": "ログをコピー",
+    "finishedWithErrors": "エラーで終了"
   },
   "scriptingItem": "スクリプト",
   "pricingPlans": {
@@ -2156,5 +2181,9 @@
       "trial": "高度なモデルビルダーはProプラン以上でご利用いただけます。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
     }
   },
-  "modelBuilderItem": "モデルビルダー"
+  "modelBuilderItem": "モデルビルダー",
+  "alertExportInpLsxFlowModulatingValves": "流量調節弁",
+  "selectZoneContents": "内容を選択",
+  "zone": "ゾーン",
+  "zones": "ゾーン"
 }

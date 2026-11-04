@@ -137,7 +137,17 @@
       "thisPump": "Pompa ini",
       "varyByTimeOfDay": "Bervariasi berdasarkan waktu hari"
     },
-    "patternBased": "Berbasis pola"
+    "patternBased": "Berbasis pola",
+    "flowModulating": {
+      "addPoint": "Tambah titik",
+      "controlNode": "Node kontrol",
+      "flowThrough": "Aliran melalui",
+      "linearInterpolation": "Interpolasi linier",
+      "outletOfThisValve": "{{1}} (outlet dari katup ini)",
+      "setByControl": "Ditetapkan oleh kontrol",
+      "thisValve": "Katup ini",
+      "type": "Modulasi aliran"
+    }
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -875,7 +885,19 @@
         "pumpPowerPresent": "Daya pompa hilang",
         "nodeElevationPresent": "Elevasi hilang",
         "pipeMaterialInLibrary": "Material pipa tidak ada di pustaka pipa",
-        "pipeMaterialProvidesRoughness": "Tidak ada kekasaran di pustaka pipa untuk material dan tahun ini"
+        "pipeMaterialProvidesRoughness": "Tidak ada kekasaran di pustaka pipa untuk material dan tahun ini",
+        "pumpVariableSpeedFlowTargetActive": "Tautan target aliran pompa kecepatan variabel harus aktif",
+        "pumpVariableSpeedLaggedPumpsActive": "Pompa lag pompa kecepatan variabel harus aktif",
+        "pumpVariableSpeedLevelTargetActive": "Tangki target level pompa kecepatan variabel harus aktif",
+        "pumpVariableSpeedPressureTargetActive": "Node target tekanan pompa kecepatan variabel harus aktif",
+        "pumpVariableSpeedTankLevelsActive": "Tangki start/stop pompa kecepatan variabel harus aktif",
+        "valveFlowModulatingControlEnoughPoints": "Kontrol modulasi aliran membutuhkan setidaknya dua titik",
+        "valveFlowModulatingControlFlowsIncreasing": "Aliran kontrol modulasi aliran harus meningkat secara ketat",
+        "valveFlowModulatingControlFlowsNonNegative": "Aliran kontrol modulasi aliran harus nol atau lebih besar",
+        "valveFlowModulatingControlNodeActive": "Node kontrol modulasi aliran harus aktif",
+        "valveFlowModulatingControlPressuresIncreasing": "Tekanan kontrol modulasi aliran harus meningkat secara ketat",
+        "valveFlowModulatingControlPressuresPositive": "Tekanan kontrol modulasi aliran harus positif",
+        "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -2084,7 +2106,10 @@
       "zone-summary": "Ringkas setiap zona"
     },
     "downloadAllAsZip": "Unduh semua sebagai zip",
-    "saveAll": "Simpan semua"
+    "saveAll": "Simpan semua",
+    "atLine": "pada baris {{1}}",
+    "copyLog": "Salin log",
+    "finishedWithErrors": "Selesai dengan kesalahan"
   },
   "scriptingItem": "Skrip",
   "pricingPlans": {
@@ -2156,5 +2181,9 @@
       "trial": "Pembangun model lanjutan tersedia di paket Pro atau lebih tinggi. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     }
   },
-  "modelBuilderItem": "Pembangun model"
+  "modelBuilderItem": "Pembangun model",
+  "alertExportInpLsxFlowModulatingValves": "Katup modulasi aliran",
+  "selectZoneContents": "Pilih isi",
+  "zone": "Zona",
+  "zones": "Zona"
 }

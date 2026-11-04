@@ -203,7 +203,6 @@
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
     "unitSystemUs": "Sistema de unidades de EE. UU.",
-    "nextToFileUpload": "Carga de archivo",
     "create": "Crear",
     "name": "Nombre",
     "needHelp": "¿Necesitas ayuda?",
@@ -216,7 +215,8 @@
     "untitledBuild": "Modelo sin título",
     "expectedFiles": "Archivos esperados",
     "illustrationDescription": "Puntos, líneas y polígonos de tus archivos se convierten en tuberías, nudos, zonas y más.",
-    "illustrationTitle": "Convierte archivos GIS en un modelo EPANET"
+    "illustrationTitle": "Convierte archivos GIS en un modelo EPANET",
+    "nextToDataSources": "Fuentes de datos"
   },
   "projection": {
     "searchPlaceholder": "Buscar proyección..."

@@ -203,7 +203,6 @@
     "unitSystem": "Sistema de unidades",
     "unitSystemMetric": "Métrico SI",
     "unitSystemUs": "US consuetudinário",
-    "nextToFileUpload": "Upload de arquivos",
     "create": "Criar",
     "name": "Nome",
     "needHelp": "Precisa de ajuda?",
@@ -216,7 +215,8 @@
     "untitledBuild": "Compilação sem título",
     "expectedFiles": "Arquivos esperados",
     "illustrationDescription": "Pontos, linhas e polígonos dos seus arquivos se tornam tubulações, nós, zonas e muito mais.",
-    "illustrationTitle": "Transforme arquivos GIS em um modelo EPANET"
+    "illustrationTitle": "Transforme arquivos GIS em um modelo EPANET",
+    "nextToDataSources": "Fontes de dados"
   },
   "projection": {
     "searchPlaceholder": "Buscar projeção..."

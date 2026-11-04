@@ -10,7 +10,7 @@
   "resizeColumn": "Resize column",
   "modelSettings": {
     "title": "Model settings",
-    "nextToFileUpload": "File upload",
+    "nextToDataSources": "Data sources",
     "unitSystem": "Unit system",
     "unitSystemUs": "US customary",
     "unitSystemMetric": "SI metric",

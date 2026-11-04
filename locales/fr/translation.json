@@ -659,7 +659,19 @@
         "pumpPowerPresent": "Puissance de la pompe manquante",
         "nodeElevationPresent": "Élévation manquante",
         "pipeMaterialInLibrary": "Matériau de conduite non présent dans la bibliothèque de conduites",
-        "pipeMaterialProvidesRoughness": "Pas de rugosité dans la bibliothèque de conduites pour ce matériau et cette année"
+        "pipeMaterialProvidesRoughness": "Pas de rugosité dans la bibliothèque de conduites pour ce matériau et cette année",
+        "pumpVariableSpeedFlowTargetActive": "La liaison cible de débit de la pompe à vitesse variable doit être active",
+        "pumpVariableSpeedLaggedPumpsActive": "Les pompes en cascade de la pompe à vitesse variable doivent être actives",
+        "pumpVariableSpeedLevelTargetActive": "Le château d'eau cible de niveau de la pompe à vitesse variable doit être actif",
+        "pumpVariableSpeedPressureTargetActive": "Le nœud cible de pression de la pompe à vitesse variable doit être actif",
+        "pumpVariableSpeedTankLevelsActive": "Le château d'eau de démarrage/arrêt de la pompe à vitesse variable doit être actif",
+        "valveFlowModulatingControlEnoughPoints": "Le contrôle de modulation de débit nécessite au moins deux points",
+        "valveFlowModulatingControlFlowsIncreasing": "Les débits du contrôle de modulation de débit doivent être strictement croissants",
+        "valveFlowModulatingControlFlowsNonNegative": "Les débits du contrôle de modulation de débit doivent être supérieurs ou égaux à zéro",
+        "valveFlowModulatingControlNodeActive": "Le nœud de contrôle de modulation de débit doit être actif",
+        "valveFlowModulatingControlPressuresIncreasing": "Les pressions du contrôle de modulation de débit doivent être strictement croissantes",
+        "valveFlowModulatingControlPressuresPositive": "Les pressions du contrôle de modulation de débit doivent être positives",
+        "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -924,7 +936,17 @@
       "thisPump": "Cette pompe",
       "varyByTimeOfDay": "Varier en fonction de l'heure de la journée"
     },
-    "patternBased": "Basé sur un motif"
+    "patternBased": "Basé sur un motif",
+    "flowModulating": {
+      "addPoint": "Ajouter un point",
+      "controlNode": "Nœud de contrôle",
+      "flowThrough": "Débit traversant",
+      "linearInterpolation": "Interpolation linéaire",
+      "outletOfThisValve": "{{1}} (sortie de cette vanne)",
+      "setByControl": "Défini par contrôle",
+      "thisValve": "Cette vanne",
+      "type": "Débit modulé"
+    }
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
@@ -2084,7 +2106,10 @@
       "zone-summary": "Récapituler chaque zone"
     },
     "downloadAllAsZip": "Télécharger tout en zip",
-    "saveAll": "Tout enregistrer"
+    "saveAll": "Tout enregistrer",
+    "atLine": "à la ligne {{1}}",
+    "copyLog": "Copier le journal",
+    "finishedWithErrors": "Terminé avec des erreurs"
   },
   "scriptingItem": "Scriptage",
   "pricingPlans": {
@@ -2156,5 +2181,9 @@
       "trial": "Le générateur de modèle avancé est disponible avec les plans Pro ou supérieurs. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours, sans carte de crédit requise."
     }
   },
-  "modelBuilderItem": "Générateur de modèle"
+  "modelBuilderItem": "Générateur de modèle",
+  "alertExportInpLsxFlowModulatingValves": "Vannes à débit modulé",
+  "selectZoneContents": "Sélectionner le contenu",
+  "zone": "Zone",
+  "zones": "Zones"
 }

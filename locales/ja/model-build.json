@@ -203,7 +203,6 @@
     "unitSystem": "単位系",
     "unitSystemMetric": "SIメートル法",
     "unitSystemUs": "米国慣用",
-    "nextToFileUpload": "ファイルアップロード",
     "create": "作成",
     "name": "名前",
     "needHelp": "ヘルプが必要ですか？",
@@ -216,7 +215,8 @@
     "untitledBuild": "無題のビルド",
     "expectedFiles": "必要なファイル",
     "illustrationDescription": "ファイル内のポイント、ライン、ポリゴンが管、接点、ゾーンなどに変換されます。",
-    "illustrationTitle": "GISファイルをEPANETモデルに変換"
+    "illustrationTitle": "GISファイルをEPANETモデルに変換",
+    "nextToDataSources": "データソース"
   },
   "projection": {
     "searchPlaceholder": "投影を検索..."

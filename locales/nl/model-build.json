@@ -203,7 +203,6 @@
     "unitSystem": "Eenhedenstelsel",
     "unitSystemMetric": "SI metrisch",
     "unitSystemUs": "VS gebruikelijk",
-    "nextToFileUpload": "Bestand uploaden",
     "create": "Aanmaken",
     "name": "Naam",
     "needHelp": "Hulp nodig?",
@@ -216,7 +215,8 @@
     "untitledBuild": "Naamloos project",
     "expectedFiles": "Verwachte bestanden",
     "illustrationDescription": "Punten, lijnen en polygonen uit uw bestanden worden leidingen, knooppunten, zones en meer.",
-    "illustrationTitle": "GIS-bestanden omzetten in een EPANET-model"
+    "illustrationTitle": "GIS-bestanden omzetten in een EPANET-model",
+    "nextToDataSources": "Gegevensbronnen"
   },
   "projection": {
     "searchPlaceholder": "Zoeken naar projectie..."

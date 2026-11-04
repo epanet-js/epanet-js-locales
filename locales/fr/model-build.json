@@ -203,7 +203,6 @@
     "unitSystem": "Système d'unités",
     "unitSystemMetric": "Métriques SI",
     "unitSystemUs": "Impérial américain",
-    "nextToFileUpload": "Chargement de fichier",
     "create": "Créer",
     "name": "Nom",
     "needHelp": "Besoin d'aide ?",
@@ -216,7 +215,8 @@
     "untitledBuild": "Construction sans titre",
     "expectedFiles": "Fichiers attendus",
     "illustrationDescription": "Les points, lignes et polygones de vos fichiers deviennent des conduites, des nœuds, des zones et plus encore.",
-    "illustrationTitle": "Transformez les fichiers SIG en un modèle EPANET"
+    "illustrationTitle": "Transformez les fichiers SIG en un modèle EPANET",
+    "nextToDataSources": "Sources de données"
   },
   "projection": {
     "searchPlaceholder": "Rechercher une projection..."

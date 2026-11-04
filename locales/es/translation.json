@@ -672,7 +672,19 @@
         "pumpPowerPresent": "Falta la potencia de la bomba",
         "nodeElevationPresent": "Falta la elevación",
         "pipeMaterialInLibrary": "Material de tubería no encontrado en la biblioteca de tuberías",
-        "pipeMaterialProvidesRoughness": "No hay rugosidad en la biblioteca de tuberías para este material y año"
+        "pipeMaterialProvidesRoughness": "No hay rugosidad en la biblioteca de tuberías para este material y año",
+        "pumpVariableSpeedFlowTargetActive": "El enlace de caudal objetivo de la bomba de velocidad variable debe estar activo",
+        "pumpVariableSpeedLaggedPumpsActive": "Las bombas secundarias de la bomba de velocidad variable deben estar activas",
+        "pumpVariableSpeedLevelTargetActive": "El tanque objetivo de nivel de la bomba de velocidad variable debe estar activo",
+        "pumpVariableSpeedPressureTargetActive": "El nudo objetivo de presión de la bomba de velocidad variable debe estar activo",
+        "pumpVariableSpeedTankLevelsActive": "El tanque de arranque/parada de la bomba de velocidad variable debe estar activo",
+        "valveFlowModulatingControlEnoughPoints": "El control de modulación de caudal necesita al menos dos puntos",
+        "valveFlowModulatingControlFlowsIncreasing": "Los caudales del control de modulación de caudal deben ser estrictamente crecientes",
+        "valveFlowModulatingControlFlowsNonNegative": "Los caudales del control de modulación de caudal deben ser cero o mayores",
+        "valveFlowModulatingControlNodeActive": "El nudo de control de modulación de caudal debe estar activo",
+        "valveFlowModulatingControlPressuresIncreasing": "Las presiones del control de modulación de caudal deben ser estrictamente crecientes",
+        "valveFlowModulatingControlPressuresPositive": "Las presiones del control de modulación de caudal deben ser positivas",
+        "valveFlowModulatingSensorLinkActive": "El enlace de paso de caudal del control de modulación de caudal debe estar activo"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -937,7 +949,17 @@
       "thisPump": "Esta bomba",
       "varyByTimeOfDay": "Variar por hora del día"
     },
-    "patternBased": "Basado en patrón"
+    "patternBased": "Basado en patrón",
+    "flowModulating": {
+      "addPoint": "Añadir punto",
+      "controlNode": "Nudo de control",
+      "flowThrough": "Caudal a través",
+      "linearInterpolation": "Interpolación lineal",
+      "outletOfThisValve": "{{1}} (salida de esta válvula)",
+      "setByControl": "Establecido por control",
+      "thisValve": "Esta válvula",
+      "type": "Caudal modulado"
+    }
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
@@ -2091,7 +2113,10 @@
       "zone-summary": "Resumir cada zona"
     },
     "downloadAllAsZip": "Descargar todo como zip",
-    "saveAll": "Guardar todo"
+    "saveAll": "Guardar todo",
+    "atLine": "en la línea {{1}}",
+    "copyLog": "Copiar registro",
+    "finishedWithErrors": "Finalizado con errores"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
@@ -2163,5 +2188,9 @@
       "trial": "El constructor de modelos avanzado está disponible en planes Pro o superiores. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     }
   },
-  "modelBuilderItem": "Constructor de modelos"
+  "modelBuilderItem": "Constructor de modelos",
+  "alertExportInpLsxFlowModulatingValves": "Válvulas de modulación de caudal",
+  "selectZoneContents": "Seleccionar contenido",
+  "zone": "Zona",
+  "zones": "Zonas"
 }

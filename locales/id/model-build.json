@@ -203,7 +203,6 @@
     "unitSystem": "Sistem satuan",
     "unitSystemMetric": "Metrik SI",
     "unitSystemUs": "Adat AS",
-    "nextToFileUpload": "Pengunggahan file",
     "create": "Buat",
     "name": "Nama",
     "needHelp": "Butuh bantuan?",
@@ -216,7 +215,8 @@
     "untitledBuild": "Pembangunan tanpa judul",
     "expectedFiles": "File yang diharapkan",
     "illustrationDescription": "Titik, garis, dan poligon dari file Anda menjadi pipa, sambungan, zona, dan lainnya.",
-    "illustrationTitle": "Ubah file GIS menjadi model EPANET"
+    "illustrationTitle": "Ubah file GIS menjadi model EPANET",
+    "nextToDataSources": "Sumber data"
   },
   "projection": {
     "searchPlaceholder": "Cari proyeksi..."

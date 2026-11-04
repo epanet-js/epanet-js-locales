@@ -659,7 +659,19 @@
         "pumpPowerPresent": "Pompvermogen ontbreekt",
         "nodeElevationPresent": "Hoogte ontbreekt",
         "pipeMaterialInLibrary": "Leidingmateriaal niet in de leidingbibliotheek",
-        "pipeMaterialProvidesRoughness": "Geen ruwheid in de leidingbibliotheek voor dit materiaal en jaar"
+        "pipeMaterialProvidesRoughness": "Geen ruwheid in de leidingbibliotheek voor dit materiaal en jaar",
+        "pumpVariableSpeedFlowTargetActive": "Verbindingsschakel voor pomptoerentaldoel moet actief zijn",
+        "pumpVariableSpeedLaggedPumpsActive": "Vertraagde pompen van pomp met variabel toerental moeten actief zijn",
+        "pumpVariableSpeedLevelTargetActive": "Tank voor pomptoerentaldoel moet actief zijn",
+        "pumpVariableSpeedPressureTargetActive": "Knooppunt voor pomptoerentaldoel moet actief zijn",
+        "pumpVariableSpeedTankLevelsActive": "Start-/stop tank van pomp met variabel toerental moet actief zijn",
+        "valveFlowModulatingControlEnoughPoints": "Debietmodulerende regeling heeft minimaal twee punten nodig",
+        "valveFlowModulatingControlFlowsIncreasing": "Debietmodulerende regelingsstromen moeten strikt toenemen",
+        "valveFlowModulatingControlFlowsNonNegative": "Debietmodulerende regelingsstromen moeten nul of groter zijn",
+        "valveFlowModulatingControlNodeActive": "Knooppunt van debietmodulerende regeling moet actief zijn",
+        "valveFlowModulatingControlPressuresIncreasing": "Debietmodulerende regelingsdrukken moeten strikt toenemen",
+        "valveFlowModulatingControlPressuresPositive": "Debietmodulerende regelingsdrukken moeten positief zijn",
+        "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -924,7 +936,17 @@
       "thisPump": "Deze pomp",
       "varyByTimeOfDay": "Variëren per tijdstip van de dag"
     },
-    "patternBased": "Patroon-gebaseerd"
+    "patternBased": "Patroon-gebaseerd",
+    "flowModulating": {
+      "addPoint": "Punt toevoegen",
+      "controlNode": "Controleknooppunt",
+      "flowThrough": "Stroming door",
+      "linearInterpolation": "Lineaire interpolatie",
+      "outletOfThisValve": "{{1}} (uitlaat van dit ventiel)",
+      "setByControl": "Instellen door besturing",
+      "thisValve": "Dit ventiel",
+      "type": "Debiet gemoduleerd"
+    }
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -2084,7 +2106,10 @@
       "zone-summary": "Elke zone samenvatten"
     },
     "downloadAllAsZip": "Alles downloaden als zip",
-    "saveAll": "Alles opslaan"
+    "saveAll": "Alles opslaan",
+    "atLine": "op regel {{1}}",
+    "copyLog": "Log kopiëren",
+    "finishedWithErrors": "Voltooid met fouten"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
@@ -2156,5 +2181,9 @@
       "trial": "De geavanceerde modelbouwer is beschikbaar op Pro-abonnementen of hoger. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen—geen creditcard vereist."
     }
   },
-  "modelBuilderItem": "Modelbouwer"
+  "modelBuilderItem": "Modelbouwer",
+  "alertExportInpLsxFlowModulatingValves": "Debietmodulerende ventielen",
+  "selectZoneContents": "Inhoud selecteren",
+  "zone": "Zone",
+  "zones": "Zones"
 }
