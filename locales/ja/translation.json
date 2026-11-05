@@ -2056,7 +2056,6 @@
   "scripting": {
     "apiReference": "スクリプトAPI",
     "cancelling": "キャンセル中...",
-    "collectionsNotSaved": "保存されていません。お客様のプランにはコレクションは含まれません。",
     "copyName": "{{1}} (コピー)",
     "createScript": "スクリプトを作成",
     "deleteScript": "スクリプトを削除",
@@ -2064,7 +2063,6 @@
     "description": "ネットワーク上での作業を自動化し、不足しているツールを構築します。",
     "download": "ダウンロード",
     "edit": "編集",
-    "errorAtLine": "{{1}} (行 {{2}})",
     "exampleCopyHint": "これは例です。「マイスクリプト」にコピーが保存されます。",
     "examples": "例",
     "files": "ファイル",
@@ -2109,7 +2107,8 @@
     "saveAll": "すべて保存",
     "atLine": "行 {{1}} で",
     "copyLog": "ログをコピー",
-    "finishedWithErrors": "エラーで終了"
+    "finishedWithErrors": "エラーで終了",
+    "logCopied": "コピーしました！"
   },
   "scriptingItem": "スクリプト",
   "pricingPlans": {
@@ -2185,5 +2184,11 @@
   "alertExportInpLsxFlowModulatingValves": "流量調節弁",
   "selectZoneContents": "内容を選択",
   "zone": "ゾーン",
-  "zones": "ゾーン"
+  "zones": "ゾーン",
+  "maxElevation": "最大標高",
+  "minElevation": "最小標高",
+  "zonesNotDeleted": {
+    "description": "ゾーンの削除は有料機能です。",
+    "title": "ゾーンは削除されませんでした"
+  }
 }

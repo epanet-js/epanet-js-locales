@@ -2056,7 +2056,6 @@
   "scripting": {
     "apiReference": "API de Scripting",
     "cancelling": "Cancelando…",
-    "collectionsNotSaved": "Não salvo. Seu plano não inclui coleções.",
     "copyName": "{{1}} (cópia)",
     "createScript": "Criar um script",
     "deleteScript": "Excluir script",
@@ -2064,7 +2063,6 @@
     "description": "Automatize o trabalho em sua rede e crie as ferramentas que você precisa.",
     "download": "Download",
     "edit": "Editar",
-    "errorAtLine": "{{1}} (linha {{2}})",
     "exampleCopyHint": "Este é um exemplo. Salvar mantém uma cópia em Meus scripts.",
     "examples": "Exemplos",
     "files": "Arquivos",
@@ -2109,7 +2107,8 @@
     "saveAll": "Salvar tudo",
     "atLine": "na linha {{1}}",
     "copyLog": "Copiar log",
-    "finishedWithErrors": "Finalizado com erros"
+    "finishedWithErrors": "Finalizado com erros",
+    "logCopied": "Copiado!"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
@@ -2185,5 +2184,11 @@
   "alertExportInpLsxFlowModulatingValves": "Válvulas moduladoras de vazão",
   "selectZoneContents": "Selecionar conteúdo",
   "zone": "Zona",
-  "zones": "Zonas"
+  "zones": "Zonas",
+  "maxElevation": "Elevação Máx.",
+  "minElevation": "Elevação Mín.",
+  "zonesNotDeleted": {
+    "description": "Excluir zonas é um recurso pago.",
+    "title": "Zonas não foram excluídas"
+  }
 }

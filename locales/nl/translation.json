@@ -2056,7 +2056,6 @@
   "scripting": {
     "apiReference": "Scripting API",
     "cancelling": "Annuleren…",
-    "collectionsNotSaved": "Niet opgeslagen. Uw abonnement omvat geen collecties.",
     "copyName": "{{1}} (kopie)",
     "createScript": "Een script aanmaken",
     "deleteScript": "Script verwijderen",
@@ -2064,7 +2063,6 @@
     "description": "Automatiseer werk aan uw netwerk en bouw de hulpmiddelen die u mist.",
     "download": "Downloaden",
     "edit": "Bewerken",
-    "errorAtLine": "{{1}} (regel {{2}})",
     "exampleCopyHint": "Dit is een voorbeeld. Opslaan bewaart een kopie onder Mijn scripts.",
     "examples": "Voorbeelden",
     "files": "Bestanden",
@@ -2109,7 +2107,8 @@
     "saveAll": "Alles opslaan",
     "atLine": "op regel {{1}}",
     "copyLog": "Log kopiëren",
-    "finishedWithErrors": "Voltooid met fouten"
+    "finishedWithErrors": "Voltooid met fouten",
+    "logCopied": "Gekopieerd!"
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
@@ -2185,5 +2184,11 @@
   "alertExportInpLsxFlowModulatingValves": "Debietmodulerende ventielen",
   "selectZoneContents": "Inhoud selecteren",
   "zone": "Zone",
-  "zones": "Zones"
+  "zones": "Zones",
+  "maxElevation": "Max. hoogte",
+  "minElevation": "Min. hoogte",
+  "zonesNotDeleted": {
+    "description": "Zones verwijderen is een betaalde functie.",
+    "title": "Zones zijn niet verwijderd"
+  }
 }

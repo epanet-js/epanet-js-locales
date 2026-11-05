@@ -2056,7 +2056,6 @@
   "scripting": {
     "apiReference": "API Skrip",
     "cancelling": "Membatalkan…",
-    "collectionsNotSaved": "Tidak disimpan. Paket Anda tidak menyertakan koleksi.",
     "copyName": "{{1}} (salin)",
     "createScript": "Buat skrip",
     "deleteScript": "Hapus skrip",
@@ -2064,7 +2063,6 @@
     "description": "Otomatiskan pekerjaan di jaringan Anda dan bangun alat yang Anda lewatkan.",
     "download": "Unduh",
     "edit": "Edit",
-    "errorAtLine": "{{1}} (baris {{2}})",
     "exampleCopyHint": "Ini adalah contoh. Menyimpan akan menyimpan salinan di bawah Skrip saya.",
     "examples": "Contoh",
     "files": "File",
@@ -2109,7 +2107,8 @@
     "saveAll": "Simpan semua",
     "atLine": "pada baris {{1}}",
     "copyLog": "Salin log",
-    "finishedWithErrors": "Selesai dengan kesalahan"
+    "finishedWithErrors": "Selesai dengan kesalahan",
+    "logCopied": "Disalin!"
   },
   "scriptingItem": "Skrip",
   "pricingPlans": {
@@ -2185,5 +2184,11 @@
   "alertExportInpLsxFlowModulatingValves": "Katup modulasi aliran",
   "selectZoneContents": "Pilih isi",
   "zone": "Zona",
-  "zones": "Zona"
+  "zones": "Zona",
+  "maxElevation": "Elevasi maks",
+  "minElevation": "Elevasi min",
+  "zonesNotDeleted": {
+    "description": "Menghapus zona adalah fitur berbayar.",
+    "title": "Zona tidak dihapus"
+  }
 }

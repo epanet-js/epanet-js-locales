@@ -2056,7 +2056,6 @@
   "scripting": {
     "apiReference": "API de Scriptage",
     "cancelling": "Annulation en cours…",
-    "collectionsNotSaved": "Non enregistré. Votre plan n'inclut pas les collections.",
     "copyName": "{{1}} (copie)",
     "createScript": "Créer un script",
     "deleteScript": "Supprimer le script",
@@ -2064,7 +2063,6 @@
     "description": "Automatisez le travail sur votre réseau et créez les outils qui vous manquent.",
     "download": "Télécharger",
     "edit": "Modifier",
-    "errorAtLine": "{{1}} (ligne {{2}})",
     "exampleCopyHint": "Ceci est un exemple. L'enregistrement conserve une copie dans Mes scripts.",
     "examples": "Exemples",
     "files": "Fichiers",
@@ -2109,7 +2107,8 @@
     "saveAll": "Tout enregistrer",
     "atLine": "à la ligne {{1}}",
     "copyLog": "Copier le journal",
-    "finishedWithErrors": "Terminé avec des erreurs"
+    "finishedWithErrors": "Terminé avec des erreurs",
+    "logCopied": "Copié !"
   },
   "scriptingItem": "Scriptage",
   "pricingPlans": {
@@ -2185,5 +2184,11 @@
   "alertExportInpLsxFlowModulatingValves": "Vannes à débit modulé",
   "selectZoneContents": "Sélectionner le contenu",
   "zone": "Zone",
-  "zones": "Zones"
+  "zones": "Zones",
+  "maxElevation": "Élévation maximale",
+  "minElevation": "Élévation minimale",
+  "zonesNotDeleted": {
+    "description": "La suppression des zones est une fonctionnalité payante.",
+    "title": "Les zones n'ont pas été supprimées"
+  }
 }
