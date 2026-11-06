@@ -1045,8 +1045,6 @@
   "trial.status_zero": "トライアル: 本日失効",
   "undefinedPumpCurves": "未定義の曲線を参照するポンプ (ポンプ {{1}} 台)",
   "curveType": "曲線タイプ",
-  "foundersPartnerDescription": "epanet-jsをサポート -",
-  "foundersPartnerLearnMore": "創設パートナーになる",
   "foundersPartnerTitle": "私たちの創設パートナー",
   "pumpName": "ポンプ名",
   "junctions": "接点",
@@ -1586,7 +1584,9 @@
       "title": "完了",
       "mergedFeaturesHeader": "結合されたフィーチャの数",
       "mergedLabelHeader": "ゾーン",
-      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:"
+      "mergedSummary": "複数のフィーチャから{{1}}個のゾーンを結合しました:",
+      "renamedSummary": "同じラベルの別のゾーンと属性が競合する{{1}}個のゾーンの名前を変更しました",
+      "renamedZone": "{{1}}は{{2}}としてインポートされました"
     },
     "dataInputStep": {
       "addFromFile": "ファイルから追加",
@@ -1599,7 +1599,9 @@
       "none": "なし（ラベルを自動生成）",
       "previewHeader": "ラベル",
       "previewMore": "...その他{{1}}件",
-      "title": "データマッピング"
+      "title": "データマッピング",
+      "attributesPlaceholder": "カスタム属性なし",
+      "attributesSelectedCount": "カスタム属性{{1}}件"
     },
     "errors": {
       "invalidFile": "選択されたファイルを読み取れませんでした。",
@@ -1612,13 +1614,6 @@
       "deleteAndImport": "削除してインポート",
       "explain": "現在のゾーンは完全に削除され、新しくインポートするゾーンに置き換えられます。",
       "question": "続行してもよろしいですか？"
-    },
-    "paywall": {
-      "description1": "ゾーンをepanet-jsに取り込み、モデルで直接使用します。",
-      "description2": "圧力ゾーンや計測エリアを重ねて表示することで、ネットワークのフットプリントを簡単にマップし、一目でネットワークを把握できます。",
-      "plans": "ゾーンオーバーレイは有料プランでご利用いただけます。",
-      "title": "ゾーンをインポートするにはアップグレードしてください",
-      "trial": "ゾーンオーバーレイは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
     },
     "menuTitle": "ゾーン"
   },
@@ -1715,8 +1710,7 @@
     "saveBuildSettings": "ビルド設定を保存",
     "filterSplitAndRules": "値でフィルタリング、分割、カスタムルール",
     "largeModels": "10万以上のアセットを持つモデル",
-    "multipleFilesPerLayer": "レイヤーごとに複数のファイル",
-    "zones": "ゾーン"
+    "multipleFilesPerLayer": "レイヤーごとに複数のファイル"
   },
   "source.concen": "濃度",
   "source.flowpaced": "流量比例ブースター",
@@ -2023,12 +2017,25 @@
       "selectOnly": "これのみ選択",
       "saveCurrent": "現在の選択範囲を保存",
       "labelPlaceholder": "選択セット名",
-      "newLabel": "新しい選択セット名"
+      "newLabel": "新しい選択セット名",
+      "add": "追加",
+      "moveTo": "フォルダーに移動…",
+      "new": "選択セット"
     },
     "title": "コレクション",
     "upgrade": {
       "description": "任意のアセットグループやマップエリアを保存して、ワンクリックでそこに戻ることができます",
       "title": "独自のコレクションを保存"
+    },
+    "groups": {
+      "add": "フォルダーに追加",
+      "delete": "フォルダーを削除",
+      "deleteConfirmation_one": "フォルダー「{{1}}」と内部の選択セットを削除しますか？",
+      "deleteConfirmation_other": "フォルダー「{{1}}」と内部の{{count}}個の選択セットを削除しますか？",
+      "labelPlaceholder": "フォルダー名",
+      "new": "フォルダー",
+      "newLabel": "新しいフォルダー名",
+      "topLevel": "トップレベル"
     }
   },
   "alertExportInpLsxDownloadAfter": " このファイルを実行するには。",
@@ -2186,9 +2193,5 @@
   "zone": "ゾーン",
   "zones": "ゾーン",
   "maxElevation": "最大標高",
-  "minElevation": "最小標高",
-  "zonesNotDeleted": {
-    "description": "ゾーンの削除は有料機能です。",
-    "title": "ゾーンは削除されませんでした"
-  }
+  "minElevation": "最小標高"
 }

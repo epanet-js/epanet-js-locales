@@ -497,8 +497,6 @@
   "flowAbs": "Aliran (abs.)",
   "flows": "Aliran",
   "flowVsHead": "Aliran vs head",
-  "foundersPartnerDescription": "Dukung epanet-js -",
-  "foundersPartnerLearnMore": "Jadilah Mitra Pendiri",
   "foundersPartnerTitle": "Mitra Pendiri Kami",
   "free.forBetterModelling": "Untuk pengalaman pemodelan yang lebih baik",
   "generatingInp": "Membuat INP...",
@@ -1586,7 +1584,9 @@
       "title": "Selesai",
       "mergedFeaturesHeader": "Jumlah fitur yang digabungkan",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:"
+      "mergedSummary": "Menggabungkan {{1}} zona dari beberapa fitur:",
+      "renamedSummary": "Mengganti nama {{1}} zona yang atributnya berkonflik dengan zona lain dengan label yang sama",
+      "renamedZone": "{{1}} diimpor sebagai {{2}}"
     },
     "dataInputStep": {
       "addFromFile": "Tambahkan dari file",
@@ -1599,7 +1599,9 @@
       "none": "Tidak ada (buat label otomatis)",
       "previewHeader": "Label",
       "previewMore": "... dan {{1}} lainnya",
-      "title": "Pemetaan data"
+      "title": "Pemetaan data",
+      "attributesPlaceholder": "Tidak ada atribut kustom",
+      "attributesSelectedCount": "{{1}} atribut kustom"
     },
     "errors": {
       "invalidFile": "File yang dipilih tidak dapat dibaca.",
@@ -1612,13 +1614,6 @@
       "deleteAndImport": "Hapus dan impor",
       "explain": "Zona Anda saat ini akan dihapus secara permanen dan diganti dengan zona dari impor baru Anda.",
       "question": "Apakah Anda yakin ingin melanjutkan?"
-    },
-    "paywall": {
-      "description1": "Bawa zona Anda ke epanet-js dan gunakan langsung di model Anda.",
-      "description2": "Tumpangkan zona tekanan atau area terukur untuk dengan mudah memetakan jejak jaringan Anda dan memahami jaringan Anda secara sekilas.",
-      "plans": "Overlay zona tersedia pada paket berbayar.",
-      "title": "Tingkatkan untuk mengimpor zona",
-      "trial": "Overlay zona adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
     },
     "menuTitle": "Zona"
   },
@@ -1715,8 +1710,7 @@
     "saveBuildSettings": "Simpan pengaturan build",
     "filterSplitAndRules": "Saring, bagi berdasarkan nilai dan aturan kustom",
     "largeModels": "Model lebih dari 100 ribu aset",
-    "multipleFilesPerLayer": "Beberapa file per lapisan",
-    "zones": "Zona"
+    "multipleFilesPerLayer": "Beberapa file per lapisan"
   },
   "source.concen": "Konsentrasi",
   "source.flowpaced": "Peningkat berdasarkan aliran",
@@ -2023,12 +2017,25 @@
       "selectOnly": "Pilih saja",
       "saveCurrent": "Simpan pilihan saat ini",
       "labelPlaceholder": "Nama set pilihan",
-      "newLabel": "Nama set pilihan baru"
+      "newLabel": "Nama set pilihan baru",
+      "add": "Tambah",
+      "moveTo": "Pindahkan ke folder…",
+      "new": "Set pilihan"
     },
     "title": "Koleksi",
     "upgrade": {
       "description": "Simpan setiap kelompok aset atau area peta untuk kembali ke sana dalam satu klik",
       "title": "Simpan koleksi Anda sendiri"
+    },
+    "groups": {
+      "add": "Tambahkan ke folder",
+      "delete": "Hapus folder",
+      "deleteConfirmation_one": "Hapus folder \"{{1}}\" dan set pilihan di dalamnya?",
+      "deleteConfirmation_other": "Hapus folder \"{{1}}\" dan {{count}} set pilihan di dalamnya?",
+      "labelPlaceholder": "Nama folder",
+      "new": "Folder",
+      "newLabel": "Nama folder baru",
+      "topLevel": "Level teratas"
     }
   },
   "alertExportInpLsxDownloadAfter": " untuk menjalankan file ini.",
@@ -2186,9 +2193,5 @@
   "zone": "Zona",
   "zones": "Zona",
   "maxElevation": "Elevasi maks",
-  "minElevation": "Elevasi min",
-  "zonesNotDeleted": {
-    "description": "Menghapus zona adalah fitur berbayar.",
-    "title": "Zona tidak dihapus"
-  }
+  "minElevation": "Elevasi min"
 }

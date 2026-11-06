@@ -526,10 +526,6 @@
   "zone": "Zone",
   "zones": "Zones",
   "selectZoneContents": "Select contents",
-  "zonesNotDeleted": {
-    "title": "Zones weren't deleted",
-    "description": "Deleting zones is a paid feature."
-  },
   "none": "None",
   "globalDefault": "Global default",
   "empty": "Empty",
@@ -787,8 +783,6 @@
   "demoNetworksTitle": "Demo networks",
   "seeDemoNetworks": "See demo networks",
   "foundersPartnerTitle": "Our Founding Partners",
-  "foundersPartnerDescription": "Support epanet-js -",
-  "foundersPartnerLearnMore": "Become a Founding Partner",
   "issuesSummary": "Unsupported features",
   "useOfUnsupported": "Use of unsupported sections",
   "nonDefaultEpanetValues": "Non-default epanet {{1}} values detected",
@@ -911,7 +905,6 @@
     "filterSplitAndRules": "Filter, split by value and custom rules",
     "pipeYearAndMaterials": "Pipe year and materials",
     "customAttributes": "Custom attributes",
-    "zones": "Zones",
     "largeModels": "Models over 100K assets",
     "saveBuildSettings": "Save build settings"
   },
@@ -2082,14 +2075,18 @@
       "description": "Choose a property to use as zone label, or auto-generate labels.",
       "none": "None (auto-generate labels)",
       "previewHeader": "Label",
-      "previewMore": "... and {{1}} more"
+      "previewMore": "... and {{1}} more",
+      "attributesPlaceholder": "No custom attributes",
+      "attributesSelectedCount": "{{1}} custom attributes"
     },
     "completeStep": {
       "title": "Complete",
       "summary": "Imported {{1}} zones.",
       "mergedSummary": "Merged {{1}} zones from multiple features:",
       "mergedLabelHeader": "Zone",
-      "mergedFeaturesHeader": "Number of merged features"
+      "mergedFeaturesHeader": "Number of merged features",
+      "renamedSummary": "Renamed {{1}} zones whose attributes conflict with another zone of the same label",
+      "renamedZone": "{{1}} was imported as {{2}}"
     },
     "errors": {
       "invalidFile": "The selected file could not be read.",
@@ -2101,13 +2098,6 @@
       "explain": "Your current zones will be permanently deleted and replaced with the zones from your new import.",
       "question": "Are you sure you want to proceed?",
       "deleteAndImport": "Delete and import"
-    },
-    "paywall": {
-      "title": "Upgrade to import zones",
-      "description1": "Bring your zones into epanet-js and use them directly in your model.",
-      "description2": "Overlay pressure zones or metered areas to easily map your network’s footprint and understand your network at a glance.",
-      "plans": "Zone overlays are available on paid plans.",
-      "trial": "Zone overlays are a paid feature. Activate your free trial to get full access for 14 days—no credit card required."
     }
   },
   "pipeLibrary": {
@@ -2173,7 +2163,10 @@
       "save": "Save selection",
       "selectOnly": "Select only",
       "newLabel": "New selection set name",
-      "labelPlaceholder": "Selection set name"
+      "labelPlaceholder": "Selection set name",
+      "add": "Add",
+      "new": "Selection set",
+      "moveTo": "Move to folder…"
     },
     "bookmarks": {
       "title": "Bookmarks",
@@ -2185,6 +2178,16 @@
     "upgrade": {
       "title": "Save your own collections",
       "description": "Keep any group of assets or map area to come back to it in one click"
+    },
+    "groups": {
+      "new": "Folder",
+      "newLabel": "New folder name",
+      "labelPlaceholder": "Folder name",
+      "topLevel": "Top level",
+      "delete": "Delete folder",
+      "deleteConfirmation_one": "Delete folder \"{{1}}\" and the selection set inside it?",
+      "deleteConfirmation_other": "Delete folder \"{{1}}\" and the {{count}} selection sets inside it?",
+      "add": "Add to folder"
     }
   },
   "tabs": {

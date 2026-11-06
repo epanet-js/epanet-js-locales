@@ -1045,8 +1045,6 @@
   "trial.status_zero": "Proefperiode: verloopt vandaag",
   "undefinedPumpCurves": "Pompen die verwijzen naar ongedefinieerde curves ({{1}} pompen)",
   "curveType": "Curvetype",
-  "foundersPartnerDescription": "Steun epanet-js -",
-  "foundersPartnerLearnMore": "Word een Founding Partner",
   "foundersPartnerTitle": "Onze Founding Partners",
   "pumpName": "Pompnaam",
   "junctions": "Knooppunten",
@@ -1586,7 +1584,9 @@
       "title": "Voltooid",
       "mergedFeaturesHeader": "Aantal samengevoegde objecten",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:"
+      "mergedSummary": "Samengevoegde {{1}} zones uit meerdere objecten:",
+      "renamedSummary": "Hernoemde {{1}} zones waarvan de attributen conflicteren met een andere zone met hetzelfde label",
+      "renamedZone": "{{1}} werd geïmporteerd als {{2}}"
     },
     "dataInputStep": {
       "addFromFile": "Toevoegen vanuit bestand",
@@ -1599,7 +1599,9 @@
       "none": "Geen (labels automatisch genereren)",
       "previewHeader": "Label",
       "previewMore": "... en {{1}} meer",
-      "title": "Gegevenskoppeling"
+      "title": "Gegevenskoppeling",
+      "attributesPlaceholder": "Geen aangepaste attributen",
+      "attributesSelectedCount": "{{1}} aangepaste attributen"
     },
     "errors": {
       "invalidFile": "Het geselecteerde bestand kon niet worden gelezen.",
@@ -1612,13 +1614,6 @@
       "deleteAndImport": "Verwijderen en importeren",
       "explain": "Uw huidige zones worden permanent verwijderd en vervangen door de zones uit uw nieuwe import.",
       "question": "Weet u zeker dat u wilt doorgaan?"
-    },
-    "paywall": {
-      "description1": "Breng uw zones in epanet-js en gebruik ze direct in uw model.",
-      "description2": "Leg drukzones of gemeten gebieden over om de voetafdruk van uw netwerk gemakkelijk in kaart te brengen en uw netwerk in één oogopslag te begrijpen.",
-      "plans": "Zone-overlays zijn beschikbaar op betaalde abonnementen.",
-      "title": "Upgrade om zones te importeren",
-      "trial": "Zone-overlays zijn een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
     },
     "menuTitle": "Zones"
   },
@@ -1715,8 +1710,7 @@
     "saveBuildSettings": "Build-instellingen opslaan",
     "filterSplitAndRules": "Filteren, splitsen op waarde en aangepaste regels",
     "largeModels": "Modellen met meer dan 100K onderdelen",
-    "multipleFilesPerLayer": "Meerdere bestanden per laag",
-    "zones": "Zones"
+    "multipleFilesPerLayer": "Meerdere bestanden per laag"
   },
   "source.concen": "Concentratie",
   "source.flowpaced": "Debietgestuurde booster",
@@ -2023,12 +2017,25 @@
       "selectOnly": "Alleen selecteren",
       "saveCurrent": "Huidige selectie",
       "labelPlaceholder": "Selectiesetnaam",
-      "newLabel": "Nieuwe selectiesetnaam"
+      "newLabel": "Nieuwe selectiesetnaam",
+      "add": "Toevoegen",
+      "moveTo": "Verplaatsen naar map…",
+      "new": "Selectieset"
     },
     "title": "Collecties",
     "upgrade": {
       "description": "Bewaar elke groep onderdelen of elk kaartgebied om er met één klik naar terug te keren",
       "title": "Sla uw eigen collecties op"
+    },
+    "groups": {
+      "add": "Toevoegen aan map",
+      "delete": "Map verwijderen",
+      "deleteConfirmation_one": "Map \"{{1}}\" en de selectieset daarin verwijderen?",
+      "deleteConfirmation_other": "Map \"{{1}}\" en de {{count}} selectiesets daarin verwijderen?",
+      "labelPlaceholder": "Mapnaam",
+      "new": "Map",
+      "newLabel": "Nieuwe mapnaam",
+      "topLevel": "Hoofdniveau"
     }
   },
   "alertExportInpLsxDownloadAfter": " om dit bestand uit te voeren.",
@@ -2186,9 +2193,5 @@
   "zone": "Zone",
   "zones": "Zones",
   "maxElevation": "Max. hoogte",
-  "minElevation": "Min. hoogte",
-  "zonesNotDeleted": {
-    "description": "Zones verwijderen is een betaalde functie.",
-    "title": "Zones zijn niet verwijderd"
-  }
+  "minElevation": "Min. hoogte"
 }

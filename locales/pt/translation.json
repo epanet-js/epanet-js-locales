@@ -1045,8 +1045,6 @@
   "trial.status_zero": "Teste: expira hoje",
   "undefinedPumpCurves": "Bombas referenciando curvas indefinidas ({{1}} bombas)",
   "curveType": "Tipo de curva",
-  "foundersPartnerDescription": "Apoie o epanet-js -",
-  "foundersPartnerLearnMore": "Torne-se um Parceiro Fundador",
   "foundersPartnerTitle": "Nossos Parceiros Fundadores",
   "pumpName": "Nome da bomba",
   "junctions": "Nós",
@@ -1586,7 +1584,9 @@
       "title": "Concluído",
       "mergedFeaturesHeader": "Número de características mescladas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:"
+      "mergedSummary": "Mescladas {{1}} zonas de múltiplas características:",
+      "renamedSummary": "Renomeadas {{1}} zonas cujos atributos entram em conflito com outra zona com o mesmo rótulo",
+      "renamedZone": "{{1}} foi importado(a) como {{2}}"
     },
     "dataInputStep": {
       "addFromFile": "Adicionar de arquivo",
@@ -1599,7 +1599,9 @@
       "none": "Nenhum (gerar rótulos automaticamente)",
       "previewHeader": "Rótulo",
       "previewMore": "... e {{1}} mais",
-      "title": "Mapeamento de Dados"
+      "title": "Mapeamento de Dados",
+      "attributesPlaceholder": "Nenhum atributo personalizado",
+      "attributesSelectedCount": "{{1}} atributos personalizados"
     },
     "errors": {
       "invalidFile": "O arquivo selecionado não pôde ser lido.",
@@ -1612,13 +1614,6 @@
       "deleteAndImport": "Excluir e importar",
       "explain": "Suas zonas atuais serão permanentemente excluídas e substituídas pelas zonas de sua nova importação.",
       "question": "Tem certeza de que deseja prosseguir?"
-    },
-    "paywall": {
-      "description1": "Traga suas zonas para o epanet-js e use-as diretamente em seu modelo.",
-      "description2": "Sobreponha zonas de pressão ou áreas de medição para mapear facilmente a pegada de sua rede e entendê-la rapidamente.",
-      "plans": "As sobreposições de zona estão disponíveis em planos pagos.",
-      "title": "Atualize para importar zonas",
-      "trial": "As sobreposições de zona são um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias—sem necessidade de cartão de crédito."
     },
     "menuTitle": "Zonas"
   },
@@ -1715,8 +1710,7 @@
     "saveBuildSettings": "Salvar configurações de construção",
     "filterSplitAndRules": "Filtrar, dividir por valor e regras personalizadas",
     "largeModels": "Modelos com mais de 100 mil ativos",
-    "multipleFilesPerLayer": "Múltiplos arquivos por camada",
-    "zones": "Zonas"
+    "multipleFilesPerLayer": "Múltiplos arquivos por camada"
   },
   "source.concen": "Concentração",
   "source.flowpaced": "Dosador de vazão",
@@ -2023,12 +2017,25 @@
       "selectOnly": "Selecionar apenas",
       "saveCurrent": "Salvar seleção atual",
       "labelPlaceholder": "Nome do conjunto de seleção",
-      "newLabel": "Novo nome do conjunto de seleção"
+      "newLabel": "Novo nome do conjunto de seleção",
+      "add": "Adicionar",
+      "moveTo": "Mover para pasta…",
+      "new": "Conjunto de seleção"
     },
     "title": "Coleções",
     "upgrade": {
       "description": "Mantenha qualquer grupo de ativos ou área de mapa para retornar a ele com um clique",
       "title": "Salve suas próprias coleções"
+    },
+    "groups": {
+      "add": "Adicionar à pasta",
+      "delete": "Excluir pasta",
+      "deleteConfirmation_one": "Excluir pasta \"{{1}}\" e o conjunto de seleção dentro dela?",
+      "deleteConfirmation_other": "Excluir pasta \"{{1}}\" e os {{count}} conjuntos de seleção dentro dela?",
+      "labelPlaceholder": "Nome da pasta",
+      "new": "Pasta",
+      "newLabel": "Novo nome da pasta",
+      "topLevel": "Nível superior"
     }
   },
   "alertExportInpLsxDownloadAfter": " para executar este arquivo.",
@@ -2186,9 +2193,5 @@
   "zone": "Zona",
   "zones": "Zonas",
   "maxElevation": "Elevação Máx.",
-  "minElevation": "Elevação Mín.",
-  "zonesNotDeleted": {
-    "description": "Excluir zonas é um recurso pago.",
-    "title": "Zonas não foram excluídas"
-  }
+  "minElevation": "Elevação Mín."
 }

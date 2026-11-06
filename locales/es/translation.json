@@ -1058,8 +1058,6 @@
   "trial.status_zero": "Prueba: expira hoy",
   "undefinedPumpCurves": "Bombas que referencian curvas no definidas ({{1}} bombas)",
   "curveType": "Tipo de curva",
-  "foundersPartnerDescription": "Apoya epanet-js -",
-  "foundersPartnerLearnMore": "Conviértete en Socio Fundador",
   "foundersPartnerTitle": "Nuestros Socios Fundadores",
   "pumpName": "Nombre de la bomba",
   "junctions": "Nudos",
@@ -1599,7 +1597,9 @@
       "title": "Completado",
       "mergedFeaturesHeader": "Número de características fusionadas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:"
+      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:",
+      "renamedSummary": "Renombradas {{1}} zonas cuyos atributos entran en conflicto con otra zona de la misma etiqueta",
+      "renamedZone": "{{1}} fue importada como {{2}}"
     },
     "dataInputStep": {
       "addFromFile": "Añadir desde archivo",
@@ -1612,7 +1612,9 @@
       "none": "Ninguno (auto-generar etiquetas)",
       "previewHeader": "Etiqueta",
       "previewMore": "... y {{1}} más",
-      "title": "Mapeo de datos"
+      "title": "Mapeo de datos",
+      "attributesPlaceholder": "Sin atributos personalizados",
+      "attributesSelectedCount": "{{1}} atributos personalizados"
     },
     "errors": {
       "invalidFile": "No se pudo leer el archivo seleccionado.",
@@ -1625,13 +1627,6 @@
       "deleteAndImport": "Eliminar e importar",
       "explain": "Tus zonas actuales se eliminarán permanentemente y se reemplazarán con las zonas de tu nueva importación.",
       "question": "¿Estás seguro de que quieres continuar?"
-    },
-    "paywall": {
-      "description1": "Integra tus zonas en epanet-js y úsalas directamente en tu modelo.",
-      "description2": "Superpón zonas de presión o áreas de medida para mapear fácilmente la huella de tu red y entenderla de un vistazo.",
-      "plans": "Las superposiciones de zonas están disponibles en planes de pago.",
-      "title": "Mejora para importar zonas",
-      "trial": "Las superposiciones de zonas son una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días — no se requiere tarjeta de crédito."
     },
     "menuTitle": "Zonas"
   },
@@ -1728,8 +1723,7 @@
     "saveBuildSettings": "Guardar ajustes de construcción",
     "filterSplitAndRules": "Filtrar, dividir por valor y reglas personalizadas",
     "largeModels": "Modelos con más de 100K activos",
-    "multipleFilesPerLayer": "Múltiples archivos por capa",
-    "zones": "Zonas"
+    "multipleFilesPerLayer": "Múltiples archivos por capa"
   },
   "source.concen": "Concentración",
   "source.flowpaced": "Inyección de caudal",
@@ -2030,12 +2024,25 @@
       "selectOnly": "Seleccionar solo",
       "saveCurrent": "Guardar selección actual",
       "labelPlaceholder": "Nombre del conjunto de selección",
-      "newLabel": "Nuevo nombre de conjunto de selección"
+      "newLabel": "Nuevo nombre de conjunto de selección",
+      "add": "Añadir",
+      "moveTo": "Mover a carpeta…",
+      "new": "Conjunto de selección"
     },
     "title": "Colecciones",
     "upgrade": {
       "description": "Guarda cualquier grupo de activos o área de mapa para volver a ella con un solo clic",
       "title": "Guarda tus propias colecciones"
+    },
+    "groups": {
+      "add": "Añadir a carpeta",
+      "delete": "Eliminar carpeta",
+      "deleteConfirmation_one": "¿Eliminar carpeta \"{{1}}\" y el conjunto de selección que contiene?",
+      "deleteConfirmation_other": "¿Eliminar carpeta \"{{1}}\" y los {{count}} conjuntos de selección que contiene?",
+      "labelPlaceholder": "Nombre de la carpeta",
+      "new": "Carpeta",
+      "newLabel": "Nuevo nombre de carpeta",
+      "topLevel": "Nivel superior"
     }
   },
   "alertExportInpLsxDownloadAfter": " para ejecutar este archivo.",
@@ -2193,9 +2200,5 @@
   "zone": "Zona",
   "zones": "Zonas",
   "maxElevation": "Elevación máxima",
-  "minElevation": "Elevación mínima",
-  "zonesNotDeleted": {
-    "description": "La eliminación de zonas es una función de pago.",
-    "title": "Las zonas no fueron eliminadas"
-  }
+  "minElevation": "Elevación mínima"
 }

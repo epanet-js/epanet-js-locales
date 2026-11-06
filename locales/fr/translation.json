@@ -1045,8 +1045,6 @@
   "trial.status_zero": "Essai : expire aujourd'hui",
   "undefinedPumpCurves": "Pompes faisant référence à des courbes non définies ({{1}} pompes)",
   "curveType": "Type de courbe",
-  "foundersPartnerDescription": "Soutenez epanet-js -",
-  "foundersPartnerLearnMore": "Devenez un Partenaire Fondateur",
   "foundersPartnerTitle": "Nos Partenaires Fondateurs",
   "pumpName": "Nom de la pompe",
   "junctions": "Nœuds",
@@ -1586,7 +1584,9 @@
       "title": "Terminé",
       "mergedFeaturesHeader": "Nombre de caractéristiques fusionnées",
       "mergedLabelHeader": "Zone",
-      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :"
+      "mergedSummary": "Fusionné {{1}} zones de plusieurs entités :",
+      "renamedSummary": "{{1}} zones renommées dont les attributs sont en conflit avec une autre zone de même étiquette",
+      "renamedZone": "{{1}} a été importé comme {{2}}"
     },
     "dataInputStep": {
       "addFromFile": "Ajouter à partir d'un fichier",
@@ -1599,7 +1599,9 @@
       "none": "Aucun (génération automatique d'étiquettes)",
       "previewHeader": "Étiquette",
       "previewMore": "... et {{1}} de plus",
-      "title": "Mappage des données"
+      "title": "Mappage des données",
+      "attributesPlaceholder": "Aucun attribut personnalisé",
+      "attributesSelectedCount": "{{1}} attributs personnalisés"
     },
     "errors": {
       "invalidFile": "Le fichier sélectionné n'a pas pu être lu.",
@@ -1612,13 +1614,6 @@
       "deleteAndImport": "Supprimer et importer",
       "explain": "Vos zones actuelles seront définitivement supprimées et remplacées par les zones de votre nouvelle importation.",
       "question": "Êtes-vous sûr de vouloir continuer ?"
-    },
-    "paywall": {
-      "description1": "Intégrez vos zones dans epanet-js et utilisez-les directement dans votre modèle.",
-      "description2": "Superposez les zones de pression ou les zones mesurées pour cartographier facilement l'empreinte de votre réseau et comprendre votre réseau en un coup d'œil.",
-      "plans": "Les superpositions de zones sont disponibles avec les forfaits payants.",
-      "title": "Mettre à niveau pour importer des zones",
-      "trial": "Les superpositions de zones sont une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
     },
     "menuTitle": "Zones"
   },
@@ -1715,8 +1710,7 @@
     "saveBuildSettings": "Enregistrer les paramètres de construction",
     "filterSplitAndRules": "Filtrer, diviser par valeur et règles personnalisées",
     "largeModels": "Modèles de plus de 100K éléments",
-    "multipleFilesPerLayer": "Plusieurs fichiers par couche",
-    "zones": "Zones"
+    "multipleFilesPerLayer": "Plusieurs fichiers par couche"
   },
   "source.concen": "Concentration",
   "source.flowpaced": "Booster à débit régulé",
@@ -2023,12 +2017,25 @@
       "selectOnly": "Sélectionner uniquement",
       "saveCurrent": "Enregistrer la sélection actuelle",
       "labelPlaceholder": "Nom de l'ensemble de sélection",
-      "newLabel": "Nouveau nom d'ensemble de sélection"
+      "newLabel": "Nouveau nom d'ensemble de sélection",
+      "add": "Ajouter",
+      "moveTo": "Déplacer vers le dossier…",
+      "new": "Ensemble de sélection"
     },
     "title": "Collections",
     "upgrade": {
       "description": "Conservez n'importe quel groupe d'éléments ou zone de carte pour y revenir en un clic",
       "title": "Enregistrez vos propres collections"
+    },
+    "groups": {
+      "add": "Ajouter au dossier",
+      "delete": "Supprimer le dossier",
+      "deleteConfirmation_one": "Supprimer le dossier « {{1}} » et l'ensemble de sélection qu'il contient ?",
+      "deleteConfirmation_other": "Supprimer le dossier « {{1}} » et les {{count}} ensembles de sélection qu'il contient ?",
+      "labelPlaceholder": "Nom du dossier",
+      "new": "Dossier",
+      "newLabel": "Nouveau nom de dossier",
+      "topLevel": "Niveau supérieur"
     }
   },
   "alertExportInpLsxDownloadAfter": " pour exécuter ce fichier.",
@@ -2186,9 +2193,5 @@
   "zone": "Zone",
   "zones": "Zones",
   "maxElevation": "Élévation maximale",
-  "minElevation": "Élévation minimale",
-  "zonesNotDeleted": {
-    "description": "La suppression des zones est une fonctionnalité payante.",
-    "title": "Les zones n'ont pas été supprimées"
-  }
+  "minElevation": "Élévation minimale"
 }
