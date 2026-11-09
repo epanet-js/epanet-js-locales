@@ -489,6 +489,10 @@
           "choose": "Selecionar um atributo...",
           "x": "Longitude / X",
           "y": "Latitude / Y"
+        },
+        "attributesSelector": {
+          "placeholder": "Nenhum atributo personalizado",
+          "selectedCount": "{{1}} atributos personalizados"
         }
       },
       "loading": "Carregando...",
@@ -1595,7 +1599,6 @@
       "skippedRecordsWarning": "{{1}} registros não são polígonos e não serão importados como zonas."
     },
     "dataMappingStep": {
-      "description": "Escolha uma propriedade para usar como rótulo de zona, ou gere rótulos automaticamente.",
       "none": "Nenhum (gerar rótulos automaticamente)",
       "previewHeader": "Rótulo",
       "previewMore": "... e {{1}} mais",
@@ -2108,14 +2111,75 @@
       "select-small-pipes": "Selecionar tubulações pequenas",
       "trace-zone": "Rastrear a zona em torno da seleção",
       "water-source": "De onde este nó obtém sua água?",
-      "zone-summary": "Resumir cada zona"
+      "zone-summary": "Resumir cada zona",
+      "renew-oldest-pipes": "Renovar as tubulações mais antigas",
+      "scale-demands": "Escalonar demandas por porcentagem",
+      "tag-assets-by-zone": "Atribuir zona aos ativos",
+      "upsize-fastest-pipes": "Aumentar o diâmetro das tubulações mais rápidas"
     },
     "downloadAllAsZip": "Baixar tudo como zip",
     "saveAll": "Salvar tudo",
     "atLine": "na linha {{1}}",
     "copyLog": "Copiar log",
     "finishedWithErrors": "Finalizado com erros",
-    "logCopied": "Copiado!"
+    "logCopied": "Copiado!",
+    "assistant": {
+      "askAi": "Perguntar à IA",
+      "describeChange": "Descreva uma alteração",
+      "describeChangePlaceholder": "Descreva uma alteração…",
+      "describeScript": "Descreva o script que você deseja",
+      "describeScriptPlaceholder": "Selecionar todas as tubulações com diâmetro igual ou inferior a 100 mm e exportá-las como CSV",
+      "failures": {
+        "limitReached": {
+          "description": "Entre em contato com o suporte para adicionar mais.",
+          "title": "Você usou todo o seu crédito do assistente"
+        },
+        "notEnabled": {
+          "description": "Entre em contato com o suporte para obter acesso.",
+          "title": "O assistente não está habilitado para sua conta"
+        },
+        "signedOut": {
+          "description": "Entre novamente e envie sua solicitação.",
+          "title": "Você está desconectado"
+        },
+        "tooLong": {
+          "description": "Encurte sua mensagem ou o script, depois tente novamente.",
+          "title": "Esta solicitação é muito longa"
+        },
+        "unavailable": {
+          "description": "Tente novamente. Se o erro persistir, entre em contato com o suporte.",
+          "title": "Não foi possível escrever o script"
+        }
+      },
+      "hintFind": "Diga o que procurar, como tubulações com diâmetro igual ou inferior a 100 mm ou nós com menos de 20 m de pressão.",
+      "hintNames": "Use os nomes do seu modelo: zonas, atributos personalizados, padrões.",
+      "hintResult": "Diga o que retornar: uma tabela, um arquivo CSV ou uma seleção no mapa.",
+      "scopes": {
+        "anonymizedNetwork": {
+          "description": "Adiciona todos os ativos e seus atributos, sem rótulos, atributos personalizados ou coordenadas.",
+          "label": "Script + rede anonimizada"
+        },
+        "network": {
+          "description": "Adiciona todos os ativos, seus atributos e os últimos resultados.",
+          "label": "Script + rede completa"
+        },
+        "script": {
+          "description": "Sua mensagem e este script.",
+          "label": "Somente script"
+        },
+        "scriptAndOutput": {
+          "description": "Adiciona a saída da última execução, incluindo erros.",
+          "label": "Script + saída do console"
+        }
+      },
+      "send": "Enviar",
+      "stop": "Parar",
+      "updating": "Atualizando script…",
+      "whatTheAiCanSee": "O que a IA pode ver",
+      "whatTheAiCanSeeValue": "O que a IA pode ver: {{1}}",
+      "writeMyself": "Escrever script eu mesmo",
+      "writing": "Escrevendo script…"
+    }
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

@@ -635,6 +635,10 @@
           "choose": "Pilih atribut...",
           "x": "Bujur / X",
           "y": "Lintang / Y"
+        },
+        "attributesSelector": {
+          "placeholder": "Tidak ada atribut kustom",
+          "selectedCount": "{{1}} atribut kustom"
         }
       },
       "dataPreviewStep": "Pemetaan data",
@@ -1595,7 +1599,6 @@
       "skippedRecordsWarning": "{{1}} catatan bukan poligon dan tidak akan diimpor sebagai zona."
     },
     "dataMappingStep": {
-      "description": "Pilih properti untuk digunakan sebagai label zona, atau buat label otomatis.",
       "none": "Tidak ada (buat label otomatis)",
       "previewHeader": "Label",
       "previewMore": "... dan {{1}} lainnya",
@@ -2108,14 +2111,75 @@
       "select-small-pipes": "Pilih pipa kecil",
       "trace-zone": "Lacak zona di sekitar seleksi",
       "water-source": "Dari mana node ini mendapatkan airnya?",
-      "zone-summary": "Ringkas setiap zona"
+      "zone-summary": "Ringkas setiap zona",
+      "renew-oldest-pipes": "Perbarui pipa tertua",
+      "scale-demands": "Skalakan kebutuhan berdasarkan persentase",
+      "tag-assets-by-zone": "Beri tag aset dengan zonanya",
+      "upsize-fastest-pipes": "Perbesar pipa tercepat"
     },
     "downloadAllAsZip": "Unduh semua sebagai zip",
     "saveAll": "Simpan semua",
     "atLine": "pada baris {{1}}",
     "copyLog": "Salin log",
     "finishedWithErrors": "Selesai dengan kesalahan",
-    "logCopied": "Disalin!"
+    "logCopied": "Disalin!",
+    "assistant": {
+      "askAi": "Tanya AI",
+      "describeChange": "Jelaskan perubahan",
+      "describeChangePlaceholder": "Jelaskan perubahan…",
+      "describeScript": "Jelaskan skrip yang Anda inginkan",
+      "describeScriptPlaceholder": "Pilih setiap pipa dengan diameter 100 mm atau kurang dan ekspor sebagai CSV",
+      "failures": {
+        "limitReached": {
+          "description": "Hubungi dukungan untuk menambahkan lebih banyak.",
+          "title": "Anda telah menggunakan semua kredit asisten Anda"
+        },
+        "notEnabled": {
+          "description": "Hubungi dukungan untuk mendapatkan akses.",
+          "title": "Asisten tidak diaktifkan untuk akun Anda"
+        },
+        "signedOut": {
+          "description": "Masuk lagi, lalu kirim permintaan Anda.",
+          "title": "Anda keluar"
+        },
+        "tooLong": {
+          "description": "Persingkat pesan atau skrip Anda, lalu coba lagi.",
+          "title": "Permintaan ini terlalu panjang"
+        },
+        "unavailable": {
+          "description": "Coba lagi. Jika kesalahan berlanjut, hubungi dukungan.",
+          "title": "Kami tidak dapat menulis skrip"
+        }
+      },
+      "hintFind": "Sebutkan apa yang ingin ditemukan, seperti pipa dengan diameter 100 mm atau kurang, atau node di bawah tekanan 20 m.",
+      "hintNames": "Gunakan nama-nama dalam model Anda: zona, atribut kustom, pola.",
+      "hintResult": "Sebutkan apa yang ingin dikembalikan: tabel, file CSV, atau pilihan di peta.",
+      "scopes": {
+        "anonymizedNetwork": {
+          "description": "Menambahkan setiap aset dan atributnya, tanpa label, atribut kustom, atau koordinat.",
+          "label": "Skrip + jaringan anonim"
+        },
+        "network": {
+          "description": "Menambahkan setiap aset, atributnya, dan hasil terakhir.",
+          "label": "Skrip + seluruh jaringan"
+        },
+        "script": {
+          "description": "Pesan Anda dan skrip ini.",
+          "label": "Hanya skrip"
+        },
+        "scriptAndOutput": {
+          "description": "Menambahkan keluaran dari eksekusi terakhir, termasuk kesalahan.",
+          "label": "Skrip + keluaran konsol"
+        }
+      },
+      "send": "Kirim",
+      "stop": "Berhenti",
+      "updating": "Memperbarui skrip…",
+      "whatTheAiCanSee": "Apa yang bisa dilihat AI",
+      "whatTheAiCanSeeValue": "Apa yang bisa dilihat AI: {{1}}",
+      "writeMyself": "Tulis skrip sendiri",
+      "writing": "Menulis skrip…"
+    }
   },
   "scriptingItem": "Skrip",
   "pricingPlans": {

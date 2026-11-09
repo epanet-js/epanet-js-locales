@@ -489,6 +489,10 @@
           "choose": "Sélectionner un attribut...",
           "x": "Longitude / X",
           "y": "Latitude / Y"
+        },
+        "attributesSelector": {
+          "placeholder": "Aucun attribut personnalisé",
+          "selectedCount": "{{1}} attributs personnalisés"
         }
       },
       "loading": "Chargement...",
@@ -1595,7 +1599,6 @@
       "skippedRecordsWarning": "{{1}} enregistrements ne sont pas des polygones et ne seront pas importés en tant que zones."
     },
     "dataMappingStep": {
-      "description": "Choisissez une propriété à utiliser comme étiquette de zone, ou générez automatiquement les étiquettes.",
       "none": "Aucun (génération automatique d'étiquettes)",
       "previewHeader": "Étiquette",
       "previewMore": "... et {{1}} de plus",
@@ -2108,14 +2111,75 @@
       "select-small-pipes": "Sélectionner les petites conduites",
       "trace-zone": "Tracer la zone autour de la sélection",
       "water-source": "D'où ce nœud tire-t-il son eau ?",
-      "zone-summary": "Récapituler chaque zone"
+      "zone-summary": "Récapituler chaque zone",
+      "renew-oldest-pipes": "Renouveler les conduites les plus anciennes",
+      "scale-demands": "Ajuster les demandes par pourcentage",
+      "tag-assets-by-zone": "Étiqueter les éléments avec leur zone",
+      "upsize-fastest-pipes": "Augmenter le diamètre des conduites les plus rapides"
     },
     "downloadAllAsZip": "Télécharger tout en zip",
     "saveAll": "Tout enregistrer",
     "atLine": "à la ligne {{1}}",
     "copyLog": "Copier le journal",
     "finishedWithErrors": "Terminé avec des erreurs",
-    "logCopied": "Copié !"
+    "logCopied": "Copié !",
+    "assistant": {
+      "askAi": "Demander à l'IA",
+      "describeChange": "Décrire un changement",
+      "describeChangePlaceholder": "Décrire un changement…",
+      "describeScript": "Décrivez le script que vous voulez",
+      "describeScriptPlaceholder": "Sélectionner toutes les conduites de 100 mm ou moins et les exporter au format CSV",
+      "failures": {
+        "limitReached": {
+          "description": "Contactez le support pour en ajouter plus.",
+          "title": "Vous avez utilisé tout votre crédit assistant"
+        },
+        "notEnabled": {
+          "description": "Contactez le support pour obtenir l'accès.",
+          "title": "L'assistant n'est pas activé pour votre compte"
+        },
+        "signedOut": {
+          "description": "Connectez-vous à nouveau, puis envoyez votre demande.",
+          "title": "Vous êtes déconnecté"
+        },
+        "tooLong": {
+          "description": "Raccourcissez votre message ou le script, puis réessayez.",
+          "title": "Cette demande est trop longue"
+        },
+        "unavailable": {
+          "description": "Réessayez. Si l'erreur persiste, contactez le support.",
+          "title": "Nous n'avons pas pu écrire le script"
+        }
+      },
+      "hintFind": "Dites ce qu'il faut trouver, comme des conduites de 100 mm ou moins ou des nœuds sous 20 m de pression.",
+      "hintNames": "Utilisez les noms de votre modèle : zones, attributs personnalisés, motifs.",
+      "hintResult": "Dites ce qu'il faut renvoyer : un tableau, un fichier CSV ou une sélection sur la carte.",
+      "scopes": {
+        "anonymizedNetwork": {
+          "description": "Ajoute chaque élément et ses attributs, sans étiquettes, attributs personnalisés ni coordonnées.",
+          "label": "Script + réseau anonymisé"
+        },
+        "network": {
+          "description": "Ajoute chaque élément, ses attributs et les derniers résultats.",
+          "label": "Script + réseau complet"
+        },
+        "script": {
+          "description": "Votre message et ce script.",
+          "label": "Script seulement"
+        },
+        "scriptAndOutput": {
+          "description": "Ajoute la sortie de la dernière exécution, erreurs incluses.",
+          "label": "Script + sortie console"
+        }
+      },
+      "send": "Envoyer",
+      "stop": "Arrêter",
+      "updating": "Mise à jour du script…",
+      "whatTheAiCanSee": "Ce que l'IA peut voir",
+      "whatTheAiCanSeeValue": "Ce que l'IA peut voir : {{1}}",
+      "writeMyself": "Écrire le script moi-même",
+      "writing": "Écriture du script…"
+    }
   },
   "scriptingItem": "Scriptage",
   "pricingPlans": {

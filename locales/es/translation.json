@@ -508,6 +508,10 @@
           "choose": "Selecciona un atributo...",
           "x": "Longitud / X",
           "y": "Latitud / Y"
+        },
+        "attributesSelector": {
+          "placeholder": "Sin atributos personalizados",
+          "selectedCount": "{{1}} atributos personalizados"
         }
       },
       "loading": "Cargando...",
@@ -1608,7 +1612,6 @@
       "skippedRecordsWarning": "{{1}} registros no son polígonos y no se importarán como zonas."
     },
     "dataMappingStep": {
-      "description": "Elige una propiedad para usar como etiqueta de zona, o genera etiquetas automáticamente.",
       "none": "Ninguno (auto-generar etiquetas)",
       "previewHeader": "Etiqueta",
       "previewMore": "... y {{1}} más",
@@ -2115,14 +2118,75 @@
       "select-small-pipes": "Seleccionar tuberías pequeñas",
       "trace-zone": "Rastrear la zona alrededor de la selección",
       "water-source": "¿De dónde obtiene este nudo su agua?",
-      "zone-summary": "Resumir cada zona"
+      "zone-summary": "Resumir cada zona",
+      "renew-oldest-pipes": "Renovar las tuberías más antiguas",
+      "scale-demands": "Escalar demandas por un porcentaje",
+      "tag-assets-by-zone": "Etiquetar activos con su zona",
+      "upsize-fastest-pipes": "Aumentar el tamaño de las tuberías más rápidas"
     },
     "downloadAllAsZip": "Descargar todo como zip",
     "saveAll": "Guardar todo",
     "atLine": "en la línea {{1}}",
     "copyLog": "Copiar registro",
     "finishedWithErrors": "Finalizado con errores",
-    "logCopied": "¡Copiado!"
+    "logCopied": "¡Copiado!",
+    "assistant": {
+      "askAi": "Preguntar a la IA",
+      "describeChange": "Describe un cambio",
+      "describeChangePlaceholder": "Describe un cambio…",
+      "describeScript": "Describe el script que quieres",
+      "describeScriptPlaceholder": "Selecciona todas las tuberías de 100 mm o menos y expórtalas como CSV",
+      "failures": {
+        "limitReached": {
+          "description": "Contacta con soporte para añadir más.",
+          "title": "Has usado todo tu crédito del asistente"
+        },
+        "notEnabled": {
+          "description": "Contacta con soporte para obtener acceso.",
+          "title": "El asistente no está habilitado para tu cuenta"
+        },
+        "signedOut": {
+          "description": "Inicia sesión de nuevo, luego envía tu solicitud.",
+          "title": "Has cerrado sesión"
+        },
+        "tooLong": {
+          "description": "Acorta tu mensaje o el script, luego inténtalo de nuevo.",
+          "title": "Esta solicitud es demasiado larga"
+        },
+        "unavailable": {
+          "description": "Inténtalo de nuevo. Si el error persiste, contacta con soporte.",
+          "title": "No pudimos escribir el script"
+        }
+      },
+      "hintFind": "Di qué buscar, como tuberías de 100 mm o menos o nudos con menos de 20 m de presión.",
+      "hintNames": "Usa los nombres de tu modelo: zonas, atributos personalizados, patrones.",
+      "hintResult": "Di qué devolver: una tabla, un archivo CSV o una selección en el mapa.",
+      "scopes": {
+        "anonymizedNetwork": {
+          "description": "Añade cada activo y sus atributos, sin etiquetas, atributos personalizados ni coordenadas.",
+          "label": "Script + red anonimizada"
+        },
+        "network": {
+          "description": "Añade cada activo, sus atributos y los últimos resultados.",
+          "label": "Script + red completa"
+        },
+        "script": {
+          "description": "Tu mensaje y este script.",
+          "label": "Solo script"
+        },
+        "scriptAndOutput": {
+          "description": "Añade la salida de la última ejecución, errores incluidos.",
+          "label": "Script + salida de consola"
+        }
+      },
+      "send": "Enviar",
+      "stop": "Detener",
+      "updating": "Actualizando script…",
+      "whatTheAiCanSee": "Lo que la IA puede ver",
+      "whatTheAiCanSeeValue": "Lo que la IA puede ver: {{1}}",
+      "writeMyself": "Escribir script yo mismo",
+      "writing": "Escribiendo script…"
+    }
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {

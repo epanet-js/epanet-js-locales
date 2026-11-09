@@ -489,6 +489,10 @@
           "choose": "Selecteer een attribuut...",
           "x": "Lengtegraad / X",
           "y": "Breedtegraad / Y"
+        },
+        "attributesSelector": {
+          "placeholder": "Geen aangepaste attributen",
+          "selectedCount": "{{1}} aangepaste attributen"
         }
       },
       "loading": "Laden...",
@@ -1595,7 +1599,6 @@
       "skippedRecordsWarning": "{{1}} records zijn geen polygonen en worden niet geïmporteerd als zones."
     },
     "dataMappingStep": {
-      "description": "Kies een eigenschap om te gebruiken als zone-label, of genereer labels automatisch.",
       "none": "Geen (labels automatisch genereren)",
       "previewHeader": "Label",
       "previewMore": "... en {{1}} meer",
@@ -2108,14 +2111,75 @@
       "select-small-pipes": "Kleine leidingen selecteren",
       "trace-zone": "Traceer de zone rond de selectie",
       "water-source": "Waar krijgt dit knooppunt zijn water vandaan?",
-      "zone-summary": "Elke zone samenvatten"
+      "zone-summary": "Elke zone samenvatten",
+      "renew-oldest-pipes": "De oudste leidingen vernieuwen",
+      "scale-demands": "Vragen schalen met een percentage",
+      "tag-assets-by-zone": "Onderdelen taggen met hun zone",
+      "upsize-fastest-pipes": "De snelste leidingen vergroten"
     },
     "downloadAllAsZip": "Alles downloaden als zip",
     "saveAll": "Alles opslaan",
     "atLine": "op regel {{1}}",
     "copyLog": "Log kopiëren",
     "finishedWithErrors": "Voltooid met fouten",
-    "logCopied": "Gekopieerd!"
+    "logCopied": "Gekopieerd!",
+    "assistant": {
+      "askAi": "Vraag AI",
+      "describeChange": "Beschrijf een wijziging",
+      "describeChangePlaceholder": "Beschrijf een wijziging…",
+      "describeScript": "Beschrijf het script dat u wilt",
+      "describeScriptPlaceholder": "Selecteer elke leiding van 100 mm of minder en exporteer ze als CSV",
+      "failures": {
+        "limitReached": {
+          "description": "Neem contact op met support om meer toe te voegen.",
+          "title": "U hebt al uw assistent-tegoed gebruikt"
+        },
+        "notEnabled": {
+          "description": "Neem contact op met support om toegang te krijgen.",
+          "title": "De assistent is niet ingeschakeld voor uw account"
+        },
+        "signedOut": {
+          "description": "Meld u opnieuw aan, stuur daarna uw verzoek.",
+          "title": "U bent afgemeld"
+        },
+        "tooLong": {
+          "description": "Verkort uw bericht of het script, probeer het daarna opnieuw.",
+          "title": "Dit verzoek is te lang"
+        },
+        "unavailable": {
+          "description": "Probeer het opnieuw. Als de fout aanhoudt, neem dan contact op met de support.",
+          "title": "We konden het script niet schrijven"
+        }
+      },
+      "hintFind": "Zeg wat u zoekt, zoals leidingen van 100 mm of minder of knooppunten onder 20 m druk.",
+      "hintNames": "Gebruik de namen in uw model: zones, aangepaste attributen, patronen.",
+      "hintResult": "Zeg wat u wilt terugkrijgen: een tabel, een CSV-bestand of een selectie op de kaart.",
+      "scopes": {
+        "anonymizedNetwork": {
+          "description": "Voegt elk onderdeel en zijn attributen toe, zonder labels, aangepaste attributen of coördinaten.",
+          "label": "Script + geanonimiseerd netwerk"
+        },
+        "network": {
+          "description": "Voegt elk onderdeel, zijn attributen en de laatste resultaten toe.",
+          "label": "Script + hele netwerk"
+        },
+        "script": {
+          "description": "Uw bericht en dit script.",
+          "label": "Alleen script"
+        },
+        "scriptAndOutput": {
+          "description": "Voegt de uitvoer van de laatste uitvoering toe, inclusief fouten.",
+          "label": "Script + console-uitvoer"
+        }
+      },
+      "send": "Verzenden",
+      "stop": "Stoppen",
+      "updating": "Script bijwerken…",
+      "whatTheAiCanSee": "Wat de AI kan zien",
+      "whatTheAiCanSeeValue": "Wat de AI kan zien: {{1}}",
+      "writeMyself": "Zelf script schrijven",
+      "writing": "Script schrijven…"
+    }
   },
   "scriptingItem": "Scripting",
   "pricingPlans": {
