@@ -501,6 +501,10 @@
         "altText": "Handleiding klantpunten importeren",
         "description": "Leer hoe u klantpunten importeert door de bovenstaande handleiding te bekijken of de <guideLink>stap-voor-stap handleiding</guideLink> te lezen.",
         "title": "Handleiding Klantpunten Importeren"
+      },
+      "importProgress": {
+        "applying": "Wijzigingen toepassen...",
+        "building": "Klantpunten opbouwen..."
       }
     },
     "dataSource": {
@@ -675,7 +679,8 @@
         "valveFlowModulatingControlNodeActive": "Knooppunt van debietmodulerende regeling moet actief zijn",
         "valveFlowModulatingControlPressuresIncreasing": "Debietmodulerende regelingsdrukken moeten strikt toenemen",
         "valveFlowModulatingControlPressuresPositive": "Debietmodulerende regelingsdrukken moeten positief zijn",
-        "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn"
+        "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn",
+        "valveTargetNodeActive": "PRV doelknooppunt moet actief zijn"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -1884,8 +1889,8 @@
       "featureGeometryMissing_other": "{{count}} records hebben geen locatie, dus ze zijn overgeslagen",
       "featureGeometryUnsupported_one": "1 record heeft een vorm die we hier niet kunnen gebruiken, dus het is overgeslagen",
       "featureGeometryUnsupported_other": "{{count}} records hebben een vorm die we hier niet kunnen gebruiken, dus ze zijn overgeslagen",
-      "flowModulatedSetpointUnsupported_one": "1 ventiel regelt zijn druk op basis van een stromingscurve, wat EPANET niet kan uitdrukken, dus de regeling is niet geïmporteerd",
-      "flowModulatedSetpointUnsupported_other": "{{count}} ventielen regelen hun druk op basis van een stromingscurve, wat EPANET niet kan uitdrukken, dus die regelingen zijn niet geïmporteerd",
+      "flowModulatedSetpointUnsupported_one": "1 Ventiel regelt zijn druk op basis van een stromingscurve die niet kon worden geïmporteerd, dus de regeling is weggelaten",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Ventielen regelen hun druk op basis van stromingscurves die niet konden worden geïmporteerd, dus die regelingen zijn weggelaten",
       "junctionDemandPatternUnreadable_one": "1 knooppunt heeft een vraag waarvan het patroon niet kon worden gelezen, dus de vraag is niet geïmporteerd",
       "junctionDemandPatternUnreadable_other": "{{count}} knooppunten hebben vragen waarvan de patronen niet konden worden gelezen, dus die vragen zijn niet geïmporteerd",
       "linkEndpointMissing_one": "1 verbinding verwijst naar een knooppunt dat niet in het model staat en is overgeslagen",
@@ -1947,7 +1952,9 @@
       "selectionSetMembersUnreadable_one": "1 selectieset verwijst naar een niet gevonden onderdeel in het model, dus deze is niet geïmporteerd",
       "selectionSetMembersUnreadable_other": "{{count}} selectiesets verwijzen naar niet gevonden onderdelen in het model, dus deze zijn niet geïmporteerd",
       "pumpSpeedControlUnsupported_one": "1 pomp varieert zijn snelheid om een doel te behouden dat niet kon worden geïmporteerd, dus behoudt het zijn opgegeven snelheid",
-      "pumpSpeedControlUnsupported_other": "{{count}} pompen variëren hun snelheid om doelen te behouden die niet konden worden geïmporteerd, dus behouden ze hun opgegeven snelheid"
+      "pumpSpeedControlUnsupported_other": "{{count}} pompen variëren hun snelheid om doelen te behouden die niet konden worden geïmporteerd, dus behouden ze hun opgegeven snelheid",
+      "valveParallelRegulatorUnsupported_one": "1 Regelventiel loopt parallel met een groter ventiel tussen dezelfde knooppunten, wat EPANET niet kan oplossen, dus het is gesloten geïmporteerd",
+      "valveParallelRegulatorUnsupported_other": "{{count}} Regelventielen lopen parallel met een groter ventiel tussen dezelfde knooppunten, wat EPANET niet kan oplossen, dus ze zijn gesloten geïmporteerd"
     },
     "paywall": {
       "captions": {
@@ -2115,7 +2122,8 @@
       "renew-oldest-pipes": "De oudste leidingen vernieuwen",
       "scale-demands": "Vragen schalen met een percentage",
       "tag-assets-by-zone": "Onderdelen taggen met hun zone",
-      "upsize-fastest-pipes": "De snelste leidingen vergroten"
+      "upsize-fastest-pipes": "De snelste leidingen vergroten",
+      "infer-pipe-attributes": "Ontbrekende leidingattributen afleiden"
     },
     "downloadAllAsZip": "Alles downloaden als zip",
     "saveAll": "Alles opslaan",

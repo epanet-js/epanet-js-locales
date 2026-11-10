@@ -667,6 +667,10 @@
         "altText": "Tutorial impor titik pelanggan",
         "description": "Pelajari cara mengimpor titik pelanggan dengan menonton tutorial di atas atau membaca <guideLink>panduan langkah demi langkah</guideLink>.",
         "title": "Tutorial impor titik pelanggan"
+      },
+      "importProgress": {
+        "applying": "Menerapkan perubahan...",
+        "building": "Membangun titik pelanggan..."
       }
     },
     "menuEntry": "Titik pelanggan",
@@ -899,7 +903,8 @@
         "valveFlowModulatingControlNodeActive": "Node kontrol modulasi aliran harus aktif",
         "valveFlowModulatingControlPressuresIncreasing": "Tekanan kontrol modulasi aliran harus meningkat secara ketat",
         "valveFlowModulatingControlPressuresPositive": "Tekanan kontrol modulasi aliran harus positif",
-        "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif"
+        "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif",
+        "valveTargetNodeActive": "Node target PRV harus aktif"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -1884,8 +1889,8 @@
       "featureGeometryMissing_other": "{{count}} Catatan tidak memiliki lokasi, jadi dilewati",
       "featureGeometryUnsupported_one": "1 Catatan memiliki bentuk yang tidak dapat kami gunakan di sini, jadi dilewati",
       "featureGeometryUnsupported_other": "{{count}} Catatan memiliki bentuk yang tidak dapat kami gunakan di sini, jadi dilewati",
-      "flowModulatedSetpointUnsupported_one": "1 Katup mengatur tekanannya dari kurva aliran, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tidak diimpor",
-      "flowModulatedSetpointUnsupported_other": "{{count}} Katup mengatur tekanannya dari kurva aliran, yang tidak dapat diekspresikan oleh EPANET, jadi kontrol tersebut tidak diimpor",
+      "flowModulatedSetpointUnsupported_one": "1 Katup mengatur tekanannya dari kurva aliran yang tidak dapat diimpor, sehingga kontrolnya tidak disertakan",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Katup mengatur tekanannya dari kurva aliran yang tidak dapat diimpor, sehingga kontrol tersebut tidak disertakan",
       "junctionDemandPatternUnreadable_one": "1 Sambungan memiliki kebutuhan yang polanya tidak dapat dibaca, jadi kebutuhan tersebut tidak diimpor",
       "junctionDemandPatternUnreadable_other": "{{count}} Sambungan memiliki kebutuhan yang polanya tidak dapat dibaca, jadi kebutuhan tersebut tidak diimpor",
       "linkEndpointMissing_one": "1 tautan mengarah ke node yang tidak ada dalam model dan dilewati",
@@ -1947,7 +1952,9 @@
       "selectionSetMembersUnreadable_one": "1 Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor",
       "selectionSetMembersUnreadable_other": "{{count}} Set pilihan merujuk aset yang tidak ditemukan dalam model, jadi tidak diimpor",
       "pumpSpeedControlUnsupported_one": "1 Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan",
-      "pumpSpeedControlUnsupported_other": "{{count}} Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan"
+      "pumpSpeedControlUnsupported_other": "{{count}} Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan",
+      "valveParallelRegulatorUnsupported_one": "1 Katup pengatur berjalan paralel dengan yang lebih besar di antara node yang sama, yang tidak dapat dipecahkan oleh EPANET, jadi diimpor dalam keadaan tertutup",
+      "valveParallelRegulatorUnsupported_other": "{{count}} Katup pengatur berjalan paralel dengan yang lebih besar di antara node yang sama, yang tidak dapat dipecahkan oleh EPANET, jadi diimpor dalam keadaan tertutup"
     },
     "paywall": {
       "captions": {
@@ -2115,7 +2122,8 @@
       "renew-oldest-pipes": "Perbarui pipa tertua",
       "scale-demands": "Skalakan kebutuhan berdasarkan persentase",
       "tag-assets-by-zone": "Beri tag aset dengan zonanya",
-      "upsize-fastest-pipes": "Perbesar pipa tercepat"
+      "upsize-fastest-pipes": "Perbesar pipa tercepat",
+      "infer-pipe-attributes": "Menyimpulkan atribut pipa yang hilang"
     },
     "downloadAllAsZip": "Unduh semua sebagai zip",
     "saveAll": "Simpan semua",

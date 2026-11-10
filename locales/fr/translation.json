@@ -501,6 +501,10 @@
         "altText": "Tutoriel d'importation des points de consommation",
         "description": "Apprenez à importer des points de consommation en regardant le tutoriel ci-dessus ou en lisant le <guideLink>guide étape par étape</guideLink>.",
         "title": "Tutoriel d'Importation des Points de Consommation"
+      },
+      "importProgress": {
+        "applying": "Application des modifications...",
+        "building": "Construction des points de consommation..."
       }
     },
     "dataSource": {
@@ -675,7 +679,8 @@
         "valveFlowModulatingControlNodeActive": "Le nœud de contrôle de modulation de débit doit être actif",
         "valveFlowModulatingControlPressuresIncreasing": "Les pressions du contrôle de modulation de débit doivent être strictement croissantes",
         "valveFlowModulatingControlPressuresPositive": "Les pressions du contrôle de modulation de débit doivent être positives",
-        "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active"
+        "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active",
+        "valveTargetNodeActive": "Le nœud cible du PRV doit être actif"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -1884,8 +1889,8 @@
       "featureGeometryMissing_other": "{{count}} enregistrements n'ont pas de localisation, ils ont donc été ignorés",
       "featureGeometryUnsupported_one": "1 enregistrement a une forme que nous ne pouvons pas utiliser ici, il a donc été ignoré",
       "featureGeometryUnsupported_other": "{{count}} enregistrements ont une forme que nous ne pouvons pas utiliser ici, ils ont donc été ignorés",
-      "flowModulatedSetpointUnsupported_one": "1 vanne règle sa pression à partir d'une courbe de débit, ce qu'EPANET ne peut pas exprimer, donc le contrôle n'a pas été importé",
-      "flowModulatedSetpointUnsupported_other": "{{count}} vannes règlent leur pression à partir d'une courbe de débit, ce qu'EPANET ne peut pas exprimer, donc ces contrôles n'ont pas été importés",
+      "flowModulatedSetpointUnsupported_one": "1 Vanne règle sa pression à partir d'une courbe de débit qui n'a pas pu être importée, donc le contrôle n'a pas été inclus",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Vannes règlent leur pression à partir de courbes de débit qui n'ont pas pu être importées, donc ces contrôles n'ont pas été inclus",
       "junctionDemandPatternUnreadable_one": "1 nœud a une demande dont le motif n'a pas pu être lu, donc la demande n'a pas été importée",
       "junctionDemandPatternUnreadable_other": "{{count}} nœuds ont des demandes dont les motifs n'ont pas pu être lus, donc ces demandes n'ont pas été importées",
       "linkEndpointMissing_one": "1 liaison pointe vers un nœud qui n'est pas dans le modèle et a été ignorée",
@@ -1947,7 +1952,9 @@
       "selectionSetMembersUnreadable_one": "1 ensemble de sélection référence un élément introuvable dans le modèle, il n'a donc pas été importé",
       "selectionSetMembersUnreadable_other": "{{count}} ensembles de sélection référencent des éléments introuvables dans le modèle, ils n'ont donc pas été importés",
       "pumpSpeedControlUnsupported_one": "1 Pompe varie sa vitesse pour maintenir une cible qui n'a pas pu être importée, elle conserve donc sa vitesse déclarée",
-      "pumpSpeedControlUnsupported_other": "{{count}} Pompes varient leur vitesse pour maintenir des cibles qui n'ont pas pu être importées, elles conservent donc leur vitesse déclarée"
+      "pumpSpeedControlUnsupported_other": "{{count}} Pompes varient leur vitesse pour maintenir des cibles qui n'ont pas pu être importées, elles conservent donc leur vitesse déclarée",
+      "valveParallelRegulatorUnsupported_one": "1 Vanne régulatrice fonctionne en parallèle avec une plus grande entre les mêmes nœuds, ce qu'EPANET ne peut pas résoudre, elle a donc été importée fermée",
+      "valveParallelRegulatorUnsupported_other": "{{count}} Vannes régulatrices fonctionnent en parallèle avec une plus grande entre les mêmes nœuds, ce qu'EPANET ne peut pas résoudre, elles ont donc été importées fermées"
     },
     "paywall": {
       "captions": {
@@ -2115,7 +2122,8 @@
       "renew-oldest-pipes": "Renouveler les conduites les plus anciennes",
       "scale-demands": "Ajuster les demandes par pourcentage",
       "tag-assets-by-zone": "Étiqueter les éléments avec leur zone",
-      "upsize-fastest-pipes": "Augmenter le diamètre des conduites les plus rapides"
+      "upsize-fastest-pipes": "Augmenter le diamètre des conduites les plus rapides",
+      "infer-pipe-attributes": "Déduire les attributs de conduite manquants"
     },
     "downloadAllAsZip": "Télécharger tout en zip",
     "saveAll": "Tout enregistrer",

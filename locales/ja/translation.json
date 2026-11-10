@@ -283,6 +283,10 @@
         "altText": "顧客ポイントインポートチュートリアル",
         "description": "上記のチュートリアルを視聴するか、<guideLink>ステップバイステップガイド</guideLink>を読んで顧客ポイントをインポートする方法を学びましょう。",
         "title": "顧客ポイントインポートチュートリアル"
+      },
+      "importProgress": {
+        "applying": "変更を適用中...",
+        "building": "顧客ポイントを構築中..."
       }
     },
     "label": "顧客ポイントをインポート",
@@ -675,7 +679,8 @@
         "valveFlowModulatingControlNodeActive": "流量変調制御ノードはアクティブでなければなりません",
         "valveFlowModulatingControlPressuresIncreasing": "流量変調制御の圧力は厳密に増加していなければなりません",
         "valveFlowModulatingControlPressuresPositive": "流量変調制御の圧力は正の値でなければなりません",
-        "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません"
+        "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません",
+        "valveTargetNodeActive": "PRVターゲットノードはアクティブである必要があります"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -1884,8 +1889,8 @@
       "featureGeometryMissing_other": "{{count}}件のレコードに位置情報がなかったため、スキップされました",
       "featureGeometryUnsupported_one": "1件のレコードにはここで使用できない形状があったため、スキップされました",
       "featureGeometryUnsupported_other": "{{count}}件のレコードにはここで使用できない形状があったため、スキップされました",
-      "flowModulatedSetpointUnsupported_one": "1つの弁は流量曲線から圧力を設定しますが、EPANETでは表現できないため、制御はインポートされませんでした",
-      "flowModulatedSetpointUnsupported_other": "{{count}}個の弁は流量曲線から圧力を設定しますが、EPANETでは表現できないため、それらの制御はインポートされませんでした",
+      "flowModulatedSetpointUnsupported_one": "1つの弁は、インポートできなかった流量曲線から圧力を設定するため、制御は省略されました",
+      "flowModulatedSetpointUnsupported_other": "{{count}}個の弁は、インポートできなかった流量曲線から圧力を設定するため、それらの制御は省略されました",
       "junctionDemandPatternUnreadable_one": "1つの接点にはパターンを読み取れない需要があったため、その需要はインポートされませんでした",
       "junctionDemandPatternUnreadable_other": "{{count}}個の接点にはパターンを読み取れない需要があったため、それらの需要はインポートされませんでした",
       "linkEndpointMissing_one": "1つのリンクがモデル内にないノードを指していたため、スキップされました",
@@ -1947,7 +1952,9 @@
       "selectionSetMembersUnreadable_one": "選択セット 1 件がモデル内に見つからないアセットを参照していたため、インポートされませんでした",
       "selectionSetMembersUnreadable_other": "選択セット {{count}} 件がモデル内に見つからないアセットを参照していたため、インポートされませんでした",
       "pumpSpeedControlUnsupported_one": "1つのポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します",
-      "pumpSpeedControlUnsupported_other": "{{count}}個のポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します"
+      "pumpSpeedControlUnsupported_other": "{{count}}個のポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します",
+      "valveParallelRegulatorUnsupported_one": "1つの調整弁は、EPANETでは解決できない同じノード間でより大きな弁と並行して動作するため、閉鎖状態でインポートされました",
+      "valveParallelRegulatorUnsupported_other": "{{count}}個の調整弁は、EPANETでは解決できない同じノード間でより大きな弁と並行して動作するため、閉鎖状態でインポートされました"
     },
     "paywall": {
       "captions": {
@@ -2115,7 +2122,8 @@
       "renew-oldest-pipes": "最も古い管を更新",
       "scale-demands": "需要をパーセンテージで調整",
       "tag-assets-by-zone": "アセットをゾーンでタグ付け",
-      "upsize-fastest-pipes": "最も速い管を大口径化"
+      "upsize-fastest-pipes": "最も速い管を大口径化",
+      "infer-pipe-attributes": "不足している管属性を推測"
     },
     "downloadAllAsZip": "すべてをzipでダウンロード",
     "saveAll": "すべて保存",

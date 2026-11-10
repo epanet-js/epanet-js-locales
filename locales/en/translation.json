@@ -48,12 +48,14 @@
       "valveScheduleUnreadable_other": "{{count}} Valves name setting schedules with no points, so they were imported as TCVs with no setting",
       "remotePressureControlUnsupported_one": "1 Link holds a pressure at another node, which EPANET cannot express, so the control was not imported",
       "remotePressureControlUnsupported_other": "{{count}} Links hold a pressure at another node, which EPANET cannot express, so those controls were not imported",
-      "flowModulatedSetpointUnsupported_one": "1 Valve sets its pressure from a flow curve, which EPANET cannot express, so the control was not imported",
-      "flowModulatedSetpointUnsupported_other": "{{count}} Valves set their pressure from a flow curve, which EPANET cannot express, so those controls were not imported",
+      "flowModulatedSetpointUnsupported_one": "1 Valve sets its pressure from a flow curve that could not be imported, so the control was left out",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Valves set their pressure from flow curves that could not be imported, so those controls were left out",
       "tankFloatControlUnsupported_one": "1 Float valve on a tank inlet is not supported, so it keeps the position the file gave it and does not close as the tank fills",
       "tankFloatControlUnsupported_other": "{{count}} Float valves on tank inlets are not supported, so they keep the positions the file gave them and do not close as the tanks fill",
       "valveOperatingRuleUnsupported_one": "1 Valve is opened and closed by a tank level rule, which is not imported yet, so it keeps its starting status",
       "valveOperatingRuleUnsupported_other": "{{count}} Valves are opened and closed by tank level rules, which are not imported yet, so they keep their starting status",
+      "valveParallelRegulatorUnsupported_one": "1 Regulating valve runs in parallel with a larger one between the same nodes, which EPANET cannot solve, so it was imported closed",
+      "valveParallelRegulatorUnsupported_other": "{{count}} Regulating valves run in parallel with a larger one between the same nodes, which EPANET cannot solve, so they were imported closed",
       "pumpDefinitionUnsupported_one": "1 Pump names a flow and head curve with no points, so it was imported with no definition",
       "pumpDefinitionUnsupported_other": "{{count}} Pumps name a flow and head curve with no points, so they were imported with no definition",
       "pumpControlUnsupported_one": "1 Pump is switched by a rule that could not be imported, so it keeps its starting status",
@@ -119,7 +121,8 @@
       "scale-demands": "Scale demands by a percentage",
       "tag-assets-by-zone": "Tag assets with their zone",
       "upsize-fastest-pipes": "Upsize the fastest pipes",
-      "renew-oldest-pipes": "Renew the oldest pipes"
+      "renew-oldest-pipes": "Renew the oldest pipes",
+      "infer-pipe-attributes": "Infer missing pipe attributes"
     },
     "newScript": "New script",
     "createScript": "Create a script",
@@ -1467,6 +1470,10 @@
       },
       "dataPreviewStep": "Data mapping",
       "demandOptionsStep": "Demand options",
+      "importProgress": {
+        "building": "Building customer points...",
+        "applying": "Applying changes..."
+      },
       "allocationStepLabel": "Customers allocation",
       "dataMapping": {
         "title": "Data mapping",
@@ -1725,6 +1732,7 @@
         "valveFlowModulatingControlPressuresIncreasing": "Flow modulating control pressures must be strictly increasing",
         "valveFlowModulatingSensorLinkActive": "Flow modulating control flow-through link must be active",
         "valveFlowModulatingControlNodeActive": "Flow modulating control node must be active",
+        "valveTargetNodeActive": "PRV target node must be active",
         "pumpVariableSpeedPressureTargetActive": "Variable speed pump pressure target node must be active",
         "pumpVariableSpeedFlowTargetActive": "Variable speed pump flow target link must be active",
         "pumpVariableSpeedLevelTargetActive": "Variable speed pump level target tank must be active",

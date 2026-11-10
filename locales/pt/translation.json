@@ -501,6 +501,10 @@
         "altText": "Tutorial de importação de pontos de consumo",
         "description": "Aprenda a importar pontos de consumo assistindo ao tutorial acima ou lendo o <guideLink>guia passo a passo</guideLink>.",
         "title": "Tutorial de Importação de Pontos de Consumo"
+      },
+      "importProgress": {
+        "applying": "Aplicando alterações...",
+        "building": "Construindo pontos de consumo..."
       }
     },
     "dataSource": {
@@ -675,7 +679,8 @@
         "valveFlowModulatingControlNodeActive": "O nó de controle de modulação de vazão deve estar ativo",
         "valveFlowModulatingControlPressuresIncreasing": "As pressões do controle de modulação de vazão devem ser estritamente crescentes",
         "valveFlowModulatingControlPressuresPositive": "As pressões do controle de modulação de vazão devem ser positivas",
-        "valveFlowModulatingSensorLinkActive": "O link de vazão passante do controle de modulação de vazão deve estar ativo"
+        "valveFlowModulatingSensorLinkActive": "O link de vazão passante do controle de modulação de vazão deve estar ativo",
+        "valveTargetNodeActive": "O nó de destino da PRV deve estar ativo"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1884,8 +1889,8 @@
       "featureGeometryMissing_other": "{{count}} Registros não possuem localização, então foram ignorados",
       "featureGeometryUnsupported_one": "1 Registro possui uma forma que não podemos usar aqui, então foi ignorado",
       "featureGeometryUnsupported_other": "{{count}} Registros possuem uma forma que não podemos usar aqui, então foram ignorados",
-      "flowModulatedSetpointUnsupported_one": "1 Válvula define sua pressão a partir de uma curva de vazão, que o EPANET não consegue expressar, então o controle não foi importado",
-      "flowModulatedSetpointUnsupported_other": "{{count}} Válvulas definem sua pressão a partir de uma curva de vazão, que o EPANET não consegue expressar, então esses controles não foram importados",
+      "flowModulatedSetpointUnsupported_one": "1 Válvula define sua pressão a partir de uma curva de vazão que não pôde ser importada, então o controle foi deixado de fora",
+      "flowModulatedSetpointUnsupported_other": "{{count}} Válvulas definem sua pressão a partir de curvas de vazão que não puderam ser importadas, então esses controles foram deixados de fora",
       "junctionDemandPatternUnreadable_one": "1 Nó possui uma demanda cujo padrão não pôde ser lido, então a demanda não foi importada",
       "junctionDemandPatternUnreadable_other": "{{count}} Nós possuem demandas cujos padrões não puderam ser lidos, então essas demandas não foram importadas",
       "linkEndpointMissing_one": "1 link aponta para um nó que não está no modelo e foi ignorado",
@@ -1947,7 +1952,9 @@
       "selectionSetMembersUnreadable_one": "1 Conjunto de seleção faz referência a um ativo não encontrado no modelo, então não foi importado",
       "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de seleção fazem referência a ativos não encontrados no modelo, então não foram importados",
       "pumpSpeedControlUnsupported_one": "1 Bomba varia sua velocidade para manter um alvo que não pôde ser importado, então ela mantém sua velocidade declarada",
-      "pumpSpeedControlUnsupported_other": "{{count}} Bombas variam sua velocidade para manter alvos que não puderam ser importados, então elas mantêm suas velocidades declaradas"
+      "pumpSpeedControlUnsupported_other": "{{count}} Bombas variam sua velocidade para manter alvos que não puderam ser importados, então elas mantêm suas velocidades declaradas",
+      "valveParallelRegulatorUnsupported_one": "1 Válvula reguladora funciona em paralelo com uma maior entre os mesmos nós, o que o EPANET não consegue resolver, então foi importada fechada",
+      "valveParallelRegulatorUnsupported_other": "{{count}} Válvulas reguladoras funcionam em paralelo com uma maior entre os mesmos nós, o que o EPANET não consegue resolver, então foram importadas fechadas"
     },
     "paywall": {
       "captions": {
@@ -2115,7 +2122,8 @@
       "renew-oldest-pipes": "Renovar as tubulações mais antigas",
       "scale-demands": "Escalonar demandas por porcentagem",
       "tag-assets-by-zone": "Atribuir zona aos ativos",
-      "upsize-fastest-pipes": "Aumentar o diâmetro das tubulações mais rápidas"
+      "upsize-fastest-pipes": "Aumentar o diâmetro das tubulações mais rápidas",
+      "infer-pipe-attributes": "Inferir atributos de tubulação ausentes"
     },
     "downloadAllAsZip": "Baixar tudo como zip",
     "saveAll": "Salvar tudo",
