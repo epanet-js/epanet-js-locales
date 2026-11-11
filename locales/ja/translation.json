@@ -1954,7 +1954,9 @@
       "pumpSpeedControlUnsupported_one": "1つのポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します",
       "pumpSpeedControlUnsupported_other": "{{count}}個のポンプは、インポートできなかった目標を維持するために速度を変化させるため、指定された速度を維持します",
       "valveParallelRegulatorUnsupported_one": "1つの調整弁は、EPANETでは解決できない同じノード間でより大きな弁と並行して動作するため、閉鎖状態でインポートされました",
-      "valveParallelRegulatorUnsupported_other": "{{count}}個の調整弁は、EPANETでは解決できない同じノード間でより大きな弁と並行して動作するため、閉鎖状態でインポートされました"
+      "valveParallelRegulatorUnsupported_other": "{{count}}個の調整弁は、EPANETでは解決できない同じノード間でより大きな弁と並行して動作するため、閉鎖状態でインポートされました",
+      "selectionSetGroupUnreadable_one": "選択セットフォルダー1件をフォルダーツリーに配置できなかったため、その内容はトップレベルにインポートされました",
+      "selectionSetGroupUnreadable_other": "{{count}} 件の選択セットフォルダーをフォルダーツリーに配置できなかったため、その内容はトップレベルにインポートされました"
     },
     "paywall": {
       "captions": {

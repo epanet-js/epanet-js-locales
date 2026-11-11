@@ -1954,7 +1954,9 @@
       "pumpSpeedControlUnsupported_one": "1 Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan",
       "pumpSpeedControlUnsupported_other": "{{count}} Pompa mengubah kecepatannya untuk mencapai target yang tidak dapat diimpor, sehingga tetap pada kecepatan yang disebutkan",
       "valveParallelRegulatorUnsupported_one": "1 Katup pengatur berjalan paralel dengan yang lebih besar di antara node yang sama, yang tidak dapat dipecahkan oleh EPANET, jadi diimpor dalam keadaan tertutup",
-      "valveParallelRegulatorUnsupported_other": "{{count}} Katup pengatur berjalan paralel dengan yang lebih besar di antara node yang sama, yang tidak dapat dipecahkan oleh EPANET, jadi diimpor dalam keadaan tertutup"
+      "valveParallelRegulatorUnsupported_other": "{{count}} Katup pengatur berjalan paralel dengan yang lebih besar di antara node yang sama, yang tidak dapat dipecahkan oleh EPANET, jadi diimpor dalam keadaan tertutup",
+      "selectionSetGroupUnreadable_one": "1 Folder set pilihan tidak dapat ditempatkan dalam struktur folder, sehingga isinya diimpor di tingkat teratas",
+      "selectionSetGroupUnreadable_other": "{{count}} Folder set pilihan tidak dapat ditempatkan dalam struktur folder, sehingga isinya diimpor di tingkat teratas"
     },
     "paywall": {
       "captions": {

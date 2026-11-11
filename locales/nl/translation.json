@@ -1954,7 +1954,9 @@
       "pumpSpeedControlUnsupported_one": "1 pomp varieert zijn snelheid om een doel te behouden dat niet kon worden geïmporteerd, dus behoudt het zijn opgegeven snelheid",
       "pumpSpeedControlUnsupported_other": "{{count}} pompen variëren hun snelheid om doelen te behouden die niet konden worden geïmporteerd, dus behouden ze hun opgegeven snelheid",
       "valveParallelRegulatorUnsupported_one": "1 Regelventiel loopt parallel met een groter ventiel tussen dezelfde knooppunten, wat EPANET niet kan oplossen, dus het is gesloten geïmporteerd",
-      "valveParallelRegulatorUnsupported_other": "{{count}} Regelventielen lopen parallel met een groter ventiel tussen dezelfde knooppunten, wat EPANET niet kan oplossen, dus ze zijn gesloten geïmporteerd"
+      "valveParallelRegulatorUnsupported_other": "{{count}} Regelventielen lopen parallel met een groter ventiel tussen dezelfde knooppunten, wat EPANET niet kan oplossen, dus ze zijn gesloten geïmporteerd",
+      "selectionSetGroupUnreadable_one": "1 Selectiesetmap kon niet in de mappenstructuur worden geplaatst, dus de inhoud is op het hoogste niveau geïmporteerd",
+      "selectionSetGroupUnreadable_other": "{{count}} Selectiesetmappen konden niet in de mappenstructuur worden geplaatst, dus de inhoud is op het hoogste niveau geïmporteerd"
     },
     "paywall": {
       "captions": {

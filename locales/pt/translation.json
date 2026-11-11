@@ -1954,7 +1954,9 @@
       "pumpSpeedControlUnsupported_one": "1 Bomba varia sua velocidade para manter um alvo que não pôde ser importado, então ela mantém sua velocidade declarada",
       "pumpSpeedControlUnsupported_other": "{{count}} Bombas variam sua velocidade para manter alvos que não puderam ser importados, então elas mantêm suas velocidades declaradas",
       "valveParallelRegulatorUnsupported_one": "1 Válvula reguladora funciona em paralelo com uma maior entre os mesmos nós, o que o EPANET não consegue resolver, então foi importada fechada",
-      "valveParallelRegulatorUnsupported_other": "{{count}} Válvulas reguladoras funcionam em paralelo com uma maior entre os mesmos nós, o que o EPANET não consegue resolver, então foram importadas fechadas"
+      "valveParallelRegulatorUnsupported_other": "{{count}} Válvulas reguladoras funcionam em paralelo com uma maior entre os mesmos nós, o que o EPANET não consegue resolver, então foram importadas fechadas",
+      "selectionSetGroupUnreadable_one": "1 Pasta de conjunto de seleção não pôde ser colocada na árvore de pastas, então seu conteúdo foi importado no nível superior",
+      "selectionSetGroupUnreadable_other": "{{count}} Pastas de conjunto de seleção não puderam ser colocadas na árvore de pastas, então seus conteúdos foram importados no nível superior"
     },
     "paywall": {
       "captions": {
