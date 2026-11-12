@@ -680,7 +680,9 @@
         "valveFlowModulatingControlPressuresIncreasing": "Debietmodulerende regelingsdrukken moeten strikt toenemen",
         "valveFlowModulatingControlPressuresPositive": "Debietmodulerende regelingsdrukken moeten positief zijn",
         "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn",
-        "valveTargetNodeActive": "PRV doelknooppunt moet actief zijn"
+        "valveTargetNodeActive": "PRV doelknooppunt moet actief zijn",
+        "pumpVariableSpeedDischargeNotBackfeeding": "Pomp met variabel toerental mag niet in zichzelf terugvoeren",
+        "pumpVariableSpeedFlowTargetSameDirection": "De stromingsdoel van de pomp met variabel toerental moet de richting van de pomp volgen"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -2134,11 +2136,10 @@
     "finishedWithErrors": "Voltooid met fouten",
     "logCopied": "Gekopieerd!",
     "assistant": {
-      "askAi": "Vraag AI",
       "describeChange": "Beschrijf een wijziging",
       "describeChangePlaceholder": "Beschrijf een wijziging…",
-      "describeScript": "Beschrijf het script dat u wilt",
-      "describeScriptPlaceholder": "Selecteer elke leiding van 100 mm of minder en exporteer ze als CSV",
+      "describeScript": "Beschrijf een wijziging of wat u zoekt",
+      "describeScriptPlaceholder": "Beschrijf uw script…",
       "failures": {
         "limitReached": {
           "description": "Neem contact op met support om meer toe te voegen.",
@@ -2159,36 +2160,40 @@
         "unavailable": {
           "description": "Probeer het opnieuw. Als de fout aanhoudt, neem dan contact op met de support.",
           "title": "We konden het script niet schrijven"
+        },
+        "answerTooLong": {
+          "description": "Vraag minder tegelijk, of splits het verzoek op in kleinere stappen.",
+          "title": "Het antwoord was te lang"
         }
       },
-      "hintFind": "Zeg wat u zoekt, zoals leidingen van 100 mm of minder of knooppunten onder 20 m druk.",
-      "hintNames": "Gebruik de namen in uw model: zones, aangepaste attributen, patronen.",
-      "hintResult": "Zeg wat u wilt terugkrijgen: een tabel, een CSV-bestand of een selectie op de kaart.",
       "scopes": {
         "anonymizedNetwork": {
-          "description": "Voegt elk onderdeel en zijn attributen toe, zonder labels, aangepaste attributen of coördinaten.",
-          "label": "Script + geanonimiseerd netwerk"
-        },
-        "network": {
-          "description": "Voegt elk onderdeel, zijn attributen en de laatste resultaten toe.",
-          "label": "Script + hele netwerk"
+          "description": "Deelt ook uw netwerk, zonder labels, aangepaste attributen of coördinaten.",
+          "label": "Script en geanonimiseerd netwerk"
         },
         "script": {
-          "description": "Uw bericht en dit script.",
+          "description": "Deelt uw verzoek en dit script.",
           "label": "Alleen script"
         },
         "scriptAndOutput": {
-          "description": "Voegt de uitvoer van de laatste uitvoering toe, inclusief fouten.",
-          "label": "Script + console-uitvoer"
+          "description": "Deelt ook de console-uitvoer van de laatste uitvoering.",
+          "label": "Script en console-uitvoer"
+        },
+        "fullNetwork": {
+          "description": "Deelt ook uw hele netwerk.",
+          "label": "Script en volledig netwerk"
         }
       },
-      "send": "Verzenden",
       "stop": "Stoppen",
       "updating": "Script bijwerken…",
-      "whatTheAiCanSee": "Wat de AI kan zien",
-      "whatTheAiCanSeeValue": "Wat de AI kan zien: {{1}}",
+      "whatTheAiCanSee": "Wat de assistent kan zien",
+      "whatTheAiCanSeeValue": "Wat de assistent kan zien: {{1}}",
       "writeMyself": "Zelf script schrijven",
-      "writing": "Script schrijven…"
+      "writing": "Script schrijven…",
+      "create": "Aanmaken",
+      "exampleExportCsv": "“Selecteer elke leiding van 100 mm of minder en exporteer ze als CSV”",
+      "title": "Scripting-assistent",
+      "update": "Bijwerken"
     }
   },
   "scriptingItem": "Scripting",
@@ -2267,5 +2272,24 @@
   "zone": "Zone",
   "zones": "Zones",
   "maxElevation": "Max. hoogte",
-  "minElevation": "Min. hoogte"
+  "minElevation": "Min. hoogte",
+  "mapThemes": {
+    "actions": "Thema-acties",
+    "actionsUnsaved": "Thema-acties, niet-opgeslagen wijzigingen",
+    "copyName": "{{1}} kopie",
+    "defaultTheme": "Standaard",
+    "delete": "Verwijderen…",
+    "deleteDescription": "“{{1}}” wordt verwijderd.",
+    "deleteTitle": "Thema verwijderen",
+    "mapData": "Kaartgegevens",
+    "newThemeName": "Nieuw thema",
+    "rename": "Hernoemen…",
+    "renameTitle": "Thema hernoemen",
+    "resetChanges": "Wijzigingen herstellen",
+    "saveAsNew": "Opslaan als nieuw thema…",
+    "saveAsNewTitle": "Opslaan als nieuw thema",
+    "saveChangesTo": "Wijzigingen opslaan in “{{1}}”",
+    "symbology": "Symbologie",
+    "theme": "Thema"
+  }
 }

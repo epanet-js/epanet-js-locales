@@ -693,7 +693,9 @@
         "valveFlowModulatingControlPressuresIncreasing": "Las presiones del control de modulación de caudal deben ser estrictamente crecientes",
         "valveFlowModulatingControlPressuresPositive": "Las presiones del control de modulación de caudal deben ser positivas",
         "valveFlowModulatingSensorLinkActive": "El enlace de paso de caudal del control de modulación de caudal debe estar activo",
-        "valveTargetNodeActive": "El nudo objetivo de PRV debe estar activo"
+        "valveTargetNodeActive": "El nudo objetivo de PRV debe estar activo",
+        "pumpVariableSpeedDischargeNotBackfeeding": "La bomba de velocidad variable no debe realimentarse a sí misma",
+        "pumpVariableSpeedFlowTargetSameDirection": "El caudal objetivo de la bomba de velocidad variable debe seguir la dirección de la bomba"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -2141,11 +2143,10 @@
     "finishedWithErrors": "Finalizado con errores",
     "logCopied": "¡Copiado!",
     "assistant": {
-      "askAi": "Preguntar a la IA",
       "describeChange": "Describe un cambio",
       "describeChangePlaceholder": "Describe un cambio…",
-      "describeScript": "Describe el script que quieres",
-      "describeScriptPlaceholder": "Selecciona todas las tuberías de 100 mm o menos y expórtalas como CSV",
+      "describeScript": "Describe un cambio o qué encontrar",
+      "describeScriptPlaceholder": "Describe tu script…",
       "failures": {
         "limitReached": {
           "description": "Contacta con soporte para añadir más.",
@@ -2166,36 +2167,40 @@
         "unavailable": {
           "description": "Inténtalo de nuevo. Si el error persiste, contacta con soporte.",
           "title": "No pudimos escribir el script"
+        },
+        "answerTooLong": {
+          "description": "Pide menos a la vez, o divide la solicitud en pasos más pequeños.",
+          "title": "La respuesta fue demasiado larga"
         }
       },
-      "hintFind": "Di qué buscar, como tuberías de 100 mm o menos o nudos con menos de 20 m de presión.",
-      "hintNames": "Usa los nombres de tu modelo: zonas, atributos personalizados, patrones.",
-      "hintResult": "Di qué devolver: una tabla, un archivo CSV o una selección en el mapa.",
       "scopes": {
         "anonymizedNetwork": {
-          "description": "Añade cada activo y sus atributos, sin etiquetas, atributos personalizados ni coordenadas.",
-          "label": "Script + red anonimizada"
-        },
-        "network": {
-          "description": "Añade cada activo, sus atributos y los últimos resultados.",
-          "label": "Script + red completa"
+          "description": "También comparte tu red, sin etiquetas, atributos personalizados ni coordenadas.",
+          "label": "Script y red anonimizada"
         },
         "script": {
-          "description": "Tu mensaje y este script.",
+          "description": "Comparte tu solicitud y este script.",
           "label": "Solo script"
         },
         "scriptAndOutput": {
-          "description": "Añade la salida de la última ejecución, errores incluidos.",
-          "label": "Script + salida de consola"
+          "description": "También comparte la salida de consola de la última ejecución.",
+          "label": "Script y salida de consola"
+        },
+        "fullNetwork": {
+          "description": "También comparte toda tu red.",
+          "label": "Script y red completa"
         }
       },
-      "send": "Enviar",
       "stop": "Detener",
       "updating": "Actualizando script…",
-      "whatTheAiCanSee": "Lo que la IA puede ver",
-      "whatTheAiCanSeeValue": "Lo que la IA puede ver: {{1}}",
+      "whatTheAiCanSee": "Lo que el asistente puede ver",
+      "whatTheAiCanSeeValue": "Lo que el asistente puede ver: {{1}}",
       "writeMyself": "Escribir script yo mismo",
-      "writing": "Escribiendo script…"
+      "writing": "Escribiendo script…",
+      "create": "Crear",
+      "exampleExportCsv": "“Selecciona todas las tuberías de 100 mm o menos y expórtalas como CSV”",
+      "title": "Asistente de scripting",
+      "update": "Actualizar"
     }
   },
   "scriptingItem": "Scripting",
@@ -2274,5 +2279,24 @@
   "zone": "Zona",
   "zones": "Zonas",
   "maxElevation": "Elevación máxima",
-  "minElevation": "Elevación mínima"
+  "minElevation": "Elevación mínima",
+  "mapThemes": {
+    "actions": "Acciones del tema",
+    "actionsUnsaved": "Acciones del tema, cambios sin guardar",
+    "copyName": "{{1}} copia",
+    "defaultTheme": "Predeterminado",
+    "delete": "Eliminar…",
+    "deleteDescription": "“{{1}}” será eliminado.",
+    "deleteTitle": "Eliminar tema",
+    "mapData": "Datos del mapa",
+    "newThemeName": "Nuevo tema",
+    "rename": "Renombrar…",
+    "renameTitle": "Renombrar tema",
+    "resetChanges": "Restablecer cambios",
+    "saveAsNew": "Guardar como nuevo tema…",
+    "saveAsNewTitle": "Guardar como nuevo tema",
+    "saveChangesTo": "Guardar cambios en “{{1}}”",
+    "symbology": "Simbología",
+    "theme": "Tema"
+  }
 }

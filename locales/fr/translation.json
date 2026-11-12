@@ -680,7 +680,9 @@
         "valveFlowModulatingControlPressuresIncreasing": "Les pressions du contrôle de modulation de débit doivent être strictement croissantes",
         "valveFlowModulatingControlPressuresPositive": "Les pressions du contrôle de modulation de débit doivent être positives",
         "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active",
-        "valveTargetNodeActive": "Le nœud cible du PRV doit être actif"
+        "valveTargetNodeActive": "Le nœud cible du PRV doit être actif",
+        "pumpVariableSpeedDischargeNotBackfeeding": "La pompe à vitesse variable ne doit pas se réinjecter elle-même",
+        "pumpVariableSpeedFlowTargetSameDirection": "La cible de débit de la pompe à vitesse variable doit suivre la direction de la pompe"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -2134,11 +2136,10 @@
     "finishedWithErrors": "Terminé avec des erreurs",
     "logCopied": "Copié !",
     "assistant": {
-      "askAi": "Demander à l'IA",
       "describeChange": "Décrire un changement",
       "describeChangePlaceholder": "Décrire un changement…",
-      "describeScript": "Décrivez le script que vous voulez",
-      "describeScriptPlaceholder": "Sélectionner toutes les conduites de 100 mm ou moins et les exporter au format CSV",
+      "describeScript": "Décrire un changement ou ce qu'il faut trouver",
+      "describeScriptPlaceholder": "Décrivez votre script…",
       "failures": {
         "limitReached": {
           "description": "Contactez le support pour en ajouter plus.",
@@ -2159,36 +2160,40 @@
         "unavailable": {
           "description": "Réessayez. Si l'erreur persiste, contactez le support.",
           "title": "Nous n'avons pas pu écrire le script"
+        },
+        "answerTooLong": {
+          "description": "Demandez moins à la fois, ou divisez la requête en étapes plus petites.",
+          "title": "La réponse était trop longue"
         }
       },
-      "hintFind": "Dites ce qu'il faut trouver, comme des conduites de 100 mm ou moins ou des nœuds sous 20 m de pression.",
-      "hintNames": "Utilisez les noms de votre modèle : zones, attributs personnalisés, motifs.",
-      "hintResult": "Dites ce qu'il faut renvoyer : un tableau, un fichier CSV ou une sélection sur la carte.",
       "scopes": {
         "anonymizedNetwork": {
-          "description": "Ajoute chaque élément et ses attributs, sans étiquettes, attributs personnalisés ni coordonnées.",
-          "label": "Script + réseau anonymisé"
-        },
-        "network": {
-          "description": "Ajoute chaque élément, ses attributs et les derniers résultats.",
-          "label": "Script + réseau complet"
+          "description": "Partage également votre réseau, sans étiquettes, attributs personnalisés ni coordonnées.",
+          "label": "Script et réseau anonymisé"
         },
         "script": {
-          "description": "Votre message et ce script.",
+          "description": "Partage votre demande et ce script.",
           "label": "Script seulement"
         },
         "scriptAndOutput": {
-          "description": "Ajoute la sortie de la dernière exécution, erreurs incluses.",
-          "label": "Script + sortie console"
+          "description": "Partage également la sortie console de la dernière exécution.",
+          "label": "Script et sortie console"
+        },
+        "fullNetwork": {
+          "description": "Partage également l'ensemble de votre réseau.",
+          "label": "Script et réseau complet"
         }
       },
-      "send": "Envoyer",
       "stop": "Arrêter",
       "updating": "Mise à jour du script…",
-      "whatTheAiCanSee": "Ce que l'IA peut voir",
-      "whatTheAiCanSeeValue": "Ce que l'IA peut voir : {{1}}",
+      "whatTheAiCanSee": "Ce que l'assistant peut voir",
+      "whatTheAiCanSeeValue": "Ce que l'assistant peut voir : {{1}}",
       "writeMyself": "Écrire le script moi-même",
-      "writing": "Écriture du script…"
+      "writing": "Écriture du script…",
+      "create": "Créer",
+      "exampleExportCsv": "« Sélectionner toutes les conduites de 100 mm ou moins et les exporter au format CSV »",
+      "title": "Assistant de scriptage",
+      "update": "Mettre à jour"
     }
   },
   "scriptingItem": "Scriptage",
@@ -2267,5 +2272,24 @@
   "zone": "Zone",
   "zones": "Zones",
   "maxElevation": "Élévation maximale",
-  "minElevation": "Élévation minimale"
+  "minElevation": "Élévation minimale",
+  "mapThemes": {
+    "actions": "Actions du thème",
+    "actionsUnsaved": "Actions du thème, modifications non enregistrées",
+    "copyName": "{{1}} copie",
+    "defaultTheme": "Par défaut",
+    "delete": "Supprimer…",
+    "deleteDescription": "« {{1}} » sera supprimé.",
+    "deleteTitle": "Supprimer le thème",
+    "mapData": "Données cartographiques",
+    "newThemeName": "Nouveau thème",
+    "rename": "Renommer…",
+    "renameTitle": "Renommer le thème",
+    "resetChanges": "Réinitialiser les modifications",
+    "saveAsNew": "Enregistrer comme nouveau thème…",
+    "saveAsNewTitle": "Enregistrer comme nouveau thème",
+    "saveChangesTo": "Enregistrer les modifications dans « {{1}} »",
+    "symbology": "Symbologie",
+    "theme": "Thème"
+  }
 }

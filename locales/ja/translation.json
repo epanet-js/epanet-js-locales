@@ -680,7 +680,9 @@
         "valveFlowModulatingControlPressuresIncreasing": "流量変調制御の圧力は厳密に増加していなければなりません",
         "valveFlowModulatingControlPressuresPositive": "流量変調制御の圧力は正の値でなければなりません",
         "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません",
-        "valveTargetNodeActive": "PRVターゲットノードはアクティブである必要があります"
+        "valveTargetNodeActive": "PRVターゲットノードはアクティブである必要があります",
+        "pumpVariableSpeedDischargeNotBackfeeding": "可変速ポンプは自身に逆流してはなりません",
+        "pumpVariableSpeedFlowTargetSameDirection": "可変速ポンプの流量目標はポンプの向きに従う必要があります"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -2134,11 +2136,10 @@
     "finishedWithErrors": "エラーで終了",
     "logCopied": "コピーしました！",
     "assistant": {
-      "askAi": "AIに質問",
       "describeChange": "変更を説明",
       "describeChangePlaceholder": "変更を説明…",
-      "describeScript": "希望するスクリプトを説明",
-      "describeScriptPlaceholder": "直径100mm以下のすべての管を選択し、CSVとしてエクスポート",
+      "describeScript": "変更または検索内容を説明",
+      "describeScriptPlaceholder": "スクリプトを説明…",
       "failures": {
         "limitReached": {
           "description": "詳細を追加するにはサポートに連絡してください。",
@@ -2159,36 +2160,40 @@
         "unavailable": {
           "description": "もう一度お試しください。エラーが続く場合は、サポートにお問い合わせください。",
           "title": "スクリプトを書き込めませんでした"
+        },
+        "answerTooLong": {
+          "description": "一度に要求する量を減らすか、要求をより小さなステップに分割してください。",
+          "title": "回答が長すぎました"
         }
       },
-      "hintFind": "100mm以下の管や20m以下の圧力のノードなど、探したいものを指定してください。",
-      "hintNames": "モデル内の名前（ゾーン、カスタム属性、パターン）を使用してください。",
-      "hintResult": "返却する形式（テーブル、CSVファイル、またはマップ上の選択範囲）を指定してください。",
       "scopes": {
         "anonymizedNetwork": {
-          "description": "ラベル、カスタム属性、座標なしで、すべてのアセットとその属性を追加します。",
-          "label": "スクリプト + 匿名化されたネットワーク"
-        },
-        "network": {
-          "description": "すべてのアセット、その属性、および最後の結果を追加します。",
-          "label": "スクリプト + 全ネットワーク"
+          "description": "ラベル、カスタム属性、座標なしで、ネットワークも共有します。",
+          "label": "スクリプトと匿名化されたネットワーク"
         },
         "script": {
-          "description": "あなたのメッセージとこのスクリプト。",
+          "description": "あなたのリクエストとこのスクリプトを共有します。",
           "label": "スクリプトのみ"
         },
         "scriptAndOutput": {
-          "description": "最後の実行の出力（エラーを含む）を追加します。",
-          "label": "スクリプト + コンソール出力"
+          "description": "最後の実行のコンソール出力も共有します。",
+          "label": "スクリプトとコンソール出力"
+        },
+        "fullNetwork": {
+          "description": "ネットワーク全体も共有します。",
+          "label": "スクリプトと全ネットワーク"
         }
       },
-      "send": "送信",
       "stop": "停止",
       "updating": "スクリプトを更新中…",
-      "whatTheAiCanSee": "AIが見ることができるもの",
-      "whatTheAiCanSeeValue": "AIが見ることができるもの: {{1}}",
+      "whatTheAiCanSee": "アシスタントが見ることができるもの",
+      "whatTheAiCanSeeValue": "アシスタントが見ることができるもの: {{1}}",
       "writeMyself": "自分でスクリプトを作成",
-      "writing": "スクリプトを作成中…"
+      "writing": "スクリプトを作成中…",
+      "create": "作成",
+      "exampleExportCsv": "「直径100mm以下のすべての管を選択し、CSVとしてエクスポート」",
+      "title": "スクリプトアシスタント",
+      "update": "更新"
     }
   },
   "scriptingItem": "スクリプト",
@@ -2267,5 +2272,24 @@
   "zone": "ゾーン",
   "zones": "ゾーン",
   "maxElevation": "最大標高",
-  "minElevation": "最小標高"
+  "minElevation": "最小標高",
+  "mapThemes": {
+    "actions": "テーマアクション",
+    "actionsUnsaved": "テーマアクション、未保存の変更",
+    "copyName": "{{1}} コピー",
+    "defaultTheme": "デフォルト",
+    "delete": "削除…",
+    "deleteDescription": "「{{1}}」が削除されます。",
+    "deleteTitle": "テーマを削除",
+    "mapData": "マップデータ",
+    "newThemeName": "新しいテーマ",
+    "rename": "名前を変更…",
+    "renameTitle": "テーマの名前を変更",
+    "resetChanges": "変更をリセット",
+    "saveAsNew": "新しいテーマとして保存…",
+    "saveAsNewTitle": "新しいテーマとして保存",
+    "saveChangesTo": "「{{1}}」に変更を保存",
+    "symbology": "シンボル",
+    "theme": "テーマ"
+  }
 }

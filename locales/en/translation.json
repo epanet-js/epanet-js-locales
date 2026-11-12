@@ -154,37 +154,36 @@
     "downloadAllAsZip": "Download all as zip",
     "saveAll": "Save all",
     "assistant": {
-      "askAi": "Ask AI",
-      "describeScript": "Describe the script you want",
-      "describeScriptPlaceholder": "Select every pipe at or below 100 mm and export them as CSV",
+      "title": "Scripting assistant",
+      "describeScript": "Describe a change or what to find",
+      "exampleExportCsv": "“Select every pipe at or below 100 mm and export them as CSV”",
+      "describeScriptPlaceholder": "Describe your script…",
       "describeChange": "Describe a change",
       "describeChangePlaceholder": "Describe a change…",
-      "hintFind": "Say what to find, like pipes at or below 100 mm or nodes under 20 m of pressure.",
-      "hintResult": "Say what to hand back: a table, a CSV file or a selection on the map.",
-      "hintNames": "Use the names in your model: zones, custom attributes, patterns.",
       "writeMyself": "Write script myself",
       "writing": "Writing script…",
       "updating": "Updating script…",
-      "send": "Send",
+      "create": "Create",
+      "update": "Update",
       "stop": "Stop",
-      "whatTheAiCanSee": "What the AI can see",
-      "whatTheAiCanSeeValue": "What the AI can see: {{1}}",
+      "whatTheAiCanSee": "What the assistant can see",
+      "whatTheAiCanSeeValue": "What the assistant can see: {{1}}",
       "scopes": {
         "script": {
           "label": "Script only",
-          "description": "Your message and this script."
+          "description": "Shares your request and this script."
         },
         "scriptAndOutput": {
-          "label": "Script + console output",
-          "description": "Adds the output of the last run, errors included."
+          "label": "Script and console output",
+          "description": "Also shares the console output from the last run."
         },
         "anonymizedNetwork": {
-          "label": "Script + anonymized network",
-          "description": "Adds every asset and its attributes, without labels, custom attributes or coordinates."
+          "label": "Script and anonymized network",
+          "description": "Also shares your network, without labels, custom attributes or coordinates."
         },
-        "network": {
-          "label": "Script + whole network",
-          "description": "Adds every asset, its attributes and the last results."
+        "fullNetwork": {
+          "label": "Script and full network",
+          "description": "Also shares your whole network."
         }
       },
       "failures": {
@@ -203,6 +202,10 @@
         "tooLong": {
           "title": "This request is too long",
           "description": "Shorten your message or the script, then try again."
+        },
+        "answerTooLong": {
+          "title": "The answer was too long",
+          "description": "Ask for less at once, or split the request into smaller steps."
         },
         "unavailable": {
           "title": "We couldn't write the script",
@@ -1740,6 +1743,8 @@
         "pumpVariableSpeedLevelTargetActive": "Variable speed pump level target tank must be active",
         "pumpVariableSpeedLaggedPumpsActive": "Variable speed pump lag pumps must be active",
         "pumpVariableSpeedTankLevelsActive": "Variable speed pump start/stop tank must be active",
+        "pumpVariableSpeedDischargeNotBackfeeding": "Variable speed pump must not feed back into itself",
+        "pumpVariableSpeedFlowTargetSameDirection": "Variable speed pump flow target must follow the pump's direction",
         "pumpPowerPresent": "Pump power missing",
         "pumpPowerPositive": "Pump power must be positive",
         "pumpCurvePresent": "Pump curve missing",
@@ -2267,5 +2272,24 @@
   "tabs": {
     "scrollLeft": "Scroll tabs left",
     "scrollRight": "Scroll tabs right"
+  },
+  "mapThemes": {
+    "symbology": "Symbology",
+    "mapData": "Map data",
+    "theme": "Theme",
+    "defaultTheme": "Default",
+    "actions": "Theme actions",
+    "actionsUnsaved": "Theme actions, unsaved changes",
+    "saveAsNew": "Save as new theme…",
+    "saveChangesTo": "Save changes to “{{1}}”",
+    "resetChanges": "Reset changes",
+    "rename": "Rename…",
+    "delete": "Delete…",
+    "saveAsNewTitle": "Save as new theme",
+    "renameTitle": "Rename theme",
+    "deleteTitle": "Delete theme",
+    "deleteDescription": "“{{1}}” will be deleted.",
+    "newThemeName": "New theme",
+    "copyName": "{{1}} copy"
   }
 }

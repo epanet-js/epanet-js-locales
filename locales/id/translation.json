@@ -904,7 +904,9 @@
         "valveFlowModulatingControlPressuresIncreasing": "Tekanan kontrol modulasi aliran harus meningkat secara ketat",
         "valveFlowModulatingControlPressuresPositive": "Tekanan kontrol modulasi aliran harus positif",
         "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif",
-        "valveTargetNodeActive": "Node target PRV harus aktif"
+        "valveTargetNodeActive": "Node target PRV harus aktif",
+        "pumpVariableSpeedDischargeNotBackfeeding": "Pompa kecepatan variabel tidak boleh mengalirkan kembali ke dirinya sendiri",
+        "pumpVariableSpeedFlowTargetSameDirection": "Target aliran pompa kecepatan variabel harus mengikuti arah pompa"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -2134,11 +2136,10 @@
     "finishedWithErrors": "Selesai dengan kesalahan",
     "logCopied": "Disalin!",
     "assistant": {
-      "askAi": "Tanya AI",
       "describeChange": "Jelaskan perubahan",
       "describeChangePlaceholder": "Jelaskan perubahan…",
-      "describeScript": "Jelaskan skrip yang Anda inginkan",
-      "describeScriptPlaceholder": "Pilih setiap pipa dengan diameter 100 mm atau kurang dan ekspor sebagai CSV",
+      "describeScript": "Jelaskan perubahan atau apa yang ingin ditemukan",
+      "describeScriptPlaceholder": "Jelaskan skrip Anda…",
       "failures": {
         "limitReached": {
           "description": "Hubungi dukungan untuk menambahkan lebih banyak.",
@@ -2159,36 +2160,40 @@
         "unavailable": {
           "description": "Coba lagi. Jika kesalahan berlanjut, hubungi dukungan.",
           "title": "Kami tidak dapat menulis skrip"
+        },
+        "answerTooLong": {
+          "description": "Minta lebih sedikit sekaligus, atau bagi permintaan menjadi langkah-langkah yang lebih kecil.",
+          "title": "Jawabannya terlalu panjang"
         }
       },
-      "hintFind": "Sebutkan apa yang ingin ditemukan, seperti pipa dengan diameter 100 mm atau kurang, atau node di bawah tekanan 20 m.",
-      "hintNames": "Gunakan nama-nama dalam model Anda: zona, atribut kustom, pola.",
-      "hintResult": "Sebutkan apa yang ingin dikembalikan: tabel, file CSV, atau pilihan di peta.",
       "scopes": {
         "anonymizedNetwork": {
-          "description": "Menambahkan setiap aset dan atributnya, tanpa label, atribut kustom, atau koordinat.",
-          "label": "Skrip + jaringan anonim"
-        },
-        "network": {
-          "description": "Menambahkan setiap aset, atributnya, dan hasil terakhir.",
-          "label": "Skrip + seluruh jaringan"
+          "description": "Juga membagikan jaringan Anda, tanpa label, atribut kustom, atau koordinat.",
+          "label": "Skrip dan jaringan anonim"
         },
         "script": {
-          "description": "Pesan Anda dan skrip ini.",
+          "description": "Membagikan permintaan Anda dan skrip ini.",
           "label": "Hanya skrip"
         },
         "scriptAndOutput": {
-          "description": "Menambahkan keluaran dari eksekusi terakhir, termasuk kesalahan.",
-          "label": "Skrip + keluaran konsol"
+          "description": "Juga membagikan keluaran konsol dari eksekusi terakhir.",
+          "label": "Skrip dan keluaran konsol"
+        },
+        "fullNetwork": {
+          "description": "Juga membagikan seluruh jaringan Anda.",
+          "label": "Skrip dan seluruh jaringan"
         }
       },
-      "send": "Kirim",
       "stop": "Berhenti",
       "updating": "Memperbarui skrip…",
-      "whatTheAiCanSee": "Apa yang bisa dilihat AI",
-      "whatTheAiCanSeeValue": "Apa yang bisa dilihat AI: {{1}}",
+      "whatTheAiCanSee": "Apa yang bisa dilihat asisten",
+      "whatTheAiCanSeeValue": "Apa yang bisa dilihat asisten: {{1}}",
       "writeMyself": "Tulis skrip sendiri",
-      "writing": "Menulis skrip…"
+      "writing": "Menulis skrip…",
+      "create": "Buat",
+      "exampleExportCsv": "“Pilih setiap pipa dengan diameter 100 mm atau kurang dan ekspor sebagai CSV”",
+      "title": "Asisten skrip",
+      "update": "Perbarui"
     }
   },
   "scriptingItem": "Skrip",
@@ -2267,5 +2272,24 @@
   "zone": "Zona",
   "zones": "Zona",
   "maxElevation": "Elevasi maks",
-  "minElevation": "Elevasi min"
+  "minElevation": "Elevasi min",
+  "mapThemes": {
+    "actions": "Tindakan tema",
+    "actionsUnsaved": "Tindakan tema, perubahan belum disimpan",
+    "copyName": "{{1}} salinan",
+    "defaultTheme": "Default",
+    "delete": "Hapus…",
+    "deleteDescription": "“{{1}}” akan dihapus.",
+    "deleteTitle": "Hapus tema",
+    "mapData": "Data peta",
+    "newThemeName": "Tema baru",
+    "rename": "Ubah nama…",
+    "renameTitle": "Ubah nama tema",
+    "resetChanges": "Atur ulang perubahan",
+    "saveAsNew": "Simpan sebagai tema baru…",
+    "saveAsNewTitle": "Simpan sebagai tema baru",
+    "saveChangesTo": "Simpan perubahan ke “{{1}}”",
+    "symbology": "Simbologi",
+    "theme": "Tema"
+  }
 }
