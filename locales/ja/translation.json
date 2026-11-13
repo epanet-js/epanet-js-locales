@@ -2138,8 +2138,8 @@
     "assistant": {
       "describeChange": "変更を説明",
       "describeChangePlaceholder": "変更を説明…",
-      "describeScript": "変更または検索内容を説明",
-      "describeScriptPlaceholder": "スクリプトを説明…",
+      "describeScript": "スクリプトは何をしますか？",
+      "describeScriptPlaceholder": "変更または検索内容を説明",
       "failures": {
         "limitReached": {
           "description": "詳細を追加するにはサポートに連絡してください。",
@@ -2290,6 +2290,9 @@
     "saveAsNewTitle": "新しいテーマとして保存",
     "saveChangesTo": "「{{1}}」に変更を保存",
     "symbology": "シンボル",
-    "theme": "テーマ"
+    "theme": "テーマ",
+    "basemapOpacity": "不透明度",
+    "basemapStyle": "スタイル",
+    "legendUnavailable": "結果を見るにはシミュレーションを実行してください"
   }
 }

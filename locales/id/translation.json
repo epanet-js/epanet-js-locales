@@ -2290,6 +2290,9 @@
     "saveAsNewTitle": "Simpan sebagai tema baru",
     "saveChangesTo": "Simpan perubahan ke “{{1}}”",
     "symbology": "Simbologi",
-    "theme": "Tema"
+    "theme": "Tema",
+    "basemapOpacity": "Opasitas",
+    "basemapStyle": "Gaya",
+    "legendUnavailable": "Jalankan simulasi untuk melihat hasil"
   }
 }

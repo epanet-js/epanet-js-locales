@@ -2145,8 +2145,8 @@
     "assistant": {
       "describeChange": "Describe un cambio",
       "describeChangePlaceholder": "Describe un cambio…",
-      "describeScript": "Describe un cambio o qué encontrar",
-      "describeScriptPlaceholder": "Describe tu script…",
+      "describeScript": "¿Qué debería hacer el script?",
+      "describeScriptPlaceholder": "Describe un cambio o qué encontrar",
       "failures": {
         "limitReached": {
           "description": "Contacta con soporte para añadir más.",
@@ -2297,6 +2297,9 @@
     "saveAsNewTitle": "Guardar como nuevo tema",
     "saveChangesTo": "Guardar cambios en “{{1}}”",
     "symbology": "Simbología",
-    "theme": "Tema"
+    "theme": "Tema",
+    "basemapOpacity": "Opacidad",
+    "basemapStyle": "Estilo",
+    "legendUnavailable": "Ejecuta una simulación para ver los resultados"
   }
 }

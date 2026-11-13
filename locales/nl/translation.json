@@ -2138,8 +2138,8 @@
     "assistant": {
       "describeChange": "Beschrijf een wijziging",
       "describeChangePlaceholder": "Beschrijf een wijziging…",
-      "describeScript": "Beschrijf een wijziging of wat u zoekt",
-      "describeScriptPlaceholder": "Beschrijf uw script…",
+      "describeScript": "Wat moet het script doen?",
+      "describeScriptPlaceholder": "Beschrijf een wijziging of wat u zoekt",
       "failures": {
         "limitReached": {
           "description": "Neem contact op met support om meer toe te voegen.",
@@ -2290,6 +2290,9 @@
     "saveAsNewTitle": "Opslaan als nieuw thema",
     "saveChangesTo": "Wijzigingen opslaan in “{{1}}”",
     "symbology": "Symbologie",
-    "theme": "Thema"
+    "theme": "Thema",
+    "basemapOpacity": "Dekking",
+    "basemapStyle": "Stijl",
+    "legendUnavailable": "Voer een simulatie uit om resultaten te zien"
   }
 }
