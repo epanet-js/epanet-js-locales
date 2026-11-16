@@ -2193,7 +2193,21 @@
       "create": "作成",
       "exampleExportCsv": "「直径100mm以下のすべての管を選択し、CSVとしてエクスポート」",
       "title": "スクリプトアシスタント",
-      "update": "更新"
+      "update": "更新",
+      "progress": {
+        "addingComments": "コメントを追加中…",
+        "almostDone": "ほぼ完了…",
+        "applyingChanges": "変更を適用中…",
+        "checkingApi": "APIをチェック中…",
+        "keepingRestIntact": "残りを維持中…",
+        "planningChanges": "変更を計画中…",
+        "planningScript": "スクリプトを計画中…",
+        "readingRequest": "リクエストを読み込み中…",
+        "readingScript": "スクリプトを読み込み中…",
+        "reviewing": "レビュー中…",
+        "stillWorking": "まだ作業中…",
+        "writingCode": "コードを作成中…"
+      }
     }
   },
   "scriptingItem": "スクリプト",

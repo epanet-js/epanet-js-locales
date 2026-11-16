@@ -2193,7 +2193,21 @@
       "create": "Aanmaken",
       "exampleExportCsv": "“Selecteer elke leiding van 100 mm of minder en exporteer ze als CSV”",
       "title": "Scripting-assistent",
-      "update": "Bijwerken"
+      "update": "Bijwerken",
+      "progress": {
+        "addingComments": "Opmerkingen toevoegen…",
+        "almostDone": "Bijna klaar…",
+        "applyingChanges": "Wijzigingen toepassen…",
+        "checkingApi": "API controleren…",
+        "keepingRestIntact": "De rest intact laten…",
+        "planningChanges": "Wijzigingen plannen…",
+        "planningScript": "Script plannen…",
+        "readingRequest": "Verzoek lezen…",
+        "readingScript": "Script lezen…",
+        "reviewing": "Beoordelen…",
+        "stillWorking": "Nog steeds bezig…",
+        "writingCode": "Code schrijven…"
+      }
     }
   },
   "scriptingItem": "Scripting",

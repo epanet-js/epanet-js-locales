@@ -2200,7 +2200,21 @@
       "create": "Crear",
       "exampleExportCsv": "“Selecciona todas las tuberías de 100 mm o menos y expórtalas como CSV”",
       "title": "Asistente de scripting",
-      "update": "Actualizar"
+      "update": "Actualizar",
+      "progress": {
+        "addingComments": "Añadiendo comentarios…",
+        "almostDone": "Casi terminado…",
+        "applyingChanges": "Aplicando cambios…",
+        "checkingApi": "Comprobando la API…",
+        "keepingRestIntact": "Manteniendo el resto intacto…",
+        "planningChanges": "Planificando cambios…",
+        "planningScript": "Planificando el script…",
+        "readingRequest": "Leyendo solicitud…",
+        "readingScript": "Leyendo script…",
+        "reviewing": "Revisando…",
+        "stillWorking": "Todavía trabajando…",
+        "writingCode": "Escribiendo código…"
+      }
     }
   },
   "scriptingItem": "Scripting",

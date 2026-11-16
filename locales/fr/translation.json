@@ -2193,7 +2193,21 @@
       "create": "Créer",
       "exampleExportCsv": "« Sélectionner toutes les conduites de 100 mm ou moins et les exporter au format CSV »",
       "title": "Assistant de scriptage",
-      "update": "Mettre à jour"
+      "update": "Mettre à jour",
+      "progress": {
+        "addingComments": "Ajout de commentaires…",
+        "almostDone": "Presque terminé…",
+        "applyingChanges": "Application des modifications…",
+        "checkingApi": "Vérification de l'API…",
+        "keepingRestIntact": "Maintien du reste intact…",
+        "planningChanges": "Planification des modifications…",
+        "planningScript": "Planification du script…",
+        "readingRequest": "Lecture de la requête…",
+        "readingScript": "Lecture du script…",
+        "reviewing": "Révision en cours…",
+        "stillWorking": "Encore en cours…",
+        "writingCode": "Écriture du code…"
+      }
     }
   },
   "scriptingItem": "Scriptage",

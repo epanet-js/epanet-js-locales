@@ -2193,7 +2193,21 @@
       "create": "Criar",
       "exampleExportCsv": "“Selecione todas as tubulações com diâmetro igual ou inferior a 100 mm e exporte-as como CSV”",
       "title": "Assistente de scripting",
-      "update": "Atualizar"
+      "update": "Atualizar",
+      "progress": {
+        "addingComments": "Adicionando comentários…",
+        "almostDone": "Quase pronto…",
+        "applyingChanges": "Aplicando alterações…",
+        "checkingApi": "Verificando a API…",
+        "keepingRestIntact": "Mantendo o restante intacto…",
+        "planningChanges": "Planejando alterações…",
+        "planningScript": "Planejando o script…",
+        "readingRequest": "Lendo solicitação…",
+        "readingScript": "Lendo script…",
+        "reviewing": "Revisando…",
+        "stillWorking": "Ainda trabalhando…",
+        "writingCode": "Escrevendo código…"
+      }
     }
   },
   "scriptingItem": "Scripting",

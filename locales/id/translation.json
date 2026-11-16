@@ -2193,7 +2193,21 @@
       "create": "Buat",
       "exampleExportCsv": "“Pilih setiap pipa dengan diameter 100 mm atau kurang dan ekspor sebagai CSV”",
       "title": "Asisten skrip",
-      "update": "Perbarui"
+      "update": "Perbarui",
+      "progress": {
+        "addingComments": "Menambahkan komentar…",
+        "almostDone": "Hampir selesai…",
+        "applyingChanges": "Menerapkan perubahan…",
+        "checkingApi": "Memeriksa API…",
+        "keepingRestIntact": "Menjaga sisanya tetap utuh…",
+        "planningChanges": "Merencanakan perubahan…",
+        "planningScript": "Merencanakan skrip…",
+        "readingRequest": "Membaca permintaan…",
+        "readingScript": "Membaca skrip…",
+        "reviewing": "Meninjau…",
+        "stillWorking": "Masih bekerja…",
+        "writingCode": "Menulis kode…"
+      }
     }
   },
   "scriptingItem": "Skrip",
