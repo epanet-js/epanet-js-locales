@@ -2207,6 +2207,14 @@
         "reviewing": "Révision en cours…",
         "stillWorking": "Encore en cours…",
         "writingCode": "Écriture du code…"
+      },
+      "syntaxError": {
+        "description": "Ligne {{1}}, colonne {{2}}. Décrivez la correction, ou modifiez le script.",
+        "title": "Ce script contient une erreur de syntaxe"
+      },
+      "upgrade": {
+        "description": "Décrivez ce dont vous avez besoin et l'assistant de scriptage écrira le script pour vous.",
+        "title": "Écrivez des scripts plus rapidement avec l'assistant"
       }
     }
   },
@@ -2293,7 +2301,7 @@
     "copyName": "{{1}} copie",
     "defaultTheme": "Par défaut",
     "delete": "Supprimer…",
-    "deleteDescription": "« {{1}} » sera supprimé.",
+    "deleteDescription": "Le thème « {{1}} » sera supprimé.",
     "deleteTitle": "Supprimer le thème",
     "mapData": "Données cartographiques",
     "newThemeName": "Nouveau thème",
@@ -2306,7 +2314,71 @@
     "symbology": "Symbologie",
     "theme": "Thème",
     "basemapOpacity": "Opacité",
-    "basemapStyle": "Style",
-    "legendUnavailable": "Exécutez une simulation pour voir les résultats"
+    "basemapStyle": "Style"
+  },
+  "scriptingAssistantItem": "Assistant de scriptage",
+  "sensorData": {
+    "import": {
+      "added": "{{1}} à importer",
+      "ambiguousAsset": "Libellé d'élément partagé par un nœud et une liaison qui supportent tous deux le type de capteur. Capteur ignoré",
+      "andMoreRows": "{{1}} et {{2}} de plus",
+      "assetNotFound": "Élément introuvable dans le modèle. Capteur ignoré",
+      "atRow": "{{1}} (ligne {{2}})",
+      "atRows": "{{1}} (lignes {{2}})",
+      "duplicateName": "Nom de capteur en double. Les lignes suivantes ont été ignorées",
+      "duplicateSensorOnAsset": "L'élément possède déjà un capteur de ce type. Capteur ignoré",
+      "format": {
+        "columns": "Une ligne par capteur, avec les colonnes Nom du capteur, Type et Libellé de l'élément, suivies des lectures. Le Type correspond à ce que le capteur mesure, comme la pression, la charge, la demande, le niveau, le débit ou la vitesse, et doit être un type supporté par l'élément.",
+        "readings": "Chaque lecture est associée à un pas de temps de rapport de la simulation, à partir de 0:00. Les lectures doivent être complètes, sans lacunes et dans les unités du projet.",
+        "title": "Format de fichier"
+      },
+      "ignored": "{{1}} ignoré",
+      "importAction": "Importer",
+      "invalidReading": "Lecture manquante ou invalide. Capteur ignoré",
+      "issues": "Problèmes",
+      "issuesFound": "Problèmes trouvés dans le fichier",
+      "missingAsset": "Libellé de l'élément manquant. Capteur ignoré",
+      "missingName": "Nom du capteur manquant. Capteur ignoré",
+      "missingType": "Type de capteur manquant. Capteur ignoré",
+      "noReadings": "Aucune lecture. Capteur ignoré",
+      "notAValidSensorFile": "Cela ne ressemble pas à un fichier de données de capteur. Les colonnes attendues sont Nom du capteur, Type, Libellé de l'élément et Lectures.",
+      "nothingToImport": "Aucun capteur ne peut être importé",
+      "preview": {
+        "asset": "Élément",
+        "previewMore": "... et {{1}} de plus",
+        "readings": "Lectures",
+        "sensor": "Capteur",
+        "type": "Type"
+      },
+      "readingsDontCoverDuration": "Les lectures ne couvrent pas exactement la durée de la simulation. Les capteurs ont été importés malgré tout ; vérifiez le fichier ou les paramètres temporels de la simulation",
+      "readyToImport": "Prêt à importer",
+      "readyWithWarnings": "Prêt à importer, avec des avertissements",
+      "removeFile": "Supprimer le fichier",
+      "sessionNote": "Les données de capteur sont conservées uniquement pour cette session. Elles ne sont pas enregistrées dans le fichier projet.",
+      "title": "Importer les données de capteur",
+      "toast": {
+        "imported_one": "{{count}} capteur importé",
+        "imported_other": "{{count}} capteurs importés",
+        "importedAndSkipped_one": "{{count}} capteur importé, {{1}} ignoré",
+        "importedAndSkipped_other": "{{count}} capteurs importés, {{1}} ignorés",
+        "title": "Données de capteur importées"
+      },
+      "unreadableFile": "Le fichier sélectionné n'a pas pu être lu.",
+      "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
+      "unsupportedType": "Type de capteur non supporté par l'élément. Capteur ignoré",
+      "warningDialog": {
+        "deleteAndImport": "Supprimer et importer",
+        "explain": "Vos données de capteur actuelles seront supprimées et remplacées par les capteurs de votre nouvelle importation.",
+        "question": "Êtes-vous sûr de vouloir continuer ?"
+      }
+    },
+    "menuEntry": "Données de capteur",
+    "paywall": {
+      "description1": "Importez les lectures de vos capteurs de terrain et visualisez-les à côté de vos résultats de simulation.",
+      "description2": "Comparez les valeurs mesurées et simulées pour tout élément afin de vérifier la correspondance de votre modèle avec la réalité.",
+      "plans": "L'importation de données de capteur est disponible avec les forfaits payants.",
+      "title": "Mettre à niveau pour importer les données de capteur",
+      "trial": "L'importation de données de capteur est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+    }
   }
 }

@@ -2214,6 +2214,14 @@
         "reviewing": "Revisando…",
         "stillWorking": "Todavía trabajando…",
         "writingCode": "Escribiendo código…"
+      },
+      "syntaxError": {
+        "description": "Línea {{1}}, columna {{2}}. Describe la corrección o edita el script.",
+        "title": "Este script tiene un error de sintaxis"
+      },
+      "upgrade": {
+        "description": "Describe lo que necesitas y el asistente de scripting escribe el script por ti.",
+        "title": "Escribe scripts más rápido con el asistente"
       }
     }
   },
@@ -2300,7 +2308,7 @@
     "copyName": "{{1}} copia",
     "defaultTheme": "Predeterminado",
     "delete": "Eliminar…",
-    "deleteDescription": "“{{1}}” será eliminado.",
+    "deleteDescription": "El tema “{{1}}” será eliminado.",
     "deleteTitle": "Eliminar tema",
     "mapData": "Datos del mapa",
     "newThemeName": "Nuevo tema",
@@ -2313,7 +2321,71 @@
     "symbology": "Simbología",
     "theme": "Tema",
     "basemapOpacity": "Opacidad",
-    "basemapStyle": "Estilo",
-    "legendUnavailable": "Ejecuta una simulación para ver los resultados"
+    "basemapStyle": "Estilo"
+  },
+  "scriptingAssistantItem": "Asistente de scripting",
+  "sensorData": {
+    "import": {
+      "added": "{{1}} a importar",
+      "ambiguousAsset": "Etiqueta de activo compartida por un nudo y un enlace que ambos soportan el tipo de sensor. Sensor omitido",
+      "andMoreRows": "{{1}} y {{2}} más",
+      "assetNotFound": "Activo no encontrado en el modelo. Sensor omitido",
+      "atRow": "{{1}} (fila {{2}})",
+      "atRows": "{{1}} (filas {{2}})",
+      "duplicateName": "Nombre de sensor duplicado. Filas posteriores omitidas",
+      "duplicateSensorOnAsset": "El activo ya tiene un sensor de este tipo. Sensor omitido",
+      "format": {
+        "columns": "Una fila por sensor, con las columnas Nombre del sensor, Tipo y Etiqueta del activo, seguidas de las lecturas. El tipo es lo que mide el sensor, como presión, carga, demanda, nivel, caudal o velocidad, y debe ser uno que el activo soporte.",
+        "readings": "Cada lectura se corresponde con un paso de tiempo de informe de la simulación, comenzando a las 0:00. Las lecturas deben estar completas, sin interrupciones y en las unidades del proyecto.",
+        "title": "Formato de archivo"
+      },
+      "ignored": "{{1}} omitidos",
+      "importAction": "Importar",
+      "invalidReading": "Lectura faltante o inválida. Sensor omitido",
+      "issues": "Problemas",
+      "issuesFound": "Se encontraron problemas en el archivo",
+      "missingAsset": "Falta etiqueta de activo. Sensor omitido",
+      "missingName": "Falta nombre de sensor. Sensor omitido",
+      "missingType": "Falta tipo de sensor. Sensor omitido",
+      "noReadings": "Sin lecturas. Sensor omitido",
+      "notAValidSensorFile": "Esto no parece un archivo de datos de sensor. Las columnas esperadas son Nombre del sensor, Tipo, Etiqueta del activo y Lecturas.",
+      "nothingToImport": "No se pueden importar sensores",
+      "preview": {
+        "asset": "Activo",
+        "previewMore": "... y {{1}} más",
+        "readings": "Lecturas",
+        "sensor": "Sensor",
+        "type": "Tipo"
+      },
+      "readingsDontCoverDuration": "Las lecturas no cubren la duración de la simulación exactamente. Los sensores se importan de todos modos; revisa el archivo o la configuración de tiempo de la simulación",
+      "readyToImport": "Listo para importar",
+      "readyWithWarnings": "Listo para importar, con advertencias",
+      "removeFile": "Quitar archivo",
+      "sessionNote": "Los datos del sensor se guardan solo para esta sesión. No se guardan en el archivo del proyecto.",
+      "title": "Importar datos de sensor",
+      "toast": {
+        "imported_one": "{{count}} sensor importado",
+        "imported_other": "{{count}} sensores importados",
+        "importedAndSkipped_one": "{{count}} sensor importado, {{1}} omitido",
+        "importedAndSkipped_other": "{{count}} sensores importados, {{1}} omitidos",
+        "title": "Datos de sensor importados"
+      },
+      "unreadableFile": "No se pudo leer el archivo seleccionado.",
+      "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
+      "unsupportedType": "Tipo de sensor no soportado por el activo. Sensor omitido",
+      "warningDialog": {
+        "deleteAndImport": "Eliminar e importar",
+        "explain": "Tus datos actuales de sensor se eliminarán y se reemplazarán con los sensores de tu nueva importación.",
+        "question": "¿Estás seguro de que quieres continuar?"
+      }
+    },
+    "menuEntry": "Datos de sensor",
+    "paywall": {
+      "description1": "Importa las lecturas de tus sensores de campo y compáralas con los resultados de tu simulación.",
+      "description2": "Compara los valores medidos y simulados para cualquier activo para verificar qué tan bien tu modelo se ajusta a la realidad.",
+      "plans": "La importación de datos de sensor está disponible en planes de pago.",
+      "title": "Mejora para importar datos de sensor",
+      "trial": "La importación de datos de sensor es una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
+    }
   }
 }

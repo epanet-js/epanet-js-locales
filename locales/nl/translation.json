@@ -2207,6 +2207,14 @@
         "reviewing": "Beoordelen…",
         "stillWorking": "Nog steeds bezig…",
         "writingCode": "Code schrijven…"
+      },
+      "syntaxError": {
+        "description": "Regel {{1}}, kolom {{2}}. Beschrijf de oplossing, of bewerk het script.",
+        "title": "Dit script heeft een syntaxisfout"
+      },
+      "upgrade": {
+        "description": "Beschrijf wat u nodig heeft en de scriptingassistent schrijft het script voor u.",
+        "title": "Schrijf scripts sneller met de assistent"
       }
     }
   },
@@ -2293,7 +2301,7 @@
     "copyName": "{{1}} kopie",
     "defaultTheme": "Standaard",
     "delete": "Verwijderen…",
-    "deleteDescription": "“{{1}}” wordt verwijderd.",
+    "deleteDescription": "Het thema “{{1}}” wordt verwijderd.",
     "deleteTitle": "Thema verwijderen",
     "mapData": "Kaartgegevens",
     "newThemeName": "Nieuw thema",
@@ -2306,7 +2314,71 @@
     "symbology": "Symbologie",
     "theme": "Thema",
     "basemapOpacity": "Dekking",
-    "basemapStyle": "Stijl",
-    "legendUnavailable": "Voer een simulatie uit om resultaten te zien"
+    "basemapStyle": "Stijl"
+  },
+  "scriptingAssistantItem": "Scripting-assistent",
+  "sensorData": {
+    "import": {
+      "added": "{{1}} te importeren",
+      "ambiguousAsset": "Onderdeellabel gedeeld door een knooppunt en een verbinding die beide het sensortype ondersteunen. Sensor overgeslagen",
+      "andMoreRows": "{{1}} en {{2}} meer",
+      "assetNotFound": "Onderdeel niet gevonden in het model. Sensor overgeslagen",
+      "atRow": "{{1}} (rij {{2}})",
+      "atRows": "{{1}} (rijen {{2}})",
+      "duplicateName": "Dubbele sensornnaam. Latere rijen overgeslagen",
+      "duplicateSensorOnAsset": "Het onderdeel heeft al een sensor van dit type. Sensor overgeslagen",
+      "format": {
+        "columns": "Eén rij per sensor, met de kolommen Sensornnaam, Type en Onderdeellabel, gevolgd door de metingen. Type is wat de sensor meet, zoals druk, opvoerhoogte, vraag, niveau, stroming of snelheid, en moet een type zijn dat het onderdeel ondersteunt.",
+        "readings": "Elke meting wordt afgestemd op een rapportagetijdstap van de simulatie, beginnend om 0:00. Metingen moeten compleet zijn, zonder hiaten, en in de projecteenheden.",
+        "title": "Bestandsformaat"
+      },
+      "ignored": "{{1}} overgeslagen",
+      "importAction": "Importeren",
+      "invalidReading": "Ontbrekende of ongeldige meting. Sensor overgeslagen",
+      "issues": "Problemen",
+      "issuesFound": "Problemen gevonden in het bestand",
+      "missingAsset": "Ontbrekend onderdeellabel. Sensor overgeslagen",
+      "missingName": "Ontbrekende sensornnaam. Sensor overgeslagen",
+      "missingType": "Ontbrekend sensortype. Sensor overgeslagen",
+      "noReadings": "Geen metingen. Sensor overgeslagen",
+      "notAValidSensorFile": "Dit lijkt geen sensorgegevensbestand. Verwachte kolommen zijn Sensornnaam, Type, Onderdeellabel en Metingen.",
+      "nothingToImport": "Geen sensoren kunnen worden geïmporteerd",
+      "preview": {
+        "asset": "Onderdeel",
+        "previewMore": "... en {{1}} meer",
+        "readings": "Metingen",
+        "sensor": "Sensor",
+        "type": "Type"
+      },
+      "readingsDontCoverDuration": "Metingen dekken de simulatie duur niet exact. Sensoren toch geïmporteerd; controleer het bestand of de tijdinstellingen van de simulatie",
+      "readyToImport": "Klaar om te importeren",
+      "readyWithWarnings": "Klaar om te importeren, met waarschuwingen",
+      "removeFile": "Bestand verwijderen",
+      "sessionNote": "Sensorgegevens worden alleen voor deze sessie bewaard. Ze worden niet opgeslagen in het projectbestand.",
+      "title": "Sensorgegevens importeren",
+      "toast": {
+        "imported_one": "{{count}} sensor geïmporteerd",
+        "imported_other": "{{count}} sensoren geïmporteerd",
+        "importedAndSkipped_one": "{{count}} sensor geïmporteerd, {{1}} overgeslagen",
+        "importedAndSkipped_other": "{{count}} sensoren geïmporteerd, {{1}} overgeslagen",
+        "title": "Sensorgegevens geïmporteerd"
+      },
+      "unreadableFile": "Het geselecteerde bestand kon niet worden gelezen.",
+      "unsupportedFormat": "Alleen .csv- en .xlsx-bestanden kunnen worden geïmporteerd",
+      "unsupportedType": "Sensortype niet ondersteund door het onderdeel. Sensor overgeslagen",
+      "warningDialog": {
+        "deleteAndImport": "Verwijderen en importeren",
+        "explain": "Uw huidige sensorgegevens worden verwijderd en vervangen door de sensoren uit uw nieuwe import.",
+        "question": "Weet u zeker dat u wilt doorgaan?"
+      }
+    },
+    "menuEntry": "Sensorgegevens",
+    "paywall": {
+      "description1": "Importeer de metingen van uw veldsensoren en bekijk ze naast uw simulatie resultaten.",
+      "description2": "Vergelijk gemeten en gesimuleerde waarden voor elk onderdeel om te controleren hoe goed uw model de werkelijkheid benadert.",
+      "plans": "Sensorgegevens importeren is beschikbaar op betaalde abonnementen.",
+      "title": "Upgrade om sensorgegevens te importeren",
+      "trial": "Sensorgegevens importeren is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    }
   }
 }

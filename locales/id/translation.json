@@ -2207,6 +2207,14 @@
         "reviewing": "Meninjau…",
         "stillWorking": "Masih bekerja…",
         "writingCode": "Menulis kode…"
+      },
+      "syntaxError": {
+        "description": "Baris {{1}}, kolom {{2}}. Jelaskan perbaikannya, atau edit skripnya.",
+        "title": "Skrip ini memiliki kesalahan sintaksis"
+      },
+      "upgrade": {
+        "description": "Jelaskan apa yang Anda butuhkan dan asisten skrip akan menulis skripnya untuk Anda.",
+        "title": "Tulis skrip lebih cepat dengan asisten"
       }
     }
   },
@@ -2293,7 +2301,7 @@
     "copyName": "{{1}} salinan",
     "defaultTheme": "Default",
     "delete": "Hapus…",
-    "deleteDescription": "“{{1}}” akan dihapus.",
+    "deleteDescription": "Tema “{{1}}” akan dihapus.",
     "deleteTitle": "Hapus tema",
     "mapData": "Data peta",
     "newThemeName": "Tema baru",
@@ -2306,7 +2314,71 @@
     "symbology": "Simbologi",
     "theme": "Tema",
     "basemapOpacity": "Opasitas",
-    "basemapStyle": "Gaya",
-    "legendUnavailable": "Jalankan simulasi untuk melihat hasil"
+    "basemapStyle": "Gaya"
+  },
+  "scriptingAssistantItem": "Asisten skrip",
+  "sensorData": {
+    "import": {
+      "added": "{{1}} untuk diimpor",
+      "ambiguousAsset": "Label aset digunakan bersama oleh node dan tautan yang keduanya mendukung tipe sensor. Sensor dilewati",
+      "andMoreRows": "{{1}} dan {{2}} lainnya",
+      "assetNotFound": "Aset tidak ditemukan dalam model. Sensor dilewati",
+      "atRow": "{{1}} (baris {{2}})",
+      "atRows": "{{1}} (baris {{2}})",
+      "duplicateName": "Nama sensor duplikat. Baris selanjutnya dilewati",
+      "duplicateSensorOnAsset": "Aset sudah memiliki sensor dengan tipe ini. Sensor dilewati",
+      "format": {
+        "columns": "Satu baris per sensor, dengan kolom Nama sensor, Tipe dan Label aset, diikuti oleh pembacaan. Tipe adalah apa yang diukur oleh sensor, seperti tekanan, head, kebutuhan, level, aliran atau kecepatan, dan harus sesuai dengan yang didukung oleh aset.",
+        "readings": "Setiap pembacaan dicocokkan dengan langkah waktu laporan simulasi, dimulai pada pukul 0:00. Pembacaan harus lengkap, tanpa celah, dan dalam satuan proyek.",
+        "title": "Format file"
+      },
+      "ignored": "{{1}} dilewati",
+      "importAction": "Impor",
+      "invalidReading": "Pembacaan hilang atau tidak valid. Sensor dilewati",
+      "issues": "Masalah",
+      "issuesFound": "Ditemukan masalah dalam file",
+      "missingAsset": "Label aset hilang. Sensor dilewati",
+      "missingName": "Nama sensor hilang. Sensor dilewati",
+      "missingType": "Tipe sensor hilang. Sensor dilewati",
+      "noReadings": "Tidak ada pembacaan. Sensor dilewati",
+      "notAValidSensorFile": "Ini tidak terlihat seperti file data sensor. Kolom yang diharapkan adalah Nama sensor, Tipe, Label aset, dan Pembacaan.",
+      "nothingToImport": "Tidak ada sensor yang dapat diimpor",
+      "preview": {
+        "asset": "Aset",
+        "previewMore": "... dan {{1}} lainnya",
+        "readings": "Pembacaan",
+        "sensor": "Sensor",
+        "type": "Jenis"
+      },
+      "readingsDontCoverDuration": "Pembacaan tidak mencakup durasi simulasi secara tepat. Sensor tetap diimpor; tinjau file atau pengaturan waktu simulasi",
+      "readyToImport": "Siap diimpor",
+      "readyWithWarnings": "Siap diimpor, dengan peringatan",
+      "removeFile": "Hapus file",
+      "sessionNote": "Data sensor disimpan hanya untuk sesi ini. Tidak disimpan dalam file proyek.",
+      "title": "Impor data sensor",
+      "toast": {
+        "imported_one": "{{count}} sensor diimpor",
+        "imported_other": "{{count}} sensor diimpor",
+        "importedAndSkipped_one": "{{count}} sensor diimpor, {{1}} dilewati",
+        "importedAndSkipped_other": "{{count}} sensor diimpor, {{1}} dilewati",
+        "title": "Data sensor diimpor"
+      },
+      "unreadableFile": "File yang dipilih tidak dapat dibaca.",
+      "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
+      "unsupportedType": "Tipe sensor tidak didukung oleh aset. Sensor dilewati",
+      "warningDialog": {
+        "deleteAndImport": "Hapus dan impor",
+        "explain": "Data sensor Anda saat ini akan dihapus dan diganti dengan sensor dari impor baru Anda.",
+        "question": "Apakah Anda yakin ingin melanjutkan?"
+      }
+    },
+    "menuEntry": "Data sensor",
+    "paywall": {
+      "description1": "Impor pembacaan dari sensor lapangan Anda dan lihat hasilnya bersama hasil simulasi Anda.",
+      "description2": "Bandingkan nilai terukur dan tersimulasi untuk aset apa pun untuk memeriksa seberapa baik model Anda cocok dengan kenyataan.",
+      "plans": "Impor data sensor tersedia pada paket berbayar.",
+      "title": "Tingkatkan untuk mengimpor data sensor",
+      "trial": "Impor data sensor adalah fitur berbayar. Aktifkan uji coba gratis Anda untuk mendapatkan akses penuh selama 14 hari—tanpa kartu kredit diperlukan."
+    }
   }
 }
