@@ -694,7 +694,29 @@
       }
     },
     "issuesFound_one": "1 problème",
-    "issuesFound_other": "{{count}} problèmes"
+    "issuesFound_other": "{{count}} problèmes",
+    "topologyChecks": {
+      "description": "Trouve les pompes et les vannes dans les boucles de débit, et les clients sans alimentation",
+      "emptyMessage": "Aucun problème de topologie trouvé",
+      "junctionsWithoutSupply_one": "1 nœud sans alimentation",
+      "junctionsWithoutSupply_other": "{{count}} nœuds sans alimentation",
+      "junctionsWithoutSupplyBehindClosed_one": "1 nœud sans alimentation derrière {{1}} fermé",
+      "junctionsWithoutSupplyBehindClosed_other": "{{count}} nœuds sans alimentation derrière {{1}} fermé",
+      "junctionsWithoutSupplyUpstreamOf_one": "1 nœud sans alimentation en amont de {{1}}",
+      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} nœuds sans alimentation en amont de {{1}}",
+      "linkAndMore": "{{1}} et {{2}} autres",
+      "pumpFeedingItself": "La pompe {{1}} s'auto-alimente",
+      "rule": {
+        "junctionWithoutSupply": "Nœuds sans alimentation",
+        "pumpFeedingItself": "Pompes s'auto-alimentant",
+        "valveFeedingItself": "Vannes s'auto-alimentant"
+      },
+      "summary_one": "1 problème trouvé",
+      "summary_other": "{{count}} problèmes trouvés",
+      "summary_zero": "Aucun problème trouvé",
+      "title": "Vérifications de topologie",
+      "valveFeedingItself": "La vanne {{1}} s'auto-alimente"
+    }
   },
   "connectedCustomers": "Clients Connectés",
   "connections": "Connexions",
@@ -2311,9 +2333,7 @@
     "saveAsNewTitle": "Enregistrer comme nouveau thème",
     "saveChangesTo": "Enregistrer les modifications dans « {{1}} »",
     "symbology": "Symbologie",
-    "theme": "Thème",
-    "basemapOpacity": "Opacité",
-    "basemapStyle": "Style"
+    "theme": "Thème"
   },
   "scriptingAssistantItem": "Assistant de scriptage",
   "sensorData": {
@@ -2378,6 +2398,15 @@
       "plans": "L'importation de données de capteur est disponible avec les forfaits payants.",
       "title": "Mettre à niveau pour importer les données de capteur",
       "trial": "L'importation de données de capteur est une fonctionnalité payante. Activez votre essai gratuit pour obtenir un accès complet pendant 14 jours — aucune carte de crédit requise."
+    },
+    "panel": {
+      "asset": "Élément",
+      "emptyDescription": "Importez les lectures de capteur de {{1}} pour les comparer avec la simulation.",
+      "emptyTitle": "Aucune donnée de capteur",
+      "notInScenario": "Pas dans le scénario actuel",
+      "sensor": "Capteur",
+      "title": "Capteurs",
+      "type": "Type"
     }
   }
 }

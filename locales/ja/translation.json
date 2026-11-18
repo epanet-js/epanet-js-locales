@@ -694,7 +694,29 @@
       }
     },
     "issuesFound_one": "1件の問題",
-    "issuesFound_other": "{{count}}件の問題"
+    "issuesFound_other": "{{count}}件の問題",
+    "topologyChecks": {
+      "description": "流量ループ内のポンプと弁、および供給のない顧客を見つける",
+      "emptyMessage": "トポロジの問題は見つかりませんでした",
+      "junctionsWithoutSupply_one": "供給のない接点 1 件",
+      "junctionsWithoutSupply_other": "供給のない接点 {{count}} 件",
+      "junctionsWithoutSupplyBehindClosed_one": "閉鎖された{{1}}の背後にある供給のない接点 1 件",
+      "junctionsWithoutSupplyBehindClosed_other": "閉鎖された{{1}}の背後にある供給のない接点 {{count}} 件",
+      "junctionsWithoutSupplyUpstreamOf_one": "{{1}}の上流にある供給のない接点 1 件",
+      "junctionsWithoutSupplyUpstreamOf_other": "{{1}}の上流にある供給のない接点 {{count}} 件",
+      "linkAndMore": "{{1}}とその他 {{2}} 件",
+      "pumpFeedingItself": "ポンプ {{1}} がそれ自体を供給しています",
+      "rule": {
+        "junctionWithoutSupply": "供給のない接点",
+        "pumpFeedingItself": "ポンプがそれ自体を供給しています",
+        "valveFeedingItself": "弁がそれ自体を供給しています"
+      },
+      "summary_one": "1 件の問題が見つかりました",
+      "summary_other": "{{count}} 件の問題が見つかりました",
+      "summary_zero": "問題は見つかりませんでした",
+      "title": "トポロジチェック",
+      "valveFeedingItself": "弁 {{1}} がそれ自体を供給しています"
+    }
   },
   "connectedCustomers": "接続済み顧客",
   "connections": "接続",
@@ -2311,9 +2333,7 @@
     "saveAsNewTitle": "新しいテーマとして保存",
     "saveChangesTo": "「{{1}}」に変更を保存",
     "symbology": "シンボル",
-    "theme": "テーマ",
-    "basemapOpacity": "不透明度",
-    "basemapStyle": "スタイル"
+    "theme": "テーマ"
   },
   "scriptingAssistantItem": "スクリプトアシスタント",
   "sensorData": {
@@ -2378,6 +2398,15 @@
       "plans": "センサーデータインポートは有料プランで利用できます。",
       "title": "センサーデータをインポートするにはアップグレードしてください",
       "trial": "センサーデータインポートは有料機能です。無料トライアルを有効にして、14日間フルアクセスをお楽しみください—クレジットカードは不要です。"
+    },
+    "panel": {
+      "asset": "アセット",
+      "emptyDescription": "{{1}}からセンサー測定値をインポートし、シミュレーションと比較します。",
+      "emptyTitle": "センサーデータなし",
+      "notInScenario": "現在のシナリオにはありません",
+      "sensor": "センサー",
+      "title": "センサー",
+      "type": "タイプ"
     }
   }
 }

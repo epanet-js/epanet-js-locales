@@ -694,7 +694,29 @@
       }
     },
     "issuesFound_one": "1 problema",
-    "issuesFound_other": "{{count}} problemas"
+    "issuesFound_other": "{{count}} problemas",
+    "topologyChecks": {
+      "description": "Encontra bombas e válvulas em malhas de fluxo, e clientes sem abastecimento",
+      "emptyMessage": "Nenhum problema de topologia encontrado",
+      "junctionsWithoutSupply_one": "1 nó sem abastecimento",
+      "junctionsWithoutSupply_other": "{{count}} nós sem abastecimento",
+      "junctionsWithoutSupplyBehindClosed_one": "1 nó sem abastecimento atrás de {{1}} fechado",
+      "junctionsWithoutSupplyBehindClosed_other": "{{count}} nós sem abastecimento atrás de {{1}} fechado",
+      "junctionsWithoutSupplyUpstreamOf_one": "1 nó sem abastecimento a montante de {{1}}",
+      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} nós sem abastecimento a montante de {{1}}",
+      "linkAndMore": "{{1}} e mais {{2}}",
+      "pumpFeedingItself": "Bomba {{1}} alimenta a si mesma",
+      "rule": {
+        "junctionWithoutSupply": "Nós sem abastecimento",
+        "pumpFeedingItself": "Bombas que alimentam a si mesmas",
+        "valveFeedingItself": "Válvulas que alimentam a si mesmas"
+      },
+      "summary_one": "1 problema encontrado",
+      "summary_other": "{{count}} problemas encontrados",
+      "summary_zero": "Nenhum problema encontrado",
+      "title": "Verificações de topologia",
+      "valveFeedingItself": "Válvula {{1}} alimenta a si mesma"
+    }
   },
   "connectedCustomers": "Clientes Conectados",
   "connections": "Conexões",
@@ -2311,9 +2333,7 @@
     "saveAsNewTitle": "Salvar como novo tema",
     "saveChangesTo": "Salvar alterações em “{{1}}”",
     "symbology": "Simbologia",
-    "theme": "Tema",
-    "basemapOpacity": "Opacidade",
-    "basemapStyle": "Estilo"
+    "theme": "Tema"
   },
   "scriptingAssistantItem": "Assistente de scripting",
   "sensorData": {
@@ -2378,6 +2398,15 @@
       "plans": "A importação de dados de sensor está disponível em planos pagos.",
       "title": "Atualize para importar dados de sensor",
       "trial": "A importação de dados de sensor é um recurso pago. Ative seu teste gratuito para ter acesso total por 14 dias — sem necessidade de cartão de crédito."
+    },
+    "panel": {
+      "asset": "Ativo",
+      "emptyDescription": "Importe as leituras do sensor de {{1}} para compará-las com a simulação.",
+      "emptyTitle": "Nenhum dado de sensor",
+      "notInScenario": "Não no cenário atual",
+      "sensor": "Sensor",
+      "title": "Sensores",
+      "type": "Tipo"
     }
   }
 }

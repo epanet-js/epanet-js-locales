@@ -694,7 +694,29 @@
       }
     },
     "issuesFound_one": "1 probleem",
-    "issuesFound_other": "{{count}} problemen"
+    "issuesFound_other": "{{count}} problemen",
+    "topologyChecks": {
+      "description": "Vind pompen en ventielen in stroomlussen, en klanten zonder toevoer",
+      "emptyMessage": "Geen topologieproblemen gevonden",
+      "junctionsWithoutSupply_one": "1 knooppunt zonder toevoer",
+      "junctionsWithoutSupply_other": "{{count}} knooppunten zonder toevoer",
+      "junctionsWithoutSupplyBehindClosed_one": "1 knooppunt zonder toevoer achter gesloten {{1}}",
+      "junctionsWithoutSupplyBehindClosed_other": "{{count}} knooppunten zonder toevoer achter gesloten {{1}}",
+      "junctionsWithoutSupplyUpstreamOf_one": "1 knooppunt zonder toevoer stroomopwaarts van {{1}}",
+      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} knooppunten zonder toevoer stroomopwaarts van {{1}}",
+      "linkAndMore": "{{1}} en {{2}} meer",
+      "pumpFeedingItself": "Pomp {{1}} voedt zichzelf",
+      "rule": {
+        "junctionWithoutSupply": "Knooppunten zonder toevoer",
+        "pumpFeedingItself": "Pompen die zichzelf voeden",
+        "valveFeedingItself": "Ventielen die zichzelf voeden"
+      },
+      "summary_one": "1 probleem gevonden",
+      "summary_other": "{{count}} problemen gevonden",
+      "summary_zero": "Geen problemen gevonden",
+      "title": "Topologiecontroles",
+      "valveFeedingItself": "Ventiel {{1}} voedt zichzelf"
+    }
   },
   "connectedCustomers": "Verbonden Klanten",
   "connections": "Verbindingen",
@@ -2311,9 +2333,7 @@
     "saveAsNewTitle": "Opslaan als nieuw thema",
     "saveChangesTo": "Wijzigingen opslaan in “{{1}}”",
     "symbology": "Symbologie",
-    "theme": "Thema",
-    "basemapOpacity": "Dekking",
-    "basemapStyle": "Stijl"
+    "theme": "Thema"
   },
   "scriptingAssistantItem": "Scripting-assistent",
   "sensorData": {
@@ -2378,6 +2398,15 @@
       "plans": "Sensorgegevens importeren is beschikbaar op betaalde abonnementen.",
       "title": "Upgrade om sensorgegevens te importeren",
       "trial": "Sensorgegevens importeren is een betaalde functie. Activeer uw gratis proefperiode om 14 dagen lang volledige toegang te krijgen — geen creditcard nodig."
+    },
+    "panel": {
+      "asset": "Onderdeel",
+      "emptyDescription": "Importeer sensormetingen van {{1}} om ze te vergelijken met de simulatie.",
+      "emptyTitle": "Geen sensorgegevens",
+      "notInScenario": "Niet in huidig scenario",
+      "sensor": "Sensor",
+      "title": "Sensoren",
+      "type": "Type"
     }
   }
 }
