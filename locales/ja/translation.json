@@ -696,26 +696,24 @@
     "issuesFound_one": "1件の問題",
     "issuesFound_other": "{{count}}件の問題",
     "topologyChecks": {
-      "description": "流量ループ内のポンプと弁、および供給のない顧客を見つける",
+      "description": "流量ループ内のポンプと弁、および供給のない接点を見つける",
       "emptyMessage": "トポロジの問題は見つかりませんでした",
       "junctionsWithoutSupply_one": "供給のない接点 1 件",
       "junctionsWithoutSupply_other": "供給のない接点 {{count}} 件",
-      "junctionsWithoutSupplyBehindClosed_one": "閉鎖された{{1}}の背後にある供給のない接点 1 件",
-      "junctionsWithoutSupplyBehindClosed_other": "閉鎖された{{1}}の背後にある供給のない接点 {{count}} 件",
-      "junctionsWithoutSupplyUpstreamOf_one": "{{1}}の上流にある供給のない接点 1 件",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{1}}の上流にある供給のない接点 {{count}} 件",
       "linkAndMore": "{{1}}とその他 {{2}} 件",
-      "pumpFeedingItself": "ポンプ {{1}} がそれ自体を供給しています",
       "rule": {
         "junctionWithoutSupply": "供給のない接点",
-        "pumpFeedingItself": "ポンプがそれ自体を供給しています",
-        "valveFeedingItself": "弁がそれ自体を供給しています"
+        "pumpFeedingItself": "再循環ポンプ",
+        "valveFeedingItself": "再循環弁"
       },
       "summary_one": "1 件の問題が見つかりました",
       "summary_other": "{{count}} 件の問題が見つかりました",
       "summary_zero": "問題は見つかりませんでした",
       "title": "トポロジチェック",
-      "valveFeedingItself": "弁 {{1}} がそれ自体を供給しています"
+      "affectedCount_one": "影響を受けるアセット 1 件",
+      "affectedCount_other": "影響を受けるアセット {{count}} 件",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "アセットをクリックして、供給が中断されている接点を選択します"
     }
   },
   "connectedCustomers": "接続済み顧客",
@@ -967,7 +965,8 @@
       "tankLevels": "配水池レベルで開始/停止",
       "tankNode": "{{1}} (配水池)",
       "thisPump": "このポンプ",
-      "varyByTimeOfDay": "時間帯によって変化する"
+      "varyByTimeOfDay": "時間帯によって変化する",
+      "title": "可変速"
     },
     "patternBased": "パターンベース",
     "flowModulating": {
@@ -979,7 +978,8 @@
       "setByControl": "制御によって設定",
       "thisValve": "この弁",
       "type": "流量変調"
-    }
+    },
+    "fixedSpeed": "固定速度"
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",

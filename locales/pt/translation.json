@@ -696,26 +696,24 @@
     "issuesFound_one": "1 problema",
     "issuesFound_other": "{{count}} problemas",
     "topologyChecks": {
-      "description": "Encontra bombas e válvulas em malhas de fluxo, e clientes sem abastecimento",
+      "description": "Encontre bombas e válvulas em malhas de fluxo, e nós sem abastecimento",
       "emptyMessage": "Nenhum problema de topologia encontrado",
       "junctionsWithoutSupply_one": "1 nó sem abastecimento",
       "junctionsWithoutSupply_other": "{{count}} nós sem abastecimento",
-      "junctionsWithoutSupplyBehindClosed_one": "1 nó sem abastecimento atrás de {{1}} fechado",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} nós sem abastecimento atrás de {{1}} fechado",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 nó sem abastecimento a montante de {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} nós sem abastecimento a montante de {{1}}",
       "linkAndMore": "{{1}} e mais {{2}}",
-      "pumpFeedingItself": "Bomba {{1}} alimenta a si mesma",
       "rule": {
         "junctionWithoutSupply": "Nós sem abastecimento",
-        "pumpFeedingItself": "Bombas que alimentam a si mesmas",
-        "valveFeedingItself": "Válvulas que alimentam a si mesmas"
+        "pumpFeedingItself": "Bombas recirculantes",
+        "valveFeedingItself": "Válvulas recirculantes"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "Nenhum problema encontrado",
       "title": "Verificações de topologia",
-      "valveFeedingItself": "Válvula {{1}} alimenta a si mesma"
+      "affectedCount_one": "1 ativo afetado",
+      "affectedCount_other": "{{count}} ativos afetados",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "Clique em um ativo para selecionar nós com abastecimento interrompido"
     }
   },
   "connectedCustomers": "Clientes Conectados",
@@ -967,7 +965,8 @@
       "tankLevels": "Ligar/desligar ao nível do tanque",
       "tankNode": "{{1}} (tanque)",
       "thisPump": "Esta bomba",
-      "varyByTimeOfDay": "Variar por hora do dia"
+      "varyByTimeOfDay": "Variar por hora do dia",
+      "title": "Velocidade variável"
     },
     "patternBased": "Baseado em padrão",
     "flowModulating": {
@@ -979,7 +978,8 @@
       "setByControl": "Definido por controle",
       "thisValve": "Esta válvula",
       "type": "Vazão modulada"
-    }
+    },
+    "fixedSpeed": "Velocidade fixa"
   },
   "labelDuplicate": "Rótulo já em uso",
   "nextTimestep": "Próximo passo de tempo",

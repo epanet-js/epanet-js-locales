@@ -696,16 +696,11 @@
     "issuesFound_one": "1 probleem",
     "issuesFound_other": "{{count}} problemen",
     "topologyChecks": {
-      "description": "Vind pompen en ventielen in stroomlussen, en klanten zonder toevoer",
+      "description": "Vind pompen en ventielen in stroomlussen, en knooppunten zonder toevoer",
       "emptyMessage": "Geen topologieproblemen gevonden",
       "junctionsWithoutSupply_one": "1 knooppunt zonder toevoer",
       "junctionsWithoutSupply_other": "{{count}} knooppunten zonder toevoer",
-      "junctionsWithoutSupplyBehindClosed_one": "1 knooppunt zonder toevoer achter gesloten {{1}}",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} knooppunten zonder toevoer achter gesloten {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 knooppunt zonder toevoer stroomopwaarts van {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} knooppunten zonder toevoer stroomopwaarts van {{1}}",
       "linkAndMore": "{{1}} en {{2}} meer",
-      "pumpFeedingItself": "Pomp {{1}} voedt zichzelf",
       "rule": {
         "junctionWithoutSupply": "Knooppunten zonder toevoer",
         "pumpFeedingItself": "Pompen die zichzelf voeden",
@@ -715,7 +710,10 @@
       "summary_other": "{{count}} problemen gevonden",
       "summary_zero": "Geen problemen gevonden",
       "title": "Topologiecontroles",
-      "valveFeedingItself": "Ventiel {{1}} voedt zichzelf"
+      "affectedCount_one": "1 onderdeel getroffen",
+      "affectedCount_other": "{{count}} onderdelen getroffen",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "Klik een onderdeel om knooppunten met onderbroken toevoer te selecteren"
     }
   },
   "connectedCustomers": "Verbonden Klanten",
@@ -967,7 +965,8 @@
       "tankLevels": "Start/stop bij tankniveau",
       "tankNode": "{{1}} (tank)",
       "thisPump": "Deze pomp",
-      "varyByTimeOfDay": "Variëren per tijdstip van de dag"
+      "varyByTimeOfDay": "Variëren per tijdstip van de dag",
+      "title": "Variabele snelheid"
     },
     "patternBased": "Patroon-gebaseerd",
     "flowModulating": {
@@ -979,7 +978,8 @@
       "setByControl": "Instellen door besturing",
       "thisValve": "Dit ventiel",
       "type": "Debiet gemoduleerd"
-    }
+    },
+    "fixedSpeed": "Vaste snelheid"
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",

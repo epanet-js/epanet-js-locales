@@ -696,26 +696,24 @@
     "issuesFound_one": "1 problème",
     "issuesFound_other": "{{count}} problèmes",
     "topologyChecks": {
-      "description": "Trouve les pompes et les vannes dans les boucles de débit, et les clients sans alimentation",
+      "description": "Trouve les pompes et les vannes dans les boucles de débit, et les nœuds sans alimentation",
       "emptyMessage": "Aucun problème de topologie trouvé",
       "junctionsWithoutSupply_one": "1 nœud sans alimentation",
       "junctionsWithoutSupply_other": "{{count}} nœuds sans alimentation",
-      "junctionsWithoutSupplyBehindClosed_one": "1 nœud sans alimentation derrière {{1}} fermé",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} nœuds sans alimentation derrière {{1}} fermé",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 nœud sans alimentation en amont de {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} nœuds sans alimentation en amont de {{1}}",
       "linkAndMore": "{{1}} et {{2}} autres",
-      "pumpFeedingItself": "La pompe {{1}} s'auto-alimente",
       "rule": {
         "junctionWithoutSupply": "Nœuds sans alimentation",
-        "pumpFeedingItself": "Pompes s'auto-alimentant",
-        "valveFeedingItself": "Vannes s'auto-alimentant"
+        "pumpFeedingItself": "Pompes en recirculation",
+        "valveFeedingItself": "Vannes en recirculation"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
       "summary_zero": "Aucun problème trouvé",
       "title": "Vérifications de topologie",
-      "valveFeedingItself": "La vanne {{1}} s'auto-alimente"
+      "affectedCount_one": "1 élément affecté",
+      "affectedCount_other": "{{count}} éléments affectés",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "Cliquez sur un élément pour sélectionner les nœuds avec alimentation interrompue"
     }
   },
   "connectedCustomers": "Clients Connectés",
@@ -967,7 +965,8 @@
       "tankLevels": "Démarrer/arrêter au niveau du château d'eau",
       "tankNode": "{{1}} (château d'eau)",
       "thisPump": "Cette pompe",
-      "varyByTimeOfDay": "Varier en fonction de l'heure de la journée"
+      "varyByTimeOfDay": "Varier en fonction de l'heure de la journée",
+      "title": "Vitesse variable"
     },
     "patternBased": "Basé sur un motif",
     "flowModulating": {
@@ -979,7 +978,8 @@
       "setByControl": "Défini par contrôle",
       "thisValve": "Cette vanne",
       "type": "Débit modulé"
-    }
+    },
+    "fixedSpeed": "Vitesse fixe"
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",

@@ -709,16 +709,11 @@
     "issuesFound_one": "1 problema",
     "issuesFound_other": "{{count}} problemas",
     "topologyChecks": {
-      "description": "Encuentra bombas y válvulas en bucles de caudal, y clientes sin suministro",
+      "description": "Encuentra bombas y válvulas en bucles de caudal, y nudos sin suministro",
       "emptyMessage": "No se encontraron problemas de topología",
       "junctionsWithoutSupply_one": "1 nudo sin suministro",
       "junctionsWithoutSupply_other": "{{count}} nudos sin suministro",
-      "junctionsWithoutSupplyBehindClosed_one": "1 nudo sin suministro detrás de la {{1}} cerrada",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} nudos sin suministro detrás de la {{1}} cerrada",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 nudo sin suministro aguas arriba de {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} nudos sin suministro aguas arriba de {{1}}",
       "linkAndMore": "{{1}} y {{2}} más",
-      "pumpFeedingItself": "La bomba {{1}} se alimenta a sí misma",
       "rule": {
         "junctionWithoutSupply": "Nudos sin suministro",
         "pumpFeedingItself": "Bombas que se alimentan a sí mismas",
@@ -728,7 +723,10 @@
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
       "title": "Comprobaciones de topología",
-      "valveFeedingItself": "La válvula {{1}} se alimenta a sí misma"
+      "affectedCount_one": "1 activo afectado",
+      "affectedCount_other": "{{count}} activos afectados",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "Haz clic en un activo para seleccionar nudos con suministro interrumpido"
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -980,7 +978,8 @@
       "tankLevels": "Arrancar/parar por nivel de tanque",
       "tankNode": "{{1}} (tanque)",
       "thisPump": "Esta bomba",
-      "varyByTimeOfDay": "Variar por hora del día"
+      "varyByTimeOfDay": "Variar por hora del día",
+      "title": "Velocidad variable"
     },
     "patternBased": "Basado en patrón",
     "flowModulating": {
@@ -992,7 +991,8 @@
       "setByControl": "Establecido por control",
       "thisValve": "Esta válvula",
       "type": "Caudal modulado"
-    }
+    },
+    "fixedSpeed": "Velocidad fija"
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",

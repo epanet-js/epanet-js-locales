@@ -135,7 +135,8 @@
       "tankLevels": "Mulai/berhenti pada level tangki",
       "tankNode": "{{1}} (tangki)",
       "thisPump": "Pompa ini",
-      "varyByTimeOfDay": "Bervariasi berdasarkan waktu hari"
+      "varyByTimeOfDay": "Bervariasi berdasarkan waktu hari",
+      "title": "Kecepatan variabel"
     },
     "patternBased": "Berbasis pola",
     "flowModulating": {
@@ -147,7 +148,8 @@
       "setByControl": "Ditetapkan oleh kontrol",
       "thisValve": "Katup ini",
       "type": "Modulasi aliran"
-    }
+    },
+    "fixedSpeed": "Kecepatan tetap"
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -920,26 +922,24 @@
     "issuesFound_one": "1 masalah",
     "issuesFound_other": "{{count}} masalah",
     "topologyChecks": {
-      "description": "Temukan pompa dan katup dalam putaran aliran, dan pelanggan tanpa pasokan",
+      "description": "Temukan pompa dan katup dalam putaran aliran, dan sambungan tanpa pasokan",
       "emptyMessage": "Tidak ditemukan masalah topologi",
       "junctionsWithoutSupply_one": "1 sambungan tanpa pasokan",
       "junctionsWithoutSupply_other": "{{count}} sambungan tanpa pasokan",
-      "junctionsWithoutSupplyBehindClosed_one": "1 sambungan tanpa pasokan di balik {{1}} yang tertutup",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} sambungan tanpa pasokan di balik {{1}} yang tertutup",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 sambungan tanpa pasokan di hulu {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} sambungan tanpa pasokan di hulu {{1}}",
       "linkAndMore": "{{1}} dan {{2}} lainnya",
-      "pumpFeedingItself": "Pompa {{1}} mengalirkan ke dirinya sendiri",
       "rule": {
         "junctionWithoutSupply": "Sambungan tanpa pasokan",
-        "pumpFeedingItself": "Pompa mengalirkan ke dirinya sendiri",
-        "valveFeedingItself": "Katup mengalirkan ke dirinya sendiri"
+        "pumpFeedingItself": "Pompa resirkulasi",
+        "valveFeedingItself": "Katup resirkulasi"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
       "summary_zero": "Tidak ada masalah ditemukan",
       "title": "Pemeriksaan topologi",
-      "valveFeedingItself": "Katup {{1}} mengalirkan ke dirinya sendiri"
+      "affectedCount_one": "1 aset terpengaruh",
+      "affectedCount_other": "{{count}} aset terpengaruh",
+      "groupLabel": "{{1}} ({{2}})",
+      "interruptionCausedBy": "Klik aset untuk memilih sambungan dengan pasokan terganggu"
     }
   },
   "newBadge": "baru",

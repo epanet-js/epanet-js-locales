@@ -1319,6 +1319,7 @@
     "timeBased": "Time-based",
     "patternBased": "Pattern-based",
     "levelBased": "Level-based",
+    "fixedSpeed": "Fixed speed",
     "levelValidation": {
       "outOfRange": "Level must be between {{1}} and {{2}}.",
       "onBelowOff": "On level must be below the off level."
@@ -1326,6 +1327,7 @@
     "time": "Time",
     "addTimeStep": "Add time step",
     "variableSpeed": {
+      "title": "Variable speed",
       "pressureTarget": "Pressure target",
       "flowTarget": "Flow target",
       "atNode": "At node",
@@ -1685,23 +1687,21 @@
     },
     "topologyChecks": {
       "title": "Topology checks",
-      "description": "Find pumps and valves in flow loops, and customers without supply",
+      "description": "Find pumps and valves in flow loops, and junctions without supply",
       "summary_zero": "No issues found",
       "summary_one": "1 issue found",
       "summary_other": "{{count}} issues found",
       "emptyMessage": "No topology issues found",
-      "pumpFeedingItself": "Pump {{1}} feeds itself",
-      "valveFeedingItself": "Valve {{1}} feeds itself",
+      "affectedCount_one": "1 asset affected",
+      "affectedCount_other": "{{count}} assets affected",
+      "groupLabel": "{{1}} ({{2}})",
       "junctionsWithoutSupply_one": "1 junction without supply",
       "junctionsWithoutSupply_other": "{{count}} junctions without supply",
-      "junctionsWithoutSupplyUpstreamOf_one": "1 junction without supply upstream of {{1}}",
-      "junctionsWithoutSupplyUpstreamOf_other": "{{count}} junctions without supply upstream of {{1}}",
-      "junctionsWithoutSupplyBehindClosed_one": "1 junction without supply behind closed {{1}}",
-      "junctionsWithoutSupplyBehindClosed_other": "{{count}} junctions without supply behind closed {{1}}",
       "linkAndMore": "{{1}} and {{2}} more",
+      "interruptionCausedBy": "Click an asset to select junctions with interrupted supply",
       "rule": {
-        "pumpFeedingItself": "Pumps feeding themselves",
-        "valveFeedingItself": "Valves feeding themselves",
+        "pumpFeedingItself": "Recirculating pumps",
+        "valveFeedingItself": "Recirculating valves",
         "junctionWithoutSupply": "Junctions without supply"
       }
     },
