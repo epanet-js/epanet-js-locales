@@ -2297,7 +2297,6 @@
   "minElevation": "Min. hoogte",
   "mapThemes": {
     "actions": "Thema-acties",
-    "actionsUnsaved": "Thema-acties, niet-opgeslagen wijzigingen",
     "copyName": "{{1}} kopie",
     "defaultTheme": "Standaard",
     "delete": "Verwijderen…",

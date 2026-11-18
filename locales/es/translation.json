@@ -2304,7 +2304,6 @@
   "minElevation": "Elevación mínima",
   "mapThemes": {
     "actions": "Acciones del tema",
-    "actionsUnsaved": "Acciones del tema, cambios sin guardar",
     "copyName": "{{1}} copia",
     "defaultTheme": "Predeterminado",
     "delete": "Eliminar…",

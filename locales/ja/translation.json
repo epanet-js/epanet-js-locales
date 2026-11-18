@@ -2297,7 +2297,6 @@
   "minElevation": "最小標高",
   "mapThemes": {
     "actions": "テーマアクション",
-    "actionsUnsaved": "テーマアクション、未保存の変更",
     "copyName": "{{1}} コピー",
     "defaultTheme": "デフォルト",
     "delete": "削除…",

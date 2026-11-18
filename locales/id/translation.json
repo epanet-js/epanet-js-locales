@@ -2297,7 +2297,6 @@
   "minElevation": "Elevasi min",
   "mapThemes": {
     "actions": "Tindakan tema",
-    "actionsUnsaved": "Tindakan tema, perubahan belum disimpan",
     "copyName": "{{1}} salinan",
     "defaultTheme": "Default",
     "delete": "Hapus…",
