@@ -682,7 +682,21 @@
         "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn",
         "valveTargetNodeActive": "PRV doelknooppunt moet actief zijn",
         "pumpVariableSpeedDischargeNotBackfeeding": "Pomp met variabel toerental mag niet in zichzelf terugvoeren",
-        "pumpVariableSpeedFlowTargetSameDirection": "De stromingsdoel van de pomp met variabel toerental moet de richting van de pomp volgen"
+        "pumpVariableSpeedFlowTargetSameDirection": "De stromingsdoel van de pomp met variabel toerental moet de richting van de pomp volgen",
+        "pumpLevelSettingControlOnBelowOff": "Niveaugebaseerde regeling op niveau moet onder het uit-niveau liggen",
+        "pumpLevelSettingControlOnSpeedNonNegative": "Niveaugebaseerde regeling op snelheid moet nul of groter zijn",
+        "pumpLevelSettingControlWithinTankLevels": "Niveaugebaseerde regelniveaus moeten binnen de minimale en maximale niveaus van de tank liggen",
+        "pumpTimedSettingStepsSpeedsNonNegative": "Tijdgebaseerde regelstapsnelheden moeten nul of groter zijn",
+        "pumpTimedSettingStepsTimesDistinct": "Tijdgebaseerde regelstappen mogen geen tijd delen",
+        "pumpTimedSettingStepsTimesInSequence": "Tijdgebaseerde regelstaptijden moeten in volgorde zijn",
+        "pumpVariableSpeedMaxSpeedPositive": "Maximale snelheid van pomp met variabele snelheid moet groter zijn dan nul",
+        "pumpVariableSpeedMinSpeedNonNegative": "Minimale snelheid van pomp met variabele snelheid moet nul of groter zijn",
+        "pumpVariableSpeedPressureTargetValuePositive": "Drukdoel van pomp met variabele snelheid moet groter zijn dan nul",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "Drukdoelen van het schema voor pompen met variabele snelheid moeten groter zijn dan nul",
+        "pumpVariableSpeedScheduleTimesDistinct": "Items in het schema voor pompen met variabele snelheid mogen geen tijd delen",
+        "pumpVariableSpeedScheduleTimesInSequence": "Tijden in het schema voor pompen met variabele snelheid moeten in volgorde zijn",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "Aan-niveau van de start-/stop-tank voor pompen met variabele snelheid moet onder het uit-niveau liggen",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Start-/stop-niveaus van pompen met variabele snelheid moeten binnen de minimale en maximale niveaus van de tank liggen"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -698,8 +712,6 @@
     "topologyChecks": {
       "description": "Vind pompen en ventielen in stroomlussen, en knooppunten zonder toevoer",
       "emptyMessage": "Geen topologieproblemen gevonden",
-      "junctionsWithoutSupply_one": "1 knooppunt zonder toevoer",
-      "junctionsWithoutSupply_other": "{{count}} knooppunten zonder toevoer",
       "linkAndMore": "{{1}} en {{2}} meer",
       "rule": {
         "junctionWithoutSupply": "Knooppunten zonder toevoer",
@@ -713,7 +725,10 @@
       "affectedCount_one": "1 onderdeel getroffen",
       "affectedCount_other": "{{count}} onderdelen getroffen",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "Klik een onderdeel om knooppunten met onderbroken toevoer te selecteren"
+      "interruptionCausedBy": "Gegroepeerd per de verbinding die de toevoer onderbreekt. Klik om deze te selecteren, samen met de getroffen knooppunten.",
+      "junctionsCount_one": "1 knooppunt",
+      "junctionsCount_other": "{{count}} knooppunten",
+      "recirculationCausedBy": "Klik op een onderdeel om deze en de stromingslus die de recirculatie veroorzaakt te selecteren"
     }
   },
   "connectedCustomers": "Verbonden Klanten",
@@ -2328,12 +2343,16 @@
     "newThemeName": "Nieuw thema",
     "rename": "Hernoemen…",
     "renameTitle": "Thema hernoemen",
-    "resetChanges": "Wijzigingen herstellen",
     "saveAsNew": "Opslaan als nieuw thema…",
     "saveAsNewTitle": "Opslaan als nieuw thema",
-    "saveChangesTo": "Wijzigingen opslaan in “{{1}}”",
     "symbology": "Symbologie",
-    "theme": "Thema"
+    "theme": "Thema",
+    "discardChanges": "Wijzigingen verwerpen",
+    "duplicate": "Dupliceren…",
+    "duplicateTitle": "Thema dupliceren",
+    "saveChanges": "Wijzigingen opslaan",
+    "unsavedTheme": "Niet-opgeslagen thema",
+    "updateTheme": "“{{1}}” bijwerken"
   },
   "scriptingAssistantItem": "Scripting-assistent",
   "sensorData": {

@@ -682,7 +682,21 @@
         "valveFlowModulatingSensorLinkActive": "O link de vazão passante do controle de modulação de vazão deve estar ativo",
         "valveTargetNodeActive": "O nó de destino da PRV deve estar ativo",
         "pumpVariableSpeedDischargeNotBackfeeding": "A bomba de velocidade variável não deve alimentar a si mesma",
-        "pumpVariableSpeedFlowTargetSameDirection": "O alvo de vazão da bomba de velocidade variável deve seguir a direção da bomba"
+        "pumpVariableSpeedFlowTargetSameDirection": "O alvo de vazão da bomba de velocidade variável deve seguir a direção da bomba",
+        "pumpLevelSettingControlOnBelowOff": "O nível de ativação do controle baseado em nível deve ser inferior ao nível de desativação",
+        "pumpLevelSettingControlOnSpeedNonNegative": "A velocidade de ativação do controle baseado em nível deve ser zero ou maior",
+        "pumpLevelSettingControlWithinTankLevels": "Os níveis de controle baseados em nível devem estar dentro dos níveis mínimo e máximo do tanque",
+        "pumpTimedSettingStepsSpeedsNonNegative": "As velocidades dos passos de tempo do controle baseado em tempo devem ser zero ou maiores",
+        "pumpTimedSettingStepsTimesDistinct": "Os passos de tempo do controle baseado em tempo não devem compartilhar um tempo",
+        "pumpTimedSettingStepsTimesInSequence": "Os tempos dos passos de tempo do controle baseado em tempo devem estar em ordem",
+        "pumpVariableSpeedMaxSpeedPositive": "A velocidade máxima da bomba de velocidade variável deve ser maior que zero",
+        "pumpVariableSpeedMinSpeedNonNegative": "A velocidade mínima da bomba de velocidade variável deve ser zero ou maior",
+        "pumpVariableSpeedPressureTargetValuePositive": "A meta de pressão da bomba de velocidade variável deve ser maior que zero",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "As metas de pressão do agendamento da bomba de velocidade variável devem ser maiores que zero",
+        "pumpVariableSpeedScheduleTimesDistinct": "As entradas do agendamento da bomba de velocidade variável não devem compartilhar um tempo",
+        "pumpVariableSpeedScheduleTimesInSequence": "Os tempos do agendamento da bomba de velocidade variável devem estar em ordem",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "O nível de ativação/desativação da bomba de velocidade variável deve ser inferior ao nível de desativação do tanque",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Os níveis de ativação/desativação da bomba de velocidade variável devem estar dentro dos níveis mínimo e máximo do tanque"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -698,8 +712,6 @@
     "topologyChecks": {
       "description": "Encontre bombas e válvulas em malhas de fluxo, e nós sem abastecimento",
       "emptyMessage": "Nenhum problema de topologia encontrado",
-      "junctionsWithoutSupply_one": "1 nó sem abastecimento",
-      "junctionsWithoutSupply_other": "{{count}} nós sem abastecimento",
       "linkAndMore": "{{1}} e mais {{2}}",
       "rule": {
         "junctionWithoutSupply": "Nós sem abastecimento",
@@ -713,7 +725,10 @@
       "affectedCount_one": "1 ativo afetado",
       "affectedCount_other": "{{count}} ativos afetados",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "Clique em um ativo para selecionar nós com abastecimento interrompido"
+      "interruptionCausedBy": "Agrupado pelo link que interrompe o abastecimento. Clique para selecioná-lo com os nós afetados",
+      "junctionsCount_one": "1 nó",
+      "junctionsCount_other": "{{count}} nós",
+      "recirculationCausedBy": "Clique em um ativo para selecioná-lo e o circuito de fluxo que causa a recirculação"
     }
   },
   "connectedCustomers": "Clientes Conectados",
@@ -2328,12 +2343,16 @@
     "newThemeName": "Novo tema",
     "rename": "Renomear…",
     "renameTitle": "Renomear tema",
-    "resetChanges": "Redefinir alterações",
     "saveAsNew": "Salvar como novo tema…",
     "saveAsNewTitle": "Salvar como novo tema",
-    "saveChangesTo": "Salvar alterações em “{{1}}”",
     "symbology": "Simbologia",
-    "theme": "Tema"
+    "theme": "Tema",
+    "discardChanges": "Descartar alterações",
+    "duplicate": "Duplicar…",
+    "duplicateTitle": "Duplicar tema",
+    "saveChanges": "Salvar alterações",
+    "unsavedTheme": "Tema não salvo",
+    "updateTheme": "Atualizar “{{1}}”"
   },
   "scriptingAssistantItem": "Assistente de scripting",
   "sensorData": {

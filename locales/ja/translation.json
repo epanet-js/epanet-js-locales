@@ -682,7 +682,21 @@
         "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません",
         "valveTargetNodeActive": "PRVターゲットノードはアクティブである必要があります",
         "pumpVariableSpeedDischargeNotBackfeeding": "可変速ポンプは自身に逆流してはなりません",
-        "pumpVariableSpeedFlowTargetSameDirection": "可変速ポンプの流量目標はポンプの向きに従う必要があります"
+        "pumpVariableSpeedFlowTargetSameDirection": "可変速ポンプの流量目標はポンプの向きに従う必要があります",
+        "pumpLevelSettingControlOnBelowOff": "レベルベース制御のオンレベルはオフレベルより低くなければなりません",
+        "pumpLevelSettingControlOnSpeedNonNegative": "レベルベース制御のオン速度はゼロ以上でなければなりません",
+        "pumpLevelSettingControlWithinTankLevels": "レベルベース制御のレベルは配水池の最小水位と最大水位の間である必要があります",
+        "pumpTimedSettingStepsSpeedsNonNegative": "時間ベース制御のステップ速度はゼロ以上でなければなりません",
+        "pumpTimedSettingStepsTimesDistinct": "時間ベース制御のステップは時間を共有してはなりません",
+        "pumpTimedSettingStepsTimesInSequence": "時間ベース制御のステップ時間は順序通りでなければなりません",
+        "pumpVariableSpeedMaxSpeedPositive": "可変速ポンプの最大速度はゼロより大きくなければなりません",
+        "pumpVariableSpeedMinSpeedNonNegative": "可変速ポンプの最小速度はゼロ以上でなければなりません",
+        "pumpVariableSpeedPressureTargetValuePositive": "可変速ポンプの圧力目標はゼロより大きくなければなりません",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "可変速ポンプのスケジュール圧力目標はゼロより大きくなければなりません",
+        "pumpVariableSpeedScheduleTimesDistinct": "可変速ポンプのスケジュールエントリは時間を共有してはなりません",
+        "pumpVariableSpeedScheduleTimesInSequence": "可変速ポンプのスケジュール時間は順序通りでなければなりません",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "可変速ポンプの開始/停止配水池のオンレベルはオフレベルより低くなければなりません",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "可変速ポンプの開始/停止レベルは配水池の最小水位と最大水位の間である必要があります"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -698,8 +712,6 @@
     "topologyChecks": {
       "description": "流量ループ内のポンプと弁、および供給のない接点を見つける",
       "emptyMessage": "トポロジの問題は見つかりませんでした",
-      "junctionsWithoutSupply_one": "供給のない接点 1 件",
-      "junctionsWithoutSupply_other": "供給のない接点 {{count}} 件",
       "linkAndMore": "{{1}}とその他 {{2}} 件",
       "rule": {
         "junctionWithoutSupply": "供給のない接点",
@@ -713,7 +725,10 @@
       "affectedCount_one": "影響を受けるアセット 1 件",
       "affectedCount_other": "影響を受けるアセット {{count}} 件",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "アセットをクリックして、供給が中断されている接点を選択します"
+      "interruptionCausedBy": "供給を中断しているリンクでグループ化。クリックすると影響を受ける接点とともに選択されます",
+      "junctionsCount_one": "接点 1 件",
+      "junctionsCount_other": "接点 {{count}} 件",
+      "recirculationCausedBy": "アセットをクリックして、それを選択し、再循環を引き起こしている流量ループも選択します"
     }
   },
   "connectedCustomers": "接続済み顧客",
@@ -2328,12 +2343,16 @@
     "newThemeName": "新しいテーマ",
     "rename": "名前を変更…",
     "renameTitle": "テーマの名前を変更",
-    "resetChanges": "変更をリセット",
     "saveAsNew": "新しいテーマとして保存…",
     "saveAsNewTitle": "新しいテーマとして保存",
-    "saveChangesTo": "「{{1}}」に変更を保存",
     "symbology": "シンボル",
-    "theme": "テーマ"
+    "theme": "テーマ",
+    "discardChanges": "変更を破棄",
+    "duplicate": "複製…",
+    "duplicateTitle": "テーマを複製",
+    "saveChanges": "変更を保存",
+    "unsavedTheme": "未保存のテーマ",
+    "updateTheme": "「{{1}}」を更新"
   },
   "scriptingAssistantItem": "スクリプトアシスタント",
   "sensorData": {

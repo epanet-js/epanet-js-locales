@@ -695,7 +695,21 @@
         "valveFlowModulatingSensorLinkActive": "El enlace de paso de caudal del control de modulación de caudal debe estar activo",
         "valveTargetNodeActive": "El nudo objetivo de PRV debe estar activo",
         "pumpVariableSpeedDischargeNotBackfeeding": "La bomba de velocidad variable no debe realimentarse a sí misma",
-        "pumpVariableSpeedFlowTargetSameDirection": "El caudal objetivo de la bomba de velocidad variable debe seguir la dirección de la bomba"
+        "pumpVariableSpeedFlowTargetSameDirection": "El caudal objetivo de la bomba de velocidad variable debe seguir la dirección de la bomba",
+        "pumpLevelSettingControlOnBelowOff": "El nivel de encendido del control basado en nivel debe ser inferior al nivel de apagado",
+        "pumpLevelSettingControlOnSpeedNonNegative": "La velocidad de encendido del control basado en nivel debe ser cero o mayor",
+        "pumpLevelSettingControlWithinTankLevels": "Los niveles de control basado en nivel deben estar dentro de los niveles mínimo y máximo del tanque",
+        "pumpTimedSettingStepsSpeedsNonNegative": "Las velocidades de paso del control basado en tiempo deben ser cero o mayores",
+        "pumpTimedSettingStepsTimesDistinct": "Los pasos de control basado en tiempo no deben compartir un mismo tiempo",
+        "pumpTimedSettingStepsTimesInSequence": "Los tiempos de paso del control basado en tiempo deben estar en orden",
+        "pumpVariableSpeedMaxSpeedPositive": "La velocidad máxima de la bomba de velocidad variable debe ser mayor que cero",
+        "pumpVariableSpeedMinSpeedNonNegative": "La velocidad mínima de la bomba de velocidad variable debe ser cero o mayor",
+        "pumpVariableSpeedPressureTargetValuePositive": "El objetivo de presión de la bomba de velocidad variable debe ser mayor que cero",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "Los objetivos de presión del programa de la bomba de velocidad variable deben ser mayores que cero",
+        "pumpVariableSpeedScheduleTimesDistinct": "Las entradas del programa de la bomba de velocidad variable no deben compartir un mismo tiempo",
+        "pumpVariableSpeedScheduleTimesInSequence": "Los tiempos del programa de la bomba de velocidad variable deben estar en orden",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "El nivel de encendido del tanque de arranque/parada de la bomba de velocidad variable debe ser inferior al nivel de apagado",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Los niveles de arranque/parada de la bomba de velocidad variable deben estar dentro de los niveles mínimo y máximo del tanque"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -711,8 +725,6 @@
     "topologyChecks": {
       "description": "Encuentra bombas y válvulas en bucles de caudal, y nudos sin suministro",
       "emptyMessage": "No se encontraron problemas de topología",
-      "junctionsWithoutSupply_one": "1 nudo sin suministro",
-      "junctionsWithoutSupply_other": "{{count}} nudos sin suministro",
       "linkAndMore": "{{1}} y {{2}} más",
       "rule": {
         "junctionWithoutSupply": "Nudos sin suministro",
@@ -726,7 +738,10 @@
       "affectedCount_one": "1 activo afectado",
       "affectedCount_other": "{{count}} activos afectados",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "Haz clic en un activo para seleccionar nudos con suministro interrumpido"
+      "interruptionCausedBy": "Agrupados por el enlace que interrumpe el suministro. Haz clic para seleccionarlo junto con los nudos afectados",
+      "junctionsCount_one": "1 nudo",
+      "junctionsCount_other": "{{count}} nudos",
+      "recirculationCausedBy": "Haz clic en un activo para seleccionarlo y el bucle de caudal que causa la recirculación"
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -2335,12 +2350,16 @@
     "newThemeName": "Nuevo tema",
     "rename": "Renombrar…",
     "renameTitle": "Renombrar tema",
-    "resetChanges": "Restablecer cambios",
     "saveAsNew": "Guardar como nuevo tema…",
     "saveAsNewTitle": "Guardar como nuevo tema",
-    "saveChangesTo": "Guardar cambios en “{{1}}”",
     "symbology": "Simbología",
-    "theme": "Tema"
+    "theme": "Tema",
+    "discardChanges": "Descartar cambios",
+    "duplicate": "Duplicar…",
+    "duplicateTitle": "Duplicar tema",
+    "saveChanges": "Guardar cambios",
+    "unsavedTheme": "Tema sin guardar",
+    "updateTheme": "Actualizar “{{1}}”"
   },
   "scriptingAssistantItem": "Asistente de scripting",
   "sensorData": {

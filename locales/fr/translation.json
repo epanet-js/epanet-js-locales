@@ -682,7 +682,21 @@
         "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active",
         "valveTargetNodeActive": "Le nœud cible du PRV doit être actif",
         "pumpVariableSpeedDischargeNotBackfeeding": "La pompe à vitesse variable ne doit pas se réinjecter elle-même",
-        "pumpVariableSpeedFlowTargetSameDirection": "La cible de débit de la pompe à vitesse variable doit suivre la direction de la pompe"
+        "pumpVariableSpeedFlowTargetSameDirection": "La cible de débit de la pompe à vitesse variable doit suivre la direction de la pompe",
+        "pumpLevelSettingControlOnBelowOff": "Le niveau d'activation du contrôle basé sur le niveau doit être inférieur au niveau de désactivation",
+        "pumpLevelSettingControlOnSpeedNonNegative": "La vitesse d'activation du contrôle basé sur le niveau doit être supérieure ou égale à zéro",
+        "pumpLevelSettingControlWithinTankLevels": "Les niveaux de contrôle basés sur le niveau doivent être compris entre les niveaux minimum et maximum du château d'eau",
+        "pumpTimedSettingStepsSpeedsNonNegative": "Les vitesses des étapes de contrôle basées sur l'heure doivent être supérieures ou égales à zéro",
+        "pumpTimedSettingStepsTimesDistinct": "Les étapes de contrôle basées sur l'heure ne devraient pas partager un même moment",
+        "pumpTimedSettingStepsTimesInSequence": "Les moments des étapes de contrôle basées sur l'heure doivent être en ordre",
+        "pumpVariableSpeedMaxSpeedPositive": "La vitesse maximale de la pompe à vitesse variable doit être supérieure à zéro",
+        "pumpVariableSpeedMinSpeedNonNegative": "La vitesse minimale de la pompe à vitesse variable doit être supérieure ou égale à zéro",
+        "pumpVariableSpeedPressureTargetValuePositive": "La cible de pression de la pompe à vitesse variable doit être supérieure à zéro",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "Les cibles de pression du programme de la pompe à vitesse variable doivent être supérieures à zéro",
+        "pumpVariableSpeedScheduleTimesDistinct": "Les entrées du programme de la pompe à vitesse variable ne devraient pas partager un même moment",
+        "pumpVariableSpeedScheduleTimesInSequence": "Les moments du programme de la pompe à vitesse variable doivent être en ordre",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "Le niveau d'activation du réservoir de démarrage/arrêt de la pompe à vitesse variable doit être inférieur au niveau de désactivation",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Les niveaux de démarrage/arrêt de la pompe à vitesse variable doivent être compris entre les niveaux minimum et maximum du réservoir"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -698,8 +712,6 @@
     "topologyChecks": {
       "description": "Trouve les pompes et les vannes dans les boucles de débit, et les nœuds sans alimentation",
       "emptyMessage": "Aucun problème de topologie trouvé",
-      "junctionsWithoutSupply_one": "1 nœud sans alimentation",
-      "junctionsWithoutSupply_other": "{{count}} nœuds sans alimentation",
       "linkAndMore": "{{1}} et {{2}} autres",
       "rule": {
         "junctionWithoutSupply": "Nœuds sans alimentation",
@@ -713,7 +725,10 @@
       "affectedCount_one": "1 élément affecté",
       "affectedCount_other": "{{count}} éléments affectés",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "Cliquez sur un élément pour sélectionner les nœuds avec alimentation interrompue"
+      "interruptionCausedBy": "Regroupés par la liaison interrompant l'approvisionnement. Cliquez pour la sélectionner avec les nœuds affectés",
+      "junctionsCount_one": "1 nœud",
+      "junctionsCount_other": "{{count}} nœuds",
+      "recirculationCausedBy": "Cliquez sur un élément pour le sélectionner ainsi que la boucle de débit qui cause la recirculation"
     }
   },
   "connectedCustomers": "Clients Connectés",
@@ -2328,12 +2343,16 @@
     "newThemeName": "Nouveau thème",
     "rename": "Renommer…",
     "renameTitle": "Renommer le thème",
-    "resetChanges": "Réinitialiser les modifications",
     "saveAsNew": "Enregistrer comme nouveau thème…",
     "saveAsNewTitle": "Enregistrer comme nouveau thème",
-    "saveChangesTo": "Enregistrer les modifications dans « {{1}} »",
     "symbology": "Symbologie",
-    "theme": "Thème"
+    "theme": "Thème",
+    "discardChanges": "Ignorer les modifications",
+    "duplicate": "Dupliquer…",
+    "duplicateTitle": "Dupliquer le thème",
+    "saveChanges": "Enregistrer les modifications",
+    "unsavedTheme": "Thème non enregistré",
+    "updateTheme": "Mettre à jour « {{1}} »"
   },
   "scriptingAssistantItem": "Assistant de scriptage",
   "sensorData": {

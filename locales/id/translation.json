@@ -908,7 +908,21 @@
         "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif",
         "valveTargetNodeActive": "Node target PRV harus aktif",
         "pumpVariableSpeedDischargeNotBackfeeding": "Pompa kecepatan variabel tidak boleh mengalirkan kembali ke dirinya sendiri",
-        "pumpVariableSpeedFlowTargetSameDirection": "Target aliran pompa kecepatan variabel harus mengikuti arah pompa"
+        "pumpVariableSpeedFlowTargetSameDirection": "Target aliran pompa kecepatan variabel harus mengikuti arah pompa",
+        "pumpLevelSettingControlOnBelowOff": "Level kontrol berbasis level harus di bawah level nonaktif",
+        "pumpLevelSettingControlOnSpeedNonNegative": "Kecepatan kontrol berbasis level harus nol atau lebih besar",
+        "pumpLevelSettingControlWithinTankLevels": "Level kontrol berbasis level harus berada di antara level minimum dan maksimum tangki",
+        "pumpTimedSettingStepsSpeedsNonNegative": "Kecepatan langkah kontrol berbasis waktu harus nol atau lebih besar",
+        "pumpTimedSettingStepsTimesDistinct": "Langkah kontrol berbasis waktu tidak boleh memiliki waktu yang sama",
+        "pumpTimedSettingStepsTimesInSequence": "Waktu langkah kontrol berbasis waktu harus berurutan",
+        "pumpVariableSpeedMaxSpeedPositive": "Kecepatan maksimum pompa kecepatan variabel harus lebih besar dari nol",
+        "pumpVariableSpeedMinSpeedNonNegative": "Kecepatan minimum pompa kecepatan variabel harus nol atau lebih besar",
+        "pumpVariableSpeedPressureTargetValuePositive": "Target tekanan pompa kecepatan variabel harus lebih besar dari nol",
+        "pumpVariableSpeedSchedulePressureTargetsPositive": "Target tekanan jadwal pompa kecepatan variabel harus lebih besar dari nol",
+        "pumpVariableSpeedScheduleTimesDistinct": "Entri jadwal pompa kecepatan variabel tidak boleh memiliki waktu yang sama",
+        "pumpVariableSpeedScheduleTimesInSequence": "Waktu jadwal pompa kecepatan variabel harus berurutan",
+        "pumpVariableSpeedTankLevelSettingOnBelowOff": "Level aktif tangki start/stop pompa kecepatan variabel harus di bawah level nonaktif",
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Level start/stop pompa kecepatan variabel harus berada di antara level minimum dan maksimum tangki"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -924,8 +938,6 @@
     "topologyChecks": {
       "description": "Temukan pompa dan katup dalam putaran aliran, dan sambungan tanpa pasokan",
       "emptyMessage": "Tidak ditemukan masalah topologi",
-      "junctionsWithoutSupply_one": "1 sambungan tanpa pasokan",
-      "junctionsWithoutSupply_other": "{{count}} sambungan tanpa pasokan",
       "linkAndMore": "{{1}} dan {{2}} lainnya",
       "rule": {
         "junctionWithoutSupply": "Sambungan tanpa pasokan",
@@ -939,7 +951,10 @@
       "affectedCount_one": "1 aset terpengaruh",
       "affectedCount_other": "{{count}} aset terpengaruh",
       "groupLabel": "{{1}} ({{2}})",
-      "interruptionCausedBy": "Klik aset untuk memilih sambungan dengan pasokan terganggu"
+      "interruptionCausedBy": "Dikelompokkan berdasarkan tautan yang mengganggu pasokan. Klik untuk memilihnya bersama sambungan yang terpengaruh",
+      "junctionsCount_one": "1 sambungan",
+      "junctionsCount_other": "{{count}} sambungan",
+      "recirculationCausedBy": "Klik aset untuk memilihnya dan putaran aliran yang menyebabkan resirkulasi"
     }
   },
   "newBadge": "baru",
@@ -2328,12 +2343,16 @@
     "newThemeName": "Tema baru",
     "rename": "Ubah nama…",
     "renameTitle": "Ubah nama tema",
-    "resetChanges": "Atur ulang perubahan",
     "saveAsNew": "Simpan sebagai tema baru…",
     "saveAsNewTitle": "Simpan sebagai tema baru",
-    "saveChangesTo": "Simpan perubahan ke “{{1}}”",
     "symbology": "Simbologi",
-    "theme": "Tema"
+    "theme": "Tema",
+    "discardChanges": "Buang perubahan",
+    "duplicate": "Duplikat…",
+    "duplicateTitle": "Duplikat tema",
+    "saveChanges": "Simpan perubahan",
+    "unsavedTheme": "Tema belum disimpan",
+    "updateTheme": "Perbarui “{{1}}”"
   },
   "scriptingAssistantItem": "Asisten skrip",
   "sensorData": {
