@@ -114,8 +114,8 @@
   "flows": "Caudales",
   "velocity": "Velocidad",
   "velocities": "Velocidades",
-  "asset": "Activo",
-  "assets": "Activos",
+  "asset": "Elemento",
+  "assets": "Elementos",
   "none": "Ninguno",
   "type": "Tipo",
   "delete": "Borrar",
@@ -158,7 +158,7 @@
   "onboardingStartValveEmpty": "Haz clic donde quieras empezar una válvula.",
   "onboardingDrawValve": "Haz clic para definir los vértices. Termina en un nodo o haz doble clic para añadir un nudo nuevo.",
   "onboardingCtrlValve": "Mantén {{1}} y haz clic para finalizar aquí y empezar una nueva válvula.",
-  "onboardingSelectAsset": "Selecciona cualquier activo para ver y modificar sus propiedades.",
+  "onboardingSelectAsset": "Selecciona cualquier elemento para ver y modificar sus propiedades.",
   "onboardingRunningModel": "Ejecución de un modelo y visualización de resultados",
   "onboardingRunSimulation": "Presiona el botón simular para ejecutar una simulación hidráulica.",
   "onboardingMap": "Cambia a la pestaña de mapa para visualizar los resultados hidráulicos.",
@@ -221,7 +221,7 @@
   "downloadFailed": "Descarga fallida",
   "checkConnectionAndTry": "Por favor, comprueba tu conexión a internet e inténtalo de nuevo.",
   "missingCoordinates": "Coordenadas faltantes",
-  "missingCoordinatesDetail": "Tu INP no tiene las coordenadas requeridas. Asegúrate de que todos los activos incluyan información geocodificada utilizando el estándar WGS84.",
+  "missingCoordinatesDetail": "Tu INP no tiene las coordenadas requeridas. Asegúrate de que todos los elementos incluyan información geocodificada utilizando el estándar WGS84.",
   "inpNotFullySupported": "Funciones parcialmente soportadas",
   "inpNotFullySupportedDetail": "Expande el resumen para ver las funciones no soportadas y seguir su progreso en la hoja de ruta.",
   "newFeaturesEveryDay": "¡Estamos añadiendo nuevas funciones y mejoras continuamente! Mantente informado sobre las últimas actualizaciones suscribiéndote a nuestra newsletter.",
@@ -378,10 +378,10 @@
   "noValidCustomerPointsFound": "No se encontraron puntos de consumo válidos en el archivo.",
   "fileFormatNotRecognized": "Formato de archivo no reconocido.",
   "skippedLabel": "Omitido: {{1}}.",
-  "nonPointFeatureSingular": "{{1}} característica no puntual",
-  "nonPointFeaturePlural": "{{1}} características no puntuales",
-  "featureWithInvalidCoordSingular": "{{1}} característica con coordenadas inválidas",
-  "featureWithInvalidCoordPlural": "{{1}} características con coordenadas inválidas",
+  "nonPointFeatureSingular": "{{1}} entidad no puntual",
+  "nonPointFeaturePlural": "{{1}} entidades no puntuales",
+  "featureWithInvalidCoordSingular": "{{1}} entidad con coordenadas inválidas",
+  "featureWithInvalidCoordPlural": "{{1}} entidades con coordenadas inválidas",
   "invalidLineSingular": "{{1}} línea inválida",
   "invalidLinePlural": "{{1}} líneas inválidas",
   "creationFailureSingular": "{{1}} fallo de creación",
@@ -613,14 +613,14 @@
       "summary_zero": "No se encontraron intersecciones"
     },
     "orphanAssets": {
-      "description": "Encuentra activos que están desconectados de tu red",
-      "emptyMessage": "No hay activos huérfanos en tu red. ¡Bien hecho!",
-      "issueLabel": "Activo huérfano {{1}}: {{2}}",
+      "description": "Encuentra elementos que están desconectados de tu red",
+      "emptyMessage": "No hay elementos huérfanos en tu red. ¡Bien hecho!",
+      "issueLabel": "Elemento huérfano {{1}}: {{2}}",
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
-      "title": "Activos huérfanos",
-      "rule": "Activos no conectados"
+      "title": "Elementos huérfanos",
+      "rule": "Elementos no conectados"
     },
     "proximityAnomalies": {
       "description": "Encuentra nudos situados cerca de tuberías adyacentes que podrían necesitar ser conectados.",
@@ -633,12 +633,12 @@
       "title": "Verificación de proximidad"
     },
     "modelAttributesValidation": {
-      "affectedCount_one": "1 activo afectado",
-      "affectedCount_other": "{{count}} activos afectados",
-      "collapse": "Contraer activos afectados",
+      "affectedCount_one": "1 elemento afectado",
+      "affectedCount_other": "{{count}} elementos afectados",
+      "collapse": "Contraer elementos afectados",
       "description": "Encuentra valores de atributos faltantes o inválidos que pueden impedir que la simulación se ejecute.",
       "emptyMessage": "Los atributos de tu modelo son válidos. ¡Bien hecho!",
-      "expand": "Expandir activos afectados",
+      "expand": "Expandir elementos afectados",
       "issueLabel": "{{1}} ({{2}})",
       "rule": {
         "customerPointConnected": "Punto de consumo desconectado",
@@ -717,7 +717,7 @@
       "title": "Atributos del modelo",
       "upgrade": {
         "title": "Ver la lista completa de problemas",
-        "description": "Revisa la lista detallada de activos con problemas y accede a las correcciones automatizadas"
+        "description": "Revisa la lista detallada de elementos con problemas y accede a las correcciones automatizadas"
       }
     },
     "issuesFound_one": "1 problema",
@@ -735,13 +735,13 @@
       "summary_other": "{{count}} problemas encontrados",
       "summary_zero": "No se encontraron problemas",
       "title": "Comprobaciones de topología",
-      "affectedCount_one": "1 activo afectado",
-      "affectedCount_other": "{{count}} activos afectados",
+      "affectedCount_one": "1 elemento afectado",
+      "affectedCount_other": "{{count}} elementos afectados",
       "groupLabel": "{{1}} ({{2}})",
       "interruptionCausedBy": "Agrupados por el enlace que interrumpe el suministro. Haz clic para seleccionarlo junto con los nudos afectados",
       "junctionsCount_one": "1 nudo",
       "junctionsCount_other": "{{count}} nudos",
-      "recirculationCausedBy": "Haz clic en un activo para seleccionarlo y el bucle de caudal que causa la recirculación"
+      "recirculationCausedBy": "Haz clic en un elemento para seleccionarlo y el bucle de caudal que causa la recirculación"
     }
   },
   "connectedCustomers": "Clientes conectados",
@@ -793,9 +793,9 @@
   "maxOperatingPoint": "Operación Máx.",
   "shutoffPoint": "Cierre",
   "standardCurve": "Curva de 3 puntos (curva estándar)",
-  "nothingSelectedAreaSelect": "También puedes seleccionar múltiples activos con la herramienta de selección por área y comparar sus propiedades.",
-  "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un activo para ver y editar sus detalles.",
-  "nothingSelectedTitle": "Selecciona o busca un activo para ver sus propiedades",
+  "nothingSelectedAreaSelect": "También puedes seleccionar múltiples elementos con la herramienta de selección por área y comparar sus propiedades.",
+  "nothingSelectedClickToSelect": "Usa la herramienta de selección y haz clic en un elemento para ver y editar sus detalles.",
+  "nothingSelectedTitle": "Selecciona o busca un elemento para ver sus propiedades",
   "curveValidation": {
     "missingValues": "Por favor, completa todos los valores.",
     "valueAscendingOrder": "Los valores de {{1}} deben estar en orden ascendente.",
@@ -971,8 +971,8 @@
     },
     "nativeTitle": "controles nativos",
     "epanetTitle": "Controles EPANET",
-    "nativeControlsInfoDescription": "¡Ahora puedes configurar los controles de bomba basados en tiempo y nivel directamente desde el panel de activos!",
-    "nativeControlsInfoNote": "Aunque aún puedes usar el editor en bruto, evita configurar el mismo activo en ambos lugares para prevenir conflictos de control.",
+    "nativeControlsInfoDescription": "¡Ahora puedes configurar los controles de bomba basados en tiempo y nivel directamente desde el panel de elementos!",
+    "nativeControlsInfoNote": "Aunque aún puedes usar el editor en bruto, evita configurar el mismo elemento en ambos lugares para prevenir conflictos de control.",
     "nativeControlsInfoTitle": "Controles de bomba más fáciles disponibles",
     "rawControlsDetected": "Controles EPANET en bruto detectados",
     "variableSpeed": {
@@ -1048,7 +1048,7 @@
       "description2": "Crea versiones alternativas y compara sus resultados con el modelo base (Principal).",
       "captions": {
         "1": "Haz preguntas de \"qué pasaría si\" con escenarios",
-        "2": "Modificar parámetros de activos",
+        "2": "Modificar parámetros de elementos",
         "3": "Dibujar nuevos elementos",
         "4": "Comparar resultados",
         "5": "Mantener los cambios aislados al escenario"
@@ -1094,7 +1094,7 @@
   "directDemand": "Demanda directa",
   "addDirectDemand": "Añadir demanda directa",
   "alertNetworkRequired": "Tu modelo está vacío",
-  "alertNetworkRequiredDetail": "Añade activos a tu modelo, o abre uno existente, antes de crear un escenario.",
+  "alertNetworkRequiredDetail": "Añade elementos a tu modelo, o abre uno existente, antes de crear un escenario.",
   "chooseANetwork": "Elegir modelo",
   "addPoint": "Añadir punto",
   "designPointCurve": "Curva de 1 punto (punto de diseño)",
@@ -1129,12 +1129,12 @@
     "downstream": "Rastreo aguas abajo",
     "tool": "Rastreo de selección",
     "upstream": "Rastreo aguas arriba",
-    "boundaryHint": "Haz clic en un activo para encontrar su zona de límite.",
+    "boundaryHint": "Haz clic en un elemento para encontrar su zona de límite.",
     "boundarySecondaryHint": "Los embalses, tanques, bombas, válvulas cerradas y tuberías cerradas actúan como límites.",
-    "downstreamHint": "Haz clic en un activo para rastrear el suministro aguas abajo.",
+    "downstreamHint": "Haz clic en un elemento para rastrear el suministro aguas abajo.",
     "simulationRequired": "Simulación requerida",
     "simulationRequiredHint": "Ejecuta una simulación primero para habilitar el rastreo basado en caudal.",
-    "upstreamHint": "Haz clic en un activo para rastrear el suministro aguas arriba."
+    "upstreamHint": "Haz clic en un elemento para rastrear el suministro aguas arriba."
   },
   "emitterCoefficient": "Coef. emisor.",
   "empty": "Vacío",
@@ -1428,7 +1428,7 @@
     "error": {
       "invalid-format": "Formato de archivo inválido",
       "invalid-projection": "Sistema de coordenadas desconocido",
-      "no-features": "No se encontraron características",
+      "no-features": "No se encontraron entidades",
       "projection-conversion-failed": "Falló la conversión de coordenadas",
       "unsupported-crs": "Sistema de coordenadas no soportado",
       "missing-projection": "Archivo de proyección (.prj) faltante"
@@ -1468,15 +1468,15 @@
   "labelBy": "Etiquetar por",
   "customChemicalConcentration": "{{1}}",
   "assetSearch": {
-    "placeholder": "Buscar activos...",
-    "emptyHint": "Empieza a escribir para buscar activos",
+    "placeholder": "Buscar elementos...",
+    "emptyHint": "Empieza a escribir para buscar elementos",
     "recents": "Recientes",
-    "title": "Buscar activos"
+    "title": "Buscar elementos"
   },
   "initialQuality": "Calidad inicial",
   "exportINP": "Exportar INP",
   "importINP": "Importar INP",
-  "nothingSelectedSearch": "O busca activos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
+  "nothingSelectedSearch": "O busca elementos por su etiqueta para encontrarlos y seleccionarlos rápidamente.",
   "recent": "Reciente",
   "toggleBranch": "Cambiar a la última versión",
   "alertExportInp": "Algunos datos pueden perderse",
@@ -1510,7 +1510,7 @@
   "openProjectProgress.building": "Construyendo modelo...",
   "openProjectProgress.finalizing": "Finalizando...",
   "openProjectProgress.opening": "Abriendo archivo de proyecto...",
-  "openProjectProgress.readingAssets": "Leyendo activos...",
+  "openProjectProgress.readingAssets": "Leyendo elementos...",
   "openProjectProgress.readingCustomerPoints": "Leyendo puntos de consumo...",
   "openProjectProgress.readingSettings": "Leyendo ajustes...",
   "exportAllTimesteps": "Todos los pasos de tiempo (como CSV)",
@@ -1527,14 +1527,14 @@
   "savingProject": "Guardando proyecto...",
   "dropProjectOrInp": "Arrastra tu proyecto o modelo INP aquí.",
   "projectOpened": "Proyecto abierto",
-  "exportAssetData": "Exportar datos de activos",
+  "exportAssetData": "Exportar datos de elementos",
   "exportSimulationResults": "Incluir resultados de simulación",
   "exportSimulationResultsForCurrentStep": "Incluir resultados en el paso actual",
-  "exportSelectedAssetsOnly": "Solo activos seleccionados",
+  "exportSelectedAssetsOnly": "Solo elementos seleccionados",
   "sortAscending": "Ordenar ascendente",
   "sortDescending": "Ordenar descendente",
   "moreActions": "Más acciones",
-  "exportAssetData.noAssets": "No se encontraron activos para exportar. Verifica que tu proyecto tenga activos.",
+  "exportAssetData.noAssets": "No se encontraron elementos para exportar. Verifica que tu proyecto tenga elementos.",
   "exportTimeSeries": "Exportar resultados de simulación",
   "exportTimeSeries.largeExportDescription": "Los archivos grandes pueden tardar en generarse y ser difíciles de abrir en otras aplicaciones. Considera filtrar tus datos o reducir el número de pasos de simulación para disminuir su tamaño.",
   "exportTimeSeries.largeExportTitle": "Tamaño de exportación grande (~{{1}} GB)",
@@ -1559,12 +1559,12 @@
     "picker": {
       "open": "Abrir",
       "prompt": "Seleccionar tablas para añadir",
-      "selectedAssetsOnly": "Solo activos seleccionados",
+      "selectedAssetsOnly": "Solo elementos seleccionados",
       "title": "Abrir tablas de datos"
     }
   },
   "fileFormatUpdated": "Formato de archivo actualizado",
-  "fileFormatUpdatedBody": "Tu red ha sido convertida a un Proyecto de epanet-js (.ejsdb). Este nuevo formato nos permite almacenar más datos que el formato estándar de EPANET INP, incluyendo puntos de consumo y campos de activos personalizados.",
+  "fileFormatUpdatedBody": "Tu red ha sido convertida a un Proyecto de epanet-js (.ejsdb). Este nuevo formato nos permite almacenar más datos que el formato estándar de EPANET INP, incluyendo puntos de consumo y campos de elementos personalizados.",
   "fileFormatUpdatedDontShowAgain": "No mostrar esto de nuevo",
   "fileFormatUpdatedFootnote": "¿Necesitas el formato antiguo? Todavía puedes exportar a EPANET INP en cualquier momento a través del menú Archivo.",
   "togglePlayback": "Reproducir / pausar",
@@ -1577,7 +1577,7 @@
   "copy": "Copiar",
   "paste": "Pegar",
   "selectInMap": "Seleccionar en el mapa",
-  "export.assetData": "Datos de activos",
+  "export.assetData": "Datos de elementos",
   "export.epanetInp": "EPANET INP",
   "export.simulationResults": "Resultados de simulación",
   "exportTimeSeries.inProgressWithProperty": "Procesando {{1}}",
@@ -1590,7 +1590,7 @@
     "elevation": "Elevación",
     "empty": {
       "noData": "No hay datos.",
-      "pathBroken": "Algunos activos de este perfil ya no existen. Crea un nuevo perfil para continuar.",
+      "pathBroken": "Algunos elementos de este perfil ya no existen. Crea un nuevo perfil para continuar.",
       "selectingEnd": "Haz clic en un nudo o tubería en el mapa para establecer el final del perfil.",
       "selectingStart": "Haz clic en un nudo o tubería en el mapa para establecer el inicio del perfil."
     },
@@ -1616,10 +1616,10 @@
     "title": "Gráfico personalizado",
     "loading": "Cargando datos - {{1}}%",
     "noDataAvailable": "No hay datos disponibles. Ejecuta una simulación para crear un gráfico.",
-    "assetsTruncated": "Solo se muestran {{1}} de {{2}} activos seleccionados.",
+    "assetsTruncated": "Solo se muestran {{1}} de {{2}} elementos seleccionados.",
     "exporting": "Exportando - {{1}}%",
     "flowAbsolute": "Caudal (absoluto)",
-    "legendHidden": "Demasiados activos seleccionados para mostrar la leyenda.",
+    "legendHidden": "Demasiados elementos seleccionados para mostrar la leyenda.",
     "savingFiles": "Guardando archivos",
     "exportSucceeded": "Exportación exitosa",
     "epsOnly": "Los gráficos solo están disponibles en simulaciones de período extendido (EPS).",
@@ -1643,9 +1643,9 @@
     "completeStep": {
       "summary": "Importadas {{1}} zonas.",
       "title": "Completado",
-      "mergedFeaturesHeader": "Número de características fusionadas",
+      "mergedFeaturesHeader": "Número de entidades fusionadas",
       "mergedLabelHeader": "Zona",
-      "mergedSummary": "Fusionadas {{1}} zonas de múltiples características:",
+      "mergedSummary": "Fusionadas {{1}} zonas de múltiples entidades:",
       "renamedSummary": "Renombradas {{1}} zonas cuyos atributos entran en conflicto con otra zona de la misma etiqueta",
       "renamedZone": "{{1}} fue importada como {{2}}"
     },
@@ -1769,7 +1769,7 @@
     "pipeYearAndMaterials": "Año y materiales de tubería",
     "saveBuildSettings": "Guardar ajustes de construcción",
     "filterSplitAndRules": "Filtrar, dividir por valor y reglas personalizadas",
-    "largeModels": "Modelos con más de 100K activos",
+    "largeModels": "Modelos con más de 100K elementos",
     "multipleFilesPerLayer": "Múltiples archivos por capa"
   },
   "source.concen": "Concentración",
@@ -1833,7 +1833,7 @@
   "customAttributes": {
     "addAttribute": "Añadir atributo",
     "defaultLabel": "Atributo {{1}}",
-    "duplicateLabelError": "Las etiquetas de atributo deben ser únicas dentro de un tipo de activo.",
+    "duplicateLabelError": "Las etiquetas de atributo deben ser únicas dentro de un tipo de elemento.",
     "emptyLabelError": "Las etiquetas de atributo no pueden estar vacías.",
     "invalidLabel": "Atributo inválido",
     "label": "Etiqueta",
@@ -1995,8 +1995,8 @@
       "sourceHeaderMissing": "La primera fila no nombra las columnas, por lo que no se importó nada.",
       "nodeElevationUnresolved_one": "1 nudo no tiene elevación, porque el servicio de terreno no tenía datos para él",
       "nodeElevationUnresolved_other": "{{count}} nudos no tienen elevación, porque el servicio de terreno no tenía datos para ellos",
-      "selectionSetMembersUnreadable_one": "1 Conjunto de selección hace referencia a un activo no encontrado en el modelo, por lo que no fue importado",
-      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de selección hacen referencia a activos no encontrados en el modelo, por lo que no fueron importados",
+      "selectionSetMembersUnreadable_one": "1 Conjunto de selección hace referencia a un elemento no encontrado en el modelo, por lo que no fue importado",
+      "selectionSetMembersUnreadable_other": "{{count}} Conjuntos de selección hacen referencia a elementos no encontrados en el modelo, por lo que no fueron importados",
       "pumpSpeedControlUnsupported_one": "1 Bomba varía su velocidad para mantener un objetivo que no pudo importarse, por lo que mantiene su velocidad indicada",
       "pumpSpeedControlUnsupported_other": "{{count}} Bombas varían su velocidad para mantener objetivos que no pudieron importarse, por lo que mantienen su velocidad indicada",
       "valveParallelRegulatorUnsupported_one": "1 Válvula reguladora funciona en paralelo con una más grande entre los mismos nudos, que EPANET no puede resolver, por lo que fue importada cerrada",
@@ -2036,7 +2036,7 @@
     "closePanel": "Cerrar {{1}}",
     "empty": {
       "title": "Nada aquí todavía",
-      "dataTables": "Ver y editar los activos de tu modelo en una hoja de cálculo.",
+      "dataTables": "Ver y editar los elementos de tu modelo en una hoja de cálculo.",
       "hglProfile": "Graficar la elevación y la línea de carga hidráulica a lo largo de una trayectoria de tuberías."
     }
   },
@@ -2082,7 +2082,7 @@
     },
     "title": "Colecciones",
     "upgrade": {
-      "description": "Guarda cualquier grupo de activos o área de mapa para volver a ella con un solo clic",
+      "description": "Guarda cualquier grupo de elementos o área de mapa para volver a ella con un solo clic",
       "title": "Guarda tus propias colecciones"
     },
     "groups": {
@@ -2109,7 +2109,7 @@
   "openProjectFailure.tooNewDetail": "Este archivo fue creado con una versión más reciente de la aplicación. Actualiza para abrirlo.",
   "openProjectFailure.unexpectedDetail": "Algo salió mal al abrir el archivo.",
   "openProjectFailure.versions": "Versión del archivo {{1}}, versión de la aplicación {{2}}.",
-  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de activos personalizados, los conjuntos de selección, los marcadores y los controles nativos.",
+  "alertExportInpDetail": "El formato INP de EPANET no es compatible con todas las funciones de epanet-js, como los puntos de consumo, los campos de elementos personalizados, los conjuntos de selección, los marcadores y los controles nativos.",
   "openProjectProgress.readingScenarios": "Leyendo escenarios...",
   "statusClosed": "Cerrada",
   "statusOpen": "Abierta",
@@ -2169,7 +2169,7 @@
       "zone-summary": "Resumir cada zona",
       "renew-oldest-pipes": "Renovar las tuberías más antiguas",
       "scale-demands": "Escalar demandas por un porcentaje",
-      "tag-assets-by-zone": "Etiquetar activos con su zona",
+      "tag-assets-by-zone": "Etiquetar elementos con su zona",
       "upsize-fastest-pipes": "Aumentar el tamaño de las tuberías más rápidas",
       "infer-pipe-attributes": "Inferir atributos de tubería faltantes"
     },
@@ -2365,17 +2365,17 @@
   "sensorData": {
     "import": {
       "added": "{{1}} a importar",
-      "ambiguousAsset": "Etiqueta de activo compartida por un nudo y un enlace que ambos soportan el tipo de sensor. Sensor omitido",
+      "ambiguousAsset": "Etiqueta de elemento compartida por un nudo y un enlace que ambos soportan el tipo de sensor. Sensor omitido",
       "andMoreRows": "{{1}} y {{2}} más",
-      "assetNotFound": "Activo no encontrado en el modelo. Sensor omitido",
+      "assetNotFound": "Elemento no encontrado en el modelo. Sensor omitido",
       "atRow": "{{1}} (columna {{2}})",
       "atRows": "{{1}} (columnas {{2}})",
       "duplicateName": "Nombre de sensor duplicado. Columnas posteriores omitidas",
-      "duplicateSensorOnAsset": "El activo ya tiene un sensor para este parámetro. Sensor omitido",
+      "duplicateSensorOnAsset": "El elemento ya tiene un sensor para este parámetro. Sensor omitido",
       "format": {
         "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto.",
         "title": "Formato de archivo",
-        "optional": "La fila de tipo es opcional. El activo por defecto es el nombre del sensor.",
+        "optional": "La fila de tipo es opcional. El elemento por defecto es el nombre del sensor.",
         "show": "Ver el formato esperado"
       },
       "ignored": "{{1}} omitidos",
@@ -2388,7 +2388,7 @@
       "notAValidSensorFile": "No es un archivo de datos de sensor.",
       "nothingToImport": "No se pueden importar sensores",
       "preview": {
-        "asset": "Activo",
+        "asset": "Elemento",
         "previewMore": "... y {{1}} más",
         "readings": "Lecturas",
         "sensor": "Sensor",
@@ -2414,24 +2414,24 @@
         "explain": "Tus datos actuales de sensor se eliminarán y se reemplazarán con los sensores de tu nueva importación.",
         "question": "¿Estás seguro de que quieres continuar?"
       },
-      "assetTypeMismatch": "No hay ningún activo de ese tipo con esta etiqueta. Sensor omitido",
-      "invalidAssetType": "Tipo de activo desconocido. Aceptados: {{1}}. Tipo ignorado",
+      "assetTypeMismatch": "No hay ningún elemento de ese tipo con esta etiqueta. Sensor omitido",
+      "invalidAssetType": "Tipo de elemento desconocido. Aceptados: {{1}}. Tipo ignorado",
       "missingParameter": "Falta el parámetro. Sensor omitido",
       "missingSensorRow": "No se encontraron los nombres de los sensores. Ponlos en una fila etiquetada como \"sensor\" en la primera columna. Etiquetas encontradas: {{1}}.",
       "repeatedHeaderRow": "\"{{1}}\" aparece más de una vez en la primera columna. Solo se usa la primera fila",
       "unknownHeaderRow": "Etiqueta no reconocida \"{{1}}\" en la primera columna. Usa una de: {{2}}. Fila ignorada",
-      "unsupportedParameter": "Parámetro no soportado por el activo. Aceptados para {{1}}. Sensor omitido"
+      "unsupportedParameter": "Parámetro no soportado por el elemento. Aceptados para {{1}}. Sensor omitido"
     },
     "menuEntry": "Datos de sensor",
     "paywall": {
       "description1": "Importa las lecturas de tus sensores de campo y compáralas con los resultados de tu simulación.",
-      "description2": "Compara los valores medidos y simulados para cualquier activo para verificar qué tan bien tu modelo se ajusta a la realidad.",
+      "description2": "Compara los valores medidos y simulados para cualquier elemento para verificar qué tan bien tu modelo se ajusta a la realidad.",
       "plans": "La importación de datos de sensor está disponible en planes de pago.",
       "title": "Mejora para importar datos de sensor",
       "trial": "La importación de datos de sensor es una función de pago. Activa tu prueba gratuita para obtener acceso completo durante 14 días—no se requiere tarjeta de crédito."
     },
     "panel": {
-      "asset": "Activo",
+      "asset": "Elemento",
       "emptyDescription": "Importa las lecturas de los sensores de {{1}} para compararlas con la simulación.",
       "emptyTitle": "No hay datos de sensor",
       "notInScenario": "No en el escenario actual",

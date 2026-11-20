@@ -77,7 +77,7 @@
     "retry": "Intentar de nuevo",
     "workerFailed": "La construcción no pudo iniciarse. Inténtalo de nuevo.",
     "workerOffline": "La construcción no pudo iniciarse sin conexión. Vuelve a conectarte e inténtalo de nuevo.",
-    "overAssetLimit": "Este modelo tiene {{1}} activos. Los modelos con más de {{2}} activos necesitan Pro o superior."
+    "overAssetLimit": "Este modelo tiene {{1}} elementos. Los modelos con más de {{2}} elementos necesitan Pro o superior."
   },
   "dataTable": {
     "legendDefault": "texto en cursiva = valores predeterminados",
@@ -346,8 +346,8 @@
     "searchValues": "Buscar valores",
     "selectGroup": "Selecciona un grupo de la lista para elegir su capa.",
     "assetLimit": {
-      "description": "Tus capas de red tienen {{1}} registros. Los modelos con más de {{2}} activos necesitan Pro o superior.",
-      "title": "Más de {{1}} activos"
+      "description": "Tus capas de red tienen {{1}} registros. Los modelos con más de {{2}} elementos necesitan Pro o superior.",
+      "title": "Más de {{1}} elementos"
     }
   },
   "searching": "Buscando…",
