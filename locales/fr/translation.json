@@ -2358,37 +2358,36 @@
   "sensorData": {
     "import": {
       "added": "{{1}} à importer",
-      "ambiguousAsset": "Libellé d'élément partagé par un nœud et une liaison qui supportent tous deux le type de capteur. Capteur ignoré",
+      "ambiguousAsset": "Un nœud et une liaison partagent cette étiquette. Ajoutez une ligne \"type\" pour préciser lequel. Capteur ignoré",
       "andMoreRows": "{{1}} et {{2}} de plus",
       "assetNotFound": "Élément introuvable dans le modèle. Capteur ignoré",
-      "atRow": "{{1}} (ligne {{2}})",
-      "atRows": "{{1}} (lignes {{2}})",
-      "duplicateName": "Nom de capteur en double. Les lignes suivantes ont été ignorées",
-      "duplicateSensorOnAsset": "L'élément possède déjà un capteur de ce type. Capteur ignoré",
+      "atRow": "{{1}} (colonne {{2}})",
+      "atRows": "{{1}} (colonnes {{2}})",
+      "duplicateName": "Nom de capteur en double. Les colonnes suivantes ont été ignorées",
+      "duplicateSensorOnAsset": "L'élément possède déjà un capteur pour ce paramètre. Capteur ignoré",
       "format": {
-        "columns": "Une ligne par capteur, avec les colonnes Nom du capteur, Type et Libellé de l'élément, suivies des lectures. Le Type correspond à ce que le capteur mesure, comme la pression, la charge, la demande, le niveau, le débit ou la vitesse, et doit être un type supporté par l'élément.",
-        "readings": "Chaque lecture est associée à un pas de temps de rapport de la simulation, à partir de 0:00. Les lectures doivent être complètes, sans lacunes et dans les unités du projet.",
-        "title": "Format de fichier"
+        "readings": "Une lecture par pas de temps de rapport, en unités du projet.",
+        "title": "Format de fichier",
+        "optional": "La ligne de type est facultative. L'élément prend par défaut le nom du capteur.",
+        "show": "Voir le format attendu"
       },
       "ignored": "{{1}} ignoré",
       "importAction": "Importer",
       "invalidReading": "Lecture manquante ou invalide. Capteur ignoré",
       "issues": "Problèmes",
       "issuesFound": "Problèmes trouvés dans le fichier",
-      "missingAsset": "Libellé de l'élément manquant. Capteur ignoré",
       "missingName": "Nom du capteur manquant. Capteur ignoré",
-      "missingType": "Type de capteur manquant. Capteur ignoré",
       "noReadings": "Aucune lecture. Capteur ignoré",
-      "notAValidSensorFile": "Cela ne ressemble pas à un fichier de données de capteur. Les colonnes attendues sont Nom du capteur, Type, Libellé de l'élément et Lectures.",
+      "notAValidSensorFile": "Pas un fichier de données de capteur.",
       "nothingToImport": "Aucun capteur ne peut être importé",
       "preview": {
         "asset": "Élément",
         "previewMore": "... et {{1}} de plus",
         "readings": "Lectures",
         "sensor": "Capteur",
-        "type": "Type"
+        "parameter": "Paramètre"
       },
-      "readingsDontCoverDuration": "Les lectures ne couvrent pas exactement la durée de la simulation. Les capteurs ont été importés malgré tout ; vérifiez le fichier ou les paramètres temporels de la simulation",
+      "readingsDontCoverDuration": "Les lectures ne correspondent pas à la durée de la simulation. Les capteurs ont été importés malgré tout",
       "readyToImport": "Prêt à importer",
       "readyWithWarnings": "Prêt à importer, avec des avertissements",
       "removeFile": "Supprimer le fichier",
@@ -2403,12 +2402,18 @@
       },
       "unreadableFile": "Le fichier sélectionné n'a pas pu être lu.",
       "unsupportedFormat": "Seuls les fichiers .csv et .xlsx peuvent être importés",
-      "unsupportedType": "Type de capteur non supporté par l'élément. Capteur ignoré",
       "warningDialog": {
         "deleteAndImport": "Supprimer et importer",
         "explain": "Vos données de capteur actuelles seront supprimées et remplacées par les capteurs de votre nouvelle importation.",
         "question": "Êtes-vous sûr de vouloir continuer ?"
-      }
+      },
+      "assetTypeMismatch": "Aucun élément de ce type ne possède cette étiquette. Capteur ignoré",
+      "invalidAssetType": "Type d'élément inconnu. Acceptés : {{1}}. Type ignoré",
+      "missingParameter": "Paramètre manquant. Capteur ignoré",
+      "missingSensorRow": "Impossible de trouver les noms des capteurs. Placez-les dans une ligne étiquetée \"sensor\" dans la première colonne. Étiquettes trouvées : {{1}}.",
+      "repeatedHeaderRow": "« {{1}} » apparaît plus d'une fois dans la première colonne. Seule la première ligne est utilisée",
+      "unknownHeaderRow": "Étiquette non reconnue « {{1}} » dans la première colonne. Utilisez l'un des suivants : {{2}}. Ligne ignorée",
+      "unsupportedParameter": "Paramètre non supporté par l'élément. Acceptés pour {{1}}. Capteur ignoré"
     },
     "menuEntry": "Données de capteur",
     "paywall": {
@@ -2425,7 +2430,8 @@
       "notInScenario": "Pas dans le scénario actuel",
       "sensor": "Capteur",
       "title": "Capteurs",
-      "type": "Type"
+      "parameter": "Paramètre"
     }
-  }
+  },
+  "legendCollapsed": "Afficher la légende"
 }

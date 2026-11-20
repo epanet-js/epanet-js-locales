@@ -2358,37 +2358,36 @@
   "sensorData": {
     "import": {
       "added": "{{1}} untuk diimpor",
-      "ambiguousAsset": "Label aset digunakan bersama oleh node dan tautan yang keduanya mendukung tipe sensor. Sensor dilewati",
+      "ambiguousAsset": "Node dan tautan berbagi label ini. Tambahkan baris \"tipe\" untuk menyatakan yang mana. Sensor dilewati",
       "andMoreRows": "{{1}} dan {{2}} lainnya",
       "assetNotFound": "Aset tidak ditemukan dalam model. Sensor dilewati",
-      "atRow": "{{1}} (baris {{2}})",
-      "atRows": "{{1}} (baris {{2}})",
-      "duplicateName": "Nama sensor duplikat. Baris selanjutnya dilewati",
-      "duplicateSensorOnAsset": "Aset sudah memiliki sensor dengan tipe ini. Sensor dilewati",
+      "atRow": "{{1}} (kolom {{2}})",
+      "atRows": "{{1}} (kolom {{2}})",
+      "duplicateName": "Nama sensor duplikat. Kolom selanjutnya dilewati",
+      "duplicateSensorOnAsset": "Aset sudah memiliki sensor untuk parameter ini. Sensor dilewati",
       "format": {
-        "columns": "Satu baris per sensor, dengan kolom Nama sensor, Tipe dan Label aset, diikuti oleh pembacaan. Tipe adalah apa yang diukur oleh sensor, seperti tekanan, head, kebutuhan, level, aliran atau kecepatan, dan harus sesuai dengan yang didukung oleh aset.",
-        "readings": "Setiap pembacaan dicocokkan dengan langkah waktu laporan simulasi, dimulai pada pukul 0:00. Pembacaan harus lengkap, tanpa celah, dan dalam satuan proyek.",
-        "title": "Format file"
+        "readings": "Satu pembacaan per langkah waktu laporan, dalam satuan proyek.",
+        "title": "Format file",
+        "optional": "Baris tipe bersifat opsional. Aset akan secara otomatis menggunakan nama sensor.",
+        "show": "Lihat format yang diharapkan"
       },
       "ignored": "{{1}} dilewati",
       "importAction": "Impor",
       "invalidReading": "Pembacaan hilang atau tidak valid. Sensor dilewati",
       "issues": "Masalah",
       "issuesFound": "Ditemukan masalah dalam file",
-      "missingAsset": "Label aset hilang. Sensor dilewati",
       "missingName": "Nama sensor hilang. Sensor dilewati",
-      "missingType": "Tipe sensor hilang. Sensor dilewati",
       "noReadings": "Tidak ada pembacaan. Sensor dilewati",
-      "notAValidSensorFile": "Ini tidak terlihat seperti file data sensor. Kolom yang diharapkan adalah Nama sensor, Tipe, Label aset, dan Pembacaan.",
+      "notAValidSensorFile": "Bukan file data sensor.",
       "nothingToImport": "Tidak ada sensor yang dapat diimpor",
       "preview": {
         "asset": "Aset",
         "previewMore": "... dan {{1}} lainnya",
         "readings": "Pembacaan",
         "sensor": "Sensor",
-        "type": "Jenis"
+        "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Pembacaan tidak mencakup durasi simulasi secara tepat. Sensor tetap diimpor; tinjau file atau pengaturan waktu simulasi",
+      "readingsDontCoverDuration": "Pembacaan tidak sesuai dengan durasi simulasi. Sensor tetap diimpor",
       "readyToImport": "Siap diimpor",
       "readyWithWarnings": "Siap diimpor, dengan peringatan",
       "removeFile": "Hapus file",
@@ -2403,12 +2402,18 @@
       },
       "unreadableFile": "File yang dipilih tidak dapat dibaca.",
       "unsupportedFormat": "Hanya file .csv dan .xlsx yang dapat diimpor",
-      "unsupportedType": "Tipe sensor tidak didukung oleh aset. Sensor dilewati",
       "warningDialog": {
         "deleteAndImport": "Hapus dan impor",
         "explain": "Data sensor Anda saat ini akan dihapus dan diganti dengan sensor dari impor baru Anda.",
         "question": "Apakah Anda yakin ingin melanjutkan?"
-      }
+      },
+      "assetTypeMismatch": "Tidak ada aset dengan tipe tersebut yang memiliki label ini. Sensor dilewati",
+      "invalidAssetType": "Tipe aset tidak dikenal. Diterima: {{1}}. Tipe diabaikan",
+      "missingParameter": "Parameter hilang. Sensor dilewati",
+      "missingSensorRow": "Tidak dapat menemukan nama sensor. Letakkan dalam baris berlabel \"sensor\" di kolom pertama. Label ditemukan: {{1}}.",
+      "repeatedHeaderRow": "\"{{1}}\" muncul lebih dari sekali di kolom pertama. Hanya baris pertama yang digunakan",
+      "unknownHeaderRow": "Label \"{{1}}\" tidak dikenal di kolom pertama. Gunakan salah satu dari: {{2}}. Baris diabaikan",
+      "unsupportedParameter": "Parameter tidak didukung oleh aset. Diterima untuk {{1}}. Sensor dilewati"
     },
     "menuEntry": "Data sensor",
     "paywall": {
@@ -2425,7 +2430,8 @@
       "notInScenario": "Tidak dalam skenario saat ini",
       "sensor": "Sensor",
       "title": "Sensor",
-      "type": "Jenis"
+      "parameter": "Parameter"
     }
-  }
+  },
+  "legendCollapsed": "Tampilkan legenda"
 }

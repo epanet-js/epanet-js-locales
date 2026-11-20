@@ -2358,37 +2358,36 @@
   "sensorData": {
     "import": {
       "added": "{{1}} para importar",
-      "ambiguousAsset": "Rótulo do ativo compartilhado por um nó e um link que ambos suportam o tipo de sensor. Sensor ignorado",
+      "ambiguousAsset": "Um nó e um link compartilham este rótulo. Adicione uma linha \"tipo\" para especificar qual. Sensor ignorado",
       "andMoreRows": "{{1}} e {{2}} mais",
       "assetNotFound": "Ativo não encontrado no modelo. Sensor ignorado",
-      "atRow": "{{1}} (linha {{2}})",
-      "atRows": "{{1}} (linhas {{2}})",
-      "duplicateName": "Nome do sensor duplicado. Linhas posteriores ignoradas",
-      "duplicateSensorOnAsset": "O ativo já possui um sensor deste tipo. Sensor ignorado",
+      "atRow": "{{1}} (coluna {{2}})",
+      "atRows": "{{1}} (colunas {{2}})",
+      "duplicateName": "Nome do sensor duplicado. Colunas posteriores ignoradas",
+      "duplicateSensorOnAsset": "Ativo já possui um sensor para este parâmetro. Sensor ignorado",
       "format": {
-        "columns": "Uma linha por sensor, com as colunas Nome do sensor, Tipo e Rótulo do ativo, seguidas pelas leituras. O Tipo é o que o sensor mede, como pressão, carga, demanda, nível, vazão ou velocidade, e deve ser um tipo suportado pelo ativo.",
-        "readings": "Cada leitura é correspondida a um passo de tempo de relatório da simulação, começando às 0:00. As leituras devem estar completas, sem lacunas e nas unidades do projeto.",
-        "title": "Formato do arquivo"
+        "readings": "Uma leitura por passo de tempo do relatório, nas unidades do projeto.",
+        "title": "Formato do arquivo",
+        "optional": "A linha 'tipo' é opcional. O ativo assume o nome do sensor por padrão.",
+        "show": "Ver o formato esperado"
       },
       "ignored": "{{1}} ignorado(s)",
       "importAction": "Importar",
       "invalidReading": "Leitura ausente ou inválida. Sensor ignorado",
       "issues": "Problemas",
       "issuesFound": "Problemas encontrados no arquivo",
-      "missingAsset": "Rótulo do ativo ausente. Sensor ignorado",
       "missingName": "Nome do sensor ausente. Sensor ignorado",
-      "missingType": "Tipo de sensor ausente. Sensor ignorado",
       "noReadings": "Nenhuma leitura. Sensor ignorado",
-      "notAValidSensorFile": "Este não parece ser um arquivo de dados de sensor. As colunas esperadas são Nome do sensor, Tipo, Rótulo do ativo e Leituras.",
+      "notAValidSensorFile": "Não é um arquivo de dados de sensor.",
       "nothingToImport": "Nenhum sensor pode ser importado",
       "preview": {
         "asset": "Ativo",
         "previewMore": "... e mais {{1}}",
         "readings": "Leituras",
         "sensor": "Sensor",
-        "type": "Tipo"
+        "parameter": "Parâmetro"
       },
-      "readingsDontCoverDuration": "As leituras não cobrem exatamente a duração da simulação. Sensores importados de qualquer forma; revise o arquivo ou as configurações de tempo da simulação",
+      "readingsDontCoverDuration": "As leituras não correspondem à duração da simulação. Sensores importados de qualquer forma",
       "readyToImport": "Pronto para importar",
       "readyWithWarnings": "Pronto para importar, com avisos",
       "removeFile": "Remover arquivo",
@@ -2403,12 +2402,18 @@
       },
       "unreadableFile": "O arquivo selecionado não pôde ser lido.",
       "unsupportedFormat": "Apenas arquivos .csv e .xlsx podem ser importados",
-      "unsupportedType": "Tipo de sensor não suportado pelo ativo. Sensor ignorado",
       "warningDialog": {
         "deleteAndImport": "Excluir e importar",
         "explain": "Seus dados de sensor atuais serão excluídos e substituídos pelos sensores da sua nova importação.",
         "question": "Tem certeza de que deseja prosseguir?"
-      }
+      },
+      "assetTypeMismatch": "Nenhum ativo desse tipo possui este rótulo. Sensor ignorado",
+      "invalidAssetType": "Tipo de ativo desconhecido. Aceito: {{1}}. Tipo ignorado",
+      "missingParameter": "Parâmetro ausente. Sensor ignorado",
+      "missingSensorRow": "Não foi possível encontrar os nomes dos sensores. Coloque-os em uma linha rotulada como \"sensor\" na primeira coluna. Rótulos encontrados: {{1}}.",
+      "repeatedHeaderRow": "\"{{1}}\" aparece mais de uma vez na primeira coluna. Apenas a primeira linha é usada",
+      "unknownHeaderRow": "Rótulo \"{{1}}\" não reconhecido na primeira coluna. Use um de: {{2}}. Linha ignorada",
+      "unsupportedParameter": "Parâmetro não suportado pelo ativo. Aceito para {{1}}. Sensor ignorado"
     },
     "menuEntry": "Dados do sensor",
     "paywall": {
@@ -2425,7 +2430,8 @@
       "notInScenario": "Não no cenário atual",
       "sensor": "Sensor",
       "title": "Sensores",
-      "type": "Tipo"
+      "parameter": "Parâmetro"
     }
-  }
+  },
+  "legendCollapsed": "Mostrar legenda"
 }

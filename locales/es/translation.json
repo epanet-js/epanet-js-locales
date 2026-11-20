@@ -2368,34 +2368,33 @@
       "ambiguousAsset": "Etiqueta de activo compartida por un nudo y un enlace que ambos soportan el tipo de sensor. Sensor omitido",
       "andMoreRows": "{{1}} y {{2}} más",
       "assetNotFound": "Activo no encontrado en el modelo. Sensor omitido",
-      "atRow": "{{1}} (fila {{2}})",
-      "atRows": "{{1}} (filas {{2}})",
-      "duplicateName": "Nombre de sensor duplicado. Filas posteriores omitidas",
-      "duplicateSensorOnAsset": "El activo ya tiene un sensor de este tipo. Sensor omitido",
+      "atRow": "{{1}} (columna {{2}})",
+      "atRows": "{{1}} (columnas {{2}})",
+      "duplicateName": "Nombre de sensor duplicado. Columnas posteriores omitidas",
+      "duplicateSensorOnAsset": "El activo ya tiene un sensor para este parámetro. Sensor omitido",
       "format": {
-        "columns": "Una fila por sensor, con las columnas Nombre del sensor, Tipo y Etiqueta del activo, seguidas de las lecturas. El tipo es lo que mide el sensor, como presión, carga, demanda, nivel, caudal o velocidad, y debe ser uno que el activo soporte.",
-        "readings": "Cada lectura se corresponde con un paso de tiempo de informe de la simulación, comenzando a las 0:00. Las lecturas deben estar completas, sin interrupciones y en las unidades del proyecto.",
-        "title": "Formato de archivo"
+        "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto.",
+        "title": "Formato de archivo",
+        "optional": "La fila de tipo es opcional. El activo por defecto es el nombre del sensor.",
+        "show": "Ver el formato esperado"
       },
       "ignored": "{{1}} omitidos",
       "importAction": "Importar",
       "invalidReading": "Lectura faltante o inválida. Sensor omitido",
       "issues": "Problemas",
       "issuesFound": "Se encontraron problemas en el archivo",
-      "missingAsset": "Falta etiqueta de activo. Sensor omitido",
       "missingName": "Falta nombre de sensor. Sensor omitido",
-      "missingType": "Falta tipo de sensor. Sensor omitido",
       "noReadings": "Sin lecturas. Sensor omitido",
-      "notAValidSensorFile": "Esto no parece un archivo de datos de sensor. Las columnas esperadas son Nombre del sensor, Tipo, Etiqueta del activo y Lecturas.",
+      "notAValidSensorFile": "No es un archivo de datos de sensor.",
       "nothingToImport": "No se pueden importar sensores",
       "preview": {
         "asset": "Activo",
         "previewMore": "... y {{1}} más",
         "readings": "Lecturas",
         "sensor": "Sensor",
-        "type": "Tipo"
+        "parameter": "Parámetro"
       },
-      "readingsDontCoverDuration": "Las lecturas no cubren la duración de la simulación exactamente. Los sensores se importan de todos modos; revisa el archivo o la configuración de tiempo de la simulación",
+      "readingsDontCoverDuration": "Las lecturas no coinciden con la duración de la simulación. Los sensores se importan de todos modos",
       "readyToImport": "Listo para importar",
       "readyWithWarnings": "Listo para importar, con advertencias",
       "removeFile": "Quitar archivo",
@@ -2410,12 +2409,18 @@
       },
       "unreadableFile": "No se pudo leer el archivo seleccionado.",
       "unsupportedFormat": "Solo se pueden importar archivos .csv y .xlsx",
-      "unsupportedType": "Tipo de sensor no soportado por el activo. Sensor omitido",
       "warningDialog": {
         "deleteAndImport": "Eliminar e importar",
         "explain": "Tus datos actuales de sensor se eliminarán y se reemplazarán con los sensores de tu nueva importación.",
         "question": "¿Estás seguro de que quieres continuar?"
-      }
+      },
+      "assetTypeMismatch": "No hay ningún activo de ese tipo con esta etiqueta. Sensor omitido",
+      "invalidAssetType": "Tipo de activo desconocido. Aceptados: {{1}}. Tipo ignorado",
+      "missingParameter": "Falta el parámetro. Sensor omitido",
+      "missingSensorRow": "No se encontraron los nombres de los sensores. Ponlos en una fila etiquetada como \"sensor\" en la primera columna. Etiquetas encontradas: {{1}}.",
+      "repeatedHeaderRow": "\"{{1}}\" aparece más de una vez en la primera columna. Solo se usa la primera fila",
+      "unknownHeaderRow": "Etiqueta no reconocida \"{{1}}\" en la primera columna. Usa una de: {{2}}. Fila ignorada",
+      "unsupportedParameter": "Parámetro no soportado por el activo. Aceptados para {{1}}. Sensor omitido"
     },
     "menuEntry": "Datos de sensor",
     "paywall": {
@@ -2432,7 +2437,8 @@
       "notInScenario": "No en el escenario actual",
       "sensor": "Sensor",
       "title": "Sensores",
-      "type": "Tipo"
+      "parameter": "Parámetro"
     }
-  }
+  },
+  "legendCollapsed": "Mostrar leyenda"
 }

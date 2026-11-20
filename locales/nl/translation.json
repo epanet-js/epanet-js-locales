@@ -2358,37 +2358,36 @@
   "sensorData": {
     "import": {
       "added": "{{1}} te importeren",
-      "ambiguousAsset": "Onderdeellabel gedeeld door een knooppunt en een verbinding die beide het sensortype ondersteunen. Sensor overgeslagen",
+      "ambiguousAsset": "Een knooppunt en een verbinding delen dit label. Voeg een rij \"type\" toe om aan te geven welke. Sensor overgeslagen",
       "andMoreRows": "{{1}} en {{2}} meer",
       "assetNotFound": "Onderdeel niet gevonden in het model. Sensor overgeslagen",
-      "atRow": "{{1}} (rij {{2}})",
-      "atRows": "{{1}} (rijen {{2}})",
-      "duplicateName": "Dubbele sensornnaam. Latere rijen overgeslagen",
-      "duplicateSensorOnAsset": "Het onderdeel heeft al een sensor van dit type. Sensor overgeslagen",
+      "atRow": "{{1}} (kolom {{2}})",
+      "atRows": "{{1}} (kolommen {{2}})",
+      "duplicateName": "Dubbele sensornaam. Latere kolommen overgeslagen",
+      "duplicateSensorOnAsset": "Onderdeel heeft al een sensor voor deze parameter. Sensor overgeslagen",
       "format": {
-        "columns": "Eén rij per sensor, met de kolommen Sensornnaam, Type en Onderdeellabel, gevolgd door de metingen. Type is wat de sensor meet, zoals druk, opvoerhoogte, vraag, niveau, stroming of snelheid, en moet een type zijn dat het onderdeel ondersteunt.",
-        "readings": "Elke meting wordt afgestemd op een rapportagetijdstap van de simulatie, beginnend om 0:00. Metingen moeten compleet zijn, zonder hiaten, en in de projecteenheden.",
-        "title": "Bestandsformaat"
+        "readings": "Eén meting per rapportagetijdstap, in projecteenheden.",
+        "title": "Bestandsformaat",
+        "optional": "De type-rij is optioneel. Het onderdeel wordt standaard de sensornaam.",
+        "show": "Bekijk het verwachte formaat"
       },
       "ignored": "{{1}} overgeslagen",
       "importAction": "Importeren",
       "invalidReading": "Ontbrekende of ongeldige meting. Sensor overgeslagen",
       "issues": "Problemen",
       "issuesFound": "Problemen gevonden in het bestand",
-      "missingAsset": "Ontbrekend onderdeellabel. Sensor overgeslagen",
       "missingName": "Ontbrekende sensornnaam. Sensor overgeslagen",
-      "missingType": "Ontbrekend sensortype. Sensor overgeslagen",
       "noReadings": "Geen metingen. Sensor overgeslagen",
-      "notAValidSensorFile": "Dit lijkt geen sensorgegevensbestand. Verwachte kolommen zijn Sensornnaam, Type, Onderdeellabel en Metingen.",
+      "notAValidSensorFile": "Geen sensorgegevensbestand.",
       "nothingToImport": "Geen sensoren kunnen worden geïmporteerd",
       "preview": {
         "asset": "Onderdeel",
         "previewMore": "... en {{1}} meer",
         "readings": "Metingen",
         "sensor": "Sensor",
-        "type": "Type"
+        "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Metingen dekken de simulatie duur niet exact. Sensoren toch geïmporteerd; controleer het bestand of de tijdinstellingen van de simulatie",
+      "readingsDontCoverDuration": "Metingen komen niet overeen met de simulatie duur. Sensoren toch geïmporteerd",
       "readyToImport": "Klaar om te importeren",
       "readyWithWarnings": "Klaar om te importeren, met waarschuwingen",
       "removeFile": "Bestand verwijderen",
@@ -2403,12 +2402,18 @@
       },
       "unreadableFile": "Het geselecteerde bestand kon niet worden gelezen.",
       "unsupportedFormat": "Alleen .csv- en .xlsx-bestanden kunnen worden geïmporteerd",
-      "unsupportedType": "Sensortype niet ondersteund door het onderdeel. Sensor overgeslagen",
       "warningDialog": {
         "deleteAndImport": "Verwijderen en importeren",
         "explain": "Uw huidige sensorgegevens worden verwijderd en vervangen door de sensoren uit uw nieuwe import.",
         "question": "Weet u zeker dat u wilt doorgaan?"
-      }
+      },
+      "assetTypeMismatch": "Geen onderdeel van dat type heeft dit label. Sensor overgeslagen",
+      "invalidAssetType": "Onbekend onderdeeltype. Geaccepteerd: {{1}}. Type genegeerd",
+      "missingParameter": "Ontbrekende parameter. Sensor overgeslagen",
+      "missingSensorRow": "Kon de sensornamen niet vinden. Plaats ze in een rij met het label \"sensor\" in de eerste kolom. Gevonden labels: {{1}}.",
+      "repeatedHeaderRow": "\"{{1}}\" verschijnt meer dan eens in de eerste kolom. Alleen de eerste rij wordt gebruikt",
+      "unknownHeaderRow": "Niet-herkend label \"{{1}}\" in de eerste kolom. Gebruik één van: {{2}}. Rij genegeerd",
+      "unsupportedParameter": "Parameter niet ondersteund door het onderdeel. Geaccepteerd voor {{1}}. Sensor overgeslagen"
     },
     "menuEntry": "Sensorgegevens",
     "paywall": {
@@ -2425,7 +2430,8 @@
       "notInScenario": "Niet in huidig scenario",
       "sensor": "Sensor",
       "title": "Sensoren",
-      "type": "Type"
+      "parameter": "Parameter"
     }
-  }
+  },
+  "legendCollapsed": "Legenda tonen"
 }
