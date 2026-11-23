@@ -696,7 +696,14 @@
         "pumpVariableSpeedScheduleTimesDistinct": "Les entrées du programme de la pompe à vitesse variable ne devraient pas partager un même moment",
         "pumpVariableSpeedScheduleTimesInSequence": "Les moments du programme de la pompe à vitesse variable doivent être en ordre",
         "pumpVariableSpeedTankLevelSettingOnBelowOff": "Le niveau d'activation du réservoir de démarrage/arrêt de la pompe à vitesse variable doit être inférieur au niveau de désactivation",
-        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Les niveaux de démarrage/arrêt de la pompe à vitesse variable doivent être compris entre les niveaux minimum et maximum du réservoir"
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Les niveaux de démarrage/arrêt de la pompe à vitesse variable doivent être compris entre les niveaux minimum et maximum du réservoir",
+        "pipeMaterialValidEntries": "Les entrées de rugosité du matériau de la conduite dans la bibliothèque de conduites sont invalides",
+        "pumpEfficiencyCurveIdValid": "Les points de la courbe de rendement de la pompe sont invalides",
+        "tankVolumeCurveIdValid": "Les points de la courbe de volume du château d'eau sont invalides",
+        "valveCurveIdValid": "Les points de la courbe de la vanne sont invalides",
+        "valveLevelOpeningControlOpenBelowClose": "Le niveau d'ouverture du contrôle basé sur le niveau doit être inférieur au niveau de fermeture",
+        "valveLevelOpeningControlWithinTankLevels": "Les niveaux du contrôle basé sur le niveau doivent être compris entre les niveaux minimum et maximum du château d'eau",
+        "valveLevelOpeningTankActive": "Le château d'eau cible du contrôle basé sur le niveau doit être actif"
       },
       "summary_one": "1 problème trouvé",
       "summary_other": "{{count}} problèmes trouvés",
@@ -994,7 +1001,12 @@
       "thisValve": "Cette vanne",
       "type": "Débit modulé"
     },
-    "fixedSpeed": "Vitesse fixe"
+    "fixedSpeed": "Vitesse fixe",
+    "levelOpening": {
+      "closed": "Fermé",
+      "continuous": "Régulation continue",
+      "open": "Ouvert"
+    }
   },
   "labelDuplicate": "Étiquette déjà utilisée",
   "nextTimestep": "Pas de temps suivant",
@@ -2369,7 +2381,8 @@
         "readings": "Une lecture par pas de temps de rapport, en unités du projet.",
         "title": "Format de fichier",
         "optional": "La ligne de type est facultative. L'élément prend par défaut le nom du capteur.",
-        "show": "Voir le format attendu"
+        "show": "Voir le format attendu",
+        "downloadTemplate": "Télécharger le modèle"
       },
       "ignored": "{{1}} ignoré",
       "importAction": "Importer",
@@ -2433,5 +2446,6 @@
       "parameter": "Paramètre"
     }
   },
-  "legendCollapsed": "Afficher la légende"
+  "legendCollapsed": "Afficher la légende",
+  "alertExportInpLsxLevelOpeningValves": "Vannes basées sur le niveau avec régulation continue"
 }

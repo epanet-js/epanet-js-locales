@@ -149,7 +149,12 @@
       "thisValve": "Katup ini",
       "type": "Modulasi aliran"
     },
-    "fixedSpeed": "Kecepatan tetap"
+    "fixedSpeed": "Kecepatan tetap",
+    "levelOpening": {
+      "closed": "Tertutup",
+      "continuous": "Regulasi berkelanjutan",
+      "open": "Buka"
+    }
   },
   "copy": "Salin",
   "couldNotImportCustomerPoints": "Tidak dapat mengimpor titik pelanggan.",
@@ -922,7 +927,14 @@
         "pumpVariableSpeedScheduleTimesDistinct": "Entri jadwal pompa kecepatan variabel tidak boleh memiliki waktu yang sama",
         "pumpVariableSpeedScheduleTimesInSequence": "Waktu jadwal pompa kecepatan variabel harus berurutan",
         "pumpVariableSpeedTankLevelSettingOnBelowOff": "Level aktif tangki start/stop pompa kecepatan variabel harus di bawah level nonaktif",
-        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Level start/stop pompa kecepatan variabel harus berada di antara level minimum dan maksimum tangki"
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Level start/stop pompa kecepatan variabel harus berada di antara level minimum dan maksimum tangki",
+        "pipeMaterialValidEntries": "Entri kekasaran material pipa di pustaka pipa tidak valid",
+        "pumpEfficiencyCurveIdValid": "Titik kurva efisiensi pompa tidak valid",
+        "tankVolumeCurveIdValid": "Titik kurva volume tangki tidak valid",
+        "valveCurveIdValid": "Titik kurva katup tidak valid",
+        "valveLevelOpeningControlOpenBelowClose": "Level terbuka kontrol berbasis level harus di bawah level tertutup",
+        "valveLevelOpeningControlWithinTankLevels": "Level kontrol berbasis level harus berada di antara level minimum dan maksimum tangki",
+        "valveLevelOpeningTankActive": "Tangki target kontrol berbasis level harus aktif"
       },
       "summary_one": "1 masalah ditemukan",
       "summary_other": "{{count}} masalah ditemukan",
@@ -2369,7 +2381,8 @@
         "readings": "Satu pembacaan per langkah waktu laporan, dalam satuan proyek.",
         "title": "Format file",
         "optional": "Baris tipe bersifat opsional. Aset akan secara otomatis menggunakan nama sensor.",
-        "show": "Lihat format yang diharapkan"
+        "show": "Lihat format yang diharapkan",
+        "downloadTemplate": "Unduh templat"
       },
       "ignored": "{{1}} dilewati",
       "importAction": "Impor",
@@ -2433,5 +2446,6 @@
       "parameter": "Parameter"
     }
   },
-  "legendCollapsed": "Tampilkan legenda"
+  "legendCollapsed": "Tampilkan legenda",
+  "alertExportInpLsxLevelOpeningValves": "Katup berbasis level dengan regulasi berkelanjutan"
 }

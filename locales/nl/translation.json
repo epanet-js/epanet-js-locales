@@ -696,7 +696,14 @@
         "pumpVariableSpeedScheduleTimesDistinct": "Items in het schema voor pompen met variabele snelheid mogen geen tijd delen",
         "pumpVariableSpeedScheduleTimesInSequence": "Tijden in het schema voor pompen met variabele snelheid moeten in volgorde zijn",
         "pumpVariableSpeedTankLevelSettingOnBelowOff": "Aan-niveau van de start-/stop-tank voor pompen met variabele snelheid moet onder het uit-niveau liggen",
-        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Start-/stop-niveaus van pompen met variabele snelheid moeten binnen de minimale en maximale niveaus van de tank liggen"
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Start-/stop-niveaus van pompen met variabele snelheid moeten binnen de minimale en maximale niveaus van de tank liggen",
+        "pipeMaterialValidEntries": "Ruwheidsinvoeren van leidingmateriaal in de leidingbibliotheek zijn ongeldig",
+        "pumpEfficiencyCurveIdValid": "Pomp rendementscurvepunten zijn ongeldig",
+        "tankVolumeCurveIdValid": "Tank volumecurvepunten zijn ongeldig",
+        "valveCurveIdValid": "Ventiel curvepunten zijn ongeldig",
+        "valveLevelOpeningControlOpenBelowClose": "Niveaugebaseerde regeling op niveau moet onder het uit-niveau liggen",
+        "valveLevelOpeningControlWithinTankLevels": "Niveaugebaseerde regelniveaus moeten binnen de minimale en maximale niveaus van de tank liggen",
+        "valveLevelOpeningTankActive": "Niveaugebaseerde regeldoeltank moet actief zijn"
       },
       "summary_one": "1 probleem gevonden",
       "summary_other": "{{count}} problemen gevonden",
@@ -994,7 +1001,12 @@
       "thisValve": "Dit ventiel",
       "type": "Debiet gemoduleerd"
     },
-    "fixedSpeed": "Vaste snelheid"
+    "fixedSpeed": "Vaste snelheid",
+    "levelOpening": {
+      "closed": "Gesloten",
+      "continuous": "Continue regeling",
+      "open": "Open"
+    }
   },
   "labelDuplicate": "Label reeds in gebruik",
   "nextTimestep": "Volgende tijdstap",
@@ -2369,7 +2381,8 @@
         "readings": "Eén meting per rapportagetijdstap, in projecteenheden.",
         "title": "Bestandsformaat",
         "optional": "De type-rij is optioneel. Het onderdeel wordt standaard de sensornaam.",
-        "show": "Bekijk het verwachte formaat"
+        "show": "Bekijk het verwachte formaat",
+        "downloadTemplate": "Sjabloon downloaden"
       },
       "ignored": "{{1}} overgeslagen",
       "importAction": "Importeren",
@@ -2433,5 +2446,6 @@
       "parameter": "Parameter"
     }
   },
-  "legendCollapsed": "Legenda tonen"
+  "legendCollapsed": "Legenda tonen",
+  "alertExportInpLsxLevelOpeningValves": "Niveaugebaseerde ventielen met continue regeling"
 }

@@ -709,7 +709,14 @@
         "pumpVariableSpeedScheduleTimesDistinct": "Las entradas del programa de la bomba de velocidad variable no deben compartir un mismo tiempo",
         "pumpVariableSpeedScheduleTimesInSequence": "Los tiempos del programa de la bomba de velocidad variable deben estar en orden",
         "pumpVariableSpeedTankLevelSettingOnBelowOff": "El nivel de encendido del tanque de arranque/parada de la bomba de velocidad variable debe ser inferior al nivel de apagado",
-        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Los niveles de arranque/parada de la bomba de velocidad variable deben estar dentro de los niveles mínimo y máximo del tanque"
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "Los niveles de arranque/parada de la bomba de velocidad variable deben estar dentro de los niveles mínimo y máximo del tanque",
+        "pipeMaterialValidEntries": "Las entradas de rugosidad del material de la tubería en la biblioteca de tuberías no son válidas",
+        "pumpEfficiencyCurveIdValid": "Los puntos de la curva de eficiencia de la bomba no son válidos",
+        "tankVolumeCurveIdValid": "Los puntos de la curva de volumen del tanque no son válidos",
+        "valveCurveIdValid": "Los puntos de la curva de la válvula no son válidos",
+        "valveLevelOpeningControlOpenBelowClose": "El nivel de apertura del control basado en nivel debe ser inferior al nivel de cierre",
+        "valveLevelOpeningControlWithinTankLevels": "Los niveles de control basado en nivel deben estar dentro de los niveles mínimo y máximo del tanque",
+        "valveLevelOpeningTankActive": "El tanque objetivo del control basado en nivel debe estar activo"
       },
       "summary_one": "1 problema encontrado",
       "summary_other": "{{count}} problemas encontrados",
@@ -1007,7 +1014,12 @@
       "thisValve": "Esta válvula",
       "type": "Caudal modulado"
     },
-    "fixedSpeed": "Velocidad fija"
+    "fixedSpeed": "Velocidad fija",
+    "levelOpening": {
+      "closed": "Cerrada",
+      "continuous": "Regulación continua",
+      "open": "Abierta"
+    }
   },
   "labelDuplicate": "Etiqueta ya en uso",
   "nextTimestep": "Siguiente paso de tiempo",
@@ -2376,7 +2388,8 @@
         "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto.",
         "title": "Formato de archivo",
         "optional": "La fila de tipo es opcional. El elemento por defecto es el nombre del sensor.",
-        "show": "Ver el formato esperado"
+        "show": "Ver el formato esperado",
+        "downloadTemplate": "Descargar plantilla"
       },
       "ignored": "{{1}} omitidos",
       "importAction": "Importar",
@@ -2440,5 +2453,6 @@
       "parameter": "Parámetro"
     }
   },
-  "legendCollapsed": "Mostrar leyenda"
+  "legendCollapsed": "Mostrar leyenda",
+  "alertExportInpLsxLevelOpeningValves": "Válvulas basadas en nivel con regulación continua"
 }

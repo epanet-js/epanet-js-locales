@@ -696,7 +696,14 @@
         "pumpVariableSpeedScheduleTimesDistinct": "可変速ポンプのスケジュールエントリは時間を共有してはなりません",
         "pumpVariableSpeedScheduleTimesInSequence": "可変速ポンプのスケジュール時間は順序通りでなければなりません",
         "pumpVariableSpeedTankLevelSettingOnBelowOff": "可変速ポンプの開始/停止配水池のオンレベルはオフレベルより低くなければなりません",
-        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "可変速ポンプの開始/停止レベルは配水池の最小水位と最大水位の間である必要があります"
+        "pumpVariableSpeedTankLevelSettingWithinTankLevels": "可変速ポンプの開始/停止レベルは配水池の最小水位と最大水位の間である必要があります",
+        "pipeMaterialValidEntries": "管ライブラリ内の管の材質の粗度エントリが無効です",
+        "pumpEfficiencyCurveIdValid": "ポンプ効率曲線の点が無効です",
+        "tankVolumeCurveIdValid": "配水池容量曲線の点が無効です",
+        "valveCurveIdValid": "弁曲線の点が無効です",
+        "valveLevelOpeningControlOpenBelowClose": "レベルベース制御の開レベルは閉レベルより低くなければなりません",
+        "valveLevelOpeningControlWithinTankLevels": "レベルベース制御のレベルは配水池の最小水位と最大水位の間である必要があります",
+        "valveLevelOpeningTankActive": "レベルベース制御のターゲット配水池はアクティブである必要があります"
       },
       "summary_one": "問題が 1 件見つかりました",
       "summary_other": "問題が {{count}} 件見つかりました",
@@ -994,7 +1001,12 @@
       "thisValve": "この弁",
       "type": "流量変調"
     },
-    "fixedSpeed": "固定速度"
+    "fixedSpeed": "固定速度",
+    "levelOpening": {
+      "closed": "閉",
+      "continuous": "連続的な調整",
+      "open": "開"
+    }
   },
   "labelDuplicate": "ラベルは既に使用されています",
   "nextTimestep": "次のタイムステップ",
@@ -2369,7 +2381,8 @@
         "readings": "1つの測定値につき1つのレポートタイムステップで、プロジェクト単位です。",
         "title": "ファイル形式",
         "optional": "タイプ行はオプションです。アセットはセンサー名にデフォルト設定されます。",
-        "show": "期待される形式を参照"
+        "show": "期待される形式を参照",
+        "downloadTemplate": "テンプレートをダウンロード"
       },
       "ignored": "スキップされた {{1}} 件",
       "importAction": "インポート",
@@ -2433,5 +2446,6 @@
       "parameter": "パラメータ"
     }
   },
-  "legendCollapsed": "凡例を表示"
+  "legendCollapsed": "凡例を表示",
+  "alertExportInpLsxLevelOpeningValves": "連続的な調整を行うレベルベースの弁"
 }
