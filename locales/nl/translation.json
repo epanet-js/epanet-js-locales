@@ -681,7 +681,6 @@
         "valveFlowModulatingControlPressuresPositive": "Debietmodulerende regelingsdrukken moeten positief zijn",
         "valveFlowModulatingSensorLinkActive": "Stromingsgestuurde regelingsverbinding moet actief zijn",
         "valveTargetNodeActive": "PRV doelknooppunt moet actief zijn",
-        "pumpVariableSpeedDischargeNotBackfeeding": "Pomp met variabel toerental mag niet in zichzelf terugvoeren",
         "pumpVariableSpeedFlowTargetSameDirection": "De stromingsdoel van de pomp met variabel toerental moet de richting van de pomp volgen",
         "pumpLevelSettingControlOnBelowOff": "Niveaugebaseerde regeling op niveau moet onder het uit-niveau liggen",
         "pumpLevelSettingControlOnSpeedNonNegative": "Niveaugebaseerde regeling op snelheid moet nul of groter zijn",
@@ -717,7 +716,7 @@
     "issuesFound_one": "1 probleem",
     "issuesFound_other": "{{count}} problemen",
     "topologyChecks": {
-      "description": "Vind pompen en ventielen in stroomlussen, en knooppunten zonder toevoer",
+      "description": "Vind pompen en ventielen in potentiële stromingslussen, en knooppunten zonder toevoer",
       "emptyMessage": "Geen topologieproblemen gevonden",
       "linkAndMore": "{{1}} en {{2}} meer",
       "rule": {
@@ -2373,16 +2372,17 @@
       "ambiguousAsset": "Een knooppunt en een verbinding delen dit label. Voeg een rij \"type\" toe om aan te geven welke. Sensor overgeslagen",
       "andMoreRows": "{{1}} en {{2}} meer",
       "assetNotFound": "Onderdeel niet gevonden in het model. Sensor overgeslagen",
-      "atRow": "{{1}} (kolom {{2}})",
-      "atRows": "{{1}} (kolommen {{2}})",
+      "atRow": "{{1}} (rij {{2}})",
+      "atRows": "{{1}} (rijen {{2}})",
       "duplicateName": "Dubbele sensornaam. Latere kolommen overgeslagen",
       "duplicateSensorOnAsset": "Onderdeel heeft al een sensor voor deze parameter. Sensor overgeslagen",
       "format": {
-        "readings": "Eén meting per rapportagetijdstap, in projecteenheden.",
+        "readings": "Eén meting per rapportagetijdstap, in projecteenheden. De tijdskolom is alleen ter referentie: metingen worden gekoppeld aan rapportagetijdstappen in rijvolgorde, beginnend om 0:00.",
         "title": "Bestandsformaat",
         "optional": "De type-rij is optioneel. Het onderdeel wordt standaard de sensornaam.",
         "show": "Bekijk het verwachte formaat",
-        "downloadTemplate": "Sjabloon downloaden"
+        "downloadTemplate": "Sjabloon downloaden",
+        "readingTimes": "Tijden tellen vanaf het begin van de simulatie, als hh:mm of hh:mm:ss. Een tijd die meer dan 12 uur eerder is dan de rij erboven, zoals 00:00 na 23:45, start de volgende dag. Een datum en tijd werken ook, dag of maand eerst: alleen de tijd wordt behouden, plus 24 uur voor elke dag na de eerste. Laat een cel leeg als er geen meting is. Metingen in projecteenheden."
       },
       "ignored": "{{1}} overgeslagen",
       "importAction": "Importeren",
@@ -2400,7 +2400,7 @@
         "sensor": "Sensor",
         "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Metingen komen niet overeen met de simulatie duur. Sensoren toch geïmporteerd",
+      "readingsDontCoverDuration": "Verwacht {{1}} metingen, één per rapportagetijdstap, maar gevonden {{2}}. Sensoren toch geïmporteerd",
       "readyToImport": "Klaar om te importeren",
       "readyWithWarnings": "Klaar om te importeren, met waarschuwingen",
       "removeFile": "Bestand verwijderen",
@@ -2426,7 +2426,17 @@
       "missingSensorRow": "Kon de sensornamen niet vinden. Plaats ze in een rij met het label \"sensor\" in de eerste kolom. Gevonden labels: {{1}}.",
       "repeatedHeaderRow": "\"{{1}}\" verschijnt meer dan eens in de eerste kolom. Alleen de eerste rij wordt gebruikt",
       "unknownHeaderRow": "Niet-herkend label \"{{1}}\" in de eerste kolom. Gebruik één van: {{2}}. Rij genegeerd",
-      "unsupportedParameter": "Parameter niet ondersteund door het onderdeel. Geaccepteerd voor {{1}}. Sensor overgeslagen"
+      "unsupportedParameter": "Parameter niet ondersteund door het onderdeel. Geaccepteerd voor {{1}}. Sensor overgeslagen",
+      "andMoreColumns": "{{1}} en {{2}} meer",
+      "atColumn": "{{1}} (kolom {{2}})",
+      "atColumns": "{{1}} (kolommen {{2}})",
+      "impossibleTime": "Datum of tijd die niet bestaat. Rijen overgeslagen",
+      "missingTime": "Geen tijd. Rijen overgeslagen",
+      "mixedDateOrder": "Datums staan op sommige rijen dag eerst en op andere rijen maand eerst. Rijen overgeslagen",
+      "readingNotANumber": "Meting is geen getal. Gelezen als geen meting",
+      "readingsEndEarly": "Metingen eindigen voordat de simulatie eindigt. Sensoren toch geïmporteerd",
+      "timeNotIncreasing": "Tijd is niet later dan de rij erboven. Rijen overgeslagen",
+      "unrecognizedTime": "Tijd niet herkend. Gebruik hh:mm, hh:mm:ss of een datum en tijd. Rijen overgeslagen"
     },
     "menuEntry": "Sensorgegevens",
     "paywall": {

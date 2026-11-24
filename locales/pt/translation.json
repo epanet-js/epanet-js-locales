@@ -681,7 +681,6 @@
         "valveFlowModulatingControlPressuresPositive": "As pressões do controle de modulação de vazão devem ser positivas",
         "valveFlowModulatingSensorLinkActive": "O link de vazão passante do controle de modulação de vazão deve estar ativo",
         "valveTargetNodeActive": "O nó de destino da PRV deve estar ativo",
-        "pumpVariableSpeedDischargeNotBackfeeding": "A bomba de velocidade variável não deve alimentar a si mesma",
         "pumpVariableSpeedFlowTargetSameDirection": "O alvo de vazão da bomba de velocidade variável deve seguir a direção da bomba",
         "pumpLevelSettingControlOnBelowOff": "O nível de ativação do controle baseado em nível deve ser inferior ao nível de desativação",
         "pumpLevelSettingControlOnSpeedNonNegative": "A velocidade de ativação do controle baseado em nível deve ser zero ou maior",
@@ -2373,16 +2372,17 @@
       "ambiguousAsset": "Um nó e um link compartilham este rótulo. Adicione uma linha \"tipo\" para especificar qual. Sensor ignorado",
       "andMoreRows": "{{1}} e {{2}} mais",
       "assetNotFound": "Ativo não encontrado no modelo. Sensor ignorado",
-      "atRow": "{{1}} (coluna {{2}})",
-      "atRows": "{{1}} (colunas {{2}})",
+      "atRow": "{{1}} (linha {{2}})",
+      "atRows": "{{1}} (linhas {{2}})",
       "duplicateName": "Nome do sensor duplicado. Colunas posteriores ignoradas",
       "duplicateSensorOnAsset": "Ativo já possui um sensor para este parâmetro. Sensor ignorado",
       "format": {
-        "readings": "Uma leitura por passo de tempo do relatório, nas unidades do projeto.",
+        "readings": "Uma leitura por passo de tempo do relatório, nas unidades do projeto. A coluna de tempo é apenas para sua referência: as leituras são combinadas com os passos de tempo do relatório em ordem de linha, começando às 0:00.",
         "title": "Formato do arquivo",
         "optional": "A linha 'tipo' é opcional. O ativo assume o nome do sensor por padrão.",
         "show": "Ver o formato esperado",
-        "downloadTemplate": "Baixar modelo"
+        "downloadTemplate": "Baixar modelo",
+        "readingTimes": "Os tempos contam a partir do início da simulação, como hh:mm ou hh:mm:ss. Um horário mais de 12 horas antes da linha acima, como 00:00 após 23:45, inicia o próximo dia. Uma data e hora também funcionam, dia ou mês primeiro: apenas o horário é mantido, mais 24 horas para cada dia após o primeiro. Deixe uma célula em branco quando não houver leitura. Leituras nas unidades do projeto."
       },
       "ignored": "{{1}} ignorado(s)",
       "importAction": "Importar",
@@ -2400,7 +2400,7 @@
         "sensor": "Sensor",
         "parameter": "Parâmetro"
       },
-      "readingsDontCoverDuration": "As leituras não correspondem à duração da simulação. Sensores importados de qualquer forma",
+      "readingsDontCoverDuration": "Esperado {{1}} leituras, uma por passo de tempo do relatório, mas encontrado {{2}}. Sensores importados de qualquer forma",
       "readyToImport": "Pronto para importar",
       "readyWithWarnings": "Pronto para importar, com avisos",
       "removeFile": "Remover arquivo",
@@ -2426,7 +2426,17 @@
       "missingSensorRow": "Não foi possível encontrar os nomes dos sensores. Coloque-os em uma linha rotulada como \"sensor\" na primeira coluna. Rótulos encontrados: {{1}}.",
       "repeatedHeaderRow": "\"{{1}}\" aparece mais de uma vez na primeira coluna. Apenas a primeira linha é usada",
       "unknownHeaderRow": "Rótulo \"{{1}}\" não reconhecido na primeira coluna. Use um de: {{2}}. Linha ignorada",
-      "unsupportedParameter": "Parâmetro não suportado pelo ativo. Aceito para {{1}}. Sensor ignorado"
+      "unsupportedParameter": "Parâmetro não suportado pelo ativo. Aceito para {{1}}. Sensor ignorado",
+      "andMoreColumns": "{{1}} e mais {{2}}",
+      "atColumn": "{{1}} (coluna {{2}})",
+      "atColumns": "{{1}} (colunas {{2}})",
+      "impossibleTime": "Data ou hora que não existe. Linhas ignoradas",
+      "missingTime": "Sem hora. Linhas ignoradas",
+      "mixedDateOrder": "As datas estão com o dia primeiro em algumas linhas e o mês primeiro em outras. Linhas ignoradas",
+      "readingNotANumber": "Leitura não é um número. Lida como sem leitura",
+      "readingsEndEarly": "As leituras terminam antes do fim da simulação. Sensores importados de qualquer forma",
+      "timeNotIncreasing": "O tempo não é posterior ao da linha acima. Linhas ignoradas",
+      "unrecognizedTime": "Tempo não reconhecido. Use hh:mm, hh:mm:ss ou uma data e hora. Linhas ignoradas"
     },
     "menuEntry": "Dados do sensor",
     "paywall": {

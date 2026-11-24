@@ -912,7 +912,6 @@
         "valveFlowModulatingControlPressuresPositive": "Tekanan kontrol modulasi aliran harus positif",
         "valveFlowModulatingSensorLinkActive": "Tautan aliran kontrol modulasi aliran harus aktif",
         "valveTargetNodeActive": "Node target PRV harus aktif",
-        "pumpVariableSpeedDischargeNotBackfeeding": "Pompa kecepatan variabel tidak boleh mengalirkan kembali ke dirinya sendiri",
         "pumpVariableSpeedFlowTargetSameDirection": "Target aliran pompa kecepatan variabel harus mengikuti arah pompa",
         "pumpLevelSettingControlOnBelowOff": "Level kontrol berbasis level harus di bawah level nonaktif",
         "pumpLevelSettingControlOnSpeedNonNegative": "Kecepatan kontrol berbasis level harus nol atau lebih besar",
@@ -2373,16 +2372,17 @@
       "ambiguousAsset": "Node dan tautan berbagi label ini. Tambahkan baris \"tipe\" untuk menyatakan yang mana. Sensor dilewati",
       "andMoreRows": "{{1}} dan {{2}} lainnya",
       "assetNotFound": "Aset tidak ditemukan dalam model. Sensor dilewati",
-      "atRow": "{{1}} (kolom {{2}})",
-      "atRows": "{{1}} (kolom {{2}})",
+      "atRow": "{{1}} (baris {{2}})",
+      "atRows": "{{1}} (baris {{2}})",
       "duplicateName": "Nama sensor duplikat. Kolom selanjutnya dilewati",
       "duplicateSensorOnAsset": "Aset sudah memiliki sensor untuk parameter ini. Sensor dilewati",
       "format": {
-        "readings": "Satu pembacaan per langkah waktu laporan, dalam satuan proyek.",
+        "readings": "Satu pembacaan per langkah waktu laporan, dalam satuan proyek. Kolom waktu hanya untuk referensi Anda: pembacaan dicocokkan dengan langkah waktu laporan dalam urutan baris, dimulai pada 0:00.",
         "title": "Format file",
         "optional": "Baris tipe bersifat opsional. Aset akan secara otomatis menggunakan nama sensor.",
         "show": "Lihat format yang diharapkan",
-        "downloadTemplate": "Unduh templat"
+        "downloadTemplate": "Unduh templat",
+        "readingTimes": "Waktu dihitung dari awal simulasi, sebagai hh:mm atau hh:mm:ss. Waktu lebih dari 12 jam lebih awal dari baris di atasnya, seperti 00:00 setelah 23:45, akan memulai hari berikutnya. Tanggal dan waktu juga berfungsi, hari atau bulan terlebih dahulu: hanya waktu yang disimpan, ditambah 24 jam untuk setiap hari setelah yang pertama. Biarkan sel kosong jika tidak ada pembacaan. Pembacaan dalam satuan proyek."
       },
       "ignored": "{{1}} dilewati",
       "importAction": "Impor",
@@ -2400,7 +2400,7 @@
         "sensor": "Sensor",
         "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Pembacaan tidak sesuai dengan durasi simulasi. Sensor tetap diimpor",
+      "readingsDontCoverDuration": "Diharapkan {{1}} pembacaan, satu per langkah waktu laporan, tetapi ditemukan {{2}}. Sensor tetap diimpor",
       "readyToImport": "Siap diimpor",
       "readyWithWarnings": "Siap diimpor, dengan peringatan",
       "removeFile": "Hapus file",
@@ -2426,7 +2426,17 @@
       "missingSensorRow": "Tidak dapat menemukan nama sensor. Letakkan dalam baris berlabel \"sensor\" di kolom pertama. Label ditemukan: {{1}}.",
       "repeatedHeaderRow": "\"{{1}}\" muncul lebih dari sekali di kolom pertama. Hanya baris pertama yang digunakan",
       "unknownHeaderRow": "Label \"{{1}}\" tidak dikenal di kolom pertama. Gunakan salah satu dari: {{2}}. Baris diabaikan",
-      "unsupportedParameter": "Parameter tidak didukung oleh aset. Diterima untuk {{1}}. Sensor dilewati"
+      "unsupportedParameter": "Parameter tidak didukung oleh aset. Diterima untuk {{1}}. Sensor dilewati",
+      "andMoreColumns": "{{1}} dan {{2}} lainnya",
+      "atColumn": "{{1}} (kolom {{2}})",
+      "atColumns": "{{1}} (kolom {{2}})",
+      "impossibleTime": "Tanggal atau waktu yang tidak ada. Baris dilewati",
+      "missingTime": "Tidak ada waktu. Baris dilewati",
+      "mixedDateOrder": "Format tanggal berbeda antar baris (ada yang hari-bulan, ada yang bulan-hari). Baris dilewati",
+      "readingNotANumber": "Pembacaan bukan angka. Dibaca sebagai tidak ada pembacaan",
+      "readingsEndEarly": "Pembacaan berakhir sebelum simulasi selesai. Sensor tetap diimpor",
+      "timeNotIncreasing": "Waktu tidak lebih lambat dari baris di atasnya. Baris dilewati",
+      "unrecognizedTime": "Waktu tidak dikenali. Gunakan hh:mm, hh:mm:ss, atau tanggal dan waktu. Baris dilewati"
     },
     "menuEntry": "Data sensor",
     "paywall": {

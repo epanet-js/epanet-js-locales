@@ -681,7 +681,6 @@
         "valveFlowModulatingControlPressuresPositive": "流量変調制御の圧力は正の値でなければなりません",
         "valveFlowModulatingSensorLinkActive": "流量変調制御の通過流量リンクはアクティブでなければなりません",
         "valveTargetNodeActive": "PRVターゲットノードはアクティブである必要があります",
-        "pumpVariableSpeedDischargeNotBackfeeding": "可変速ポンプは自身に逆流してはなりません",
         "pumpVariableSpeedFlowTargetSameDirection": "可変速ポンプの流量目標はポンプの向きに従う必要があります",
         "pumpLevelSettingControlOnBelowOff": "レベルベース制御のオンレベルはオフレベルより低くなければなりません",
         "pumpLevelSettingControlOnSpeedNonNegative": "レベルベース制御のオン速度はゼロ以上でなければなりません",
@@ -717,7 +716,7 @@
     "issuesFound_one": "1件の問題",
     "issuesFound_other": "{{count}}件の問題",
     "topologyChecks": {
-      "description": "流量ループ内のポンプと弁、および供給のない接点を見つける",
+      "description": "潜在的な流量ループ内のポンプと弁、および供給のない接点を見つける",
       "emptyMessage": "トポロジの問題は見つかりませんでした",
       "linkAndMore": "{{1}}とその他 {{2}} 件",
       "rule": {
@@ -2373,16 +2372,17 @@
       "ambiguousAsset": "ノードとリンクがこのラベルを共有しています。どちらかを示す「タイプ」行を追加してください。センサーはスキップされました",
       "andMoreRows": "{{1}} とその他 {{2}} 件",
       "assetNotFound": "モデルにアセットが見つかりませんでした。センサーはスキップされました",
-      "atRow": "{{1}} (列 {{2}})",
-      "atRows": "{{1}} (列 {{2}})",
+      "atRow": "{{1}} (行 {{2}})",
+      "atRows": "{{1}} (行 {{2}})",
       "duplicateName": "重複するセンサー名。後続の列はスキップされました",
       "duplicateSensorOnAsset": "アセットにはすでにこのパラメータのセンサーがあります。センサーはスキップされました",
       "format": {
-        "readings": "1つの測定値につき1つのレポートタイムステップで、プロジェクト単位です。",
+        "readings": "プロジェクト単位で、レポートの各タイムステップごとに1つの測定値。時刻列は参照用であり、測定値は0:00から始まる行順でレポートのタイムステップに一致させられます。",
         "title": "ファイル形式",
         "optional": "タイプ行はオプションです。アセットはセンサー名にデフォルト設定されます。",
         "show": "期待される形式を参照",
-        "downloadTemplate": "テンプレートをダウンロード"
+        "downloadTemplate": "テンプレートをダウンロード",
+        "readingTimes": "時刻はシミュレーション開始からの時間で、hh:mmまたはhh:mm:ss形式でカウントされます。上の行よりも12時間以上前の時刻（例：23:45の後の00:00）は翌日を開始します。日付と時刻も機能し、日または月が最初に来る場合も同様です。時刻のみが保持され、最初の日以降は各日につき24時間が加算されます。測定値がない場合はセルを空白にしてください。測定値はプロジェクト単位です。"
       },
       "ignored": "スキップされた {{1}} 件",
       "importAction": "インポート",
@@ -2400,7 +2400,7 @@
         "sensor": "センサー",
         "parameter": "パラメータ"
       },
-      "readingsDontCoverDuration": "測定値がシミュレーション期間と一致しません。センサーはインポートされました",
+      "readingsDontCoverDuration": "レポートの各タイムステップごとに1つ、合計{{1}}個の測定値が期待されましたが、{{2}}個が見つかりました。センサーはインポートされました",
       "readyToImport": "インポート準備完了",
       "readyWithWarnings": "警告付きでインポート準備完了",
       "removeFile": "ファイルを削除",
@@ -2426,7 +2426,17 @@
       "missingSensorRow": "センサー名が見つかりませんでした。最初の列の「sensor」とラベル付けされた行にそれらを配置してください。見つかったラベル: {{1}}。",
       "repeatedHeaderRow": "最初の列に「{{1}}」が複数回出現します。最初の行のみが使用されます",
       "unknownHeaderRow": "最初の列の認識されないラベル「{{1}}」。次のいずれかを使用してください: {{2}}。行は無視されました",
-      "unsupportedParameter": "アセットでパラメータがサポートされていません。{{1}}で許可されています。センサーはスキップされました"
+      "unsupportedParameter": "アセットでパラメータがサポートされていません。{{1}}で許可されています。センサーはスキップされました",
+      "andMoreColumns": "{{1}} とその他 {{2}} 件",
+      "atColumn": "{{1}} (列 {{2}})",
+      "atColumns": "{{1}} (列 {{2}})",
+      "impossibleTime": "存在しない日付または時刻。行はスキップされました",
+      "missingTime": "時刻がありません。行はスキップされました",
+      "mixedDateOrder": "一部の行では日付が日・月順、他の行では月・日順です。行はスキップされました",
+      "readingNotANumber": "測定値が数値ではありません。測定値なしとして読み込まれました",
+      "readingsEndEarly": "測定値がシミュレーション終了前に終わります。センサーはインポートされました",
+      "timeNotIncreasing": "時刻が上の行よりも後ではありません。行はスキップされました",
+      "unrecognizedTime": "時刻が認識されません。hh:mm、hh:mm:ssまたは日付と時刻を使用してください。行はスキップされました"
     },
     "menuEntry": "センサーデータ",
     "paywall": {

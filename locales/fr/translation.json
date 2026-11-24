@@ -681,7 +681,6 @@
         "valveFlowModulatingControlPressuresPositive": "Les pressions du contrôle de modulation de débit doivent être positives",
         "valveFlowModulatingSensorLinkActive": "La liaison de passage du contrôle de modulation de débit doit être active",
         "valveTargetNodeActive": "Le nœud cible du PRV doit être actif",
-        "pumpVariableSpeedDischargeNotBackfeeding": "La pompe à vitesse variable ne doit pas se réinjecter elle-même",
         "pumpVariableSpeedFlowTargetSameDirection": "La cible de débit de la pompe à vitesse variable doit suivre la direction de la pompe",
         "pumpLevelSettingControlOnBelowOff": "Le niveau d'activation du contrôle basé sur le niveau doit être inférieur au niveau de désactivation",
         "pumpLevelSettingControlOnSpeedNonNegative": "La vitesse d'activation du contrôle basé sur le niveau doit être supérieure ou égale à zéro",
@@ -717,7 +716,7 @@
     "issuesFound_one": "1 problème",
     "issuesFound_other": "{{count}} problèmes",
     "topologyChecks": {
-      "description": "Trouve les pompes et les vannes dans les boucles de débit, et les nœuds sans alimentation",
+      "description": "Trouve les pompes et les vannes dans des boucles de débit potentielles, et les nœuds sans alimentation",
       "emptyMessage": "Aucun problème de topologie trouvé",
       "linkAndMore": "{{1}} et {{2}} autres",
       "rule": {
@@ -2373,16 +2372,17 @@
       "ambiguousAsset": "Un nœud et une liaison partagent cette étiquette. Ajoutez une ligne \"type\" pour préciser lequel. Capteur ignoré",
       "andMoreRows": "{{1}} et {{2}} de plus",
       "assetNotFound": "Élément introuvable dans le modèle. Capteur ignoré",
-      "atRow": "{{1}} (colonne {{2}})",
-      "atRows": "{{1}} (colonnes {{2}})",
+      "atRow": "{{1}} (ligne {{2}})",
+      "atRows": "{{1}} (lignes {{2}})",
       "duplicateName": "Nom de capteur en double. Les colonnes suivantes ont été ignorées",
       "duplicateSensorOnAsset": "L'élément possède déjà un capteur pour ce paramètre. Capteur ignoré",
       "format": {
-        "readings": "Une lecture par pas de temps de rapport, en unités du projet.",
+        "readings": "Une lecture par pas de temps de rapport, en unités du projet. La colonne de temps est pour votre référence seulement : les lectures sont associées aux pas de temps de rapport par ordre de ligne, à partir de 0:00.",
         "title": "Format de fichier",
         "optional": "La ligne de type est facultative. L'élément prend par défaut le nom du capteur.",
         "show": "Voir le format attendu",
-        "downloadTemplate": "Télécharger le modèle"
+        "downloadTemplate": "Télécharger le modèle",
+        "readingTimes": "Les temps sont comptés à partir du début de la simulation, au format hh:mm ou hh:mm:ss. Un temps plus de 12 heures plus tôt que la ligne précédente, comme 00:00 après 23:45, marque le début du jour suivant. Une date et une heure fonctionnent également, jour ou mois en premier : seule l'heure est conservée, plus 24 heures pour chaque jour après le premier. Laissez une cellule vide s'il n'y a pas de lecture. Lectures en unités du projet."
       },
       "ignored": "{{1}} ignoré",
       "importAction": "Importer",
@@ -2400,7 +2400,7 @@
         "sensor": "Capteur",
         "parameter": "Paramètre"
       },
-      "readingsDontCoverDuration": "Les lectures ne correspondent pas à la durée de la simulation. Les capteurs ont été importés malgré tout",
+      "readingsDontCoverDuration": "Attendu {{1}} lectures, une par pas de temps de rapport, mais trouvé {{2}}. Capteurs importés quand même",
       "readyToImport": "Prêt à importer",
       "readyWithWarnings": "Prêt à importer, avec des avertissements",
       "removeFile": "Supprimer le fichier",
@@ -2426,7 +2426,17 @@
       "missingSensorRow": "Impossible de trouver les noms des capteurs. Placez-les dans une ligne étiquetée \"sensor\" dans la première colonne. Étiquettes trouvées : {{1}}.",
       "repeatedHeaderRow": "« {{1}} » apparaît plus d'une fois dans la première colonne. Seule la première ligne est utilisée",
       "unknownHeaderRow": "Étiquette non reconnue « {{1}} » dans la première colonne. Utilisez l'un des suivants : {{2}}. Ligne ignorée",
-      "unsupportedParameter": "Paramètre non supporté par l'élément. Acceptés pour {{1}}. Capteur ignoré"
+      "unsupportedParameter": "Paramètre non supporté par l'élément. Acceptés pour {{1}}. Capteur ignoré",
+      "andMoreColumns": "{{1}} et {{2}} de plus",
+      "atColumn": "{{1}} (colonne {{2}})",
+      "atColumns": "{{1}} (colonnes {{2}})",
+      "impossibleTime": "Date ou heure inexistante. Lignes ignorées",
+      "missingTime": "Pas de temps. Lignes ignorées",
+      "mixedDateOrder": "Les dates sont au format jour/mois sur certaines lignes et mois/jour sur d'autres. Lignes ignorées",
+      "readingNotANumber": "La lecture n'est pas un nombre. Interprétée comme aucune lecture",
+      "readingsEndEarly": "Les lectures se terminent avant la simulation. Capteurs importés quand même",
+      "timeNotIncreasing": "Le temps n'est pas postérieur à la ligne précédente. Lignes ignorées",
+      "unrecognizedTime": "Heure non reconnue. Utilisez hh:mm, hh:mm:ss ou une date et une heure. Lignes ignorées"
     },
     "menuEntry": "Données de capteur",
     "paywall": {

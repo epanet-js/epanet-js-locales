@@ -694,7 +694,6 @@
         "valveFlowModulatingControlPressuresPositive": "Las presiones del control de modulación de caudal deben ser positivas",
         "valveFlowModulatingSensorLinkActive": "El enlace de paso de caudal del control de modulación de caudal debe estar activo",
         "valveTargetNodeActive": "El nudo objetivo de PRV debe estar activo",
-        "pumpVariableSpeedDischargeNotBackfeeding": "La bomba de velocidad variable no debe realimentarse a sí misma",
         "pumpVariableSpeedFlowTargetSameDirection": "El caudal objetivo de la bomba de velocidad variable debe seguir la dirección de la bomba",
         "pumpLevelSettingControlOnBelowOff": "El nivel de encendido del control basado en nivel debe ser inferior al nivel de apagado",
         "pumpLevelSettingControlOnSpeedNonNegative": "La velocidad de encendido del control basado en nivel debe ser cero o mayor",
@@ -2380,16 +2379,17 @@
       "ambiguousAsset": "Etiqueta de elemento compartida por un nudo y un enlace que ambos soportan el tipo de sensor. Sensor omitido",
       "andMoreRows": "{{1}} y {{2}} más",
       "assetNotFound": "Elemento no encontrado en el modelo. Sensor omitido",
-      "atRow": "{{1}} (columna {{2}})",
-      "atRows": "{{1}} (columnas {{2}})",
+      "atRow": "{{1}} (fila {{2}})",
+      "atRows": "{{1}} (filas {{2}})",
       "duplicateName": "Nombre de sensor duplicado. Columnas posteriores omitidas",
       "duplicateSensorOnAsset": "El elemento ya tiene un sensor para este parámetro. Sensor omitido",
       "format": {
-        "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto.",
+        "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto. La columna de tiempo es solo para tu referencia: las lecturas se corresponden con los pasos de tiempo de informe en orden de fila, comenzando a las 0:00.",
         "title": "Formato de archivo",
         "optional": "La fila de tipo es opcional. El elemento por defecto es el nombre del sensor.",
         "show": "Ver el formato esperado",
-        "downloadTemplate": "Descargar plantilla"
+        "downloadTemplate": "Descargar plantilla",
+        "readingTimes": "Los tiempos se cuentan desde el inicio de la simulación, como hh:mm o hh:mm:ss. Un tiempo más de 12 horas anterior a la fila superior, como 00:00 después de las 23:45, inicia el día siguiente. Una fecha y hora también funciona, día o mes primero: solo se mantiene la hora, más 24 horas por cada día después del primero. Deja una celda en blanco cuando no haya lectura. Lecturas en unidades del proyecto."
       },
       "ignored": "{{1}} omitidos",
       "importAction": "Importar",
@@ -2407,7 +2407,7 @@
         "sensor": "Sensor",
         "parameter": "Parámetro"
       },
-      "readingsDontCoverDuration": "Las lecturas no coinciden con la duración de la simulación. Los sensores se importan de todos modos",
+      "readingsDontCoverDuration": "Se esperaban {{1}} lecturas, una por paso de tiempo de informe, pero se encontraron {{2}}. Los sensores se importaron de todos modos",
       "readyToImport": "Listo para importar",
       "readyWithWarnings": "Listo para importar, con advertencias",
       "removeFile": "Quitar archivo",
@@ -2433,7 +2433,17 @@
       "missingSensorRow": "No se encontraron los nombres de los sensores. Ponlos en una fila etiquetada como \"sensor\" en la primera columna. Etiquetas encontradas: {{1}}.",
       "repeatedHeaderRow": "\"{{1}}\" aparece más de una vez en la primera columna. Solo se usa la primera fila",
       "unknownHeaderRow": "Etiqueta no reconocida \"{{1}}\" en la primera columna. Usa una de: {{2}}. Fila ignorada",
-      "unsupportedParameter": "Parámetro no soportado por el elemento. Aceptados para {{1}}. Sensor omitido"
+      "unsupportedParameter": "Parámetro no soportado por el elemento. Aceptados para {{1}}. Sensor omitido",
+      "andMoreColumns": "{{1}} y {{2}} más",
+      "atColumn": "{{1}} (columna {{2}})",
+      "atColumns": "{{1}} (columnas {{2}})",
+      "impossibleTime": "Fecha u hora que no existe. Filas omitidas",
+      "missingTime": "Sin hora. Filas omitidas",
+      "mixedDateOrder": "Las fechas son día primero en algunas filas y mes primero en otras. Filas omitidas",
+      "readingNotANumber": "La lectura no es un número. Leído como sin lectura",
+      "readingsEndEarly": "Las lecturas terminan antes de que la simulación lo haga. Los sensores se importaron de todos modos",
+      "timeNotIncreasing": "La hora no es posterior a la fila superior. Filas omitidas",
+      "unrecognizedTime": "Hora no reconocida. Usa hh:mm, hh:mm:ss o una fecha y hora. Filas omitidas"
     },
     "menuEntry": "Datos de sensor",
     "paywall": {
