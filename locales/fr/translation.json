@@ -2436,7 +2436,19 @@
       "readingNotANumber": "La lecture n'est pas un nombre. Interprétée comme aucune lecture",
       "readingsEndEarly": "Les lectures se terminent avant la simulation. Capteurs importés quand même",
       "timeNotIncreasing": "Le temps n'est pas postérieur à la ligne précédente. Lignes ignorées",
-      "unrecognizedTime": "Heure non reconnue. Utilisez hh:mm, hh:mm:ss ou une date et une heure. Lignes ignorées"
+      "unrecognizedTime": "Heure non reconnue. Utilisez hh:mm, hh:mm:ss ou une date et une heure. Lignes ignorées",
+      "files": {
+        "add": "Ajouter",
+        "empty": "Ajoutez des fichiers pour vérifier leurs capteurs avant l'importation",
+        "reading": "Lecture en cours…",
+        "select": "Sélectionner des fichiers",
+        "sensors_one": "{{count}} capteur",
+        "sensors_other": "{{count}} capteurs",
+        "sensorsHeading": "Capteurs",
+        "title": "Fichiers"
+      },
+      "repeatedSensor": "Un capteur avec ce nom a déjà été lu à partir de {{1}}. Capteur ignoré",
+      "zipTooDeep": "Les fichiers Zip à plus d'un niveau de profondeur à l'intérieur d'un autre fichier Zip ne sont pas ouverts"
     },
     "menuEntry": "Données de capteur",
     "paywall": {

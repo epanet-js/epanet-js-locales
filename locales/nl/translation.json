@@ -2436,7 +2436,19 @@
       "readingNotANumber": "Meting is geen getal. Gelezen als geen meting",
       "readingsEndEarly": "Metingen eindigen voordat de simulatie eindigt. Sensoren toch geïmporteerd",
       "timeNotIncreasing": "Tijd is niet later dan de rij erboven. Rijen overgeslagen",
-      "unrecognizedTime": "Tijd niet herkend. Gebruik hh:mm, hh:mm:ss of een datum en tijd. Rijen overgeslagen"
+      "unrecognizedTime": "Tijd niet herkend. Gebruik hh:mm, hh:mm:ss of een datum en tijd. Rijen overgeslagen",
+      "files": {
+        "add": "Toevoegen",
+        "empty": "Bestanden toevoegen om hun sensoren te controleren voordat u importeert",
+        "reading": "Lezen…",
+        "select": "Bestanden selecteren",
+        "sensors_one": "{{count}} sensor",
+        "sensors_other": "{{count}} sensoren",
+        "sensorsHeading": "Sensoren",
+        "title": "Bestanden"
+      },
+      "repeatedSensor": "Een sensor met deze naam was al gelezen uit {{1}}. Sensor overgeslagen",
+      "zipTooDeep": "Zip-bestanden die meer dan één niveau diep in een andere zip zitten, worden niet geopend"
     },
     "menuEntry": "Sensorgegevens",
     "paywall": {

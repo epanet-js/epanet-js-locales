@@ -2436,7 +2436,19 @@
       "readingNotANumber": "Leitura não é um número. Lida como sem leitura",
       "readingsEndEarly": "As leituras terminam antes do fim da simulação. Sensores importados de qualquer forma",
       "timeNotIncreasing": "O tempo não é posterior ao da linha acima. Linhas ignoradas",
-      "unrecognizedTime": "Tempo não reconhecido. Use hh:mm, hh:mm:ss ou uma data e hora. Linhas ignoradas"
+      "unrecognizedTime": "Tempo não reconhecido. Use hh:mm, hh:mm:ss ou uma data e hora. Linhas ignoradas",
+      "files": {
+        "add": "Adicionar",
+        "empty": "Adicionar arquivos para verificar seus sensores antes de importar",
+        "reading": "Lendo…",
+        "select": "Selecionar arquivos",
+        "sensors_one": "{{count}} sensor",
+        "sensors_other": "{{count}} sensores",
+        "sensorsHeading": "Sensores",
+        "title": "Arquivos"
+      },
+      "repeatedSensor": "Um sensor com este nome já foi lido de {{1}}. Sensor ignorado",
+      "zipTooDeep": "Arquivos zip mais de um nível dentro de outro zip não são abertos"
     },
     "menuEntry": "Dados do sensor",
     "paywall": {

@@ -2436,7 +2436,19 @@
       "readingNotANumber": "Pembacaan bukan angka. Dibaca sebagai tidak ada pembacaan",
       "readingsEndEarly": "Pembacaan berakhir sebelum simulasi selesai. Sensor tetap diimpor",
       "timeNotIncreasing": "Waktu tidak lebih lambat dari baris di atasnya. Baris dilewati",
-      "unrecognizedTime": "Waktu tidak dikenali. Gunakan hh:mm, hh:mm:ss, atau tanggal dan waktu. Baris dilewati"
+      "unrecognizedTime": "Waktu tidak dikenali. Gunakan hh:mm, hh:mm:ss, atau tanggal dan waktu. Baris dilewati",
+      "files": {
+        "add": "Tambah",
+        "empty": "Tambahkan file untuk memeriksa sensornya sebelum mengimpor",
+        "reading": "Membaca…",
+        "select": "Pilih file",
+        "sensors_one": "{{count}} sensor",
+        "sensors_other": "{{count}} sensor",
+        "sensorsHeading": "Sensor",
+        "title": "File"
+      },
+      "repeatedSensor": "Sensor dengan nama ini sudah dibaca dari {{1}}. Sensor dilewati",
+      "zipTooDeep": "File zip yang lebih dari satu level di dalam zip lain tidak dibuka"
     },
     "menuEntry": "Data sensor",
     "paywall": {

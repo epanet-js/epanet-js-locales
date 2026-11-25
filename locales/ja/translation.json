@@ -2436,7 +2436,19 @@
       "readingNotANumber": "測定値が数値ではありません。測定値なしとして読み込まれました",
       "readingsEndEarly": "測定値がシミュレーション終了前に終わります。センサーはインポートされました",
       "timeNotIncreasing": "時刻が上の行よりも後ではありません。行はスキップされました",
-      "unrecognizedTime": "時刻が認識されません。hh:mm、hh:mm:ssまたは日付と時刻を使用してください。行はスキップされました"
+      "unrecognizedTime": "時刻が認識されません。hh:mm、hh:mm:ssまたは日付と時刻を使用してください。行はスキップされました",
+      "files": {
+        "add": "追加",
+        "empty": "ファイルをインポートする前に、センサーを確認するためにファイルを追加してください",
+        "reading": "読み込み中…",
+        "select": "ファイルを選択",
+        "sensors_one": "{{count}} 件のセンサー",
+        "sensors_other": "{{count}} 件のセンサー",
+        "sensorsHeading": "センサー",
+        "title": "ファイル"
+      },
+      "repeatedSensor": "この名前のセンサーはすでに{{1}}から読み込まれています。センサーはスキップされました",
+      "zipTooDeep": "別のzipファイル内に複数レベル深くネストされたzipファイルは開かれません"
     },
     "menuEntry": "センサーデータ",
     "paywall": {

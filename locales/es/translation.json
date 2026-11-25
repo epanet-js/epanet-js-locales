@@ -2443,7 +2443,19 @@
       "readingNotANumber": "La lectura no es un número. Leído como sin lectura",
       "readingsEndEarly": "Las lecturas terminan antes de que la simulación lo haga. Los sensores se importaron de todos modos",
       "timeNotIncreasing": "La hora no es posterior a la fila superior. Filas omitidas",
-      "unrecognizedTime": "Hora no reconocida. Usa hh:mm, hh:mm:ss o una fecha y hora. Filas omitidas"
+      "unrecognizedTime": "Hora no reconocida. Usa hh:mm, hh:mm:ss o una fecha y hora. Filas omitidas",
+      "files": {
+        "add": "Añadir",
+        "empty": "Añadir archivos para comprobar sus sensores antes de importar",
+        "reading": "Leyendo…",
+        "select": "Seleccionar archivos",
+        "sensors_one": "{{count}} sensor",
+        "sensors_other": "{{count}} sensores",
+        "sensorsHeading": "Sensores",
+        "title": "Archivos"
+      },
+      "repeatedSensor": "Ya se leyó un sensor con este nombre de {{1}}. Sensor omitido",
+      "zipTooDeep": "Los archivos zip con más de un nivel dentro de otro zip no se abren"
     },
     "menuEntry": "Datos de sensor",
     "paywall": {
