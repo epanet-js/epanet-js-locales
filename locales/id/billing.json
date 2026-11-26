@@ -104,5 +104,32 @@
   "signInToManageBilling": {
     "detail": "Anda harus masuk untuk mengelola detail penagihan Anda.",
     "title": "Login diperlukan"
+  },
+  "trialEmails": {
+    "choosePlan": "Pilih paket",
+    "ended": {
+      "feedback": "Jika epanet-js tidak cocok, saya ingin tahu alasannya. Cukup balas email ini.",
+      "intro": "Uji coba epanet-js Anda telah berakhir, dan akun Anda sekarang berada di paket gratis. Fitur berbayar seperti skenario, validasi model, dan menjalankan skrip terkunci.",
+      "pickUp": "Anda dapat melanjutkan pekerjaan kapan saja dengan meningkatkan paket.",
+      "subject": "Uji coba epanet-js Anda telah berakhir"
+    },
+    "endingSoon": {
+      "freePlan": "Jika Anda tidak memilih paket, akun Anda akan beralih ke paket gratis dan fitur berbayar akan terkunci.",
+      "intro": "Uji coba epanet-js Anda berakhir dalam 3 hari. Untuk terus menggunakan fitur berbayar, pilih paket sebelum itu.",
+      "keepFeatures": "Dengan meningkatkan paket, Anda tetap dapat menggunakan fitur seperti skenario, validasi model, dan menjalankan skrip pada model Anda.",
+      "subject": "Uji coba epanet-js Anda berakhir dalam 3 hari"
+    },
+    "greeting": "Hai,",
+    "signOff": "Salam\nLuke",
+    "upgradeHere": "Anda dapat meningkatkan paket dari sini:",
+    "welcome": {
+      "firstStep": "Langkah pertama terbaik adalah memasukkan model jaringan Anda sendiri. Anda dapat mengimpor file EPANET (.inp), mengonversi model dari format lain, atau membangun model baru dari data GIS Anda dengan pembangun model.",
+      "guides": "Jika Anda mengalami kesulitan, panduan kami akan memandu Anda langkah demi langkah.",
+      "guidesLink": "Telusuri panduan",
+      "intro": "Terima kasih telah memulai uji coba epanet-js Anda. Anda memiliki {{days}} hari untuk mencobanya pada jaringan Anda sendiri, dan tidak perlu menambahkan kartu.",
+      "openApp": "Buka epanet-js",
+      "paidFeatures": "Setelah model Anda dimasukkan, coba fitur berbayar seperti skenario, validasi model, dan menjalankan skrip di dalamnya. Di situlah Anda akan melihat apa yang sebenarnya bisa dilakukan epanet-js.",
+      "subject": "Uji coba epanet-js Anda telah dimulai"
+    }
   }
 }

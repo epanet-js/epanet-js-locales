@@ -2175,7 +2175,8 @@
       "scale-demands": "Ajuster les demandes par pourcentage",
       "tag-assets-by-zone": "Étiqueter les éléments avec leur zone",
       "upsize-fastest-pipes": "Augmenter le diamètre des conduites les plus rapides",
-      "infer-pipe-attributes": "Déduire les attributs de conduite manquants"
+      "infer-pipe-attributes": "Déduire les attributs de conduite manquants",
+      "close-pipes-impact": "Impact de la fermeture des conduites sélectionnées"
     },
     "downloadAllAsZip": "Télécharger tout en zip",
     "saveAll": "Tout enregistrer",
@@ -2445,7 +2446,8 @@
         "sensors_one": "{{count}} capteur",
         "sensors_other": "{{count}} capteurs",
         "sensorsHeading": "Capteurs",
-        "title": "Fichiers"
+        "title": "Fichiers",
+        "all": "Tous les fichiers"
       },
       "repeatedSensor": "Un capteur avec ce nom a déjà été lu à partir de {{1}}. Capteur ignoré",
       "zipTooDeep": "Les fichiers Zip à plus d'un niveau de profondeur à l'intérieur d'un autre fichier Zip ne sont pas ouverts"

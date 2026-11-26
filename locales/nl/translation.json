@@ -2175,7 +2175,8 @@
       "scale-demands": "Vragen schalen met een percentage",
       "tag-assets-by-zone": "Onderdelen taggen met hun zone",
       "upsize-fastest-pipes": "De snelste leidingen vergroten",
-      "infer-pipe-attributes": "Ontbrekende leidingattributen afleiden"
+      "infer-pipe-attributes": "Ontbrekende leidingattributen afleiden",
+      "close-pipes-impact": "Gevolg van het sluiten van de geselecteerde leidingen"
     },
     "downloadAllAsZip": "Alles downloaden als zip",
     "saveAll": "Alles opslaan",
@@ -2445,7 +2446,8 @@
         "sensors_one": "{{count}} sensor",
         "sensors_other": "{{count}} sensoren",
         "sensorsHeading": "Sensoren",
-        "title": "Bestanden"
+        "title": "Bestanden",
+        "all": "Alle bestanden"
       },
       "repeatedSensor": "Een sensor met deze naam was al gelezen uit {{1}}. Sensor overgeslagen",
       "zipTooDeep": "Zip-bestanden die meer dan één niveau diep in een andere zip zitten, worden niet geopend"

@@ -104,5 +104,32 @@
   "signInToManageBilling": {
     "detail": "Vous devez être connecté pour gérer vos détails de facturation.",
     "title": "Connexion requise"
+  },
+  "trialEmails": {
+    "choosePlan": "Choisissez un plan",
+    "ended": {
+      "feedback": "Si epanet-js n'était pas le bon choix, j'aimerais savoir pourquoi. Il suffit de répondre.",
+      "intro": "Votre essai epanet-js est terminé, et votre compte est maintenant sur le plan gratuit. Les fonctionnalités payantes comme les scénarios, la validation de modèle et l'exécution de scripts sont verrouillées.",
+      "pickUp": "Vous pouvez reprendre là où vous en étiez à tout moment en effectuant une mise à niveau.",
+      "subject": "Votre essai epanet-js est terminé"
+    },
+    "endingSoon": {
+      "freePlan": "Si vous n'en choisissez pas un, votre compte passe au plan gratuit et les fonctionnalités payantes se verrouillent.",
+      "intro": "Votre essai epanet-js se termine dans 3 jours. Pour continuer à utiliser les fonctionnalités payantes, choisissez un plan avant cette date.",
+      "keepFeatures": "En effectuant une mise à niveau, vous conservez les fonctionnalités comme les scénarios, la validation de modèle et l'exécution de scripts disponibles sur vos modèles.",
+      "subject": "Votre essai epanet-js se termine dans 3 jours"
+    },
+    "greeting": "Bonjour,",
+    "signOff": "Cordialement\nLuke",
+    "upgradeHere": "Vous pouvez effectuer une mise à niveau depuis ici :",
+    "welcome": {
+      "firstStep": "La meilleure première étape est d'intégrer votre propre réseau. Vous pouvez importer un fichier EPANET (.inp), convertir un modèle d'un autre format, ou construire un nouveau modèle à partir de vos données SIG avec le générateur de modèle.",
+      "guides": "Si vous êtes bloqué, nos guides détaillent chacune de ces étapes pas à pas.",
+      "guidesLink": "Parcourir les guides",
+      "intro": "Merci d'avoir commencé votre essai epanet-js. Vous avez {{days}} jours pour l'essayer sur vos propres réseaux, et il n'y a pas de carte à ajouter.",
+      "openApp": "Ouvrir epanet-js",
+      "paidFeatures": "Une fois votre modèle importé, essayez les fonctionnalités payantes comme les scénarios, la validation de modèle et l'exécution de scripts. C'est là que vous verrez ce qu'epanet-js peut vraiment faire.",
+      "subject": "Votre essai epanet-js a commencé"
+    }
   }
 }

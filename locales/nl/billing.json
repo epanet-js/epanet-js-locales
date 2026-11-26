@@ -104,5 +104,32 @@
   "signInToManageBilling": {
     "detail": "U moet zijn ingelogd om uw factureringsgegevens te beheren.",
     "title": "Inloggen vereist"
+  },
+  "trialEmails": {
+    "choosePlan": "Kies een abonnement",
+    "ended": {
+      "feedback": "Als epanet-js niet de juiste keuze was, hoor ik graag waarom. Antwoord gewoon op deze e-mail.",
+      "intro": "Uw epanet-js proefperiode is afgelopen en uw account is nu op het gratis abonnement. Betaalde functies zoals scenario's, modelvalidatie en het uitvoeren van scripts zijn vergrendeld.",
+      "pickUp": "U kunt op elk moment verdergaan waar u gebleven was door te upgraden.",
+      "subject": "Uw epanet-js proefperiode is afgelopen"
+    },
+    "endingSoon": {
+      "freePlan": "Als u er geen kiest, wordt uw account overgezet naar het gratis abonnement en worden de betaalde functies vergrendeld.",
+      "intro": "Uw epanet-js proefperiode eindigt over 3 dagen. Om de betaalde functies te blijven gebruiken, kiest u voor die tijd een abonnement.",
+      "keepFeatures": "Door te upgraden, behoudt u functies zoals scenario's, modelvalidatie en het uitvoeren van scripts die beschikbaar zijn voor uw modellen.",
+      "subject": "Uw epanet-js proefperiode eindigt over 3 dagen"
+    },
+    "greeting": "Hoi,",
+    "signOff": "Groeten\nLuke",
+    "upgradeHere": "U kunt hier upgraden:",
+    "welcome": {
+      "firstStep": "De beste eerste stap is om uw eigen netwerk in te laden. U kunt een EPANET (.inp) bestand importeren, een model van een ander formaat converteren, of een nieuw model bouwen vanuit uw GIS-gegevens met de modelbouwer.",
+      "guides": "Als u vastloopt, leiden onze gidsen u stap voor stap door elk van deze stappen.",
+      "guidesLink": "Blader door de gidsen",
+      "intro": "Bedankt voor het starten van uw epanet-js proefperiode. U heeft {{days}} dagen om het uit te proberen op uw eigen netwerken, en er is geen kaart nodig om toe te voegen.",
+      "openApp": "Open epanet-js",
+      "paidFeatures": "Zodra uw model is ingeladen, probeer dan betaalde functies zoals scenario's, modelvalidatie en het uitvoeren van scripts erop. Dat is waar u zult zien wat epanet-js echt kan doen.",
+      "subject": "Uw epanet-js proefperiode is gestart"
+    }
   }
 }

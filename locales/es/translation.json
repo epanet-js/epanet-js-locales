@@ -2182,7 +2182,8 @@
       "scale-demands": "Escalar demandas por un porcentaje",
       "tag-assets-by-zone": "Etiquetar elementos con su zona",
       "upsize-fastest-pipes": "Aumentar el tamaño de las tuberías más rápidas",
-      "infer-pipe-attributes": "Inferir atributos de tubería faltantes"
+      "infer-pipe-attributes": "Inferir atributos de tubería faltantes",
+      "close-pipes-impact": "Impacto de cerrar las tuberías seleccionadas"
     },
     "downloadAllAsZip": "Descargar todo como zip",
     "saveAll": "Guardar todo",
@@ -2452,7 +2453,8 @@
         "sensors_one": "{{count}} sensor",
         "sensors_other": "{{count}} sensores",
         "sensorsHeading": "Sensores",
-        "title": "Archivos"
+        "title": "Archivos",
+        "all": "Todos los archivos"
       },
       "repeatedSensor": "Ya se leyó un sensor con este nombre de {{1}}. Sensor omitido",
       "zipTooDeep": "Los archivos zip con más de un nivel dentro de otro zip no se abren"

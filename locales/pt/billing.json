@@ -104,5 +104,32 @@
   "signInToManageBilling": {
     "detail": "Você precisa estar conectado para gerenciar seus detalhes de cobrança.",
     "title": "Login necessário"
+  },
+  "trialEmails": {
+    "choosePlan": "Escolha um plano",
+    "ended": {
+      "feedback": "Se o epanet-js não foi a escolha certa, eu adoraria saber o porquê. Basta responder.",
+      "intro": "Seu teste do epanet-js terminou, e sua conta está agora no plano gratuito. Recursos pagos como cenários, validação de modelo e execução de scripts estão bloqueados.",
+      "pickUp": "Você pode continuar de onde parou a qualquer momento, fazendo upgrade.",
+      "subject": "Seu teste do epanet-js terminou"
+    },
+    "endingSoon": {
+      "freePlan": "Se você não escolher um, sua conta passará para o plano gratuito e os recursos pagos serão bloqueados.",
+      "intro": "Seu teste do epanet-js termina em 3 dias. Para continuar usando os recursos pagos, escolha um plano antes disso.",
+      "keepFeatures": "Ao fazer upgrade, você mantém recursos como cenários, validação de modelo e execução de scripts disponíveis em seus modelos.",
+      "subject": "Seu teste do epanet-js termina em 3 dias"
+    },
+    "greeting": "Olá,",
+    "signOff": "Saudações\nLuke",
+    "upgradeHere": "Você pode fazer upgrade por aqui:",
+    "welcome": {
+      "firstStep": "O melhor primeiro passo é importar sua própria rede. Você pode importar um arquivo EPANET (.inp), converter um modelo de outro formato ou construir um novo modelo a partir de seus dados GIS com o construtor de modelos.",
+      "guides": "Se você ficar preso, nossos guias detalham cada um desses passos, um por um.",
+      "guidesLink": "Navegar pelos guias",
+      "intro": "Obrigado por iniciar seu teste do epanet-js. Você tem {{days}} dias para experimentá-lo em suas próprias redes, e não há cartão para adicionar.",
+      "openApp": "Abrir epanet-js",
+      "paidFeatures": "Assim que seu modelo estiver pronto, experimente recursos pagos como cenários, validação de modelo e execução de scripts. É aí que você verá o que o epanet-js realmente pode fazer.",
+      "subject": "Seu teste do epanet-js foi iniciado"
+    }
   }
 }

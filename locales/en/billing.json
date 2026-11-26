@@ -104,5 +104,32 @@
   "portalFailed": {
     "title": "Billing details unavailable",
     "detail": "Something went wrong opening your billing details. Please try again."
+  },
+  "trialEmails": {
+    "greeting": "Hi,",
+    "signOff": "Cheers\nLuke",
+    "upgradeHere": "You can upgrade from here:",
+    "choosePlan": "Choose a plan",
+    "welcome": {
+      "subject": "Your epanet-js trial has started",
+      "intro": "Thanks for starting your epanet-js trial. You have {{days}} days to try it on your own networks, and there's no card to add.",
+      "firstStep": "The best first step is to get your own network in. You can import an EPANET (.inp) file, convert a model from another format, or build a new model from your GIS data with the model builder.",
+      "paidFeatures": "Once your model is in, try paid features like scenarios, model validation and running scripts on it. That's where you'll see what epanet-js can really do.",
+      "guides": "If you get stuck, our guides walk through each of these step by step.",
+      "guidesLink": "Browse the guides",
+      "openApp": "Open epanet-js"
+    },
+    "endingSoon": {
+      "subject": "Your epanet-js trial ends in 3 days",
+      "intro": "Your epanet-js trial ends in 3 days. To keep using the paid features, choose a plan before then.",
+      "keepFeatures": "By upgrading, you keep features like scenarios, model validation and running scripts available on your models.",
+      "freePlan": "If you don't choose one, your account moves to the free plan and the paid features lock."
+    },
+    "ended": {
+      "subject": "Your epanet-js trial has ended",
+      "intro": "Your epanet-js trial has ended, and your account is now on the free plan. Paid features like scenarios, model validation and running scripts are locked.",
+      "pickUp": "You can pick up where you left off at any time by upgrading.",
+      "feedback": "If epanet-js wasn't the right fit, I'd love to know why. Just hit reply."
+    }
   }
 }

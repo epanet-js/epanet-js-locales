@@ -2175,7 +2175,8 @@
       "scale-demands": "Skalakan kebutuhan berdasarkan persentase",
       "tag-assets-by-zone": "Beri tag aset dengan zonanya",
       "upsize-fastest-pipes": "Perbesar pipa tercepat",
-      "infer-pipe-attributes": "Menyimpulkan atribut pipa yang hilang"
+      "infer-pipe-attributes": "Menyimpulkan atribut pipa yang hilang",
+      "close-pipes-impact": "Dampak penutupan pipa yang dipilih"
     },
     "downloadAllAsZip": "Unduh semua sebagai zip",
     "saveAll": "Simpan semua",
@@ -2445,7 +2446,8 @@
         "sensors_one": "{{count}} sensor",
         "sensors_other": "{{count}} sensor",
         "sensorsHeading": "Sensor",
-        "title": "File"
+        "title": "File",
+        "all": "Semua file"
       },
       "repeatedSensor": "Sensor dengan nama ini sudah dibaca dari {{1}}. Sensor dilewati",
       "zipTooDeep": "File zip yang lebih dari satu level di dalam zip lain tidak dibuka"

@@ -2175,7 +2175,8 @@
       "scale-demands": "Escalonar demandas por porcentagem",
       "tag-assets-by-zone": "Atribuir zona aos ativos",
       "upsize-fastest-pipes": "Aumentar o diâmetro das tubulações mais rápidas",
-      "infer-pipe-attributes": "Inferir atributos de tubulação ausentes"
+      "infer-pipe-attributes": "Inferir atributos de tubulação ausentes",
+      "close-pipes-impact": "Impacto do fechamento das tubulações selecionadas"
     },
     "downloadAllAsZip": "Baixar tudo como zip",
     "saveAll": "Salvar tudo",
@@ -2445,7 +2446,8 @@
         "sensors_one": "{{count}} sensor",
         "sensors_other": "{{count}} sensores",
         "sensorsHeading": "Sensores",
-        "title": "Arquivos"
+        "title": "Arquivos",
+        "all": "Todos os arquivos"
       },
       "repeatedSensor": "Um sensor com este nome já foi lido de {{1}}. Sensor ignorado",
       "zipTooDeep": "Arquivos zip mais de um nível dentro de outro zip não são abertos"

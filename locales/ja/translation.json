@@ -2175,7 +2175,8 @@
       "scale-demands": "需要をパーセンテージで調整",
       "tag-assets-by-zone": "アセットをゾーンでタグ付け",
       "upsize-fastest-pipes": "最も速い管を大口径化",
-      "infer-pipe-attributes": "不足している管属性を推測"
+      "infer-pipe-attributes": "不足している管属性を推測",
+      "close-pipes-impact": "選択した管を閉じることの影響"
     },
     "downloadAllAsZip": "すべてをzipでダウンロード",
     "saveAll": "すべて保存",
@@ -2445,7 +2446,8 @@
         "sensors_one": "{{count}} 件のセンサー",
         "sensors_other": "{{count}} 件のセンサー",
         "sensorsHeading": "センサー",
-        "title": "ファイル"
+        "title": "ファイル",
+        "all": "すべてのファイル"
       },
       "repeatedSensor": "この名前のセンサーはすでに{{1}}から読み込まれています。センサーはスキップされました",
       "zipTooDeep": "別のzipファイル内に複数レベル深くネストされたzipファイルは開かれません"
