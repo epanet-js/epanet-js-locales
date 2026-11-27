@@ -120,7 +120,7 @@
       "subject": "Seu teste do epanet-js termina em 3 dias"
     },
     "greeting": "Olá,",
-    "signOff": "Saudações\nLuke",
+    "signOff": "Saudações\n{{name}}",
     "upgradeHere": "Você pode fazer upgrade por aqui:",
     "welcome": {
       "firstStep": "O melhor primeiro passo é importar sua própria rede. Você pode importar um arquivo EPANET (.inp), converter um modelo de outro formato ou construir um novo modelo a partir de seus dados GIS com o construtor de modelos.",

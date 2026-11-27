@@ -120,7 +120,7 @@
       "subject": "Votre essai epanet-js se termine dans 3 jours"
     },
     "greeting": "Bonjour,",
-    "signOff": "Cordialement\nLuke",
+    "signOff": "Cordialement\n{{name}}",
     "upgradeHere": "Vous pouvez effectuer une mise à niveau depuis ici :",
     "welcome": {
       "firstStep": "La meilleure première étape est d'intégrer votre propre réseau. Vous pouvez importer un fichier EPANET (.inp), convertir un modèle d'un autre format, ou construire un nouveau modèle à partir de vos données SIG avec le générateur de modèle.",

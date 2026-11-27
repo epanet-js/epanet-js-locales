@@ -120,7 +120,7 @@
       "subject": "Uw epanet-js proefperiode eindigt over 3 dagen"
     },
     "greeting": "Hoi,",
-    "signOff": "Groeten\nLuke",
+    "signOff": "Groeten\n{{name}}",
     "upgradeHere": "U kunt hier upgraden:",
     "welcome": {
       "firstStep": "De beste eerste stap is om uw eigen netwerk in te laden. U kunt een EPANET (.inp) bestand importeren, een model van een ander formaat converteren, of een nieuw model bouwen vanuit uw GIS-gegevens met de modelbouwer.",

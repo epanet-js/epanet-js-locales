@@ -3,7 +3,6 @@
     "defaultText": "Arrastra archivos aquí o haz clic para explorar",
     "activeText": "Suelta tu archivo aquí",
     "supportedFormats": "Formatos soportados: {{1}}",
-    "selectedFile": "Seleccionado: {{1}}",
     "fileDescriptions": {
       "cpg": "Archivo de codificación de texto de Shapefile",
       "dbf": "Base de datos de propiedades de Shapefile",
@@ -2385,7 +2384,6 @@
       "duplicateName": "Nombre de sensor duplicado. Columnas posteriores omitidas",
       "duplicateSensorOnAsset": "El elemento ya tiene un sensor para este parámetro. Sensor omitido",
       "format": {
-        "readings": "Una lectura por paso de tiempo de informe, en las unidades del proyecto. La columna de tiempo es solo para tu referencia: las lecturas se corresponden con los pasos de tiempo de informe en orden de fila, comenzando a las 0:00.",
         "title": "Formato de archivo",
         "optional": "La fila de tipo es opcional. El elemento por defecto es el nombre del sensor.",
         "show": "Ver el formato esperado",
@@ -2394,7 +2392,6 @@
       },
       "ignored": "{{1}} omitidos",
       "importAction": "Importar",
-      "invalidReading": "Lectura faltante o inválida. Sensor omitido",
       "issues": "Problemas",
       "issuesFound": "Se encontraron problemas en el archivo",
       "missingName": "Falta nombre de sensor. Sensor omitido",
@@ -2404,11 +2401,9 @@
       "preview": {
         "asset": "Elemento",
         "previewMore": "... y {{1}} más",
-        "readings": "Lecturas",
         "sensor": "Sensor",
         "parameter": "Parámetro"
       },
-      "readingsDontCoverDuration": "Se esperaban {{1}} lecturas, una por paso de tiempo de informe, pero se encontraron {{2}}. Los sensores se importaron de todos modos",
       "readyToImport": "Listo para importar",
       "readyWithWarnings": "Listo para importar, con advertencias",
       "removeFile": "Quitar archivo",

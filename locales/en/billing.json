@@ -107,7 +107,7 @@
   },
   "trialEmails": {
     "greeting": "Hi,",
-    "signOff": "Cheers\nLuke",
+    "signOff": "Cheers\n{{name}}",
     "upgradeHere": "You can upgrade from here:",
     "choosePlan": "Choose a plan",
     "welcome": {

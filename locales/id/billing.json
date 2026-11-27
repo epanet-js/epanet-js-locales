@@ -120,7 +120,7 @@
       "subject": "Uji coba epanet-js Anda berakhir dalam 3 hari"
     },
     "greeting": "Hai,",
-    "signOff": "Salam\nLuke",
+    "signOff": "Salam\n{{name}}",
     "upgradeHere": "Anda dapat meningkatkan paket dari sini:",
     "welcome": {
       "firstStep": "Langkah pertama terbaik adalah memasukkan model jaringan Anda sendiri. Anda dapat mengimpor file EPANET (.inp), mengonversi model dari format lain, atau membangun model baru dari data GIS Anda dengan pembangun model.",

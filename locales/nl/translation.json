@@ -357,7 +357,6 @@
     "defaultText": "Sleep bestanden hierheen of klik om te bladeren",
     "activeText": "Sleep uw bestand hierheen",
     "supportedFormats": "Ondersteunde formaten: {{1}}",
-    "selectedFile": "Geselecteerd: {{1}}",
     "fileDescriptions": {
       "cpg": "Shapefile eigenschapdatabase tekstcodering",
       "dbf": "Shapefile eigenschapdatabase",
@@ -2378,7 +2377,6 @@
       "duplicateName": "Dubbele sensornaam. Latere kolommen overgeslagen",
       "duplicateSensorOnAsset": "Onderdeel heeft al een sensor voor deze parameter. Sensor overgeslagen",
       "format": {
-        "readings": "Eén meting per rapportagetijdstap, in projecteenheden. De tijdskolom is alleen ter referentie: metingen worden gekoppeld aan rapportagetijdstappen in rijvolgorde, beginnend om 0:00.",
         "title": "Bestandsformaat",
         "optional": "De type-rij is optioneel. Het onderdeel wordt standaard de sensornaam.",
         "show": "Bekijk het verwachte formaat",
@@ -2387,7 +2385,6 @@
       },
       "ignored": "{{1}} overgeslagen",
       "importAction": "Importeren",
-      "invalidReading": "Ontbrekende of ongeldige meting. Sensor overgeslagen",
       "issues": "Problemen",
       "issuesFound": "Problemen gevonden in het bestand",
       "missingName": "Ontbrekende sensornnaam. Sensor overgeslagen",
@@ -2397,11 +2394,9 @@
       "preview": {
         "asset": "Onderdeel",
         "previewMore": "... en {{1}} meer",
-        "readings": "Metingen",
         "sensor": "Sensor",
         "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Verwacht {{1}} metingen, één per rapportagetijdstap, maar gevonden {{2}}. Sensoren toch geïmporteerd",
       "readyToImport": "Klaar om te importeren",
       "readyWithWarnings": "Klaar om te importeren, met waarschuwingen",
       "removeFile": "Bestand verwijderen",

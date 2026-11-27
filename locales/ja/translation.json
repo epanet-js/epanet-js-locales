@@ -74,7 +74,6 @@
   "dropZone": {
     "activeText": "ファイルをここにドロップ",
     "defaultText": "ファイルをここにドロップするか、クリックして参照",
-    "selectedFile": "選択済み: {{1}}",
     "supportedFormats": "対応形式: {{1}}",
     "fileDescriptions": {
       "cpg": "Shapefile属性データベース文字コード",
@@ -2378,7 +2377,6 @@
       "duplicateName": "重複するセンサー名。後続の列はスキップされました",
       "duplicateSensorOnAsset": "アセットにはすでにこのパラメータのセンサーがあります。センサーはスキップされました",
       "format": {
-        "readings": "プロジェクト単位で、レポートの各タイムステップごとに1つの測定値。時刻列は参照用であり、測定値は0:00から始まる行順でレポートのタイムステップに一致させられます。",
         "title": "ファイル形式",
         "optional": "タイプ行はオプションです。アセットはセンサー名にデフォルト設定されます。",
         "show": "期待される形式を参照",
@@ -2387,7 +2385,6 @@
       },
       "ignored": "スキップされた {{1}} 件",
       "importAction": "インポート",
-      "invalidReading": "欠落または無効な測定値。センサーはスキップされました",
       "issues": "問題",
       "issuesFound": "ファイル内で問題が見つかりました",
       "missingName": "センサー名がありません。センサーはスキップされました",
@@ -2397,11 +2394,9 @@
       "preview": {
         "asset": "アセット",
         "previewMore": "...その他 {{1}} 件",
-        "readings": "測定値",
         "sensor": "センサー",
         "parameter": "パラメータ"
       },
-      "readingsDontCoverDuration": "レポートの各タイムステップごとに1つ、合計{{1}}個の測定値が期待されましたが、{{2}}個が見つかりました。センサーはインポートされました",
       "readyToImport": "インポート準備完了",
       "readyWithWarnings": "警告付きでインポート準備完了",
       "removeFile": "ファイルを削除",

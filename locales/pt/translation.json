@@ -357,7 +357,6 @@
     "defaultText": "Arraste arquivos aqui ou clique para procurar",
     "activeText": "Arraste seu arquivo aqui",
     "supportedFormats": "Formatos suportados: {{1}}",
-    "selectedFile": "Selecionado: {{1}}",
     "fileDescriptions": {
       "cpg": "Codificação de texto do banco de dados de propriedades Shapefile",
       "dbf": "Banco de dados de propriedades Shapefile",
@@ -2378,7 +2377,6 @@
       "duplicateName": "Nome do sensor duplicado. Colunas posteriores ignoradas",
       "duplicateSensorOnAsset": "Ativo já possui um sensor para este parâmetro. Sensor ignorado",
       "format": {
-        "readings": "Uma leitura por passo de tempo do relatório, nas unidades do projeto. A coluna de tempo é apenas para sua referência: as leituras são combinadas com os passos de tempo do relatório em ordem de linha, começando às 0:00.",
         "title": "Formato do arquivo",
         "optional": "A linha 'tipo' é opcional. O ativo assume o nome do sensor por padrão.",
         "show": "Ver o formato esperado",
@@ -2387,7 +2385,6 @@
       },
       "ignored": "{{1}} ignorado(s)",
       "importAction": "Importar",
-      "invalidReading": "Leitura ausente ou inválida. Sensor ignorado",
       "issues": "Problemas",
       "issuesFound": "Problemas encontrados no arquivo",
       "missingName": "Nome do sensor ausente. Sensor ignorado",
@@ -2397,11 +2394,9 @@
       "preview": {
         "asset": "Ativo",
         "previewMore": "... e mais {{1}}",
-        "readings": "Leituras",
         "sensor": "Sensor",
         "parameter": "Parâmetro"
       },
-      "readingsDontCoverDuration": "Esperado {{1}} leituras, uma por passo de tempo do relatório, mas encontrado {{2}}. Sensores importados de qualquer forma",
       "readyToImport": "Pronto para importar",
       "readyWithWarnings": "Pronto para importar, com avisos",
       "removeFile": "Remover arquivo",

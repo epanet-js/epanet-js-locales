@@ -339,7 +339,6 @@
   "dropZone": {
     "activeText": "Jatuhkan file Anda di sini",
     "defaultText": "Jatuhkan file di sini atau klik untuk menjelajah",
-    "selectedFile": "Terpilih: {{1}}",
     "supportedFormats": "Format yang didukung: {{1}}",
     "fileDescriptions": {
       "cpg": "Pengkodean teks basis data properti Shapefile",
@@ -2378,7 +2377,6 @@
       "duplicateName": "Nama sensor duplikat. Kolom selanjutnya dilewati",
       "duplicateSensorOnAsset": "Aset sudah memiliki sensor untuk parameter ini. Sensor dilewati",
       "format": {
-        "readings": "Satu pembacaan per langkah waktu laporan, dalam satuan proyek. Kolom waktu hanya untuk referensi Anda: pembacaan dicocokkan dengan langkah waktu laporan dalam urutan baris, dimulai pada 0:00.",
         "title": "Format file",
         "optional": "Baris tipe bersifat opsional. Aset akan secara otomatis menggunakan nama sensor.",
         "show": "Lihat format yang diharapkan",
@@ -2387,7 +2385,6 @@
       },
       "ignored": "{{1}} dilewati",
       "importAction": "Impor",
-      "invalidReading": "Pembacaan hilang atau tidak valid. Sensor dilewati",
       "issues": "Masalah",
       "issuesFound": "Ditemukan masalah dalam file",
       "missingName": "Nama sensor hilang. Sensor dilewati",
@@ -2397,11 +2394,9 @@
       "preview": {
         "asset": "Aset",
         "previewMore": "... dan {{1}} lainnya",
-        "readings": "Pembacaan",
         "sensor": "Sensor",
         "parameter": "Parameter"
       },
-      "readingsDontCoverDuration": "Diharapkan {{1}} pembacaan, satu per langkah waktu laporan, tetapi ditemukan {{2}}. Sensor tetap diimpor",
       "readyToImport": "Siap diimpor",
       "readyWithWarnings": "Siap diimpor, dengan peringatan",
       "removeFile": "Hapus file",

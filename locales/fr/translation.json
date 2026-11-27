@@ -357,7 +357,6 @@
     "defaultText": "Déposez les fichiers ici ou cliquez pour parcourir",
     "activeText": "Déposez votre fichier ici",
     "supportedFormats": "Formats compatibles : {{1}}",
-    "selectedFile": "Sélectionné : {{1}}",
     "fileDescriptions": {
       "cpg": "Encodage de texte de la base de données de propriétés Shapefile",
       "dbf": "Base de données de propriétés Shapefile",
@@ -2378,7 +2377,6 @@
       "duplicateName": "Nom de capteur en double. Les colonnes suivantes ont été ignorées",
       "duplicateSensorOnAsset": "L'élément possède déjà un capteur pour ce paramètre. Capteur ignoré",
       "format": {
-        "readings": "Une lecture par pas de temps de rapport, en unités du projet. La colonne de temps est pour votre référence seulement : les lectures sont associées aux pas de temps de rapport par ordre de ligne, à partir de 0:00.",
         "title": "Format de fichier",
         "optional": "La ligne de type est facultative. L'élément prend par défaut le nom du capteur.",
         "show": "Voir le format attendu",
@@ -2387,7 +2385,6 @@
       },
       "ignored": "{{1}} ignoré",
       "importAction": "Importer",
-      "invalidReading": "Lecture manquante ou invalide. Capteur ignoré",
       "issues": "Problèmes",
       "issuesFound": "Problèmes trouvés dans le fichier",
       "missingName": "Nom du capteur manquant. Capteur ignoré",
@@ -2397,11 +2394,9 @@
       "preview": {
         "asset": "Élément",
         "previewMore": "... et {{1}} de plus",
-        "readings": "Lectures",
         "sensor": "Capteur",
         "parameter": "Paramètre"
       },
-      "readingsDontCoverDuration": "Attendu {{1}} lectures, une par pas de temps de rapport, mais trouvé {{2}}. Capteurs importés quand même",
       "readyToImport": "Prêt à importer",
       "readyWithWarnings": "Prêt à importer, avec des avertissements",
       "removeFile": "Supprimer le fichier",
